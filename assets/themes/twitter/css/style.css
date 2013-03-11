@@ -8,13 +8,23 @@ body {
 }
 
 .main {
-	padding: 4em 0 5em;
+	padding: 2.5em 0 3em;
 	font-size:1.5em;
 	color:#eee;
 	box-shadow: inset 0px 30px 30px rgba(0, 0, 0, 0.2);
 	border-top: 5px solid #333;
 	border-bottom: 15px solid #9B3E1F;
 	background-color: #C64F24;
+}
+
+.home-gallery h3 {
+	text-align: center;
+	color:#333;
+}
+
+.home-gallery .thumbnail {
+	box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
 }
 
 .navbar {
