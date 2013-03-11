@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.com/atom.xml" rel="self"/>
- <link href="http://username.github.com"/>
- <updated>2012-12-11T16:56:30+01:00</updated>
- <id>http://username.github.com</id>
+ <title>Codeurs en Seine</title>
+ <link href="http://codeursenseine.github.com/CodeursEnSeine-site/" rel="self"/>
+ <link href="http://codeursenseine.github.com/CodeursEnSeine-site"/>
+ <updated>2013-03-11T14:17:36+01:00</updated>
+ <id>http://codeursenseine.github.com/CodeursEnSeine-site</id>
  <author>
    <name>Name Lastname</name>
    <email>blah@email.test</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.com/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://codeursenseine.github.com/CodeursEnSeine-site/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+01:00</updated>
-   <id>http://username.github.com/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://codeursenseine.github.com/CodeursEnSeine-site/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
@@ -90,8 +90,8 @@
 |   |-- default.html
 |   |-- post.html
 |-- _posts
-|   |-- 20011-10-25-open-source-is-good.markdown
-|   |-- 20011-04-26-hello-world.markdown
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
 |-- _site
 |-- index.html
 |-- assets

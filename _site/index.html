@@ -3,9 +3,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello World!</title>
+    <title></title>
     
     <meta name="author" content="Name Lastname">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -23,14 +26,17 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
   </head>
 
   <body>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="/">Jekyll Bootstrap</a>
+    <header class="navbar">
+        <div class="container-narrow">
+          <h1><a href="/">Codeurs en Seine</a></h1>
           <ul class="nav">
             
             
@@ -40,10 +46,8 @@
   
     
       
-      	
-      	<li><a href="/archive.html">Archive</a></li>
-      	
-      
+    
+  
     
   
     
@@ -51,34 +55,6 @@
     
   
     
-      
-      	
-      	<li><a href="/categories.html">Categories</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/pages.html">Pages</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/tags.html">Tags</a></li>
-      	
       
     
   
@@ -87,66 +63,28 @@
 
           </ul>
         </div>
-      </div>
-    </div>
+    </header>
+		<div class="main">
+    	<div class="container-narrow">
 
-    <div class="container">
+      	<div class="content">
+        	
 
-      <div class="content">
-        
-<div class="page-header">
-  <h1>Hello World!  <small>Supporting tagline</small></h1>
-</div>
+<h1> </h1>
 
-<div class="row">
+<div class="row-fluid">
   <div class="span12">
-    <p>Read <a href='http://jekyllbootstrap.com/usage/jekyll-quick-start.html'>Jekyll Quick Start</a></p>
-
-<p>Complete usage and documentation available at: <a href='http://jekyllbootstrap.com'>Jekyll Bootstrap</a></p>
-
-<h2 id='update_author_attributes'>Update Author Attributes</h2>
-
-<p>In <code>_config.yml</code> remember to specify your own data:</p>
-
-<pre><code>title : My Blog =)
-
-author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username</code></pre>
-
-<p>The theme should reference these variables whenever needed.</p>
-
-<h2 id='sample_posts'>Sample Posts</h2>
-
-<p>This blog contains sample posts which help stage pages and blog data. When you don&#8217;t need the samples anymore just delete the <code>_posts/core-samples</code> folder.</p>
-
-<pre><code>$ rm -rf _posts/core-samples</code></pre>
-
-<p>Here&#8217;s a sample &#8220;posts list&#8221;.</p>
-<ul class='posts'>
-  
-    <li><span>29 Dec 2011</span> &raquo; <a href='/lessons/2011/12/29/jekyll-introduction'>Jekyll Introduction</a></li>
-  
-</ul>
-<h2 id='todo'>To-Do</h2>
-
-<p>This theme is still unfinished. If you&#8217;d like to be added as a contributor, <a href='http://github.com/plusjade/jekyll-bootstrap'>please fork</a>! We need to clean up the themes, make theme usage guides with theme-specific markup examples.</p>
+    <h2>Quand ?</h2><p>Le 1er octobre 2013</p><hr /><h2>Où ?</h2><p>Innopolis - Rouen</p>
   </div>
 </div>
 
 
-      </div>
+      	</div>
 
-      <footer>
-        <p>&copy; Name Lastname 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
-    </div> <!-- /container -->
+    	</div>
+		</div>
+    <footer>
+    </footer>
 
     
   </body>

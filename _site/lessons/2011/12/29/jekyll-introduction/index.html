@@ -7,6 +7,9 @@
     
     <meta name="author" content="Name Lastname">
 
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,14 +26,17 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
   </head>
 
   <body>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="/">Jekyll Bootstrap</a>
+    <header class="navbar">
+        <div class="container-narrow">
+          <h1><a href="/">Codeurs en Seine</a></h1>
           <ul class="nav">
             
             
@@ -40,10 +46,8 @@
   
     
       
-      	
-      	<li><a href="/archive.html">Archive</a></li>
-      	
-      
+    
+  
     
   
     
@@ -51,34 +55,6 @@
     
   
     
-      
-      	
-      	<li><a href="/categories.html">Categories</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/pages.html">Pages</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/tags.html">Tags</a></li>
-      	
       
     
   
@@ -87,20 +63,23 @@
 
           </ul>
         </div>
-      </div>
-    </div>
+    </header>
+		<div class="main">
+    	<div class="container-narrow">
 
-    <div class="container">
-
-      <div class="content">
-        
+      	<div class="content">
+        	
 <div class="page-header">
   <h1>Jekyll Introduction <small>Supporting tagline</small></h1>
 </div>
 
-<div class="row">
-  <div class="span8">
-    <p>This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&#8217;ll learn exactly <em>how</em> Jekyll does what it does.</p>
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>29 December 2011</strong>
+    </div>
+    <div class="content">
+      <p>This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&#8217;ll learn exactly <em>how</em> Jekyll does what it does.</p>
 
 <h2 id='overview'>Overview</h2>
 
@@ -173,8 +152,8 @@
 |   |-- default.html
 |   |-- post.html
 |-- _posts
-|   |-- 20011-10-25-open-source-is-good.markdown
-|   |-- 20011-04-26-hello-world.markdown
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
 |-- _site
 |-- index.html
 |-- assets
@@ -418,6 +397,51 @@ tags : [how-to, jekyll]
 <h2 id='next_steps'>Next Steps</h2>
 
 <p>Please take a look at <a href='' /> or jump right into <a href=''>Usage</a> if you&#8217;d like.</p>
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#lessons-ref">
+    		lessons <span>1</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#intro-ref">intro <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#beginner-ref">beginner <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#jekyll-ref">jekyll <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#tutorial-ref">tutorial <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
     <hr>
     <div class="pagination">
       <ul>
@@ -453,48 +477,14 @@ tags : [how-to, jekyll]
 
 
   </div>
-  
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>29 December 2011</span></div>
-
-  
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    
-    
-
-
-  
-     
-    	<li><a href="/tags.html#intro-ref">intro <span>1</span></a></li>
-     
-    	<li><a href="/tags.html#beginner-ref">beginner <span>1</span></a></li>
-     
-    	<li><a href="/tags.html#jekyll-ref">jekyll <span>1</span></a></li>
-     
-    	<li><a href="/tags.html#tutorial-ref">tutorial <span>1</span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-  </div>
 </div>
 
+      	</div>
 
-      </div>
-
-      <footer>
-        <p>&copy; Name Lastname 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
-    </div> <!-- /container -->
+    	</div>
+		</div>
+    <footer>
+    </footer>
 
     
   </body>

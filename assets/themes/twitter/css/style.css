@@ -1,3 +1,46 @@
+
+
+/* Custom style */
+/*---------------------------------*/
+
+body {
+	background-color: #ddd;
+}
+
+.main {
+	padding: 4em 0 5em;
+	font-size:1.5em;
+	color:#eee;
+	box-shadow: inset 0px 30px 30px rgba(0, 0, 0, 0.2);
+	border-top: 5px solid #333;
+	border-bottom: 15px solid #9B3E1F;
+	background-color: #C64F24;
+}
+
+.navbar {
+		box-shadow: inset 0px 15px 30px rgba(255, 255, 255, 0.2);
+}
+
+.navbar h1,
+.navbar h1 a,
+.navbar h1 a:hover	 {
+	margin: .5em 0;
+	color: #eee;
+	border: none;
+}
+
+.navbar,
+footer {
+	overflow: hidden;
+	margin: 0;
+	color: #fff;
+	background: #000;
+}
+
+
+/* Jekyll bootstrap style */
+/*---------------------------------*/
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
