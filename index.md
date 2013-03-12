@@ -50,6 +50,7 @@ layout: page
   js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=139117452787297";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://www.codeursenseine.com/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
 </p>
 <p>
 <!-- Placez cette balise où vous souhaitez faire apparaître le gadget Bouton +1. -->
