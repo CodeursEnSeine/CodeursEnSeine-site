@@ -42,13 +42,30 @@ layout: page
   <a href="https://twitter.com/share" class="twitter-share-button" data-via="codeursenseine" data-lang="fr">Tweeter</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 <p>
-<!-- Facebook Badge START --><a href="https://www.facebook.com/codeursenseine" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Codeurs En Seine">Codeurs En Seine</a><br/><a href="https://www.facebook.com/codeursenseine" target="_TOP" title="Codeurs En Seine"><img src="https://badge.facebook.com/badge/225380817605574.611.364317130.png" style="border: 0px;" /></a><br/><a href="https://fr-fr.facebook.com/advertising" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Cr&#xe9;ez votre propre badge&#xa0;!">Faites également la promotion de votre Page</a><!-- Facebook Badge END -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=139117452787297";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </p>
 <p>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<g:plus href="https://plus.google.com/{pageId}"></g:plus>
+<!-- Placez cette balise où vous souhaitez faire apparaître le gadget Bouton +1. -->
+<div class="g-plusone" data-size="tall" data-annotation="inline" data-width="300"></div>
+
+<!-- Placez cette ballise après la dernière balise Bouton +1. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'fr'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>  
 </p>
 
-</p>
-</div>
+
 
