@@ -32,10 +32,10 @@ layout: page
 </div>
 <h2>Nous Contacter</h2>
 
-<p>Par email : <a href="mailto:contact@codeursenseine.com">contact@codeursenseine.com</a>.</p>
-<p>Sur twitter : <a href="http://twitter.com/codeursenseine" target="_blank">@codeursenseine</a>.</p>
-<p>Sur Facebook : <a href="https://www.facebook.com/codeursenseine" target="_blank">Page Codeurs En Seine</a>.</p>
-<p>Sur Google Plus : <a href="https://plus.google.com/u/0/communities/111526484712817533870" target="_blank">Communauté Codeurs En Seine</a>.</p>
+<p>Par email : <a href="mailto:contact@codeursenseine.com">contact@codeursenseine.com</a></p>
+<p>Sur twitter : <a href="http://twitter.com/codeursenseine" target="_blank">@codeursenseine</a></p>
+<p>Sur Facebook : <a href="https://www.facebook.com/codeursenseine" target="_blank">Page Codeurs En Seine</a></p>
+<p>Sur Google Plus : <a href="https://plus.google.com/u/0/communities/111526484712817533870" target="_blank">Communauté Codeurs En Seine</a></p>
  
 <h2>Partager</h2>
 <p>
