@@ -6,6 +6,7 @@ auto: true
 pygments: true
 
 title : Codeurs en Seine
+description: Rencontre de codeurs sur la bord de la Sein à Rouen
 tagline: Rencontre de codeurs sur la bord de la Sein à Rouen
 
 # The production_url is only used when full-domain names are needed

@@ -4,9 +4,13 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
-
-    <meta name="author" content="Name Lastname">
+    <meta name="title" content="{{site.title}}">
+    <meta itemprop="name" content="{{site.title}}">
+    <meta property="og:title" content="{{site.title}}">
+    <meta name="description" content="{{site.description}}">
+    <meta itemprop="description" content="{{site.description}}">
+    <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
+    <title>{{site.title}}</title>
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +20,8 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
@@ -42,10 +45,6 @@
     <div class="container-narrow">
 
         <div class="content">
-
-
-            <h1></h1>
-
             <div class="row-fluid">
                 <div class="span12">
                     <h2>Quand ?</h2>
@@ -88,25 +87,24 @@
 
                     <p>Sur Google Plus : <a href='https://plus.google.com/u/0/communities/111526484712817533870'
                                             target='_blank'>Communauté Codeurs En Seine</a></p>
-
+                    <br/>
                     <h2>Partager</h2>
 
-                    <p>
-                        <a data-lang='fr' href='https://twitter.com/share' class='twitter-share-button'
-                           data-via='codeursenseine'>Tweeter</a>
-                        <script>!function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0];
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = "//platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");</script>
-                    </p>
-                    <p>
+                    <a data-lang='fr' href='https://twitter.com/share' class='twitter-share-button'
+                       data-via='codeursenseine'>Tweeter</a>
+                    <script>!function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, "script", "twitter-wjs");</script>
 
-                    <div id='fb-root'/>
+                    <br/><br/>
+
+                    <div id='fb-root'></div>
                     <script>(function (d, s, id) {
                         var js, fjs = d.getElementsByTagName(s)[0];
                         if (d.getElementById(id)) return;
@@ -115,12 +113,12 @@
                         js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=139117452787297";
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
-                    <div data-show-faces='true' data-width='450' data-href='http://www.codeursenseine.com/'
-                         data-send='false' class='fb-like' data-layout='button_count'/>
-                    </p><p>
-                    <!-- Placez cette balise où vous souhaitez faire apparaître le gadget Bouton +1. -->
+                    <div data-show-faces='true' data-width='450' data-href='{{site.url}}'
+                         data-send='false' class='fb-like' data-layout='button_count'></div>
 
-                    <div data-width='300' data-size='tall' data-annotation='inline' class='g-plusone'/>
+                    <br/><br/>
+
+                    <div data-width='300' data-size='tall' data-annotation='inline' class='g-plusone'></div>
 
                     <!-- Placez cette ballise après la dernière balise Bouton +1. -->
                     <script type='text/javascript'>
@@ -135,7 +133,6 @@
                             s.parentNode.insertBefore(po, s);
                         })();
                     </script>
-                    </p>
                 </div>
             </div>
 
