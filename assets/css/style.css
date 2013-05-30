@@ -74,6 +74,11 @@ body {
   bottom: 270px;
 }
 
+#mapUniv {
+	width:640px;
+	height:480px;
+}
+
 
 /* Responsive
 -------------------------------------------------- */
@@ -109,6 +114,10 @@ body {
     width: 166px;
     margin-top: 20px;
   }
+  
+	#mapUniv {
+		width:480px;
+	}
 }
 
 /* Tablet
@@ -126,6 +135,10 @@ body {
     width: auto;
     top: 0;
   }
+  
+	#mapUniv {
+		width:100%;
+	}
 }
 
 
