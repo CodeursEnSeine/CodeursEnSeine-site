@@ -6,8 +6,8 @@ auto: true
 pygments: true
 
 title : Codeurs en Seine
-description: Rencontre de codeurs sur la bord de la Sein à Rouen
-tagline: Rencontre de codeurs sur la bord de la Sein à Rouen
+description: "Rencontre de codeurs à Rouen : Agile, Java & Web"
+tagline: "Rencontre de codeurs à Rouen : Agile, Java & Web"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -18,4 +18,3 @@ tagline: Rencontre de codeurs sur la bord de la Sein à Rouen
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://www.codeursenseine.com
-

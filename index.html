@@ -20,9 +20,14 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="/assets/css/style.css?body" rel="stylesheet" type="text/css" media="all">
+	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.4/mapbox.css' rel='stylesheet' />
+	  <!--[if lte IE 8]>
+	    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.4/mapbox.ie.css' rel='stylesheet' />
+	  <![endif]-->
+	  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.4/mapbox.js'></script>
 
 	<!-- Le fav and touch icons -->
 	<!-- Update these with your own images
@@ -35,132 +40,156 @@
 </head>
 
 <body data-spy="scroll" data-target="#menu" data-offset="0">
-<header class="navbar">
-	<h1><a href="/">Codeurs en Seine</a></h1>
-</header>
+	<header class="header-main container">
+		<div class="navbar span12">
+			<h1><img src="assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}"></h1>
+			<p class="tagline">{{site.tagline}}<p>
+		</div>
+	</header>
 
 
-<div class="main">
-	<div class="content">
-		<div class="row-fluid">
-			<div id="menu" class="span3 bs-docs-sidebar">
-				<ul class="nav nav-list bs-docs-sidenav affix">
-					<li><a href="#quand"><i class="icon-chevron-right"></i> Quand</a></li>
-					<li><a href="#ou"><i class="icon-chevron-right"></i> O&ucirc;</a></li>
-					<li><a href="#quoi"><i class="icon-chevron-right"></i> Quoi</a></li>
-					<li><a href="#contact"><i class="icon-chevron-right"></i> Contact</a></li>
-					<li><a href="#partager"><i class="icon-chevron-right"></i> Partage</a></li>
-				</ul>
-			</div>
-			<div class="span8">
-				<div id="quand" class="section">
-					<h2>Quand ?</h2>
-					<p>Le 17 octobre 2013</p>
-				</div>
+	<div class="main">
+		<div class="container">
+			
+				<div class="row-fluid">
+					<div class="span12">
+						<div id="quand" class="section">
+							<h2>Jeudi 17 octobre 2013</h2>
+							<p>Rendez-vous dans les locaux de l'Université de Rouen, UFR de science et technique, avenue de l'université - Saint-Étienne-du-Rouvray)<p>
+							<p>Les conférences se tiendront toute la journée 8h30 à 18h30.</p>
+						</div>
 				
-				<div id="ou" class="section">
-					<h2>O&ucirc; ?</h2>
-					<a href="http://www.univ-rouen.fr/"><img src="/assets/img/logoUniv.png"/></a>
-					<br/><br/>
-					<iframe id="mapUniv" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?ie=UTF8&amp;cid=4373001109735411595&amp;q=U.F.R.+des+Sciences+et+Techniques&amp;gl=FR&amp;hl=fr&amp;t=m&amp;ll=49.387304,1.068699&amp;spn=0.006705,0.013733&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
-				</div>
+						<div id="ou" class="section">
+							<h2>Lieu</h2>
+							
+							<div id='map' class="map">dd</div>
+							  <script type='text/javascript'>
+							  var map = L.mapbox.map('map', 'examples.map-4l7djmvo')
+							      .setView([49.42, 1.068699], 12);
+								L.mapbox.markerLayer({
+								    // this feature is in the GeoJSON format: see geojson.org
+								    // for the full specification
+								    type: 'Feature',
+								    geometry: {
+								        type: 'Point',
+								        // coordinates here are in longitude, latitude order because
+								        // x, y is the standard for GeoJSON and many formats
+								        coordinates: [1.068, 49.387304]
+								    },
+								    properties: {
+								        title: 'Codeurs en Seine',
+								        description: 'Université de Rouen',
+								        // one can customize markers by adding simplestyle properties
+								        // http://mapbox.com/developers/simplestyle/
+								        'marker-size': 'large',
+								        'marker-color': '#4081bd',
+												'marker-symbol' : 'star'
+								    }
+								}).addTo(map);
+							  </script>
+							
+						</div>
+					
+						<div id="description" class="section">
+						
+							<h2>Description</h2>
+						
+							<p>Codeurs en Seine est une conférence gratuite qui se déroule à Rouen, sur 3 thèmes en simultané : le Java, l'Agile, le Web.</p>
+						
+							<h3>Organisateurs</h3>
+							<p>Normandy Java User Group, Normandy Agile User Group et Normandie Web Xperts mettent à profit leur expérience et leurs contacts  pour proposer un événement unique sur les bords de Seine. Leur volonté est de réunir sur une journée les codeurs d'ici et d'ailleurs afin qu'ils partagent leurs connaissances.</p>
+						
+							<div class='row-fluid'>
+								<ul class='thumbnails'>
+									<li class='span4'>
+										<div class='thumbnail'>
+											<h3><img src="assets/img/logo-njug.jpg" width="314" height="358" alt="Normandy Java User Group"></h3>
+										</div>
+									</li>
+									<li class='span4'>
+										<div class='thumbnail'>
+											<h3><img src="assets/img/logo-naug.jpg" width="314" height="358" alt="Normandy Agile User Group"></h3>
+										</div>
+									</li>
+									<li class='span4'>
+										<div class='thumbnail'>
+											<h3><img src="assets/img/logo-nwx.jpg" width="314" height="358" alt="Normandie Web Xperts"></h3>
+										</div>
+									</li>
+								</ul>
+							</div>		
+						</div>
+					
+						<div id="partenaires" class="section">
+							<h2>Partenaires</h2>
+							<a href="http://www.univ-rouen.fr/"><img src="/assets/img/logoUniv.png" alt="Université de Rouen" /></a>
+						</div>
 
-				<div id="quoi" class="section">
-					<h2>Quoi ?</h2>
-
-					<div class='row-fluid home-gallery'>
-						<ul class='thumbnails'>
-							<li class='span4'>
-								<div class='thumbnail'>
-									<h3>Java</h3>
-								</div>
-							</li>
-							<li class='span4'>
-								<div class='thumbnail'>
-									<h3>Agile</h3>
-								</div>
-							</li>
-							<li class='span4'>
-								<div class='thumbnail'>
-									<h3>Web</h3>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
+						<div id="contact" class="section">
+							<h2>Nous Contacter</h2>
+							<p>Email : <a href='mailto:contact@codeursenseine.com'>contact@codeursenseine.com</a><br />
+							Twitter : <a href='http://twitter.com/codeursenseine' target='_blank'>@codeursenseine</a><br />
+							Facebook : <a href='https://www.facebook.com/codeursenseine' target='_blank'>Page Codeurs En
+								Seine</a><br />
+							Google + : <a href='https://plus.google.com/u/0/communities/111526484712817533870' target='_blank'>Communauté Codeurs En Seine</a></p>
+							
+						</div>
 				
-				<div id="contact" class="section">
-					<h2>Nous Contacter</h2>
+					<div id="partager" class="section">
+						<h2>Partager</h2>
+						
+						
 
-					<p>Par email : <a href='mailto:contact@codeursenseine.com'>contact@codeursenseine.com</a></p>
+						<a data-lang='fr' href='https://twitter.com/share' class='twitter-share-button'
+						   data-via='codeursenseine'>Tweeter</a>
+						<script>!function (d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (!d.getElementById(id)) {
+								js = d.createElement(s);
+								js.id = id;
+								js.src = "//platform.twitter.com/widgets.js";
+								fjs.parentNode.insertBefore(js, fjs);
+							}
+						}(document, "script", "twitter-wjs");</script>
 
-					<p>Sur twitter : <a href='http://twitter.com/codeursenseine' target='_blank'>@codeursenseine</a></p>
+						<br/><br/>
 
-					<p>Sur Facebook : <a href='https://www.facebook.com/codeursenseine' target='_blank'>Page Codeurs En
-						Seine</a></p>
-
-					<p>Sur Google Plus : <a href='https://plus.google.com/u/0/communities/111526484712817533870'
-											target='_blank'>Communaut&acute; Codeurs En Seine</a></p>
-				</div>
-				
-				<div id="partager" class="section">
-					<h2>Partager</h2>
-
-					<a data-lang='fr' href='https://twitter.com/share' class='twitter-share-button'
-					   data-via='codeursenseine'>Tweeter</a>
-					<script>!function (d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (!d.getElementById(id)) {
+						<div id='fb-root'></div>
+						<script>(function (d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
 							js = d.createElement(s);
 							js.id = id;
-							js.src = "//platform.twitter.com/widgets.js";
+							js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=139117452787297";
 							fjs.parentNode.insertBefore(js, fjs);
-						}
-					}(document, "script", "twitter-wjs");</script>
+						}(document, 'script', 'facebook-jssdk'));</script>
+						<div data-show-faces='true' data-width='450' data-href='{{site.url}}'
+							 data-send='false' class='fb-like' data-layout='button_count'></div>
 
-					<br/><br/>
+						<br/><br/>
 
-					<div id='fb-root'></div>
-					<script>(function (d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (d.getElementById(id)) return;
-						js = d.createElement(s);
-						js.id = id;
-						js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=139117452787297";
-						fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-					<div data-show-faces='true' data-width='450' data-href='{{site.url}}'
-						 data-send='false' class='fb-like' data-layout='button_count'></div>
+						<div data-width='300' data-size='tall' data-annotation='inline' class='g-plusone'></div>
 
-					<br/><br/>
+						<script type='text/javascript'>
+							window.___gcfg = {lang: 'fr'};
 
-					<div data-width='300' data-size='tall' data-annotation='inline' class='g-plusone'></div>
-
-					<script type='text/javascript'>
-						window.___gcfg = {lang: 'fr'};
-
-						(function () {
-							var po = document.createElement('script');
-							po.type = 'text/javascript';
-							po.async = true;
-							po.src = 'https://apis.google.com/js/plusone.js';
-							var s = document.getElementsByTagName('script')[0];
-							s.parentNode.insertBefore(po, s);
-						})();
-					</script>
+							(function () {
+								var po = document.createElement('script');
+								po.type = 'text/javascript';
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								var s = document.getElementsByTagName('script')[0];
+								s.parentNode.insertBefore(po, s);
+							})();
+						</script>
+					</div>
+					</div>
 				</div>
-			</div>
-
-
 		</div>
-
 	</div>
-</div>
-<footer>
-</footer>
-
 <script src="/assets/jquery/js/jquery.min.js"></script>
 <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 </html>
 
