@@ -100,3 +100,11 @@ footer {
 .navbar {
 		box-shadow: inset 0px 15px 30px rgba(255, 255, 255, 0.2);
 }
+
+
+/* Sponsor line
+-------------------------------------------------- */
+
+.smallthumbnail {
+	height: 50px;
+}
