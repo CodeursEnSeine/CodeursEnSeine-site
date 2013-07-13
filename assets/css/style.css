@@ -118,3 +118,27 @@ footer {
 .smallthumbnail {
 	height: 50px;
 }
+
+/* footer */
+.footer
+{
+	margin-top: 10px;
+}
+
+hr{
+	border-bottom-color : darkgrey;
+}
+
+
+.navbar-inner
+{
+	margin-bottom: 10px;
+}
+
+.btn-reg
+{
+	margin-top: 7px;
+	font-size: 150%;
+	color: white;
+	padding: 15px;
+}

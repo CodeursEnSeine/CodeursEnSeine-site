@@ -1,0 +1,39 @@
+---
+layout: default
+label: Logistique
+---
+
+<div class="row-fluid">
+					<div class="span12">
+						<div id="ou" class="section well">
+							<h2>Accéder à l'Université de Rouen</h2>
+							
+							<div id='map' class="map"></div>
+							  <script type='text/javascript'>
+							  var map = L.mapbox.map('map', 'examples.map-4l7djmvo')
+							      .setView([49.42, 1.068699], 12);
+								L.mapbox.markerLayer({
+								    // this feature is in the GeoJSON format: see geojson.org
+								    // for the full specification
+								    type: 'Feature',
+								    geometry: {
+								        type: 'Point',
+								        // coordinates here are in longitude, latitude order because
+								        // x, y is the standard for GeoJSON and many formats
+								        coordinates: [1.068, 49.387304]
+								    },
+								    properties: {
+								        title: 'Codeurs en Seine',
+								        description: 'Université de Rouen',
+								        // one can customize markers by adding simplestyle properties
+								        // http://mapbox.com/developers/simplestyle/
+								        'marker-size': 'large',
+								        'marker-color': '#4081bd',
+												'marker-symbol' : 'star'
+								    }
+								}).addTo(map);
+							  </script>
+							
+						</div>
+					</div>
+</div>
