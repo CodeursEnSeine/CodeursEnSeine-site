@@ -120,23 +120,19 @@ footer {
 }
 
 /* footer */
-.footer
-{
+.footer {
 	margin-top: 10px;
 }
 
-hr{
+hr {
 	border-bottom-color : darkgrey;
 }
 
-
-.navbar-inner
-{
+.navbar-inner {
 	margin-bottom: 10px;
 }
 
-.btn-reg
-{
+.btn-reg {
 	font-size: 150%;
 	color: white;
 	padding: 15px;
