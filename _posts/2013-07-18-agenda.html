@@ -43,15 +43,3 @@ mustacheSetDelimiter: "{{={u{ }u}=}}"
 					{u{/jours}u}
 				{u{/programme}u}
 			</script>
-<script>
-	$(function() {
-		alert("1");
-		$.getJSON('./programme-2013.json', function(data) {
-			alert("2");
-		    var template = $('#agenda-template').html();
-		    var info = Mustache.to_html(template, data);
-		    alert(info);
-		    $('#agenda-grid').html(info);
-		});
-	});
-</script>
