@@ -9,7 +9,7 @@
                   {
                         "type":"general",
                         "talks":[
-                            {"id":1 , "size":"full", time":"8:50", "format":"keynote", "url":"", "title":"Keynote d'ouverture", "description":"Accueil - Présentation du Programme - Keynote Pierre Pezziardi", "room":""}
+                            {"id":1 , "size":"full", "time":"8:50", "format":"keynote", "url":"", "title":"Keynote d'ouverture", "description":"Accueil - Présentation du Programme - Keynote Pierre Pezziardi", "room":""}
                         ]
                     },
                     {
