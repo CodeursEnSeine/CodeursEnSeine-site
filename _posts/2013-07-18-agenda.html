@@ -1,6 +1,8 @@
 ---
 layout: default
 label: Programme
+
+mustacheSetDelimiter: "{{={u{ }u}=}}"
 ---
 
 <div class="row-fluid">
@@ -8,6 +10,48 @@ label: Programme
 		<div class="section well">
 			<h2>Programme</h2>
 			<p>Le programme est en cours de la conférence devrait être édité sous peu de temps. Vous découvrirez comment choisir les tracks qui vous intéressent et préparez l'agenda de votre journée.</p>
+
+			<div id="agenda-grid">
+			</div>
+
 		</div>
 	</div>
 </div>
+
+<script id="agenda-template" type="text/template">
+				{{page.mustacheSetDelimiter}}
+				<hr/>
+				{u{#programme}u}
+					{u{#jours}u}
+						<div class="row-fluid">
+						<div class="span9">
+						{u{#tracks}u}
+							<div class="span3">
+								<div class="row-fluid">
+								{u{#talks}u}
+									<div class="span3">
+										{u{title}u}
+									</div>
+								{u{#talks}u}
+								</div>
+							</div>
+						{u{/tracks}u}
+						</div>
+						</div>
+
+						<hr/>
+					{u{/jours}u}
+				{u{/programme}u}
+			</script>
+<script>
+	$(function() {
+		alert("1");
+		$.getJSON('./programme-2013.json', function(data) {
+			alert("2");
+		    var template = $('#agenda-template').html();
+		    var info = Mustache.to_html(template, data);
+		    alert(info);
+		    $('#agenda-grid').html(info);
+		});
+	});
+</script>
