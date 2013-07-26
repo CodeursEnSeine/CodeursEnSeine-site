@@ -1,15 +1,13 @@
 ---
 layout: default
 label: Programme
-
-mustacheSetDelimiter: "{{={u{ }u}=}}"
 ---
 
 <div class="row-fluid">
 	<div class="span12">
 		<div class="section well">
 			<h2>Programme</h2>
-			<p>Le programme est en cours de la conférence devrait être édité sous peu de temps. Vous découvrirez comment choisir les tracks qui vous intéressent et préparez l'agenda de votre journée.</p>
+			<p>Voici une préversion du programme, il est confirmé à 80%. Il reste qu'il est suceptible de changer avant la conférence.</p>
 
 			<div id="agenda-grid">
 			</div>
@@ -18,28 +16,190 @@ mustacheSetDelimiter: "{{={u{ }u}=}}"
 	</div>
 </div>
 
-<script id="agenda-template" type="text/template">
-				{{page.mustacheSetDelimiter}}
-				<hr/>
-				{u{#programme}u}
-					{u{#jours}u}
-						<div class="row-fluid">
-						<div class="span9">
-						{u{#tracks}u}
-							<div class="span3">
-								<div class="row-fluid">
-								{u{#talks}u}
-									<div class="span3">
-										{u{title}u}
-									</div>
-								{u{#talks}u}
-								</div>
-							</div>
-						{u{/tracks}u}
-						</div>
-						</div>
+<script id="agenda-template" type="x-handlebars-template">
+				<%#programme%>
+					<%#jours%>
+						<table class="table table-bordered">
+						<tr>
+						<th  class="agenda-cell-hdr">Horaire</th>
+						<th  class="agenda-cell-hdr" >Track Web</th>
+						<th class="agenda-cell-hdr">Track Agilité</th>
+						<th   class="agenda-cell-hdr" colspan="3">Track Java</th>
+						</tr>
+						<%#each schedules%>
+							<tr>
+								<th class="agenda-cell-time"><%time%></th>
+						
+								<%#each talks%>
+										<td colspan="<%size%>"  class="agenda-cell agenda-cell-<%type%> agenda-cell-<%format%>">
+										<%title%>
+									</td>
+								<%/each%>
+								</tr>
 
-						<hr/>
-					{u{/jours}u}
-				{u{/programme}u}
+						<%/each%>
+						</table>
+
+					<%/jours%>
+				<%/programme%>
 			</script>
+<script>
+
+function writeInConsole (text) {
+    if (typeof console !== 'undefined') {
+        console.log(text);    
+    }
+    else {
+        alert(text);    
+    }
+}
+
+
+function getSchedule (day,time)
+{
+	var out=-1;
+	if (day !==undefined)
+	{
+		if (day.schedules !== undefined)
+		{
+			if (day.schedules.length >0 )
+			{
+				day.schedules.forEach( function(elem,i) {
+					if (elem.time === time)
+					{
+						out=i;
+						return false;
+					}
+
+				});
+			}
+		}
+	}
+	
+	return out;
+}
+
+
+var tablesize=5;
+
+
+
+	$(function() {
+		 writeInConsole ("calling json")
+		$.getJSON('/programme-2013.json').done(function(data) {
+			 writeInConsole ("success");
+			 writeInConsole ($( '#agenda-template' ).html());
+			 var content=$( '#agenda-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}');
+			 writeInConsole (content);
+			 
+
+
+			 var tabledAgenda=new Object();
+			 tabledAgenda.programme=new Object();
+			 tabledAgenda.programme.jours= new Array();
+			 if (data.programme.jours.length >0 )
+			 {
+				 data.programme.jours.forEach( function(elemj,cj) {
+				 	tabledAgenda.programme.jours[cj]=new Object();
+				 	tabledAgenda.programme.jours[cj].title=elemj.title;
+				 	tabledAgenda.programme.jours[cj].date=elemj.date;
+				 	if (elemj.tracks.length>0)
+				 	{
+				 			elemj.tracks.forEach( function(elemtr,ctr) {
+				 				if (elemtr.talks.length>0)
+							 	{
+							 			elemtr.talks.forEach( function(elemtl,ctl) {
+
+							 				if (csch=tabledAgenda.programme.jours[cj].schedules === undefined)
+							 				{
+							 					tabledAgenda.programme.jours[cj].schedules=new Array();
+							 				}
+							 				
+							 				var csch=getSchedule(tabledAgenda.programme.jours[cj],elemtl.time);
+							 				if (csch === -1)
+							 				{
+							 					csch=tabledAgenda.programme.jours[cj].schedules.length;
+							 					tabledAgenda.programme.jours[cj].schedules[csch]=new Object();
+							 					tabledAgenda.programme.jours[cj].schedules[csch].time=elemtl.time;
+							 					tabledAgenda.programme.jours[cj].schedules[csch].talks=new Array();
+							 				}
+
+							 				var ctalks=tabledAgenda.programme.jours[cj].schedules[csch].talks.length;
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks]=new Object();
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].title=elemtl.title;
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].type=elemtr.type;
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].format=elemtl.format;
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].description=elemtl.description;
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].room=elemtl.room;
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].url=elemtl.url;
+
+
+							 			});
+							 	}
+
+				 			});
+				 	}
+				 });
+			 }
+
+
+			 if (tabledAgenda !== undefined)
+			 {
+			 	if (tabledAgenda.programme !== undefined)
+			 	{
+			 		if (tabledAgenda.programme.jours !== undefined)
+			 		{
+			 			if (tabledAgenda.programme.jours.length>0)
+			 			{
+			 				tabledAgenda.programme.jours.forEach( function(elem_j, j) { 
+			 					if (elem_j.schedules !== undefined)
+			 					{
+			 						if (elem_j.schedules.length > 0)
+			 						{
+			 							elem_j.schedules.forEach( function( elem_s, s) {
+			 								if (elem_s.talks !== undefined)
+			 								{
+			 									if (elem_s.talks.length >0)
+			 									{
+			 										elem_s.talks.forEach( function(elem_t,t){
+			 											var size=1;
+
+			 											if (elem_s.talks.length ===1 ) size=tablesize;
+
+			 											if (elem_s.talks.length > 1 )
+			 											{
+			 												if (t>1)
+			 												{
+			 													if (elem_s.talks.length === 3 )
+			 													{
+			 														size=3;
+			 													}
+			 													if (elem_s.talks.length > 3 )
+			 													{
+			 														size=1;
+			 													}
+			 												}
+			 											}
+			 											elem_t.size=size;
+			 										});
+			 									}
+			 								}
+			 							});
+			 						}
+			 					}
+			 				});
+			 			}
+			 		}
+			 	}
+			 }
+
+
+
+
+
+			 $('#agenda-grid').html( Handlebars.compile ( content ) ( tabledAgenda ) );
+
+
+		}).fail( function() { writeInConsole ("error")});
+	});
+</script>

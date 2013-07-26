@@ -137,3 +137,39 @@ hr {
 	color: white;
 	padding: 15px;
 }
+
+
+/* Agenda
+-------------------------------------------------- */
+
+
+table .agenda-cell {
+     text-align: center;
+     font-size: 80%;
+        
+}
+
+table .agenda-cell-time
+{
+	text-align: right;
+}
+
+table .agenda-cell-hdr
+{
+	text-align: center;
+}
+
+table .agenda-cell-web
+{
+    background: pink;
+}
+
+table .agenda-cell-agile
+{
+    background: lightgreen;
+}
+
+table .agenda-cell-java
+{
+    background: lightblue;
+}
