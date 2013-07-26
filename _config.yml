@@ -8,7 +8,7 @@ permalink: /:title.html
 
 title : Codeurs en Seine
 description: "Rencontre de codeurs à Rouen : Agile, Java & Web"
-tagline: "Rencontre de codeurs à Rouen : Agile, Java & Web"
+tagline: "Rencontre de codeurs à Rouen : Agile, Java & Web<br/>Jeudi 17 octobre 2013"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
