@@ -1,0 +1,124 @@
+[
+    {
+        id: 1,
+        fullname: "Pierre Pezziardi",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-pezziardi.jpg",
+        description: "Entrepreneur, co­fondateur du cabinet de conseil OCTO Technology, co­fondateur de l’Université du SI, fondateur d’OpenCBS Microfinance, créateur de NotreBanque, auteur, conférencier, il promeus l’idée d’Informatique Conviviale : des systèmes destinés à décloisonner les organisations et à rendre leur autonomie aux équipes.",
+        liens: [],
+        type: "Keynote"
+    },
+    
+    {
+        id: 101,
+        fullname: "Laurent Demontiers",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-demontiers.jpg",
+        description: "Web Consultant-AMOA-UX / Startuper / Teacher / Speaker / Organisateur des Rencontres Interactives de Caen / Dans l'écosystème web depuis 1997.",
+        liens: [],
+        type: "Web"
+    },
+    {
+        id: 102,
+        fullname: "Matthias Dugué",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-mads.jpg",
+        description: "Consultant/Développeur aujourd'hui chez Clever Age, il parcours la toile sans relâche, à la recherche de l'élixir de qualité, de la pierre d'innovation, et de la poudre d'accessibilité. D'un optimisme sans faille, il poursuit inlassablement sa quête au côté d'autres valeureux compagnons, pour libérer le web de ses démons…",
+        liens: [],
+        type: "Web"
+    },
+    {
+        id: 103,
+        fullname: "Jean-Pierre Vincent",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-jean-pierre-vincent.jpg",
+        description: "Expert en application Web et maître accélérateur de pages. Codeur frontend depuis 2000, Jean-pierre est maintenant freelance pour aider son prochain à dompter les navigateurs, et fournir des sites de qualité aux utilisateurs. Ses armes sont la formation, le conseil et oui encore un peu de code front !
+
+"La performance, c'est le tueur invisible de la qualité."",
+        liens: [],
+        type: "Web"
+    },
+    {
+        id: 104,
+        fullname: "Julien Brousse",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-julienbrousse.jpg",
+        description: "Gestion de projet web, SEM, SEO, display, affiliation, SMO, il a tout testé ! Il se considère comme un généraliste de l’acquisition de trafic après mon passage chez Oscaro.com et par l’agence de référencement Blog-Ecommerce. Aujourd’hui, il conseille les petits E-commerçants pour les aider à lancer leur boutique en passant notamment par le développement de leur visibilité sur les moteurs de recherche et c’est du sport !",
+        liens: [],
+        type: "Web"
+    },
+    {
+        id: 105,
+        fullname: "Jonathan Pansiot",
+        avatar: "",
+        description: "Intégrateur spécialisé en accessibilité chez Alter Way. Il mène les audits et valide les exigences en matière d’accessibilité. Jonathan se spécialise particulièrement dans les réflexions sur la mise en place au sein des cycles de productions des exigences qualité et accessibilité, ainsi que dans la conception des interfaces riches avec Wai-Aria.",
+        liens: [],
+        type: "Web"
+    },
+
+    {
+        id: 201,
+        fullname: "David Gageot",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-gageot.jpeg",
+        description: "développeur indépendant. Ma passion ? L'écriture de logiciels pointus mais simples. J'ai pour leitmotiv d'être un facilitateur qui, par ma créativité et mon expertise, aide les équipes à être plus innovantes et plus efficaces. Depuis 2010, j'ai pris le leadership sur le projet open-source Infinitest. Un plugin pour Eclipse et IntelliJ qui permet, après chaque changement de code, de jouer les tests unitaires potentiellement impactés.",
+       liens: [],
+        type: "Agile"
+    },
+    {
+        id: 202,
+        fullname: "Frédéric Menou",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-menou.jpeg",
+        description: "Développeur Java et désormais développeur Ruby chez Capitaine Train, également "formateur git", Frédéric accompagne les développeurs sur le chemin du Clean Code. Il est également Bagger sur la région parisienne (brownbaglunch.fr).",
+       liens: [],
+        type: "Agile"
+    },
+    {
+        id: 203,
+        fullname: "Jean Laurent de Morlhon",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-morlhon.png",
+        description: "CTO @ Xebia Studio, Mr FooBarQix @ CodeStory, adore développer simplement & intelligement avec des développeurs passionnés. Fidèle défenseur du développeur, explore le mouvement Software Craftsmanship.",
+       liens: [],
+        type: "Agile"
+    },
+    {
+        id: 204,
+        fullname: "Pascal Van Cauwenberghe",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-pascalV.png",
+        description: "Pascal Van Cauwenberghe est un consultant basé à Bruxelles qui essaie de résoudre plus de problèmes qu’il n’en crée. Pour cela il utilise des méthodes issues de l’agile, du Lean, de la théorie des contraintes, du Systems Thinking notamment. Il est un des fondateurs du groupe XP en Belgique et un des organisateurs des XP Days Benelux. Un jour, Vera Peeters et lui ont inventé le “XP Game“, parce qu’ils ne réussissaient pas à expliquer XP. Ils ont appris que le jeu est un moyen idéal pour apprendre.",
+       liens: [],
+        type: "Agile"
+    },
+    {
+        id: 205,
+        fullname: "Matthieu Garde-Lebreton",
+        avatar: "http://www.codeursenseine.com/assets/img/orateur-mgarde.jpg",
+        description: "Entrepreneur à temps plein et pratiquant Lean convaincu, passionné par l’innovation et investi dans la création de Startups depuis l'école. Il apprend continuellement par la pratique, la rencontre d'autres entrepreneurs, et la lecture. Fondateur de Lean Startup France, un cabinet de conseil qui aide les entrepreneurs à bâtir une Startup à partir de leur vision et de leurs idées, grâce à la philosophie Lean Startup et les techniques de Customer Development. En parallèle, Matthieu teste en permanence de nouvelles idées. Egalement ingénieur logiciel spécialisé dans la tehcnologie Microsoft .NET.",
+       liens: [{
+url: "http://matthieugarde.com/",
+label: "blog"
+},
+{
+url: "http://www.twitter.com/MatthieuGarde",
+label: "twitter"
+},
+{
+url: "http://www.meetup.com/Lean-Startup-User-Group/",
+label: "job"
+}],
+        type: "Agile"
+    },
+
+]
+
+
+
+
+
+liens: [
+{
+url: "http://blog.loof.fr",
+label: "blog"
+},
+{
+url: "http://www.twitter.com/ndeloof",
+label: "twitter"
+},
+{
+url: "http://www.cloudbees.com",
+label: "job"
+}
