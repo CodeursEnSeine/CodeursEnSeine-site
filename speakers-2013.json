@@ -102,15 +102,15 @@
         "description": "Entrepreneur à temps plein et pratiquant Lean convaincu, passionné par l’innovation et investi dans la création de Startups depuis l'école. Il apprend continuellement par la pratique, la rencontre d'autres entrepreneurs, et la lecture. Fondateur de Lean Startup France, un cabinet de conseil qui aide les entrepreneurs à bâtir une Startup à partir de leur vision et de leurs idées, grâce à la philosophie Lean Startup et les techniques de Customer Development. En parallèle, Matthieu teste en permanence de nouvelles idées. Egalement ingénieur logiciel spécialisé dans la tehcnologie Microsoft .NET.",
        "liens": [{
 "url": "http://matthieugarde.com/",
-"label": "blog"
+"label": "Blog"
 },
 {
 "url": "http://www.twitter.com/MatthieuGarde",
-"label": "twitter"
+"label": "Twitter"
 },
 {
 "url": "http://www.meetup.com/Lean-Startup-User-Group/",
-"label": "job"
+"label": "Lean Startup User Group"
 }],
         "type": "Agile"
     },
@@ -131,7 +131,7 @@
        "liens": [
 {
 "url": "http://blog.paumard.org/",
-"label": "Java le soir"
+"label": "Blog"
 }],
         "type": "Java"
     },
@@ -142,15 +142,15 @@
         "description": "Senior Engineer chez CloudBees, après avoir été Architecte Java pour de grandes SSII françaises. Techno-veilleur et développeur open-source, il a rejoint l’équipe de développement Maven en 2007, en particulier pour le support de GWT. Avec 15 ans d’expérience en développement dans ses bagages et de nombreuses relations dans la communauté Java, il anime depuis 2008 le BreizhJUG, groupe d’utilisateur Java Rennais. Il a participé à plusieurs conférences sur le thème de la forge logicielle et contribue activement au microcosme Java.",
        "liens": [{
 "url": "http://blog.loof.fr",
-"label": "blog"
+"label": "Blog"
 },
 {
 "url": "http://www.twitter.com/ndeloof",
-"label": "twitter"
+"label": "Twitter"
 },
 {
 "url": "http://www.cloudbees.com",
-"label": "job"
+"label": "Cloudbees"
 }],
         "type": "Java"
     },

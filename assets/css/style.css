@@ -177,3 +177,12 @@ table .agenda-cell-java
 {
     background: lightblue;
 }
+
+/* Speakers
+-------------------------------------------------- */
+.speaker-type
+{
+    text-align: center;
+    text-shadow: 2px 1px #AAA;
+    font-weight: bold;
+}
