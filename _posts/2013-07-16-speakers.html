@@ -41,6 +41,11 @@ label: Intervenants
             <a href="<%url%>"><%label%></a>
         <%/each%>
         </p>
+        <p class="speakers-inside-talks">
+        <%#each talks%>
+            <strong><%title%></strong> : <%description%>
+        <%/each%>
+        </p>
         <%/if%>
     </div>
 </div>
@@ -68,16 +73,65 @@ function writeInConsole (text) {
 	$(function() {
 		 writeInConsole ("calling json")
 		$.getJSON('/speakers-2013.json').done(function(data) {
-			 writeInConsole ("success");
+			 writeInConsole ("success speakers");
 			 writeInConsole ($( '#speakers-template' ).html());
 			 var content=$( '#speakers-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}');
 			 writeInConsole (content);
 			 
+             $.getJSON('/programme-2013.json').done(function(data_agenda) {
+             writeInConsole ("success agenda");
+
+              var map_agenda = new Object();
 
 
-			 $('#speakers-grid').html( Handlebars.compile ( content ) ( data ) );
+             if (data_agenda.programme.jours.length >0 )
+             {
+                 data_agenda.programme.jours.forEach( function(elemj,cj) {
+                    if (elemj.tracks.length>0)
+                    {
+                            elemj.tracks.forEach( function(elemtr,ctr) {
+                                if (elemtr.talks.length>0)
+                                {
+                                        elemtr.talks.forEach( function(elemtl,ctl) {
+                                            map_agenda[elemtl.id]=elemtl;
+                                        });
+                                }
+                            });
+                    }
+                });
+            }
 
 
-		}).fail( function() { writeInConsole ("error")});
+              data.forEach(function(sp,spi) {
+                if ('talks' in sp)
+                {
+                    if (sp.talks.length >0)
+                    {
+                        sp.talks.forEach( function(sptl,spj)
+                        {
+
+                            var talk=map_agenda[sptl.id];
+                            data[spi].talks[spj]=talk;
+
+                        });
+                    }
+                }
+              });
+
+
+
+              $('#speakers-grid').html( Handlebars.compile ( content ) ( data ) );
+
+             }).fail( function() { 
+
+                $('#speakers-grid').html( Handlebars.compile ( content ) ( data ) );
+                writeInConsole ("error agenda")}
+                );
+
+
+			 
+
+
+		}).fail( function() { writeInConsole ("error speakers")});
 	});
 </script>

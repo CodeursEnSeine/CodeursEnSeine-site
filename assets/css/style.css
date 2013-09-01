@@ -186,3 +186,8 @@ table .agenda-cell-java
     text-shadow: 2px 1px #AAA;
     font-weight: bold;
 }
+
+.speakers-inside-talks
+{
+	font-size: 70%;
+}
