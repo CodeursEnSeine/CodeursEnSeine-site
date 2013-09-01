@@ -177,5 +177,47 @@
         "description": "Guillaume is the project lead of Groovy, the highly popular and successful dynamic language for the JVM. He co-authored Manning's best seller 'Groovy in Action' with Dierk König, and is working for SpringSource (a division of VMWare) where he's hacking full time on cool and Groovy stuff. You can meet Guillaume at conferences around the world where he evangelizes the Groovy dynamic language, Domain-Specific Languages in Groovy, the agile Grails web framework or the Gaelyk lightweight toolkit for Google App Engine.",
        "liens": [],
         "type": "Java"
-    } 
+    },
+    {
+        "id": 307,
+        "fullname": "Eyal Lezmy",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-elezmy.jpg",
+        "description": "Software Engineer chez <a href=\"http://www.genymobile.com\">GenyMobile</a>, trésorier du Paris Android User Group et Google Developer Expert sur Android. Il a débuté Android en 2009. Après différents projets R&D chez les opérateurs, il travaille actuellement chez un grand constructeur mobile coréen où il se dédie à des sujets Android tournés vers l'entreprise.",
+       "liens": [ 
+       {
+            "url":"http://paug.fr",
+            "label":"Blog"
+       },
+       {
+            "url":"http://twitter.com/Eyal_Lezmy",
+            "label":"Twitter"
+       },
+       {
+            "url":"https://plus.google.com/u/0/109290164663410811176/posts",
+            "label":"Google+"
+       }
+       ],
+        "type": "Java"
+    },
+    {
+        "id": 308,
+        "fullname": "Christophe Jollivet",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-elezmy.jpg",
+        "description": "",
+        "liens": [
+        {
+            "url": "http://jollivetc.blogspot.fr",
+            "label":"Blog"
+       },
+       {
+            "url":"https://twitter.com/jollivetc",
+            "label":"Twitter"
+       },
+       {
+            "url":"https://plus.google.com/113717392164007267805/posts",
+            "label":"Google+"
+       }
+       ],
+        "type": "Java"
+    }
 ]
