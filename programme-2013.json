@@ -51,17 +51,17 @@
                         "type":"java",
                         "talks":[
                             {"id":50 , "time":"10:25", "format":"conference", "url":"", "title":"MongoDB - Katia Aresti & Stéphane Godbillon", "room":""},
-                            {"id":51 , "time":"11:25", "format":"conference", "url":"", "title":"Programmation Parallèle - José Paumard", "room":""},             
+                            {"id":51 , "time":"11:25", "format":"conference", "url":"", "title":"Programmation Parallèle", "room":""},             
                             {"id":52 , "time":"12:25", "format":"conference", "url":"", "title":"JEE7 - Antonio Goncalves", "room":""},                  
-                            {"id":53 , "time":"14:15", "format":"conference", "url":"", "title":"TP JEE7 - Antonio Goncalves (1/2)", "room":""},
-                            {"id":54 , "time":"14:15", "format":"conference", "url":"", "title":"Cloud - Introduction - Samuel Liard", "room":""},    
+                            {"id":53 , "time":"14:15", "format":"conference", "url":"", "title":"TP JEE7(1/2)", "room":""},
+                            {"id":54 , "time":"14:15", "format":"conference", "url":"", "title":"Cloud - Introduction", "room":""},    
                             {"id":55 , "time":"14:15", "format":"conference", "url":"", "title":"Dev Ops", "room":""},                   
-                            {"id":56 , "time":"15:15", "format":"conference", "url":"", "title":"TP JEE7 - Antonio Goncalves (2/2)", "room":""},   
-                            {"id":57 , "time":"15:15", "format":"conference", "url":"", "title":"Cloud - Monitoring & Management - Alexis MP", "room":""},  
-                            {"id":58 , "time":"15:15", "format":"conference", "url":"", "title":"Javascript pour les javaistes - Christophe Jollivet", "room":""},                  
-                            {"id":59 , "time":"16:15", "format":"conference", "url":"", "title":"Groovy - Guillaume Laforge", "room":""},
-                            {"id":60 , "time":"16:15", "format":"conference", "url":"", "title":"Cloud - Architecture Pattern - Nicolas De Loof", "room":""},
-                            {"id":61 , "time":"16:15", "format":"conference", "url":"", "title":"Android, passons au niveau supérieur - Eyal Lezmy", "room":"", "description":"Tentons ensemble une expérience folle, prenons la place de l'utilisateur ! Cette présentation vous permettra de mesurer les frustrations que nos chers users peuvent endurer, afin d'en déduire des guidelines qui nous permettrons, en tant que développeur, de leur rendre la vie meilleure."}               
+                            {"id":56 , "time":"15:15", "format":"conference", "url":"", "title":"TP JEE7(2/2)", "room":""},   
+                            {"id":57 , "time":"15:15", "format":"conference", "url":"", "title":"Cloud - Monitoring & Management", "room":""},  
+                            {"id":58 , "time":"15:15", "format":"conference", "url":"", "title":"Javascript pour les javaistes", "room":""},                  
+                            {"id":59 , "time":"16:15", "format":"conference", "url":"", "title":"Groovy", "room":""},
+                            {"id":60 , "time":"16:15", "format":"conference", "url":"", "title":"Cloud - Architecture Pattern", "room":""},
+                            {"id":61 , "time":"16:15", "format":"conference", "url":"", "title":"Android, passons au niveau supérieur", "room":"", "description":"Tentons ensemble une expérience folle, prenons la place de l'utilisateur ! Cette présentation vous permettra de mesurer les frustrations que nos chers users peuvent endurer, afin d'en déduire des guidelines qui nous permettrons, en tant que développeur, de leur rendre la vie meilleure."}               
 
                          ]
                     }

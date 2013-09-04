@@ -33,6 +33,11 @@ label: Programme
 								<%#each talks%>
 										<td colspan="<%size%>"  class="agenda-cell agenda-cell-<%type%> agenda-cell-<%format%>">
 										<%title%>
+										<%#each speakers%>
+										<br/>
+										<a href="/speakers.html#sp_<%id%>"><%fullname%></a>
+										<%/each%>
+
 									</td>
 								<%/each%>
 								</tr>
@@ -126,6 +131,7 @@ var tablesize=5;
 
 							 				var ctalks=tabledAgenda.programme.jours[cj].schedules[csch].talks.length;
 							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks]=new Object();
+							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].id=elemtl.id;
 							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].title=elemtl.title;
 							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].type=elemtr.type;
 							 				tabledAgenda.programme.jours[cj].schedules[csch].talks[ctalks].format=elemtl.format;
@@ -194,10 +200,71 @@ var tablesize=5;
 			 }
 
 
+			$.getJSON('/speakers-2013.json').done(function(data_speakers) {
+             writeInConsole ("success speakers");
+
+              var map_speakers = new Object();
+
+              data_speakers.forEach(function(sp,spi) {
+                if ('talks' in sp)
+                {
+                    if (sp.talks.length >0)
+                    {
+                        sp.talks.forEach( function(splt,spj)
+                        {
+                           if ((map_speakers.length=0)||(map_speakers[splt.id]!= 'undefined')||(map_speakers[splt.id].length=0))
+                           {
+                          	 map_speakers[splt.id]=new Array();
+                          	 map_speakers[splt.id][0]=sp;
+                          	}
+                          	else
+                          	{
+                          		map_speakers[splt.id][map_speakers[splt.id].length]=sp;
+                          	}
+
+                        });
+                    }
+                }
+              });
+
+
+              writeInConsole (map_speakers);
+			writeInConsole (tabledAgenda);
+              tabledAgenda.programme.jours.forEach(function(jours,pj)
+              {
+
+              			jours.schedules.forEach(function(schedules,ps)
+              			{
+
+	              			schedules.talks.forEach(function(talks,pt)
+	              			{
+	              				if (map_speakers[talks.id] !== undefined)
+	              				{
+	              					tabledAgenda.programme.jours[pj].schedules[ps].talks[pt].speakers=map_speakers[talks.id];
+	              				}
+	              			}
+	              			);
+	              		}
+
+              			);
+              	}
+              );
+
+              writeInConsole (tabledAgenda);
 
 
 
 			 $('#agenda-grid').html( Handlebars.compile ( content ) ( tabledAgenda ) );
+
+			}).fail( function() { 
+
+                
+				$('#agenda-grid').html( Handlebars.compile ( content ) ( tabledAgenda ) );
+                writeInConsole ("error programme")}
+                );
+
+
+
 
 
 		}).fail( function() { writeInConsole ("error")});
