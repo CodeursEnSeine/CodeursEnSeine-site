@@ -9,16 +9,16 @@
                   {
                         "type":"general",
                         "talks":[
-                            {"id":1 , "time":"8:50", "format":"keynote", "url":"", "title":"Keynote d'ouverture", "description":"Accueil - Présentation du Programme - Keynote Pierre Pezziardi", "room":""}
+                            {"id":1 , "time":"8:50", "format":"keynote", "url":"", "title":"Keynote d'ouverture", "description":"Accueil - Présentation du Programme - Keynote", "room":""}
                         ]
                     },
                      
                     {
                         "type":"web",
                         "talks":[
-                            {"id":10 , "time":"10:25", "format":"conference", "url":"", "title":"User testing - Laurent Demontiers", "room":""},
-                            {"id":11 , "time":"11:25", "format":"conference", "url":"", "title":"Webperf - Jean-Pierre Vincent", "room":""},             
-                            {"id":12 , "time":"12:25", "format":"conference", "url":"", "title":"JS Natif - Matthias Dugué", "room":""}              
+                            {"id":10 , "time":"10:25", "format":"conference", "url":"", "title":"User testing", "room":""},
+                            {"id":11 , "time":"11:25", "format":"conference", "url":"", "title":"Webperf", "room":""},             
+                            {"id":12 , "time":"12:25", "format":"conference", "url":"", "title":"JS Natif", "room":""}              
                         ]
                     },
                     {
@@ -31,26 +31,26 @@
                     {
                         "type":"web",
                         "talks":[               
-                            {"id":13 , "time":"14:15", "format":"conference", "url":"", "title":"SEO - Julien Brousse", "room":""},                  
-                            {"id":14 , "time":"15:15", "format":"conference", "url":"", "title":"A11y - Jonathan Pansiot", "room":""},                  
+                            {"id":13 , "time":"14:15", "format":"conference", "url":"", "title":"SEO", "room":""},                  
+                            {"id":14 , "time":"15:15", "format":"conference", "url":"", "title":"A11y", "room":""},                  
                             {"id":15 , "time":"16:15", "format":"conference", "url":"", "title":"Qualité Web", "room":""}                  
                         ]
                     },
                     {
                         "type":"agile",
                         "talks":[
-                            {"id":30 , "time":"10:25", "format":"conference", "url":"", "title":"Software Craftmanship - Jean Laurent de Morlhon", "room":""},
-                            {"id":31 , "time":"11:25", "format":"conference", "url":"", "title":"Lean Startup - Matthieu Garde-Lebreton", "room":""},             
-                            {"id":32 , "time":"12:25", "format":"conference", "url":"", "title":"Continuous Delivery chez capitainetrain.com - Frédéric Menou", "room":""},                  
-                            {"id":33 , "time":"14:15", "format":"conference", "url":"", "title":"Live Coding - David Gageot", "room":""},                  
-                            {"id":34 , "time":"15:15", "format":"conference", "url":"", "title":"Real Options - Pascal Van Cauwenberghe ", "room":""},                  
-                            {"id":35 , "time":"16:15", "format":"conference", "url":"", "title":"Live coding Test Javascript - Jean Laurent de Morlhon & David Gageot", "room":""}                   
+                            {"id":30 , "time":"10:25", "format":"conference", "url":"", "title":"Software Craftmanship", "room":""},
+                            {"id":31 , "time":"11:25", "format":"conference", "url":"", "title":"Lean Startup", "room":""},             
+                            {"id":32 , "time":"12:25", "format":"conference", "url":"", "title":"Continuous Delivery chez capitainetrain.com", "room":""},                  
+                            {"id":33 , "time":"14:15", "format":"conference", "url":"", "title":"Live Coding ", "room":""},                  
+                            {"id":34 , "time":"15:15", "format":"conference", "url":"", "title":"Real Options", "room":""},                  
+                            {"id":35 , "time":"16:15", "format":"conference", "url":"", "title":"Live coding Test Javascript", "room":""}                   
                         ]
                     },
                     {
                         "type":"java",
                         "talks":[
-                            {"id":50 , "time":"10:25", "format":"conference", "url":"", "title":"MongoDB - Katia Aresti & Stéphane Godbillon", "room":""},
+                            {"id":50 , "time":"10:25", "format":"conference", "url":"", "title":"MongoDB", "room":""},
                             {"id":51 , "time":"11:25", "format":"conference", "url":"", "title":"Programmation Parallèle", "room":""},             
                             {"id":52 , "time":"12:25", "format":"conference", "url":"", "title":"JEE7 - Antonio Goncalves", "room":""},                  
                             {"id":53 , "time":"14:15", "format":"conference", "url":"", "title":"TP JEE7(1/2)", "room":""},

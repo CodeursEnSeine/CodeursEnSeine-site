@@ -187,6 +187,12 @@ table .agenda-cell-java
     font-weight: bold;
 }
 
+
+.speakers-inside-links
+{
+	font-size: 70%;
+}
+
 .speakers-inside-talks
 {
 	font-size: 70%;

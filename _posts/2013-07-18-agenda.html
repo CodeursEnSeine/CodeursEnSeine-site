@@ -212,13 +212,14 @@ var tablesize=5;
                     {
                         sp.talks.forEach( function(splt,spj)
                         {
-                           if ((map_speakers.length=0)||(map_speakers[splt.id]!= 'undefined')||(map_speakers[splt.id].length=0))
+                           if ((map_speakers.length===0) || ( map_speakers[splt.id] === undefined))
                            {
                           	 map_speakers[splt.id]=new Array();
                           	 map_speakers[splt.id][0]=sp;
                           	}
                           	else
                           	{
+
                           		map_speakers[splt.id][map_speakers[splt.id].length]=sp;
                           	}
 

@@ -36,17 +36,17 @@ label: Intervenants
         <div class="span11" id="sp_<%id%>">
         <p><strong><%fullname%> :</strong> <%description%></p>
         <%#if liens%>
-        <p>
+        <p class="speakers-inside-links">
         <%#each liens%>
             <a href="<%url%>"><%label%></a>
         <%/each%>
         </p>
-        <p class="speakers-inside-talks">
+         <%/if%>
+       
         <%#each talks%>
-            <strong><%title%></strong> : <%description%>
+             <p class="speakers-inside-talks"><strong><%title%></strong> : <%description%></p>
         <%/each%>
-        </p>
-        <%/if%>
+       
     </div>
 </div>
 <hr />
