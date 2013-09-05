@@ -52,7 +52,7 @@
                         "talks":[
                             {"id":50 , "time":"10:25", "format":"conference", "url":"", "title":"MongoDB", "room":""},
                             {"id":51 , "time":"11:25", "format":"conference", "url":"", "title":"Programmation Parallèle", "room":""},             
-                            {"id":52 , "time":"12:25", "format":"conference", "url":"", "title":"JEE7 - Antonio Goncalves", "room":""},                  
+                            {"id":52 , "time":"12:25", "format":"conference", "url":"", "title":"JEE7", "room":""},                  
                             {"id":53 , "time":"14:15", "format":"conference", "url":"", "title":"TP JEE7(1/2)", "room":""},
                             {"id":54 , "time":"14:15", "format":"conference", "url":"", "title":"Cloud - Introduction", "room":""},    
                             {"id":55 , "time":"14:15", "format":"conference", "url":"", "title":"Dev Ops", "room":""},                   
