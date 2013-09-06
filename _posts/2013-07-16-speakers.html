@@ -34,7 +34,7 @@ label: Intervenants
         <div class="speaker-type"><%type%></div>
         </div>
         <div class="span11" >
-        <p><strong> <a name="sp_<%id%>" id="sp_<%id%>" href="#sp_<%id%>"><%fullname%></a> :</strong> <%description%></p>
+        <p><strong> <a name="sp_<%id%>" id="sp_<%id%>" href="#sp_<%id%>"><%fullname%></a> :</strong> <#description#></p>
         <%#if liens%>
         <p class="speakers-inside-links">
         <%#each liens%>
@@ -44,7 +44,7 @@ label: Intervenants
          <%/if%>
        
         <%#each talks%>
-             <p class="speakers-inside-talks"><strong><%title%></strong> : <%description%></p>
+             <p class="speakers-inside-talks"><strong><%title%></strong> : <#description#></p>
         <%/each%>
        
     </div>
@@ -75,7 +75,7 @@ function writeInConsole (text) {
 		$.getJSON('/speakers-2013.json').done(function(data) {
 			 writeInConsole ("success speakers");
 			 writeInConsole ($( '#speakers-template' ).html());
-			 var content=$( '#speakers-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}');
+			 var content=$( '#speakers-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}').replace(/<#/g, '\{\{\{').replace(/#>/g, '\}\}\}');
 			 writeInConsole (content);
 			 
              $.getJSON('/programme-2013.json').done(function(data_agenda) {
