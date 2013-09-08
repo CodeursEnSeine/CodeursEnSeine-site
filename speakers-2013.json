@@ -176,7 +176,15 @@
         "fullname": "Samuel Liard",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-liard.png",
         "description": "Fondateur de la société Apptom, il met en avant son expertise sur la conception et le développement de services web en accompagnant les entreprises à migrer vers des offres de cloud computing (IAAS ou PAAS en fonction du besoin). Architecte Logiciel chez Orange Labs à Lannion pendant 8 ans, Samuel Liard a 13 ans d'expérience dans le développement et plus spécifiquement dans le monde JEE. En 2011 il a créé l'association Code d'Armor qui anime des soirées techniques une fois par mois. Toujours dans ce cadre il coorganise en 2012 la seconde édition du Startup Week-end Bretagne à Lannion.",
-       "liens": [],
+        "liens": [
+            {
+            "url": "http://www.twitter.com/sliard",
+            "label": "Twitter"
+            },
+            {
+            "url": "http://www.linkedin.com/in/samuelliard",
+            "label": "linkedIn"
+            }],
         "type": "Java",
         "talks": [ {"id":"54"}]
     },
@@ -228,7 +236,7 @@
         "id": 308,
         "fullname": "Christophe Jollivet",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-cjollivet.jpg",
-        "description": "",
+        "description": "Leader technique chez Apside, Christophe prêche les bonnes pratiques sur divers projets informatiques et universités en région tourangelle. Reconverti  il y a 10 ans suite à un doctorat de neurobiologie, il contribue activement dans les communautés Java en ayant été co-responsable de la rubrique Java du site developpez.com mais aussi en participant à des conférences et en animant depuis 2008 le Tours JUG.",
         "liens": [
         {
             "url": "http://jollivetc.blogspot.fr",
