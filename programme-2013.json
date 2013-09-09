@@ -16,7 +16,7 @@
                     {
                         "type":"web",
                         "talks":[
-                            {"id":10 , "time":"10:25", "format":"conference", "url":"", "title":"User testing", "room":""},
+                            {"id":10 , "time":"10:25", "format":"conference", "url":"", "title":"Penser le persuavive Design", "room":"", "description":"Une intervention de 20 min pour présenter la théorie de l'engagement, la manière de l'intégrer dans les processus de conception d'interfaces, et son ROI."},
                             {"id":11 , "time":"11:25", "format":"conference", "url":"", "title":"Webperf", "room":""},             
                             {"id":12 , "time":"12:25", "format":"conference", "url":"", "title":"JS Natif", "room":""}              
                         ]

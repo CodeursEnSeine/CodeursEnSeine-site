@@ -14,7 +14,10 @@
         "fullname": "Laurent Demontiers",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-demontiers.jpg",
         "description": "Web Consultant-AMOA-UX / Startuper / Teacher / Speaker / Organisateur des Rencontres Interactives de Caen / Dans l'écosystème web depuis 1997.",
-        "liens": [],
+        "liens": [{
+"url": "http://demontiers.com",
+"label": "Blog"
+}],
         "type": "Web",
         "talks": [ {"id":"10"}]
     },
