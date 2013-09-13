@@ -41,7 +41,7 @@ h1 {
 .navbar,
 footer {
 	overflow: hidden;
-	margin: 0;
+	margin: .2em 0;
 }
 
 .header-main h1 {
@@ -53,6 +53,8 @@ footer {
 	display: inline-block;
 	font-weight: bold;
 	letter-spacing: -2px;
+	line-height: 1.5em;
+	vertical-align: middle;
 }
 
 /* Layout
@@ -115,8 +117,22 @@ footer {
 /* Sponsor line
 -------------------------------------------------- */
 
-.smallthumbnail {
-	height: 50px;
+.sponsorline ul {
+	margin: 0 8px 1em 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sponsorline li {
+	float: left;
+	margin: 0 0 .5em 1%;
+	padding: 0;
+	width: 13.25%;
+	list-style-type: none;
+}
+
+.sponsorline li im {
+	max-width: 100%;
 }
 
 /* footer */
@@ -136,11 +152,6 @@ hr {
 	font-size: 150%;
 	color: white;
 	padding: 15px;
-}
-
-.tagline2
-{
-line-height:180%; 
 }
 
 /* Agenda

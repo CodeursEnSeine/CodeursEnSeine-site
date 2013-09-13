@@ -4,22 +4,13 @@ label: Intervenants
 ---
 
 <div class="row-fluid">
-					<div class="span12">
-                        
-                        
-                       
-                        
-                        
-						<div id="intervenants" class="section well">
-							<h2>Intervenants</h2>
-                            
-                            <p><a href="speakers-static.html">Version accessible / statique</a></p>
-                            
-                            <div id="speakers-grid">
-			                 </div>
-							
-						</div>
-					</div>
+	<div class="span12">            
+		<div id="intervenants" class="section well">
+			<h2>Intervenants</h2>
+         <p><a href="speakers-static.html">Version accessible / statique</a></p>         
+         <div id="speakers-grid"></div>
+		</div>
+	</div>
 </div>
 
 
@@ -29,7 +20,7 @@ label: Intervenants
 <div class='row-fluid'>
     <div class="span1">
         <%#if avatar%>
-        <img src="<%avatar%>" class="img-polaroid"/>
+        	<img src="<%avatar%>" class="img-polaroid" alt="<%fullname%>"/>
         <%/if%>
         <div class="speaker-type"><%type%></div>
         </div>
@@ -42,11 +33,9 @@ label: Intervenants
         <%/each%>
         </p>
          <%/if%>
-       
         <%#each talks%>
              <p class="speakers-inside-talks"><strong><%title%></strong> : <#description#></p>
         <%/each%>
-       
     </div>
 </div>
 <hr />
@@ -64,11 +53,6 @@ function writeInConsole (text) {
         alert(text);    
     }
 }
-
-
-
-
-
 
 	$(function() {
 		 writeInConsole ("calling json")
@@ -127,10 +111,6 @@ function writeInConsole (text) {
                 $('#speakers-grid').html( Handlebars.compile ( content ) ( data ) );
                 writeInConsole ("error agenda")}
                 );
-
-
-			 
-
 
 		}).fail( function() { writeInConsole ("error speakers")});
 	});
