@@ -32,8 +32,9 @@ label: Programme
 								<th class="agenda-cell-time"><%time%></th>
 						
 								<%#each talks%>
-										<td colspan="<%size%>"  class="agenda-cell agenda-cell-<%type%> agenda-cell-<%format%>">
-										<%title%>
+								    <td colspan="<%size%>"  class="agenda-cell agenda-cell-<%type%> agenda-cell-<%format%>">
+
+                                        <a href="#talk<%id%>" data-toggle="modal" ><%title%></a>
 										<%#each speakers%>
 										<br/>
 										<a href="/speakers-static.html#sp_<%id%>"><%fullname%></a>
@@ -48,6 +49,44 @@ label: Programme
 
 					<%/jours%>
 				<%/programme%>
+
+                <%#programme%>
+                    <%#jours%>
+                        <%#each schedules%>
+                            <%#each talks%>
+                                <div id="talk<%id%>" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="title<%id%>" aria-hidden="true">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 id="title<%id%>"><%title%></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Présenté par
+                                        <ul class="media-list">
+                                            <%#each speakers%>
+                                            <li class="media">
+                                                <a class="pull-left">
+                                                    <img src="<%avatar%>" style="max-height: 64px;max-width: 64px"/>
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">
+                                                        <br/>
+                                                        <a href="/speakers-static.html#sp_<%id%>"><%fullname%></a>
+                                                    </h4>
+                                                </div>
+                                            </li>
+                                            <%/each%>
+                                        </ul>
+                                        </p>
+                                        <p><#description#></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            <%/each%>
+                        <%/each%>
+                    <%/jours%>
+                <%/programme%>
 			</script>
 <script>
 
@@ -95,7 +134,7 @@ var tablesize=5;
 		$.getJSON('/programme-2013.json').done(function(data) {
 			 writeInConsole ("success");
 			 writeInConsole ($( '#agenda-template' ).html());
-			 var content=$( '#agenda-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}');
+			 var content=$( '#agenda-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}').replace(/<#/g, '\{\{\{').replace(/#>/g, '\}\}\}');;
 			 writeInConsole (content);
 			 
 
