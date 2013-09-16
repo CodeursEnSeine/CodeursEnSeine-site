@@ -199,13 +199,16 @@ table .agenda-cell-java
 
 .speakers-inside-links,
 .speakers-inside-talks {
+	width: 100%;
+	overflow: hidden;
 	line-height: 1.4em;
 	font-size: .8em;
 }
 
-.speakers-inside-talks {
-	margin: .2em;
-	padding: 1em 1em .5em;
+.speakers-inside-talks span {
+	display: block;
+	margin: 0;
+	padding: .5em 1em .5em;
 	border: 1px solid #ddd;
 	background: #ececec;
 }
@@ -218,4 +221,27 @@ table .agenda-cell-java
 	border: 3px solid #4081bd;
 	background: #4081bd;
 	
+}
+
+.speakers-inside-links ul {
+	overflow: hidden;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+.speakers-inside-links li {
+	padding-bottom: 3px;
+	float: left;
+	margin-right: .7em;
+	list-style-type: none;
+}
+
+.speakers-inside-links li a {
+	padding-bottom: 1px;
+	text-decoration: none;
+	border-bottom: 2px solid #4081bd;
+}
+
+.speakers-inside-links li a:hover {
+	border-bottom: 2px solid #333;
 }

@@ -36,7 +36,7 @@ label: Intervenants
         </div>
          <%/if%>
         <%#each talks%>
-             <div class="speakers-inside-talks"><p><strong><%title%></strong> <#description#></p></div>
+             <div class="speakers-inside-talks"><p><strong><%title%></strong> <%#if description%><span><#description#></span><%/if%></p></div>
         <%/each%>
     </div>
 </div>
