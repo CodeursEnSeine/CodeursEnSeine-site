@@ -15,9 +15,13 @@
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-demontiers.jpg",
         "description": "Web Consultant-AMOA-UX / Startuper / Teacher / Speaker / Organisateur des Rencontres Interactives de Caen / Dans l'écosystème web depuis 1997.",
         "liens": [{
-"url": "http://demontiers.com",
-"label": "Blog"
-}],
+					"url": "http://demontiers.com",
+					"label": "Blog"
+					},
+					{
+          "url": "http://twitter.com/L_Demontiers",
+          "label": "Twitter"
+          }],
         "type": "Web",
         "talks": [ {"id":"10"}]
     },
@@ -26,7 +30,11 @@
         "fullname": "Matthias Dugué",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-mads.jpg",
         "description": "Consultant/Développeur aujourd'hui chez Clever Age, il parcours la toile sans relâche, à la recherche de l'élixir de qualité, de la pierre d'innovation, et de la poudre d'accessibilité. D'un optimisme sans faille, il poursuit inlassablement sa quête au côté d'autres valeureux compagnons, pour libérer le web de ses démons…",
-        "liens": [],
+        "liens": [
+				{
+        "url": "http://twitter.com/madsgraphics",
+        "label": "Twitter"
+        }],
         "type": "Web",
         "talks": [ {"id":"12"}]
     },
@@ -35,7 +43,15 @@
         "fullname": "Jean-Pierre Vincent",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jean-pierre-vincent.jpg",
         "description": "Expert en application Web et maître accélérateur de pages. Codeur frontend depuis 2000, Jean-pierre est maintenant freelance pour aider son prochain à dompter les navigateurs, et fournir des sites de qualité aux utilisateurs. Ses armes sont la formation, le conseil et oui encore un peu de code front ! 'La performance, c'est le tueur invisible de la qualité.'",
-        "liens": [],
+        "liens": [
+				{
+				"url": "http://braincracking.org",
+				"label": "Blog"
+				},
+				{
+        "url": "http://twitter.com/jpierrevincent",
+        "label": "Twitter"
+        }],
         "type": "Web",
         "talks": [ {"id":"11"}]
     },
@@ -53,7 +69,10 @@
         "fullname": "Jonathan Pansiot",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jonathan-pansiot.jpg",
         "description": "Intégrateur spécialisé en accessibilité chez Alter Way. Il mène les audits et valide les exigences en matière d’accessibilité. Jonathan se spécialise particulièrement dans les réflexions sur la mise en place au sein des cycles de productions des exigences qualité et accessibilité, ainsi que dans la conception des interfaces riches avec Wai-Aria.",
-        "liens": [],
+        "liens": [{
+        "url": "http://twitter.com/uxlco",
+        "label": "Twitter"
+        }],
         "type": "Web",
         "talks": [ {"id":"14"}]
     },
