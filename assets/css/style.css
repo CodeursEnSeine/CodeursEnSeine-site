@@ -205,14 +205,6 @@ table .agenda-cell-java
 	font-size: .8em;
 }
 
-.speakers-inside-talks span {
-	display: block;
-	margin: 0;
-	padding: .5em 1em .5em;
-	border: 1px solid #ddd;
-	background: #ececec;
-}
-
 .speakers-inside-talks strong {
 	display: inline-block;
 	margin-right: .2em;
@@ -221,6 +213,14 @@ table .agenda-cell-java
 	border: 3px solid #4081bd;
 	background: #4081bd;
 	
+}
+
+.speakers-inside-talks span {
+	display: block;
+	margin: 0;
+	padding: .5em 1em .5em;
+	border: 1px solid #ddd;
+	background: #ececec;
 }
 
 .speakers-inside-links ul {
