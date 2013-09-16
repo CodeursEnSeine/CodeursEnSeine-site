@@ -191,20 +191,31 @@ table .agenda-cell-java
 
 /* Speakers
 -------------------------------------------------- */
-.speaker-type
-{
+.speaker-type {
     text-align: center;
     text-shadow: 2px 1px #AAA;
     font-weight: bold;
 }
 
-
-.speakers-inside-links
-{
-	font-size: 70%;
+.speakers-inside-links,
+.speakers-inside-talks {
+	line-height: 1.4em;
+	font-size: .8em;
 }
 
-.speakers-inside-talks
-{
-	font-size: 70%;
+.speakers-inside-talks {
+	margin: .2em;
+	padding: 1em 1em .5em;
+	border: 1px solid #ddd;
+	background: #ececec;
+}
+
+.speakers-inside-talks strong {
+	display: inline-block;
+	margin-right: .2em;
+	line-height: 1em;
+	color: #fff;
+	border: 3px solid #4081bd;
+	background: #4081bd;
+	
 }

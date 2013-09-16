@@ -25,16 +25,18 @@ label: Intervenants
         <div class="speaker-type"><%type%></div>
         </div>
         <div class="span11" >
-        <p><strong> <a name="sp_<%id%>" id="sp_<%id%>" href="#sp_<%id%>"><%fullname%></a> :</strong> <#description#></p>
+        <p><strong> <a name="sp_<%id%>" id="sp_<%id%>" href="#sp_<%id%>"><%fullname%></a></strong> : <#description#></p>
         <%#if liens%>
-        <p class="speakers-inside-links">
-        <%#each liens%>
-            <a href="<%url%>"><%label%></a>
-        <%/each%>
-        </p>
+        <div class="speakers-inside-links">
+					<ul>
+						<%#each liens%>
+		           <li><a href="<%url%>"><%label%></a></li>
+		        <%/each%>
+					</ul>
+        </div>
          <%/if%>
         <%#each talks%>
-             <p class="speakers-inside-talks"><strong><%title%></strong> : <#description#></p>
+             <div class="speakers-inside-talks"><p><strong><%title%></strong> <#description#></p></div>
         <%/each%>
     </div>
 </div>

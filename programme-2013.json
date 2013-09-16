@@ -17,8 +17,8 @@
                         "type":"web",
                         "talks":[
                             {"id":10 , "time":"10:25", "format":"conference", "url":"", "title":"Penser le persuavive Design", "room":"", "description":"Une intervention de 20 min pour présenter la théorie de l'engagement, la manière de l'intégrer dans les processus de conception d'interfaces, et son ROI."},
-                            {"id":11 , "time":"11:25", "format":"conference", "url":"", "title":"Webperf", "room":""},             
-                            {"id":12 , "time":"12:25", "format":"conference", "url":"", "title":"JS Natif", "room":""}              
+                            {"id":11 , "time":"11:25", "format":"conference", "url":"", "title":"Les performances Web", "description":"La performance, c'est le tueur invisible de la qualité du site. Accélérer un site doit faire aujourd'hui partie des compétences de base des développeurs web, pourtant des nouvelles techniques et stratégies sortent tous les jours.<br />Tirée de l'expérience, d'une formation pro et d'années de veille, nous allons voir en une heure les techniques incontournables ainsi que les outils et les process à mettre en place pour améliorer et maintenir la qualité de ses pages.","room":""},             
+                            {"id":12 , "time":"12:25", "format":"conference", "url":"", "title":"JS Natif", "description":"Les améliorations des navigateurs dans l'interprétation du JavaScript et les besoins de réduire le poids des pages rendent l'utilisation de librairies comme jQuery ou Mootools bien inutile. Passer par du JS natif permet de coder de manière plus fine et plus lègère.", "room":""}              
                         ]
                     },
                     {
@@ -31,8 +31,8 @@
                     {
                         "type":"web",
                         "talks":[               
-                            {"id":13 , "time":"14:15", "format":"conference", "url":"", "title":"SEO", "room":""},                  
-                            {"id":14 , "time":"15:15", "format":"conference", "url":"", "title":"A11y", "room":""},                  
+                            {"id":13 , "time":"14:15", "format":"conference", "url":"", "title":"Tu l'as vu mon site ?", "description":"Améliorer le placement de son site est un besoin essentiel pour valoriser ses contenus. S'il existe des techniques éprouvées pour l'amélioration de son trafic ; une stratégie de référencement ne s'improvise pas, elle demande une définition précise de ses objectifs et un suivi assidu de son positionnement", "room":""},    
+                            {"id":14 , "time":"15:15", "format":"conference", "url":"", "title":"Les horizons de l'accessibilité","description":"De loin, l'accessibilité, c'est bien pour les personnes présentant des handicaps. Mais à y regarder de plus près, on y perçoit une véritable attention portée sur la construction de son code. Véritable discipline transversale aux métier du web ; l'accessibilité est un vecteur d'amélioration globale de la qualité.", "room":""},                  
                             {"id":15 , "time":"16:15", "format":"conference", "url":"", "title":"Qualité Web", "room":""}                  
                         ]
                     },
