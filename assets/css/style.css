@@ -157,40 +157,156 @@ hr {
 /* Agenda
 -------------------------------------------------- */
 
-
-table .agenda-cell {
-     text-align: center;
-     font-size: 80%;
-        
+.agenda-table {
+	border: #999 2px solid;
 }
 
-table .agenda-cell-time
-{
-	text-align: right;
-}
-
-table .agenda-cell-hdr
-{
+.agenda-table thead th {
+	padding: .7em;
+	color: #fff;
+	background: #222;
 	text-align: center;
+	border: none;
+	border-bottom: #555 8px solid;
+	border-radius: none;
 }
 
-table .agenda-cell-web
-{
-    background: pink;
+.agenda-table thead th.agenda-cell-hdr {
+	letter-spacing: 10px;
+	border-left: #555 1px solid;
 }
 
-table .agenda-cell-agile
-{
-    background: lightgreen;
+.agenda-table a:hover {
+	text-decoration: none;
+	color: #000;
 }
 
-table .agenda-cell-java
-{
-    background: lightblue;
+.agenda-table td {
+  text-align: center;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+.agenda-table tr {
+	border-bottom: 2px solid #999;
+}
+
+.agenda-table .agenda-cell-time {
+	text-align: right;
+	vertical-align: middle;
+	font-size: 1.2em;
+	color: #000;
+	background: #eee;
+}
+
+.agenda-table .agenda-cell-keynote,
+.agenda-table .agenda-cell-break {
+	height: 50px;
+	line-height: 1.2em;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	background: #f1f1f1;
+}
+
+.agenda-table .agenda-cell-keynote a {
+	position: relative;
+}
+
+.agenda-table span.agenda-title a {
+	display: inline-block;
+	padding: .5em .1em;
+	min-height: 40px;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-title a:hover {
+	text-decoration: underline;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-title a {
+	color: #555;
+}
+
+.agenda-table span.agenda-fullname {
+	margin-bottom: 1em;
+}
+
+.agenda-table span.agenda-fullname a {
+	font-size: 85%;
+}
+
+.agenda-table span.agenda-fullname:before {
+	position: relative;
+	content: "-";
+	top: 2%;
+	left: -.3%;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-fullname:nth-child(2):before {
+	content: "";
+}
+
+.agenda-table .agenda-cell-break {
+		letter-spacing: 30px;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-title {
+	display: block;
+}
+
+.agenda-table .agenda-cell-web,
+.agenda-table .agenda-cell-agile,
+.agenda-table .agenda-cell-java {
+	position: relative;
+	overflow: hidden;
+	padding: 0 0 1em;
+  background: rgba(255, 59, 0,.05);
+}
+
+.agenda-table .agenda-cell-agile {
+  background: rgba(114, 255, 0,.05);
+}
+
+.agenda-table .agenda-cell-java {
+  background: rgba(64, 129, 189,.05);
+}
+
+.agenda-table .agenda-cell-web:before,
+.agenda-table .agenda-cell-agile:before,
+.agenda-table .agenda-cell-java:before {
+	position: relative;
+	display: block;
+	margin: 20px 0px -20px 0;
+	padding: 0 3px;
+	height: 100%;
+	content: "Web";
+	color: rgba(255, 59, 0,.1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	z-index: 0;
+
+	-webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+}
+
+.agenda-table .agenda-cell-agile:before {
+  content: "Agile";
+	color: rgba(114, 255, 0,.1);
+}
+
+.agenda-table .agenda-cell-java:before {
+	content: "Java";
+	color: rgba(64, 129, 189,.1);
 }
 
 /* Speakers
 -------------------------------------------------- */
+
 .speaker-type {
     text-align: center;
     text-shadow: 2px 1px #AAA;
