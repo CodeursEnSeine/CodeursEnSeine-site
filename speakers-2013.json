@@ -3,7 +3,7 @@
         "id": 1,
         "fullname": "Pierre Pezziardi",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-pezziardi.jpg",
-        "description": "Entrepreneur, co­fondateur du cabinet de conseil OCTO Technology, co­fondateur de l’Université du SI, fondateur d’OpenCBS Microfinance, créateur de NotreBanque, auteur, conférencier, il promeus l’idée d’Informatique Conviviale : des systèmes destinés à décloisonner les organisations et à rendre leur autonomie aux équipes.",
+        "description": "Entrepreneur, co­fondateur du cabinet de conseil OCTO Technology, co­fondateur de l’Université du SI, fondateur d’OpenCBS Microfinance, créateur de NotreBanque, auteur, conférencier, il promeut l’idée d’Informatique Conviviale : des systèmes destinés à décloisonner les organisations et à rendre leur autonomie aux équipes.",
         "liens": [],
         "type": "Keynote",
         "talks": [ {"id":"1"}]
@@ -29,7 +29,7 @@
         "id": 102,
         "fullname": "Matthias Dugué",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-mads.jpg",
-        "description": "Consultant/Développeur aujourd'hui chez Clever Age, il parcours la toile sans relâche, à la recherche de l'élixir de qualité, de la pierre d'innovation, et de la poudre d'accessibilité. D'un optimisme sans faille, il poursuit inlassablement sa quête au côté d'autres valeureux compagnons, pour libérer le web de ses démons…",
+        "description": "Consultant/Développeur aujourd'hui chez Clever Age, il parcourt la toile sans relâche, à la recherche de l'élixir de qualité, de la pierre d'innovation, et de la poudre d'accessibilité. D'un optimisme sans faille, il poursuit inlassablement sa quête au côté d'autres valeureux compagnons, pour libérer le web de ses démons…",
         "liens": [
 				{
         "url": "http://twitter.com/madsgraphics",
@@ -81,7 +81,7 @@
         "id": 201,
         "fullname": "David Gageot",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-gageot.jpeg",
-        "description": "développeur indépendant. Ma passion ? L'écriture de logiciels pointus mais simples. J'ai pour leitmotiv d'être un facilitateur qui, par ma créativité et mon expertise, aide les équipes à être plus innovantes et plus efficaces. Depuis 2010, j'ai pris le leadership sur le projet open-source Infinitest. Un plugin pour Eclipse et IntelliJ qui permet, après chaque changement de code, de jouer les tests unitaires potentiellement impactés.",
+        "description": "développeur indépendant. Sa passion ? L'écriture de logiciels pointus mais simples. Il a pour leitmotiv d'être un facilitateur qui, par sa créativité et son expertise, aide les équipes à être plus innovantes et plus efficaces. Depuis 2010, il a pris le leadership sur le projet open-source Infinitest : un plugin pour Eclipse et IntelliJ qui permet, après chaque changement de code, de jouer les tests unitaires potentiellement impactés.",
        "liens": [{
 "url": "http://code-story.net/",
 "label": "CodeStory"
@@ -106,7 +106,7 @@
         "id": 203,
         "fullname": "Jean Laurent de Morlhon",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-morlhon.png",
-        "description": "CTO @ Xebia Studio, Mr FooBarQix @ CodeStory, adore développer simplement & intelligement avec des développeurs passionnés. Fidèle défenseur du développeur, explore le mouvement Software Craftsmanship.",
+        "description": "CTO @ Xebia Studio, Mr FooBarQix @ CodeStory, adore développer simplement & intelligemment avec des développeurs passionnés. Fidèle défenseur du développeur, explore le mouvement Software Craftsmanship.",
        "liens": [{
 "url": "http://code-story.net",
 "label": "CodeStory"
@@ -143,7 +143,7 @@
         "id": 205,
         "fullname": "Matthieu Garde-Lebreton",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-mgarde.jpg",
-        "description": "Entrepreneur à temps plein et pratiquant Lean convaincu, passionné par l’innovation et investi dans la création de Startups depuis l'école. Il apprend continuellement par la pratique, la rencontre d'autres entrepreneurs, et la lecture. Fondateur de Lean Startup France, un cabinet de conseil qui aide les entrepreneurs à bâtir une Startup à partir de leur vision et de leurs idées, grâce à la philosophie Lean Startup et les techniques de Customer Development. En parallèle, Matthieu teste en permanence de nouvelles idées. Egalement ingénieur logiciel spécialisé dans la tehcnologie Microsoft .NET.",
+        "description": "Entrepreneur à temps plein et pratiquant Lean convaincu, passionné par l’innovation et investi dans la création de Startups depuis l'école. Il apprend continuellement par la pratique, la rencontre d'autres entrepreneurs, et la lecture. Fondateur de Lean Startup France, un cabinet de conseil qui aide les entrepreneurs à bâtir une Startup à partir de leur vision et de leurs idées, grâce à la philosophie Lean Startup et les techniques de Customer Development. En parallèle, Matthieu teste en permanence de nouvelles idées. Également ingénieur logiciel spécialisé dans la technologie Microsoft .NET.",
        "liens": [{
 "url": "http://matthieugarde.com/",
 "label": "Blog"
