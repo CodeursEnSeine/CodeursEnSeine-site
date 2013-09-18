@@ -290,20 +290,14 @@
     {
         "id": 309,
         "fullname": "Katia Aresti",
-        "avatar": "",
-        "description": "",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-karesti.jpg",
+        "description": "Membre de <a href=\"http://www.duchess-france.org/open-space-nosql/\">Duchess France</a>, du <a href=\"http://www.meetup.com/Paris-MongoDB-User-Group/\">MongoDB User Group à Paris</a> et <a href=\"http://www.mongodb.org/\">MongoDB</a> master depuis 2012, travaille depuis 2005 dans l’informatique. D’abord comme consultant Sopra et Xebia, puis comme freelance depuis septembre 2012. Elle travaille principalement autour de la plateforme Java, mais aussi accessoirement sur la plateforme PHP. Elle travaille avec MongoDB depuis 2010, elle a débuté au sein de l’équipe <a href=\"http://www.urbandive.com/\">UrbanDive/Mappy</a>, qui a été l’une des premières à adopter MongoDB en production en France.  Elle intervient sur les sujets autour de Java et MongoDB sous la forme de présentations formelles, open-spaces ou workshops. Elle est passionnée par l’agilité, l’open-source et par contribution communautaire.",
         "liens": [
+        {
+            "url":"https://twitter.com/karesti",
+            "label":"Twitter"
+       }
         
-       ],
-        "type": "Java",
-        "talks": [ {"id":"50"}]
-    },
-    {
-        "id": 310,
-        "fullname": "Stéphane Godbillon",
-        "avatar": "",
-        "description": "",
-        "liens": [
         
        ],
         "type": "Java",
