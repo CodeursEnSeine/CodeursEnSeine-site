@@ -91,7 +91,7 @@
 "label": "Twitter"
 }],
         "type": "Agile",
-        "talks": [ {"id":"33"},{"id":"35"}]
+        "talks": [ {"id":"33"}]
     },
     {
         "id": 202,
@@ -106,7 +106,7 @@
         "id": 203,
         "fullname": "Jean Laurent de Morlhon",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-morlhon.png",
-        "description": "CTO @ Xebia Studio, Mr FooBarQix @ CodeStory, adore développer simplement & intelligemment avec des développeurs passionnés. Fidèle défenseur du développeur, explore le mouvement Software Craftsmanship.",
+        "description": "CTO @ Serpodile, Mr FooBarQix @ CodeStory, adore développer simplement & intelligemment avec des développeurs passionnés. Fidèle défenseur du développeur, explore le mouvement Software Craftsmanship.",
        "liens": [{
 "url": "http://code-story.net",
 "label": "CodeStory"
