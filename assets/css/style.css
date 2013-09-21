@@ -255,6 +255,7 @@ hr {
 
 .agenda-table .agenda-cell-conference span.agenda-title {
 	display: block;
+	position: relative;
 }
 
 .agenda-table .agenda-cell-web,
@@ -288,7 +289,6 @@ hr {
 	font-size: 4em;
 	font-weight: bold;
 	z-index: 0;
-
 	-webkit-transform:rotate(-20deg);
 	-moz-transform:rotate(-20deg);
 	transform:rotate(-20deg);
