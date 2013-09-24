@@ -76,6 +76,23 @@
         "type": "Web",
         "talks": [ {"id":"14"}]
     },
+		{
+        "id": 106,
+        "fullname": "Delphine Malassingne ",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-delphine-malassingne.jpg",
+        "description": "De formation initiale artistique, je me suis très vite intéressée au web. J'ai eu la chance d'être rapidement formée aux standards du web, à l'accessibilité, aux problématiques du web de qualité. Mon parcours a donc toujours suivi ces objectifs et c'est ainsi que je suis devenue responsable qualité web.",
+        "liens": [
+				{
+				"url": "http://nissone.com/",
+				"label": "Blog"
+				},
+				{
+        "url": "http://twitter.com/Nissone",
+        "label": "Twitter"
+        }],
+        "type": "Web",
+        "talks": [ {"id":"15"}]
+    },
 
     {
         "id": 201,
