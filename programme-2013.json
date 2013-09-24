@@ -33,7 +33,7 @@
                         "talks":[               
                             {"id":13 , "time":"14:15", "format":"conference", "url":"", "title":"As-tu vu mon site ?", "description":"Améliorer le placement de son site est un besoin essentiel pour valoriser ses contenus. S'il existe des techniques éprouvées pour l'amélioration de son trafic ; une stratégie de référencement ne s'improvise pas, elle demande une définition précise de ses objectifs et un suivi assidu de son positionnement", "room":""},    
                             {"id":14 , "time":"15:15", "format":"conference", "url":"", "title":"Horizons de l'accessibilité","description":"De loin, l'accessibilité, c'est bien pour les personnes présentant des handicaps. Mais à y regarder de plus près, on y perçoit une véritable attention portée sur la construction de son code. Véritable discipline transversale aux métier du web ; l'accessibilité est un vecteur d'amélioration globale de la qualité.", "room":""},                  
-                            {"id":15 , "time":"16:15", "format":"conference", "url":"", "title":"Qualité web", "room":""}                  
+                            {"id":15 , "time":"16:15", "format":"conference", "url":"", "title":"Table ronde sur la qualité web","description":"Discussion animée à propos de la manière de promouvoir la qualité web dans ses projets", "room":""}                  
                         ]
                     },
                     {
