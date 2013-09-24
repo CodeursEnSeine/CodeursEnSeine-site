@@ -319,6 +319,20 @@
        ],
         "type": "Java",
         "talks": [ {"id":"50"}]
+    },
+    {
+        "id": 310,
+        "fullname": "Bertrand Paquet",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-bpaquet.gif",
+        "description": "Bertrand est architecte senior chez Octo Technology. Il intervient chez ses clients dans des missions d'architecture, d'expertise Java / Ruby, aussi bien coté développement que coté production. A ce titre, il travaille sur des sujets liés à l'infrastructure : conception d'architectures de performances, virtualisation, déploiement multi plateformes, tirs de performances, monitoring et supervision...",
+        "liens": [
+            {
+                "url":"https://twitter.com/_bpaquet",
+                "label":"Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"55"}]
     }
 
 ]
