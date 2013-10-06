@@ -338,7 +338,7 @@
         "id": 311,
         "fullname": "Vincent Massol",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-massol.gif",
-        "description": "Bertrand est architecte senior chez Octo Technology. Il intervient chez ses clients dans des missions d'architecture, d'expertise Java / Ruby, aussi bien coté développement que coté production. A ce titre, il travaille sur des sujets liés à l'infrastructure : conception d'architectures de performances, virtualisation, déploiement multi plateformes, tirs de performances, monitoring et supervision...",
+        "description": "CTO of XWiki SAS and an active committer of the XWiki open source project. Before being paid to work on open source he spent over 10 years working nights and week ends having fun on various open source projects (committer on Apache Maven, creator of Apache Cactus and Codehaus Cargo to name a few).",
         "liens": [
             {
                 "url":"https://twitter.com/vmassol",
@@ -353,7 +353,7 @@
         "id": 2,
         "fullname": "Fabrice Croiseaux",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-fcroiseaux.jpg",
-        "description": "Luxembourg, Innovation, Digital Economy, Web Development, Scala, Java, Philosophy, Ideas, Learning. Podcaster @nipdev @niptechpodcast",
+        "description": "CEO de la société <a href=\"http://www.intech.lu/\"/>InTechw</a>. Passionné de culture numérique, de développement et d’architecture, il a débuté sa carrière en développant des serveurs d’applications Smalltalk avant de migrer sur Java dès 1998. Fabrice est également podcasteur puisqu’il fait partie de l’équipe <a href=\"http://www.niptech.com/\">Niptech</a> et est créateur et coanimateur du podcast nipdev dédié au développement.",
         "liens": [
             {
                 "url":"http://www.niptech.com/podcast/category/nipdev/",
