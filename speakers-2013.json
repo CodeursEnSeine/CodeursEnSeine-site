@@ -347,6 +347,25 @@
         ],
         "type": "Java",
         "talks": [ {"id":"56"}]
+    },
+
+    {
+        "id": 2,
+        "fullname": "Fabrice Croiseaux",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-fcroiseaux.jpg",
+        "description": "Luxembourg, Innovation, Digital Economy, Web Development, Scala, Java, Philosophy, Ideas, Learning. Podcaster @nipdev @niptechpodcast",
+        "liens": [
+            {
+                "url":"http://www.niptech.com/podcast/category/nipdev/",
+                "label":"Nip Dev"
+            },
+            {
+                "url":"https://twitter.com/fxzo",
+                "label":"Twitter"
+            }
+        ],
+        "type": "Podcast",
+        "talks": [ {"id":"3"}]
     }
 
 ]

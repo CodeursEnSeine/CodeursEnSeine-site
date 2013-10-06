@@ -249,6 +249,13 @@ hr {
 	content: "";
 }
 
+
+.agenda-table span.agenda-room {
+	display: block;
+	margin-bottom: 1em;
+	font-size: 85%;
+}
+
 .agenda-table .agenda-cell-break {
 		letter-spacing: 30px;
 }
@@ -328,6 +335,14 @@ hr {
 	color: #fff;
 	border: 3px solid #4081bd;
 	background: #4081bd;
+	
+}
+.room-inside-talks {
+	display: block;
+	color: #fff;
+	border: 2px solid #4081bd;
+	background: #4081bd;
+	margin-bottom: 15px;
 	
 }
 
