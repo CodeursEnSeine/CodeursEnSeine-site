@@ -353,7 +353,7 @@
         "id": 2,
         "fullname": "Fabrice Croiseaux",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-fcroiseaux.jpg",
-        "description": "CEO de la société <a href=\"http://www.intech.lu\"/>InTech</a>.  Passionné de culture numérique, de développement et d’architecture, il a débuté sa carrière en développant des serveurs d’applications Smalltalk avant de migrer sur Java dès 1998. Fabrice est également podcasteur puisqu’il fait partie de l’équipe <a href=\"http://www.niptech.com/\">Niptech</a> et est créateur et coanimateur du podcast nipdev dédié au développement.",
+        "description": "CEO de la société <a href=\"http://www.intech.lu\">InTech</a>.  Passionné de culture numérique, de développement et d’architecture, il a débuté sa carrière en développant des serveurs d’applications Smalltalk avant de migrer sur Java dès 1998. Fabrice est également podcasteur puisqu’il fait partie de l’équipe <a href=\"http://www.niptech.com/\">Niptech</a> et est créateur et coanimateur du podcast nipdev dédié au développement.",
         "liens": [
             {
                 "url":"http://www.niptech.com/podcast/category/nipdev/",
