@@ -68,7 +68,7 @@
                     {
                         "type":"podcast",    
                         "talks":[
-                            {"id":3 , "time":"17:15", "format":"podcast", "url":"", "title":"Enregistrement podcast Nip Dev", "description":"Fabrice nous fait l'honneur de cloturer la conférence par l'enregistrement du prochain numéro de Nip Dev.", "room":"Amphi D"}
+                            {"id":3 , "time":"17:15", "format":"keynote", "url":"", "title":"Enregistrement podcast Nip Dev", "description":"Fabrice nous fait l'honneur de cloturer la conférence par l'enregistrement du prochain numéro de Nip Dev.", "room":"Amphi D"}
                         ]
                     }
                 ]
