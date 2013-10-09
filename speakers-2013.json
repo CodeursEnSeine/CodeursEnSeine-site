@@ -51,7 +51,12 @@
 				{
         "url": "http://twitter.com/jpierrevincent",
         "label": "Twitter"
-        }],
+        },
+        {
+        "url": "http://www.linkedin.com/in/jeanpierrevincent",
+        "label": "LinkedIn"
+        }
+        ],
         "type": "Web",
         "talks": [ {"id":"11"}]
     },
