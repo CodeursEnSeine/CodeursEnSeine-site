@@ -118,79 +118,24 @@ label: TV
 		var slidenb=1;
 		var slidenbmax=14
 		
-		$("#slide1").show();
-		$("#slide2").hide();
-		$("#slide3").hide();
-		$("#slide4").hide();
-		$("#slide5").hide();
-		$("#slide6").hide();
-		$("#slide7").hide();
-		$("#slide8").hide();
-		$("#slide9").hide();
-		$("#slide10").hide();
-		$("#slide11").hide();
-		$("#slide12").hide();
-		$("#slide13").hide();
-
-
-		var timer=$.timer(function change_slide()
+		function hideAll() {
+			for (var numSlide = 1; numSlide <= slidenbmax; numSlide++) {
+				$("#slide" + numSlide).hide();
+			}
+		};
+		
+		function changeSlide()
 		{
-			if (slidenb===1)
-				$("#slide1").show();
-			else
-				$("#slide1").hide();
-			if (slidenb===2)
-				$("#slide2").show();
-			else
-				$("#slide2").hide();
-			if (slidenb===3)
-				$("#slide3").show();
-			else
-				$("#slide3").hide();
-			if (slidenb===4)
-				$("#slide4").show();
-			else
-				$("#slide4").hide();
-			if (slidenb===5)
-				$("#slide5").show();
-			else
-				$("#slide5").hide();
-			if (slidenb===6)
-				$("#slide6").show();
-			else
-				$("#slide6").hide();
-			if (slidenb===7)
-				$("#slide7").show();
-			else
-				$("#slide7").hide();
-			if (slidenb===8)
-				$("#slide8").show();
-			else
-				$("#slide8").hide();
-			if (slidenb===9)
-				$("#slide9").show();
-			else
-				$("#slide9").hide();
-			if (slidenb===10)
-				$("#slide10").show();
-			else
-				$("#slide10").hide();
-			if (slidenb===11)
-				$("#slide11").show();
-			else
-				$("#slide11").hide();
-			if (slidenb===12)
-				$("#slide12").show();
-			else
-				$("#slide12").hide();
-			if (slidenb===13)
-				$("#slide13").show();
-			else
-				$("#slide13").hide();
+			hideAll();
+			$("#slide" + slidenb).show();
 			slidenb++;
 			if (slidenb===slidenbmax)
 				slidenb=1;
-		});
+		}
+		
+		changeSlide();
+
+		var timer=$.timer(changeSlide);
 
 		timer.set({time: delay, autostart: true});
 		timer.play();
