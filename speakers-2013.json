@@ -51,7 +51,12 @@
 				{
         "url": "http://twitter.com/jpierrevincent",
         "label": "Twitter"
-        }],
+        },
+        {
+        "url": "http://www.linkedin.com/in/jeanpierrevincent",
+        "label": "LinkedIn"
+        }
+        ],
         "type": "Web",
         "talks": [ {"id":"11"}]
     },
@@ -181,11 +186,11 @@
         "id": 301,
         "fullname": "Antonio Goncalves",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-goncalves.jpg",
-        "description": "Antonio is a senior software architect specialized in Java/Java EE. As a consultant he advises customers in France and help them in defining their software architecture. Antonio is also the founder of the very successful Paris JUG and independent JCP member on JEE6 (JSR 316), JPA 2.0 (JSR 317) and EJB 3.1 (JSR 318). Based on all his experiences, he has written two books about Java EE 5 and recently on Java EE 6 with Glassfish. It explains, in a practical way, how to develop an application using most of the Java EE specifications.",
+        "description": "Antonio is a senior developer specialized in Java/Java EE. As a consultant he advises customers and helps them in defining and developing their software architecture. <br/>This Java Champion is also the founder of the very successful Paris JUG, Devoxx France and an independent JCP member on various JSRs (Java EE 6, Java EE 7, EJB 3.2).<br/>Based on his Java EE experiences, he has written three books covering Java EE 5, Java EE6 and recently Java EE 7 with Glassfish 4.",
        "liens": [],
         "type": "Java"
         ,
-        "talks": [ {"id":"52"},{"id":"53"},{"id":"56"}]
+        "talks": [ {"id":"52"},{"id":"53"}]
     },
     {
         "id": 302,
@@ -333,6 +338,39 @@
         ],
         "type": "Java",
         "talks": [ {"id":"55"}]
+    },
+    {
+        "id": 311,
+        "fullname": "Vincent Massol",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-massol.gif",
+        "description": "CTO of XWiki SAS and an active committer of the XWiki open source project. Before being paid to work on open source he spent over 10 years working nights and week ends having fun on various open source projects (committer on Apache Maven, creator of Apache Cactus and Codehaus Cargo to name a few).",
+        "liens": [
+            {
+                "url":"https://twitter.com/vmassol",
+                "label":"Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"56"}]
+    },
+
+    {
+        "id": 2,
+        "fullname": "Fabrice Croiseaux",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-fcroiseaux.jpg",
+        "description": "CEO de la société <a href=\"http://www.intech.lu\">InTech</a>.  Passionné de culture numérique, de développement et d’architecture, il a débuté sa carrière en développant des serveurs d’applications Smalltalk avant de migrer sur Java dès 1998. Fabrice est également podcasteur puisqu’il fait partie de l’équipe <a href=\"http://www.niptech.com/\">Niptech</a> et est créateur et coanimateur du podcast nipdev dédié au développement.",
+        "liens": [
+            {
+                "url":"http://www.niptech.com/podcast/category/nipdev/",
+                "label":"Nip Dev"
+            },
+            {
+                "url":"https://twitter.com/fxzo",
+                "label":"Twitter"
+            }
+        ],
+        "type": "Podcast",
+        "talks": [ {"id":"3"}]
     }
 
 ]

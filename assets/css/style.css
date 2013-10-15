@@ -118,7 +118,7 @@ footer {
 -------------------------------------------------- */
 
 .sponsorline ul {
-	margin: 0 8px 1em 0;
+	margin: 30px 8px 1em 0;
 	padding: 0;
 	list-style-type: none;
 }
@@ -182,6 +182,7 @@ hr {
 }
 
 .agenda-table td {
+  width:20%;
   text-align: center;
 	font-size: 80%;
 	vertical-align: top;
@@ -247,6 +248,13 @@ hr {
 
 .agenda-table .agenda-cell-conference span.agenda-fullname:nth-child(2):before {
 	content: "";
+}
+
+
+.agenda-table span.agenda-room {
+	display: block;
+	margin-bottom: 1em;
+	font-size: 85%;
 }
 
 .agenda-table .agenda-cell-break {
@@ -330,6 +338,14 @@ hr {
 	background: #4081bd;
 	
 }
+.room-inside-talks {
+	display: block;
+	color: #fff;
+	border: 2px solid #4081bd;
+	background: #4081bd;
+	margin-bottom: 15px;
+	
+}
 
 .speakers-inside-talks span {
 	display: block;
@@ -360,4 +376,49 @@ hr {
 
 .speakers-inside-links li a:hover {
 	border-bottom: 2px solid #333;
+}
+
+
+/* TV
+-------------------------------------------------- */
+
+.container-tv
+{
+	display: block;
+	height: 60px;
+}
+
+.container-tv .sponsorline ul {
+	margin: 10px 8px 1em 0;
+}
+
+.container-tv .sponsorline li {
+	float: left;
+	margin: 0 0 .5em 1%;
+	width: 60px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.container-tv h1
+{
+	margin: 0px;
+}
+
+.main-tv {
+	padding: 0.5em 0 0.5em;
+	color: #4f4c4c;
+	background: #eee;
+	background: #eee url('../img/light_noise_diagonal.png') repeat;
+	border-top: 10px solid #4081bd;
+	border-bottom: 15px solid #4081bd;
+	height: 296px;
+	min-height: 296px;
+	max-height: 296px;
+}
+
+
+.footer-tv
+{
+	margin-top: -20px;
 }
