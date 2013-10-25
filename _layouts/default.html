@@ -46,7 +46,9 @@
         <div class="navbar-inner">
          <ul class="nav">
                 {% for post in site.posts %}
+                    {% if post.active != false %}
                     <li {% if post.url == page.url %}class="active" {% endif %}><a href="{{site.url}}{{post.url}}">{{post.label}}</a></li>
+                     {% endif %}
                 {% endfor %}
             </ul>
         </div>
