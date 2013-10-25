@@ -1,6 +1,7 @@
 ---
 layout: default
 label: Intervenants
+title: Intervenants
 ---
 
 <div class="row-fluid">
@@ -37,7 +38,8 @@ label: Intervenants
          <%/if%>
         <%#each talks%>
              <div class="speakers-inside-talks">
-             <strong><%title%></strong> <%#if description%><span><#description#></span><%/if%>
+             <strong><%title%></strong><%#if slide%> - <a href="<#slide#>" title="slide : <%title%>">Slides de la présentation</a><%/if%>
+						 <%#if description%><span><#description#></span><%/if%>
               <div class="room-inside-talks"><%room%></div>
              </div>
         <%/each%>

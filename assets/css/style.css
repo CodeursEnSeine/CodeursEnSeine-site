@@ -182,6 +182,7 @@ hr {
 }
 
 .agenda-table td {
+  width:20%;
   text-align: center;
 	font-size: 80%;
 	vertical-align: top;
