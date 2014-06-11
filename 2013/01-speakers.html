@@ -66,13 +66,13 @@ function writeInConsole (text) {
 
 	$(function() {
 		 writeInConsole ("calling json")
-		$.getJSON('2013/speakers.json').done(function(data) {
+		$.getJSON('speakers.json').done(function(data) {
 			 writeInConsole ("success speakers");
 			 writeInConsole ($( '#speakers-template' ).html());
 			 var content=$( '#speakers-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}').replace(/<#/g, '\{\{\{').replace(/#>/g, '\}\}\}');
 			 writeInConsole (content);
 			 
-             $.getJSON('/programme.json').done(function(data_agenda) {
+             $.getJSON('programme.json').done(function(data_agenda) {
              writeInConsole ("success agenda");
 
               var map_agenda = new Object();

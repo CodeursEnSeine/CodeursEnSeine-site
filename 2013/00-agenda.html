@@ -133,7 +133,7 @@ var tablesize=5;
 
 	$(function() {
 		 writeInConsole ("calling json")
-		$.getJSON('/programme.json').done(function(data) {
+		$.getJSON('programme.json').done(function(data) {
 			 writeInConsole ("success");
 			 writeInConsole ($( '#agenda-template' ).html());
 			 var content=$( '#agenda-template' ).html().replace(/<%/g, '\{\{').replace(/%>/g, '\}\}').replace(/<#/g, '\{\{\{').replace(/#>/g, '\}\}\}');;
