@@ -1,0 +1,84 @@
+GIT
+  remote: https://github.com/adaoraul/rack-jekyll
+  revision: 9ab9614be6a284dfd8e8c8e0c79011221c2ac8d9
+  specs:
+    rack-jekyll (0.4.0)
+      jekyll (~> 0.11.0)
+      rack (~> 1.4.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.2)
+    albino (1.3.3)
+      posix-spawn (>= 0.3.6)
+    chunky_png (1.2.6)
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    compass (0.13.alpha.0)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.2.0.alpha.93)
+    directory_watcher (1.4.1)
+    excon (0.16.10)
+    fast-stemmer (1.0.1)
+    fssm (0.2.9)
+    haml (3.1.7)
+    heroku (2.33.3)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.7)
+      excon (~> 0.16.10)
+    jekyll (0.11.2)
+      albino (~> 1.3)
+      classifier (~> 1.3)
+      directory_watcher (~> 1.1)
+      kramdown (~> 0.13)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+    kgio (2.7.4)
+    kramdown (0.14.1)
+    launchy (2.1.2)
+      addressable (~> 2.3)
+    liquid (2.4.1)
+    maruku (0.6.1)
+      syntax (>= 1.0.0)
+    mime-types (1.19)
+    netrc (0.7.7)
+    posix-spawn (0.3.6)
+    rack (1.4.1)
+    rack-protection (1.3.1)
+      rack
+    raindrops (0.10.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
+    sass (3.2.3)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    susy (1.0.5)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
+    syntax (1.0.0)
+    tilt (1.3.3)
+    unicorn (4.5.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass (~> 0.12.alpha.0)
+  haml
+  heroku
+  rack-jekyll!
+  sinatra
+  susy
+  unicorn
