@@ -1,3 +1,4 @@
+_site/*
 _theme_packages/*
 
 Thumbs.db
@@ -5,6 +6,7 @@ Thumbs.db
 
 !.gitkeep
 
+_site
 .rbenv-version
 .rvmrc
 .idea
