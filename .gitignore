@@ -1,4 +1,3 @@
-_site/*
 _theme_packages/*
 
 Thumbs.db
@@ -10,4 +9,4 @@ Thumbs.db
 .rvmrc
 .idea
 *.iml
-_site
+
