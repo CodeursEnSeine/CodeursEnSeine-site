@@ -2,22 +2,11 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile"]
-auto: true
-pygments: true
-permalink: /:title.html
+highlighter: true
+markdown : rdiscount
 
 title : Codeurs en Seine
 description: "Rencontre de codeurs à Rouen : Agile, Java & Web"
-tagline: "Rencontre de codeurs à Rouen : Agile, Java & Web<br/>Jeudi 17 octobre 2013"
+tagline: "Rencontre de codeurs à Rouen : Agile, Java & Web<br/>Jeudi 23 novembre 2014"
 
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
-# Most places will/should use BASE_PATH to make the urls
-#
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.com, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
 production_url : http://www.codeursenseine.com
-#url: http://127.0.0.1:4000
-url : http://www.codeursenseine.com

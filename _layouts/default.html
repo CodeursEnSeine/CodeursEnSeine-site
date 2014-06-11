@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="title" content="{{site.title}}">
@@ -22,13 +22,13 @@
 
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/css/style.css?body" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/{{page.group}}/style.css?body" rel="stylesheet" type="text/css" media="all">
     <!--[if lte IE 8]>
       <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.4/mapbox.ie.css' rel='stylesheet' />
-    <![endif]-->
+      <![endif]-->
 
-  <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -40,55 +40,83 @@
 <body data-spy="scroll" data-target="#menu" data-offset="0">
   <header class="header-main container">
     <div class="navbar span12">
-      <h1><a href="/"><img src="assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}"></a></h1>
-      <p class="tagline">{{site.tagline}}</p>
+      <h1><a href="/{{ page.group }}/"><img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}"></a></h1>
+      <p class="tagline">{{site.tagline}} {{site.year}} </p>
+      
+      <div class="navbar-inner">
+       <ul class="nav">
 
-        <div class="navbar-inner">
-         <ul class="nav">
-                {% for post in site.posts %}
-                    {% if post.active != false %}
-                    <li {% if post.url == page.url %}class="active" {% endif %}><a href="{{site.url}}{{post.url}}">{{post.label}}</a></li>
-                     {% endif %}
-                {% endfor %}
-            </ul>
+        {% capture page_modified %}{{ page.url }}{% endcapture %}
+
+        {% for node in site.pages %}
+          {% if node.title != null %}
+            {% if node.navigation != false %}
+            {% if page.group == node.group %}
+              {% if page.url == node.url %}
+                <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+              {% else %}
+                <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+              {% endif %}
+            {% endif %}
+            {% endif %}
+          {% endif %}
+         {% endfor %}
+        
+        
+        
+        <!--   {% for page in site.pages %}
+          
+            {% if group == null or group == page.group %}
+         
+            <li>
+              <a {% if page.url == page.url %}class="active"{% endif %} href="{{ BASE_PATH }}/{{ page.group }}/{{ page.permalink }}">
+                {{ page.title }}
+              </a>
+            </li>
+
+            {% endif %}
+          {% endfor %} -->
+         
+
+       </ul>
+     </div>
+
+   </div>  
+ </header>
+
+ <div class="main">
+
+  <script src="/assets/jquery/js/jquery.min.js"></script>
+  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
+
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+
+    <div id="contact" class="section">
+      <p class="span5"><i class="icon-envelope"></i> Email : <a href='mailto:contact@codeursenseine.com'>contact@codeursenseine.com</a></p>
+      <p class="span5"> 
+        <i class="icon-twitter"></i> Twitter : <a href='http://twitter.com/codeursenseine' target='_blank'>@codeursenseine</a>
+      </p>
+      <p class="span5"> 
+        <i class="icon-facebook"></i> Facebook : <a href='https://www.facebook.com/codeursenseine' target='_blank'>Page Codeurs En
+        Seine</a>
+      </p>
+      <p class="span5"> 
+        <i class="icon-google-plus"></i> <a href="https://plus.google.com/104173094005939367194" rel="publisher">Google+</a> : <a href='https://plus.google.com/u/0/communities/111526484712817533870' target='_blank'>Communaut Codeurs En Seine</a></p>
+
+        <p class="span5"> 
+          <a href="kitpress.html">Kit Presse & Média</a></p>
         </div>
-    </div>  
-  </header>
-  
-  <div class="main">
-
-    <script src="/assets/jquery/js/jquery.min.js"></script>
-		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
-   
-    <div class="container">
-      {{ content }}
+      </div>
     </div>
-  </div>
-
- <div class="footer">
-    <div class="container">
-
-      <div id="contact" class="section">
-              <p class="span5"><i class="icon-envelope"></i> Email : <a href='mailto:contact@codeursenseine.com'>contact@codeursenseine.com</a></p>
-              <p class="span5"> 
-              <i class="icon-twitter"></i> Twitter : <a href='http://twitter.com/codeursenseine' target='_blank'>@codeursenseine</a>
-              </p>
-              <p class="span5"> 
-              <i class="icon-facebook"></i> Facebook : <a href='https://www.facebook.com/codeursenseine' target='_blank'>Page Codeurs En
-                Seine</a>
-              </p>
-              <p class="span5"> 
-              <i class="icon-google-plus"></i> <a href="https://plus.google.com/104173094005939367194" rel="publisher">Google+</a> : <a href='https://plus.google.com/u/0/communities/111526484712817533870' target='_blank'>Communaut Codeurs En Seine</a></p>
-
-              <p class="span5"> 
-              <a href="kitpress.html">Kit Presse & Média</a></p>
-              
-            </div>
-    </div>
-  </div>
 
 
 
-</body>
-</html>
+  </body>
+  </html>

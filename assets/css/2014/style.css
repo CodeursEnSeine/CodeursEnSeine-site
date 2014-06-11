@@ -1,0 +1,424 @@
+
+
+/*
+
+color 1 : #4f4c4c; // black
+color 2 : #4081bd; // blue
+color 3 : #bdbcbc; // grey
+
+*/
+
+
+/* Custom style */
+/*---------------------------------*/
+
+body {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: "ubuntu", Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.section > h3 {
+	margin: 1em 0;
+	border-bottom: 2px dotted #999;
+}
+
+/* Header
+-------------------------------------------------- */
+
+.navbar h1,
+.navbar h1 a,
+.navbar h1 a:hover	 {
+	margin: .5em .5em;
+	color: #eee;
+	border: none;
+}
+
+.navbar,
+footer {
+	overflow: hidden;
+	margin: .2em 0;
+}
+
+.header-main h1 {
+	display: inline-block;
+}
+
+.tagline {
+	font-size: 1.3em;
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: -2px;
+	line-height: 1.5em;
+	vertical-align: middle;
+}
+
+/* Layout
+-------------------------------------------------- */
+
+.main {
+	padding: 1.5em 0 3em;
+	color: #4f4c4c;
+	background: #eee;
+	background: #eee url('../img/light_noise_diagonal.png') repeat;
+	border-top: 10px solid #4081bd;
+	border-bottom: 15px solid #4081bd;
+}
+
+.section {
+	margin-bottom: 1.5em;
+}
+.section a {
+  color: #4081bd;
+}
+
+.map,
+#mapUniv {
+	width:100%;
+	height: 700px;
+}
+
+.thumbnail {
+	background: #fff;
+	border: 10px solid #fff;
+}
+
+#partager {
+	display: none;
+}
+
+.user-group {
+    width: 314;
+    height:358;
+}
+
+/* Gallery
+-------------------------------------------------- */
+
+.home-gallery h3 {
+	text-align: center;
+	color:#333;
+}
+
+.home-gallery .thumbnail {
+	box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+}
+
+.navbar {
+		box-shadow: inset 0px 15px 30px rgba(255, 255, 255, 0.2);
+}
+
+
+/* Sponsor line
+-------------------------------------------------- */
+
+.sponsorline ul {
+	margin: 30px 8px 1em 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sponsorline li {
+	float: left;
+	margin: 0 0 .5em 1%;
+	padding: 0;
+	width: 13.25%;
+	list-style-type: none;
+}
+
+.sponsorline li im {
+	max-width: 100%;
+}
+
+/* footer */
+.footer {
+	margin-top: 10px;
+}
+
+hr {
+	border-bottom-color : darkgrey;
+}
+
+.navbar-inner {
+	margin-bottom: 10px;
+}
+
+.btn-reg {
+	font-size: 150%;
+	color: white;
+	padding: 15px;
+}
+
+/* Agenda
+-------------------------------------------------- */
+
+.agenda-table {
+	border: #999 2px solid;
+}
+
+.agenda-table thead th {
+	padding: .7em;
+	color: #fff;
+	background: #222;
+	text-align: center;
+	border: none;
+	border-bottom: #555 8px solid;
+	border-radius: none;
+}
+
+.agenda-table thead th.agenda-cell-hdr {
+	letter-spacing: 10px;
+	border-left: #555 1px solid;
+}
+
+.agenda-table a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.agenda-table td {
+  width:20%;
+  text-align: center;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+.agenda-table tr {
+	border-bottom: 2px solid #999;
+}
+
+.agenda-table .agenda-cell-time {
+	text-align: right;
+	vertical-align: middle;
+	font-size: 1.2em;
+	color: #000;
+	background: #eee;
+}
+
+.agenda-table .agenda-cell-keynote,
+.agenda-table .agenda-cell-break {
+	height: 50px;
+	line-height: 1.2em;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	background: #f1f1f1;
+}
+
+.agenda-table .agenda-cell-keynote a {
+	position: relative;
+}
+
+.agenda-table span.agenda-title a {
+	display: inline-block;
+	padding: .5em .1em;
+	min-height: 40px;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-title a:hover {
+	text-decoration: underline;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-title a {
+	color: #555;
+}
+
+.agenda-table span.agenda-fullname {
+	margin-bottom: 1em;
+}
+
+.agenda-table span.agenda-fullname a {
+	font-size: 85%;
+}
+
+.agenda-table span.agenda-fullname:before {
+	position: relative;
+	content: "-";
+	top: 2%;
+	left: -.3%;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-fullname:nth-child(2):before {
+	content: "";
+}
+
+
+.agenda-table span.agenda-room {
+	display: block;
+	margin-bottom: 1em;
+	font-size: 85%;
+}
+
+.agenda-table .agenda-cell-break {
+		letter-spacing: 30px;
+}
+
+.agenda-table .agenda-cell-conference span.agenda-title {
+	display: block;
+	position: relative;
+}
+
+.agenda-table .agenda-cell-web,
+.agenda-table .agenda-cell-agile,
+.agenda-table .agenda-cell-java {
+	position: relative;
+	overflow: hidden;
+	padding: 0 0 1em;
+  background: rgba(255, 59, 0,.05);
+}
+
+.agenda-table .agenda-cell-agile {
+  background: rgba(114, 255, 0,.05);
+}
+
+.agenda-table .agenda-cell-java {
+  background: rgba(64, 129, 189,.05);
+}
+
+.agenda-table .agenda-cell-web:before,
+.agenda-table .agenda-cell-agile:before,
+.agenda-table .agenda-cell-java:before {
+	position: relative;
+	display: block;
+	margin: 20px 0px -20px 0;
+	padding: 0 3px;
+	height: 100%;
+	content: "Web";
+	color: rgba(255, 59, 0,.1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	z-index: 0;
+	-webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+}
+
+.agenda-table .agenda-cell-agile:before {
+  content: "Agile";
+	color: rgba(114, 255, 0,.1);
+}
+
+.agenda-table .agenda-cell-java:before {
+	content: "Java";
+	color: rgba(64, 129, 189,.1);
+}
+
+/* Speakers
+-------------------------------------------------- */
+
+.speaker-type {
+    text-align: center;
+    text-shadow: 2px 1px #AAA;
+    font-weight: bold;
+}
+
+.speakers-inside-links,
+.speakers-inside-talks {
+	width: 100%;
+	overflow: hidden;
+	line-height: 1.4em;
+	font-size: .8em;
+}
+
+.speakers-inside-talks strong {
+	display: inline-block;
+	margin-right: .2em;
+	line-height: 1em;
+	color: #fff;
+	border: 3px solid #4081bd;
+	background: #4081bd;
+	
+}
+.room-inside-talks {
+	display: block;
+	color: #fff;
+	border: 2px solid #4081bd;
+	background: #4081bd;
+	margin-bottom: 15px;
+	
+}
+
+.speakers-inside-talks span {
+	display: block;
+	margin: 0;
+	padding: .5em 1em .5em;
+	border: 1px solid #ddd;
+	background: #ececec;
+}
+
+.speakers-inside-links ul {
+	overflow: hidden;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+.speakers-inside-links li {
+	padding-bottom: 3px;
+	float: left;
+	margin-right: .7em;
+	list-style-type: none;
+}
+
+.speakers-inside-links li a {
+	padding-bottom: 1px;
+	text-decoration: none;
+	border-bottom: 2px solid #4081bd;
+}
+
+.speakers-inside-links li a:hover {
+	border-bottom: 2px solid #333;
+}
+
+
+/* TV
+-------------------------------------------------- */
+
+.container-tv
+{
+	display: block;
+	height: 60px;
+}
+
+.container-tv .sponsorline ul {
+	margin: 10px 8px 1em 0;
+}
+
+.container-tv .sponsorline li {
+	float: left;
+	margin: 0 0 .5em 1%;
+	width: 60px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.container-tv h1
+{
+	margin: 0px;
+}
+
+.main-tv {
+	padding: 0.5em 0 0.5em;
+	color: #4f4c4c;
+	background: #eee;
+	background: #eee url('../img/light_noise_diagonal.png') repeat;
+	border-top: 10px solid #4081bd;
+	border-bottom: 15px solid #4081bd;
+	height: 296px;
+	min-height: 296px;
+	max-height: 296px;
+}
+
+
+.footer-tv
+{
+	margin-top: -20px;
+}
