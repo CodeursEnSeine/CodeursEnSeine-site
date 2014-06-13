@@ -52,7 +52,6 @@ footer {
 	font-size: 1.3em;
 	display: inline-block;
 	font-weight: bold;
-	letter-spacing: -2px;
 	line-height: 1.5em;
 	vertical-align: middle;
 }
@@ -73,7 +72,7 @@ footer {
 	margin-bottom: 1.5em;
 }
 .section a {
-  color: #4081bd;
+	color: #4081bd;
 }
 
 .map,
@@ -92,8 +91,13 @@ footer {
 }
 
 .user-group {
-    width: 314;
-    height:358;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.user-group img {
+	margin: 0 auto;
 }
 
 /* Gallery
@@ -110,7 +114,7 @@ footer {
 }
 
 .navbar {
-		box-shadow: inset 0px 15px 30px rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0px 15px 30px rgba(255, 255, 255, 0.2);
 }
 
 
@@ -182,8 +186,8 @@ hr {
 }
 
 .agenda-table td {
-  width:20%;
-  text-align: center;
+	width:20%;
+	text-align: center;
 	font-size: 80%;
 	vertical-align: top;
 }
@@ -258,7 +262,7 @@ hr {
 }
 
 .agenda-table .agenda-cell-break {
-		letter-spacing: 30px;
+	letter-spacing: 30px;
 }
 
 .agenda-table .agenda-cell-conference span.agenda-title {
@@ -272,15 +276,15 @@ hr {
 	position: relative;
 	overflow: hidden;
 	padding: 0 0 1em;
-  background: rgba(255, 59, 0,.05);
+	background: rgba(255, 59, 0,.05);
 }
 
 .agenda-table .agenda-cell-agile {
-  background: rgba(114, 255, 0,.05);
+	background: rgba(114, 255, 0,.05);
 }
 
 .agenda-table .agenda-cell-java {
-  background: rgba(64, 129, 189,.05);
+	background: rgba(64, 129, 189,.05);
 }
 
 .agenda-table .agenda-cell-web:before,
@@ -303,7 +307,7 @@ hr {
 }
 
 .agenda-table .agenda-cell-agile:before {
-  content: "Agile";
+	content: "Agile";
 	color: rgba(114, 255, 0,.1);
 }
 
@@ -316,9 +320,9 @@ hr {
 -------------------------------------------------- */
 
 .speaker-type {
-    text-align: center;
-    text-shadow: 2px 1px #AAA;
-    font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 1px #AAA;
+	font-weight: bold;
 }
 
 .speakers-inside-links,
