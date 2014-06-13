@@ -41,7 +41,7 @@
   <header class="header-main container">
     <div class="navbar span12">
       <h1><a href="/{{ page.group }}/"><img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}"></a></h1>
-      <p class="tagline">{{site.tagline}} {{site.year}} </p>
+      <p class="tagline">{{ site.tagline[page.group] }}</p>
       
       <div class="navbar-inner">
        <ul class="nav">
@@ -61,22 +61,6 @@
             {% endif %}
           {% endif %}
          {% endfor %}
-        
-        
-        
-        <!--   {% for page in site.pages %}
-          
-            {% if group == null or group == page.group %}
-         
-            <li>
-              <a {% if page.url == page.url %}class="active"{% endif %} href="{{ BASE_PATH }}/{{ page.group }}/{{ page.permalink }}">
-                {{ page.title }}
-              </a>
-            </li>
-
-            {% endif %}
-          {% endfor %} -->
-         
 
        </ul>
      </div>
