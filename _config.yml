@@ -5,6 +5,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile"]
 highlighter: true
 markdown : rdiscount
 
+permalink: /:year/:title.html
+
 title : Codeurs en Seine
 description: "Rencontre de codeurs à Rouen : Agile, Java & Web"
 tagline : 
@@ -15,6 +17,7 @@ date :
   2014 : "Jeudi 27 novembre 2014"
 
 production_url : http://www.codeursenseine.com
-permalink : pretty
+
+
  
   
