@@ -33,5 +33,36 @@
         "type": "Innov.",
         "talks": [  {"id":"101" }]
 
+    },
+    {
+        "id": 304,
+        "fullname": "Alain Régnier",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-regnier.png",
+        "description": "Architecte Technique et Entrepreneur passionné d'innovation.",
+       "liens": [
+                {
+                "url": "https://plus.google.com/+AlainRegnier",
+                "label": "Blog"
+                },
+                {
+                    "url": "http://www.twitter.com/altolabs",
+                    "label": "Twitter"
+                }
+                ],
+        "type": "Innov.",
+        "talks": [ {"id":"102"}]
+    },
+    {
+        "id": 305,
+        "fullname": "Stéphane Canu",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-canu.jpg",
+        "description": "Professeur à l'INSA de Rouen de directeur adjoint de la fédération de recherche CNRS NormaSTIC et membre du LITIS. Il découvre la problématique de l'apprentissage statistique (machine learning) en 1985, et y consacre sa recherche depuis. Après avoir travaillé 10 ans sur les réseaux de neurones artificiels, il se lance dans l'étude des machines à noyaux en général et des SVM-support vector machines en particulier. Il s'intéresse aux trois aspects complémentaires de l'apprentissage statistique : les questions théoriques notamment liées à la régularisation, les aspects algorithmiques, et les applications notamment liées au traitement des big data.",
+       "liens": [
+                {
+                "url": "http://asi.insa-rouen.fr/enseignants/~scanu/",
+                "label": "Blog"
+                }],
+        "type": "Innov.",
+        "talks": [ {"id":"103"}]
     }
 ]

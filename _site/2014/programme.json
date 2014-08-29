@@ -19,13 +19,35 @@
                          ]
                     },
                     {
-                        "type":"java",
+                        "type":"innovation",
                         "talks":[
                             {"id":101 ,  
                             "format":"conference", 
                             "url":"", 
                             "title":"La révolution Docker",
                              "description":"En très peu de temps, Docker a su s'imposer comme un standard de facto dans le monde du Cloud, ne laissant aucun fournisseur impassible. A mi-chemin entre IaaS et PaaS, Docker brouille les cartes et ouvre de nouvelles opportunités. Au cours de ce talk, nous vous présenterons ce qu'est techniquement Docker, son impact sur l'écosystème et comment vous pouvez le mettre à profit pour vos propres développements."
+                             }
+                         ]
+                    },
+                    {
+                        "type":"innovation",
+                        "talks":[
+                            {"id":102 ,  
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"Introduction aux Google Glass",
+                             "description":"Les Google Glass, tout le monde en parle. Mais peu les ont vraiment testées ou ont développé dessus. Cette conférence est une introduction sur les Google Glass et couvrira ce que sont les Glass, comment elles fonctionnent et ce qu'on peut déjà faire avec. On parlera ensuite de développement via la Mirror API et le GDK Sneak Peek, pour finir par un retour d'expérience en tant que Glass Explorer et développeur depuis presque un an. La présentation sera accompagnée de démos."
+                             }
+                         ]
+                    },
+                    {
+                        "type":"innovation",
+                        "talks":[
+                            {"id":103 ,  
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"Tour d'horizon du machine learning",
+                            "description":"La maturité actuelle des technologies issues de la science des données (data science) permet d'envisager l'utilisation massive des données disponibles pour en tirer un avantage concurrentiel déterminant. Encore faut-il  en maitriser des technologies sous-jacentes. Cette présentation vise à offrir un point de vue sur le sujet en abordant les principaux algorithmes le l'apprentissage statistique (SVM, deep learning...) et outils logiciels permettant leur mise en œuvre. La présentation se fera à partir de cas précis comme ceux de la recommandation ou reconnaissance de formes"
                              }
                          ]
                     }
