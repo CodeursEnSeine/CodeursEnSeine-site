@@ -7,6 +7,7 @@ node_modules/*
 
 Thumbs.db
 .DS_Store
+gruntfile.js
 
 !.gitkeep
 
