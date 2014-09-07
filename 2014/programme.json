@@ -19,6 +19,39 @@
                          ]
                     },
                     {
+                        "type":"java",
+                        "talks":[
+                            {"id":52 , 
+                            "format":"conference", 
+                            "url":"", 
+                            "title": "Scala, pourquoi et pourquoi pas?",
+                            "description": "Tantôt merveilleux, tantôt cauchemardesque, Scala est un langage qui ne laisse pas indifférent.\n\nPourquoi toi développeur Java, tu devrais jeter un œil sur Groovy, Scala ou Haskell? Pour découvrir de nouvelles façon de résoudre tes problèmes de tous les jours.\n\nJe vous propose un tour d'horizon des possibilités du langage. Avec du code, du code et du code... et un peu de temps de compilation aussi!"
+                            }
+                         ]
+                    },
+                    {
+                        "type":"java",
+                        "talks":[
+                            {"id":53 , 
+                            "format":"quickie", 
+                            "url":"", 
+                            "title": "Le pourquoi du comment du type Option",
+                            "description": "Lorsque l'on découvre le monde de la programmation fonctionnelle, on est absorbé par une multitude de nouveaux concepts. Dans la masse, un concept a retenu mon attention : le type Option. \nCe type est disponible dans plusieurs langages comme Java (pas seulement la version 8), Scala, Groovy, Haskell, Ocaml, etc.\n\nSous la forme d'un live coding basé sur le langage Java, je vous propose de répondre à ces 2 questions : pourquoi et comment l'utiliser ?"
+                            }
+                         ]
+                    },
+                    {
+                        "type":"java",
+                        "talks":[
+                            {"id":54 , 
+                            "format":"conference", 
+                            "url":"", 
+                            "title": "JHipster, un générateur Yeoman pour les développeurs Java",
+                            "description": "JHipster est un générateur Yeoman permettant de créer une application Maven + Spring Boot + AngularJS.\nDepuis sa création en Novembre 2013, le projet a connu une popularité très importante : + de 600 étoiles Github, 36 contributeurs, + de 100 000 pages vues par mois. C'est le 2ème générateur Yeoman \"communautaire\" le plus populaire, et le générateur d'applications Spring le plus populaire.\nCette présentation couvrira les technologies utilisées par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), ainsi qu'une session de \"live coding\"."
+                           }
+                         ]
+                    },                    
+                    {
                         "type":"innovation",
                         "talks":[
                             {"id":101 ,  
@@ -50,6 +83,50 @@
                             "description":"La maturité actuelle des technologies issues de la science des données (data science) permet d'envisager l'utilisation massive des données disponibles pour en tirer un avantage concurrentiel déterminant. Encore faut-il  en maitriser des technologies sous-jacentes. Cette présentation vise à offrir un point de vue sur le sujet en abordant les principaux algorithmes le l'apprentissage statistique (SVM, deep learning...) et outils logiciels permettant leur mise en œuvre. La présentation se fera à partir de cas précis comme ceux de la recommandation ou reconnaissance de formes"
                              }
                          ]
+                    },
+                     {
+                        "type":"innovation",
+                        "talks":[
+                            {"id":104 ,  
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"From Dev to Maker",
+                            "description": "Dans tout développeur il y a un maker.\nLes objets connectés sont facile à faire et demandent très peu de compétences particulières. Tout développeur peut se lancer dans le Arduino, le BLE, le Raspberry Pi !"
+                             }
+                         ]
+                    },
+                     {
+                        "type":"innovation",
+                        "talks":[
+                            {"id":105 ,  
+                            "format":"conference", 
+                            "url":"", 
+                            "title": "Spark, où comment traiter des données à la vitesse de l’éclair",
+                            "description": "Spark fait partie de la nouvelle génération de frameworks de manipulation de données basés sur Hadoop. L’outil utilise agressivement la mémoire pour offrir des temps de traitement jusqu’à 100 fois plus rapides.\n\nDans cette session, nous découvrirons les principes de traitement de données (notamment MapReduce) et nous analyserons les options mises à disposition pour monter un cluster (HDFS, Tachyon, Yarn…). Une démonstration sera faite pour mettre en évidence les capacités du framework. Enfin, un point sera fait sur Spark Streaming pour le traitement de données en flux continu."
+                            }
+                         ]
+                    },
+                    {
+                        "type":"innovation",
+                        "talks":[
+                            {"id":106 ,  
+                            "format":"quickie", 
+                            "url":"", 
+                            "title": "Comment effectuer des tests d'intégrations sur vos applications mobiles ?",
+                            "description": "Venez découvrir comment sont effectués les tests d'intégrations sur les deux applications mobiles (iOS et Android) qui figurent constamment dans le top 20 de leur store respectif !\n\nRetour d'expérience sur la création d'un \"Mobile Test Lab\""
+                            }
+                         ]
+                    },
+                    {
+                        "type":"innovation",
+                        "talks":[
+                            {"id":107 ,  
+                            "format":"quickie", 
+                            "url":"", 
+                            "title": "De l’impératif au fonctionnel, retour d’expérience avec Haskell",
+                            "description": "L’informatique est dominée par la programmation impérative et ses dérivées. Pourtant, d’autres paradigmes ont été développés qui permettent de s’affranchir des contraintes de la programmation impérative. Parmi ceux-ci, on trouve la programmation fonctionnelle. Cette session présente un retour d’expérience de développement avec Haskell, un langage fonctionnel pur."
+                            }
+                        ]
                     }
                 ]
             }
