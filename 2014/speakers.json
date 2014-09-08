@@ -53,8 +53,8 @@
         "id": 305,
         "fullname": "Julien Dubois",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jdubois.jpg",
-        "description": "Développeur passionné par les technologies et architectures liées à l’écosystème Java ainsi qu’aux technologies du WEB. Je m’investis également dans le monde de la programmation fonctionnelle au travers du langage Scala. \n\nCo-fondateur de la page : http://gplus.to/javafr ou je publie régulièrement des articles. Fondateur de la communauté développeurFR : http://gplus.to/developpeurFR\nRédacteur pour le journal Programmez",
-                "liens": [
+        "description": "Développeur Java depuis 15 ans, co-auteur de \"Spring par la pratique\" et créateur de http://jhipster.github.io/",
+                   "liens": [
                 {
                     "url": "http://www.twitter.com/juliendubois",
                     "label": "Twitter"
