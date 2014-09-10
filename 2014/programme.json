@@ -47,7 +47,7 @@
                             "format":"conference", 
                             "url":"", 
                             "title": "JHipster, un générateur Yeoman pour les développeurs Java",
-                            "description": "JHipster est un générateur Yeoman permettant de créer une application Maven + Spring Boot + AngularJS.\nDepuis sa création en Novembre 2013, le projet a connu une popularité très importante : + de 600 étoiles Github, 36 contributeurs, + de 100 000 pages vues par mois. C'est le 2ème générateur Yeoman \"communautaire\" le plus populaire, et le générateur d'applications Spring le plus populaire.\nCette présentation couvrira les technologies utilisées par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), ainsi qu'une session de \"live coding\"."
+                            "description": "JHipster est un générateur Yeoman permettant de créer une application Maven + Spring Boot + AngularJS.\nDepuis sa création en Novembre 2013, le projet a connu une popularité très importante : + de 800 étoiles Github, 49 contributeurs, + de 100 000 pages vues par mois. C'est le 2ème générateur Yeoman \"communautaire\" le plus populaire, et le générateur d'applications Spring le plus populaire.\nCette présentation couvrira les technologies utilisées par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), ainsi qu'une session de \"live coding\"."
                            }
                          ]
                     },                    
