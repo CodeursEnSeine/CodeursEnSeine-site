@@ -1,5 +1,17 @@
 [
-
+    {
+        "id": 101,
+        "fullname": "Christophe Porteneuve",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-porteneuve.jpg",
+        "description": "Christophe conçoit des pages web depuis septembre 1995. Après avoir travaillé sur le premier portail JSP en Europe, il dirige la filière INSIA où il y enseigne les nouvelles technologies puis est directeur technique d'une agence web pendant 5 ans. Auteur du best-seller « Bien développer pour le Web 2.0 » chez Eyrolles, il a également écrit la référence « Prototype and script.aculo.us » chez Pragmatic Programmers. Il est aujourd’hui fondateur et directeur technique de Delicious Insights, qui tout en travaillant sur des SaaS B2B à venir conçoit et propose les cycles de formation Git Attitude et JS Attitude.",
+       "liens": [
+                {
+                "url": "http://www.twitter.com/porteneuve",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"10"}]
+    },
     {
         "id": 302,
         "fullname": "José Paumard",
