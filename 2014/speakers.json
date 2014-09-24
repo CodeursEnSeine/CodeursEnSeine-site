@@ -66,14 +66,78 @@
         "fullname": "Julien Dubois",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jdubois.jpg",
         "description": "Responsable de l'innovation chez Ippon Technologies, développeur Java depuis 15 ans, co-auteur de \"Spring par la pratique\" et créateur de http://jhipster.github.io/",
-                   "liens": [
+        "liens": [
+            {
+                "url": "http://www.twitter.com/juliendubois",
+                "label": "Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"54"}]
+    },
+    {
+        "id": 306,
+        "fullname": "Emmanuel Lécharny",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-elecharny.jpg",
+        "description": "Développeur depuis 35 ans, après un passage de 12 ans dans quelques (grosses SSII), je fais le grand bond en avant et créé une petite société finalement peu différente d'une SSII. En 2005, je bascule dans le monde Open Source.\n\nMembre de l'ASF depuis 2007, responsable des projets MINA et ApacheDS, mentor de divers autres projets, je travaille actuellement avec la société Symas pour développer des solutions de sécurité et d'annuaires (toujours en Open Source).",
+        "liens": [
                 {
-                    "url": "http://www.twitter.com/juliendubois",
+                    "url": "http://www.twitter.com/elecharny",
                     "label": "Twitter"
+                },
+                {
+                    "url": "http://hrabal.blogspot.fr/",
+                    "label": "Blog"
                 }
             ],
         "type": "Java",
-        "talks": [ {"id":"54"}]
+        "talks": [ {"id":"56"}]
+    },
+    {
+        "id": 307,
+        "fullname": "Fabrice Croiseaux",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-fcroiseaux.jpg",
+        "description": "Passionné de culture numérique, de développement et d’architecture, Fabrice est actuellement CEO de la société InTech (http://www.intech.lu). Il a débuté sa carrière en développant des serveurs d'applications Smalltalk avant de migrer sur Java dès 1998. Il contribue à l'évangélisation de Scala et de la programmation fonctionnelle depuis 2 ans. Au travers de Nipdev, Fabrice cherche avec ses complices Antoine (@antoined) et Sébastien (@esorals) à donner envie à chacun de découvrir la programmation.",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/fxzo",
+                "label": "Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"57"}]
+    },
+    {
+        "id": 308,
+        "fullname": "Antoine Detante",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-adetante.png",
+        "description": "Antoine Detante est architecte et développeur Java et Scala au Luxembourg. Il est amené à travailler sur différents projets dans ces technologies. Antoine a attrapé le virus de la programmation fonctionnelle avec Scala et essaye maintenant de relayer cette passion aux équipes avec lesquelles il travaille. Il est également animateur du podcast NipDev.",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/antoined",
+                "label": "Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"57"}]
+    },
+    {
+        "id": 309,
+        "fullname": "Stéphane Leclercq",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-sleclerq.jpg",
+        "description": "Depuis plus de 10 ans dans les tranchées du code et toujours pas prêt à lâcher son IDE, Stéphane arpente les couloirs des agences web pour réduire les écarts entre faire mieux, plus vite et moins cher.\nAmateur de geekeries et papa de trois grumeaux, il jongle afin de bien optimiser ses journées de 50 heures tout en profitant de ses passions.\nChez Ekino depuis 4 ans, il accompagne maintenant ses équipes et clients en tant qu'Architecte Java pour répondre toujours mieux à leurs problématiques.",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/@s_leclercq",
+                "label": "Twitter"
+            },
+            {
+                "url": "http://www.ekino.com/blog/",
+                "label": "Blog"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"58"}]
     },
     {
         "id": 403,

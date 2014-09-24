@@ -61,7 +61,40 @@
                             "description": "JHipster est un générateur Yeoman permettant de créer une application Maven + Spring Boot + AngularJS.\nDepuis sa création en Novembre 2013, le projet a connu une popularité très importante : + de 800 étoiles Github, 49 contributeurs, + de 100 000 pages vues par mois. C'est le 2ème générateur Yeoman \"communautaire\" le plus populaire, et le générateur d'applications Spring le plus populaire.\nCette présentation couvrira les technologies utilisées par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), ainsi qu'une session de \"live coding\"."
                            }
                          ]
-                    },                    
+                    },
+                    {
+                        "type":"java",
+                        "talks":[
+                            {"id":56 ,
+                                "format":"conference",
+                                "url":"",
+                                "title": "Keep it Simple, Stupid, my a** !",
+                                "description": "Un des mantra qui circule dans le monde du développeur est KISS : Keep it simple, stupid !\nIl s'agit d'exiger des développeurs qu'ils conçoivent des architectures simples, qui seront plus faciles à maintenir.\nComme beaucoup de principes qui circulent chez les consultants en organisation, il s'agit plus d'un souhait marketing qu'une réalité tangible.\nCette présentation va tenter d'expliquer \"simplement\" pourquoi ce n'est pas si facile d'embrasser la simplicité !"
+                            }
+                        ]
+                    },
+                    {
+                        "type":"java",
+                        "talks":[
+                            {"id":57 ,
+                                "format":"conference",
+                                "url":"",
+                                "title": "Les Applications Réactives : un nouveau paradigme pour relever les défis de l'économie numérique",
+                                "description": "A quels enjeux est confrontée une entreprise qui souhaite développer sa stratégie digitale ? Pourquoi les paradigmes de développement classiques ne sont pas adaptés pour développer les applications du futur ? Nous montrerons tout d'abord pourquoi au delà du buzz marketing, les Applications Réactives apportent une réponse aux défis que doivent relever les organisations. Nous décrirons ensuite les principes réactifs et en illustrerons la mise en oeuvre avec différentes implémentations actuellement disponibles."
+                            }
+                        ]
+                    },
+                    {
+                        "type":"java",
+                        "talks":[
+                            {"id":58 ,
+                                "format":"quickie",
+                                "url":"",
+                                "title": "L'analyse de code au service de la qualité",
+                                "description": "La qualité du code est au coeur des discussions entre développeurs et est aujourd'hui une demande forte de la part des décideurs et des clients en France.\nQue représente la \"qualité\" aujourd'hui ? Quels sont les enjeux pour les équipes ?\nQuelles sont les approches autour de l'analyse de code pour améliorer cette qualité ?\nSont abordés : \n - Le pair programming\n - L'analyse statique\n - La revue de code\n - L'audit de code\nLa session passe en revue les avantages et points d'attention de chaque approche, ainsi que les outils couramment utilisés.\nLe tout se basera également sur un retour d'expérience (équipe de 15 devs Java) avec un focus sur la piste que nous avons privilégiée : Phabricator (audit de code)"
+                            }
+                        ]
+                    },
                     {
                         "type":"innovation",
                         "talks":[
