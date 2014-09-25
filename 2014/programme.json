@@ -19,17 +19,6 @@
                          ]
                     },
                     {
-                        "type":"web",
-                        "talks":[
-                            {"id":14,
-                            "format":"conference", 
-                            "url":"", 
-                            "title":"",
-                            "description":""
-                            }
-                         ]
-                    },
-                    {
                         "type":"java",
                         "talks":[
                             {"id":51 , 
