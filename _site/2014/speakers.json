@@ -10,7 +10,20 @@
                 "label": "Twitter"
                 }],
         "type": "Web",
-        "talks": [ {"id":"10"}]
+        "talks": [ {"id":"11"}]
+    },
+    {
+        "id": 104,
+        "fullname": "Alexis Jacomy",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-jacomy.jpg",
+        "description": "Après être passé chez Linkfluence puis le médialab de Sciences-Po, Alexis développe maintenant des applications web de visualisation de données chez Atelier Iceberg, à Nantes. Il maintient également divers projets open-source autour de ces mêmes problématiques, notamment sigma.js, dédiée à l'affichage de graphes dans des pages web.",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/jacomyal",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+//        "talks": [ {"id":"14"}]
     },
     {
         "id": 302,
