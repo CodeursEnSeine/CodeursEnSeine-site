@@ -45,6 +45,19 @@
     },
     {
         "id": 106,
+        "fullname": "Cyril Krylatov",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-krylatov.jpg",
+        "description": "Cyril, au collège, ne savait pas quoi faire quand il sera grand. Mais un jour, il a pris le code source d’un site, l’a collé dans frontpage, a vu le résultat et ça lui a plu. Depuis, il a été 3 ans intégrateur en agence et maintenant il est lead-intégrateur d’une équipe formidable composée de lui-même « chez l’annonceur » et continue d’apprendre énormément de trucs.",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/IAmNotCyril",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"16"}]
+    },
+    {
+        "id": 107,
         "fullname": "Alexis Jacomy",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jacomy.jpg",
         "description": "Après être passé chez Linkfluence puis le médialab de Sciences-Po, Alexis développe maintenant des applications web de visualisation de données chez Atelier Iceberg, à Nantes. Il maintient également divers projets open-source autour de ces mêmes problématiques, notamment sigma.js, dédiée à l'affichage de graphes dans des pages web.",
@@ -53,7 +66,8 @@
                 "url": "http://www.twitter.com/jacomyal",
                 "label": "Twitter"
                 }],
-        "type": "Web"
+        "type": "Web",
+        "talks": [ {"id":"17"}]
     },
     {
         "id": 302,
