@@ -13,6 +13,19 @@
         "talks": [ {"id":"11"}]
     },
     {
+        "id": 102,
+        "fullname": "Matthias Dugué",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-dugue.jpg",
+        "description": "Matthias est _Full Stack Punisher_ chez @Bunkrapp et éleveur de licornes de combats depuis 1996. Il passe ses journées implémenter dans la joie et la qualité l'interface qui sera la plus simple possible à utiliser. Il a malheureusement une fâcheuse tendance à danser et humhumer durant son _coding time_, ce qui peut facilement porter sur les nerfs de ses collègues (mais fait fuir les bugs, on ne peut pas tout avoir)...",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/m4d_z",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"12"}]
+    },
+    {
         "id": 104,
         "fullname": "Alexis Jacomy",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jacomy.jpg",

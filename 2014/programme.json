@@ -19,6 +19,17 @@
                          ]
                     },
                     {
+                        "type":"web",
+                        "talks":[
+                            {"id":12,
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"Mon browser, ma VM, mon amour...",
+                            "description":"Voilà plusieurs années que le web s'oriente vers une architecture interactive, et plus uniquement consultative. La percée de Firefox OS est la pierre qui marque le virage sur le chemin. Plus que jamais aujourd'hui, il nous faut considérer le navigateur comme une machine virtuelle d'exécution, dans laquelle nos applications peuvent tourner. HTML, ARIA, CSS, JS : tout ce petit monde contribue à fournir les clés dont nous avons besoin pour bâtir les applications du futur.\n\nMais derrière le rêve d'un « tout dans le navigateur » se cachent des pièges traîtres pour les développeurs : mémoire, performance, optimisation, design & dark patterns. Ceux-là aussi, il va falloir les dompter, les apprivoiser, et tirer parti du savoir-faire acquis sur les autres plateformes pour ne pas refaire les mêmes erreurs.\n\nSi on apprenait à faire les applications du futur, maintenant ?"
+                            }
+                         ]
+                    },
+                    {
                         "type":"java",
                         "talks":[
                             {"id":51 , 
