@@ -30,6 +30,17 @@
                          ]
                     },
                     {
+                        "type":"web",
+                        "talks":[
+                            {"id":13,
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"Le Blues des Préfixes Navigateurs",
+                            "description":""
+                            }
+                         ]
+                    },
+                    {
                         "type":"java",
                         "talks":[
                             {"id":51 , 

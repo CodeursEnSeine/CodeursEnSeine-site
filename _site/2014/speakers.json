@@ -26,7 +26,25 @@
         "talks": [ {"id":"12"}]
     },
     {
-        "id": 104,
+        "id": 103,
+        "fullname": "Rémi Parmentier",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-parmentier.jpg",
+        "description": "Rémi est intégrateur et co-gérant de sa petite agence web à Tourcoing, dans le Nord. Il aime partager ses humeurs et ses découvertes sur son blog et son compte Twitter.",
+        "liens": [
+                {
+                "url": "http://www.hteumeuleu.fr",
+                "label": "Blog"
+                },
+                {
+                "url": "http://www.twitter.com/hteumeuleu",
+                "label": "Twitter"
+                }
+                ],
+        "type": "Web",
+        "talks": [ {"id":"13"}]
+    },
+    {
+        "id": 106,
         "fullname": "Alexis Jacomy",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jacomy.jpg",
         "description": "Après être passé chez Linkfluence puis le médialab de Sciences-Po, Alexis développe maintenant des applications web de visualisation de données chez Atelier Iceberg, à Nantes. Il maintient également divers projets open-source autour de ces mêmes problématiques, notamment sigma.js, dédiée à l'affichage de graphes dans des pages web.",
