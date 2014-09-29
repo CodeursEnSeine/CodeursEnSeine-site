@@ -3,7 +3,7 @@
         "id": 101,
         "fullname": "Christophe Porteneuve",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-porteneuve.jpg",
-        "description": "Christophe conçoit des pages web depuis septembre 1995. Après avoir travaillé sur le premier portail JSP en Europe, il dirige la filière INSIA où il y enseigne les nouvelles technologies puis est directeur technique d'une agence web pendant 5 ans. Auteur du best-seller « Bien développer pour le Web 2.0 » chez Eyrolles, il a également écrit la référence « Prototype and script.aculo.us » chez Pragmatic Programmers.\n\nIl est aujourd’hui fondateur et directeur technique de Delicious Insights, qui tout en travaillant sur des SaaS B2B à venir conçoit et propose les cycles de formation Git Attitude et JS Attitude.",
+        "description": "Christophe conçoit des pages web depuis septembre 1995. Après avoir travaillé sur le premier portail JSP en Europe, il dirige la filière INSIA où il y enseigne les nouvelles technologies puis est directeur technique d'une agence web pendant 5 ans. Auteur du best-seller « Bien développer pour le Web 2.0 » chez Eyrolles, il a également écrit la référence « Prototype and script.aculo.us » chez Pragmatic Programmers.\n\nIl est aujourd’hui fondateur et directeur technique de Delicious Insights qui, tout en travaillant sur des SaaS B2B à venir, conçoit et propose les cycles de formation Git Attitude et JS Attitude.",
         "liens": [
                 {
                 "url": "http://www.twitter.com/porteneuve",
@@ -16,7 +16,7 @@
         "id": 102,
         "fullname": "Matthias Dugué",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-dugue.jpg",
-        "description": "Matthias est _Full Stack Punisher_ chez @Bunkrapp et éleveur de licornes de combats depuis 1996. Il passe ses journées implémenter dans la joie et la qualité l'interface qui sera la plus simple possible à utiliser. Il a malheureusement une fâcheuse tendance à danser et humhumer durant son _coding time_, ce qui peut facilement porter sur les nerfs de ses collègues (mais fait fuir les bugs, on ne peut pas tout avoir)...",
+        "description": "Matthias est _Full Stack Punisher_ chez @Bunkrapp et éleveur de licornes de combats depuis 1996. Il passe ses journées à implémenter, dans la joie et la qualité, l'interface qui sera la plus simple possible à utiliser. Il a malheureusement une fâcheuse tendance à danser et humhumer durant son _coding time_, ce qui peut facilement porter sur les nerfs de ses collègues (mais fait fuir les bugs, on ne peut pas tout avoir)...",
         "liens": [
                 {
                 "url": "http://www.twitter.com/m4d_z",
@@ -47,7 +47,7 @@
         "id": 106,
         "fullname": "Cyril Krylatov",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-krylatov.jpg",
-        "description": "Cyril, au collège, ne savait pas quoi faire quand il sera grand. Mais un jour, il a pris le code source d’un site, l’a collé dans frontpage, a vu le résultat et ça lui a plu. Depuis, il a été 3 ans intégrateur en agence et maintenant il est lead-intégrateur d’une équipe formidable composée de lui-même « chez l’annonceur » et continue d’apprendre énormément de trucs.",
+        "description": "Cyril, au collège, ne savait pas quoi faire quand il serait grand. Mais un jour, il a pris le code source d’un site, l’a collé dans frontpage, a vu le résultat et ça lui a plu. Depuis, il a été 3 ans intégrateur en agence et maintenant il est lead-intégrateur d’une équipe formidable composée de lui-même « chez l’annonceur » et continue d’apprendre énormément de trucs.",
         "liens": [
                 {
                 "url": "http://www.twitter.com/IAmNotCyril",
@@ -104,7 +104,7 @@
         "id": 304,
         "fullname": "Fabrice Sznajderman",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-fsznajderman.jpg",
-        "description": "Développeur passionné par les technologies et architectures liées à l’écosystème Java ainsi qu’aux technologies du WEB. Je m’investis également dans le monde de la programmation fonctionnelle au travers du langage Scala. \n\nCo-fondateur de la page : http://gplus.to/javafr ou je publie régulièrement des articles. Fondateur de la communauté développeurFR : http://gplus.to/developpeurFR\nRédacteur pour le journal Programmez",
+        "description": "Développeur passionné par les technologies et architectures liées à l’écosystème Java ainsi qu’aux technologies du WEB. Je m’investis également dans le monde de la programmation fonctionnelle au travers du langage Scala. \n\nCo-fondateur de la page : http://gplus.to/javafr où je publie régulièrement des articles. Fondateur de la communauté développeurFR : http://gplus.to/developpeurFR\nRédacteur pour le journal Programmez",
                 "liens": [
                 {
                     "url": "http://gplus.to/javafr",
@@ -136,7 +136,7 @@
         "id": 306,
         "fullname": "Emmanuel Lécharny",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-elecharny.jpg",
-        "description": "Développeur depuis 35 ans, après un passage de 12 ans dans quelques (grosses SSII), je fais le grand bond en avant et créé une petite société finalement peu différente d'une SSII. En 2005, je bascule dans le monde Open Source.\n\nMembre de l'ASF depuis 2007, responsable des projets MINA et ApacheDS, mentor de divers autres projets, je travaille actuellement avec la société Symas pour développer des solutions de sécurité et d'annuaires (toujours en Open Source).",
+        "description": "Développeur depuis 35 ans, après un passage de 12 ans dans quelques (grosses) SSII, je fais le grand bond en avant et crée une petite société finalement peu différente d'une SSII. En 2005, je bascule dans le monde Open Source.\n\nMembre de l'ASF depuis 2007, responsable des projets MINA et ApacheDS, mentor de divers autres projets, je travaille actuellement avec la société Symas pour développer des solutions de sécurité et d'annuaires (toujours en Open Source).",
         "liens": [
                 {
                     "url": "http://www.twitter.com/elecharny",
