@@ -85,6 +85,17 @@
                         ]
                     },
                     {
+                        "type":"agile",
+                        "talks":[
+                            {"id":32,
+                                "format":"conference",
+                                "url":"",
+                                "title":"Initiation à Kanban",
+                                "description":"La méthode Kanban a été déployée dans les années 50, par Toyota, dans le but de réguler le flux de travail de l’amont à l’aval d’une chaine de production kanban a ensuite été adapté à l’IT par David Anderson.\n\nAujourd’hui, la méthode Kanban pour l’IT fait partie des méthodes Agile et des pratiques Lean, avec pour objectif d’offrir aux équipes une approche évolutive cadrée autour de 4 piliers et 6 pratiques.\n\nDans cette session, je vous propose une initiation à la méthode kanban adaptée au monde de l’IT et son apport dans l’amélioration continue des équipes projets voulant passer à l’agilité ou souhaitant améliorer son processus Scrum. Cette session sera aussi l’occasion de présenter les apports de kanban sur la prédictibilité des activités."
+                            }
+                        ]
+                    },
+                    {
                         "type":"java",
                         "talks":[
                             {"id":51 , 

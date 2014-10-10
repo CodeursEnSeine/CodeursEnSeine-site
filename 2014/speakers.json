@@ -122,6 +122,19 @@
         "talks": [ {"id":"31"}]
     },
     {
+        "id": 205,
+        "fullname": "Couthaïer Farfra",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-cfarfra.png",
+        "description": "Consultant senior, Coach Agile, de plus de 19 ans d’expérience, dont 5 dans le domaine de l’Agilité.\n\nResponsable de l’offre Agile Siderlog.\n\nCouthaïer a à son actif plusieurs réalisations agiles, allant de l’accompagnement opérationnel des équipes projet à la réalisation de transformation à grande échelle d’une organisation, vers les pratiques Scrum, Kanban ou SAFe.\n\nEn décembre 2013, Couthaïer a créé l’association French Kanban User Group (330 membres), dont la vocation est de rassembler la communauté agile autour des pratiques Kanban.\n\nCertifié ScrumMaster, Management 3.0 et SAFe.",
+        "liens": [
+            {
+                "url": "http://twitter.com/farfrac",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"32"}]
+    },
+    {
         "id": 302,
         "fullname": "José Paumard",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-paumard.jpg",
