@@ -70,6 +70,58 @@
         "talks": [ {"id":"17"}]
     },
     {
+        "id": 201,
+        "fullname": "Cyril Lakech",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-clakech.jpeg",
+        "description": "Développeur. Ch'ti JUG Leader.\n Passionné par le métier de développeur, je m'intéresse à tous les domaines que je ne connais pas et aux bonnes pratiques de qualité comme les tests ou la revue de code. Je suis partisans des méthodes agiles et convaincu par l'approche devops. Je me concentre sur le dev web en JS HTML CSS en utilisant AngularJS, Grunt et tout l'écosystème de ces outils.\nCo-fondateur du Ch'ti JUG il y a 5 ans, je me suis retrouvé organisateur d'évènements et animateur de la communauté Java dans le Nord. Je me suis lancé dans l'organisation d'un Devoxx4Kids à Lille.\nJe travaille chez Groupe Adeo où c'est un plaisir de travailler car on a l'autonomie et les moyens pour réaliser un développement de qualité.",
+        "liens": [
+            {
+                "url": "http://twitter.com/cyril_lakech",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"30"}]
+    },
+    {
+        "id": 202,
+        "fullname": "Hugo Sablonniere",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-hsablonniere.png",
+        "description": "Hubert Sablonnière est un développeur Web passionné d’HTML, CSS et JavaScript.\n\nDepuis 5 ans il intervient chez INEAT Conseil en conseil et développement sur des projets Web (desktop et mobile). Habitué des plateformes Java et PHP, sa spécialité reste le JavaScript qu'il a enseigné pendant 2 ans.\n\nSur son temps libre, il bidouille sur différents projets open-source en essayant de pousser la plateforme Web jusqu'à ses limites.",
+        "liens": [
+            {
+                "url": "http://twitter.com/hsablonniere",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"30"}]
+    },
+    {
+        "id": 203,
+        "fullname": "Eric Le Merdy",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-elemerdy.png",
+        "description": "Eric est particulièrement heureux lorsqu'il est en train de coder.\n\nDans un état d'esprit agile, il aime se sentir appartenir à une équipe de développement cool et partager son enthousiasme. En complément de son apétit pour la pratique de l'art de la programmation, il aime aussi la théorie. Le \"Lean Software Development\" satisfait son intérêt pour à la fois la culture japonnaise et les méthodes efficaces qui mettent en avant les humains.\n\nInspiré par le Software Craftsmanship, il essaye de suprimer les fonctionnalités jour après jour pour simplifier et tenter d'éliminer le \"legacy\" de la surface de la terre - le code legacy étant bien entendu du code qu'il a pu lui-même produire la veille !",
+        "liens": [
+            {
+                "url": "http://twitter.com/ericlemerdy",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"31"}]
+    },
+    {
+        "id": 204,
+        "fullname": "Sebastian Le Merdy",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-slemerdy.jpg",
+        "description": "Je m'appelle Sébastian et j'aime le software craftsmanship.\n\nJe suis passionné par le développement et les technologies innovantes. Mon langage maternel est Java mais ça ne me dérange pas d'écrire du code dans d'autres langages comme scala ou javascript ; tant que c'est le bon outil pour la bonne tâche. J'aime bien livrer tôt et livrer souvent mon logiciel aux utilisateurs finaux en utilisant les pratiques agiles. Je teste systématiquement tout ce que j'écris : personne n'est parfait.\n\nVous pouvez me rencontrer dans un coding dojo ou durant une session de coding live. Je travaille chez Xebia en qualité de consultant.",
+        "liens": [
+            {
+                "url": "http://twitter.com/seblm",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"31"}]
+    },
+    {
         "id": 302,
         "fullname": "José Paumard",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-paumard.jpg",

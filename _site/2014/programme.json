@@ -63,6 +63,28 @@
                          ]
                     },
                     {
+                        "type":"agile",
+                        "talks":[
+                            {"id":30,
+                                "format":"conference",
+                                "url":"",
+                                "title":"Git++ : Passez au niveau supérieur de la gestion de version",
+                                "description":"On utilise tous git mais on constate trop souvent qu'il est utilisé comme SVN malheureusement. Git apporte de la valeur dans le quotidien d'un développeur sans forcément ajouter de complexité.\n\nAvec git rebase et un peu de volonté, on peut réussir à avoir un historique expressif qui aidera tous les développeurs à s'y retrouver et il vous permettra même de générer un changelog fonctionnel ! Vous pouvez aussi récupérer des commits d'une branche sur une autre. Et plus encore!\n\nVenez apprendre quelques astuces simples qui vous permettrons d'améliorer votre manière de gérer votre code!"
+                            }
+                        ]
+                    },
+                    {
+                        "type":"agile",
+                        "talks":[
+                            {"id":31,
+                                "format":"conference",
+                                "url":"",
+                                "title":"TDD is not dead",
+                                "description":"Is TDD Dead ? Le “débat” lancé par un article de DHH l’un des créateurs du framework ruby on rails a fait le tour du web. Cela a déclenché tout un tas de réactions et débats enflammés. Une série de rencontres vidéo entre DHH, Kent Beck et Martin Fowler ont cristallisé ces débats.\n\nAprès un bref résumé des arguments avancés par les uns et les autres, nous allons montrer par du code pourquoi le TDD reste une technique majeure pour développer.\n\nOn va prendre l’exemple de code de DHH (en java8 et fluenthttp) et montrer comment on peut éviter d’arriver à l’horreur qu’il a montré tout en étant dirigé par les tests."
+                            }
+                        ]
+                    },
+                    {
                         "type":"java",
                         "talks":[
                             {"id":51 , 
