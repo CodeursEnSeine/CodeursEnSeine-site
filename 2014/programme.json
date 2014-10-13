@@ -43,6 +43,28 @@
                     {
                         "type":"web",
                         "talks":[
+                            {"id":14,
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"",
+                            "description":""
+                            }
+                         ]
+                    },
+                    {
+                        "type":"web",
+                        "talks":[
+                            {"id":15,
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"",
+                            "description":""
+                            }
+                         ]
+                    },
+                    {
+                        "type":"web",
+                        "talks":[
                             {"id":16,
                             "format":"conference", 
                             "url":"", 
@@ -58,7 +80,7 @@
                             "format":"conference", 
                             "url":"", 
                             "title":"Cartographie du web",
-                            "description":""
+                            "description":"Nous naviguons chaque jour à travers le Web, allant de page en page via les liens hypertextes. Mais si le Web est un espace, comment le représenter ? Nous partirons d'une simple page et prendrons du recul, pour en observer les voisins directs, puis cartographier les territoires alentours."
                             }
                          ]
                     },

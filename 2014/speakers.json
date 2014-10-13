@@ -44,6 +44,40 @@
         "talks": [ {"id":"13"}]
     },
     {
+        "id": 104,
+        "fullname": "Romy Duhem-Verdière",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-duhem-verdiere.jpg",
+        "description": "",
+        "liens": [
+                {
+                "url": "http://romy.tetue.net",
+                "label": "Blog"
+                },
+                {
+                "url": "https://twitter.com/tetue",
+                "label": "Twitter"
+                }
+                ],
+        "type": "Web"
+    },
+    {
+        "id": 105,
+        "fullname": "Olivier Nourry",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-nourry.jpg",
+        "description": "",
+        "liens": [
+                {
+                "url": "http://accessiblog.fr",
+                "label": "Blog"
+                },
+                {
+                "url": "https://twitter.com/OlivierNourry",
+                "label": "Twitter"
+                }
+                ],
+        "type": "Web"
+    },
+    {
         "id": 106,
         "fullname": "Cyril Krylatov",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-krylatov.jpg",

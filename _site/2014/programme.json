@@ -43,6 +43,28 @@
                     {
                         "type":"web",
                         "talks":[
+                            {"id":14,
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"",
+                            "description":""
+                            }
+                         ]
+                    },
+                    {
+                        "type":"web",
+                        "talks":[
+                            {"id":15,
+                            "format":"conference", 
+                            "url":"", 
+                            "title":"",
+                            "description":""
+                            }
+                         ]
+                    },
+                    {
+                        "type":"web",
+                        "talks":[
                             {"id":16,
                             "format":"conference", 
                             "url":"", 
@@ -58,7 +80,7 @@
                             "format":"conference", 
                             "url":"", 
                             "title":"Cartographie du web",
-                            "description":""
+                            "description":"Nous naviguons chaque jour à travers le Web, allant de page en page via les liens hypertextes. Mais si le Web est un espace, comment le représenter ? Nous partirons d'une simple page et prendrons du recul, pour en observer les voisins directs, puis cartographier les territoires alentours."
                             }
                          ]
                     },
@@ -81,6 +103,17 @@
                                 "url":"",
                                 "title":"TDD is not dead",
                                 "description":"Is TDD Dead ? Le “débat” lancé par un article de DHH l’un des créateurs du framework ruby on rails a fait le tour du web. Cela a déclenché tout un tas de réactions et débats enflammés. Une série de rencontres vidéo entre DHH, Kent Beck et Martin Fowler ont cristallisé ces débats.\n\nAprès un bref résumé des arguments avancés par les uns et les autres, nous allons montrer par du code pourquoi le TDD reste une technique majeure pour développer.\n\nOn va prendre l’exemple de code de DHH (en java8 et fluenthttp) et montrer comment on peut éviter d’arriver à l’horreur qu’il a montré tout en étant dirigé par les tests."
+                            }
+                        ]
+                    },
+                    {
+                        "type":"agile",
+                        "talks":[
+                            {"id":32,
+                                "format":"conference",
+                                "url":"",
+                                "title":"Initiation à Kanban",
+                                "description":"La méthode Kanban a été déployée dans les années 50, par Toyota, dans le but de réguler le flux de travail de l’amont à l’aval d’une chaine de production kanban a ensuite été adapté à l’IT par David Anderson.\n\nAujourd’hui, la méthode Kanban pour l’IT fait partie des méthodes Agile et des pratiques Lean, avec pour objectif d’offrir aux équipes une approche évolutive cadrée autour de 4 piliers et 6 pratiques.\n\nDans cette session, je vous propose une initiation à la méthode kanban adaptée au monde de l’IT et son apport dans l’amélioration continue des équipes projets voulant passer à l’agilité ou souhaitant améliorer son processus Scrum. Cette session sera aussi l’occasion de présenter les apports de kanban sur la prédictibilité des activités."
                             }
                         ]
                     },
