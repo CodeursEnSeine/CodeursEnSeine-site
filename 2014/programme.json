@@ -118,6 +118,17 @@
                         ]
                     },
                     {
+                        "type":"agile",
+                        "talks":[
+                            {"id":33,
+                                "format":"quickie",
+                                "url":"",
+                                "title":"Outils pour manager une équipe (de développement)",
+                                "description":"Vous avez tous connu des bons ou (plus souvent) des mauvais managers dans votre carrière. Au gré de la croissance de votre société, de réorganisations ou de rachats, il arrive pour de bonnes ou de mauvaises raisons que vous-même teniez un rôle de management. Un rôle pas forcément à l'honneur dans notre communauté.Le management, comme le développement, se base aussi sur des pratiques et des techniques. Voici une revue d'outils pragmatique et simple à mettre en place pour vous améliorer dans votre (nouveau) role de manager."
+                            }
+                        ]
+                    },
+                    {
                         "type":"java",
                         "talks":[
                             {"id":51 , 

@@ -169,6 +169,23 @@
         "talks": [ {"id":"32"}]
     },
     {
+        "id": 206,
+        "fullname": "Youen Chene",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-ychene.jpg",
+        "description": "Passionné d'informatique et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG et de Codeurs en Seine. Après 7 ans de prestation et de consulting en région parisienne, je suis passé manager d'une équipe de développement chez Masternaut suite à un rachat et une réorganisation.J'ai aussi ma petite entreprise (http://www.driveo.fr) ou je porte tous les rôles.",
+        "liens": [
+            {
+                "url": "http://twitter.com/youen_chene",
+                "label": "Twitter"
+            },
+            {
+                "url": "http://www.youenchene.fr",
+                "label": "Blog"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"33"}]
+    },
+    {
         "id": 302,
         "fullname": "José Paumard",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-paumard.jpg",
