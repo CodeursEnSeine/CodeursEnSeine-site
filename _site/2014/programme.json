@@ -57,8 +57,8 @@
                             {"id":15,
                             "format":"conference", 
                             "url":"", 
-                            "title":"",
-                            "description":""
+                            "title":"Une histoire de l'accessibilité web",
+                            "description":"La perception et la prise en charge du handicap ont évolué dans le temps. On est passé du rejet pur et simple, à la charité, puis à l'accommodation. On espère atteindre, un jour, l'inclusion. Ceci a influencé la façon dont on a abordé l'accessibilité aux contenus, avec une tendance continue vers toujours plus d'autonomie. D'abord l'exclusion, puis l'adaptation, et l'on est dans l'ère de l'adaptabilité, permise par le numérique. Et demain ? Que pouvons-nous attendre d'un monde ultra-connecté ? Au travers d'exemples nous voyagerons dans le temps, celui de l'évolution des techniques pour permettre l'accès à l'information, partout et pour tous."
                             }
                          ]
                     },
@@ -114,6 +114,17 @@
                                 "url":"",
                                 "title":"Initiation à Kanban",
                                 "description":"La méthode Kanban a été déployée dans les années 50, par Toyota, dans le but de réguler le flux de travail de l’amont à l’aval d’une chaine de production kanban a ensuite été adapté à l’IT par David Anderson.\n\nAujourd’hui, la méthode Kanban pour l’IT fait partie des méthodes Agile et des pratiques Lean, avec pour objectif d’offrir aux équipes une approche évolutive cadrée autour de 4 piliers et 6 pratiques.\n\nDans cette session, je vous propose une initiation à la méthode kanban adaptée au monde de l’IT et son apport dans l’amélioration continue des équipes projets voulant passer à l’agilité ou souhaitant améliorer son processus Scrum. Cette session sera aussi l’occasion de présenter les apports de kanban sur la prédictibilité des activités."
+                            }
+                        ]
+                    },
+                    {
+                        "type":"agile",
+                        "talks":[
+                            {"id":33,
+                                "format":"quickie",
+                                "url":"",
+                                "title":"Outils pour manager une équipe (de développement)",
+                                "description":"Vous avez tous connu des bons ou (plus souvent) des mauvais managers dans votre carrière. Au gré de la croissance de votre société, de réorganisations ou de rachats, il arrive pour de bonnes ou de mauvaises raisons que vous-même teniez un rôle de management. Un rôle pas forcément à l'honneur dans notre communauté.Le management, comme le développement, se base aussi sur des pratiques et des techniques. Voici une revue d'outils pragmatique et simple à mettre en place pour vous améliorer dans votre (nouveau) role de manager."
                             }
                         ]
                     },

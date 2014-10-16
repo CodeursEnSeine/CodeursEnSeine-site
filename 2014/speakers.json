@@ -64,7 +64,7 @@
         "id": 105,
         "fullname": "Olivier Nourry",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-nourry.jpg",
-        "description": "",
+        "description": "Je ne crois pas en l'accessibilité parce que c'est mon job. C'est mon job parce que je crois en l'accessibilité. Après avoir brisé les c... carcans chez Micropole, et un passage court mais intense chez Qelios, je dirige le Pôle Accessibilité de V-Technologies. Parfois je m'énerve, mais c'est toujours pour la bonne cause. Sinon, pour mes loisirs, j'aime écrire pour mon blog (sur l'accessibilité), ou donner des conférences (sur l'accessibilité).",
         "liens": [
                 {
                 "url": "http://accessiblog.fr",
@@ -75,7 +75,8 @@
                 "label": "Twitter"
                 }
                 ],
-        "type": "Web"
+        "type": "Web",
+        "talks": [ {"id":"15"}]
     },
     {
         "id": 106,
