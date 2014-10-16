@@ -426,3 +426,7 @@ hr {
 {
 	margin-top: -20px;
 }
+
+.bfc {
+    overflow: hidden;
+}

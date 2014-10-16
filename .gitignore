@@ -1,4 +1,3 @@
-_site/*
 _site/
 _theme_packages/*
 _theme_packages/
@@ -11,7 +10,6 @@ gruntfile.js
 
 !.gitkeep
 
-_site
 .rbenv-version
 .rvmrc
 .idea
