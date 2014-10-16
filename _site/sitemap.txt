@@ -8,11 +8,11 @@ http://www.codeursenseine.com/2013/speakers-static.html
 http://www.codeursenseine.com/2014/speakers.html
 http://www.codeursenseine.com/2013/speakers.html
 http://www.codeursenseine.com/2013/organisation.html
-http://www.codeursenseine.com/2014/organisateurs.html
-http://www.codeursenseine.com/2013/inscription.html
 http://www.codeursenseine.com/2014/inscription.html
-http://www.codeursenseine.com/2013/devoxx4Kids.html
 http://www.codeursenseine.com/2014/devoxx4Kids.html
+http://www.codeursenseine.com/2013/inscription.html
+http://www.codeursenseine.com/2013/devoxx4Kids.html
+http://www.codeursenseine.com/2014/organisateurs.html
 http://www.codeursenseine.com/2014/sponsors.html
 http://www.codeursenseine.com/2013/sponsors.html
 http://www.codeursenseine.com/2014/logistique.html
