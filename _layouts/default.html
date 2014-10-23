@@ -44,7 +44,7 @@
       <p class="tagline">{{ site.tagline[page.group] }}<br /> {{ site.date[page.group] }}</p>
       
       <div class="navbar-inner">
-       <ul class="nav">
+       <ul class="nav" role="nav">
 
         {% capture page_modified %}{{ page.url }}{% endcapture %}
 
@@ -72,7 +72,7 @@
    </div>  
  </header>
 
- <div class="main">
+ <div class="main" role="main">
 
   <script src="/assets/jquery/js/jquery.min.js"></script>
   <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
@@ -83,7 +83,7 @@
   </div>
 </div>
 
-<div class="footer">
+<div class="footer" role="contentinfo">
   <div class="container">
 
     <div id="contact" class="section">
