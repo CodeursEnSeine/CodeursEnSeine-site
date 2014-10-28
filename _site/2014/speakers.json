@@ -1,5 +1,39 @@
 [
     {
+        "id": 1,
+        "fullname": "Cyrille Martraire",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-martraire.jpg",
+        "description": "Depuis 1999 Cyrille développe des logiciels avec passion dans des startups et banques, et est co-fondateur et directeur technique d'Arolla, une société spécialisée en développement logiciel. Toujours accro au développement, il consacre une grande partie de son énergie chez des clients dans la finance de marché, en prenant intégralement en charge des projets en équipe, les mains dans le code et avec une forte implication dans l'analyse métier.\nPassionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture), il a aussi fondé la communauté Software Craftsmanship Paris.",
+        "liens": [
+            {
+                "url": "http://blog.arolla.fr/",
+                "label": "Blog"
+            },
+            {
+                "url": "http://www.twitter.com/cyriux",
+                "label": "Twitter"
+            }],
+        "type": "Keynote",
+        "talks": [ {"id":"2"}]
+    },
+    {
+        "id": 1,
+        "fullname": "Bernard Notarianni",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-notarianni.jpg",
+        "description": "Bernard est créateur de logiciels d'entreprise depuis 20 ans, Coach agile depuis 10 ans. Il invente de nouvelles manières d'utiliser l'informatique afin de créer des logiciels remarquables. Bernard partage son savoir faire avec les équipes qu'il rejoint, autant pour écrire du code et des tests que pour animer la dynamique d'équipe et le processus de distillation des idées des \"Product Owners\". Il contribue à la communauté agile francaise depuis sa création. Il est co-organisateur d'Agile Open France, la conférence en format \"forum ouvert\" des praticiens avancés de l'agile en France, qui se réunit annuellement à Itterswiller en Alsace.",
+        "liens": [
+            {
+                "url": "http://umolelo.com/",
+                "label": "Blog"
+            },
+            {
+                "url": "http://www.twitter.com/notarianni",
+                "label": "Twitter"
+            }],
+        "type": "Keynote",
+        "talks": [ {"id":"2"}]
+    },
+    {
         "id": 101,
         "fullname": "Christophe Porteneuve",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-porteneuve.jpg",
