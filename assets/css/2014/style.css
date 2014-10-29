@@ -27,6 +27,11 @@ h1 {
 	border-bottom: 2px dotted #999;
 }
 
+figcaption{
+	font-size: .8em;
+	color:#777;
+}
+
 /* Header
 -------------------------------------------------- */
 
