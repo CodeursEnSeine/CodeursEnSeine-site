@@ -231,15 +231,28 @@
         "description": "Passionné d'informatique et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG et de Codeurs en Seine. Après 7 ans de prestation et de consulting en région parisienne, je suis passé manager d'une équipe de développement chez Masternaut suite à un rachat et une réorganisation.J'ai aussi ma petite entreprise (http://www.driveo.fr) ou je porte tous les rôles.",
         "liens": [
             {
-                "url": "http://twitter.com/youen_chene",
-                "label": "Twitter"
-            },
-            {
                 "url": "http://www.youenchene.fr",
                 "label": "Blog"
+            },
+            {
+                "url": "http://twitter.com/youen_chene",
+                "label": "Twitter"
             }],
         "type": "Agile",
         "talks": [ {"id":"33"}]
+    },
+    {
+        "id": 207,
+        "fullname": "Pierre Neis",
+        "avatar": "http://www.codeursenseine.com/assets/img/orateur-neis.jpg",
+        "description": "Pierre est un coach agile expérimenté avec avec une importante expérience de la gestion de programmes. Il a commencé sa carrière en tant que chef de produit dans l'industrie automobile et s’est challengé comme gestionnaire de portefeuille en capital de risque avant s'engager dans l'industrie du logiciel.\nIl a testé différentes approches dans le coaching de Scrum dans l’Audit, l’Asset Management, l’Industrie, l’Education, les programmes gouvernementaux, les projets offshore.\nEn parallèle à ses activités de coachs de programmes globaux, Pierre a développé différentes méthodes agiles pour la gestion des Ressources Humaines, les Serious Games et la facilitation.\nQuelques références: ORES, GDF Suez Europe, SAP UK, KingFisher, Wemanity, Accenture, AXA Group, LaPoste Innovation, Euroclear Bank, INVIVO, CNRS, CTIE, atHome Group, Swingmobility, Touring Assurances…",
+        "liens": [
+            {
+                "url": "http://twitter.com/@elPedroMajor",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"34"}]
     },
     {
         "id": 302,
