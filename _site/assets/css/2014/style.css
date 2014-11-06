@@ -68,7 +68,7 @@ footer {
 	padding: 1.5em 0 3em;
 	color: #4f4c4c;
 	background: #eee;
-	background: #eee url('../img/light_noise_diagonal.png') repeat;
+	background: #eee url('../../img/light_noise_diagonal.png') repeat;
 	border-top: 10px solid #4081bd;
 	border-bottom: 15px solid #4081bd;
 }
