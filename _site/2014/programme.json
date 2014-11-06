@@ -9,8 +9,19 @@
                     {
                         "type":"keynote",
                         "talks":[
+                            {"id":1,
+                                "format":"keynote",
+                                "url":"",
+                                "title":"Conférence plénière d'ouverture",
+                                "description":"Alexis reviendra sur l'histoire de Bunkr des premiers jours dans notre appartement Rouennais ; à la levée de fonds de 1M€ ; sans oublier toutes les anecdotes de ces 2 dernières années !"
+                            }
+                        ]
+                    },
+                    {
+                        "type":"keynote",
+                        "talks":[
                             {"id":2,
-                                "format":"conference",
+                                "format":"keynote",
                                 "url":"",
                                 "title":"Conférence plénière de cloture",
                                 "description":"Bien sûr notre métier est sérieux ; le Software Craftmanship n'est-il pas avant tout le professionnalisme ? Bien sûr le progrès vient d'articles scientifiques ardus et de nouveaux logiciels complexes.\nMais vous ne rêvez pas parfois de repousser le cadre professionnel habituel ? D'aller plus loin et d'explorer ? De vous amuser avec du code jusqu'à ce que ça devienne n'importe quoi ?\nDans cette session nous vous présenterons des expériences ésotériques, des jeux bizarres et des joyeux délires qui font réfléchir. Réfléchir ? D'habitude on n'a jamais le temps !"
@@ -135,6 +146,17 @@
                                 "url":"",
                                 "title":"Outils pour manager une équipe (de développement)",
                                 "description":"Vous avez tous connu des bons ou (plus souvent) des mauvais managers dans votre carrière. Au gré de la croissance de votre société, de réorganisations ou de rachats, il arrive pour de bonnes ou de mauvaises raisons que vous-même teniez un rôle de management. Un rôle pas forcément à l'honneur dans notre communauté.Le management, comme le développement, se base aussi sur des pratiques et des techniques. Voici une revue d'outils pragmatique et simple à mettre en place pour vous améliorer dans votre (nouveau) role de manager."
+                            }
+                        ]
+                    },
+                    {
+                        "type":"agile",
+                        "talks":[
+                            {"id":34,
+                                "format":"conference",
+                                "url":"",
+                                "title":"Agile UX & Scrum.... un produit est une produit que l'on utilise",
+                                "description":"A première vue, Scrum peut paraître comme un panier rempli de rôles, de cérémonies et d’artefacts. Mais en fin de compte, depuis son origine, Scrum ne parle que d’une chose développer un produit. Développer un bon produit. Développer LE PRODUIT.\nMais que signifie LE PRODUIT ou un bon produit. Un produit parfait? Ou un produit qui est utilisé?\nCette session vous emmènera vers la source de SCRUM celle de développer un produit que vos clients, vos utilisateurs aimeront. De là nous nous poserons la question comment aimer sans connaître? Et nous tâcherons de découvrir qu’un bon produit que l’on aime n’est pas axé au produit mais à l’expérience que l’on fait avec celui-ci.\nUX = Scrum —> Scrum = UX"
                             }
                         ]
                     },

@@ -2,7 +2,6 @@
 layout: default
 label: Intervenants
 title: Intervenants
-year: 2014
 navigation: true
 group: 2014
 permalink: /2014/speakers.html
@@ -12,57 +11,52 @@ permalink: /2014/speakers.html
 	<div class="span12">            
 		<div id="intervenants" class="section well">
 			<h2>Intervenants</h2>
-         <!--<p><a href="speakers-static.html">Version accessible / statique</a></p> -->      
+         <p><a href="speakers-static.html">Version accessible / statique</a></p>
          <div id="speakers-grid"></div>
 		</div>
 	</div>
 </div>
 
-
 <script id="speakers-template" type="x-handlebars-template">
-
 <%#each this%>
-<div class='row-fluid' id="orateur-<#id#>">
+  <div class='row-fluid' id="orateur-<#id#>">
     <div class="span1">
-        <%#if avatar%>
-        	<img src="<%avatar%>" class="img-polaroid" alt="<%fullname%>"/>
-        <%/if%>
-        <div class="speaker-type"><%type%></div>
-        </div>
-        <div class="span11" >
-        <p><strong> <a name="sp_<%id%>" id="sp_<%id%>" href="#sp_<%id%>"><%fullname%></a></strong> : <#description#></p>
-        <%#if liens%>
-        <div class="speakers-inside-links">
-					<ul>
-						<%#each liens%>
-		           <li><a href="<%url%>"><%label%></a></li>
-		        <%/each%>
-					</ul>
-        </div>
-         <%/if%>
-        <%#each talks%>
-             <div class="speakers-inside-talks">
-             <strong><%title%></strong><%#if slide%> - <a href="<#slide#>" title="slide : <%title%>">Slides de la présentation</a><%/if%>
-						 <%#if description%><span><#description#></span><%/if%>
-              <div class="room-inside-talks"><%room%></div>
-             </div>
-        <%/each%>
+      <%#if avatar%><img src="<%avatar%>" class="img-polaroid" alt="<%fullname%>"/><%/if%>
+      <div class="speaker-type"><%type%></div>
     </div>
-</div>
-<hr />
+    <div class="span11" >
+      <p><strong><a name="sp_<%id%>" id="sp_<%id%>" href="#sp_<%id%>"><%fullname%></a></strong> : <#description#></p>
+      <%#if liens%>
+      <div class="speakers-inside-links">
+  			<ul>
+  				<%#each liens%><li><a href="<%url%>"><%label%></a></li><%/each%>
+  			</ul>
+      </div>
+       <%/if%>
+      <%#each talks%>
+        <div class="speakers-inside-talks">
+          <strong><%title%></strong>
+          <%#if slide%> - <a href="<#slide#>" title="slide : <%title%>">Slides de la présentation</a><%/if%>
+          <%#if description%><span><#description#></span><%/if%>
+          <div class="room-inside-talks"><%room%></div>
+        </div>
+      <%/each%>
+    </div>
+  </div>
+  <hr />
 <%/each%>
-                        
 </script>
                         
 <script>
-
 function writeInConsole (text) {
-    if (typeof console !== 'undefined') {
-        console.log(text);    
-    }
-    else {
-        alert(text);    
-    }
+/*
+  if (typeof console !== 'undefined') {
+    console.log(text);    
+  }
+  else {
+    alert(text);    
+  }
+*/
 }
 
 	$(function() {
