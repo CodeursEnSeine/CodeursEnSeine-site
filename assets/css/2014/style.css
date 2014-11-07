@@ -277,7 +277,8 @@ hr {
 
 .agenda-table .agenda-cell-web,
 .agenda-table .agenda-cell-agile,
-.agenda-table .agenda-cell-java {
+.agenda-table .agenda-cell-java,
+.agenda-table .agenda-cell-innovation {
 	position: relative;
 	overflow: hidden;
 	padding: 0 0 1em;
@@ -291,10 +292,14 @@ hr {
 .agenda-table .agenda-cell-java {
 	background: rgba(64, 129, 189,.05);
 }
+.agenda-table .agenda-cell-innovation {
+	background: rgba(189, 64, 129,.05);
+}
 
 .agenda-table .agenda-cell-web:before,
 .agenda-table .agenda-cell-agile:before,
-.agenda-table .agenda-cell-java:before {
+.agenda-table .agenda-cell-java:before,
+.agenda-table .agenda-cell-innovation:before {
 	position: relative;
 	display: block;
 	margin: 20px 0px -20px 0;
@@ -319,6 +324,10 @@ hr {
 .agenda-table .agenda-cell-java:before {
 	content: "Java";
 	color: rgba(64, 129, 189,.1);
+}
+.agenda-table .agenda-cell-innovation:before {
+	content: "Innov";
+	color: rgba(189, 64, 129,.1);
 }
 
 /* Speakers

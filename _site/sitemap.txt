@@ -1,6 +1,6 @@
 
+http://www.codeursenseine.com/2014/agenda-dyn.html
 http://www.codeursenseine.com/2013/agenda-static.html
-http://www.codeursenseine.com/2014/agenda-static.html
 http://www.codeursenseine.com/2013/agenda.html
 http://www.codeursenseine.com/2014/agenda.html
 http://www.codeursenseine.com/2014/speakers-dyn.html
@@ -23,8 +23,8 @@ http://www.codeursenseine.com/2014/sponsors.html
 http://www.codeursenseine.com/2013/videos.html
 http://www.codeursenseine.com/2014/logistique.html
 http://www.codeursenseine.com/2014/photos.html
-http://www.codeursenseine.com/2014/
 http://www.codeursenseine.com/2013/
+http://www.codeursenseine.com/2014/
 http://www.codeursenseine.com/2013/kitpress.html
 http://www.codeursenseine.com/kitpress.html
 http://www.codeursenseine.com/2014/kitpress.html
