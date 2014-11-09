@@ -232,10 +232,14 @@ hr {
 	font-weight: bold;
 }
 
+.agenda-table .agenda-cell-keynote span.agenda-title a:hover,
+.agenda-table .agenda-cell-quickie span.agenda-title a:hover,
 .agenda-table .agenda-cell-conference span.agenda-title a:hover {
 	text-decoration: underline;
 }
 
+.agenda-table .agenda-cell-keynote span.agenda-title a,
+.agenda-table .agenda-cell-quickie span.agenda-title a,
 .agenda-table .agenda-cell-conference span.agenda-title a {
 	color: #555;
 }
@@ -248,17 +252,14 @@ hr {
 	font-size: 85%;
 }
 
-.agenda-table span.agenda-fullname:before {
-	position: relative;
-	content: "-";
-	top: 2%;
-	left: -.3%;
-}
-
+.agenda-table .agenda-cell-keynote span.agenda-fullname:nth-child(2):before,
 .agenda-table .agenda-cell-conference span.agenda-fullname:nth-child(2):before {
-	content: "";
+	content: "- ";
 }
 
+.agenda-table .agenda-speakers {
+    display: block;
+}
 
 .agenda-table span.agenda-room {
 	display: block;

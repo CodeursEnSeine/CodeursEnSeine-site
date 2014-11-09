@@ -15,7 +15,7 @@
                 "room":"Amphi A",
                 "format":"keynote",
                 "url":"",
-                "title":"Conférence plénière d'ouverture",
+                "title":"Plénière - Bienvenue & Keynote Bunkr",
                 "description":"Alexis reviendra sur l'histoire de Bunkr des premiers jours dans notre appartement Rouennais ; à la levée de fonds de 1M€ ; sans oublier toutes les anecdotes de ces 2 dernières années !"
               }
             ]
@@ -113,8 +113,8 @@
                 "room":"Amphi A",
                 "format":"conference", 
                 "url":"", 
-                "title":"",
-                "description":""
+                "title":"Au fait, qu'est-ce que publier sur le Web ?",
+                "description":"..."
               }
             ]
           },
@@ -178,16 +178,30 @@
             "type":"agile",
             "talks":[
               {
-                "id":33,
-                "time":"12:00",
+                "id":36,
+                "time":"12:20",
                 "room":"Amphi B",
                 "format":"quickie",
                 "url":"",
-                "title":"Outils pour manager une équipe (de développement)",
-                "description":"Vous avez tous connu des bons ou (plus souvent) des mauvais managers dans votre carrière. Au gré de la croissance de votre société, de réorganisations ou de rachats, il arrive pour de bonnes ou de mauvaises raisons que vous-même teniez un rôle de management. Un rôle pas forcément à l'honneur dans notre communauté.Le management, comme le développement, se base aussi sur des pratiques et des techniques. Voici une revue d'outils pragmatique et simple à mettre en place pour vous améliorer dans votre (nouveau) role de manager."
+                "title":"",
+                "description":""
               }
             ]
           },
+          {
+                "type":"agile",
+                "talks":[
+                    {
+                        "id":33,
+                        "time":"12:00",
+                        "room":"Amphi B",
+                        "format":"quickie",
+                        "url":"",
+                        "title":"Outils pour manager une équipe (de développement)",
+                        "description":"Vous avez tous connu des bons ou (plus souvent) des mauvais managers dans votre carrière. Au gré de la croissance de votre société, de réorganisations ou de rachats, il arrive pour de bonnes ou de mauvaises raisons que vous-même teniez un rôle de management. Un rôle pas forcément à l'honneur dans notre communauté.Le management, comme le développement, se base aussi sur des pratiques et des techniques. Voici une revue d'outils pragmatique et simple à mettre en place pour vous améliorer dans votre (nouveau) role de manager."
+                    }
+                ]
+            },
           {
             "type":"agile",
             "talks":[
@@ -323,9 +337,9 @@
                 "room":"Amphi D",
                 "format":"conference", 
                 "url":"", 
-                "title":"La révolution Docker",
-                 "description":"En très peu de temps, Docker a su s'imposer comme un standard de facto dans le monde du Cloud, ne laissant aucun fournisseur impassible. A mi-chemin entre IaaS et PaaS, Docker brouille les cartes et ouvre de nouvelles opportunités. Au cours de ce talk, nous vous présenterons ce qu'est techniquement Docker, son impact sur l'écosystème et comment vous pouvez le mettre à profit pour vos propres développements."
-               }
+                "title":"Docker de \"Zéro\" à \"Héros\"",
+                "description":"Né il y a un an, Docker est en passe de devenir le standard de fait pour les déploiements Cloud, chaque acteur travaillant activement sur la thématique de la \"Containerization\".<br/>En troublant la frontière entre IaaS et PaaS, Docker crée de nouvelles opportunités et pratiques.<br/>Pendant ce talk, je vais présenter Docker, depuis la base jusqu'à son utilisation \"dans la vraie vie\" : aspects techniques mais surtout fonctionnels, impacts, outils, pratiques de \"continuous delivery\", et comment en tirer partie pour vos propres développements.<br>Et comme je ne veux pas vous abreuver de centaines de slides préparez vous à de nombreuses démos !"
+              }
              ]
           },
           {
@@ -421,7 +435,7 @@
                 "room":"Amphi A",
                 "format":"keynote",
                 "url":"",
-                "title":"Conférence plénière de cloture",
+                "title":"Plénière - Extremist Programming",
                 "description":"Bien sûr notre métier est sérieux ; le Software Craftmanship n'est-il pas avant tout le professionnalisme ? Bien sûr le progrès vient d'articles scientifiques ardus et de nouveaux logiciels complexes.\nMais vous ne rêvez pas parfois de repousser le cadre professionnel habituel ? D'aller plus loin et d'explorer ? De vous amuser avec du code jusqu'à ce que ça devienne n'importe quoi ?\nDans cette session nous vous présenterons des expériences ésotériques, des jeux bizarres et des joyeux délires qui font réfléchir. Réfléchir ? D'habitude on n'a jamais le temps !"
               }
             ]

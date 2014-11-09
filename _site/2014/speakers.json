@@ -113,7 +113,8 @@
                 "label": "Twitter"
                 }
                 ],
-        "type": "Web"
+        "type": "Web",
+        "talks": [ {"id":"14"}]
     },
     {
         "id": 105,
