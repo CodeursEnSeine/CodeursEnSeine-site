@@ -55,7 +55,7 @@
                 "id":16,
                 "time":"12:00",
                 "room":"Amphi A",
-                "format":"conference", 
+                "format":"quickie", 
                 "url":"", 
                 "title":"L'avenir où le CSS nous aura tous tué",
                 "description":"Nous sommes en 2034. Plus personne ne fait de ligne de code, il n’y a plus de notion de cloud, PaaS, SaaS, PHP, Ruby, JavaScript, HTML, CSS. Tout fonctionne grâce au Maître que l’on nomme « Le Chauve ». Je suis un résistant de mon époque, je viens dans votre monde vous expliquer comment nous en sommes arrivé là."
@@ -69,7 +69,7 @@
                 "id":17,
                 "time":"12:20",
                 "room":"Amphi A",
-                "format":"conference", 
+                "format":"quickie", 
                 "url":"", 
                 "title":"Cartographie du web",
                 "description":"Nous naviguons chaque jour à travers le Web, allant de page en page via les liens hypertextes. Mais si le Web est un espace, comment le représenter ? Nous partirons d'une simple page et prendrons du recul, pour en observer les voisins directs, puis cartographier les territoires alentours."

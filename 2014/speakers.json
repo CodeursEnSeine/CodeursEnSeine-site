@@ -479,9 +479,9 @@
     },
     {
         "id": 408,
-        "fullname": "Romain LOUVET",
+        "fullname": "Romain Louvet",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-rlouvet.jpg",
-        "description": "Rouennais et développeur Java de formation, Romain LOUVET a fait ses débuts dans le test web. Parti à la conquête du mobile, il travaille maintenant au sein de Leboncoin où il a pu mettre en pratique les notions précédemment acquises lors du NormandyJUG. Il a notamment été en charge de monter le \"mobile test lab\" de Leboncoin.",
+        "description": "Rouennais et développeur Java de formation, Romain Louvet a fait ses débuts dans le test web. Parti à la conquête du mobile, il travaille maintenant au sein de Leboncoin où il a pu mettre en pratique les notions précédemment acquises lors du NormandyJUG. Il a notamment été en charge de monter le \"mobile test lab\" de Leboncoin.",
         "liens": [
                 {
                 "url": "http://twitter.com/romainlouvet",
@@ -496,7 +496,7 @@
     },
     {
         "id": 409,
-        "fullname": "Frédéric BISSON",
+        "fullname": "Frédéric Bisson",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-fbisson.jpg",
         "description": "Webmaster dans une collectivité territoriale, développeur PHP, Bash, Python.",
         "liens": [
