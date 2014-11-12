@@ -249,11 +249,24 @@
         "description": "Pierre est un coach agile expérimenté avec avec une importante expérience de la gestion de programmes. Il a commencé sa carrière en tant que chef de produit dans l'industrie automobile et s’est challengé comme gestionnaire de portefeuille en capital de risque avant s'engager dans l'industrie du logiciel.\nIl a testé différentes approches dans le coaching de Scrum dans l’Audit, l’Asset Management, l’Industrie, l’Education, les programmes gouvernementaux, les projets offshore.\nEn parallèle à ses activités de coachs de programmes globaux, Pierre a développé différentes méthodes agiles pour la gestion des Ressources Humaines, les Serious Games et la facilitation.\nQuelques références: ORES, GDF Suez Europe, SAP UK, KingFisher, Wemanity, Accenture, AXA Group, LaPoste Innovation, Euroclear Bank, INVIVO, CNRS, CTIE, atHome Group, Swingmobility, Touring Assurances…",
         "liens": [
             {
-                "url": "http://twitter.com/@elPedroMajor",
+                "url": "http://twitter.com/elPedroMajor",
                 "label": "Twitter"
             }],
         "type": "Agile",
         "talks": [ {"id":"34"}]
+    },
+    {
+      "id": 208,
+      "fullname": "Alexis Nicolas",
+      "avatar": "http://www.codeursenseine.com/assets/img/orateur-anicolas.jpg",
+      "description": "Artisan en management\nMon objectif est d'accompagner les organisations à se réinventer et à développer une capacité à se réinventer elles-mêmes pour créer le futur. Mon parcours professionnel s'est orienté naturellement vers cet objectif, management d'équipes opérationnelles, conseil en management et coaching d'organisation. Mes sources d'inspiration sont : L'école de Palo Alto, Web 2.0, Liberté & Cie, Donald Reinertsen, Lean Kanban, les Réseaux Sociaux. Plus d’information, dont publications, conférences et formations, disponible sur mon site web : www.yisy.fr.",
+      "liens": [
+        {
+          "url": "http://twitter.com/alexis8nicolas",
+          "label": "Twitter"
+        }],
+      "type": "Agile",
+      "talks": [ {"id":"35"}]
     },
     {
         "id": 302,
@@ -466,9 +479,9 @@
     },
     {
         "id": 408,
-        "fullname": "Romain LOUVET",
+        "fullname": "Romain Louvet",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-rlouvet.jpg",
-        "description": "Rouennais et développeur Java de formation, Romain LOUVET a fait ses débuts dans le test web. Parti à la conquête du mobile, il travaille maintenant au sein de Leboncoin où il a pu mettre en pratique les notions précédemment acquises lors du NormandyJUG. Il a notamment été en charge de monter le \"mobile test lab\" de Leboncoin.",
+        "description": "Rouennais et développeur Java de formation, Romain Louvet a fait ses débuts dans le test web. Parti à la conquête du mobile, il travaille maintenant au sein de Leboncoin où il a pu mettre en pratique les notions précédemment acquises lors du NormandyJUG. Il a notamment été en charge de monter le \"mobile test lab\" de Leboncoin.",
         "liens": [
                 {
                 "url": "http://twitter.com/romainlouvet",
@@ -483,7 +496,7 @@
     },
     {
         "id": 409,
-        "fullname": "Frédéric BISSON",
+        "fullname": "Frédéric Bisson",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-fbisson.jpg",
         "description": "Webmaster dans une collectivité territoriale, développeur PHP, Bash, Python.",
         "liens": [
