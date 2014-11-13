@@ -253,7 +253,7 @@
                 "label": "Twitter"
             }],
         "type": "Agile",
-        "talks": [ {"id":"34"}]
+        "talks": [ {"id":"34"}, {"id":"36"}]
     },
     {
       "id": 208,
