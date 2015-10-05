@@ -30,14 +30,14 @@ figcaption{
   color:#777;
 }
 img{
-    max-width: 100%;
-    height:auto;
+  max-width:100%;
+  height:auto;
 }
 .img-polaroid{
-    padding: 4px;
-    background-color: #FFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  padding:4px;
+  border:1px solid rgba(0, 0, 0, .2);
+  background-color:#fff;
+  box-shadow:0 1px 3px rgba(0, 0, 0, .1);
 }
 
 /* Layout
@@ -68,7 +68,7 @@ img{
   padding:2em;
 }
 .section h2{
-    margin:2em 0 1em 0;
+  margin:2em 0 1em 0;
 }
 .section h2:first-of-type{
   margin-top:0;
@@ -140,13 +140,149 @@ nav .nav-pills > li.active > .nav-item:active{
   margin-bottom:.17em;
 }
 
+/* Agenda
+-------------------------------------------------- */
+
+
+.agenda-table a:hover{
+  text-decoration:none;
+  color:#000;
+}
+.agenda-row{
+  display:table;
+  width:100%;
+  border-bottom:2px solid #ddd;
+}
+.agenda-cell-time,
+.agenda-cell{
+  font-size:80%;
+  display:table-cell;
+  width:20%;
+  padding:8px;
+  text-align:center;
+  vertical-align:top;
+  border-left:#ddd 1px solid;
+}
+.agenda-cell-time{
+  font-size:1.4em;
+  font-weight: bold;
+  text-align:right;
+  vertical-align:middle;
+  color:#000;
+  background:#eee;
+}
+.agenda-cell-keynote,
+.agenda-cell-break{
+  font-size:1.5em;
+  font-weight:bold;
+  line-height:1.2em;
+  width:80%;
+  height:50px;
+  vertical-align:middle;
+  background:#f1f1f1;
+}
+.agenda-cell-keynote a{
+  position:relative;
+}
+.agenda-title a{
+  font-size:1.3em;
+  font-weight:bold;
+  font-variant:small-caps;
+  display:inline-block;
+  min-height:40px;
+  padding:.5em .1em;
+}
+.agenda-cell-keynote span.agenda-title a:hover,
+.agenda-cell-quickie span.agenda-title a:hover,
+.agenda-cell-conference span.agenda-title a:hover{
+  text-decoration:underline;
+}
+.agenda-cell-keynote span.agenda-title a,
+.agenda-cell-quickie span.agenda-title a,
+.agenda-cell-conference span.agenda-title a{
+  color:#555;
+}
+.agenda-fullname{
+  margin-bottom:1em;
+}
+.agenda-fullname a{
+  font-size:85%;
+}
+.agenda-cell-keynote span.agenda-fullname:nth-child(2):before,
+.agenda-cell-conference span.agenda-fullname:nth-child(2):before{
+  content:'- ';
+}
+.agenda-table .agenda-speakers{
+  display:block;
+}
+.agenda-room{
+  font-size:85%;
+  display:block;
+  margin-bottom:1em;
+}
+.agenda-cell-break{
+  letter-spacing:30px;
+}
+.agenda-cell-conference span.agenda-title{
+  position:relative;
+  display:block;
+}
+.agenda-cell-web,
+.agenda-cell-agile,
+.agenda-cell-java,
+.agenda-cell-technologies{
+  position:relative;
+  overflow:hidden;
+  padding:0 0 1em;
+  background:rgba(255, 59, 0,.05);
+}
+.agenda-cell-agile{
+  background:rgba(114, 255, 0,.05);
+}
+.agenda-cell-java{
+  background:rgba(64, 129, 189,.05);
+}
+.agenda-cell-technologies{
+  background:rgba(189, 64, 129,.05);
+}
+.agenda-cell-web:before,
+.agenda-cell-agile:before,
+.agenda-cell-java:before,
+.agenda-cell-technologies:before{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:4em;
+  font-weight:bold;
+  position:relative;
+  z-index:0;
+  display:block;
+  height:100%;
+  margin:20px 0 -20px 0;
+  padding:0 3px;
+  content:'Web';
+  -webkit-transform:rotate(-20deg);
+     -moz-transform:rotate(-20deg);
+          transform:rotate(-20deg);
+  color:rgba(255, 59, 0,.1);
+}
+.agenda-cell-agile:before{
+  content:'Agile';
+  color:rgba(114, 255, 0,.1);
+}
+.agenda-cell-java:before{
+  content:'Java';
+  color:rgba(64, 129, 189,.1);
+}.agenda-cell-technologies:before{
+  content:'Tech';
+  color:rgba(189, 64, 129,.1);
+}
+
 /* Sponsor
 -------------------------------------------------- */
 
 .sponsor{
-    margin-bottom:1em;
-    padding-bottom:1em;
-    border-bottom:1px solid #C7C8CA;
+  margin-bottom:1em;
+  padding-bottom:1em;
+  border-bottom:1px solid #c7c8ca;
 }
 
 .sponsor-table th,
@@ -226,6 +362,24 @@ nav .nav-pills > li.active > .nav-item:active{
     color:#4f4c4c;
     background:#c7c8ca !important;
   }
+
+  .agenda-table,
+  .agenda-cell,
+  .agenda-cell-time{
+    display:block;
+    width:100%;
+    height:auto;
+  }
+  .agenda-row{
+    margin-bottom: 1em;
+  }
+  .agenda-cell-time{
+    text-align: center;
+  }
+  .agenda-cell{
+    font-size: 1em;
+  }
+
   .tagline{
     display:none;
   }
