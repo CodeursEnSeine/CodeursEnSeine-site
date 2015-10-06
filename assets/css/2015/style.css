@@ -173,9 +173,13 @@ nav .nav-pills > li.active > .nav-item:active{
   vertical-align:middle;
   background:#f1f1f1;
 }
-.agenda-title a{
+.agenda-title{
   font-weight:bold;
-  display:inline-block;
+  position:relative;
+  display:block;
+  color:#000;
+}
+.agenda-title a{
   color:#000;
 }
 .agenda-table .agenda-speakers{
@@ -221,7 +225,7 @@ nav .nav-pills > li.active > .nav-item:active{
   padding:0 3px;
   content:'Web';
   -webkit-transform:rotate(-20deg);
-     -ms-transform:rotate(-20deg);
+      -ms-transform:rotate(-20deg);
           transform:rotate(-20deg);
   color:rgba(255, 59, 0,.1);
 }
@@ -235,6 +239,47 @@ nav .nav-pills > li.active > .nav-item:active{
 }.agenda-cell-technologies:before{
   content:'Tech';
   color:rgba(189, 64, 129,.1);
+}
+
+/* Speakers
+-------------------------------------------------- */
+
+.orateur{
+  margin-bottom:2em;
+  padding-bottom:2em;
+  border-bottom:1px solid #ddd;
+}
+
+.orateur-type{
+  font-weight:bold;
+}
+.orateur-links,
+.speakers-talks{
+  overflow:hidden;
+  width:100%;
+}
+.orateur-links{
+  margin-bottom:1em;
+  padding-left:0;
+}
+.orateur-links li{
+  display:inline-block;
+  margin-right:.7em;
+  list-style-type:none;
+}
+.orateur-links li a{
+  text-decoration:underline;
+}
+.orateur-links li a:focus,
+.orateur-links li a:hover{
+  text-decoration:none;
+}
+.orateur-talk h2{
+  margin-bottom:0;
+}
+.orateur-talk-type{
+  font-weight:bold;
+  margin-bottom:1em;
 }
 
 /* Sponsor
@@ -299,7 +344,6 @@ nav .nav-pills > li.active > .nav-item:active{
 -------------------------------------------------- */
 
 @media screen and (max-width: 767px){
-
 }
 
 @media screen and (max-width: 767px){
