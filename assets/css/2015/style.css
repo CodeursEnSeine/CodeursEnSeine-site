@@ -143,11 +143,6 @@ nav .nav-pills > li.active > .nav-item:active{
 /* Agenda
 -------------------------------------------------- */
 
-
-.agenda-table a:hover{
-  text-decoration:none;
-  color:#000;
-}
 .agenda-row{
   display:table;
   width:100%;
@@ -155,17 +150,16 @@ nav .nav-pills > li.active > .nav-item:active{
 }
 .agenda-cell-time,
 .agenda-cell{
-  font-size:80%;
   display:table-cell;
   width:20%;
-  padding:8px;
+  padding:.5em .5em 1.5em .5em;
   text-align:center;
   vertical-align:top;
   border-left:#ddd 1px solid;
 }
 .agenda-cell-time{
   font-size:1.4em;
-  font-weight: bold;
+  font-weight:bold;
   text-align:right;
   vertical-align:middle;
   color:#000;
@@ -173,58 +167,26 @@ nav .nav-pills > li.active > .nav-item:active{
 }
 .agenda-cell-keynote,
 .agenda-cell-break{
-  font-size:1.5em;
-  font-weight:bold;
   line-height:1.2em;
   width:80%;
-  height:50px;
+  padding-top:1.5em;
   vertical-align:middle;
   background:#f1f1f1;
 }
-.agenda-cell-keynote a{
-  position:relative;
-}
 .agenda-title a{
-  font-size:1.3em;
   font-weight:bold;
-  font-variant:small-caps;
   display:inline-block;
-  min-height:40px;
-  padding:.5em .1em;
-}
-.agenda-cell-keynote span.agenda-title a:hover,
-.agenda-cell-quickie span.agenda-title a:hover,
-.agenda-cell-conference span.agenda-title a:hover{
-  text-decoration:underline;
-}
-.agenda-cell-keynote span.agenda-title a,
-.agenda-cell-quickie span.agenda-title a,
-.agenda-cell-conference span.agenda-title a{
-  color:#555;
-}
-.agenda-fullname{
-  margin-bottom:1em;
-}
-.agenda-fullname a{
-  font-size:85%;
-}
-.agenda-cell-keynote span.agenda-fullname:nth-child(2):before,
-.agenda-cell-conference span.agenda-fullname:nth-child(2):before{
-  content:'- ';
+  color:#000;
 }
 .agenda-table .agenda-speakers{
   display:block;
 }
+.agenda-cell-keynote .agenda-speakers,
+.agenda-cell-break .agenda-speakers{
+  font-weight:bold;
+}
 .agenda-room{
   font-size:85%;
-  display:block;
-  margin-bottom:1em;
-}
-.agenda-cell-break{
-  letter-spacing:30px;
-}
-.agenda-cell-conference span.agenda-title{
-  position:relative;
   display:block;
 }
 .agenda-cell-web,
@@ -233,7 +195,6 @@ nav .nav-pills > li.active > .nav-item:active{
 .agenda-cell-technologies{
   position:relative;
   overflow:hidden;
-  padding:0 0 1em;
   background:rgba(255, 59, 0,.05);
 }
 .agenda-cell-agile{
@@ -250,7 +211,7 @@ nav .nav-pills > li.active > .nav-item:active{
 .agenda-cell-java:before,
 .agenda-cell-technologies:before{
   font-family:Arial, Helvetica, sans-serif;
-  font-size:4em;
+  font-size:3em;
   font-weight:bold;
   position:relative;
   z-index:0;
@@ -260,7 +221,7 @@ nav .nav-pills > li.active > .nav-item:active{
   padding:0 3px;
   content:'Web';
   -webkit-transform:rotate(-20deg);
-     -moz-transform:rotate(-20deg);
+     -ms-transform:rotate(-20deg);
           transform:rotate(-20deg);
   color:rgba(255, 59, 0,.1);
 }
@@ -337,7 +298,11 @@ nav .nav-pills > li.active > .nav-item:active{
 /* Media queries
 -------------------------------------------------- */
 
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 767px){
   .bg{
     height:60%;
     background-image:url(../../img/bg-sm.jpg);
@@ -371,13 +336,13 @@ nav .nav-pills > li.active > .nav-item:active{
     height:auto;
   }
   .agenda-row{
-    margin-bottom: 1em;
+    margin-bottom:1em;
   }
   .agenda-cell-time{
-    text-align: center;
+    text-align:center;
   }
   .agenda-cell{
-    font-size: 1em;
+    font-size:1em;
   }
 
   .tagline{
