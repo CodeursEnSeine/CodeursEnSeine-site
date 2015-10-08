@@ -49,7 +49,8 @@ img{
   left:0;
   width:100%;
   height:60%;
-  background-image:url(../../img/bg-sm.jpg);
+  background:url(../../img/bg-sm.jpg) 0 0 no-repeat;
+  background-attachment: fixed;
   -webkit-background-size:cover;
           background-size:cover;
 }
@@ -346,7 +347,7 @@ nav .nav-pills > li.active > .nav-item:active{
 @media screen and (min-width: 767px){ /* MIN */
   .bg{
     height:40%;
-    background:url(../../img/bg-md.jpg) no-repeat right bottom fixed;
+    background-image:url(../../img/bg-md.jpg);
   }
 }
 
