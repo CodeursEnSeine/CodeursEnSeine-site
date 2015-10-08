@@ -48,8 +48,8 @@ img{
   top:0;
   left:0;
   width:100%;
-  height:40%;
-  background:url(../../img/bg-md.jpg) no-repeat right bottom fixed;
+  height:60%;
+  background-image:url(../../img/bg-sm.jpg);
   -webkit-background-size:cover;
           background-size:cover;
 }
@@ -101,7 +101,7 @@ img{
   float:right;
 }
 nav .nav-pills > li{
-  margin-left:1em;
+  margin:0 0 1em 1em;
 }
 .nav-item{
   color:#4f4c4c;
@@ -343,14 +343,14 @@ nav .nav-pills > li.active > .nav-item:active{
 /* Media queries
 -------------------------------------------------- */
 
-@media screen and (max-width: 767px){
+@media screen and (min-width: 767px){ /* MIN */
+  .bg{
+    height:40%;
+    background:url(../../img/bg-md.jpg) no-repeat right bottom fixed;
+  }
 }
 
-@media screen and (max-width: 767px){
-  .bg{
-    height:60%;
-    background-image:url(../../img/bg-sm.jpg);
-  }
+@media screen and (max-width: 767px){ /* MAX */
   .nav-main{
     float:none;
   }

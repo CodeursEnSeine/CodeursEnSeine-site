@@ -34,26 +34,26 @@
                 <p class="tagline">
                     {{ site.tagline[page.group] }}<br>{{ site.date[page.group] }}
                 </p>
-                <nav>
-                    <ul class="nav nav-pills nav-main" role="nav">
-                        {% capture page_modified %}{{ page.url }}{% endcapture %}
-                        {% for node in site.pages %}
-                            {% if node.title != null %}
-                                {% if node.navigation != false %}
-                                    {% if page.group == node.group %}
-                                        {% if page.url == node.url %}
-                                            <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="nav-item active">{{node.title}}</a></li>
-                                        {% else %}
-                                            <li><a class="nav-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-                                        {% endif %}
-                                    {% endif %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </nav>
             </div>
         </div>
+        <nav>
+            <ul class="nav nav-pills nav-main" role="nav">
+                {% capture page_modified %}{{ page.url }}{% endcapture %}
+                {% for node in site.pages %}
+                    {% if node.title != null %}
+                        {% if node.navigation != false %}
+                            {% if page.group == node.group %}
+                                {% if page.url == node.url %}
+                                    <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="nav-item active">{{node.title}}</a></li>
+                                {% else %}
+                                    <li><a class="nav-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
     </header>
     <div class="main" role="main">
         <div class="container">
