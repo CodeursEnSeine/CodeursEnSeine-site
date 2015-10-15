@@ -145,18 +145,19 @@ nav .nav-pills > li.active > .nav-item:active{
 -------------------------------------------------- */
 
 .agenda-row{
-  display:table;
-  width:100%;
-  border-bottom:2px solid #ddd;
+  margin-bottom:1em;
 }
 .agenda-cell-time,
 .agenda-cell{
-  display:table-cell;
-  width:20%;
-  padding:.5em .5em 1.5em .5em;
+  padding:.5em;
   text-align:center;
   vertical-align:top;
   border-left:#ddd 1px solid;
+  border-right:#ddd 1px solid;
+  border-bottom:2px solid #ddd;
+}
+.agenda-row .agenda-cell:last-child{
+  border-right:#ddd 1px solid;
 }
 .agenda-cell-time{
   font-size:1.4em;
@@ -165,14 +166,21 @@ nav .nav-pills > li.active > .nav-item:active{
   vertical-align:middle;
   color:#000;
   background:#eee;
+  text-align:center;
+}
+.agenda-cell{
+  font-size:1em;
 }
 .agenda-cell-keynote,
 .agenda-cell-break{
   line-height:1.2em;
-  width:80%;
   padding-top:1.5em;
   vertical-align:middle;
   background:#f1f1f1;
+}
+.agenda-cell-atelier-ext,
+.agenda-cell-empty{
+  padding:0;
 }
 .agenda-title{
   font-weight:bold;
@@ -197,9 +205,12 @@ nav .nav-pills > li.active > .nav-item:active{
 .agenda-cell-web,
 .agenda-cell-agile,
 .agenda-cell-java,
-.agenda-cell-technologies{
+.agenda-cell-technologies,
+.agenda-cell-atelier{
   position:relative;
   overflow:hidden;
+}
+.agenda-cell-web{
   background:rgba(255, 59, 0,.05);
 }
 .agenda-cell-agile{
@@ -211,10 +222,15 @@ nav .nav-pills > li.active > .nav-item:active{
 .agenda-cell-technologies{
   background:rgba(189, 64, 129,.05);
 }
+.agenda-cell-atelier,
+.agenda-cell-atelier-ext{
+  background:rgba(255, 189, 0, .05);
+}
 .agenda-cell-web:before,
 .agenda-cell-agile:before,
 .agenda-cell-java:before,
-.agenda-cell-technologies:before{
+.agenda-cell-technologies:before,
+.agenda-cell-atelier:before{
   font-family:Arial, Helvetica, sans-serif;
   font-size:3em;
   font-weight:bold;
@@ -237,9 +253,14 @@ nav .nav-pills > li.active > .nav-item:active{
 .agenda-cell-java:before{
   content:'Java';
   color:rgba(64, 129, 189,.1);
-}.agenda-cell-technologies:before{
+}
+.agenda-cell-technologies:before{
   content:'Tech';
   color:rgba(189, 64, 129,.1);
+}
+.agenda-cell-atelier:before{
+  content:'Atelier';
+  color:rgba(255, 189, 0, .1);
 }
 
 /* Speakers
@@ -344,14 +365,8 @@ nav .nav-pills > li.active > .nav-item:active{
 /* Media queries
 -------------------------------------------------- */
 
-@media screen and (min-width: 767px){ /* MIN */
-  .bg{
-    height:40%;
-    background-image:url(../../img/bg-md.jpg);
-  }
-}
-
-@media screen and (max-width: 767px){ /* MAX */
+/* TODO : Mobile first */
+@media screen and (max-width: 767px){
   .nav-main{
     float:none;
   }
@@ -373,23 +388,6 @@ nav .nav-pills > li.active > .nav-item:active{
     background:#c7c8ca !important;
   }
 
-  .agenda-table,
-  .agenda-cell,
-  .agenda-cell-time{
-    display:block;
-    width:100%;
-    height:auto;
-  }
-  .agenda-row{
-    margin-bottom:1em;
-  }
-  .agenda-cell-time{
-    text-align:center;
-  }
-  .agenda-cell{
-    font-size:1em;
-  }
-
   .tagline{
     display:none;
   }
@@ -398,5 +396,38 @@ nav .nav-pills > li.active > .nav-item:active{
   }
   .map{
     height:400px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .bg{
+    height:40%;
+    background-image:url(../../img/bg-md.jpg);
+  }
+}
+
+@media screen and (min-width: 992px){
+  .agenda-row{
+    display:table;
+    width:100%;
+    margin:0;
+  }
+  .agenda-cell-time,
+  .agenda-cell{
+    display:table-cell;
+    width:18%;
+    padding-bottom:1.5em;
+    border-right:none;
+  }
+  .agenda-cell-time{
+    width:10%;
+  }
+  .agenda-cell-keynote,
+  .agenda-cell-break{
+    line-height:1.2em;
+    width:90%;
+  }
+  .agenda-cell-atelier{
+    border-bottom:none;
   }
 }
