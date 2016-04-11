@@ -1,25 +1,35 @@
-# This is the default format. 
+# This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile"]
-pygments: true
-markdown : rdiscount
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",".editorconfig"]
+markdown : kramdown
 
-permalink: /:year/:title.html
+permalink: /:group/:title
 
 title : Codeurs en Seine
 description: "Rencontre de codeurs à Rouen : Agile, Java & Web"
-tagline : 
+tagline :
   2013 : "Rencontre de codeurs à Rouen : Agile, Java & Web"
   2014 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Innovation"
   2015 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Technologies"
-date : 
+  2016 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Technologies"
+date :
   2013 : "Jeudi 17 octobre 2013"
   2014 : "Jeudi 27 novembre 2014"
   2015 : "Jeudi 26 novembre 2015"
+  2016 : "Jeudi 24 novembre 2015"
 
 production_url : http://www.codeursenseine.com
 
+sass:
+  sass_dir: _sass
+  style: compressed
 
- 
-  
+gems:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-redirect-from
+
+
+
+
