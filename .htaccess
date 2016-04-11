@@ -415,7 +415,7 @@ FileETag None
   RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
   RewriteRule ^(.*)$ /$1/ [R=301,L]
   #RewriteCond %{HTTP_HOST} ^codeursenseine.com [NC,OR]
-  RedirectMatch 301 ^codeursenseine.com  http://codeursenseine.com/2016/
+  RedirectMatch 301 ^codeursenseine.com  http://www.codeursenseine.com/2016/
 </IfModule>
 
 # ----------------------------------------------------------------------
