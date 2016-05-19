@@ -23,19 +23,21 @@
 <body data-spy="scroll" data-target="#menu" data-offset="0">
     <div class="bg"></div>
     <header class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <h1 class="header-main">
-                  <a href="/{{ page.group }}/">
-                    <img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}">
-                  </a>
-                </h1>
-            </div>
-            <div class="col-md-9">
-                <p class="tagline">
-                    {{ site.tagline[page.group] }}<br>{{ site.date[page.group] }}
-                </p>
-            </div>
+        <div class="header-main">
+          <div class="row">
+              <div class="col-md-3">
+                  <h1>
+                    <a href="/{{ page.group }}/">
+                      <img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}">
+                    </a>
+                  </h1>
+              </div>
+              <div class="col-md-9">
+                  <p class="tagline">
+                      {{ site.tagline[page.group] }}<br>{{ site.date[page.group] }}
+                  </p>
+              </div>
+          </div>
         </div>
         <nav>
             <ul class="nav nav-pills nav-main" role="nav">
