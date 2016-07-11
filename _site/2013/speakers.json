@@ -9,7 +9,7 @@
         "type": "Keynote",
         "talks": [ {"id":"1"}]
     },
-    
+
     {
         "id": 101,
         "fullname": "Laurent Demontiers",
@@ -50,7 +50,7 @@
 				"label": "Blog"
 				},
 				{
-        "url": "http://twitter.com/jpierrevincent",
+        "url": "http://twitter.com/theystolemynick",
         "label": "Twitter"
         },
         {
@@ -76,7 +76,7 @@
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-jonathan-pansiot.jpg",
         "description": "Intégrateur spécialisé en accessibilité chez Alter Way. Il mène les audits et valide les exigences en matière d’accessibilité. Jonathan se spécialise particulièrement dans les réflexions sur la mise en place au sein des cycles de productions des exigences qualité et accessibilité, ainsi que dans la conception des interfaces riches avec Wai-Aria.",
         "liens": [{
-        "url": "http://twitter.com/uxlco",
+        "url": "http://twitter.com/uxlco0",
         "label": "Twitter"
         }],
         "type": "Web",
@@ -267,7 +267,7 @@
         "fullname": "Eyal Lezmy",
         "avatar": "http://www.codeursenseine.com/assets/img/orateur-elezmy.jpg",
         "description": "Software Engineer chez <a href=\"http://www.genymobile.com\">GenyMobile</a>, trésorier du Paris Android User Group et Google Developer Expert sur Android. Il a débuté Android en 2009. Après différents projets R&D chez les opérateurs, il travaille actuellement chez un grand constructeur mobile coréen où il se dédie à des sujets Android tournés vers l'entreprise.",
-       "liens": [ 
+       "liens": [
        {
             "url":"http://paug.fr",
             "label":"Blog"
@@ -320,8 +320,8 @@
             "url":"https://twitter.com/karesti",
             "label":"Twitter"
        }
-        
-        
+
+
        ],
         "type": "Java",
         "talks": [ {"id":"50"}]

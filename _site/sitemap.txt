@@ -11,7 +11,6 @@ http://www.codeursenseine.com/2015/speakers.html
 http://www.codeursenseine.com/2016/devoxx4Kids
 http://www.codeursenseine.com/2015/devoxx4Kids.html
 http://www.codeursenseine.com/2015/appel-a-orateurs.html
-http://www.codeursenseine.com/2016/appel-a-orateurs
 http://www.codeursenseine.com/2016/inscription
 http://www.codeursenseine.com/2015/inscription.html
 http://www.codeursenseine.com/2014/speakers-dyn.html
@@ -21,8 +20,8 @@ http://www.codeursenseine.com/2013/speakers.html
 http://www.codeursenseine.com/2015/sponsors.html
 http://www.codeursenseine.com/2016/sponsors
 http://www.codeursenseine.com/2013/organisation.html
-http://www.codeursenseine.com/2016/organisateurs
 http://www.codeursenseine.com/2015/organisateurs.html
+http://www.codeursenseine.com/2016/organisateurs
 http://www.codeursenseine.com/2014/inscription.html
 http://www.codeursenseine.com/2014/devoxx4Kids.html
 http://www.codeursenseine.com/2013/inscription.html
@@ -40,9 +39,9 @@ http://www.codeursenseine.com/2014/sponsors.html
 http://www.codeursenseine.com/2013/videos.html
 http://www.codeursenseine.com/2014/logistique.html
 http://www.codeursenseine.com/2014/photos.html
+http://www.codeursenseine.com/2016/
 http://www.codeursenseine.com/2013/
 http://www.codeursenseine.com/2015/
-http://www.codeursenseine.com/2016/
 http://www.codeursenseine.com/2014/
 http://www.codeursenseine.com/2015/kitpress.html
 http://www.codeursenseine.com/2014/kitpress.html
