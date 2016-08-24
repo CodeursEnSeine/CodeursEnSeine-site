@@ -22,7 +22,7 @@ date :
 production_url : http://www.codeursenseine.com
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css/
   style: compressed
 
 gems:

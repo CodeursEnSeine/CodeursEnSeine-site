@@ -3,53 +3,42 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<title>{{page.title}} - {{site.title}}</title>
-<meta charset="utf-8">
-<meta name="title" content="{{site.title}}">
-<meta itemprop="name" content="{{site.title}}">
-<meta property="og:title" content="{{site.title}}">
-<meta name="description" content="{{site.description}}">
-<meta itemprop="description" content="{{site.description}}">
-<meta id="meta-tag-description" property="og:description" content="{{site.description}}">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% seo %}
-<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link href="/assets/css/{{page.group}}/style.css" rel="stylesheet" type="text/css" media="all">
-<script src="/assets/jquery/js/jquery.min.js"></script>
+  <title>{{page.title}} - {{site.title}}</title>
+  <meta charset="utf-8">
+  <meta name="title" content="{{site.title}}">
+  <meta itemprop="name" content="{{site.title}}">
+  <meta property="og:title" content="{{site.title}}">
+  <meta name="description" content="{{site.description}}">
+  <meta itemprop="description" content="{{site.description}}">
+  <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% seo %}
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
+  <link href="/assets/css/{{page.group}}/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
-<body data-spy="scroll" data-target="#menu" data-offset="0">
-    <div class="bg"></div>
+<body>
     <header class="container">
         <div class="header-main">
-          <div class="row">
-              <div class="col-md-3">
-                  <h1>
-                    <a href="/{{ page.group }}/">
-                      <img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}">
-                    </a>
-                  </h1>
-              </div>
-              <div class="col-md-9">
-                  <p class="tagline">
-                      {{ site.tagline[page.group] }}<br>{{ site.date[page.group] }}
-                  </p>
-              </div>
-          </div>
+          <h1>
+            <a href="/{{ page.group }}/">
+              <img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}">
+            </a>
+          </h1>
+          <p class="tagline">
+              {{ site.tagline[page.group] }}<br>{{ site.date[page.group] }}
+          </p>
         </div>
         <nav>
-            <ul class="nav nav-pills nav-main" role="nav">
+            <ul class="nav-main" role="nav">
                 {% capture page_modified %}{{ page.url }}{% endcapture %}
                 {% for node in site.pages %}
                     {% if node.title != null %}
                         {% if node.navigation != false %}
                             {% if page.group == node.group %}
                                 {% if page.url == node.url %}
-                                    <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="nav-item active">{{node.title}}</a></li>
+                                    <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
                                 {% else %}
-                                    <li><a class="nav-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                                    <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
                                 {% endif %}
                             {% endif %}
                         {% endif %}
