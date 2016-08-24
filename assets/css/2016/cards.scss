@@ -1,0 +1,44 @@
+.orateur {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
+
+.orateur-type {
+  font-weight: bold;
+}
+
+.orateur-links,
+.speakers-talks {
+  overflow: hidden;
+  width: 100%;
+}
+
+.orateur-links {
+  margin-bottom: 1em;
+  padding-left: 0;
+}
+
+.orateur-links li {
+  display: inline-block;
+  margin-right: 0.7em;
+  list-style-type: none;
+}
+
+.orateur-links li a {
+  text-decoration: underline;
+}
+
+.orateur-links li a:focus,
+.orateur-links li a:hover {
+  text-decoration: none;
+}
+
+.orateur-talk h2 {
+  margin-bottom: 0;
+}
+
+.orateur-talk-type {
+  margin-bottom: 1em;
+  font-weight: bold;
+}

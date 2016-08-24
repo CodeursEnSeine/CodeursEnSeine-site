@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+  line-height: 1.5em;
+  font-size: 1em;
+  background: $color-4;
+}
+
+body {
+  line-height: 1.5em;
+  font-family: 'ubuntu', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.44;
+  background-color: transparent;
+}
+
+h1{
+  line-height: 1;
+  font-size: 2.0736em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.728em;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.44em;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: .83333em;
+}
+
+@media only screen and (min-width: 48.063em) {
+  body {
+    font-size: 1.2em;
+  }
+   h1 {
+    font-size: 2.48832em;
+  }
+  h2 {
+    font-size: 2.0736em;
+  }
+  h3 {
+    font-size: 1.728em;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  h1 {
+    font-size: 2.98598em;
+  }
+  h2 {
+    font-size: 2.48832em;
+  }
+}
+
+@media only screen and (min-width: 90.063em) {
+  h1 {
+    font-size: 3.58318em;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1em;
+  margin-bottom: .5em
+}
+
+h1 small,
+h2 small {
+  font-size: 65%;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+h4 small,
+h5 small,
+h6 small {
+  font-size: 75%;
+}
+
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+h4,
+h4 a,
+h5,
+h5 a,
+h6,
+h6 a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 .5em;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-size: 1.125em;
+}
+
+figcaption {
+  font-size: 0.8em;
+  color: #777;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-polaroid {
+  padding: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+iframe {
+  max-width: 100%;
+  margin-bottom: 1em;
+}

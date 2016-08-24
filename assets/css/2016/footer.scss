@@ -1,0 +1,17 @@
+.footer {
+  padding: 2em 0;
+
+  .container {
+    padding: 2rem;
+    background: $color-4;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  &,
+  a {
+    color: #fff;
+  }
+}

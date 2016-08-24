@@ -1,0 +1,138 @@
+.agenda-row {
+  margin-bottom: 1em;
+}
+
+.agenda-cell-time,
+.agenda-cell {
+  padding: 0.5em;
+  text-align: center;
+  vertical-align: top;
+  border-right: #ddd 1px solid;
+  border-bottom: 2px solid #ddd;
+  border-left: #ddd 1px solid;
+}
+
+.agenda-row .agenda-cell:last-child {
+  border-right: #ddd 1px solid;
+}
+
+.agenda-cell-time {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: right;
+  text-align: center;
+  vertical-align: middle;
+  color: #000;
+  background: #eee;
+}
+
+.agenda-cell {
+  font-size: 1em;
+}
+
+.agenda-cell-keynote,
+.agenda-cell-break {
+  padding-top: 1.5em;
+  line-height: 1.2em;
+  vertical-align: middle;
+  background: #f1f1f1;
+}
+
+.agenda-cell-atelier-ext,
+.agenda-cell-empty {
+  padding: 0;
+}
+
+.agenda-title {
+  position: relative;
+  display: block;
+  font-weight: bold;
+  color: #000;
+}
+
+.agenda-title a {
+  color: #000;
+}
+
+.agenda-table .agenda-speakers {
+  display: block;
+}
+
+.agenda-cell-keynote .agenda-speakers,
+.agenda-cell-break .agenda-speakers {
+  font-weight: bold;
+}
+
+.agenda-room {
+  display: block;
+  font-size: 85%;
+}
+
+.agenda-cell-web,
+.agenda-cell-agile,
+.agenda-cell-java,
+.agenda-cell-technologies,
+.agenda-cell-atelier {
+  position: relative;
+  overflow: hidden;
+}
+
+.agenda-cell-web {
+  background: rgba(255, 59, 0, 0.05);
+}
+
+.agenda-cell-agile {
+  background: rgba(114, 255, 0, 0.05);
+}
+
+.agenda-cell-java {
+  background: rgba(64, 129, 189, 0.05);
+}
+
+.agenda-cell-technologies {
+  background: rgba(189, 64, 129, 0.05);
+}
+
+.agenda-cell-atelier,
+.agenda-cell-atelier-ext {
+  background: rgba(255, 189, 0, 0.05);
+}
+
+.agenda-cell-web:before,
+.agenda-cell-agile:before,
+.agenda-cell-java:before,
+.agenda-cell-technologies:before,
+.agenda-cell-atelier:before {
+  position: relative;
+  content: 'Web';
+  display: block;
+  margin: 20px 0 -20px 0;
+  padding: 0 3px;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgba(255, 59, 0, 0.1);
+  transform: rotate(-20deg);
+  z-index: 0;
+}
+
+.agenda-cell-agile:before {
+  content: 'Agile';
+  color: rgba(114, 255, 0, 0.1);
+}
+
+.agenda-cell-java:before {
+  content: 'Java';
+  color: rgba(64, 129, 189, 0.1);
+}
+
+.agenda-cell-technologies:before {
+  content: 'Tech';
+  color: rgba(189, 64, 129, 0.1);
+}
+
+.agenda-cell-atelier:before {
+  content: 'Atelier';
+  color: rgba(255, 189, 0, 0.1);
+}
