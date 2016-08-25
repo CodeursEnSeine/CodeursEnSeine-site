@@ -1,12 +1,24 @@
-.footer {
+.footer-main {
+  @include clearfix;
   padding: $marge*2 0;
+  background: $color-4;
+
+
 
   p {
-    margin-bottom: 0;
+    margin: 0;
   }
 
   &,
   a {
     color: #fff;
+  }
+}
+
+@media screen and (min-width: 62em) { // 992px.
+  .footer-main {
+    .col {
+      @include col(6, 12);
+    }
   }
 }
