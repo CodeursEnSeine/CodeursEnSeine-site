@@ -20,7 +20,15 @@ body {
 h1,
 h2,
 h3 {
-  margin-bottom: $marge;
+  margin: 0 0 $marge 0;
+
+  small {
+    font-size: 65%;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 h1 {
@@ -41,18 +49,6 @@ h3 {
 
 h4 {
   font-size: $font-size-medium;
-}
-
-h1 small,
-h2 small {
-  font-size: 65%;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a {
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 48.063em) {
@@ -96,13 +92,30 @@ a {
   }
 }
 
+// Buttons.
+
+.button {
+  padding: $marge/2 $marge;
+  background: $color-2;
+  border: $unpixel solid darken($color-2, 3%);
+  border-radius: $marge/4;
+  color: #fff;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    background: darken($color-2, 5%);
+    border: $unpixel solid darken($color-2, 8%);
+  }
+}
+
 // Paragraphs & Lists.
 
 p,
 ul,
 ol,
 dl {
-  margin-bottom: $marge;
+  margin: 0 0 $marge 0;
 
   &:empty {
     margin-bottom: 0;
@@ -158,6 +171,14 @@ cite {
   font-style: italic;
 }
 
+// Sectionning.
+
+hr {
+  height: 0;
+  margin: $marge 0;
+  border: $unpixel solid #ddd;
+}
+
 // Inlines.
 
 strong,
@@ -189,6 +210,10 @@ kbd {
 samp,
 small {
   font-size: $font-size-little;
+}
+
+.text-center {
+  text-align: center;
 }
 
 // Address.
@@ -247,5 +272,5 @@ iframe {
 
 .map {
   width: 100%;
-  height: 700px;
+  height: 550px;
 }

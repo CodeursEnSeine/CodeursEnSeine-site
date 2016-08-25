@@ -1,5 +1,29 @@
 .wrapper {
   max-width: 64rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 $marge;
+}
+
+.row {
+  @include clearfix;
+}
+
+.col {
+  @include col(12, 12);
+}
+
+.content-main {
+  padding-bottom: $marge * 2;
+}
+
+@media screen and (min-width: 62em) { // 992px.
+  .col-1-2 {
+    @include col(6, 12);
+  }
+  .col-1-3 {
+    @include col(4, 12);
+  }
+  .col-2-3 {
+    @include col(8, 12);
+  }
 }
