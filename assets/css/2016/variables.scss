@@ -1,5 +1,22 @@
-/* variables */
+// Layout & Marges.
+$cols-max: 12;
+$marge: 1rem;
+$unpixel: 0.0625rem;
 
+// Font sizes.
+$font-size-huge: 2rem;
+$font-size-great: 1.7rem;
+$font-size-big: 1.4rem;
+$font-size-medium: 1.2rem;
+$font-size-normal: 1rem;
+$font-size-little: 0.8rem;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-light: 300;
+
+// Colors.
 $color-1: #4F4C4C; // black
 $color-2: #4081bd; // blue
 $color-3: #C7C8CA; // grey

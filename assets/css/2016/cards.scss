@@ -1,11 +1,11 @@
 .orateur {
-  margin-bottom: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: $marge * 2;
+  padding-bottom: $marge * 2;
+  border-bottom: $unpixel solid #ddd;
 }
 
 .orateur-type {
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 .orateur-links,
@@ -15,23 +15,23 @@
 }
 
 .orateur-links {
-  margin-bottom: 1em;
+  margin-bottom: $marge;
   padding-left: 0;
-}
 
-.orateur-links li {
-  display: inline-block;
-  margin-right: 0.7em;
-  list-style-type: none;
-}
+  li {
+    display: inline-block;
+    margin-right: $marge;
+    list-style-type: none;
+  }
 
-.orateur-links li a {
-  text-decoration: underline;
-}
+  a {
+    text-decoration: underline;
 
-.orateur-links li a:focus,
-.orateur-links li a:hover {
-  text-decoration: none;
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .orateur-talk h2 {
@@ -39,6 +39,6 @@
 }
 
 .orateur-talk-type {
-  margin-bottom: 1em;
-  font-weight: bold;
+  margin-bottom: $marge;
+  font-weight: $font-weight-bold;
 }

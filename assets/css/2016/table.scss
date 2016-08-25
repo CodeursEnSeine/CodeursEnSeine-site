@@ -1,24 +1,24 @@
 .agenda-row {
-  margin-bottom: 1em;
+  margin-bottom: $marge;
 }
 
 .agenda-cell-time,
 .agenda-cell {
-  padding: 0.5em;
+  padding: $marge / 2;
   text-align: center;
   vertical-align: top;
-  border-right: #ddd 1px solid;
-  border-bottom: 2px solid #ddd;
-  border-left: #ddd 1px solid;
+  border-right: $unpixel solid #ddd;
+  border-bottom: $unpixel*2 solid #ddd;
+  border-left: $unpixel solid #ddd;
 }
 
 .agenda-row .agenda-cell:last-child {
-  border-right: #ddd 1px solid;
+  border-right: $unpixel solid #ddd;
 }
 
 .agenda-cell-time {
-  font-size: 1.4em;
-  font-weight: bold;
+  font-size: $font-size-big;
+  font-weight: $font-weight-bold;
   text-align: right;
   text-align: center;
   vertical-align: middle;
@@ -27,13 +27,13 @@
 }
 
 .agenda-cell {
-  font-size: 1em;
+  font-size: $font-size-normal;
 }
 
 .agenda-cell-keynote,
 .agenda-cell-break {
-  padding-top: 1.5em;
-  line-height: 1.2em;
+  padding-top: $marge * 1.5;
+  line-height: 1.2;
   vertical-align: middle;
   background: #f1f1f1;
 }
@@ -46,7 +46,7 @@
 .agenda-title {
   position: relative;
   display: block;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   color: #000;
 }
 
@@ -60,10 +60,41 @@
 
 .agenda-cell-keynote .agenda-speakers,
 .agenda-cell-break .agenda-speakers {
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 .agenda-room {
   display: block;
   font-size: 85%;
+}
+
+@media screen and (min-width: 62em) { // 992px.
+
+  .agenda-row {
+    display: table;
+    margin: 0;
+    width: 100%;
+  }
+
+  .agenda-cell-time,
+  .agenda-cell {
+    display: table-cell;
+    padding-bottom: $marge * 1.5;
+    width: 18%;
+    border-right: none;
+  }
+
+  .agenda-cell-time {
+    width: 10%;
+  }
+
+  .agenda-cell-keynote,
+  .agenda-cell-break {
+    width: 90%;
+    line-height: 1.2;
+  }
+
+  .agenda-cell-atelier {
+    border-bottom: none;
+  }
 }

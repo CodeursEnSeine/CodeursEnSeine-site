@@ -1,38 +1,26 @@
 .header-main {
-  padding: 1rem;
-  background: #fff;
 
-  h1 {
-    margin: 0;
-  }
 }
 
 .tagline {
-  display: inline-block;
-  margin: 0.5rem 0 0 0;
-  line-height: 1.5em;
-  font-size: 1.4em;
-  font-weight: bold;
-  background: #fff;
+
 }
 
 .nav-main {
   li {
-    margin: 0 0 1em 1em;
+
   }
 
   a {
-    color: $color-1;
-    background-color: #fff;
+
 
     &:focus,
     &:hover {
-      color: $color-2;
-      background: #fff;
+
     }
   }
 
   li.active a {
-    background: $color-2;
+    
   }
 }
