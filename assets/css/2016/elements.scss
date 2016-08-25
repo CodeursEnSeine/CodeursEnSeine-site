@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  color: $color-4;
+  color: $noir-clair;
   font-family: 'ubuntu', Verdana, Arial, Helvetica, sans-serif;
   font-size: $font-size-normal;
   line-height: 1.5;
@@ -84,7 +84,7 @@ h4 {
 // Links.
 
 a {
-  color: $color-2;
+  color: $bleu;
 
   &:focus,
   &:hover {
@@ -96,16 +96,16 @@ a {
 
 .button {
   padding: $marge/2 $marge;
-  background: $color-2;
-  border: $unpixel solid darken($color-2, 3%);
+  background: $bleu;
+  border: $unpixel solid darken($bleu, 3%);
   border-radius: $marge/4;
-  color: #fff;
+  color: $blanc;
   text-decoration: none;
 
   &:focus,
   &:hover {
-    background: darken($color-2, 5%);
-    border: $unpixel solid darken($color-2, 8%);
+    background: darken($bleu, 5%);
+    border: $unpixel solid darken($bleu, 8%);
   }
 }
 
@@ -162,8 +162,8 @@ dd {
 blockquote {
   margin-bottom: $marge;
   padding: $marge;
-  background: $color-3;
-  border-left: 0.5rem solid $color-4;
+  background: $gris-clair-3;
+  border-left: 0.5rem solid $noir-clair;
 }
 
 q,
@@ -176,7 +176,7 @@ cite {
 hr {
   height: 0;
   margin: $marge 0;
-  border: $unpixel solid #ddd;
+  border: $unpixel solid $gris-clair-1;
 }
 
 // Inlines.
@@ -196,14 +196,14 @@ var {
 code {
   display: inline-block;
   padding: $marge;
-  background: $color-3;
+  background: $gris-clair-3;
 }
 
 kbd {
   display: inline-block;
   padding: 0 $marge/4;
-  background: $color-3;
-  border:1px solid $color-4;
+  background: $gris-clair-3;
+  border:1px solid $noir-clair;
   font-weight: $font-weight-bold;
 }
 
@@ -257,7 +257,7 @@ figure {
 
 figcaption {
   font-size: $font-size-little;
-  color: #777;
+  color: $gris-fonce;
 }
 
 audio,

@@ -17,7 +17,17 @@ $font-weight-bold: 700;
 $font-weight-light: 300;
 
 // Colors.
-$color-1: #4F4C4C; // black
-$color-2: #4081bd; // blue
-$color-3: #C7C8CA; // grey
-$color-4: #333; // grey
+
+$blanc: #fff;
+$blanc-2: #f1f1f1;
+
+$gris-clair-1: $gris-clair-2;
+$gris-clair-2: $gris-clair-1;
+$gris-clair-3: #ccc;
+
+$gris-fonce: #666;
+
+$noir-clair: #333;
+$noir: #000;
+
+$bleu: #4081bd;

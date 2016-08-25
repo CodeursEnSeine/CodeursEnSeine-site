@@ -7,13 +7,13 @@
   padding: $marge / 2;
   text-align: center;
   vertical-align: top;
-  border-right: $unpixel solid #ddd;
-  border-bottom: $unpixel*2 solid #ddd;
-  border-left: $unpixel solid #ddd;
+  border-right: $unpixel solid $gris-clair-1;
+  border-bottom: $unpixel*2 solid $gris-clair-1;
+  border-left: $unpixel solid $gris-clair-1;
 }
 
 .agenda-row .agenda-cell:last-child {
-  border-right: $unpixel solid #ddd;
+  border-right: $unpixel solid $gris-clair-1;
 }
 
 .agenda-cell-time {
@@ -22,8 +22,8 @@
   text-align: right;
   text-align: center;
   vertical-align: middle;
-  color: #000;
-  background: #eee;
+  color: $noir;
+  background: $gris-clair-2;
 }
 
 .agenda-cell {
@@ -35,7 +35,7 @@
   padding-top: $marge * 1.5;
   line-height: 1.2;
   vertical-align: middle;
-  background: #f1f1f1;
+  background: $blanc-2;
 }
 
 .agenda-cell-atelier-ext,
@@ -47,11 +47,11 @@
   position: relative;
   display: block;
   font-weight: $font-weight-bold;
-  color: #000;
+  color: $noir;
 }
 
 .agenda-title a {
-  color: #000;
+  color: $noir;
 }
 
 .agenda-table .agenda-speakers {
