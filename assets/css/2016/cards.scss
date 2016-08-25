@@ -1,20 +1,20 @@
-.orateur {
+.card {
   margin-bottom: $marge * 2;
   padding-bottom: $marge * 2;
   border-bottom: $unpixel solid $gris-clair-1;
 }
 
-.orateur-type {
+.card-type {
   font-weight: $font-weight-bold;
 }
 
-.orateur-links,
+.card-links,
 .speakers-talks {
   overflow: hidden;
   width: 100%;
 }
 
-.orateur-links {
+.card-links {
   margin-bottom: $marge;
   padding-left: 0;
 
@@ -34,11 +34,35 @@
   }
 }
 
-.orateur-talk h2 {
+.card-talk h2 {
   margin-bottom: 0;
 }
 
-.orateur-talk-type {
+.card-talk-type {
   margin-bottom: $marge;
   font-weight: $font-weight-bold;
+}
+
+@media screen and (min-width: 48em) { // 768px
+  .card {
+    @include col(6, 12);
+
+    &:nth-of-type(2n+1) {
+      clear: both;
+    }
+  }
+}
+
+@media screen and (min-width: 62em) { // 768px
+  .card {
+    @include col(4, 12);
+
+    &:nth-of-type(2n+1) {
+      clear: none;
+    }
+
+    &:nth-of-type(3n+1) {
+      clear: both;
+    }
+  }
 }
