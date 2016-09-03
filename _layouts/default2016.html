@@ -18,14 +18,16 @@
 </head>
 <body>
   <header class="header-main" role="banner">
+    <div class="header-background"></div>
     <div class="wrapper">
-      <h1>
-      <a href="/{{ page.group }}/">
-        <img src="/assets/img/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}">
-      </a>
+      <h1 class="header-logo">
+        <a href="/{{ page.group }}/">
+          <img src="/assets/img/logo-codeurs-en-seine-white.png" width="210" height="110" alt="{{site.title}}">
+        </a>
       </h1>
       <p class="tagline">
-        {{ site.tagline[page.group] }}<br>{{ site.date[page.group] }}
+        {{ site.tagline[page.group] }}
+        <strong>{{ site.date[page.group] }}</strong>
       </p>
       <nav>
         <ul class="nav-main" role="nav">
