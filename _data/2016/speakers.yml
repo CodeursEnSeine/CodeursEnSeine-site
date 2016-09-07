@@ -1,0 +1,47 @@
+# -------------------
+# Tristan Nitot
+# -------------------
+- name: Tristan Nitot
+  image: orateur-tristan-nitot.jpg
+  bio: <p>Tristan Nitot est un vieux natif du numérique. <span lang='en'>Chief Product Officer</span> chez <span lang='en'>Cozy Cloud</span>, membre du CNNum, il a commencé à bidouiller des logiciels à l"age de 14 ans, au début des années 1980. Il a été impliqué dans le projet Mozilla dès ses débuts et a co-fondé et présidé Mozilla Europe pendant une décennie.</p>
+  links:
+    - label: Blog
+      url: //www.standblog.fr
+    - label: Twitter
+      url: //twitter.com/nitot
+  talks:
+    - title: Bidouillabilité à l'ère du Cloud
+      type: Amphi A - Keynote
+      description: <p>Le <span lang='en'>Personal Computer</span> a mis dans les main des bidouilleurs une série d"outils formidables, leur permettant de l"approprier l"informatique qui était jusque là une affaire de sachants encravatés. Fer à souder, partage du savoir et logiciel libre ont permis à des milliers de gens d"apprendre, inventer, innover et même monter des sociétés. Mais nous voici à l'ère du <span lang='en'>Cloud</span>, et le logiciel tourne désormais sur des serveurs anonymes qui débitent du SaaS (<span lang='en'>Software as a Service</span>). Au lieu d"avoir le contrôle du matériel et du logiciel, et au final de nos données, on se retrouve à utiliser du logiciel qu"on ne contrôle plus, qui tourne sur des ordinateurs qui ne nous appartiennent pas et qui utilise nos données que nous ne contrôlons pas non plus. Et si le <span lang='en'>Cloud</span> personnel faisait au <span lang='en'>Cloud</span> ce que le PC a fait aux <span lang='en'>mainframes</span> ? Si on réapprenait à bidouiller à l"heure du <span lang='en'>Cloud</span>, dans le <span lang='en'>Cloud</span> personnel, pour que nos données <span lang='en'>IoT</span> et <span lang='en'>Quantified Self</span> deviennent source d"innovation ?</p>
+
+# -------------------
+# Laure Nemée
+# -------------------
+- name: Laure Nemée
+  image: orateur-laure-nemee.jpg
+  bio: CTO @ Leetchi
+  links:
+    - label: Site web
+      url: //www.leetchi.com/
+    - label: Twitter
+      url: //twitter.com/zazoun
+  talks:
+    - title: Tout ce que vous ne savez pas avant d'être CTO
+      type: Amphi A - Keynote
+      description:
+
+# -------------------
+# Grégory Le Garec
+# -------------------
+- name: Grégory Le Garec
+  image: orateur-le-garec.jpg
+  bio: <p>Beaucoup de SSII, pas mal de freelance, un peu de start-up. J'essaie de faire de la qualité dès que possible.</p>
+  links:
+    - label: Site web
+      url: //tiretdu8.fr/
+    - label: Twitter
+      url: //twitter.com/_tiretdu8
+  talks:
+    - title: "Réac' JS : JavaScript réactionnaire sans <span lang='en'>framework</span>"
+      type: Amphi A - Web
+      description: <p>Retour d'expérience sur la conception d'une application en bon vieux JavaScript en snobant superbement toute la hype des <span lang='en'>frameworks</span> actuels.</p>
