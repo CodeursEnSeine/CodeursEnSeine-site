@@ -1,0 +1,52 @@
+.nav-main {
+  display: none;
+  padding-bottom: 0;
+
+  @media only screen and (min-width: 800px) {
+    display: block;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    overflow: auto;
+  }
+
+  li {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  a {
+    color: $blanc;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .6em 1em .8em 1em;
+    font-size: .8rem;
+    margin-right: $unpixel;
+    border-bottom: $unpixel*4 solid lighten($bleu, 30%);
+    transition: .2s;
+
+    &:hover,
+    &:focus {
+      padding: .8em 1em .6em 1em;
+      border-bottom-color: $blanc;
+    }
+  }
+
+  li.active a {
+    padding: .8em 1em .6em 1em;
+    background: $blanc;
+    color: $bleu;
+    border-bottom-color: $blanc;
+  }
+}

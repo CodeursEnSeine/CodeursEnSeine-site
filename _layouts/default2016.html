@@ -20,33 +20,45 @@
   <header class="header-main" role="banner">
     <div class="header-background"></div>
     <div class="wrapper">
-      <h1 class="header-logo">
-        <a href="/{{ page.group }}/">
-          <img src="/assets/img/logo-codeurs-en-seine-white.png" width="210" height="110" alt="{{site.title}}">
-        </a>
-      </h1>
-      <p class="tagline">
-        {{ site.tagline[page.group] }}
-        <strong>{{ site.date[page.group] }}</strong>
-      </p>
-      <nav>
-        <ul class="nav-main" role="nav">
-          {% capture page_modified %}{{ page.url }}{% endcapture %}
-          {% for node in site.pages %}
-            {% if node.title != null %}
-              {% if node.navigation != false %}
-                {% if page.group == node.group %}
-                  {% if page.url == node.url %}
-                    <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-                  {% else %}
-                    <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      <div class="header-grid">
+        <h1 class="header-logo">
+          <a href="/{{ page.group }}/">
+            <img src="/assets/img/logo-codeurs-en-seine-white.png" width="210" height="110" alt="{{site.title}}">
+          </a>
+        </h1>
+        <p class="tagline">
+          {{ site.tagline[page.group] }}
+          <strong>{{ site.date[page.group] }}</strong>
+        </p>
+        <div class="header-menu-button">
+          <a href="#menu" class="button light-bordered small block">
+            Navigation
+          </a>
+        </div>
+        <div class="header-action">
+          <a href="#" class="button light small block">
+            Inscription
+          </a>
+        </div>
+        <nav class="nav-main">
+          <ul role="nav">
+            {% capture page_modified %}{{ page.url }}{% endcapture %}
+            {% for node in site.pages %}
+              {% if node.title != null %}
+                {% if node.navigation != false %}
+                  {% if page.group == node.group %}
+                    {% if page.url == node.url %}
+                      <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                    {% else %}
+                      <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
                   {% endif %}
                 {% endif %}
               {% endif %}
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </nav>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main class="content-main" role="main">
@@ -66,5 +78,30 @@
       </div>
     </div>
   </footer>
+  <nav class="nav-mobile" id="menu">
+    <div class="nav-mobile-header">
+      Navigation
+
+      <a class="nav-mobile-back-top" href="#">
+        <i>&times;</i> <span>fermer</span>
+      </a>
+    </div>
+    <ul role="nav">
+      {% capture page_modified %}{{ page.url }}{% endcapture %}
+      {% for node in site.pages %}
+        {% if node.title != null %}
+          {% if node.navigation != false %}
+            {% if page.group == node.group %}
+              {% if page.url == node.url %}
+              <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+              {% else %}
+              <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </body>
 </html>

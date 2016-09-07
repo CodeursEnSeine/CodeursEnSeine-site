@@ -92,18 +92,55 @@ a {
   font-size: 1rem;
   display: inline-block;
   padding: .8em 1.5em;
+  text-align: center;
   background: $bleu;
   border: $unpixel solid darken($bleu, 3%);
-  border-radius: $unpixel * 4;
+  border-radius: $unpixel * 3;
   color: $blanc;
   text-decoration: none;
+  transition: .2s;
 
   &:focus,
   &:hover {
     background: darken($bleu, 5%);
-    border: $unpixel solid darken($bleu, 8%);
+    border-color: darken($bleu, 8%);
+  }
+
+  // Block button
+  &.block {
+    display: block;
+  }
+
+  // Small button
+  &.small {
+    padding: .4em 1em;
+  }
+
+  // White button
+  &.light {
+    color: $bleu;
+    background: $blanc;
+    border-color: transparent;
+
+    &:focus,
+    &:hover {
+      background: darken($blanc, 5%);
+    }
+  }
+
+  &.light-bordered {
+    color: $blanc;
+    background: transparent;
+    border: $unpixel*2 solid $blanc;
+
+    &:focus,
+    &:hover {
+      color: $bleu;
+      background: $blanc;
+    }
   }
 }
+
 
 // Paragraphs & Lists.
 
