@@ -89,10 +89,12 @@ a {
 // Buttons.
 
 .button {
-  padding: $marge/2 $marge;
+  font-size: 1rem;
+  display: inline-block;
+  padding: .8em 1.5em;
   background: $bleu;
   border: $unpixel solid darken($bleu, 3%);
-  border-radius: $marge/4;
+  border-radius: $unpixel * 4;
   color: $blanc;
   text-decoration: none;
 
