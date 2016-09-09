@@ -13,6 +13,8 @@ gruntfile.js
 
 .sass-cache
 
+.jekyll-metadata
+
 .rbenv-version
 .rvmrc
 .idea
