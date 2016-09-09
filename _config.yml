@@ -1,4 +1,4 @@
-# This is the default format.
+ # This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",".editorconfig"]
@@ -7,12 +7,12 @@ markdown : kramdown
 permalink: /:group/:title
 
 title : Codeurs en Seine
-description: "Rencontre de codeurs à Rouen : Agile, Java & Web"
+description: "Rencontre de codeurs à Rouen"
 tagline :
   2013 : "Rencontre de codeurs à Rouen : Agile, Java & Web"
   2014 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Innovation"
   2015 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Technologies"
-  2016 : "Rencontre de codeurs à Rouen&nbsp;: Web, Agile, Java, Technologies"
+  2016 : "Rencontre de codeurs à Rouen"
 date :
   2013 : "Jeudi 17 octobre 2013"
   2014 : "Jeudi 27 novembre 2014"
