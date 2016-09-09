@@ -11,6 +11,10 @@ gruntfile.js
 
 !.gitkeep
 
+.sass-cache
+
+.jekyll-metadata
+
 .rbenv-version
 .rvmrc
 .idea
