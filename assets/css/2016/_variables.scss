@@ -32,7 +32,14 @@ $noir: #000;
 
 $bleu: #276a91;
 
-// Header
+// Media queries.
+
+$mq-480: 30em;
+$mq-600: 37.5em;
+$mq-768: 48em;
+$mq-992: 62em;
+
+// Header.
 $headerHorizontalGutters: $marge / 2;
 $headerVerticalGutters: $marge / 2;
 $headerHorizontalGuttersLarge: $marge;
