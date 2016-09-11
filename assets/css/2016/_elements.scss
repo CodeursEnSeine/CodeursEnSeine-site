@@ -141,6 +141,15 @@ a {
   }
 }
 
+.buttons-group {
+  margin-left: -$marge / 2;
+
+  .button {
+    margin-left: $marge / 2;
+    margin-bottom: $marge / 2;
+  }
+}
+
 
 // Paragraphs & Lists.
 
