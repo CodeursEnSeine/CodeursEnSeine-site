@@ -14,7 +14,7 @@
 
         if (element.clientHeight > 120) {
           element.classList.add('truncate-text');
-          element.innerHTML = '<button class="truncate-text-toggle">Show more</button>' + element.innerHTML;
+          element.innerHTML = '<button class="truncate-text-toggle">Lire la suite</button>' + element.innerHTML;
         }
 
         element.addEventListener('click', showTruncateText, false);
