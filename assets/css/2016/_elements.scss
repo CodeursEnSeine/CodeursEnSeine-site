@@ -116,6 +116,18 @@ a {
     padding: .4em 1em;
   }
 
+  &.ghost {
+    color: $bleu;
+    background: transparent;
+    border: $unpixel*2 solid $bleu;
+
+    &:focus,
+    &:hover {
+      color: $blanc;
+      background: $bleu;
+    }
+  }
+
   // White button
   &.light {
     color: $bleu;
@@ -128,7 +140,7 @@ a {
     }
   }
 
-  &.light-bordered {
+  &.light-ghost {
     color: $blanc;
     background: transparent;
     border: $unpixel*2 solid $blanc;
