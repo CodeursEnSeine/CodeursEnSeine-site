@@ -1,7 +1,7 @@
 .truncate-text {
   position: relative;
   overflow: hidden;
-  max-height: 7rem;
+  max-height: 100px;
 
   &.open {
     max-height: none;
@@ -16,8 +16,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 3.5rem 0 0 0;
-    height: 5rem;
+    padding: 60px 0 0 0;
+    height: 80px;
     text-align: left;
     color: $bleu;
     text-decoration: underline;

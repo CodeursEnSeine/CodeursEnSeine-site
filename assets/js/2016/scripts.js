@@ -12,7 +12,7 @@
       for (var i = 0; i < truncateTextElements.length; i++) {
         var element = truncateTextElements[i];
 
-        if (element.clientHeight > 100) {
+        if (element.clientHeight > 120) {
           element.classList.add('truncate-text');
           element.innerHTML = '<button class="truncate-text-toggle">Show more</button>' + element.innerHTML;
         }
