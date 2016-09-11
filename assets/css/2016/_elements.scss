@@ -159,6 +159,10 @@ a {
   .button {
     margin-left: $marge / 2;
     margin-bottom: $marge / 2;
+
+    @media only screen and (max-width: 450px) {
+      display: block;
+    }
   }
 }
 
