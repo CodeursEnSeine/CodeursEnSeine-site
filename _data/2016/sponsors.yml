@@ -1,0 +1,162 @@
+# -------------------
+# DIAMOND
+# -------------------
+diamond:
+  # -------------------
+  # Attineos
+  # -------------------
+  - name: Proxiad
+    logo: logo-small-proxiad.png
+    link: http://www.proxiad.com
+    description: "<p><strong>Parlez-nous de Proxiad...</strong></p>
+    <p>Entreprise de Services Numériques, le Groupe Proxiad apporte conseil et expertise à ses clients. Nos 550 consultants soutiennent l’évolution des systèmes d’informations, via la mise en œuvre de solutions spécifiques, pragmatiques et innovantes.</p>
+    <p><strong>Quels sont les points forts de votre activité ?</strong></p>
+    <p>Outre les compétences techniques et méthodologiques dont elle dispose, Proxiad fonde également sa réussite sur sa forte capacité d’engagement et sur une gestion saine et transparente de sa relation avec ses collaborateurs et ses clients.</p>
+    <p><strong>Pourquoi votre soutien et participation à Codeurs en Seine ?</strong></p>
+    <p>Nous sommes sensibles à la nécessité de soutenir une manifestation locale promouvant des thèmes innovants directement liés à notre activité. Proxiad était partenaire de l’Agile Tour depuis 2011, il semblait donc naturel de faire perdurer cette action avec Codeurs en Seine.</p>
+    <p><em>Dans le cadre de son sponsoring Diamant, deux codeurs de Proxiad viendront nous présenter : \"Devenir natif avec React\".</em></p>"
+
+# -------------------
+# PLATINE
+# -------------------
+platine:
+  # -------------------
+  # Attineos
+  # -------------------
+  - name: Attineos
+    logo: logo-small-attineos.jpg
+    link: http://www.attineos.com
+    description: "<p>Nouvel acteur, Attineos n’est pas une ESN comme les autres. Avec pour vocation d’accompagner la transformation numérique des entreprises et des administrations, nos consultants ne sont pas uniquement reconnus pour leurs compétences : leur adaptabilité, la passion qui les anime, leur sens de l’écoute représentent sans doute leur plus grande force. L’ATTItude vaut au moins autant que les aptitudes. C’est l’ADN d’Attineos !</p>
+    <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
+    <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
+
+  # -------------------
+  # Budget Box
+  # -------------------
+  - name: Budget Box
+    logo: logo-small-budgetbox-new.png
+    link: http://www.budget-box.com
+    description: "<p>Les parcours de courses sont aujourd’hui de plus en plus connectés que ce soit en magasin avec la scannette et le SmartPhone ou sur Internet avec le drive et le e-commerce.</p>
+    <p>BudgetBox est une société pionnière et leader dans le domaine des parcours de courses connectés au travers de deux activités complémentaires :</p>
+    <ul>
+      <li>Le développement de l’application de shopping connectée de référence sur le marché français (JAVA JEE – ANDROID et iOS)</li>
+      <li>La diffusion sur les parcours de courses connectés de eCoupons intégrant une double dimension de ciblage inégalée jusqu’ici. En effet, les eCoupons sont ciblés en fonction de l’historique d’achat du client et de ses achats temps réel. Ce ciblage est rendu possible grâce à l'analyse de données basée sur un socle décisionnel et BigData innovant.</li>
+    </ul>"
+
+  # -------------------
+  # TRSB
+  # -------------------
+  - name: TRSB
+    logo: logo-small-trsb.png
+    link: http://www.trsb.net
+    description: "<p>« Force est de constater que le monde change, que les besoins des utilisateurs ainsi que ceux des entreprises sont en pleine mutation, TRSb se positionne comme un partenaire agile capable de vous accompagner dans le challenge du développement de nouvelles sources de valeurs : innovation, mobilité, contenus, différenciation.</p>
+    <p>Avec plus de 650 collaborateurs répartis au sein des 11 agences du groupe, nous sommes présents en Normandie depuis plus de 20 ans.</p>
+    <p>L'accompagnement conseil et opérationnel est essentiel pour les entreprises afin de leur permettre d’acquérir l’agilité nécessaire à l’ère de la transformation numérique.</p>
+    <p>Nous travaillons ensemble à la définition de votre écosystème digital,  à la mise en œuvre de développements sur mesure (technologies PHP, Java et .Net) ou via l’intégration de solutions portails (Drupal, Jalios, Liferay) et e-commerce (Prestashop, Magento).</p>
+    <p>Enfin, nous pensons tous nos projets afin qu’ils soient accessibles en situation de mobilité (responsive design, mobile first) sur applications mobiles natives (iOS, Android et Windows Phone) et hybrides (Cordova, Xamarin, Sencha Touch).</p>
+    <p>Nous mettons nos experts à votre disposition, via notre centre de services et en assistance technique, afin vous accompagner à maîtriser l’ensemble des nouveaux enjeux de votre Système d’Information. »</p>"
+
+  # -------------------
+  # Devoxx France
+  # -------------------
+  - name: Devoxx France
+    logo: logo-small-devoxxfr.png
+    link: http://www.devoxx.fr
+    description: "<p>La conférence pour les développeurs passionnés.</p>"
+
+  # -------------------
+  # Saagie
+  # -------------------
+  - name: Saagie
+    logo: logo-small-saagie.png
+    link: http://www.saagie.com
+    description: "<p>Saagie (anciennement Creative Data) est une startup créée en 2013 accompagnant les entreprises de tous secteurs d’activité souhaitant placer la donnée au cœur de leur culture. Nous vous proposons une plateforme prête à l’emploi de bout en bout orientée métier qui vous apporte le meilleur des technologies Big Data.</p>
+    <p>Hébergée au sein de Seine Innopolis, l’écosystème normand du numérique, Saagie se compose d’une équipe pluridisciplinaire de data scientists, de développeurs, d’architectes Data ou encore d’experts métier capables de vous libérer des barrières technologiques liées au Big Data. Vous pouvez ainsi créer de nouveaux leviers de croissance en exploitant pleinement la richesse des données à votre disposition.</p>"
+
+  # -------------------
+  # Smart Panda
+  # -------------------
+  - name: Smart Panda
+    logo: logo-small-smartpanda.png
+    link: http://www.smartpanda.com
+    description: "<p>SmartPanda est une startup normande, fondée en 2011 par Fabrice Bonnet qui développe une solution collaborative B2B.</p><p>Prix de l'innovation en 2012, Trophée de la performance commerciale startup des DCF 2013, prix d'argent de l'IT night 2015 dans la catégorie \"Gestion, Vente et finance de l'Entreprise\", SmartPanda a réussi le pari de l'innovation from scratch à tel point que le Groupe La Poste s'est rapproché de la jeune pousse normande dès 2014. En 2015, SmartPanda intègre Start In Post et réussi ses challenges : elle intègre le groupe au rang de filiale en novembre 2015.</p>
+    <p>En octobre 2016, SmartPanda va devenir CotéPro, solution business du groupe La Poste.</p>"
+
+  # -------------------
+  # SQLI Normandie
+  # -------------------
+  - name: SQLI Normandie
+    logo: logo-small-sqli.png
+    link: http://www.sqli.com
+    description: "<p>Avec plus de 2 000 collaborateurs qui interagissent et partagent la même passion, SQLI se positionne comme animateur de la rencontre entre le Marketing et la Technologie…. Une ambition commune et un positionnement complémentaire.</p>
+    <p>Fort de son expérience en tant que leader de la digitalisation d'entreprise, SQLI à un positionnement unique qui lui permet de répondre de façon globale aux enjeux de performance de l’entreprise (Industrialisation Digitale, Cross-canal, Data & analytics, Web Solutions, Mobilité/Objets connectés, Solutions collaborative...), et de performance business (CRM, ERP, Marketing social & digital, Commerce connecté, Data Management Platform, Commerce prédictif, Ergonomie, Nouveaux usages).</p>
+    <p>Avec un encrage régional fort de plus de 15ans et une expertise technique éprouvée, l'agence SQLI Normandie se développe afin de devenir un partenaire indispensable de la Transformation Digitale des Entreprises régionales.</p>"
+
+# -------------------
+# GOLD
+# -------------------
+
+gold:
+  # -------------------
+  # Orone
+  # -------------------
+  - name: Orone
+    logo: logo-small-orone.png
+    link: http://www.orone.com
+    description: "<p>Editeur de solutions logicielles de digitalisation du dossier de souscription et de dématérialisation des moyens de paiement, Orone développe et propose de nouvelles offres de rupture à forts enjeux, disponibles dans le cloud, en inscrivant l’innovation au cœur de sa croissance.</p
+    <ul>
+      <li>
+        Substech facilite la constitution et la gestion du dossier unique d’identification client - <a href=\"http://www.substech.io\" target=\"_blank\">www.substech.io</a>
+      </li>
+      <li>
+        Wecheck accélère et fiabilise l’encaissement de vos chèques - <a href=\"http://www.wecheck.io\" target=\"_blank\">www.wecheck.io</a>
+      </li>
+    </ul>
+    <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
+
+# -------------------
+# BRONZE
+# -------------------
+
+bronze:
+  # -------------------
+  # Bear Studio
+  # -------------------
+  - name: Bear Studio
+    logo: logo-small-bearstudio.png
+    link: http://www.bearstudio.fr
+    description: "<p>Vous souhaitez lancer un projet numérique, mais vous ne savez pas par où commencer, ni à qui vous adresser ? Pas de panique, le BearStudio est là pour vous aider !</p>
+    <p>De l’étude de votre environnement au coaching de vos équipes, en passant par le développement de vos solutions numérique, le BearStudio vous accompagne dans toutes les étapes de réflexion et de croissance de votre projet. Notre crédo ? #NoBullshit !</p>"
+
+  # -------------------
+  # Coaxys
+  # -------------------
+  - name: Coaxys
+    logo: logo-small-coaxys.png
+    link: http://www.coaxys.fr
+    description: "<p>Coaxys est née de la volonté d'écrire des \"success stories\".</p>
+    <p>Quels que soient la taille ou le domaine de votre projet, l'objectif est de conjuguer le savoir-faire de notre équipe expérimentée avec votre connaissance Métier.</p>
+    <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
+    <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
+    <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
+  # -------------------
+  # Invoke
+  # -------------------
+  - name: Invoke
+    logo: logo-small-invoke.png
+    link: http://www.invoke-software.fr
+    description: "<p>Coaxys est née de la volonté d'écrire des \"success stories\".</p>
+    <p>Quels que soient la taille ou le domaine de votre projet, l'objectif est de conjuguer le savoir-faire de notre équipe expérimentée avec votre connaissance Métier.</p>
+    <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
+    <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
+    <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
+  # -------------------
+  # Invoke
+  # -------------------
+  - name: SPREAD
+    logo: logo-small-spread.png
+    link: http://www.spreadfamily.fr
+    description: "<p>SPREAD est une solution marketing en mode SaaS, permettant aux marques et e-commerçants de construire leur programme d’engagement clients.</p>
+    <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
