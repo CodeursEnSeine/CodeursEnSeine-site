@@ -70,6 +70,7 @@
 # Saagie
 # -------------------
 - name: Saagie
+  type: platine
   logo: logo-small-saagie.png
   link: http://www.saagie.com
   description: "<p>Saagie (anciennement Creative Data) est une startup créée en 2013 accompagnant les entreprises de tous secteurs d’activité souhaitant placer la donnée au cœur de leur culture. Nous vous proposons une plateforme prête à l’emploi de bout en bout orientée métier qui vous apporte le meilleur des technologies Big Data.</p>
