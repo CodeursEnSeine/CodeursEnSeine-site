@@ -26,8 +26,10 @@ permalink: /2016/sponsors
     <h3>Sponsors Diamant</h3>
 
     <div class="cards">
-      {% for sponsor in site.data['2016'].sponsors.diamond %}
-        {% include 2016/sponsor-card.html premium="true" %}
+      {% for sponsor in site.data['2016'].sponsors %}
+        {% if sponsor.type == 'diamond' %}
+          {% include 2016/sponsor-card.html premium="true" %}
+        {% endif %}
       {% endfor %}
     </div>
 
@@ -36,8 +38,10 @@ permalink: /2016/sponsors
     <h3>Sponsors Platine</h3>
 
     <div class="cards">
-      {% for sponsor in site.data['2016'].sponsors.platine %}
-        {% include 2016/sponsor-card.html %}
+      {% for sponsor in site.data['2016'].sponsors %}
+        {% if sponsor.type == 'platine' %}
+          {% include 2016/sponsor-card.html %}
+        {% endif %}
       {% endfor %}
     </div>
 
@@ -46,8 +50,10 @@ permalink: /2016/sponsors
     <h3>Sponsors Or</h3>
 
     <div class="cards">
-      {% for sponsor in site.data['2016'].sponsors.gold %}
-        {% include 2016/sponsor-card.html %}
+      {% for sponsor in site.data['2016'].sponsors %}
+        {% if sponsor.type == 'gold' %}
+         {% include 2016/sponsor-card.html %}
+        {% endif %}
       {% endfor %}
     </div>
 
@@ -56,8 +62,10 @@ permalink: /2016/sponsors
     <h3>Sponsors Bronze</h3>
 
     <div class="cards">
-      {% for sponsor in site.data['2016'].sponsors.bronze %}
-        {% include 2016/sponsor-card.html %}
+      {% for sponsor in site.data['2016'].sponsors %}
+        {% if sponsor.type == 'bronze' %}
+          {% include 2016/sponsor-card.html %}
+        {% endif %}
       {% endfor %}
     </div>
 

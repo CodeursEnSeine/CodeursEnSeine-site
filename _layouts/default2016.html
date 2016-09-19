@@ -71,25 +71,10 @@
   <section class="footer-sponsors">
     <div class="wrapper">
       <h2 class="text-center">Sponsors</h2>
-      {% for sponsor in site.data['2016'].sponsors.diamond %}
+      {% for sponsor in site.data['2016'].sponsors %}
         <a href="{{sponsor.link}}" title="{{sponsor.name}}">
           <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
         </a>
-      {% endfor %}
-      {% for sponsor in site.data['2016'].sponsors.platine %}
-      <a href="{{sponsor.link}}" title="{{sponsor.name}}">
-        <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
-      </a>
-      {% endfor %}
-      {% for sponsor in site.data['2016'].sponsors.gold %}
-      <a href="{{sponsor.link}}" title="{{sponsor.name}}">
-        <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
-      </a>
-      {% endfor %}
-      {% for sponsor in site.data['2016'].sponsors.bronze %}
-      <a href="{{sponsor.link}}" title="{{sponsor.name}}">
-        <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
-      </a>
       {% endfor %}
     </div>
   </section>
