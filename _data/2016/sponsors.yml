@@ -3,7 +3,7 @@
 # -------------------
 diamond:
   # -------------------
-  # Attineos
+  # Proxiad
   # -------------------
   - name: Proxiad
     logo: logo-small-proxiad.png
