@@ -44,20 +44,6 @@
   </ul>"
 
 # -------------------
-# TRSB
-# -------------------
-- name: TRSB
-  type: platine
-  logo: logo-small-trsb.png
-  link: http://www.trsb.net
-  description: "<p>« Force est de constater que le monde change, que les besoins des utilisateurs ainsi que ceux des entreprises sont en pleine mutation, TRSb se positionne comme un partenaire agile capable de vous accompagner dans le challenge du développement de nouvelles sources de valeurs : innovation, mobilité, contenus, différenciation.</p>
-  <p>Avec plus de 650 collaborateurs répartis au sein des 11 agences du groupe, nous sommes présents en Normandie depuis plus de 20 ans.</p>
-  <p>L'accompagnement conseil et opérationnel est essentiel pour les entreprises afin de leur permettre d’acquérir l’agilité nécessaire à l’ère de la transformation numérique.</p>
-  <p>Nous travaillons ensemble à la définition de votre écosystème digital,  à la mise en œuvre de développements sur mesure (technologies PHP, Java et .Net) ou via l’intégration de solutions portails (Drupal, Jalios, Liferay) et e-commerce (Prestashop, Magento).</p>
-  <p>Enfin, nous pensons tous nos projets afin qu’ils soient accessibles en situation de mobilité (responsive design, mobile first) sur applications mobiles natives (iOS, Android et Windows Phone) et hybrides (Cordova, Xamarin, Sencha Touch).</p>
-  <p>Nous mettons nos experts à votre disposition, via notre centre de services et en assistance technique, afin vous accompagner à maîtriser l’ensemble des nouveaux enjeux de votre Système d’Information. »</p>"
-
-# -------------------
 # Devoxx France
 # -------------------
 - name: Devoxx France
@@ -96,6 +82,21 @@
   description: "<p>Avec plus de 2 000 collaborateurs qui interagissent et partagent la même passion, SQLI se positionne comme animateur de la rencontre entre le Marketing et la Technologie…. Une ambition commune et un positionnement complémentaire.</p>
   <p>Fort de son expérience en tant que leader de la digitalisation d'entreprise, SQLI à un positionnement unique qui lui permet de répondre de façon globale aux enjeux de performance de l’entreprise (Industrialisation Digitale, Cross-canal, Data & analytics, Web Solutions, Mobilité/Objets connectés, Solutions collaborative...), et de performance business (CRM, ERP, Marketing social & digital, Commerce connecté, Data Management Platform, Commerce prédictif, Ergonomie, Nouveaux usages).</p>
   <p>Avec un encrage régional fort de plus de 15ans et une expertise technique éprouvée, l'agence SQLI Normandie se développe afin de devenir un partenaire indispensable de la Transformation Digitale des Entreprises régionales.</p>"
+
+# -------------------
+# TRSB
+# -------------------
+- name: TRSB
+  type: platine
+  logo: logo-small-trsb.png
+  link: http://www.trsb.net
+  description: "<p>« Force est de constater que le monde change, que les besoins des utilisateurs ainsi que ceux des entreprises sont en pleine mutation, TRSb se positionne comme un partenaire agile capable de vous accompagner dans le challenge du développement de nouvelles sources de valeurs : innovation, mobilité, contenus, différenciation.</p>
+  <p>Avec plus de 650 collaborateurs répartis au sein des 11 agences du groupe, nous sommes présents en Normandie depuis plus de 20 ans.</p>
+  <p>L'accompagnement conseil et opérationnel est essentiel pour les entreprises afin de leur permettre d’acquérir l’agilité nécessaire à l’ère de la transformation numérique.</p>
+  <p>Nous travaillons ensemble à la définition de votre écosystème digital,  à la mise en œuvre de développements sur mesure (technologies PHP, Java et .Net) ou via l’intégration de solutions portails (Drupal, Jalios, Liferay) et e-commerce (Prestashop, Magento).</p>
+  <p>Enfin, nous pensons tous nos projets afin qu’ils soient accessibles en situation de mobilité (responsive design, mobile first) sur applications mobiles natives (iOS, Android et Windows Phone) et hybrides (Cordova, Xamarin, Sencha Touch).</p>
+  <p>Nous mettons nos experts à votre disposition, via notre centre de services et en assistance technique, afin vous accompagner à maîtriser l’ensemble des nouveaux enjeux de votre Système d’Information. »</p>"
+
 
 # -------------------
 # GOLD
@@ -160,7 +161,7 @@
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
 
 # -------------------
-# Invoke
+# Spread
 # -------------------
 - name: SPREAD
   type: bronze
@@ -168,3 +169,15 @@
   link: http://www.spreadfamily.fr
   description: "<p>SPREAD est une solution marketing en mode SaaS, permettant aux marques et e-commerçants de construire leur programme d’engagement clients.</p>
   <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
+
+# -------------------
+# Spread
+# -------------------
+- name: Wixiweb
+  type: bronze
+  logo: logo-small-wixiweb.png
+  link: http://www.wixiweb.fr/
+  description: "<p>Wixiweb conçoit et réalise des plate-formes web sur-mesures: application web, extranet, intranet, site web, e-commerce, mobile.</p>
+    <p>Notre équipe de 5 personnes accompagne aussi bien des startups que des entreprises ayant des besoins de développement interne.</p>
+    <p>Fort de notre expertise PHP/Zend Framework, nous aidons les entreprises dans la réalisation de leurs projets sur-mesures et innovants, ainsi que dans la mise en place de solutions open-sources telles que Wordpress, Prestashop ou Magento.</p>
+    <p>Nous accordons une grande importance au conseil, à l'ergonomie des interfaces, à l'expérience utilisateur, à la qualité technique et à la réussite globale du projet.</p>"
