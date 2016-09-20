@@ -125,6 +125,18 @@
 # -------------------
 
 # -------------------
+# ApolloNet
+# -------------------
+- name: ApolloNet
+  type: bronze
+  logo: logo-small-apollonet.png
+  link: http://apollonet.fr
+  description: "<p>ApolloNet, c'est Alexandre Ronsaut, développeur web indépendant.</p>
+  <p>Mes prestations sont orientées vers la qualité web grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
+  <p>Mes nombreuses collaborations autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts et les sciences.</p>"
+
+
+# -------------------
 # Bear Studio
 # -------------------
 - name: Bear Studio
@@ -171,7 +183,7 @@
   <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
 
 # -------------------
-# Spread
+# Wixiweb
 # -------------------
 - name: Wixiweb
   type: bronze
