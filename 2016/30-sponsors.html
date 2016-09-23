@@ -59,6 +59,18 @@ permalink: /2016/sponsors
 
     <hr>
 
+    <h3>Sponsors Argent</h3>
+
+    <div class="cards">
+      {% for sponsor in site.data['2016'].sponsors %}
+        {% if sponsor.type == 'argent' %}
+          {% include 2016/sponsor-card.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <hr>
+
     <h3>Sponsors Bronze</h3>
 
     <div class="cards">

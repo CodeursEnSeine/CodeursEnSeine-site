@@ -142,6 +142,20 @@
   <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
 
 # -------------------
+# ARGENT
+# -------------------
+
+# -------------------
+# Otso
+# -------------------
+- name: Otso
+  type: argent
+  logo: logo-small-otso.png
+  link: https://otso.fr/
+  description: "<p>Otso est un studio spécialisé dans le développement d'applications web et mobile sur mesure. Nous avons rassemblé une équipe composée de freelances de tous horizons, reprenant des profils experts dans leurs domaines respectifs : développeur, graphiste UX/UI, rédacteur, chef de projet, ...</p>
+  <p>Cette profusion de profils hautement qualifiés nous permet de vous accompagner sur l'entièreté de votre projet, de l'étude de vos besoins jusqu'à la mise en production. Que vous soyez une PME ou un grand groupe, nous avons toutes les compétences requises pour faire décoller votre business !</p>"
+
+# -------------------
 # BRONZE
 # -------------------
 
