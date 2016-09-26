@@ -5,13 +5,14 @@
         Truncate text
     \* ------------------------- */
     var truncateTextElements;
+    var maxHeightDefault = 200;
 
     function initTruncateText() {
       truncateTextElements = document.getElementsByClassName('js-truncate-text');
 
       for (var i = 0; i < truncateTextElements.length; i++) {
         var element = truncateTextElements[i],
-            maxHeight = parseInt(element.dataset.maxHeight, 10) || 100;
+            maxHeight = parseInt(element.dataset.maxHeight, 10) || maxHeightDefault;
 
         if (element.clientHeight > maxHeight + 20) {
           element.classList.add('truncate-text');
