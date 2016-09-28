@@ -1,47 +1,372 @@
-# -------------------
-# Tristan Nitot
-# -------------------
-- name: Tristan Nitot
-  image: orateur-tristan-nitot.jpg
-  bio: <p>Tristan Nitot est un vieux natif du numérique. <span lang='en'>Chief Product Officer</span> chez <span lang='en'>Cozy Cloud</span>, membre du CNNum, il a commencé à bidouiller des logiciels à l"age de 14 ans, au début des années 1980. Il a été impliqué dans le projet Mozilla dès ses débuts et a co-fondé et présidé Mozilla Europe pendant une décennie.</p>
+- id: 1
+  name: Élie Sloïm
+  image: orateur-sloim.jpg
+  bio: "<p>Elie Sloïm est fondateur de la société Temesis et du projet Opquast, écosystème dédié à la qualité du Web. Chimiste de formation, il s’est tout d’abord spécialisé dans le management de la qualité en laboratoire, métier qu’il a exercé dans le domaine du pétrole puis du vin, deux produits qu’il s’efforce depuis de consommer avec modération. Vers 2000, il décide de travailler sur la qualité du Web. Depuis, il roule sa bosse sur le Web et partage son temps entre les conférences, les missions de conseil, d’expertise, de formation, la création de référentiels de bonnes pratiques, l’écriture de livres (Qualité Web, chez Eyrolles), d'articles ou de préfaces. Il assure actuellement la direction de la société Opquast.</p>"
   links:
-    - label: Blog
-      url: //www.standblog.fr
     - label: Twitter
-      url: //twitter.com/nitot
+      url: https://twitter.com/ElieSl
   talks:
-    - title: Bidouillabilité à l'ère du Cloud
-      type: Amphi A - Keynote
-      description: <p>Le <span lang='en'>Personal Computer</span> a mis dans les main des bidouilleurs une série d"outils formidables, leur permettant de l"approprier l"informatique qui était jusque là une affaire de sachants encravatés. Fer à souder, partage du savoir et logiciel libre ont permis à des milliers de gens d"apprendre, inventer, innover et même monter des sociétés. Mais nous voici à l'ère du <span lang='en'>Cloud</span>, et le logiciel tourne désormais sur des serveurs anonymes qui débitent du SaaS (<span lang='en'>Software as a Service</span>). Au lieu d"avoir le contrôle du matériel et du logiciel, et au final de nos données, on se retrouve à utiliser du logiciel qu"on ne contrôle plus, qui tourne sur des ordinateurs qui ne nous appartiennent pas et qui utilise nos données que nous ne contrôlons pas non plus. Et si le <span lang='en'>Cloud</span> personnel faisait au <span lang='en'>Cloud</span> ce que le PC a fait aux <span lang='en'>mainframes</span> ? Si on réapprenait à bidouiller à l"heure du <span lang='en'>Cloud</span>, dans le <span lang='en'>Cloud</span> personnel, pour que nos données <span lang='en'>IoT</span> et <span lang='en'>Quantified Self</span> deviennent source d"innovation ?</p>
+    - title: "15 ans de qualité Web : stop ou encore ?"
+      type: 13:40 - Amphi A
+      description: "<p>Entre 2000 et 2016, le Web et les métiers du Web ont énormément évolué, aussi bien du point de vue des technologies que des usages. Entre ces deux dates, j’ai créé une société dédiée à la qualité Web et lancé Opquast, un projet mégalomane qui consiste à créer un répertoire universel de bonnes pratiques qualité Web en licence ouverte. Ce voyage de 15 ans ne s’est pas fait sans surprise et sans accident. J’essayerai de vous raconter comment j’ai perçu ce voyage personnel et professionnel, et j’essayerai de montrer à travers mon regard, la façon dont la qualité Web et l’accessibilité ont évolué au cours des 15 derniers années. Qui sait, cette réflexion nous aidera peut-être à entrevoir ce que pourrait devenir le développement Web au cours les prochaines années.</p>"
 
-# -------------------
-# Laure Nemée
-# -------------------
-- name: Laure Nemée
-  image: orateur-laure-nemee.jpg
-  bio: CTO @ Leetchi
+- id: 2
+  name: Agnès Crepet
+  image: orateur-crepet.jpg
+  bio: "<p>Agnès est une activiste. Une Java activiste tout d'abord, elle a été élue Java Champion en 2012. Après plusieurs années dans l’industrie logicielle (éditeur, SS2I, DSI), elle a co-fondé la société Ninja Squad avec d'autres développeurs passionnés.</p>
+        <p>Parce qu'elle aime apprendre et partager, elle est très active dans la communauté. Elle a été pendant 5 ans co-leader du lyon Java User Group, elle est aujourd’hui co-leader de Duchess France, un réseau qui travaille sur la visibilité des femmes techniques dans l'IT. Elle a co-fondé en 2011 la conférence Mix-IT qu'elle organise depuis 7 ans sur Lyon.</p>
+        <p>Elle intervient également à l’Ecole des Mines de Saint-Etienne sur des cours de programmation web et sur les pédagogies agiles.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/agnes_crepet
+  talks:
+    - title: "Codeurs du Monde"
+      type: 9:00 - Amphi A
+      description: "<p>Agnès et Cyril ont eu la chance de voyager à travers le monde, notamment à la rencontre des communautés de développeurs. Leur joies, leurs peines, leurs difficultés comme leurs facilités, sont parfois très différentes des nôtres. Nous découvrirons ainsi ce que peut être la vie d’un-e développeur-euse loin de la France.</p>
+                    <p>De retour chez nous, il s’agira aussi de comprendre la vie de développeurs mûrissant, qui ont choisi le métier qu’ils aiment plutôt que celui qu’on leur suggère, qui ont créé leur propre cadre de travail, ne veulent pas lâcher les meetups ni les engagements associatifs, tout en préservant la vie de famille. Ne rigole pas, jeune étudiant-e, voilà ce qui t’attend ! Et malgré cette difficile conciliation, c’est pourtant une vie pleine de possibles.</p>"
+
+- id: 3
+  name: Cyril Lacote
+  image: orateur-lacote.jpeg
+  bio: "<p>Cyril a d'abord fait 10 ans de prestations en SSII, comme développeur Java et formateur.</p>
+        <p>Puis il fit un passage furtif chez Google à Londres, où il resta juste le temps de réaliser la valeur qu'on pouvait accorder aux développeurs expérimentés, bien loin de l’image que lui renvoyait l’IT français. Avec Agnès et deux autres développeurs brillants qui ont bien voulu les rejoindre, il a ensuite eu la chance d’inventer la société coopérative où il avait finalement envie de travailler : Ninja Squad. Il y est maintenant développeur (tendance old-school, voire has-been depuis qu’il est papa), community manager (il sait tweeter avec des emojis et rédiger des mails polis), et CEO, bitch (il a le droit de signer des papiers, plein). Il est également impliqué dans l’organisation de la conférence Mix-IT.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/clacote
+  talks:
+    - title: "Codeurs du Monde"
+      type: 9:00 - Amphi A
+      description: "<p>Agnès et Cyril ont eu la chance de voyager à travers le monde, notamment à la rencontre des communautés de développeurs. Leur joies, leurs peines, leurs difficultés comme leurs facilités, sont parfois très différentes des nôtres. Nous découvrirons ainsi ce que peut être la vie d’un-e développeur-euse loin de la France.</p>
+                    <p>De retour chez nous, il s’agira aussi de comprendre la vie de développeurs mûrissant, qui ont choisi le métier qu’ils aiment plutôt que celui qu’on leur suggère, qui ont créé leur propre cadre de travail, ne veulent pas lâcher les meetups ni les engagements associatifs, tout en préservant la vie de famille. Ne rigole pas, jeune étudiant-e, voilà ce qui t’attend ! Et malgré cette difficile conciliation, c’est pourtant une vie pleine de possibles.</p>"
+
+- id: 4
+  name: Emmanuel Demey
+  image:
+  bio: "<p>Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l’Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c’est normal…), le Jazz et la Domotique.</p>
+        <p>Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, …</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/EmmanuelDemey
+  talks:
+    - title: "Angular2 et les standards du web"
+      type: 10:00 - Amphi A
+      description: "<p>Nous avions l’habitude des projets open-source qui réinventait la roue à chaque fois : une gestion de l’internationalisation maison, un système de détection de la fin d’une tâche asynchrone via des $apply et des $digest, …</p>
+                    <p>L’équipe en charge du développement d’angular2 a réfléchi longuement, avant de refaire la même erreur. En effet, lorsque vous allez développer votre prochaine (ou première) application Angular2, vous allez utiliser, sans le -savoir, les standards actuels et futurs du monde Web.</p>
+                    <p>Dans ce talk, je vais vous présenter une partie de ces standards (actuels ou futurs) utilisés lors d’un développement Angular2 : les Web Components, l’objet Intl pour l’internationalisation, les Décorators, les Zones, …</p>"
+
+- id: 5
+  name: Nicolas Helleringer
+  image: orateur-helleringer.png
+  bio: "<p>Arrivé chez Criteo en 2013, Nicolas est aujourd'hui directeur du département SRE (Site Reliability Engineering).</p>
+        <p>Cette équipe de 70 personnes est en charge du design, de l'installation, de l'industrialisation et de la maintenance de la plateforme de production de Criteo.</p>
+        <p>Opérations, Automatisation, Big Data, NoSQL, Usines logicielles sont, entre autres, au programme sur 17 000 serveurs dans le monde.</p>
+        <p>De 2000 à 2007, il a participé à la construction de la plateforme mappy.com en tant qu'architecte réseau et base de données. Il est également le co-concepteur du géocodeur de mappy.com et de la recherche en logique floue de celui-ci.</p>
+        <p>Au cours de ses missions de conseil chez NovaCodex de 2008 et 2013, il est intervenu sur les fonctionnalités géographiques de Lucene puis d'Hibernate Search.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/nhelleringer
+  talks:
+    - title: "SRE @ Criteo, Why What Who How ?"
+      type: 10:00 - Amphi B
+      description: "<p>Dans les entreprises du web à grand échelle, on ne parle plus de PROD mais de Site Reliability Engineering.</p>
+                    <p>Pourquoi un tel changement, que se cache-t-il derrière cette terminologie, qui sont les acteurs de cette mutation et comment embrasser le mouvement ?</p>
+                    <p>Point sur l'état de l'art et retour d'expérience sur cette mutation dans le contexte Criteo.</p>"
+
+- id: 6
+  name: Frédéric Leguédois
+  image: orateur-leguedois.png
+  bio: "<p>Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/f_leguedois
+  talks:
+    - title: "Qui a volé l'orange ?"
+      type: 10:00 - Amphi C
+      description: "<p>De la culpabilisation dans la gestion de projet. La culture dominante de gestion de projet s’appuie notamment sur des engagements pris, de la contractualisation, les contrôles qui aboutissent souvent à la recherche d’un fautif en cas de problème. Ce modèle est-il le seul ? Est-il le plus efficient ? A l’issue de cette présentation vous aurez une grille de lecture très simple de mise en œuvre mais très puissante afin d’améliorer le fonctionnement de votre organisation.</p>"
+
+- id: 7
+  name: Arnaud Kervern
+  image:
+  bio: "<p>Développeur actif et gameur avide, Arnaud Kervern a aidé à développer l’aspect mobile de Nuxeo. Il a également travaillé sur le SDK iOS. Il développe également des applications mobiles sur son temps libre. Sa tache consiste désormais à faire connaitre Nuxeo et animer la communauté de développeurs.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/nuxeo
+  talks:
+    - title: "Construire une API flexible, composable et extensible"
+      type: 10:00 - Amphi D
+      description: "<p>Le design d’une bonne API n’est pas tâche facile, laquelle devient de plus en plus difficile lorsque l’on parle d’API HTTP. En effet, la qualité du réseau et à sa granularité ajoutent de nombreuses problématiques.</p>
+                    <p>Cette présentation résume les difficultés auxquelles nous nous sommes confrontées et que nous avons du résoudre dans le but de proposer une API HTTP pour notre plateforme open source de gestion de contenus.</p>
+                    <p>Dans cette présenation, nous expliquerons le design et les techniques utilisées afin d’exposer notre API core en tant que service REST, tout en conservant son extensibilité et en laissant aux clients la granularité des appels et de leurs réponses.</p>"
+
+- id: 8
+  name: Gautier Mechling
+  image:
+  bio: "<p>Gautier est développeur Android et aspirant Craftsman. Intéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité. Parlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/Nilhcem
+  talks:
+    - title: "Lao-Tseu, Software Craftsman"
+      type: 11:00 - Amphi A
+      description: "<p>S’il avait vécu à notre époque, Lao-Tseu serait un pur développeur, un vrai de vrai.</p>
+                    <p>Le genre de mec smart, qui connaît les bons principes de la programmation et réfléchit avant d’agir. Celui que les entreprises cherchent tant à recruter, et qui, OKLM, transmet ses conseils à tous.</p>
+                    <p>Tiens d’ailleurs, tu savais que dans son bouquin : “le livre de la voie et de la vertu”, il parlait du partage de connaissance, des architectures, du testing, des cérémoniaux SCRUM, de backlog, de SOLID, de la programmation réactive fonctionnelle etc. Hein ? Tu savais pas ? Que c’était quoi ? Un truc de hippies ? Mais non, mon petit lapin ! Pas du tout ! Allez viens, assis-toi, on va lire des extraits parmi 25 chapitres de son livre, et faire l’analogie avec le développement logiciel.</p>"
+
+- id: 9
+  name: Christian Wolf
+  image: orateur-wolf.jpg
+  bio: "<p></p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/chriswolfvision
+  talks:
+    - title: "Deep Learning et Intelligence Artificielle&nbsp;: mythes et réalités"
+      type: 11:00 - Amphi B
+      description: "<p>L’apprentissage profond de représentations (le Deep Learning) est une famille de méthodes du domaine « intelligence artificielle » permettant d’apprendre de connaissances à partir de masses de données (textes, images, vidéos etc.). Plus précisément, ces modèles permettent de faire des prédictions sur des nouvelles données. Cette intervention passera en revue l’historique de cette thématique, les principaux acteurs et les enjeux majeurs. Les techniques clé sont brièvement esquissées, suivi par quelques résultats sur des applications diverses telles que la reconnaissance d’objets, les interfaces homme-machine et les applications mobiles.</p>"
+
+- id: 10
+  name: Bruno Bonnin
+  image:
+  bio: "<p>Architecte et développeur sur toutes les couches des applications (du front- au back-end) avec une prédilection pour les technologies JavaScript, NoSQL (MongoDB, Elasticsearch, ArangoDB). Développe depuis l’époque du ZX Spectrum et pense toujours que c’est la meilleure machine de tous les temps !</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/_bruno_b_
+  talks:
+    - title: "Vue, j'avais pas vu !"
+      type: 11:00 - Amphi C
+      description: "<p>Vue.js, on pourrait presque passer à côté sans la remarquer tellement cette librairie est discrète. Ce serait dommage ! Alors, partons à la découverte de cette librairie JavaScript pour le développement web, simple, légère et qui offre une excellente alternative à Angular ou React, pour ceux qui souhaitent ne pas investir trop de temps dans l’apprentissage d’un nouveau framework.</p>"
+
+- id: 11
+  name: Olivier Nourry
+  image: orateur-nourry.jpg
+  bio: "<p>Web & Mobile accessibility consultant and trainer. Has a weird passion for digital accessibility, and loves talking about it, in French or in English.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/oliviernourry
+  talks:
+    - title: "Concevoir une expérience Web mobile plus accessible"
+      type: 11:00 - Amphi D
+      description: "<p>Tu as bien bossé: ton site s’affiche parfaitement bien sur tous les appareils mobiles, de toutes tailles, tous OS et toutes couleurs de coque. Et tu te dis que, ça y est, tu as fini, tu peux enfin manger ta pizza froide.</p>
+                    <p>Mais une petite voix te souffle à l’oreille: “est-ce que tu as pensé à tous les utilisateurs?”. Cette petite voix, c’est ta conscience. À moins que ce soit quelqu’un comme moi, qui vient te ramener à la dure réalité: il y a des tas de gens qui n’utilisent pas leur mobile comme toi, moi, et tous ceux qui se contentent bêtement de regarder leur écran avec leurs yeux, et de swiper avec leurs doigts.</p>
+                    <p>Que l’on utilise un lecteur d’écran, des caractères agrandis, un switch, ou un clavier, une expérience Web mobile n’est satisfaisante que si le designer a anticipé ces situations, et a appliqué quelques règles simples. Cette présentation introduit le sujet de l’accessibilité mobile, présente les principales bonnes pratiques, pointe de précieuses ressources, et, si vous êtes sages, vous apprendra même les rudiments du test d’accessibilité sur mobile.</p>"
+
+- id: 12
+  name: Audrey Neveu
+  image: orateur-neveu.jpeg
+  bio: "<p>Audrey est devangelist chez Streamdata.io, spécialisée sur les problématiques API et Big Data. Passionnée par son métier, Audrey a toujours été fortement engagée dans la communauté Java au travers de plusieurs JUGs et conférences (Duchess France, Paris JUG, Devoxx France, Devoxx UK) mais aussi au sein d’initiatives visant à faire découvrir la programmation aux plus jeunes (Programatoo, Devoxx4Kids).</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/Audrey_Neveu
+  talks:
+    - title: "L'ISS en temps réel sur mon mobile en 15 mn ? Pari tenu !"
+      type: 12:00 - Amphi A
+      description: "<p>Dans ce talk nous verrons comment en quinze minutes et en utilisant deux outils d’une simplicité redoutable, nous allons pouvoir réaliser une application mobile affichant la position de l’ISS sur une carte, en temps réel. D’un côté, Streamdata.io et son SDK qui en moins de dix lignes de code est capable de streamer n’importe quelle API et nous donnera la position de l’ISS comme si nous étions à bord. De l’autre, Ionic, un framework mobile hybride aussi efficace que puissant pour l’afficher et le déployer sur toutes les plateformes en moins de temps qu’il n’en faut pour le dire. Alors, on parie ?</p>"
+
+- id: 13
+  name: Nicolas Hoffmann
+  image:
+  bio: "<p>Nicolas est un soldat monté pacifiquement au front (-end) depuis plus de 10 ans en web agency en Suisse.</p>
+        <p>Il dompte avec pragmatisme la créativité de ses graphistes par le truchement des CSS avec un niveau d’exigence qualitatif proche de l’horlogerie suisse, mais sans faire coucou.</p>
+        <p>Directeur du collectif OpenWeb, auteur du micro-framework CSS Röcssti, de plugins accessibles avec de l’ARIA dedans et de plus d’une cinquantaine d’articles sur la conception de CSS, Google Analytics, la qualité Web, etc., il est parfois délicatement surnommé « le Suisse-Allemand de la qualité Web » parce qu’il aurait eu un bon score à la certification Opquast.</p>
+        <p>Le pire, c’est qu’il prend ce surnom comme un compliment.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/Nico3333fr
+  talks:
+    - title: "Content Security Policy, votre futur meilleur ami"
+      type: 12:00 - Amphi B
+      description: "<p>Content Security Policy (CSP) est un standard du W3c qui gagne à être connu et déployé : il vous permet de dire au navigateur, via un simple en-tête HTTP, ce qu’il est autorisé à exécuter sur votre front-end… ou pas. En créant des directives appropriées, vous pouvez protéger vos utilisateurs - et pas qu’eux - de bon nombre de désagréments. Sans le savoir, vous surfez déjà sur des sites qui utilisent efficacement CSP : vous devez sûrement connaitre de « petits » sites comme… Twitter, Facebook, Github, etc. ? Ils utilisent tous CSP.</p>
+                    <p>Clairement estampillé sécurité, CSP a été créé à l’origine pour lutter contre les failles XSS, dites de « Cross-Site-Scripting ». Il se révèle aussi (et surtout) un fantastique outil d’amélioration continue de votre front : monitoring, propreté du code, etc.</p>
+                    <p>Certains le surnomment même « le couteau suisse du front-end » : on murmure même qu’il pourrait être un atout pour migrer un site vers HTTPS…</p>"
+    - title: "Guide de survie de l'internationalisation des sites"
+      type: 14:30 - Amphi D
+      description: "<p>L’internationalisation des sites est un domaine fascinant où l’on apprend pléthore de choses dans pleins de domaines : différences culturelles, alphabets surprenants, beautés typographiques… un vrai moment d’exotisme culturel, qui apporte des challenges plutôt intéressants, comme par exemple adapter un site dans des langues qui se lisent de droite à gauche.</p>
+                    <p>C’est aussi un domaine où - même avec la meilleure volonté du monde - l’on peut facilement se retrouver bloqué pour des choses apparemment « simples »… qui le deviennent beaucoup moins, car sur certains points, vous ne pouvez PAS improviser. Vous ne parlez pas japonais ? Rassurez-vous, moi non plus. Et pourtant, je dois faire avec. Il m’arrive de devoir faire avec d’autres langues, comme le chinois, le russe, le serbe, le néerlandais ou l’arabe.</p>
+                    <p>Et là, l’exotisme se transforme parfois en galère. En prime, il existe une quantité astronomique de petites peaux de bananes sur lesquelles il est très facile de se casser les dents. Je le sais, chacune des choses dont je vous parlerai… je l’ai vécue au moins une fois. Et les soucis ne s’arrêtent pas aux seules traductions. Même le français peut être une galère dans certains cas.</p>
+                    <p>Bref, à l’instar de l’intégration, c’est un domaine où l’on apprend principalement… de ses erreurs.</p>
+                    <p>Mon objectif : à la fin de cette présentation, vous épargner les difficultés du débutant en internationalisation et vous permettre de démarrer ce genre de projet sous les meilleures auspices, et que cela redevienne une belle destination exotique, garantie sans piqûres de moustiques ! ;)</p>"
+
+- id: 14
+  name: Christophe Hermann
+  image:
+  bio: "<p>J’ai commencé à réaliser mes premières maquettes graphique et à écrire mes premières lignes de HTML, CSS en 2005, lorsqu’avec un groupe d’amis, nous avions créer une équipe d’eSport. J’y prenais tellement de plaisir que j’ai décidé de poursuivre dans cette voie et en faire mon métier. J’ai donc suivi une formation d’infographie en alternance dans une agence Web en Alsace, durant une année à partir de 2009. Suite à cette formation, j’ai rejoins une société du secteur de la santé et du bien-être, où j’étais en charge de toute la partie front-end (design et intégration) des sites et des applications du groupe. Fin 2013, j’ai été recruté par Nvision, une agence située au Luxembourg, en qualité de développeur front-end. Depuis, j’ai évolué au sein de la société et je suis aujourd’hui responsable de la partie « front-end », où j’assure la coordination entre le design et l’intégration. J’interviens également sur les problématiques d’expériences utilisateurs et d’ergonomie.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/chrishrmnn
+  talks:
+    - title: "Un petit pas pour le développeur, un grand pas pour la qualité"
+      type: 12:00 - Amphi C
+      description: "<p>Aujourd’hui, on en demande toujours plus aux développeurs, le tout dans des délais de plus en plus court. Comment maintenir, voire améliorer la qualité de ce qu’on produit dans ces conditions ? Les conventions et les checklist sont une piste pour y répondre.</p>"
+
+- id: 15
+  name: Vincent Agnano
+  image:
+  bio: "<p>Développeur Web, salarié, je travaille dans le cadre d’une société coopérative, Scopyleft. Depuis plus de 2 ans je voyage et vis comme “digital nomad”, sans logement fixe.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/vinyll
+  talks:
+    - title: "Digital nomad : Développeur sans domicile fixe"
+      type: 12:00 - Amphi D
+      description: "<p>Certains d’entre nous on encore un travail du lundi au vendredi, de 9h à 18h. Quelques un exercent depuis le bureau, la maison voire d’un espace de coworking. Faisons quelques pas en plus dans le monde du travail à distance et challengons l’idée d’une vie dématérialisée. Au travers du “Digital nomadism” Nous allons effacer cette frontière entre le travail, la vie quotidienne et les voyages.</p>"
+
+- id: 16
+  name: Horacio Gonzalez
+  image:
+  bio: "<p>Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d’années déjà. Passionné d’informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n’a pas arrêté de bosser autour.</p>
+        <p>Après quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley.</p>
+        <p>Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/LostInBrittany
+  talks:
+    - title: "Polymer dans la vraie vie"
+      type: 14:30 - Amphi A
+      description: "<p>Ça fait deux ans que je fais des talks de Polymer à droite et à gauche, et une des questions qu’on m’a le plus posé c’est “mais, ça marche dans la vraie vie ?”</p>
+                    <p>Je répondais toujours oui, je donnais des exemples, mais j’avais toujours la frustration de ne pas pouvoir le monter car les applications que je fais étaient réservées à nous clients.</p>
+                    <p>Mais depuis janvier dernière notre plateforme time-series Warp 10 est open source, et je peux enfin parler de ce que je fais depuis deux ans: coder des applications web complètement basés sur des composants web Polymer, des applications fonctionnelles, utilisées dans tous les navigateurs y que se combinent avec d’autres technologies. Bref, du Polymer dans la vraie vie.</p>"
+
+- id: 17
+  name: Jean-Philippe Briend
+  image:
+  bio: "<p>Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu. Mais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ? Si vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants. Je vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/jpbriend
+  talks:
+    - title: "[Jenkins] Continuous Delivery Pipeline : ce n'est pas toujours un long fleuve tranquille"
+      type: 14:30 - Amphi B
+      description: "<p>Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d’Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles. Il est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise.</p>"
+
+- id: 18
+  name: Delphine Malassingne
+  image: orateur-malassingne.jpg
+  bio: "<p>Delphine Malassingne est Responsable qualité chez Ekino. Elle y accompagne les équipes dans la production de livrables de qualité mais aussi dans la façon de produire. Son enthousiasme pour le partage de connaissance l’ont amené en parallèle à participer à des projets communautaires (w3qualité, Opquast Checklists, Paris Web, notamment). Elle essaye en parallèle “d’avoir une vie” en dessinant un peu, en calligraphiant et a même réussi à aligner trois points de couture !</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/nissone
+  talks:
+    - title: "Conduire un Retour d’Expérience projet"
+      type: 14:30 - Amphi C
+      description: "<p>Le Retour d’Expérience Projet permet de faire le point à la fin d’une étape. Il permet d’identifier ce qui à poser problème, dans quel contexte, pourquoi, etc. et sert aussi à identifier ce qui a bien marché et comment le reproduire. Récolter ces éléments, les comprendre, garder de la distance malgré tout, voir comment le réutiliser dans un nouveau contexte, tout en étant sûr de ne pas rater des éléments que l’équipe ne remonterait pas est aussi intéressant que complexe. Transverse à tous les projets chez ekino, j’ai mis en place une organisation de REx qui permet de faire parler chacun et de traiter tous les sujets. Tout n’est pas toujours facile à gérer et j’ai pu voir aussi les faiblesses de ma méthode et comment chercher à y remédier. Je me propose de vous partager tout ça.</p>"
+
+- id: 19
+  name: Arnaud Lemaire
+  image:
+  bio: "<p>J’ai été tour à tour (et pas dans le bon ordre) : CTO d’une startup, directeur de la production chez un éditeur logiciel, architecte logiciel, consultant et développeur.</p>
+        <p>Après avoir travaillé pour des Startups, des PME, des grands groupes et le secteur public, je suis maintenant membre d’un bureau d’étude pour aider des clients de toute taille à réussir leurs projets logiciels depuis la conception jusqu’au déploiement en production.</p>
+        <p>Au quotidien je pratique le JS, PHP, le Python, Java, Ruby et tout les outils qui me permettent de répondre au mieux à la problématique métier du moment.</p>
+        <p>C’est ce mélange d’expérience que je souhaite partager et transmettre lors des conférences auxquelles je participe.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/lilobase
+  talks:
+    - title: "Les fausses bonnes idées croisées dans ma carrière"
+      type: 15:40 - Amphi A
+      description: "<p>On a tous déjà connu ce code qui parait résoudre parfaitement un problème donné, mais qui s’avère être la pire idée du monde quelques semaines ou mois plus tard.</p>
+                    <p>Depuis le début de ma carrière, je note avec attention toutes ces “fausses bonnes idées”, que j’ai croisé dans les projets sur lesquels j’ai travaillé (et y compris celles dont j’ai été l’auteur).</p>
+                    <p>C’est ce recueil que je me propose de parcourir en votre compagnie, à la fois sur des décisions qui ont fait échouer des projets, mais aussi sur des sujets plus légers et parfois amusants.</p>"
+
+- id: 20
+  name: Quentin Bisson
+  image: orateur-qbisson.jpg
+  bio: "<p></p>"
   links:
     - label: Site web
-      url: //www.leetchi.com/
-    - label: Twitter
-      url: //twitter.com/zazoun
+      url: http://www.proxiad.com/
   talks:
-    - title: Tout ce que vous ne savez pas avant d'être CTO
-      type: Amphi A - Keynote
-      description:
+    - title: "Devenir Natif avec React"
+      type: 15:40 - Amphi B
+      description: "<p>La mobilité : Et pourquoi pas React Native ?</p>"
 
-# -------------------
-# Grégory Le Garec
-# -------------------
-- name: Grégory Le Garec
-  image: orateur-le-garec.jpg
-  bio: <p>Beaucoup de SSII, pas mal de freelance, un peu de start-up. J'essaie de faire de la qualité dès que possible.</p>
+- id: 21
+  name: Julien Leicher
+  image: orateur-leicher.jpg
+  bio: "<p></p>"
   links:
     - label: Site web
-      url: //tiretdu8.fr/
-    - label: Twitter
-      url: //twitter.com/_tiretdu8
+      url: http://www.proxiad.com/
   talks:
-    - title: "Réac' JS : JavaScript réactionnaire sans <span lang='en'>framework</span>"
-      type: Amphi A - Web
-      description: <p>Retour d'expérience sur la conception d'une application en bon vieux JavaScript en snobant superbement toute la hype des <span lang='en'>frameworks</span> actuels.</p>
+    - title: "Devenir Natif avec React"
+      type: 15:40 - Amphi B
+      description: "<p>La mobilité : Et pourquoi pas React Native ?</p>"
+
+- id: 22
+  name: Olivier Leplus
+  image:
+  bio: "<p>My day to day my mission is to help developers create successful and quality apps. As a passionate web developer, I am always discovering and playing with new web technologies !</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/olivierleplus
+  talks:
+    - title: "Votre application web qui marche même sans réseau, c'est possible !"
+      type: 15:40 - Amphi C
+      description: "<p>De nouvelles API arrivent afin de permettre d’avoir une vrai expérience offline-first. - La cache API permet par exemple de stocker facilement des assets et d’afficher une application web même sans connexion. - L’API background sync permet d’enregistrer des actions que l’on pourra exécuter une fois qu’on aura une connexion stable. - IndexedDB permet de stocker des données dans une base de donnée locale.</p>
+                    <p>Je ferai une très brève introduction du service worker et évoquerai les PWA. Je présenterai ensuite ces 3 technologies avec une partie théorique et une partie live coding Live code en 3 étapes : - Mise en place de la cacheAPI pour pouvoir lancer une application même avec une mauvaise connexion; - Mise en place d’indexDB afin de sauvegarder les informations et les restituer lorsque l’utilisateur lance l’application sans connexion; - Mise en place de background sync avec indexDB dans le service worker afin de permettre à l’utilisateur de modifier les données hors ligne et rejouer les événements une fois la connexion revenue.</p>
+                    <p>Et quand tout marche ensemble, c’est sexy !</p>"
+
+- id: 23
+  name: Yoann Ono Dit Biot
+  image:
+  bio: "<p></p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/y0no
+  talks:
+    - title: "Dev vs Wild"
+      type: 15:40 - Amphi D
+      description: "<p>Chaque jour des développeurs risquent leurs vies et celles de leurs collègues pour vous fournir l'application qui révolutionnera votre façon de vivre. Ce métier trop souvent sous estimé pour sa dangerosité mérite néanmoins qu'on s'attarde sur cet aspect. Nous verrons dans ce talk les risques qui pèsent sur les épaules de ces chevaliers des temps modernes et leurs entreprises, puis le récit de «&nbsp;pain tester&nbsp;», un fidèle écuyers.</p>"
+
+- id: 24
+  name: Julien Baron
+  image:
+  bio: "<p>Jeune diplômé de l’INSA de Rouen, je suis passionné de technologie et de sciences mais je garde aussi du temps pour pratiquer une activité physique régulière et manger 5 fruits et légumes par jour.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/IlBar0ne
+  talks:
+    - title: ".Net Core, réconciliez-vous avec le dev sur des technos Microsoft !"
+      type: 16:40 - Amphi A
+      description: "<p>Alors .Net Core ça vaut le coup ? Nous allons voir au travers de l’histoire de .Net et des récents changements chez Microsoft la philosophie modulaire, cross-platform et Open Source de ce framework. Ensuite, les fonctionnalités proposées sont-elles à la hauteur des attentes d’un framework moderne ? Nous passerons en revue les outils externes et internes au framework qui vont permettre de simplifier le développement au travers de cas pratiques. Enfin, nous parlerons déploiement et performance afin de préciser pour quels types de projets utiliser ce framework.</p>"
+
+- id: 25
+  name: Fabrice Croiseaux
+  image: orateur-croiseaux.jpg
+  bio: "<p>Passionné de culture numérique, de développement et d’architecture, Fabrice est actuellement CEO de la société InTech (http://www.intech.lu). Il a débuté sa carrière en développant des serveurs d’applications Smalltalk avant de migrer sur Java dès 1998. Il contribue à l’évangélisation des technologies émergentes susceptibles de transformer les usages (blockchain, Machine Learning, IoT, …) Au travers de Nipdev, Fabrice cherche avec son complice Antoine (@antoined) à donner envie à chacun de découvrir la programmation. Fabrice est actuellement responsable du groupe de travail blockchain de la Fédération des Tiers de Confiance en France (http://www.fntc.org)</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/fXzo
+  talks:
+    - title: "Tout ce que vous ne savez (probablement) pas sur la blockchain"
+      type: 16:40 - Amphi B
+      description: "<p>Popularisée par le développement du bitcoin, la technologie blockchain fait aujourd’hui l’objet de toutes les attentions. Cette présentation décrit les principes de fonctionnement d’une blockchain ainsi que quelques cas d’utilisation concrets en listant les impacts sur certains secteurs d’activité.</p>"
+
+- id: 26
+  name: Bastien Jaillot
+  image:
+  bio: "<p>Bastien est un passionné qui s’est investi très tôt dans la promotion des logiciels libres et des formats ouverts. Au quotidien, il met ses compétences au service de projets diverses, principalement dans des contextes à fort trafic fortement évolutifs. Il a co-fondé la société JoliCode ciblant l’expertise Web et mobile, avec pour objectif d’apporter son soutien à des projets innovants.</p>
+        <p>Orateur aux cycles de conférences SudWeb, Paris Web, PHPTour, ForumPHP, Symfony Live, E1 ainsi qu’à divers Meetup, sur des sujets aussi bien techniques (Symfony2, Drupal, Framework vs CMS) que méthodologiques (Gestion de projet technique, retour d’expérience, dette technique).</p>
+        <p>Bastien Jaillot est également l’auteur du livre “La dette technique” aux éditions du train de 13h37.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/bastnic
+  talks:
+    - title: "Petit guide de survie dans la complexité d'un projet Web"
+      type: 16:40 - Amphi C
+      description: "<p>Qui n’a jamais participé ou entendu parler d’un projet complètement inmaintenable où il n’est plus possible d’ajouter quoi que ce soit sans avoir peur de tout casser ? Pourquoi votre équipe n’arrive-t-elle pas à implémenter une fonctionnalité qui paraît de l’extérieur toute simple ? Pourquoi votre équipe paraît-elle fatiguée et en a-t-elle marre de votre projet, alors que vous les payez cher pour qu’ils bossent dessus ?</p>
+                    <p>Cette conférence plongera dans la complexité d’un projet Web, complexité technique mais surtout humaine, où les échanges entre humains sont primordiaux et bien plus complexes que la qualité du code produit.</p>
+                    <p>Nous y parlerons de dette technique, d’humains, et surtout d’honnêteté.</p>
+                    <p>Public concerné : Toute personne touchant de près ou de loin à un projet Web. Toutes les personnes présentes donc..</p>"
+
+- id: 27
+  name: Simon Georges
+  image:
+  bio: "<p>Je suis expert Drupal (dans le monde Drupal depuis bientôt 10 ans), et depuis peu référenceur (certifié CESEO), et surtout j’aime participer à des conférences :-)</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/simongeorges
+  talks:
+    - title: "SEO : Indexation d'un site web, de la théorie à la pratique"
+      type: 16:40 - Amphi D
+      description: "<p>Les développeurs connaissent aujourd’hui pour la plupart les bases du référencement : les balises TITLE et META description, les fichiers robots.txt et sitemap.xml. Mais beaucoup ignorent l’utilisation réelle de ces fichiers par Google (par exemple, il est possible qu’il se fiche de votre sitemap.xml).</p>
+                    <p>Dans cette conférence, je vais donc vous présenter les processus de crawl et d’indexation suivis par Google, les différentes “classes” de page, le fonctionnement d’un crawler, les possibilités d’analyse qui vous sont offertes pour contrôler et ajuster le crawl du robot (on parlera de structure de site, de silos, …).</p>"

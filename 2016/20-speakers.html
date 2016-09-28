@@ -14,11 +14,11 @@ permalink: /2016/speakers
   <div class="cards">
     {% for speaker in site.data['2016'].speakers %}
 
-      <article class="card speaker" id="orateur-{{forloop.index}}">
+      <article class="card speaker" id="orateur-{{speaker.id}}">
         <div class="card-inner">
           {% if speaker.image %}
           <div class="card-image">
-            <img height="100" width="100" alt="{{speaker.name}}" src="/assets/img/{{speaker.image}}">
+            <img height="100" width="100" alt="{{speaker.name}}" src="/assets/img/2016-orateurs/{{speaker.image}}">
           </div>
           {% endif %}
           <div class="card-profile">
