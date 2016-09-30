@@ -270,7 +270,7 @@
 - id: 20
   name: Quentin Bisson
   image: orateur-qbisson.jpg
-  bio: "<p></p>"
+  bio: "<p>Passionné d'informatique et développeur depuis mon plus jeune âge, j'ai rejoint Proxiad Axe Seine il y a maintenant 2 ans. Constamment à l'écoute des nouvelles technologies, principalement Java et JavaScript, je parcours le web à la recherche de nouvelles idées pour me permettre de gagner en temps et en qualité de développement tout en m'épanouissant dans mon travail.</p>"
   links:
     - label: Site web
       url: http://www.proxiad.com/
@@ -282,7 +282,7 @@
 - id: 21
   name: Julien Leicher
   image: orateur-leicher.jpg
-  bio: "<p></p>"
+  bio: "<p>Élevé au grain Normand et agrémenté constamment aux nouvelles technologies, j'aime mettre mes compétences au service de projets innovants. Chez Proxiad Axe Seine depuis 3 ans, je tente toujours d'apporter un regard neuf sur les technologies mises en place et proposées à nos clients... En bref, limitons l’Access, priorité à MongoDB (l'argumentaire reste à peaufiner !). Passionné d'Open Source et de toutes les technologies à la mode, j'aime expérimenter et partager mes découvertes avec le reste du monde.</p>"
   links:
     - label: Site web
       url: http://www.proxiad.com/
