@@ -277,7 +277,10 @@
   talks:
     - title: "Devenir Natif avec React"
       type: 15:40 - Amphi B
-      description: "<p>La mobilité : Et pourquoi pas React Native ?</p>"
+      description: "<p>La mobilité : Et pourquoi pas React Native ? Comment faire le bon choix au milieu de toutes les solutions actuelles, des contraintes
+       de nos clients et de l’évolution des concepts et technologies actuelles. React Native : une évidence ?</p>
+      <p>Le développement avec React Native : explication du processus de développement avec React Native</p>
+      <p>Alors, React Native : solution miracle ? Points positifs et axes d’amélioration</p>"
 
 - id: 21
   name: Julien Leicher
@@ -289,7 +292,10 @@
   talks:
     - title: "Devenir Natif avec React"
       type: 15:40 - Amphi B
-      description: "<p>La mobilité : Et pourquoi pas React Native ?</p>"
+      description: "<p>La mobilité : Et pourquoi pas React Native ? Comment faire le bon choix au milieu de toutes les solutions actuelles, des contraintes
+       de nos clients et de l’évolution des concepts et technologies actuelles. React Native : une évidence ?</p>
+      <p>Le développement avec React Native : explication du processus de développement avec React Native</p>
+      <p>Alors, React Native : solution miracle ? Points positifs et axes d’amélioration</p>"
 
 - id: 22
   name: Olivier Leplus
