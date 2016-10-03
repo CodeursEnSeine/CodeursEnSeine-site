@@ -277,10 +277,7 @@
   talks:
     - title: "Devenir Natif avec React"
       type: 15:40 - Amphi B
-      description: "<p>La mobilité : Et pourquoi pas React Native ? Comment faire le bon choix au milieu de toutes les solutions actuelles, des contraintes
-       de nos clients et de l’évolution des concepts et technologies actuelles. React Native : une évidence ?</p>
-      <p>Le développement avec React Native : explication du processus de développement avec React Native</p>
-      <p>Alors, React Native : solution miracle ? Points positifs et axes d’amélioration</p>"
+      description: "<p>Assez de développer une application par plateforme et de dupliquer du code métier ? Assez de concevoir des applications hybrides lentes et mal intégrées à leur environnement ? Venez découvrir REACT NATIVE, un framework de développement mobile cross-platform accessible à tous et hype en notre compagnie ! Au programme : React, Redux et ES2015.n</p>"
 
 - id: 21
   name: Julien Leicher
@@ -292,10 +289,7 @@
   talks:
     - title: "Devenir Natif avec React"
       type: 15:40 - Amphi B
-      description: "<p>La mobilité : Et pourquoi pas React Native ? Comment faire le bon choix au milieu de toutes les solutions actuelles, des contraintes
-       de nos clients et de l’évolution des concepts et technologies actuelles. React Native : une évidence ?</p>
-      <p>Le développement avec React Native : explication du processus de développement avec React Native</p>
-      <p>Alors, React Native : solution miracle ? Points positifs et axes d’amélioration</p>"
+      description: "<p>Assez de développer une application par plateforme et de dupliquer du code métier ? Assez de concevoir des applications hybrides lentes et mal intégrées à leur environnement ? Venez découvrir REACT NATIVE, un framework de développement mobile cross-platform accessible à tous et hype en notre compagnie ! Au programme : React, Redux et ES2015.n</p>"
 
 - id: 22
   name: Olivier Leplus
