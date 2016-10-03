@@ -313,8 +313,8 @@
 
 - id: 23
   name: Yoann Ono Dit Biot
-  image:
-  bio: "<p></p>"
+  image: orateur-onoditbiot.jpg
+  bio: "<p>Yoann est consultant en sécurité informatique et co-fondateur de la société SYNHACK. Il a commencé à bidouiller et développer dès son plus jeune age avant de se tourné vers le hacking et la sécurité informatique. Il tentera sûrement de vous convaincre de développer en Python...</p>"
   links:
     - label: Twitter
       url: https://twitter.com/y0no
