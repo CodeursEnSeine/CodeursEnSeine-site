@@ -360,8 +360,8 @@
 
 - id: 27
   name: Simon Georges
-  image:
-  bio: "<p>Je suis expert Drupal (dans le monde Drupal depuis bientôt 10 ans), et depuis peu référenceur (certifié CESEO), et surtout j’aime participer à des conférences :-)</p>"
+  image: orateur-georges.jpg
+  bio: "<p>Simon est un expert Drupal (dans le monde Drupal depuis bientôt 10 ans), qui s'intéresse au référencement, pour comprendre et agir sur l'ensemble de la production d'un site web, si possible avec uniquement des logiciels libres.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/simongeorges
