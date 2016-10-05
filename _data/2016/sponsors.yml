@@ -146,6 +146,15 @@
 # -------------------
 
 # -------------------
+# Arcange
+# -------------------
+- name: Arcange
+  type: argent
+  logo: logo-small-arcange.png
+  link: https://agencearcange.fr/
+  description: "<p></p>"
+
+# -------------------
 # Otso
 # -------------------
 - name: Otso
