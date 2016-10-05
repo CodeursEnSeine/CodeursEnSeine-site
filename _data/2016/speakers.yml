@@ -100,7 +100,7 @@
 
 - id: 8
   name: Gautier Mechling
-  image:
+  image: orateur-mechling.jpg
   bio: "<p>Gautier est développeur Android et aspirant Craftsman. Intéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité. Parlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller.</p>"
   links:
     - label: Twitter
