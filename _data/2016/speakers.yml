@@ -188,7 +188,7 @@
 
 - id: 14
   name: Christophe Hermann
-  image:
+  image: orateur-hermann.jpg
   bio: "<p>J’ai commencé à réaliser mes premières maquettes graphique et à écrire mes premières lignes de HTML, CSS en 2005, lorsqu’avec un groupe d’amis, nous avions créer une équipe d’eSport. J’y prenais tellement de plaisir que j’ai décidé de poursuivre dans cette voie et en faire mon métier. J’ai donc suivi une formation d’infographie en alternance dans une agence Web en Alsace, durant une année à partir de 2009. Suite à cette formation, j’ai rejoins une société du secteur de la santé et du bien-être, où j’étais en charge de toute la partie front-end (design et intégration) des sites et des applications du groupe. Fin 2013, j’ai été recruté par Nvision, une agence située au Luxembourg, en qualité de développeur front-end. Depuis, j’ai évolué au sein de la société et je suis aujourd’hui responsable de la partie « front-end », où j’assure la coordination entre le design et l’intégration. J’interviens également sur les problématiques d’expériences utilisateurs et d’ergonomie.</p>"
   links:
     - label: Twitter
