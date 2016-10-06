@@ -228,15 +228,15 @@
 
 - id: 17
   name: Jean-Philippe Briend
-  image:
-  bio: "<p>Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu. Mais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ? Si vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants. Je vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.</p>"
+  image: orateur-briend.png
+  bio: "<p>Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d’Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles. Il est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/jpbriend
   talks:
     - title: "[Jenkins] Continuous Delivery Pipeline : ce n'est pas toujours un long fleuve tranquille"
       type: 14:30 - Amphi B
-      description: "<p>Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d’Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles. Il est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise.</p>"
+      description: "<p>Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu. Mais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ? Si vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants. Je vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.</p>"
 
 - id: 18
   name: Delphine Malassingne
