@@ -319,7 +319,7 @@
 
 - id: 24
   name: Julien Baron
-  image:
+  image: orateur-baron.jpg
   bio: "<p>Jeune diplômé de l’INSA de Rouen, je suis passionné de technologie et de sciences mais je garde aussi du temps pour pratiquer une activité physique régulière et manger 5 fruits et légumes par jour.</p>"
   links:
     - label: Twitter
