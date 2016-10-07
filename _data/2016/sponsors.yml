@@ -234,6 +234,22 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
   <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
 
 # -------------------
+# Spread
+# -------------------
+- name: SYNHACK
+  type: bronze
+  logo: logo-small-synhack.png
+  link: https://www.synhack.fr
+  description: "<p>SYNHACK est un cabinet de consultants indépendants en sécurité informatique.</p>
+  <p>Notre mission : Protéger, Sensibiliser, Accompagner.</p>
+  <ul>
+  <li>Protéger : Connaître les failles de l’entreprise et valider les dispositifs de défense.</li>
+  <li>Sensibiliser : Améliorer la réactivité de l’entreprise en sensibilisant et formant les salariés.</li>
+  <li>Accompagner : Concevoir et piloter la stratégie de défense de l’entreprise.</li>
+  </ul>
+  <p>Véritable acteur de votre transformation numérique SYNHACK vous accompagne au quotidien sur vos problématiques de sécurité.</p>"
+
+# -------------------
 # Wixiweb
 # -------------------
 - name: Wixiweb
