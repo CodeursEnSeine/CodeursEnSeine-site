@@ -6,7 +6,7 @@
   <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-  <link href="/assets/css/{{page.group}}/style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/2016/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
   <header class="header-main">
@@ -27,11 +27,6 @@
             Navigation
           </a>
         </div>
-        <div class="header-action">
-          <a href="/2016/inscription" class="button light small block">
-            Inscription
-          </a>
-        </div>
         <nav class="nav-main">
           <ul>
             {% capture page_modified %}{{ page.url }}{% endcapture %}
@@ -48,7 +43,10 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-            <li><a href="{{ BASE_PATH }}/meetups">Meetups</a></li>
+            <li><a href="{{ BASE_PATH }}/2016/">Conférence 2016</a></li>
+            <li><a href="{{ BASE_PATH }}/2015/">2015</a></li>
+            <li><a href="{{ BASE_PATH }}/2014/">2014</a></li>
+            <li><a href="{{ BASE_PATH }}/2013/">2013</a></li>
           </ul>
         </nav>
       </div>
@@ -62,7 +60,7 @@
   <section class="footer-sponsors">
     <div class="wrapper">
       <h2 class="text-center">Sponsors</h2>
-      {% for sponsor in site.data['2016'].sponsors %}
+      {% for sponsor in site.data['2016'].sponsors_meetup_2016 %}
         <a href="{{sponsor.link}}" title="{{sponsor.name}}">
           <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
         </a>
@@ -107,6 +105,6 @@
     </ul>
   </nav>
 
-  <script src="/assets/js/{{page.group}}/scripts.js"></script>
+  <script src="/assets/js/2016/scripts.js"></script>
 </body>
 </html>
