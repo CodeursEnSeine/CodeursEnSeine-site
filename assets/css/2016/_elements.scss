@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  color: $noir-clair;
+  color: $color-dark;
   font-family: 'ubuntu', Verdana, Arial, Helvetica, sans-serif;
   font-size: $font-size-normal;
   line-height: 1.5;
@@ -78,7 +78,7 @@ h4 {
 // Links.
 
 a {
-  color: $bleu;
+  color: $color-primary;
 
   &:focus,
   &:hover {
@@ -95,17 +95,17 @@ a {
   display: inline-block;
   padding: .8em 1.5em;
   text-align: center;
-  background: $bleu;
-  border: $unpixel solid darken($bleu, 3%);
+  background: $color-primary;
+  border: $unpixel solid darken($color-primary, 3%);
   border-radius: $unpixel * 3;
-  color: $blanc;
+  color: #fff;
   text-decoration: none;
   transition: .2s;
 
   &:focus,
   &:hover {
-    background: darken($bleu, 5%);
-    border-color: darken($bleu, 8%);
+    background: darken($color-primary, 5%);
+    border-color: darken($color-primary, 8%);
   }
 
   // Block button
@@ -124,38 +124,38 @@ a {
   }
 
   &.ghost {
-    color: $bleu;
+    color: $color-primary;
     background: transparent;
-    border: $unpixel*2 solid $bleu;
+    border: $unpixel*2 solid $color-primary;
 
     &:focus,
     &:hover {
-      color: $blanc;
-      background: $bleu;
+      color: #fff;
+      background: $color-primary;
     }
   }
 
   // White button
   &.light {
-    color: $bleu;
-    background: $blanc;
+    color: $color-primary;
+    background: #fff;
     border-color: transparent;
 
     &:focus,
     &:hover {
-      background: darken($blanc, 5%);
+      background: darken(#fff, 5%);
     }
   }
 
   &.light-ghost {
-    color: $blanc;
+    color: #fff;
     background: transparent;
-    border: $unpixel*2 solid $blanc;
+    border: $unpixel*2 solid #fff;
 
     &:focus,
     &:hover {
-      color: $bleu;
-      background: $blanc;
+      color: $color-primary;
+      background: #fff;
     }
   }
 }
@@ -228,7 +228,7 @@ blockquote {
   margin-bottom: $marge;
   padding: $marge;
   background: $gris-clair-3;
-  border-left: 0.5rem solid $noir-clair;
+  border-left: 0.5rem solid $color-dark;
 }
 
 q,
@@ -268,7 +268,7 @@ kbd {
   display: inline-block;
   padding: 0 $marge/4;
   background: $gris-clair-3;
-  border: $unpixel solid $noir-clair;
+  border: $unpixel solid $color-dark;
   font-weight: $font-weight-bold;
 }
 

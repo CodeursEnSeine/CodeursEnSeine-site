@@ -25,7 +25,7 @@
   }
 
   a {
-    color: $blanc;
+    color: #fff;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -33,20 +33,20 @@
     padding: .6em 1em .8em 1em;
     font-size: .8rem;
     margin-right: $unpixel;
-    border-bottom: $unpixel*4 solid lighten($bleu, 30%);
+    border-bottom: $unpixel*4 solid lighten($color-primary, 30%);
     transition: .2s;
 
     &:hover,
     &:focus {
       padding: .8em 1em .6em 1em;
-      border-bottom-color: $blanc;
+      border-bottom-color: #fff;
     }
   }
 
   li.active a {
     padding: .8em 1em .6em 1em;
-    background: $blanc;
-    color: $bleu;
-    border-bottom-color: $blanc;
+    background: #fff;
+    color: $color-primary;
+    border-bottom-color: #fff;
   }
 }

@@ -8,7 +8,7 @@
   margin-top: $marge * 1.5;
   margin-bottom: $marge * 1.5;
 
-  border-left: $unpixel * 3 solid $bleu;
+  border-left: $unpixel * 3 solid $color-primary;
   padding: .3rem 0 .3rem $marge / 1.5;
 
   &__header {
@@ -19,7 +19,7 @@
     font-size: 2rem;
     line-height: 1;
     margin: 0 0 .5rem 0;
-    color: $bleu;
+    color: $color-primary;
   }
   &__date {
     font-size: 1.2rem;

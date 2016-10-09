@@ -19,7 +19,7 @@
 .footer-main {
   @include clearfix;
   padding: $marge*2 0;
-  background: $noir-clair;
+  background: $color-dark;
 
   p {
     margin: 0;
@@ -27,6 +27,6 @@
 
   &,
   a {
-    color: $blanc;
+    color: #fff;
   }
 }

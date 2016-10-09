@@ -22,7 +22,7 @@
   text-align: right;
   text-align: center;
   vertical-align: middle;
-  color: $noir;
+  color: #000;
   background: $gris-clair-2;
 }
 
@@ -35,7 +35,7 @@
   padding-top: $marge * 1.5;
   line-height: 1.2;
   vertical-align: middle;
-  background: $blanc-2;
+  background: #f1f1f1;
 }
 
 .agenda-cell-atelier-ext,
@@ -47,11 +47,11 @@
   position: relative;
   display: block;
   font-weight: $font-weight-bold;
-  color: $noir;
+  color: #000;
 }
 
 .agenda-title a {
-  color: $noir;
+  color: #000;
 }
 
 .agenda-table .agenda-speakers {

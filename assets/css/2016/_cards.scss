@@ -22,7 +22,7 @@
   width: 100%;
   border: $unpixel solid rgba(0, 0, 0, .1);
   box-shadow: 0 2px 2px rgba(0, 0, 0, .05);
-  background: $blanc;
+  background: #fff;
 }
 
 /* ------------------------- *\
@@ -50,7 +50,7 @@
     left: $marge / 2;
     width: 80px;
     height: 80px;
-    background: $blanc;
+    background: #fff;
     border: $unpixel solid rgba(0, 0, 0, .1);
   }
 
@@ -90,15 +90,15 @@
       margin-left: .4rem;
       margin-bottom: .4rem;
       border: $unpixel solid rgba(0, 0, 0, .1);
-      background: $bleu;
-      color: $blanc;
+      background: $color-primary;
+      color: #fff;
       border-radius: $unpixel*2;
       text-decoration: none;
       transition: .2s;
 
       &:hover,
       &:focus {
-        background: darken($bleu, 10%);
+        background: darken($color-primary, 10%);
       }
     }
   }
@@ -135,7 +135,7 @@
   font-size: .8rem;
   border-radius: $unpixel*2;
   color: $gris-fonce;
-  background: $blanc-2;
+  background: #f1f1f1;
 }
 .card-talk-description {
   font-size: .9rem;
