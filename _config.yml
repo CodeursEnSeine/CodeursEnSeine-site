@@ -4,7 +4,7 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",".editorconfig"]
 markdown : kramdown
 
-permalink: /meetups/:year-:month-:day/:title
+permalink: /meetups/:year-:month-:day/:slug
 
 title : Codeurs en Seine
 description: "Rencontre de codeurs à Rouen"
@@ -13,9 +13,9 @@ tagline :
   2014 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Innovation"
   2015 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Technologies"
   2016 : "Rencontre de codeurs à Rouen"
-  meetups : "Rencontre de codeurs à Rouen"
+  meetups : "Retrouvez des rencontres Codeurs en Seine tout au long de l'année !"
 date :
-  meetups : "Meetups - Retrouvez des rencontres Codeurs en Seine tout au long de l'année !"
+  meetups : "Meetups Codeurs en Seine"
   2013 : "Jeudi 17 octobre 2013"
   2014 : "Jeudi 27 novembre 2014"
   2015 : "Jeudi 26 novembre 2015"
