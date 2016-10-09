@@ -1,0 +1,64 @@
+---
+layout: default2016
+label: Meetups
+title: Meetups
+navigation: true
+group: 2016
+permalink: /2016/meetups
+---
+
+<h2>Les meetups Codeurs en Seine</h2>
+
+<p>
+  Retrouvez des rencontres Codeurs en Seine tout au long de l'année&nbsp;!
+</p>
+
+<div>
+  {% for post in site.categories.meetup %}
+  <a href="{{ post.url }}" class="meetup-overview">
+
+    <div class="meetup-overview__header">
+      <h4 class="meetup-overview__date">
+        Le
+
+        {% assign month = post.date | date: "%-m" %}
+        {{ post.date | date: "%d" }}
+        {% case month %}
+          {% when '1' %}Janvier
+          {% when '2' %}Février
+          {% when '3' %}Mars
+          {% when '4' %}Avril
+          {% when '5' %}Mai
+          {% when '6' %}Juin
+          {% when '7' %}Juillet
+          {% when '8' %}Août
+          {% when '9' %}Septembre
+          {% when '10' %}Octobre
+          {% when '11' %}Novembre
+          {% when '12' %}Décembre
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+
+        à
+
+        {{ post.date | date: "%Hh%M" }}
+      </h4>
+      <h3 class="meetup-overview__title">
+        {{ post.title }}
+      </h3>
+      <h5 class="meetup-overview__location">
+        {{ post.location }}
+      </h5>
+    </div>
+
+    <p class="meetup-overview__excerpt">
+      {{ post.excerpt | strip_html | truncate: 400 }}
+    </p>
+
+    <div class="meetup-overview__more button ghost xsmall">
+      Lire la suite...
+    </div>
+
+  </a>
+  {% endfor %}
+</div>

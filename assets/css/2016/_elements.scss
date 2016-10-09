@@ -90,6 +90,8 @@ a {
 
 .button {
   font-size: 1rem;
+  font-weight: normal;
+  vertical-align: middle;
   display: inline-block;
   padding: .8em 1.5em;
   text-align: center;
@@ -114,6 +116,11 @@ a {
   // Small button
   &.small {
     padding: .4em 1em;
+  }
+
+  // Extra Small button
+  &.xsmall {
+    padding: .2em .6em;
   }
 
   &.ghost {

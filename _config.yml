@@ -4,7 +4,7 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",".editorconfig"]
 markdown : kramdown
 
-permalink: /:group/:title
+permalink: /meetups/:year-:month-:day/:title
 
 title : Codeurs en Seine
 description: "Rencontre de codeurs à Rouen"
