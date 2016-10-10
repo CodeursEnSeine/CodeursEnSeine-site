@@ -28,26 +28,7 @@
           </a>
         </div>
         <nav class="nav-main">
-          <ul>
-            {% capture page_modified %}{{ page.url }}{% endcapture %}
-            {% for node in site.pages %}
-              {% if node.title != null %}
-                {% if node.navigation != false %}
-                  {% if page.group == node.group %}
-                    {% if page.url == node.url %}
-                      <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-                    {% else %}
-                      <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-                    {% endif %}
-                  {% endif %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <li><a href="{{ BASE_PATH }}/2016/">Conférence 2016</a></li>
-            <li><a href="{{ BASE_PATH }}/2015/">2015</a></li>
-            <li><a href="{{ BASE_PATH }}/2014/">2014</a></li>
-            <li><a href="{{ BASE_PATH }}/2013/">2013</a></li>
-          </ul>
+          {% include meetups/main-nav.html %}
         </nav>
       </div>
     </div>
@@ -88,26 +69,7 @@
         <i>&times;</i> <span>fermer</span>
       </a>
     </div>
-    <ul>
-      {% capture page_modified %}{{ page.url }}{% endcapture %}
-      {% for node in site.pages %}
-        {% if node.title != null %}
-          {% if node.navigation != false %}
-            {% if page.group == node.group %}
-              {% if page.url == node.url %}
-              <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-              {% else %}
-              <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-              {% endif %}
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      <li><a href="{{ BASE_PATH }}/2016/">Conférence 2016</a></li>
-      <li><a href="{{ BASE_PATH }}/2015/">2015</a></li>
-      <li><a href="{{ BASE_PATH }}/2014/">2014</a></li>
-      <li><a href="{{ BASE_PATH }}/2013/">2013</a></li>
-    </ul>
+    {% include meetups/main-nav.html %}
   </nav>
 
   <script src="/assets/js/2016/scripts.js"></script>
