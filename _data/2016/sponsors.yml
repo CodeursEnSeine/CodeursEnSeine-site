@@ -179,7 +179,6 @@
   <p>Mes prestations sont orientées vers la qualité web grâce à ma sensibilité pour l'ergonomie et le design d'interface. Et grâce à une veille constante sur les standards du web, l'ergonomie, le référencement, l'accessibilité et la performance.</p>
   <p>Mes nombreuses collaborations autour de projets culturels sur la toile sont le reflet d'un engagement pour la diffusion et l'appropriation, par chacun, de nos biens communs que sont les arts et les sciences.</p>"
 
-
 # -------------------
 # Bear Studio
 # -------------------
@@ -202,6 +201,17 @@
   <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
   <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
+
+# -------------------
+# Eyrolles
+# -------------------
+- name: Eyrolles
+  type: bronze
+  logo: logo-small-eyrolles.png
+  link: http://www.editions-eyrolles.com/Theme/8/nouvelles-technologies
+  description: "<p>Indépendant depuis sa création en 1925, à la fois éditeur, diffuseur et libraire, le groupe Eyrolles figure dans le top 20 de l’édition française. Notre ligne directrice consiste à proposer des contenus de référence à un public exigeant, désireux d’approfondir ses connaissances, à titre professionnel ou simplement pour cultiver ses passions. Notre ambition est d’offrir à nos lecteurs les meilleurs outils de compréhension et d’application. En nous appuyant sur l’excellence de nos auteurs. Nos ouvrages font référence auprès des professionnels de l’informatique et des étudiants.</p>"
+
 
 # -------------------
 # Invoke
