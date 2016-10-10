@@ -33,23 +33,7 @@
           </a>
         </div>
         <nav class="nav-main">
-          <ul>
-            {% capture page_modified %}{{ page.url }}{% endcapture %}
-            {% for node in site.pages %}
-              {% if node.title != null %}
-                {% if node.navigation != false %}
-                  {% if page.group == node.group %}
-                    {% if page.url == node.url %}
-                      <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-                    {% else %}
-                      <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-                    {% endif %}
-                  {% endif %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <li><a href="{{ BASE_PATH }}/meetups">Meetups</a></li>
-          </ul>
+          {% include 2016/main-nav.html %}
         </nav>
       </div>
     </div>
@@ -90,22 +74,7 @@
         <i>&times;</i> <span>fermer</span>
       </a>
     </div>
-    <ul>
-      {% capture page_modified %}{{ page.url }}{% endcapture %}
-      {% for node in site.pages %}
-        {% if node.title != null %}
-          {% if node.navigation != false %}
-            {% if page.group == node.group %}
-              {% if page.url == node.url %}
-              <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-              {% else %}
-              <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-              {% endif %}
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
+    {% include 2016/main-nav.html %}
   </nav>
 
   <script src="/assets/js/{{page.group}}/scripts.js"></script>
