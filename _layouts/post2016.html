@@ -9,11 +9,12 @@ layout: meetup2016
   </a>
 
   <div class="meetup-page__header">
+    {% if page.meetupDate %}
     <h3 class="meetup-page__date">
-      Le
+      Evènement le
 
-      {{ page.date | date: "%d" }}
-      {% assign month = page.date | date: "%-m" %}
+      {{ page.meetupDate | date: "%d" }}
+      {% assign month = page.meetupDate | date: "%-m" %}
       {% case month %}
         {% when '1' %}Janvier
         {% when '2' %}Février
@@ -28,17 +29,18 @@ layout: meetup2016
         {% when '11' %}Novembre
         {% when '12' %}Décembre
       {% endcase %}
-      {{ page.date | date: "%Y" }}
+      {{ page.meetupDate | date: "%Y" }}
 
       à
 
-      {{ page.date | date: "%Hh%M" }}
+      {{ page.meetupDate | date: "%Hh%M" }}
     </h3>
+    {% endif %}
     <h2 class="meetup-page__title">
       {{ page.title }}
     </h2>
     <h4 class="meetup-page__location">
-      {{ page.location }}
+      {{ page.meetupLocation }}
     </h4>
   </div>
 

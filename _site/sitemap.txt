@@ -53,4 +53,5 @@ http://www.codeursenseine.com/sitemap.txt
 http://www.codeursenseine.com/assets/css/2016/style.css
 http://www.codeursenseine.com/tv
 
+http://www.codeursenseine.com/meetups/2016-10-11/dette-technique-int%C3%A9gration-et-d%C3%A9ploiement-en-continu-github
 http://www.codeursenseine.com/meetups/2016-10-09/pre-agenda-meetups-2016

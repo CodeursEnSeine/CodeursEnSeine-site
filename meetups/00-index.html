@@ -18,11 +18,12 @@ permalink: /meetups/
   <a href="{{ post.url }}" class="meetup-overview">
 
     <div class="meetup-overview__header">
+      {% if post.meetupDate %}
       <h4 class="meetup-overview__date">
-        Le
+        Evènement le
 
-        {% assign month = post.date | date: "%-m" %}
-        {{ post.date | date: "%d" }}
+        {% assign month = post.meetupDate | date: "%-m" %}
+        {{ post.meetupDate | date: "%d" }}
         {% case month %}
           {% when '1' %}Janvier
           {% when '2' %}Février
@@ -37,17 +38,18 @@ permalink: /meetups/
           {% when '11' %}Novembre
           {% when '12' %}Décembre
         {% endcase %}
-        {{ post.date | date: "%Y" }}
+        {{ post.meetupDate | date: "%Y" }}
 
         à
 
-        {{ post.date | date: "%Hh%M" }}
+        {{ post.meetupDate | date: "%Hh%M" }}
       </h4>
+      {% endif %}
       <h3 class="meetup-overview__title">
         {{ post.title }}
       </h3>
       <h5 class="meetup-overview__location">
-        {{ post.location }}
+        {{ post.meetupLocation }}
       </h5>
     </div>
 
