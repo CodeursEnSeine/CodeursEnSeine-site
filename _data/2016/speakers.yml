@@ -41,7 +41,7 @@
 
 - id: 4
   name: Emmanuel Demey
-  image:
+  image: orateur-demey.png
   bio: "<p>Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l’Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c’est normal…), le Jazz et la Domotique.</p>
         <p>Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, …</p>"
   links:
