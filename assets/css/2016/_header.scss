@@ -53,16 +53,16 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(../../img/2016/header.jpg) center center no-repeat;
+  background: url($header-image) center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 
   @media only screen and (min-width: 600px) {
-    background-image: url(../../img/2016/header-lg.jpg);
+    background-image: url($header-image-lg);
   }
 
   @media only screen and (min-width: 1000px) {
-    background-image: url(../../img/2016/header-xl.jpg);
+    background-image: url($header-image-xl);
   }
 }
 
