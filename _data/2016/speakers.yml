@@ -126,8 +126,8 @@
 
 - id: 10
   name: Bruno Bonnin
-  image:
-  bio: "<p>Architecte et développeur sur toutes les couches des applications (du front- au back-end) avec une prédilection pour les technologies JavaScript, NoSQL (MongoDB, Elasticsearch, ArangoDB). Développe depuis l’époque du ZX Spectrum et pense toujours que c’est la meilleure machine de tous les temps !</p>"
+  image: orateur-bonnin.png
+  bio: "<p>Architecte logiciel, développeur full stack avec une prédilection pour les technologies Java, JavaScript, NoSQL (MongoDB, Elasticsearch) et Big Data (Hadoop). Développe depuis l’époque du ZX Spectrum et pense toujours que c’est la meilleure machine de tous les temps (même si Spark a du mal a tourné dessus) !</p>"
   links:
     - label: Twitter
       url: https://twitter.com/_bruno_b_
