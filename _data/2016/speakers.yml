@@ -343,7 +343,7 @@
 
 - id: 26
   name: Bastien Jaillot
-  image:
+  image: orateur-jaillot.jpg
   bio: "<p>Bastien est un passionné qui s’est investi très tôt dans la promotion des logiciels libres et des formats ouverts. Au quotidien, il met ses compétences au service de projets diverses, principalement dans des contextes à fort trafic fortement évolutifs. Il a co-fondé la société JoliCode ciblant l’expertise Web et mobile, avec pour objectif d’apporter son soutien à des projets innovants.</p>
         <p>Orateur aux cycles de conférences SudWeb, Paris Web, PHPTour, ForumPHP, Symfony Live, E1 ainsi qu’à divers Meetup, sur des sujets aussi bien techniques (Symfony2, Drupal, Framework vs CMS) que méthodologiques (Gestion de projet technique, retour d’expérience, dette technique).</p>
         <p>Bastien Jaillot est également l’auteur du livre “La dette technique” aux éditions du train de 13h37.</p>"
