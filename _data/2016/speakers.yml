@@ -164,7 +164,7 @@
 
 - id: 13
   name: Nicolas Hoffmann
-  image:
+  image: orateur-hoffman.jpg
   bio: "<p>Nicolas est un soldat monté pacifiquement au front (-end) depuis plus de 10 ans en web agency en Suisse.</p>
         <p>Il dompte avec pragmatisme la créativité de ses graphistes par le truchement des CSS avec un niveau d’exigence qualitatif proche de l’horlogerie suisse, mais sans faire coucou.</p>
         <p>Directeur du collectif OpenWeb, auteur du micro-framework CSS Röcssti, de plugins accessibles avec de l’ARIA dedans et de plus d’une cinquantaine d’articles sur la conception de CSS, Google Analytics, la qualité Web, etc., il est parfois délicatement surnommé « le Suisse-Allemand de la qualité Web » parce qu’il aurait eu un bon score à la certification Opquast.</p>
