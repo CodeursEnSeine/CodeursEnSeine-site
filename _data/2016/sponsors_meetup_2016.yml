@@ -44,3 +44,12 @@
     <p>Notre équipe de 5 personnes accompagne aussi bien des startups que des entreprises ayant des besoins de développement interne.</p>
     <p>Fort de notre expertise PHP/Zend Framework, nous aidons les entreprises dans la réalisation de leurs projets sur-mesures et innovants, ainsi que dans la mise en place de solutions open-sources telles que Wordpress, Prestashop ou Magento.</p>
     <p>Nous accordons une grande importance au conseil, à l'ergonomie des interfaces, à l'expérience utilisateur, à la qualité technique et à la réussite globale du projet.</p>"
+
+# -------------------
+# Wixiweb
+# -------------------
+- name: SIQUAL
+  type: argent
+  logo: logo-small-siqual.png
+  link: http://www.siqual.fr/
+  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."

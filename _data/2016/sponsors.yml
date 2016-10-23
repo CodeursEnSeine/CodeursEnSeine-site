@@ -165,6 +165,15 @@
   <p>Cette profusion de profils hautement qualifiés nous permet de vous accompagner sur l'entièreté de votre projet, de l'étude de vos besoins jusqu'à la mise en production. Que vous soyez une PME ou un grand groupe, nous avons toutes les compétences requises pour faire décoller votre business !</p>"
 
 # -------------------
+# Siqual
+# -------------------
+- name: SIQUAL
+  type: argent
+  logo: logo-small-siqual.png
+  link: http://www.siqual.fr/
+  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
+
+# -------------------
 # BRONZE
 # -------------------
 
