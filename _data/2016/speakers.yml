@@ -252,7 +252,7 @@
 
 - id: 19
   name: Arnaud Lemaire
-  image:
+  image: orateur-lemaire.jpeg
   bio: "<p>J’ai été tour à tour (et pas dans le bon ordre) : CTO d’une startup, directeur de la production chez un éditeur logiciel, architecte logiciel, consultant et développeur.</p>
         <p>Après avoir travaillé pour des Startups, des PME, des grands groupes et le secteur public, je suis maintenant membre d’un bureau d’étude pour aider des clients de toute taille à réussir leurs projets logiciels depuis la conception jusqu’au déploiement en production.</p>
         <p>Au quotidien je pratique le JS, PHP, le Python, Java, Ruby et tout les outils qui me permettent de répondre au mieux à la problématique métier du moment.</p>
