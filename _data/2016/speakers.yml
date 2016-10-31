@@ -200,7 +200,7 @@
 
 - id: 15
   name: Vincent Agnano
-  image:
+  image: orateur-agnano.jpg
   bio: "<p>Développeur Web, salarié, je travaille dans le cadre d’une société coopérative, Scopyleft. Depuis plus de 2 ans je voyage et vis comme “digital nomad”, sans logement fixe.</p>"
   links:
     - label: Twitter
