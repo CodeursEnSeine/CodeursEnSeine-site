@@ -115,7 +115,7 @@
 - id: 9
   name: Christian Wolf
   image: orateur-wolf.jpg
-  bio: "<p></p>"
+  bio: "<p>Christian WOLF a obtenu un « Diplom Ingenieur der Informatik » de l'Université de Technologie de Vienne en 2000, puis un doctorat en informatique de l'INSA de Lyon en 2003, et l'habilitation à diriger des recherches en 2012, également de l'INSA de Lyon . De septembre 2004 à août 2005, il était Mâitre de Conférences à l'Université Louis Pasteur, Strasbourg. Depuis 2005 il est Maître de Conférences à l'INSA de Lyon et membre du Laboratoire d'Informatique en Images et Systèmes d'Information (LIRIS). Ses activités de recherche portent sur la vision par ordinateur et sur l'apprentissage automatique, particulièrement sur les modèles graphiques, le deep learning, l'interprétation de scènes complexes, la reconnaissance de gestes et d'activités humaines, et sur la vision par ordinateur pour la robotique.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/chriswolfvision
