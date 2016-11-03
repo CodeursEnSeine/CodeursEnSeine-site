@@ -152,7 +152,13 @@
   type: argent
   logo: logo-small-arcange.png
   link: https://agencearcange.fr/
-  description: "<p></p>"
+  description: "<p>Arcange, c’est une histoire de fusion entre des créatifs, des développeurs et des stratèges. Nous sommes allergiques au bullshit, nous aimons les projets concrets, utiles et audacieux.</p>
+  <p>Nous agissons sur le volet communication de la transformation digitale des entreprises en nous concentrant là où nous sommes les meilleurs :</p>
+  <ul>
+    <li>Image de marque : du positionnement à l’identité visuelle globale, en passant par la définition d’un discours clair, cohérent et différenciant, nous accompagnons nos clients dans l'expression de leur image de marque.</li>
+    <li>Développement web : d'un site vitrine sur-mesure à une application métier complexe, nous donnons à nos clients les moyens de devenir des véritables acteurs sur le web.</li>
+    <li>Stratégie de communication : stratèges de terrain, nous proposons des solutions concrètes et menons des actions en terme de campagnes de communication, de réseaux sociaux et de planning stratégique.</li>
+  </ul>"
 
 # -------------------
 # Otso
