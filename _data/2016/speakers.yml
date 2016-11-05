@@ -225,7 +225,10 @@
       description: "<p>Ça fait deux ans que je fais des talks de Polymer à droite et à gauche, et une des questions qu’on m’a le plus posé c’est “mais, ça marche dans la vraie vie ?”</p>
                     <p>Je répondais toujours oui, je donnais des exemples, mais j’avais toujours la frustration de ne pas pouvoir le monter car les applications que je fais étaient réservées à nous clients.</p>
                     <p>Mais depuis janvier dernière notre plateforme time-series Warp 10 est open source, et je peux enfin parler de ce que je fais depuis deux ans: coder des applications web complètement basés sur des composants web Polymer, des applications fonctionnelles, utilisées dans tous les navigateurs y que se combinent avec d’autres technologies. Bref, du Polymer dans la vraie vie.</p>"
-
+    - title: "Progressive Web Apps avec Polymer"
+      type: Samedi 9:30 - Seine Innopolis
+      description: "<p>Connaissez-vous les Progressive Web App? Avez-vous entendu parler des Web Components et Polymer? Voulez-vous apprendre dès aujourd’hui la façon comme on développera le web de demain?</p>
+                    <p>Venez nous rejoindre dans cette atelier et vous repartirez en sachant coder des applis basée sur des composants web.</p>"
 - id: 17
   name: Jean-Philippe Briend
   image: orateur-briend.png
@@ -249,7 +252,9 @@
     - title: "Conduire un Retour d’Expérience projet"
       type: 14:30 - Amphi C
       description: "<p>Le Retour d’Expérience Projet permet de faire le point à la fin d’une étape. Il permet d’identifier ce qui à poser problème, dans quel contexte, pourquoi, etc. et sert aussi à identifier ce qui a bien marché et comment le reproduire. Récolter ces éléments, les comprendre, garder de la distance malgré tout, voir comment le réutiliser dans un nouveau contexte, tout en étant sûr de ne pas rater des éléments que l’équipe ne remonterait pas est aussi intéressant que complexe. Transverse à tous les projets chez ekino, j’ai mis en place une organisation de REx qui permet de faire parler chacun et de traiter tous les sujets. Tout n’est pas toujours facile à gérer et j’ai pu voir aussi les faiblesses de ma méthode et comment chercher à y remédier. Je me propose de vous partager tout ça.</p>"
-
+    - title: "Préparation à la certification Opquast"
+      type: Samedi 9:30 - Seine Innopolis
+      description: "<p>Opquast Certified est le moyen d’attester de votre capacité à identifier les risques liés à la conception et au développement d’un site web et à les traiter, dans un contexte opérationnel. Si une plateforme de “e-learning” existe pour s’auto-former, il est parfois agréable de commencer par en discuter de vive-voix, se faire guider encore plus dans l’organisation, se faire expliquer les grands principes. A travers un atelier qui présentera la certification, la plate-forme, l’écosystème Opquast, l’état d’esprit, les règles pour faire un critère de qualité, le modèle qualité “VPTCS” mais qui permettra aussi de tester où on en est et d’échanger autour des subtilités de la qualité web, nous pourrons ensemble vous mettre le pied à l’étrier pour le passage de la certification.</p>"
 - id: 19
   name: Arnaud Lemaire
   image: orateur-lemaire.jpeg
@@ -370,3 +375,17 @@
       type: 16:40 - Amphi D
       description: "<p>Les développeurs connaissent aujourd’hui pour la plupart les bases du référencement : les balises TITLE et META description, les fichiers robots.txt et sitemap.xml. Mais beaucoup ignorent l’utilisation réelle de ces fichiers par Google (par exemple, il est possible qu’il se fiche de votre sitemap.xml).</p>
                     <p>Dans cette conférence, je vais donc vous présenter les processus de crawl et d’indexation suivis par Google, les différentes “classes” de page, le fonctionnement d’un crawler, les possibilités d’analyse qui vous sont offertes pour contrôler et ajuster le crawl du robot (on parlera de structure de site, de silos, …).</p>"
+- id: 28
+  name: Fabien Vauchelles
+  image: orateur-vauchelle.jpg
+  bio: "<p>Fabien est CTO de Zelros et s’intéresse au business de la data depuis 2 ans. Il intervient dans plusieurs conférences comme Breizhcamp, PyData, Voxxed Lu, Riviera Dev, ainsi que régulièrement dans des meetups et BBL sur Paris (Paris.py, Paris Digital, IppEvent, Xebia, SFEIR, etc.) Aujourd’hui, il propose à ses clients des applications qui leurs permettent de comprendre leurs données et d’envisager le futur.</p>
+        <p>Il est également un expert en scraping (récupération automatique de données non structurées). Il a développé le proxy opensource Scrapoxy (http://scrapoxy.io) : un proxy dédié aux scrapers.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/fabienv
+  talks:
+    - title: "Devenir un expert en webscraping (data extraction)"
+      type: Samedi 9:30 - Seine Innopolis
+      description: "<p>Récupérer un prix sur une page web est simple. Mais récupérer 10 millions de produits est loin de l’être ! Les sites changent, protègent leurs données et l’on peut perdre des mois à construire un scraper…</p>
+                    <p>En 2 heures, venez découvrir comment gagner du temps en évitant les pièges du scraping !</p>
+                    <p>Je commence par une présentation des techniques de webscraping (20min). Ensuite, j’introduis le framework Scrapy et comment l’utiliser (10min). Avec la présentation, les participants démarrent plus rapidement le workshop. Ensuite, nous commençons le workshop. Il dure 1h20. Les participants progressent à travers 4 challenges: le scraping d’une page, le scraping multi-pages et le contournement de 2 protections..</p>"
