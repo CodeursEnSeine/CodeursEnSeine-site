@@ -180,6 +180,16 @@
   description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
 
 # -------------------
+# Sopra Steria
+# -------------------
+- name: Sopra Steria
+  type: argent
+  logo: logo-small-sopra-steria.jpg
+  link: http://www.soprasteria.com/
+  description: "Sopra Steria, leader européen de la transformation numérique, propose l’un des portefeuilles d’offres les plus complets du marché : conseil, intégration de systèmes, édition de solutions métier, infrastructure management et business process services. Il apporte ainsi une réponse globale aux enjeux de développement et de compétitivité des grandes entreprises et organisations. Combinant valeur ajoutée, innovation et performance des services délivrés, Sopra Steria accompagne ses clients dans leur transformation et les aide à faire le meilleur usage du numérique. Fort de 37 000 collaborateurs dans plus de 20 pays, le groupe Sopra Steria affiche un chiffre d’affaires pro forma 2014 de 3,4 milliards d’euros. Sopra Steria Normandie, avec 130 ingénieurs/consultants, est présent en Normandie depuis plus de 25 ans."
+
+
+# -------------------
 # BRONZE
 # -------------------
 
