@@ -126,6 +126,15 @@
 # -------------------
 # Orone
 # -------------------
+- name: NWX
+  type: gold
+  logo: logo-nwx.jpg
+  link: http://nwx.fr
+  description: ""
+
+# -------------------
+# Orone
+# -------------------
 - name: Orone
   type: gold
   logo: logo-small-orone.png
