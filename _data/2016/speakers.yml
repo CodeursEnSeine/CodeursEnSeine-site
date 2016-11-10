@@ -139,7 +139,7 @@
 - id: 11
   name: Olivier Nourry
   image: orateur-nourry.jpg
-  bio: "<p>Web & Mobile accessibility consultant and trainer. Has a weird passion for digital accessibility, and loves talking about it, in French or in English.</p>"
+  bio: "<p>Consultant et formateur en accessibilité web et mobile. Voue une étrange passion à tout ce qui est en rapport avec l'accessibilité numérique, et adore en parler dès qu’on lui en donne l’occasion.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/oliviernourry
