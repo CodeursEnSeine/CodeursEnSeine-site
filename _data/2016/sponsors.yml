@@ -126,6 +126,15 @@
 # -------------------
 # Orone
 # -------------------
+- name: NWX
+  type: gold
+  logo: logo-nwx.jpg
+  link: http://nwx.fr
+  description: ""
+
+# -------------------
+# Orone
+# -------------------
 - name: Orone
   type: gold
   logo: logo-small-orone.png
@@ -178,6 +187,16 @@
   logo: logo-small-siqual.png
   link: http://www.siqual.fr/
   description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
+
+# -------------------
+# Sopra Steria
+# -------------------
+- name: Sopra Steria
+  type: argent
+  logo: logo-small-sopra-steria.jpg
+  link: http://www.soprasteria.com/
+  description: "<p>Sopra Steria, leader européen de la transformation numérique, propose l’un des portefeuilles d’offres les plus complets du marché : conseil, intégration de systèmes, édition de solutions métier, infrastructure management et business process services. Il apporte ainsi une réponse globale aux enjeux de développement et de compétitivité des grandes entreprises et organisations. Combinant valeur ajoutée, innovation et performance des services délivrés, Sopra Steria accompagne ses clients dans leur transformation et les aide à faire le meilleur usage du numérique. Fort de plus de 38 000 collaborateurs dans plus de 20 pays, le Groupe Sopra Steria affiche un chiffre d’affaires de 3,6 milliards d’euros en 2015.</p><p>Pour plus d'informations, retrouvez-nous sur <a href=\"www.soprasteria.com\" target=\"_blank\">www.soprasteria.com</a>.</p>"
+
 
 # -------------------
 # BRONZE
