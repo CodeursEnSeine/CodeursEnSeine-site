@@ -55,6 +55,7 @@ http://www.codeursenseine.com/assets/css/2016/style-meetups.css
 http://www.codeursenseine.com/assets/css/2016/style.css
 http://www.codeursenseine.com/tv
 
+http://www.codeursenseine.com/meetups/2016-11-18/react-js
 http://www.codeursenseine.com/meetups/2016-11-05/r%C3%A9alit%C3%A9-virtuelle-de-la-d%C3%A9couverte-au-build
 http://www.codeursenseine.com/meetups/2016-10-11/dette-technique-int%C3%A9gration-et-d%C3%A9ploiement-en-continu-github
 http://www.codeursenseine.com/meetups/2016-10-09/pre-agenda-meetups-2016

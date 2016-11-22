@@ -44,7 +44,7 @@
   </ul>"
 
 # -------------------
-# Devoxx France
+# Devolis
 # -------------------
 - name: Devolis
   type: platine
@@ -72,6 +72,17 @@
   logo: logo-small-devoxxfr.png
   link: http://www.devoxx.fr
   description: "<p>La conférence pour les développeurs passionnés.</p>"
+
+# -------------------
+# Econocom
+# -------------------
+- name: Econocom
+  type: platine
+  logo: logo-small-econocom.jpg
+  link: http://www.econocom.com/fr
+  description: "<p>Econocom conçoit, finance et accompagne la transformation digitale des entreprises.</p>
+  <p>Avec plus de 9 000 collaborateurs présents dans 19 pays, et un CA supérieur à 2,3 milliards d’euros, Econocom dispose de l’ensemble des capacités nécessaires à la réussite des grands projets digitaux : conseil, approvisionnement et gestion administrative des actifs numériques, services aux infrastructures, applicatifs et solutions métiers, financement des projets.</p>
+  <p>Avec Econocom, devenez dès aujourd’hui, l’entrepreneur de votre carrière ! Travailler chez Econocom, c’est être un acteur engagé de la révolution digitale. C’est intégrer un groupe qui garde intact son esprit start-up et stimule l’esprit entrepreneurial de ses collaborateurs. C’est rejoindre un collectif où les initiatives individuelles sont soutenues.</p>"
 
 # -------------------
 # Saagie
