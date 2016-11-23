@@ -255,22 +255,6 @@
     - title: "Préparation à la certification Opquast"
       type: Samedi 9:30 - Seine Innopolis
       description: "<p>Opquast Certified est le moyen d’attester de votre capacité à identifier les risques liés à la conception et au développement d’un site web et à les traiter, dans un contexte opérationnel. Si une plateforme de “e-learning” existe pour s’auto-former, il est parfois agréable de commencer par en discuter de vive-voix, se faire guider encore plus dans l’organisation, se faire expliquer les grands principes. A travers un atelier qui présentera la certification, la plate-forme, l’écosystème Opquast, l’état d’esprit, les règles pour faire un critère de qualité, le modèle qualité “VPTCS” mais qui permettra aussi de tester où on en est et d’échanger autour des subtilités de la qualité web, nous pourrons ensemble vous mettre le pied à l’étrier pour le passage de la certification.</p>"
-- id: 19
-  name: Arnaud Lemaire
-  image: orateur-lemaire.jpeg
-  bio: "<p>J’ai été tour à tour (et pas dans le bon ordre) : CTO d’une startup, directeur de la production chez un éditeur logiciel, architecte logiciel, consultant et développeur.</p>
-        <p>Après avoir travaillé pour des Startups, des PME, des grands groupes et le secteur public, je suis maintenant membre d’un bureau d’étude pour aider des clients de toute taille à réussir leurs projets logiciels depuis la conception jusqu’au déploiement en production.</p>
-        <p>Au quotidien je pratique le JS, PHP, le Python, Java, Ruby et tout les outils qui me permettent de répondre au mieux à la problématique métier du moment.</p>
-        <p>C’est ce mélange d’expérience que je souhaite partager et transmettre lors des conférences auxquelles je participe.</p>"
-  links:
-    - label: Twitter
-      url: https://twitter.com/lilobase
-  talks:
-    - title: "Les fausses bonnes idées croisées dans ma carrière"
-      type: 15:40 - Amphi A
-      description: "<p>On a tous déjà connu ce code qui parait résoudre parfaitement un problème donné, mais qui s’avère être la pire idée du monde quelques semaines ou mois plus tard.</p>
-                    <p>Depuis le début de ma carrière, je note avec attention toutes ces “fausses bonnes idées”, que j’ai croisé dans les projets sur lesquels j’ai travaillé (et y compris celles dont j’ai été l’auteur).</p>
-                    <p>C’est ce recueil que je me propose de parcourir en votre compagnie, à la fois sur des décisions qui ont fait échouer des projets, mais aussi sur des sujets plus légers et parfois amusants.</p>"
 
 - id: 20
   name: Quentin Bisson

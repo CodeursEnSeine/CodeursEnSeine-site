@@ -43,6 +43,16 @@
   padding: 0;
 }
 
+.agenda-cell-cancelled {
+
+  &,
+  .agenda-title,
+  a {
+    color: #caa;
+    text-decoration: line-through;
+  }
+}
+
 .agenda-title {
   position: relative;
   display: block;
