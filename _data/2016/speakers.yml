@@ -161,6 +161,10 @@
     - title: "L'ISS en temps réel sur mon mobile en 15 mn ? Pari tenu !"
       type: 12:00 - Amphi A
       description: "<p>Dans ce talk nous verrons comment en quinze minutes et en utilisant deux outils d’une simplicité redoutable, nous allons pouvoir réaliser une application mobile affichant la position de l’ISS sur une carte, en temps réel. D’un côté, Streamdata.io et son SDK qui en moins de dix lignes de code est capable de streamer n’importe quelle API et nous donnera la position de l’ISS comme si nous étions à bord. De l’autre, Ionic, un framework mobile hybride aussi efficace que puissant pour l’afficher et le déployer sur toutes les plateformes en moins de temps qu’il n’en faut pour le dire. Alors, on parie ?</p>"
+    - title: "Le Streaming d'API : pourquoi et comment transformer vos APIs statiques en données temps réel ?"
+      type: 15:40 - Amphi A
+      description: "<p>Nous savons que l’animation est essentielle pour l'interaction avec nos utilisateurs. Mais aujourd'hui l'interactivité ne peut plus se résumer à l’UX. Twitter, Waze, Slack … toutes les applications à succès utilisent le temps réel pour rendre leurs utilisateurs addicts. Mais comment faire pour transformer votre API statique en un flux de données temps-réel ? Vous connaissez sûrement les Web-Sockets, mais avez vous déjà entendu parler de Server-Sent Events ?</p>
+                    <p>Dans ce talk nous comparerons ces deux technologies pour comprendre dans quel cas elles s'appliquent le mieux avant de voir comment on peut aller encore plus loin en réduisant la quantité de données échangées. Et parce qu'il n'y a pas que le web qui a besoin de temps réel (et parce que c'est bien plus fun), je vous montrerai comment faire danser des drones sur des APIs streamées.</p>"
 
 - id: 13
   name: Nicolas Hoffmann
