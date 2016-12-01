@@ -2,20 +2,20 @@
 http://www.codeursenseine.com/.htaccess
 http://www.codeursenseine.com/2014/agenda-dyn.html
 http://www.codeursenseine.com/2013/agenda-static.html
-http://www.codeursenseine.com/2013/agenda.html
 http://www.codeursenseine.com/2015/agenda.html
+http://www.codeursenseine.com/2013/agenda.html
 http://www.codeursenseine.com/2014/agenda.html
 http://www.codeursenseine.com/meetups/
 http://www.codeursenseine.com/2016/
 http://www.codeursenseine.com/2015/speakers.html
 http://www.codeursenseine.com/2015/devoxx4Kids.html
 http://www.codeursenseine.com/2015/appel-a-orateurs.html
-http://www.codeursenseine.com/2015/inscription.html
 http://www.codeursenseine.com/2016/inscription
+http://www.codeursenseine.com/2015/inscription.html
 http://www.codeursenseine.com/2014/speakers-dyn.html
 http://www.codeursenseine.com/2013/speakers-static.html
-http://www.codeursenseine.com/2013/speakers.html
 http://www.codeursenseine.com/2014/speakers.html
+http://www.codeursenseine.com/2013/speakers.html
 http://www.codeursenseine.com/2015/sponsors.html
 http://www.codeursenseine.com/2013/organisation.html
 http://www.codeursenseine.com/2015/organisateurs.html
@@ -43,12 +43,12 @@ http://www.codeursenseine.com/2016/sponsors
 http://www.codeursenseine.com/2016/organisateurs
 http://www.codeursenseine.com/2016/comment-venir
 http://www.codeursenseine.com/2016/devoxx4Kids
+http://www.codeursenseine.com/2014/
 http://www.codeursenseine.com/2013/
 http://www.codeursenseine.com/2015/
-http://www.codeursenseine.com/2014/
+http://www.codeursenseine.com/2014/kitpress.html
 http://www.codeursenseine.com/2013/kitpress.html
 http://www.codeursenseine.com/2015/kitpress.html
-http://www.codeursenseine.com/2014/kitpress.html
 http://www.codeursenseine.com/2016/kitpress.html
 http://www.codeursenseine.com/sitemap.txt
 http://www.codeursenseine.com/assets/css/2016/style-meetups.css
@@ -56,6 +56,7 @@ http://www.codeursenseine.com/assets/css/2016/style.css
 http://www.codeursenseine.com/tv
 
 http://www.codeursenseine.com/meetups/2016-11-18/react-js
+http://www.codeursenseine.com/meetups/2016-11-17/nuxde-premier-rdv
 http://www.codeursenseine.com/meetups/2016-11-05/r%C3%A9alit%C3%A9-virtuelle-de-la-d%C3%A9couverte-au-build
 http://www.codeursenseine.com/meetups/2016-10-11/dette-technique-int%C3%A9gration-et-d%C3%A9ploiement-en-continu-github
 http://www.codeursenseine.com/meetups/2016-10-09/pre-agenda-meetups-2016
