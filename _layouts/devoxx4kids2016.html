@@ -6,7 +6,7 @@
   <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-  <link href="/assets/css/2016/style-meetups.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/2016/style-devoxx4kids.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
   <header class="header-main">
@@ -28,7 +28,7 @@
           </a>
         </div>
         <nav class="nav-main">
-          {% include meetups/main-nav.html %}
+          {% include devoxx4kids/main-nav.html %}
         </nav>
       </div>
     </div>
@@ -38,16 +38,6 @@
       {{ content }}
     </div>
   </main>
-  <section class="footer-sponsors">
-    <div class="wrapper">
-      <h2 class="text-center">Sponsors</h2>
-      {% for sponsor in site.data['2016'].sponsors_meetup_2016 %}
-        <a href="{{sponsor.link}}" title="{{sponsor.name}}">
-          <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
-        </a>
-      {% endfor %}
-    </div>
-  </section>
   <footer class="footer-main">
     <div class="wrapper">
       <div class="col col-1-2">
