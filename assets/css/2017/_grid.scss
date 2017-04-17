@@ -1,0 +1,26 @@
+/**
+ * Clearfix.
+ * Usage : @include clearfix;
+ */
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+/**
+ * Colonnes flottantes en %.
+ * Usage :
+ * Boite fait 3 colonnes sur 9 : @include col(3, 9);
+ * Boite fait 3 colonnes sur $cols-max : @include col(3);
+ */
+@mixin col($cols, $cols-number: $cols-max, $marge: $marge) {
+  float: left;
+  padding-left: $marge / 2;
+  padding-right: $marge / 2;
+  width: $cols / $cols-number * 100%;
+}

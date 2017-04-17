@@ -1,0 +1,73 @@
+.wrapper {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 $marge;
+}
+
+.row {
+  @include clearfix;
+}
+
+.col {
+  @include col(12, 12);
+}
+
+.col-1-2 {
+  @media screen and (min-width: $mq-992) {
+    @include col(6, 12);
+  }
+}
+
+.col-1-3 {
+  @media screen and (min-width: $mq-992) {
+    @include col(4, 12);
+  }
+}
+
+.col-2-3 {
+  @media screen and (min-width: $mq-992) {
+    @include col(8, 12);
+  }
+}
+
+.col-1-6 {
+  @include col(1, 2);
+
+  &:nth-of-type(2n+1) {
+    clear:left;
+  }
+
+  @media screen and (min-width: $mq-480) {
+    @include col(4, 12);
+    &:nth-of-type(2n+1) {
+      clear: none;
+    }
+    &:nth-of-type(3n+1) {
+      clear: left;
+    }
+  }
+
+  @media screen and (min-width: $mq-600) {
+    @include col(3, 12);
+    &:nth-of-type(3n+1) {
+      clear: none;
+    }
+    &:nth-of-type(4n+1) {
+      clear: left;
+    }
+  }
+
+  @media screen and (min-width: $mq-992) {
+    @include col(2, 12);
+    &:nth-of-type(4n+1) {
+      clear: none;
+    }
+    &:nth-of-type(6n+1) {
+      clear: left;
+    }
+  }
+}
+
+.content-main {
+  padding-bottom: $marge * 2;
+}

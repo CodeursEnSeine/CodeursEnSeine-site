@@ -1,0 +1,33 @@
+.truncate-text {
+  position: relative;
+  overflow: hidden;
+  max-height: 100px;
+
+  &.open {
+    max-height: none;
+
+    .truncate-text-toggle {
+      display: none;
+    }
+  }
+
+  .truncate-text-toggle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 0 0 0;
+    height: 80px;
+    text-align: left;
+    color: $color-primary;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    background-image: none;
+
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+  }
+}

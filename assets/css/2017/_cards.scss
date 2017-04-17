@@ -1,0 +1,225 @@
+.cards {
+  margin-left: - $marge / 2;
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  width: 100%;
+  padding-left: $marge / 2;
+  padding-bottom: $marge / 2;
+  font-size: 1rem;
+  vertical-align: top;
+  display: flex;
+  text-align: left;
+}
+
+.card-inner {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: $unpixel solid rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .05);
+  background: #fff;
+}
+
+/* ------------------------- *\
+    Speaker
+\* ------------------------- */
+.card.speaker {
+  @media only screen and (min-width: 800px) {
+    width: 50%;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    width: 33.3333%;
+    &.home {
+      width: 50%;
+    }
+  }
+
+  .card-inner {
+    padding: $marge / 2;
+  }
+
+  .card-image {
+    position: absolute;
+    top: $marge / 2;
+    left: $marge / 2;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border: $unpixel solid rgba(0, 0, 0, .1);
+  }
+
+  .card-image + .card-profile {
+    margin-top: .2rem;
+    min-height: 75px;
+    margin-left: 80px;
+    padding-left: $marge / 2;
+  }
+
+  .card-profile {
+    font-size: 1rem;
+  }
+
+  .card-name {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: .4rem;
+  }
+
+  .card-links {
+    list-style: none;
+    margin: 0;
+    margin-left: -.4rem;
+    padding: 0;
+    font-size: 0;
+
+    li {
+      display: inline-block;
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      font-size: .8rem;
+      padding: .1rem .6rem;
+      margin-left: .4rem;
+      margin-bottom: .4rem;
+      border: $unpixel solid rgba(0, 0, 0, .1);
+      background: $color-primary;
+      color: #fff;
+      border-radius: $unpixel*2;
+      text-decoration: none;
+      transition: .2s;
+
+      &:hover,
+      &:focus {
+        background: darken($color-primary, 10%);
+      }
+    }
+  }
+
+  .card-bio {
+    padding-top: $marge / 2;
+    font-size: .9rem;
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* ------------------------- *\
+    Talks
+\* ------------------------- */
+.card-talks {
+  font-size: 1rem;
+  padding-top: $marge / 2;
+}
+
+.card-talk {}
+.card-talk-title {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: .6rem;
+}
+.card-talk-type {
+  display: inline-block;
+  margin-top: -.6rem;
+  margin-bottom: .6rem;
+  padding: .2rem .6rem;
+  font-size: .8rem;
+  border-radius: $unpixel*2;
+  color: $gris-fonce;
+  background: #f1f1f1;
+}
+.card-talk-description {
+  font-size: .9rem;
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ------------------------- *\
+    Sponsors
+\* ------------------------- */
+.card.sponsor {
+
+  @media only screen and (min-width: 800px) {
+    width: 50%;
+  }
+
+  .card-inner {
+    font-size: 0;
+  }
+
+  .card-logo {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-height: 240px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $marge / 2;
+    border-bottom: $unpixel solid rgba(0, 0, 0, .1);
+  }
+
+  .card-text {
+    padding: $marge / 2;
+  }
+
+  .card-name {
+    margin: 0;
+    font-size: 1.4rem;
+    margin-bottom: $marge / 4;
+  }
+
+  .card-description {
+    font-size: .9rem;
+
+    p {
+      margin-bottom: .6rem;
+    }
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Premium
+  // -------------------------
+  &.premium {
+    width: 100%;
+
+    @media only screen and (min-width: 800px) {
+      .card-logo {
+        border-bottom: none;
+        padding-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20rem;
+      }
+
+      .card-logo + .card-text {
+        margin-left: 20rem;
+      }
+
+      .card-name {
+        font-size: 1.8rem;
+      }
+
+      .card-description {
+        font-size: 1rem;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+.footer-sponsors {
+  padding: $marge 0;
+  border-top: $unpixel solid $gris-clair-1;
+  font-size: 0; // inline-block margin fix
+
+  a {
+    display: inline-block;
+    width: 31%;
+    margin: 0 1%;
+  }
+
+  @media only screen and (min-width: 37.5em) {
+    a {
+      width: 18%;
+    }
+  }
+}
+
+.footer-main {
+  @include clearfix;
+  padding: $marge*2 0;
+  background: $color-dark;
+
+  p {
+    margin: 0;
+  }
+
+  &,
+  a {
+    color: #fff;
+  }
+}
