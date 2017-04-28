@@ -113,6 +113,11 @@ a {
     display: block;
   }
 
+  // Large button
+  &.large {
+    font-size: 20px;
+  }
+
   // Small button
   &.small {
     padding: .4em 1em;

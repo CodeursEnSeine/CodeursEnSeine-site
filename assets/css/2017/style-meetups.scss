@@ -4,21 +4,9 @@
 @charset 'UTF-8';
 
 $color-primary: #29a075;
-$header-image: '../../img/2016/meetups/header.jpg';
-$header-image-lg: '../../img/2016/meetups/header-lg.jpg';
-$header-image-xl: '../../img/2016/meetups/header-xl.jpg';
+$header-image: '../../img/meetup/header.jpg';
+$header-image-lg: '../../img/meetup/header-lg.jpg';
+$header-image-xl: '../../img/meetup/header-xl.jpg';
 
-@import '2016/normalize';
-@import '2016/variables';
-@import '2016/grid';
-@import '2016/elements';
-@import '2016/layout';
-@import '2016/header';
-@import '2016/nav-main';
-@import '2016/nav-mobile';
-@import '2016/footer';
-@import '2016/agenda';
-@import '2016/cards';
-@import '2016/truncate-text';
-@import '2016/meetups';
+@import '2017/_all';
 
