@@ -1,0 +1,426 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  color: $color-dark;
+  font-family: 'ubuntu', Verdana, Arial, Helvetica, sans-serif;
+  font-size: $font-size-normal;
+  line-height: 1.5;
+}
+
+// Headings.
+
+h1,
+h2,
+h3 {
+  margin: 0 0 $marge 0;
+
+  small {
+    font-size: 65%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: $font-size-huge;
+  line-height: 1;
+  font-weight: $font-weight-bold;
+}
+
+h2 {
+  font-size: $font-size-great;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: $font-size-big;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: $font-size-medium;
+}
+
+@media screen and (min-width: 48em) { // 768px
+  body {
+    font-size: $font-size-medium;
+  }
+   h1 {
+    font-size: 2.48832rem;
+  }
+  h2 {
+    font-size: 2.0736rem;
+  }
+  h3 {
+    font-size: 1.728rem;
+  }
+}
+
+@media screen and (min-width: 62em) { // 992px
+  h1 {
+    font-size: 2.98598rem;
+  }
+  h2 {
+    font-size: 2.48832rem;
+  }
+}
+
+// Links.
+
+a {
+  color: $color-primary;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Buttons.
+
+.button {
+  font-size: 1rem;
+  font-weight: normal;
+  vertical-align: middle;
+  display: inline-block;
+  padding: .8em 1.5em;
+  text-align: center;
+  background: $color-primary;
+  border: $unpixel solid darken($color-primary, 3%);
+  border-radius: $unpixel * 3;
+  color: #fff;
+  text-decoration: none;
+  transition: .2s;
+
+  &:focus,
+  &:hover {
+    background: darken($color-primary, 5%);
+    border-color: darken($color-primary, 8%);
+  }
+
+  // Block button
+  &.block {
+    display: block;
+  }
+
+  // Large button
+  &.large {
+    font-size: 20px;
+  }
+
+  // Small button
+  &.small {
+    padding: .4em 1em;
+  }
+
+  // Extra Small button
+  &.xsmall {
+    padding: .2em .6em;
+  }
+
+  &.ghost {
+    color: $color-primary;
+    background: transparent;
+    border: $unpixel*2 solid $color-primary;
+
+    &:focus,
+    &:hover {
+      color: #fff;
+      background: $color-primary;
+    }
+  }
+
+  // White button
+  &.light {
+    color: $color-primary;
+    background: #fff;
+    border-color: transparent;
+
+    &:focus,
+    &:hover {
+      background: darken(#fff, 5%);
+    }
+  }
+
+  &.light-ghost {
+    color: #fff;
+    background: transparent;
+    border: $unpixel*2 solid #fff;
+
+    &:focus,
+    &:hover {
+      color: $color-primary;
+      background: #fff;
+    }
+  }
+}
+
+.buttons-group {
+  margin-left: -$marge / 2;
+
+  .button {
+    margin-left: $marge / 2;
+    margin-bottom: $marge / 2;
+
+    @media only screen and (max-width: 450px) {
+      display: block;
+    }
+  }
+}
+
+
+// Paragraphs & Lists.
+
+p,
+ul,
+ol,
+dl {
+  margin: 0 0 $marge 0;
+
+  &:empty {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  list-style: disc inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: $marge / 2;
+
+  li {
+    padding-left: $marge;
+  }
+}
+
+dl {
+  margin-bottom: $marge;
+}
+
+dt {
+  font-weight: $font-weight-bold;
+}
+
+dd {
+  margin-bottom: $marge;
+}
+
+// Quotes.
+
+blockquote {
+  margin-bottom: $marge;
+  padding: $marge;
+  background: $gris-clair-3;
+  border-left: 0.5rem solid $color-dark;
+}
+
+q,
+cite {
+  font-style: italic;
+}
+
+// Sectionning.
+
+hr {
+  height: 0;
+  margin: $marge*1.5 0;
+  border: $unpixel solid $gris-clair-1;
+}
+
+// Inlines.
+
+strong,
+b {
+  font-weight: $font-weight-bold;
+}
+
+em,
+i,
+dfn,
+var {
+  font-style: italic;
+}
+
+code {
+  display: inline-block;
+  padding: $marge;
+  background: $gris-clair-3;
+}
+
+kbd {
+  display: inline-block;
+  padding: 0 $marge/4;
+  background: $gris-clair-3;
+  border: $unpixel solid $color-dark;
+  font-weight: $font-weight-bold;
+}
+
+samp,
+small {
+  font-size: $font-size-little;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Address.
+
+address {
+  margin-bottom: $marge;
+}
+
+// Sup, sub.
+
+sub,
+sup {
+  font-size: 0.625rem;
+  font-variant: normal;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.5em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+// Medias.
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: $marge;
+  img {
+    display: block;
+  }
+}
+
+figcaption {
+  font-size: $font-size-little;
+  color: $gris-fonce;
+}
+
+audio,
+video,
+iframe {
+  max-width: 100%;
+  margin-bottom: $marge;
+  border: $unpixel solid $gris-clair-1;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+  border: $unpixel solid $gris-clair-1;
+  margin-bottom: $marge;
+
+  iframe {
+    position: absolute;
+    margin: 0;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+// Map.
+
+.map {
+  width: 100%;
+  height: 42rem;
+}
+
+// Tables
+// -------------------------
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-collapse:collapse;
+  border-spacing:0;
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: 8px;
+        line-height: 1.4;
+        vertical-align: top;
+        border: 1px solid #ddd;
+      }
+    }
+  }
+  // Bottom align for column headings
+  > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+  }
+
+  > thead > tr {
+    > th,
+    > td {
+      border-bottom-width: 2px;
+    }
+  }
+
+  // Remove top border from thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 0;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 2px solid #ddd;
+  }
+
+  // Nesting
+  & & {
+    background-color: #fff;
+  }
+}

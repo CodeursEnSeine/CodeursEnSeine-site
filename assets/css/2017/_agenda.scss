@@ -1,0 +1,131 @@
+.agenda-row {
+  margin-bottom: $marge;
+}
+
+.agenda-cell-time,
+.agenda-cell {
+  padding: $marge / 2;
+  text-align: center;
+  vertical-align: top;
+  border-right: $unpixel solid $gris-clair-1;
+  border-bottom: $unpixel*2 solid $gris-clair-1;
+  border-left: $unpixel solid $gris-clair-1;
+}
+
+.agenda-row .agenda-cell:last-child {
+  border-right: $unpixel solid $gris-clair-1;
+}
+
+.agenda-cell-time {
+  font-size: $font-size-big;
+  font-weight: $font-weight-bold;
+  text-align: right;
+  text-align: center;
+  vertical-align: middle;
+  color: #000;
+  background: $gris-clair-2;
+}
+
+.agenda-cell {
+  font-size: $font-size-normal;
+}
+
+.agenda-cell-keynote,
+.agenda-cell-break {
+  padding-top: $marge * 1.5;
+  line-height: 1.2;
+  vertical-align: middle;
+  background: #f1f1f1;
+}
+
+.agenda-cell-atelier-ext,
+.agenda-cell-empty {
+  padding: 0;
+}
+
+.agenda-cell-cancelled {
+
+  &,
+  .agenda-title,
+  a {
+    color: #caa;
+    text-decoration: line-through;
+  }
+}
+
+.agenda-title {
+  position: relative;
+  display: block;
+  font-weight: $font-weight-bold;
+  color: #000;
+}
+
+.agenda-title a {
+  color: #000;
+}
+
+.agenda-tag {
+  padding: 0 0.25rem;
+  background: #ddd;
+  border-radius: 5%;
+  font-size: 85%;
+
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.agenda-tag-sponsor {
+
+}
+
+.agenda-table .agenda-speakers {
+  display: block;
+}
+
+.agenda-cell-keynote .agenda-speakers,
+.agenda-cell-break .agenda-speakers {
+  font-weight: $font-weight-bold;
+}
+
+.agenda-room {
+  display: block;
+  font-size: 85%;
+}
+
+@media screen and (min-width: 62em) { // 992px.
+
+  .agenda-row {
+    display: table;
+    margin: 0;
+    width: 100%;
+  }
+
+  .agenda-cell-time,
+  .agenda-cell {
+    display: table-cell;
+    padding-bottom: $marge * 1.5;
+    width: 22.5%;
+    border-right: none;
+  }
+
+  .agenda-cell-time {
+    width: 10%;
+  }
+
+  .agenda-cell-keynote,
+  .agenda-cell-break {
+    width: 90%;
+    line-height: 1.2;
+  }
+
+  .agenda-cell-atelier {
+    border-bottom: none;
+  }
+}

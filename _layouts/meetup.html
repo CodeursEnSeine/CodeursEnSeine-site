@@ -6,7 +6,7 @@
   <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-  <link href="/assets/css/2016/style-devoxx4kids.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/2017/style-meetups.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
   <header class="header-main">
@@ -28,16 +28,58 @@
           </a>
         </div>
         <nav class="nav-main">
-          {% include devoxx4kids/main-nav.html %}
+          {% include meetups/main-nav.html %}
         </nav>
       </div>
     </div>
   </header>
   <main class="content-main">
     <div class="wrapper">
+    <h2>Vos meetups techniques normands!</h2>
+    <div class="row">
+      <div class="col col-1-6">
+        <img src="/assets/img/meetup/njug.jpg" width="100" height="100" alt="Normandy Java User Group"/>
+        <p><a href="https://twitter.com/normandyjug">@normandyjug</a></p>
+      </div>
+      <div class="col col-1-6">
+        <img src="/assets/img/meetup/naug.jpg" width="100"  height="100"  alt="Normandy Agile User Group"/>
+        <p><a href="https://twitter.com/normandyagile">@normandyagile</a></p>
+      </div>
+      <div class="col col-1-6">
+        <img src="/assets/img/meetup/nuxde.png" width="100"  height="100" alt="Normandy Ux Designer"/>
+        <p><a href="https://twitter.com/nuxde_">@nuxde_</a></p>
+      </div>
+      <div class="col col-1-6">
+        <img src="/assets/img/meetup/rouenjs.jpg" width="100" height="100"  alt="Rouen Javascript"/>
+        <p><a href="https://twitter.com/rouenjs">@rouenjs</a></p>
+      </div>
+    </div>
+    <a href="http://www.devoxx.Fr"><img src="/assets/img/meetup/banniere_devoxx_france_horizontale_450_98.png" alt="Devoxx France 2016"></a>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="wrapper">
       {{ content }}
     </div>
   </main>
+  <section class="footer-sponsors">
+    <div class="wrapper">
+      <h2 class="text-center">Sponsors</h2>
+      {% for sponsor in site.data['2016'].sponsors_meetup_2016 %}
+        <a href="{{sponsor.link}}" title="{{sponsor.name}}">
+          <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
+        </a>
+      {% endfor %}
+    </div>
+  </section>
   <footer class="footer-main">
     <div class="wrapper">
       <div class="col col-1-2">
@@ -60,7 +102,7 @@
         <i>&times;</i> <span>fermer</span>
       </a>
     </div>
-    {% include devoxx4kids/main-nav.html %}
+    {% include meetups/main-nav.html %}
   </nav>
 
   <script src="/assets/js/2016/scripts.js"></script>
