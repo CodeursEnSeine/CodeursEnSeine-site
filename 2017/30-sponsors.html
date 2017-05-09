@@ -26,7 +26,7 @@ permalink: /2017/sponsors
     <h3>Sponsors Diamant</h3>
 
     <div class="cards">
-      {% for sponsor in site.data['2017s'].sponsors %}
+      {% for sponsor in site.data['2017'].sponsors %}
         {% if sponsor.type == 'diamond' %}
           {% include 2017/sponsor-card.html premium="true" %}
         {% endif %}

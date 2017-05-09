@@ -1,0 +1,13 @@
+# ###################
+# BRONZE
+# ###################
+
+# -------------------
+# Bear Studio
+# -------------------
+- name: Bear Studio
+  type: bronze
+  logo: logo-small-bearstudio.png
+  link: http://www.bearstudio.fr
+  description: "<p>Vous souhaitez lancer un projet numérique, mais vous ne savez pas par où commencer, ni à qui vous adresser ? Pas de panique, le BearStudio est là pour vous aider !</p>
+  <p>De l’étude de votre environnement au coaching de vos équipes, en passant par le développement de vos solutions numérique, le BearStudio vous accompagne dans toutes les étapes de réflexion et de croissance de votre projet. Notre crédo ? #NoBullshit !</p>"
