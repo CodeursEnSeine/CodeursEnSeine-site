@@ -1,3 +1,17 @@
+# -------------------
+# PLATINE
+# -------------------
+
+# -------------------
+# Saagie
+# -------------------
+- name: Saagie
+  type: platine
+  logo: logo-small-saagie.png
+  link: http://www.saagie.com
+  description: "<p>Saagie est une startup éditant une plateforme AI et Big Data permettant aux entreprises d'accomplir leurs initiatives data en un minimum de temps pour placer la donnée au cœur de leur culture!</p>
+  <p>Présent à Rouen/Seine Innopolis, Paris et San Francisco, nous sommes régéulièrement à la recherches de codeurs java, kotlin, scala, javascript, css pour compléter notre équipe et suivre notre croissance.</p>"
+
 # ###################
 # BRONZE
 # ###################
