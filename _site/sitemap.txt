@@ -67,6 +67,9 @@ http://www.codeursenseine.com/tv
 http://www.codeursenseine.com/sitemap.xml
 http://www.codeursenseine.com/robots.txt
 
+http://www.codeursenseine.com/meetups/2017-06-27/le-futur-de-javascript-et-l-%C3%A9mergence-des-transpileurs-avec-s%C3%A9bastien-pertus
+http://www.codeursenseine.com/meetups/2017-06-17/lancement-microsoft-user-group-normandy
+http://www.codeursenseine.com/meetups/2017-05-29/soir%C3%A9e-big-data
 http://www.codeursenseine.com/meetups/2017-05-01/decouverte-de-vue-js
 http://www.codeursenseine.com/meetups/2017-04-15/devoxx-france-et-rivieradev-talks-%C3%A0-rouen
 http://www.codeursenseine.com/meetups/2017-02-14/rouenjs
