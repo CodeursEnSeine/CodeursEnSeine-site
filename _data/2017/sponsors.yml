@@ -34,9 +34,39 @@
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
+
+- name: SIQUAL
+  type: platine
+  logo: logo-small-siqual.png
+  link: http://www.siqual.fr/
+  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
+
+- name: Enovea
+  type: platine
+  logo: logo-small-enovea.jpg
+  link: http://www.enovea.net/
+  description: ""
+
 # -------------------
 # OR
 # -------------------
+
+- name: Invoke
+  type: or
+  logo: logo-small-invoke.png
+  link: http://www.invoke-software.fr
+  description: "<p>
+  Invoke, éditeur de logiciels de reporting financier et réglementaire depuis 2001, connaît une croissance forte en France comme à l’international.
+</p>
+<p>
+Acteur international de référence en matière de reporting au format XBRL, Invoke se distingue par son innovation et son avancée technologique grâce à une gamme logicielle unique intégrant les dernières technologies de lecture, édition, production et validation d’informations financières au format XBRL.
+</p>
+<p>
+Avec un budget d’ 1/3 de son chiffre d’affaires consacré à la R&D, Invoke ne cesse d’enrichir fonctionnellement sa gamme pour continuer de satisfaire ses clients et poursuivre son évolution rapide.
+</p>
+ <p>
+Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles sont les valeurs portées par les équipes d’ Invoke pour avancer dans le même sens !          </p>
+</p>"
 
 # -------------------
 # ARGENT
@@ -59,4 +89,14 @@
   link: http://www.spreadfamily.fr
   description: "<p>SPREAD est une solution marketing en mode SaaS, permettant aux marques et e-commerçants de construire leur programme d’engagement clients.</p>
   <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
+
+- name: Coaxys
+  type: bronze
+  logo: logo-small-coaxys.png
+  link: http://www.coaxys.com
+  description: "<p>Coaxys est née de la volonté d'écrire des \"success stories\".</p>
+  <p>Quels que soient la taille ou le domaine de votre projet, l'objectif est de conjuguer le savoir-faire de notre équipe expérimentée avec votre connaissance Métier.</p>
+  <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
+  <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
+  <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
 
