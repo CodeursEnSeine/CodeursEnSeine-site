@@ -9,81 +9,45 @@ permalink: /2017/sponsors
 
 <div class="section row">
 
-    <h2>Devenir Sponsor ?</h2>
+  <h2>Devenir Sponsor ?</h2>
 
-    <p>
-      Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
-    </p>
-    <p>
-      Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre d'une politique de recrutement.
-    </p>
-    <p>
-      Si vous souhaitez soutenir l'événement, téléchargez <a href="/assets/doc/CeS-Sponsoring-2017.pdf" target="_blank">le dossier de sponsoring</a>, <a href="/assets/doc/ConventiondeSponsoringCodeursenSeine2017.pdf" target="_blank">la convention de sponsoring</a> et contactez-nous.
-    </p>
+  <p>
+    Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
+  </p>
+  <p>
+    Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre
+    d'une politique de recrutement.
+  </p>
+  <p>
+    Si vous souhaitez soutenir l'événement, téléchargez <a href="/assets/doc/CeS-Sponsoring-2017.pdf" target="_blank">le
+    dossier de sponsoring</a>, <a href="/assets/doc/ConventiondeSponsoringCodeursenSeine2017.pdf" target="_blank">la
+    convention de sponsoring</a> et contactez-nous.
+  </p>
 
-    <h2>Sponsors</h2>
+  <h2>Sponsors</h2>
 
-    <h3>Sponsors Diamant</h3>
+  {% assign levels = 'diamant, ruby, platine, or, argent, bronze' | split: ', ' %}
+
+  {% for level in levels %}
+
+    {% assign sponsors = (site.data['2017'].sponsors | where: "type" , level) %}
+    {% assign size = (sponsors | size) %}
+    {% if size != 0 %}
+    <h3>Sponsors {{ level }}</h3>
 
     <div class="cards">
-      {% for sponsor in site.data['2017'].sponsors %}
-        {% if sponsor.type == 'diamond' %}
+      {% for sponsor in sponsors %}
+        {% if level == 'diamant' or level == 'ruby' %}
           {% include 2017/sponsor-card.html premium="true" %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <hr>
-
-    <h3>Sponsors Platine</h3>
-
-    <div class="cards">
-      {% for sponsor in site.data['2017'].sponsors %}
-        {% if sponsor.type == 'platine' %}
+        {% else %}
           {% include 2017/sponsor-card.html %}
         {% endif %}
       {% endfor %}
     </div>
 
     <hr>
+    {% endif %}
 
-    <h3>Sponsors Or</h3>
-
-    <div class="cards">
-      {% for sponsor in site.data['2017'].sponsors %}
-        {% if sponsor.type == 'gold' %}
-         {% include 2017/sponsor-card.html %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <hr>
-
-    <h3>Sponsors Argent</h3>
-
-    <div class="cards">
-      {% for sponsor in site.data['2017'].sponsors %}
-        {% if sponsor.type == 'argent' %}
-          {% include 2017/sponsor-card.html %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <hr>
-
-    <h3>Sponsors Bronze</h3>
-
-    <div class="cards">
-      {% for sponsor in site.data['2017'].sponsors %}
-        {% if sponsor.type == 'bronze' %}
-          {% include 2017/sponsor-card.html %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <hr>
-
-    <h3>Sponsors Logistique</h3>
-
+  {% endfor %}
 
 </div>
