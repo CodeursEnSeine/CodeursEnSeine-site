@@ -72,6 +72,13 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
 # ARGENT
 # -------------------
 
+- name: Sonarsource
+  type: argent
+  logo: logo-small-sonarsource.png
+  link: http://www.sonarsource.com
+  description: "<p>SonarSource provides world-class solutions for continuous code quality. Its open source and commercial products help customers of all size to manage the code quality of their applications, reduce their risks and ultimately deliver better software.
+  </p><p>SonarSource solutions support development in 20+ programming languages such as Java, C#, Javascript, C/C++, COBOL and more. With 700+ customers around the world including eBay, Thales, BMW and used by more than 80,000 organizations SonarSource's products are the de facto standard solutions on the market.</p>"
+
 # -------------------
 # BRONZE
 # -------------------
@@ -99,4 +106,11 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
   <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
   <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
+
+- name: Ofelias
+  type: bronze
+  logo: logo-small-ofelias.png
+  link: http://ofelias.fr/
+  description: "<p>Ofelias simplifie le quotidien des entreprises normandes. Nous agissons régulièrement et durablement en intégrant des Responsables Système d’Information à temps partagé au cœur des organisations.</p></p>Nous accompagnons les dirigeants pour mettre en adéquation leurs outils informatiques avec les besoins et les usages de leurs collaborateurs.</p>"
 
