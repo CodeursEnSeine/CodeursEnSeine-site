@@ -12,6 +12,10 @@
   }
 }
 
+.clearfix {
+  @include clearfix();
+}
+
 /**
  * Colonnes flottantes en %.
  * Usage :
