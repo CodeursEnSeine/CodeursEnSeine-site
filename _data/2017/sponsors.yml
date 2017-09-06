@@ -6,6 +6,13 @@
 # -------------------
 # RUBY
 # -------------------
+- name: Le Bon Coin
+  type: ruby
+  logo: logo-BONCOIN.png
+  link: www.leboncoin.fr
+  description: "leboncoin aujourd’hui c’est le 1er site de petites annonces français avec 25 millions de VU par mois et plus de 26 millions d’annonces en ligne, dont 800 000 nouvelles au quotidien. C’est aussi une entreprise de 600 salariés avec un esprit startup dans de super locaux modernes avec roof top au cœur de Paris.
+
+                Afin d’accompagner notre forte croissance, proposer de nouvelles features et nouvelles offres à nos utilisateurs et nos clients, nous recherchons des recrues motivées afin de rejoindre une IT de 120 développeurs. Vous développez en Java ? Travailler en transverse avec les autres équipes afin d’accompagner de bout en bout la production vous intéresse ? La qualité d’une appli web, mobile c’est primordial pour vous ? On peut s’entendre ! Nous recrutons des profils Développeurs Java avec une appétence automatisation de test (selenium & appium) comme vous ! L’équipe QA sera sur le stand leboncoin, n’hésitez pas à venir les rencontrer !"
 
 
 # -------------------
