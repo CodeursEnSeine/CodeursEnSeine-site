@@ -85,6 +85,16 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
   description: "<p>SonarSource provides world-class solutions for continuous code quality. Its open source and commercial products help customers of all size to manage the code quality of their applications, reduce their risks and ultimately deliver better software.
   </p><p>SonarSource solutions support development in 20+ programming languages such as Java, C#, Javascript, C/C++, COBOL and more. With 700+ customers around the world including eBay, Thales, BMW and used by more than 80,000 organizations SonarSource's products are the de facto standard solutions on the market.</p>"
 
+- name: Masternaut
+  type: argent
+  logo: logo-masternaut.png
+  link: http://www.masternaut.com
+  description: "Leader français dans le domaine de la télématique automobile, nous avons plus de 20 ans d'expertise en solutions de suivi de flotte et de géolocalisation de véhicule d'entreprise.
+
+                Notre plateforme évolutive met toujours l’utilisateur au premier plan, et notre technologie brevetée fournit en temps réel les informations collectées directement sur le réseau CAN du véhicule. Disposant du plus grand centre Européen de recherche et développement, et d’une équipe de plus de 300 experts en France et au Royaume-Uni, nous pouvons vous aider à optimiser votre flotte.
+
+                Nous souhaitons aujourd'hui entrer en contact avec les ingénieurs de demain et repérer les futurs talents qui intègreront notre entreprise."
+
 # -------------------
 # BRONZE
 # -------------------
