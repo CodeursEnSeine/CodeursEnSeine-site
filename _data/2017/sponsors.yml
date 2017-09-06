@@ -47,6 +47,12 @@
   link: http://www.enovea.net/
   description: ""
 
+- name: LINKT
+  type: platine
+  logo: logo-linkt.png
+  link: http://www.linkt.fr
+  description: "Linkt est le nouvel opérateur télécom B2B du Groupe Altitude. Startup Normande de 100 collaborateurs en fort développement, nous proposons aux PME, Grandes Entreprises et Collectivités des services de téléphonie fixe et mobile, Internet, VPN et services hébergés, et ce sur l’ensemble du territoire métropolitain. Notre métier : offrir des services de télécommunication smart et innovants aux entreprises, en leur garantissant un haut niveau de service et en replaçant les Hommes au centre de la relation client."
+
 # -------------------
 # OR
 # -------------------
