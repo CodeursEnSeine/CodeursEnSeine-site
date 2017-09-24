@@ -23,6 +23,15 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
 
                 Afin d’accompagner notre forte croissance, proposer de nouvelles features et nouvelles offres à nos utilisateurs et nos clients, nous recherchons des recrues motivées afin de rejoindre une IT de 120 développeurs. Vous développez en Java ? Travailler en transverse avec les autres équipes afin d’accompagner de bout en bout la production vous intéresse ? La qualité d’une appli web, mobile c’est primordial pour vous ? On peut s’entendre ! Nous recrutons des profils Développeurs Java avec une appétence automatisation de test (selenium & appium) comme vous ! L’équipe QA sera sur le stand leboncoin, n’hésitez pas à venir les rencontrer !"
 
+# -------------------
+# Sopra Steria
+# -------------------
+- name: Sopra Steria
+  type: ruby
+  logo: logo-small-sopra-steria.jpg
+  link: http://www.soprasteria.com/
+  description: "<p>Sopra Steria, leader européen de la transformation numérique, propose l’un des portefeuilles d’offres les plus complets du marché : conseil, intégration de systèmes, édition de solutions métier, infrastructure management et business process services. Il apporte ainsi une réponse globale aux enjeux de développement et de compétitivité des grandes entreprises et organisations. Combinant valeur ajoutée, innovation et performance des services délivrés, Sopra Steria accompagne ses clients dans leur transformation et les aide à faire le meilleur usage du numérique. Fort de plus de 38 000 collaborateurs dans plus de 20 pays, le Groupe Sopra Steria affiche un chiffre d’affaires de 3,6 milliards d’euros en 2015.</p><p>Pour plus d'informations, retrouvez-nous sur <a href=\"www.soprasteria.com\" target=\"_blank\">www.soprasteria.com</a>.</p>"
+
 
 # -------------------
 # PLATINE
