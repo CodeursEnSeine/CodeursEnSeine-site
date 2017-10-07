@@ -81,10 +81,20 @@
   }
 
   &-room {
+    display: inline-block;
     font-size: .6em;
     text-transform: uppercase;
-    opacity: .6;
     margin-top: auto;
     padding-top: 1em;
+  }
+
+  &-sponsor {
+    display: inline-block;
+    color: white;
+    background: $color-primary;
+    font-size: .8em;
+    margin-left: $marge/8;
+    padding: $marge/16 $marge/8;
+    border-radius: $unpixel*2;
   }
 }

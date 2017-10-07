@@ -164,6 +164,7 @@
     - David Wursteisen
 
 - title: Accessibilité
+  sponsor: true
   time: 12h00
   room: Amphi B
   level: easy | medium | hard
@@ -172,6 +173,7 @@
     - Matmut
 
 - title: Test All The Things @Leboncoin
+  sponsor: true
   time: 12h00
   room: Amphi C
   level: medium
@@ -180,6 +182,7 @@
     - Romain LOUVET
 
 - title: Hololens
+  sponsor: true
   time: 12h00
   room: Amphi C
   level: easy | medium | hard

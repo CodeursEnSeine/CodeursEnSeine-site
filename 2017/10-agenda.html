@@ -54,7 +54,13 @@ permalink: /2017/programme
                     {% endif %}
                   {% endfor %}
                 </div>
-                <span class="agenda-room">{{ talk.room }}</span>
+                <div class="agenda-room">
+                  {{ talk.room }}
+
+                  {% if talk.sponsor %}
+                    <span class="agenda-sponsor">Sponsorisé</span>
+                  {% endif %}
+                </div>
               </div>
             {% endfor %}
           </div>
