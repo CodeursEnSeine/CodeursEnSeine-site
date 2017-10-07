@@ -23,9 +23,19 @@ permalink: /2017/programme
             <div class="agenda-cell-time">{{ time }}</div>
             {% for talk in talks %}
               <div class="agenda-cell agenda-cell-{% if count == 1%}full{% endif %}">
-                <div class="agenda-title">
-                  {{ talk.title }}
-                </div>
+                {% assign mainSpeaker = (site.data['2017'].speakers | where: "name", talk.speakers[0]) %}
+                {% assign mainSpeaker = mainSpeaker[0] %}
+
+                {% if mainSpeaker and talk.desc %}
+                  <a class="agenda-title" href="speakers.html#orateur-{{ mainSpeaker.name | cgi_escape }}">
+                    {{ talk.title }}
+                  </a>
+                {% else %}
+                  <span class="agenda-title">
+                    {{ talk.title }}
+                  </span>
+                {% endif %}
+
                 <div class="agenda-speakers">
                   {% for speakerName in talk.speakers %}
                     {% assign speaker = (site.data['2017'].speakers | where: "name", speakerName) %}

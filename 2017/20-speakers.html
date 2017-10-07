@@ -18,11 +18,14 @@ permalink: /2017/speakers
         <div class="card-inner">
           {% if speaker.image %}
           <div class="card-image">
-            <img height="100" width="100" alt="{{speaker.name}}" src="/assets/img/2016-orateurs/{{speaker.image}}">
+            <img height="100" width="100" alt="{{speaker.name}}" src="{{speaker.image}}">
           </div>
           {% endif %}
           <div class="card-profile">
             <h3 class="card-name">{{speaker.name}}</h3>
+            {% if speaker.company %}
+            <div class="card-company">{{speaker.company}}</div>
+            {% endif %}
             {% if speaker.links %}
             <ul class="card-links">
               {% for link in speaker.links %}
@@ -36,12 +39,13 @@ permalink: /2017/speakers
             {{speaker.bio}}
           </div>
           <div class="card-talks">
-            {% for talk in speaker.talks %}
+            {% assign talks = (site.data['2017'].agenda | where: "speakers" , speaker.name) %}
+            {% for talk in talks %}
             <div class="card-talk">
               <h2 class="card-talk-title">{{talk.title}}</h2>
-              <div class="card-talk-type">{{talk.type}}</div>
+              <div class="card-talk-type">{{talk.time}} - {{talk.room}}</div>
               <div class="card-talk-description js-truncate-text">
-                {{talk.description}}
+                {{talk.desc}}
               </div>
             </div>
             {% endfor %}

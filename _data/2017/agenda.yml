@@ -1,3 +1,12 @@
+## TEMPLATE ##
+#- title: Titre du talk
+#  time: 00h00
+#  room: Amphi A | Amphi B | Amphi C | Amphi D | Salle du conseil
+#  level: easy | medium | hard
+#  desc: "Description"
+#  speakers:
+#    - Nom du speaker
+
 # 8h45
 - title: Plénière - Accueil
   time: 8h45
@@ -5,62 +14,319 @@
   speakers:
     - L'équipe de Codeurs en Seine
 
+# 9h00
+- title: Le développeur Full Stack est mort. Vive le développeur universel !
+  time: 9h00
+  room: Amphi A - Keynote
+  speakers:
+    - Thomas Guenoux
+
 # 9h40
 - title: Pause
   time: 9h40
   room: Atrium
 
 # 10h00
-- title: Angular2 et les standards du web
+- title: BlaBlaCar and the Agile Crusade
   time: 10h00
   room: Amphi A
+  level: medium
+  desc: "L’aventure de l’équipe BlaBlaCar dans sa quête du Saint-Graal de l’Agilité, de son bafouillant début en Scrum jusqu’au temple de la sagesse cachée du Kanban, à travers les eaux tumultueuses de la transition Agile... En clair, nous vous proposons un retour..."
   speakers:
-    - Emmanuel Demey
-    - Plop plop
-- title: SRE @ Criteo, Why What Who How ?
+    - Nicolas Tricot
+    - Francois Esch
+
+- title: Stream Processing avec Apache Flink
   time: 10h00
   room: Amphi B
+  level: easy
+  desc: "Les données sont au coeur de nos applications, et sont créées de façon continue sous forme de flux (stream). L'architecture orientée flux (Streaming Architecture) permet de réduire la latence entre l'émission d'un évènement et les décisions à prendre en fonction des évènements passés et en cours, tout en gardant une architecture globale simple et efficace. Apache Flink est un framework permettant de créer des application orientées flux, avec: Une API en Java et Scala qui facilite l'analyse et le traitement des flux. Intégration avec l'ecosystème Big Data : Kafka, YARN, HDFS, MapR-FS, HBase, MapR DB, Cascading, Elasticsearch). Des fonctionnalités avancées: Complex Event Processing, Machine Learning et Gestion des Graphes de données. Le tout déployé de façon distribuée et hautement disponible. Cette présentation est l'occasion de découvrir Flink, son coeur, ses APIs et l'approche \"streaming first\" pour vos applications. Flink est utilisé en production par de nombreuses entreprises: Bouygues Telecom, Netflix, Alibaba, Ericsson, King, Zalando, et bien d'autres, supporté par la société Data Artisans et une communauté de plus de 140 contributeurs."
   speakers:
-    - Élie Sloïm
-- title: SRE @ Criteo, Why What Who How ?
+    - Tugdual Grall
+
+- title: Microsoft talk 1
   time: 10h00
-  room: Amphi B
+  room: Amphi C
+  # level: easy | medium | hard
+  desc: ""
   speakers:
-    - Nicolas Helleringer
-- title: SRE @ Criteo, Why What Who How ?
+    - Microsoft
+
+- title: Modernisez vos API, passez à GraphQL !
   time: 10h00
-  room: Amphi B
+  room: Amphi D
+  level: easy
+  desc: "Habitués aux API Rest JSON, pire au Soap XML ? Venez découvrir le meilleur des deux mondes, et plus encore. Une approche schema-first, moderne, du typage, de la performance, bref pourquoi s'en passer ?"
   speakers:
-    - Nicolas Helleringer
-- title: SRE @ Criteo, Why What Who How ?
+    - Cédric Dué
+
+- title: Écrire des tests pour le long terme
   time: 10h00
-  room: Amphi B
+  room: Salle du Conseil
+  level: medium
+  desc: "Début de projet, bonne résolution, cette fois on va faire des tests ! Au début tout se passe bien, puis petit à petit les tests commencent à devenir un frein au projet, ils prennent du temps à écrire, à s'exécuter, à modifier, virent au rouge à la moindre modification du code. Nous verrons entre autre comment organiser les tests, quels sont les pièges à éviter et comment améliorer leur lisibilité. Ces différentes techniques permettant d'améliorer la maintenabilité des tests et faire qu'ils aillent même jusqu'à servir de documentation."
   speakers:
-    - Nicolas Helleringer
+    - Charles Desneuf
 
 # 11h00
-- title: Angular2 et les standards du web
+- title: "Retour d'expérience: le déploiement continu chez Expedia"
   time: 11h00
   room: Amphi A
+  level: easy
+  desc: "Développer un site pour plus de 60 millions d’utilisateurs en plusieurs langues et pour plusieurs marques, okay pourquoi pas. Faire du déploiement continu sur une partie critique d’un site (les pages de paiement), ça se tente. Maintenant, mixer les deux et là on commence à avoir du challenge !
+
+         Durant cette présentation, nous verrons comment nous avons relevé le défi en nous appuyant sur de meilleures pratiques de développement et de tests ainsi qu’en choisissant les approches d’amélioration continue et d’automatisation les plus pertinentes pour notre cas d’usage.
+
+         Bien entendu, les solutions évoquées seront un mix entre techniques maison et bonnes pratiques que vous pourrez reprendre telles quelles"
   speakers:
-    - Emmanuel Demey
-- title: SRE @ Criteo, Why What Who How ?
+    - Guillaume Scheibel
+
+- title: L'amélioration progressive, des sites à l'épreuve des balles
   time: 11h00
   room: Amphi B
+  level: easy
+  desc: "On entend souvent tout et n'importe quoi à propos de l'amélioration progressive : double le temps de travail, anti-JavaScript, pour les navigateurs antédiluviens, etc. Tout cela est faux.
+
+         C'est une approche et une façon de concevoir, et surtout de concevoir robuste. En amélioration progressive, on ne se pose pas la question de savoir SI le problème va arriver, mais simplement QUAND il va arriver, et on va le gérer. A partir d'exemples simples, nous verrons comment rendre plus solides vos sites… entre autres bénéfices (accessibilité, référencement, etc.).
+
+         Bref, pour reprendre un slogan connu : l'amélioration progressive, un concept pour les trouver, un concept pour les amener tous et dans le Web les lier."
   speakers:
-    - Nicolas Helleringer
-- title: SRE @ Criteo, Why What Who How ?
+    - Hoffmann Nicolas
+
+- title: Du monolithe aux micro services depuis les tranchées.
   time: 11h00
-  room: Amphi B
+  room: Amphi C
+  level: medium
+  desc: "Nos projets sont en train de passer à une architecture micro-services, la solution toute trouvée pour sortir du monolithe legacy, permettre de reprendre contrôle de notre logiciel et de se remettre à livrer de la valeur.
+
+         Mais est-ce si simple ?
+
+         Dans cette présentation, nous aimerions vous partager cette expérience avec :
+
+         les difficultés de mettre en place une architecture distribuée
+         les pièges à éviter
+         les éléments techniques à mettre à place
+         les enjeux culturels et d'organisation
+         ou encore comment gérer les domaines fonctionnels et leurs interactions.
+         Finalement nous poserons la question importante : micro-services = silver bullet ?"
   speakers:
-    - Nicolas Helleringer
-- title: SRE @ Criteo, Why What Who How ?
+    - Yannick Grenzinger
+    - David Panza
+
+- title: Découvrir Android Things, et exterminer les reptiliens
   time: 11h00
-  room: Amphi B
+  room: Amphi D
+  level: easy
+  desc: "Que vous y croyez ou non, les reptiliens sont partout, et on n'a jamais été vraiment prêt à pouvoir les affronter.
+         On N'ÉTAIT pas prêt... Mais maintenant qu'Android Things est sorti, ils vont moins faire les malins, vous allez voir.
+
+         C'est sûr que, lorsqu'on a enfin réussi à faire des applications pour mobile qui déchirent, ça les dérangeait pas trop, eux... Mais maintenant qu'on peut utiliser la puissance d'Android pour créer des objets physiques, on va moins les entendre.
+
+         Ensemble, nous allons découvrir Android Things, et voir comment nous pouvons créer une machine se déplaçant, et permettant de détecter les reptiliens (avec des capteurs tactiles, de température, et du machine learning), mais aussi permettant de les exterminer (d'ailleurs si les orgas pouvaient me prêter un lance flamme, ça ferait une super démo).
+
+         Comment ? Avec un Raspberry Pi, un Arduino, et en découvrant et utilisant toutes les APIs spécifiques à Android Things : gpio, pwm, i2c, spi, uart, permettant d’interagir avec des composants du monde réel (enfin, \"réel\", vous m'avez compris...).
+
+         Ce talk est d'utilité publique, et pour tout niveau.
+         Si ahaha vous pensez qu'on est ahah dans la conspiration, venez quand même ça peut toujours vous être utile.
+         ahahah conspiration ahahaha"
   speakers:
-    - Nicolas Helleringer
-- title: SRE @ Criteo, Why What Who How ?
+    - Gautier Mechling
+
+- title: Pimentez votre "carto" avec du temps réel
   time: 11h00
-  room: Amphi B
+  room: Salle du conseil
+  level: medium
+  desc: "Le temps réel : c'est facile et rapide avec le protocole ServerSentEvent - (NodeJS, RabbitMQ, protocole SSE)
+
+         Partez d’une base Node, saupoudrez d’un peu de RabbitMQ, puis ajoutez du SSE et vous obtiendrez une belle carte interactive temps réel.
+
+         Venez découvrir comment en quelque lignes de code, il est possible d’avoir une carte de France sur laquelle s’affiche en temps réel des messages issus de RabbitMQ.
+
+         Dans ce talk, on verra comment en 2-3 cuillères à pot :
+
+         créer un serveur NodeJS
+         répondant à des requêtes SSE
+         écoutant ce qui se passe sur RabbitMQ
+         mettant à dispo une IHM avec une carte de France à destination de tout navigateur (ou presque :) )
+         créer un simulateur NodeJS lançant des messages sur RabbitMQ"
   speakers:
-    - Nicolas Helleringer
+    - David DE CARVALHO
+
+# 12h00
+- title: Développer un jeu vidéo (quand on n’y connait rien en développement de jeux vidéo)
+  time: 12h00
+  room: Amphi A
+  level: easy
+  desc: "Comment on développe un jeu vidéo ? Est-ce compliqué d’afficher un personnage sur l’écran et de le faire bouger par la suite ? Programmer un jeu est-il comparable à programmer un application backend ? Quels sont les outils à utiliser ? Comment rendre un jeu amusant ?
+
+         J’ai dû me poser ces questions pour réaliser mon premier jeu mobile. Ce quickie essayera d’y répondre et fera un retour sur les différentes expérimentations réalisées avant d’obtenir un jeu."
+  speakers:
+    - David Wursteisen
+
+- title: Accessibilité
+  time: 12h00
+  room: Amphi B
+  level: easy | medium | hard
+  desc: ""
+  speakers:
+    - Matmut
+
+- title: Test All The Things @Leboncoin
+  time: 12h00
+  room: Amphi C
+  level: medium
+  desc: "L'automatisation au service de la qualité ! Web responsive, Android, iOS : 3 plateformes, 1 projet de test unique. Venez découvrir comment nous avons mutualisé les tests end-to-end chez Leboncoin. Un même test peut être alors exécuté indépendamment sur toutes les plateformes. Pour le web, nos tests sont exécutés dans le cloud chez Saucelabs. Cependant pour la partie mobile, nous avons monté notre propre banc de tests (30 vrais devices). Une démonstration vidéo viendra clore ce talk."
+  speakers:
+    - Romain LOUVET
+
+- title: Hololens
+  time: 12h00
+  room: Amphi C
+  level: easy | medium | hard
+  desc: "Description"
+  speakers:
+    - Sopra
+
+- title: S'organiser comme un robot pour vivre comme un humain
+  time: 12h00
+  room: Salle du conseil
+  level: easy
+  desc: "Très attaché au logiciel libre pour découvrir comment les autres développeurs programment et comment ces projets fonctionnent, j’aime le code ! Développeur C, puis web, puis Java EE, puis PHP, puis Android, puis… Le langage de programmation n’est qu’un moyen pour moi. En tant qu’architecte je suis continuellement partagé entre “aller vite” et “s’attarder sur les détails”."
+  speakers:
+    - Sébastien LECACHEUR
+
+# 12h15
+- title: Buffet
+  time: 12h15
+  room: Atrium
+
+# 13h40
+- title: Cessons les estimations !
+  time: 13h40
+  room: Amphi A - Keynote
+  speakers:
+    - Frédéric Leguédois
+
+# 14h30
+- title: CSS, tu peux pas test !
+  time: 14h30
+  room: Amphi A
+  level: medium
+  desc: "Il est très facile de faire une modification en CSS. Il est par contre plus difficile de s'assurer que ce changement ne produit pas des conséquences indésirables ailleurs dans votre projet. Quelle que soit l’énergie que vous y investirez, un niveau de qualité n’est jamais un acquis en CSS ! Dans un contexte où les tests et l’intégration continue sont devenus la norme dans les langages algorithmiques, comment expliquer le manque d’outils du côté de ce langage déclaratif ?
+
+         Même si je montre du doigt le manque d’outils pour pérenniser un niveau de qualité dans l’intégration web, mon message n’est pas négatif. Je me réjouis des initiatives qui existent déjà, de celles que j’essaye de mettre en place sur 6play pour M6Web, et de celles dont on peut rêver ensemble.
+
+         Imaginons un moment les outils pour faciliter les revues de code CSS. Serait-il possible d’être informé des composants et des pages qui ont été modifiées ? Des navigateurs et des tailles d’écrans impactées par vos changements ? De détecter le non-respect des règles liés aux méthodologies que vous avez choisies ? Quels outils existent déjà ? Surtout, quels impacts auraient ces outils sur votre équipe, votre projet et votre produit ?"
+  speakers:
+    - Thomas Zilliox
+
+- title: Kotlin, le renouveau de Java ?
+  time: 14h30
+  room: Amphi B
+  level: easy
+  desc: "\"One More Thing\", c’est par la célèbre phrase de Steve Jobs que Stephanie Saad Cuthbertson, Product Manager chez Android, conclut son intervention lors de la conférence du Google/io 2017 qui s’est tenue le 17 mai 2017 à Mountain View. Après avoir prononcé ces trois mots, elle annonce l'officialisation du support du langage Kotlin pour la plateforme Android. S'ensuit une explosion de joie dans l'amphithéâtre qui se propage massivement sur les réseaux sociaux. Pourquoi et comment un produit, dont Google n'est même pas l'auteur, peut-il provoquer autant d’engouement ?"
+  speakers:
+    - David Wursteisen
+
+- title: La semaine de 168 heures
+  time: 14h30
+  room: Amphi C
+  level: easy
+  desc: "Le bonheur au travail, c'est pas simple, il faut : 1- séparer sa vie professionnelle de sa vie personnelle 2- bien connaitre sa cible et avoir une bonne connaissance de la concurrence 3- savoir communiquer et séduire 4- fixer un tarif adapté en appliquant la bonne marge 5- ...
+
+         OU PAS !"
+  speakers:
+    - Stéphane Langlois
+
+- title: "TECHnostérone et UXtrogènes : c'est l'heure du bilan hormonal"
+  time: 14h30
+  room: Amphi D
+  level: easy
+  desc: "Avez-vous remarqué que presque tous les développeurs sont des barbus ? En excès de TECHnostérone, notre monde de la tech reproduit dans nos applications et services les biais sexistes (et racistes, validistes, classistes…) de la société. La solution : les UXtrogènes. Et tout le monde en a : chaque choix technique a un impact sur l'expérience utilisateur. Et au-delà même de l'expérience utilisateur individuelle, certaines décisions deviennent de véritables choix de société. Alors, comment équilibrer TECHnostérone et UXtrogènes ? Le plus simple c'est d'avaler un tube complet d'HOMMéempathie ! Allons jeter un œil ensemble du côté des biais cognitifs, des stéréotypes de genre, de la neutralité technologique et même de l'empathie, pour comprendre comment concevoir des outils qui s'adressent à tout le monde sans exception."
+  speakers:
+    - Goulven Champenois
+
+# 15h20
+- title: Pause
+  time: 15h20
+  room: Atrium
+
+# 15h40
+- title: "Sur le chemin de la qualité : en équipe et dès demain !"
+  time: 15h40
+  room: Amphi A
+  level: easy
+  desc: "Ça y est ! C’est décidé ! Vous allez construire des applications de meilleure qualité. Vous êtes convaincu(e) que, pour cela, certaines pratiques de développement sont fondamentales comme par exemple les revues de code ou les tests unitaires automatisés.
+
+         Mais le problème, c’est que vos collègues n’en font pas. Ou que, vous-même, vous avez essayé, mais sans en faire systématiquement dans les projets. Parce que « c’est trop cher on n’a pas le temps », « je ne connais pas », « on ne m’écoutera pas », « ça ne marchera pas chez nous », « je crains les remarques sur mon code »...
+
+         Mais alors, comment vous y mettre sur votre projet ? Et comment faire en sorte que vos collègues s’y mettent également ?
+
+         Après cette conférence, quand vous reviendrez sur votre plateau projet, vous aurez quelques éléments à essayer tout de suite. Et peut-être de quoi élaborer un plan de bataille pour que vous et votre équipe soyez fiers de votre code et ainsi conquérir le monde ! ;-)"
+  speakers:
+    - Julien Jakubowski
+
+- title: "Web Components: It's all rainbows and unicorns! Is it?"
+  time: 15h40
+  room: Amphi B
+  level: medium
+  desc: "Web components are a tale of four w3c specifications. They are a hot topic now. We’ve all seen big headlines, for instance, “The Web Components revolution”, “Web Components are a game changer”, “A Tectonic Shift for Web Development”, … and so many others. They are certainly exciting and promising, nevertheless, there are some factors holding them back such as performance issues and lack of browser support. Some features seems to be more hassle than they’re worth. In this talk you’ll examine web components from a pragmatic stand point. So if you want to start using web components in production, come to learn what features can you use today. Actually, despite the still short browser support, some of web components features seems to be the best choice to start with . The assessment you’ll learn is the reflection of my personal research and work on my spare time and also feedbacks from my co-workers."
+  speakers:
+    - Sara HARKOUSSE
+
+- title: Hexagonal Architecture from scratch (live-coding)
+  time: 15h40
+  room: Amphi C
+  level: medium
+  desc: "Pierre angulaire de nombreuses applications à la sauce \"DDD\", l'architecture hexagonale (a.k.a. \"Ports and Adapters\") est un pattern d'architecture assez génial pour pouvoir accepter facilement toute demande de changement (de base de données, de monitoring, de middleware, etc.). Tout le monde en parle ? moi je vais vous l'expliquer tout en live-codant."
+  speakers:
+    - Thomas Pierrain
+
+- title: Les requêtes HTTP de l'extrême
+  time: 15h40
+  room: Amphi D
+  level: medium
+  desc: "HTTP est un protocole que tous les développeurs connaissent. Mais que se passe t'il lorsque ce protocole est poussé dans ses retranchements ? Quel est l'impact des load balancers, proxy, serveurs et autres machines qui se trouvent sur le passage de ces requêtes ? Et lorsque les téléchargements durent plusieurs jours ou transfèrent des téraoctects de données ? Et surtout, comment les navigateurs gèrent ces cas extrêmes ?"
+  speakers:
+    - Vincent Cassé
+
+# 16h40
+- title: Ce que vous devez savoir de la programmation fonctionnelle
+  time: 16h40
+  room: Amphi A
+  level: medium
+  desc: "Lorsqu'un javaiste fait de la programmation fonctionnelle (FP), le kotlinien sourit 😊, le clojurien se marre 😂, le scalafiste™️ est pris de panique 😱 et l'haskelliste l'ignore complètement 🚶. Afin de mieux comprendre ces réactions, je vous propose de nous concentrer autour des questions suivantes :
+
+         Quels sont les principes de la FP ?
+         Qu'est-ce qui différencie la FP des autres paradigmes et à quoi s'oppose-t-elle ?
+         Comment se place la FP dans les enjeux actuels ?
+         Et surtout qu'est-ce que la programmation fonctionnelle ?
+         Vous trouverez dans cette présentation les arguments pour adopter la FP, l'état d'esprit nécessaire pour comprendre ce paradigme et des critiques sur votre approche du développement. Cette présentation est aussi le résultat d'une réflexion que j'ai lancée avec d'autres développeurs pour comprendre et expliquer la programmation fonctionnelle."
+  speakers:
+    - François Sarradin
+
+- title: TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles
+  time: 16h40
+  room: Amphi B
+  level: easy
+  desc: "Nos activités au quotidien sont liées au temps. Pourquoi ne pas utiliser des bases temporelles (time series databases) pour stocker et exploiter vos données temporelles ? Que ce soit pour du monitoring, du suivi de transaction, tenir un journal de bord ou tout autre projet, une base temporelle peut répondre à votre besoin. Nous verrons cela au travers de la présentation de la plateforme TICK (Telegraf, InfluxDB, Chronograf et Kapacitor) et de Grafana que j'utilise depuis maintenant 2 ans dans divers contextes."
+  speakers:
+    - Nicolas Steinmetz
+
+- title: La visualisation de données en JavaScript sans D3.js
+  time: 16h40
+  room: Amphi C
+  level: easy
+  desc: "Pour développer une visualisation de données, il faut généralement un algorithme (plus ou moins compliqué) d'un côté, et de l'autre un moteur de rendu. Et si d3.js résout aujourd'hui très bien la question des algorithmes, il est très souvent simplement branché sur du SVG. Pourtant, l'écosystème du rendu graphique sur le web est très riche, entre des standards robustes (SVG, Canvas, WebGL...) et des bibliothèques JavaScript très diverses, telles que Pixi.js ou encore three.js. L'objectif de cette présentation sera de mettre en valeur la mixité de ces solutions, à travers différents exemples de visualisations originales et variées."
+  speakers:
+    - Alexis Jacomy
+
+- title: README.book
+  time: 16h40
+  room: Amphi D
+  level: medium
+  desc: "Le livre représente un idéal certain, même en 2017 : écrire un livre c'est bien, être publié c'est bien et ça fait de nous quelqu'un·e de bien. En tous cas vu de loin, ça a l'air bien mieux que d'écrire le README d'un projet ou sa documentation, un papier scientifique ou encore un rapport qu'on nous a demandé pour avant-hier.
+
+         L'écriture d'un README et celle d'un livre sont-elles si différentes que ça ? Du numérique au papier, du stylo au clavier et d'un commit git au fichier ODT, nous verrons comment infuser la culture du web dans l'édition via des contenus et des formats ouverts, les pratiques collaboratives, entre autres."
+  speakers:
+    - Parisot Thomas

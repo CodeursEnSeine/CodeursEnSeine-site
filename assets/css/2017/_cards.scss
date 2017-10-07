@@ -50,7 +50,11 @@
     left: $marge / 2;
     width: 80px;
     height: 80px;
-    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: $unpixel*4;
+    overflow: hidden;
+    background: $color-dark;
     border: $unpixel solid rgba(0, 0, 0, .1);
   }
 
@@ -69,6 +73,16 @@
     font-size: 1.2rem;
     margin: 0;
     margin-bottom: .4rem;
+  }
+
+  .card-name + .card-company {
+    margin-top: -.4rem;
+    margin-bottom: .4rem;
+  }
+
+  .card-company {
+    font-size: .9rem;
+    opacity: .6;
   }
 
   .card-links {
@@ -121,9 +135,11 @@
   padding-top: $marge / 2;
 }
 
-.card-talk {}
+.card-talk + .card-talk {
+  margin-top: $marge / 2;
+}
 .card-talk-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 0;
   margin-bottom: .6rem;
 }
@@ -176,8 +192,8 @@
   }
 
   .card-name {
-    margin: 0;
     font-size: 1.4rem;
+    margin: 0;
     margin-bottom: $marge / 4;
   }
 
