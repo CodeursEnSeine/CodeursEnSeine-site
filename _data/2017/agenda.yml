@@ -1,0 +1,66 @@
+# 8h45
+- title: Plénière - Accueil
+  time: 8h45
+  room: Amphi A - Plénière
+  speakers:
+    - L'équipe de Codeurs en Seine
+
+# 9h40
+- title: Pause
+  time: 9h40
+  room: Atrium
+
+# 10h00
+- title: Angular2 et les standards du web
+  time: 10h00
+  room: Amphi A
+  speakers:
+    - Emmanuel Demey
+    - Plop plop
+- title: SRE @ Criteo, Why What Who How ?
+  time: 10h00
+  room: Amphi B
+  speakers:
+    - Élie Sloïm
+- title: SRE @ Criteo, Why What Who How ?
+  time: 10h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer
+- title: SRE @ Criteo, Why What Who How ?
+  time: 10h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer
+- title: SRE @ Criteo, Why What Who How ?
+  time: 10h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer
+
+# 11h00
+- title: Angular2 et les standards du web
+  time: 11h00
+  room: Amphi A
+  speakers:
+    - Emmanuel Demey
+- title: SRE @ Criteo, Why What Who How ?
+  time: 11h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer
+- title: SRE @ Criteo, Why What Who How ?
+  time: 11h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer
+- title: SRE @ Criteo, Why What Who How ?
+  time: 11h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer
+- title: SRE @ Criteo, Why What Who How ?
+  time: 11h00
+  room: Amphi B
+  speakers:
+    - Nicolas Helleringer

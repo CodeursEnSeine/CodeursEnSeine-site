@@ -1,0 +1,13 @@
+- name: Élie Sloïm
+  image: orateur-sloim.jpg
+  bio: <p>Elie Sloïm est fondateur de la société Temesis et du projet Opquast, écosystème dédié à la qualité du Web. Chimiste de formation, il s’est tout d’abord spécialisé dans le management de la qualité en laboratoire, métier qu’il a exercé dans le domaine du pétrole puis du vin, deux produits qu’il s’efforce depuis de consommer avec modération. Vers 2000, il décide de travailler sur la qualité du Web. Depuis, il roule sa bosse sur le Web et partage son temps entre les conférences, les missions de conseil, d’expertise, de formation, la création de référentiels de bonnes pratiques, l’écriture de livres (Qualité Web, chez Eyrolles), d'articles ou de préfaces. Il assure actuellement la direction de la société Opquast.</p>
+  links:
+    - label: Twitter
+      url: https://twitter.com/ElieSl
+
+- name: Plop plop
+  image: orateur-sloim.jpg
+  bio: <p>Elie Sloïm est fondateur de la société Temesis et du projet Opquast, écosystème dédié à la qualité du Web. Chimiste de formation, il s’est tout d’abord spécialisé dans le management de la qualité en laboratoire, métier qu’il a exercé dans le domaine du pétrole puis du vin, deux produits qu’il s’efforce depuis de consommer avec modération. Vers 2000, il décide de travailler sur la qualité du Web. Depuis, il roule sa bosse sur le Web et partage son temps entre les conférences, les missions de conseil, d’expertise, de formation, la création de référentiels de bonnes pratiques, l’écriture de livres (Qualité Web, chez Eyrolles), d'articles ou de préfaces. Il assure actuellement la direction de la société Opquast.</p>
+  links:
+    - label: Twitter
+      url: https://twitter.com/ElieSl
