@@ -217,3 +217,11 @@
       url: https://twitter.com/oncletom
     - label: Github
       url: https://github.com/oncletom
+
+- name: Charles-Henri Sauget
+  image: http://scop-it.com/assets/img/charles-henri.jpg
+  company: dtc innovation
+  bio: "Consultant et MVP Data Platform, passionné de SQL Server,Azure Data Insight (Stream Analytics, ADF, ADL ...) ou encore de PowerBI !"
+  links:
+    - label: Twitter
+      url: https://twitter.com/saugetch

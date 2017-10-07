@@ -249,6 +249,14 @@
   speakers:
     - Goulven Champenois
 
+- title: Intégrer du reporting dans vos applications avec PowerBi Embedded
+  time: 14h30
+  room: Salle du conseil
+  level: easy
+  desc: "Trop souvent dissociées, applications opérationnelles et décisionnelles peuvent maintenant être réconciliées avec PowerBI. Celui-ci permet en effet de décolérer la charge analytique de la charge transactionnelle de vos bases en maîtrisant simplement la fréquence de chargement de vos données tout en étant intégrable au sein de vos applications. Nous parlerons donc de PowerBI Embedded de l’utilisation de son API Javascript ainsi et des nombreux intérêts d’une telle architecture."
+  speakers:
+    - Charles-Henri Sauget
+
 # 15h20
 - title: Pause
   time: 15h20
@@ -293,6 +301,14 @@
   speakers:
     - Vincent Cassé
 
+- title: Microsoft talk 2
+  time: 15h40
+  room: Salle du conseil
+  # level: easy | medium | hard
+  desc: ""
+  speakers:
+    - Microsoft
+
 # 16h40
 - title: Ce que vous devez savoir de la programmation fonctionnelle
   time: 16h40
@@ -333,3 +349,11 @@
          L'écriture d'un README et celle d'un livre sont-elles si différentes que ça ? Du numérique au papier, du stylo au clavier et d'un commit git au fichier ODT, nous verrons comment infuser la culture du web dans l'édition via des contenus et des formats ouverts, les pratiques collaboratives, entre autres."
   speakers:
     - Parisot Thomas
+
+- title: Microsoft talk 3
+  time: 16h40
+  room: Salle du conseil
+  # level: easy | medium | hard
+  desc: ""
+  speakers:
+    - Microsoft
