@@ -18,6 +18,10 @@
     color: white;
     background: $color-dark;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     @media only screen and (min-width: $mq-992) {
       flex: none;
       min-width: 6rem;
