@@ -9,6 +9,23 @@
 #    - label: Github
 #      url: https://github.com/
 
+
+- name: Thomas Guenoux
+  company: Commit Strip
+  image: https://pbs.twimg.com/profile_images/751049580654002176/xmFr7Qxr_400x400.jpg
+  bio: "Co-founder & Chief Operating Officer at @KRDS, leading Social Media Agency. Founder of @CommitStrip."
+  links:
+    - label: Twitter
+      url: https://twitter.com/thomasgx
+
+- name: Frédéric Leguédois
+  company: Cloud Temple
+  image: http://www.leguedois.fr/assets/avatar_2015.png
+  bio: "Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe."
+  links:
+    - label: Twitter
+      url: https://twitter.com/f_leguedois
+
 - name: Nicolas Tricot
   company: BlaBlaCar
   bio: "Après avoir fait une école d’informatique (EPITA) et développé dans le monde web pendant près de 10 ans, j’ai adopté la casquette du management pour améliorer la vie de nos équipes de développement et leur apporter tout le soutien humain, matériel et organisationnel nécessaire à la réussite de nos projets. J’ai rejoint BlaBlaCar en mars 2014 pour renforcer et faire grandir l’équipe de développement tant par le recrutement de nouveaux talents que par l’évolution de nos méthodes de travail pour anticiper l’organisation de demain."

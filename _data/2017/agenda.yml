@@ -18,6 +18,10 @@
 - title: Le développeur Full Stack est mort. Vive le développeur universel !
   time: 9h00
   room: Amphi A - Keynote
+  desc: "Après un rappel des 2 premières révolutions industrielles, Thomas nous a expliqué que l’informatique était la troisième révolution industrielle, et qu’aujourd’hui l’algorithme fait foi, car c’est lui qui choisit les mises en avant sur Facebook, les recommandations pour le repas du midi, le chemin à prendre en voiture, etc etc.
+En tant que développeur, nous passons beaucoup de temps à nous former sur des frameworks/technologies, à faire de la veille en lisant des articles dans le métro, à la pause de midi, le soir…
+Mais cette technologie n’est qu’un outil, qui nous sert à créer des choses. Il nous faut penser plus loin que le code, prendre du recul. Nous sommes les artisans de cette révolution industrielle, et ce sont nos choix qui façonneront le monde de demain. Cette révolution préfigure la prochaine révolution industrielle, qui sera l’IA.
+On va encore moins dormir."
   speakers:
     - Thomas Guenoux
 
@@ -207,6 +211,10 @@
 - title: Cessons les estimations !
   time: 13h40
   room: Amphi A - Keynote
+  desc: "Effets néfastes et alternatives aux estimations
+Alors que les estimations sont à la base des méthodes classiques et que dans le domaine Agile, SCRUM notamment lui accorde une grande importance, nous allons l’espace d’une conférence remettre en cause celles-ci.
+Après un bref rappel de différentes méthodes permettant de réaliser des estimations et croyances qui y sont attachées, nous prendrons le temps de réfléchir sur les effets néfastes de ces dernières. Enfin, nous verrons comment dans la réalité des projets, il est possible de s’en extraire.
+Présentation sans jargon ourverte à toute personne ayant des notions de gestion de projet."
   speakers:
     - Frédéric Leguédois
 
