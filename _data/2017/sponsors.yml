@@ -218,3 +218,18 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
     <p>Fort de notre expertise et certifications PHP et Zend Framework, nous aidons les sociétés dans la formation de leurs collaborateurs, la reprise ou la réalisation de leurs projets sur-mesures et innovants.</p>
     <p>Nous accordons une grande importance au conseil, à l'ergonomie, l'expérience utilisateur, la sécurité et la qualité technique, ainsi qu'à la réussite globale des projets.</p>"
 
+- name: Orone
+  type: bronze
+  logo: logo-small-orone.png
+  link: http://www.orone.com
+  description: "<p>Editeur de solutions logicielles de digitalisation du dossier de souscription et de dématérialisation des moyens de paiement, Orone développe et propose de nouvelles offres de rupture à forts enjeux, disponibles dans le cloud, en inscrivant l’innovation au cœur de sa croissance.</p
+  <ul>
+    <li>
+      Substech facilite la constitution et la gestion du dossier unique d’identification client - <a href=\"http://www.substech.io\" target=\"_blank\">www.substech.io</a>
+    </li>
+    <li>
+      Wecheck accélère et fiabilise l’encaissement de vos chèques - <a href=\"http://www.wecheck.io\" target=\"_blank\">www.wecheck.io</a>
+    </li>
+  </ul>
+  <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
+
