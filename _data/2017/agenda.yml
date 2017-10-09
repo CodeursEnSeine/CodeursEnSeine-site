@@ -48,13 +48,13 @@ On va encore moins dormir."
   speakers:
     - Tugdual Grall
 
-- title: Microsoft talk 1
+- title: Coming soon
   time: 10h00
   room: Amphi C
   # level: easy | medium | hard
   desc: ""
   speakers:
-    - Microsoft
+    - #Microsoft
 
 - title: Modernisez vos API, passez à GraphQL !
   time: 10h00
@@ -167,7 +167,7 @@ On va encore moins dormir."
   speakers:
     - David Wursteisen
 
-- title: Accessibilité
+- title: REX Accessibilité à la Matmut
   sponsor: true
   time: 12h00
   room: Amphi B
@@ -309,13 +309,15 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   speakers:
     - Vincent Cassé
 
-- title: Microsoft talk 2
+- title: Nouveautés .Net Core 2.0
   time: 15h40
   room: Salle du conseil
-  # level: easy | medium | hard
-  desc: ""
+  level: easy
+  desc: "Dotnet Core 2.0 intègre son lot de nouveautés et passe un cap en matière d’intégration sous Linux et ARM. Avec lui, viennent d'autres nouveautés telles que le Dotnet standard 2.0, l’ASP. NET Core 2.0 et Entity Framework 2.0.
+
+         Découvrez le tour d’horizon des nouveautés réalisées par les équipes Microsoft."
   speakers:
-    - Microsoft
+    - Clément Sannier
 
 # 16h40
 - title: Ce que vous devez savoir de la programmation fonctionnelle
@@ -358,10 +360,10 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   speakers:
     - Parisot Thomas
 
-- title: Microsoft talk 3
+- title: Comment tirer parti des plateformes Azure et Office365 pour développer et déployer rapidement des solutions collaboratives
   time: 16h40
   room: Salle du conseil
-  # level: easy | medium | hard
-  desc: ""
+  level: hard
+  desc: "A travers un retour d'expérience sur la mise en oeuvre d'un complément SharePoint en MVC, hébergé sur Azure et dont les données sont stockées dans une base CosmosDB, nous verrons comment organiser et mettre en place les différentes briques pour faciliter au maximum les déploiements et limiter la dépendance à la disponibilité des infrastructures."
   speakers:
-    - Microsoft
+    - Thibaut MOLLET
