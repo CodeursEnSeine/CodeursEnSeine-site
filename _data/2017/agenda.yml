@@ -309,13 +309,13 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   speakers:
     - Vincent Cassé
 
-- title: Nouveautés .Net Core 2.0
+- title: .Net Core, le Framework open source et multiplateforme de Microsoft, passe en version 2.0. Découvrez les nouveautés
   time: 15h40
   room: Salle du conseil
   level: easy
-  desc: "Dotnet Core 2.0 intègre son lot de nouveautés et passe un cap en matière d’intégration sous Linux et ARM. Avec lui, viennent d'autres nouveautés telles que le Dotnet standard 2.0, l’ASP. NET Core 2.0 et Entity Framework 2.0.
+  desc: "Dotnet Core 2.0 continue sa lancé sous Linux mais également sous ARM. Avec cette nouvelle version, arrive d'autres nouveautés telles que le Dotnet standard 2.0, l’ASP. NET Core 2.0 et Entity Framework 2.0 pour le plus grand plaisir des développeurs.
 
-         Découvrez le tour d’horizon des nouveautés réalisées par les équipes Microsoft."
+Découvrez le tour d’horizon des nouveautés réalisées par la communauté Microsoft ainsi que la migration de projet .Net Core 1.1 vers 2.0."
   speakers:
     - Clément Sannier
 
