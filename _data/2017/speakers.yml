@@ -237,7 +237,7 @@
 
 - name: Charles-Henri Sauget
   image: http://scop-it.com/assets/img/charles-henri.jpg
-  company: dtc innovation
+  company: Scop'it
   bio: "Consultant et MVP Data Platform, passionné de SQL Server,Azure Data Insight (Stream Analytics, ADF, ADL ...) ou encore de PowerBI !"
   links:
     - label: Twitter
