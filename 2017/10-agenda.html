@@ -28,11 +28,11 @@ permalink: /2017/programme
 
                 {% if mainSpeaker and talk.desc %}
                   <a class="agenda-title" href="speakers.html#orateur-{{ mainSpeaker.name | cgi_escape }}">
-                    {{ talk.title }}
+                    {{ talk.title | truncate: 90 }}
                   </a>
                 {% else %}
                   <span class="agenda-title">
-                    {{ talk.title }}
+                    {{ talk.title | truncate: 90 }}
                   </span>
                 {% endif %}
 
