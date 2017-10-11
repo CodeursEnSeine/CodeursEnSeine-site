@@ -198,7 +198,9 @@ On va encore moins dormir."
   time: 12h00
   room: Salle du conseil
   level: easy
-  desc: "Très attaché au logiciel libre pour découvrir comment les autres développeurs programment et comment ces projets fonctionnent, j’aime le code ! Développeur C, puis web, puis Java EE, puis PHP, puis Android, puis… Le langage de programmation n’est qu’un moyen pour moi. En tant qu’architecte je suis continuellement partagé entre “aller vite” et “s’attarder sur les détails”."
+  desc: "Vous faites 10 000 \"trucs\" dans une journée et pourtant vous n'avez pas l'impression d'avancer... Pire ! Vous avez l'impression de vous enliser un peu plus chaque jour : votre boite mail explose, vous n'avez plus assez de place pour tous vos post-it, votre todo-list tient en 3 tomes, etc...
+
+         Il est temps de reprendre le contrôle de votre vie !"
   speakers:
     - Sébastien LECACHEUR
 
