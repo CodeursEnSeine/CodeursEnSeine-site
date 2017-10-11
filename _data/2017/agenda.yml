@@ -266,6 +266,7 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   desc: "Trop souvent dissociées, applications opérationnelles et décisionnelles peuvent maintenant être réconciliées avec PowerBI. Celui-ci permet en effet de décolérer la charge analytique de la charge transactionnelle de vos bases en maîtrisant simplement la fréquence de chargement de vos données tout en étant intégrable au sein de vos applications. Nous parlerons donc de PowerBI Embedded de l’utilisation de son API Javascript ainsi et des nombreux intérêts d’une telle architecture."
   speakers:
     - Charles-Henri Sauget
+    - Olivier Marguillard
 
 # 15h20
 - title: Pause
