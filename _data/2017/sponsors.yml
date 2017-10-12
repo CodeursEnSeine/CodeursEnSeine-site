@@ -114,6 +114,18 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   link: http://www.maecia.com
   description: "Avec une vingtaine de collaborateurs, Maecia est une agence digitale qui se caractérise par la performance et l'innovation digitales. Tous spécialistes du web : consultants, chefs de projet web, web designers, développeurs front-end et back-end. Depuis 2007, Maecia a conçu plus de 400 sites et webapps, principalement sur les technologies PHP (Drupal, Symfony et Wordpress) et JS (Node.js, Vue.js et Electron.js). Parmi nos projets cools du moment : l'intranet mondial d'Hermès, un générateur de micro-sites pour Pernod-Ricard et un dispositif d’animations pour des écrans dans les nouvelles boutiques d'Orange."
 
+- name: TRSb Digiwin
+  type: platine
+  logo: logo-small-digiwin.png
+  link: http://digiwin.fr/
+  description: "Digiwin, agence digitale du groupe TRSb, accompagne ses clients dans leur transformation numérique.
+ 
+Nous couvrons l’ensemble des offres de transformation digitale depuis la définition de la stratégie de communication, les réflexions sur l’ergonomie et le design, la création graphique, le développement des projets intranet, Web et mobile jusqu’à la maintenance et l’hébergement des solutions mises en place.
+ 
+Digiwin dispose d’une équipe de consultants spécialisés, d’une équipe studio et de plusieurs centres d’expertises à ROUEN, NANTES et PARIS."
+
+
+
 # -------------------
 # OR
 # -------------------
