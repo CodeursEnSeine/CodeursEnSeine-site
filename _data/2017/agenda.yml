@@ -258,6 +258,7 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   desc: "Avez-vous remarqué que presque tous les développeurs sont des barbus ? En excès de TECHnostérone, notre monde de la tech reproduit dans nos applications et services les biais sexistes (et racistes, validistes, classistes…) de la société. La solution : les UXtrogènes. Et tout le monde en a : chaque choix technique a un impact sur l'expérience utilisateur. Et au-delà même de l'expérience utilisateur individuelle, certaines décisions deviennent de véritables choix de société. Alors, comment équilibrer TECHnostérone et UXtrogènes ? Le plus simple c'est d'avaler un tube complet d'HOMMéempathie ! Allons jeter un œil ensemble du côté des biais cognitifs, des stéréotypes de genre, de la neutralité technologique et même de l'empathie, pour comprendre comment concevoir des outils qui s'adressent à tout le monde sans exception."
   speakers:
     - Goulven Champenois
+    - Marie Cécile Paccard
 
 - title: Intégrer du reporting dans vos applications avec PowerBi Embedded
   time: 14h30
