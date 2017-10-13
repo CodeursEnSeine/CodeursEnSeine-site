@@ -250,6 +250,7 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
          OU PAS !"
   speakers:
     - Stéphane Langlois
+    - Antoine Vernois
 
 - title: "TECHnostérone et UXtrogènes : c'est l'heure du bilan hormonal"
   time: 14h30
@@ -362,7 +363,8 @@ Découvrez le tour d’horizon des nouveautés réalisées par la communauté Mi
 
          L'écriture d'un README et celle d'un livre sont-elles si différentes que ça ? Du numérique au papier, du stylo au clavier et d'un commit git au fichier ODT, nous verrons comment infuser la culture du web dans l'édition via des contenus et des formats ouverts, les pratiques collaboratives, entre autres."
   speakers:
-    - Parisot Thomas
+    - Thomas Parisot
+    - Antoine Fauchié
 
 - title: Comment tirer parti des plateformes Azure et Office365 pour développer et déployer rapidement des solutions collaboratives
   time: 16h40

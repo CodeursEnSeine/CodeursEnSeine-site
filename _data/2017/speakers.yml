@@ -225,7 +225,7 @@
     - label: Github
       url: https://github.com/jacomyal
 
-- name: Parisot Thomas
+- name: Thomas Parisot
   image: https://raw.githubusercontent.com/oncletom/talks/master/thomas-parisot.jpg
   company: dtc innovation
   bio: "Thomas Parisot est software designer à dtc innovation et vit à Londres, au Royaume-Uni (et on y mange bien ;-)). Ses efforts se portent sur la création de prototypes intelligibles, de webapps pour l'économie sociale et solidaire et de designer de solides librairies JavaScript Open Source. Il est un fervent défenseur de l'apprentissage multidisciplinaire, de simplicité et des heureux hasards. Il aime le fromage, évidemment. Et les mots. Et composer des photos. Ou s'évader sur les sentiers de rando, avec tente et sac à dos. Thomas a précédemment travaillé à BBC R&D, a co-fondé Sud Web et n'a aucun problème d'admettre avoir créé une startup qui a fait faillite."
@@ -234,6 +234,15 @@
       url: https://twitter.com/oncletom
     - label: Github
       url: https://github.com/oncletom
+
+- name: Antoine Fauchié
+  image: https://gitlab.com/uploads/-/system/user/avatar/805154/avatar.png
+  bio: "Quand il ne concentre pas ses recherches sur les chaînes de publication, et plus particulièrement sur l'influence des technologies du Web sur celles-ci, Antoine Fauchié enseigne en sciences de l'information à Grenoble et à Lyon. Également expert indépendant du livre numérique, il est un veilleur assidu."
+  links:
+    - label: Twitter
+      url: https://twitter.com/antoinentl
+    - label: Github
+      url: https://github.com/antoinentl
 
 - name: Charles-Henri Sauget
   image: http://scop-it.com/assets/img/charles-henri.jpg
