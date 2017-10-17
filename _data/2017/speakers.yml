@@ -141,13 +141,19 @@
 
 - name: Stéphane Langlois
   image: https://raw.githubusercontent.com/avernois/la_semaine_de_168_heures/2015-at_montpellier/assets/semaine_168_heures.jpg
-  company: Scopyleft & Crafting-labs
-  bio: "Antoine Vernois : Schrödinger's Consultant / Software Anarchist / Common Sens Consultant Stéphane Langlois : Difficultateur enthousiaste."
+  company: Scopyleft
+  bio: "Difficultateur enthousiaste."
+  links:
+    - label: Github
+      url: https://github.com/pointbar
+
+- name: Antoine Vernois
+  image: https://pbs.twimg.com/profile_images/907219494665375744/7AquwSVw_400x400.jpg
+  company: Crafting-labs
+  bio: "Schrödinger's Consultant / Software Anarchist / Common Sens Consultant"
   links:
     - label: Twitter
       url: https://twitter.com/avernois
-    - label: Github
-      url: https://github.com/pointbar
 
 - name: Goulven Champenois
   image: https://www.dropbox.com/s/99m7urujo9utryd/Portrait%20orateur%20Paris%20Web%202015%20par%20Olivier%20Ramonteu.jpg?dl=1
