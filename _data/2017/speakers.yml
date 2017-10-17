@@ -52,6 +52,7 @@
       url: https://github.com/cdue
 
 - name: Charles Desneuf
+  image: ../assets/img/2017/charles_desneuf.jpg
   company: Evaneos
   bio: "Charles est développeur web depuis plusieurs années et s'intéresse aux manières de réaliser des applications répondant aux besoins des utilisateurs. Il s'est pour cela beaucoup penché sur ce qui permet de délivrer des logiciels de qualité."
   links:
