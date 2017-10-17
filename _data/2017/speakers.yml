@@ -28,10 +28,15 @@
 
 - name: Nicolas Tricot
   company: BlaBlaCar
+  image: ../assets/img/2017-orateurs/nicolas_tricot.jpg
   bio: "Après avoir fait une école d’informatique (EPITA) et développé dans le monde web pendant près de 10 ans, j’ai adopté la casquette du management pour améliorer la vie de nos équipes de développement et leur apporter tout le soutien humain, matériel et organisationnel nécessaire à la réussite de nos projets. J’ai rejoint BlaBlaCar en mars 2014 pour renforcer et faire grandir l’équipe de développement tant par le recrutement de nouveaux talents que par l’évolution de nos méthodes de travail pour anticiper l’organisation de demain."
   links:
     - label: Twitter
       url: https://twitter.com/sholine42
+
+- name: Francois Esch
+  company: BlaBlaCar
+  bio: ""
 
 - name: Tugdual Grall
   image: http://www.gravatar.com/avatar/6742510452dab26bba43130af24bb202?size=600
@@ -52,7 +57,7 @@
       url: https://github.com/cdue
 
 - name: Charles Desneuf
-  image: ../assets/img/2017/charles_desneuf.jpg
+  image: ../assets/img/2017-orateurs/charles_desneuf.jpg
   company: Evaneos
   bio: "Charles est développeur web depuis plusieurs années et s'intéresse aux manières de réaliser des applications répondant aux besoins des utilisateurs. Il s'est pour cela beaucoup penché sur ce qui permet de délivrer des logiciels de qualité."
   links:
