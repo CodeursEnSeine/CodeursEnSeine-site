@@ -20,7 +20,7 @@
 
 - name: Frédéric Leguédois
   company: Cloud Temple
-  image: http://www.leguedois.fr/assets/avatar_2015.png
+  image: ../assets/img/2017-orateurs/frederic_leguedois.jpg
   bio: "Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe."
   links:
     - label: Twitter
