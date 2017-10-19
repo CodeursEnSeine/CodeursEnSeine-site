@@ -36,7 +36,11 @@
 
 - name: Francois Esch
   company: BlaBlaCar
-  bio: ""
+  image: ../assets/img/2017-orateurs/francois_esch.jpg
+  bio: "Aujourd'hui Coach Agile chez BlaBlaCar, j'accompagne nos équipes dans leur process et leur démarche d'agilité. J'interviens en tant que facilitateur mais aussi manager de notre petite équipe support de Coaches Agiles. Jongler entre les problématiques d'équipe et les sujets d'organisation plus transverses fait ainsi partie de challenges quotidiens. Précédemment, j'étais PMO chez Viadeo où je participais à l'accompagnement du changement dans le cadre de la transformation agile ainsi qu'au suivi et au reporting des projets."
+  links:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/francois-esch-02b30a1b/
 
 - name: Tugdual Grall
   image: http://www.gravatar.com/avatar/6742510452dab26bba43130af24bb202?size=600
