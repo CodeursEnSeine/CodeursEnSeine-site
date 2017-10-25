@@ -59,13 +59,6 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
-
-- name: SIQUAL
-  type: platine
-  logo: logo-small-siqual.png
-  link: http://www.siqual.fr/
-  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
-
 - name: Enovea
   type: platine
   logo: logo-small-enovea.jpg
@@ -205,6 +198,12 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
   <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
   <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
+- name: SIQUAL
+  type: bronze
+  logo: logo-small-siqual.png
+  link: http://www.siqual.fr/
+  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
 
 
 - name: Ofelias
