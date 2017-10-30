@@ -167,14 +167,15 @@ On va encore moins dormir."
   speakers:
     - David Wursteisen
 
-- title: REX Accessibilité à la Matmut
+- title: L'accessibilité, l'assurance d'être bien vu
   sponsor: true
   time: 12h00
   room: Amphi B
-  level: easy | medium | hard
-  desc: ""
+  level: easy
+  desc: "Votre site internet et vos applications sont-ils accessibles pour les personnes en situation de handicap ? Retour d'expérience sur les bonnes pratiques simples et rapides à mettre en place. Au travers d’outils et d'exemples concrets, nous partagerons nos réflexions et vous montrerons plusieurs améliorations visuelles apportées sur nos interfaces (applications mobiles, internet, intranet)"
   speakers:
-    - Matmut
+    - Johann Venambre
+    - Sébastien Allais
 
 - title: Test All The Things @Leboncoin
   sponsor: true
