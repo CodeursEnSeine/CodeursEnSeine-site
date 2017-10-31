@@ -106,14 +106,14 @@
     - label: Github
       url: https://github.com/Nilhcem
 
-- name: David DE CARVALHO
-  company: PagesJaunes (Solocal)
-  bio: "TechLead / Développeur \"Touche-à-tout\" (13 ans d’expérience) --- Je travaille actuellement chez Pagesjaunes (7 ans) et j’ai pu jouer avec tout plein de techno BACK allant des WS SOAP au API REST sur une archi type « micro-service », des batchs simples (« main » Java) au spring-batch, des BDs relationnelles (comme Mysql) au NoSQL (mongo, cassandra, …), des traitements synchrones aux systèmes asynchrone (avec des files JMS ou RabbitMQ) Je suis passionné par la découverte de nouvelles technos et architectures : récemment sur NodeJs, Python notamment. J’ai aussi pu expérimenté quelques technos FRONT type Angular 1 et 2 ou PHP 5 même si je suis plutôt friands des technos back et des Bases de données. Je suis également friand de tout ce qui concerne les process Agile. J’ai été ScrumMaster pendant quelques années ce qui m’a permis d’approcher le côté obscur du pilotage d’équipe (allant jusqu’à 12 personnes)."
-  links:
-    - label: Twitter
-      url: https://twitter.com/dedece35
-    - label: Github
-      url: https://github.com/egry35
+#- name: David DE CARVALHO
+#  company: PagesJaunes (Solocal)
+#  bio: "TechLead / Développeur \"Touche-à-tout\" (13 ans d’expérience) --- Je travaille actuellement chez Pagesjaunes (7 ans) et j’ai pu jouer avec tout plein de techno BACK allant des WS SOAP au API REST sur une archi type « micro-service », des batchs simples (« main » Java) au spring-batch, des BDs relationnelles (comme Mysql) au NoSQL (mongo, cassandra, …), des traitements synchrones aux systèmes asynchrone (avec des files JMS ou RabbitMQ) Je suis passionné par la découverte de nouvelles technos et architectures : récemment sur NodeJs, Python notamment. J’ai aussi pu expérimenté quelques technos FRONT type Angular 1 et 2 ou PHP 5 même si je suis plutôt friands des technos back et des Bases de données. Je suis également friand de tout ce qui concerne les process Agile. J’ai été ScrumMaster pendant quelques années ce qui m’a permis d’approcher le côté obscur du pilotage d’équipe (allant jusqu’à 12 personnes)."
+#  links:
+#    - label: Twitter
+#      url: https://twitter.com/dedece35
+#    - label: Github
+#      url: https://github.com/egry35
 
 - name: David Wursteisen
   image: https://lh6.googleusercontent.com/-ik6pQvfCBVY/AAAAAAAAAAI/AAAAAAAAAL8/-Sfv4sKFObE/photo.jpg
@@ -297,7 +297,7 @@
 - name: Geoffrey Couprie
   image: https://secure.gravatar.com/avatar/90b90b6f8e58073c41f7bccccf9d2d50?width=38
   company: Clevercloud
-  bio: "Consultant indépendant en sécurité logicielle. Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management" 
+  bio: "Consultant indépendant en sécurité logicielle. Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management"
   links:
     - label: Twitter
       url: https://twitter.com/gcouprie
