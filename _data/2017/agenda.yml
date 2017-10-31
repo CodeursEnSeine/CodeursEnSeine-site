@@ -35,7 +35,7 @@ On va encore moins dormir."
   time: 10h00
   room: Amphi A
   level: medium
-  desc: "L’aventure de l’équipe BlaBlaCar dans sa quête du Saint-Graal de l’Agilité, de son bafouillant début en Scrum jusqu’au temple de la sagesse cachée du Kanban, à travers les eaux tumultueuses de la transition Agile... En clair, nous vous proposons un retour..."
+  desc: "L’aventure de l’équipe BlaBlaCar dans sa quête du Saint-Graal de l’Agilité, de son bafouillant début en Scrum jusqu’au temple de la sagesse cachée du Kanban, à travers les eaux tumultueuses de la transition Agile... En clair, nous vous proposons un retour d'expérience sur le parcours de BlaBlaCar depuis 2012 en termes de process et d'organisation. A travers nos succès mais aussi les embûches rencontrées sur le chemin d'une approche agile, nous aborderons le sujet sous plusieurs prismes : les méthodes de travail quotidiennes de nos ingénieurs, l'amélioration continue ou encore l'impact plus global sur le pilotage de notre roadmap et la structuration des équipes."
   speakers:
     - Nicolas Tricot
     - Francois Esch
@@ -140,7 +140,7 @@ We will also learn how those “old school” services were designed and see whi
   speakers:
     - Gautier Mechling
 
-- title: DDD & Event Sourcing à la rescousse pour implémenter la RGDP ? 
+- title: DDD & Event Sourcing à la rescousse pour implémenter la RGDP ?
   time: 11h00
   room: Salle du conseil
   level: medium
