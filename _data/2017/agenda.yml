@@ -48,13 +48,17 @@ On va encore moins dormir."
   speakers:
     - Tugdual Grall
 
-- title: Coming soon
+- title: Always on software, how to design applications that never ever stop
   time: 10h00
   room: Amphi C
-  # level: easy | medium | hard
-  desc: ""
+  level: medium
+  desc: "With the shift to microservices applications, there’s a growing pain around architecture changes. Most “old school” tools are designed to be reloaded entirely on any change in configuration. What do you do when this happens not once a month, but multiple times per second? How do you keep your service running reliably?
+
+Through examples taken from the design of the sōzu HTTP reverse proxy, we will discover how to: - handle configuration changes, at runtime, with a fine granularity - recover from failure - upgrade without downtime, without losing any connections
+
+We will also learn how those “old school” services were designed and see which lessons we can get from their architecture."
   speakers:
-    - #Microsoft
+    - Geoffrey Couprie
 
 - title: Modernisez vos API, passez à GraphQL !
   time: 10h00
@@ -136,25 +140,13 @@ On va encore moins dormir."
   speakers:
     - Gautier Mechling
 
-- title: Pimentez votre "carto" avec du temps réel
+- title: DDD & Event Sourcing à la rescousse pour implémenter la RGDP ? 
   time: 11h00
   room: Salle du conseil
   level: medium
-  desc: "Le temps réel : c'est facile et rapide avec le protocole ServerSentEvent - (NodeJS, RabbitMQ, protocole SSE)
-
-         Partez d’une base Node, saupoudrez d’un peu de RabbitMQ, puis ajoutez du SSE et vous obtiendrez une belle carte interactive temps réel.
-
-         Venez découvrir comment en quelque lignes de code, il est possible d’avoir une carte de France sur laquelle s’affiche en temps réel des messages issus de RabbitMQ.
-
-         Dans ce talk, on verra comment en 2-3 cuillères à pot :
-
-         créer un serveur NodeJS
-         répondant à des requêtes SSE
-         écoutant ce qui se passe sur RabbitMQ
-         mettant à dispo une IHM avec une carte de France à destination de tout navigateur (ou presque :) )
-         créer un simulateur NodeJS lançant des messages sur RabbitMQ"
+  desc: "Le Règlement général sur la protection des données ou GDPR ( General Data Protection Regulation ) est le nouveau dispositif légal pour la protection des données en Europe, qui entrera en vigueur le 25 mai 2018. Durant ce retour d'expérience, nous introduirons les grands principes de ce dispositif, tels que le consentement explicite, la portabilité de la donnée, etc. Nous présenterons également les notions d'anonymisation, de pseudonymisation, et de durée de rétention des données, ainsi que d'autres standards nécessaires pour se conformer à la nouvelle réglementation. Une fois le problème présenté, nous vous montrerons comment le Domain Driven Design et les patterns compatibles, tel qu'Event Sourcing nous ont aidés à appréhender les changements les plus importants pour les SI, résultant de l'application de la RGDP."
   speakers:
-    - David DE CARVALHO
+    - Guillaume Lours
 
 # 12h00
 - title: Développer un jeu vidéo (quand on n’y connait rien en développement de jeux vidéo)

@@ -293,3 +293,20 @@
   image: ../assets/img/2017-orateurs/sebastien_allais.png
   company: Matmut
   bio: "Développeur front-end pendant plus de 10 ans sur Internet puis sur des applications mobiles hybrides. Je m’oriente depuis 2 ans vers des missions de conseils UX et ergonomie sur les interfaces du groupe Matmut. Mon but : optimiser les interfaces pour les rendre claires et accessibles."
+
+- name: Geoffrey Couprie
+  image: https://secure.gravatar.com/avatar/90b90b6f8e58073c41f7bccccf9d2d50?width=38
+  company: Clevercloud
+  bio: "Consultant indépendant en sécurité logicielle. Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management" 
+  links:
+    - label: Twitter
+      url: https://twitter.com/gcouprie
+
+- name: Guillaume Lours
+  image: https://www.saagie.com/user/pages/team/Guillaume.jpg
+  company: Saagie
+  bio: "Developpeur Senior à Saagie, touchant aussi bien au backend qu'au front Co-fondateur des conferences Lean Kanban France et Codeurs en Seine Red Coat à Devoxx France"
+  links:
+    - label: Twitter
+      url: https://twitter.com/glours
+
