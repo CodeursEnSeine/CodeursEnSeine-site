@@ -310,3 +310,8 @@
     - label: Twitter
       url: https://twitter.com/glours
 
+- name: Cyril Lefebvre
+  image: https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAnwAAAAJDNhNjY1NDljLTk0NWYtNDkxNC04NGMyLWEzZDY1YjMxZDNkNw.jpg
+  company: Sopra Steria
+  bio: "Développeur chez Sopra Steria."
+

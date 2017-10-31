@@ -178,14 +178,15 @@ We will also learn how those “old school” services were designed and see whi
   speakers:
     - Romain LOUVET
 
-- title: Hololens
+- title: Initiative HoloLens
   sponsor: true
   time: 12h00
   room: Amphi D
   level: easy | medium | hard
-  desc: "Description"
+  desc: "Ce talk est un retour d'experience sur un projet d'aide à l’assemblage via projection d’hologrammes. C'est à dire un guide de
+montage augmenté! #Unity #Android #Hololens"
   speakers:
-    - Sopra
+    -  Cyril Lefebvre
 
 - title: S'organiser comme un robot pour vivre comme un humain
   time: 12h00
