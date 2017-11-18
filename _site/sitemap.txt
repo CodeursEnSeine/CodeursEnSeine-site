@@ -70,6 +70,7 @@ http://www.codeursenseine.com/tv
 http://www.codeursenseine.com/sitemap.xml
 http://www.codeursenseine.com/robots.txt
 
+http://www.codeursenseine.com/meetups/2017-11-02/soiree-kubernetes-avec-charles-sabourdin
 http://www.codeursenseine.com/meetups/2017-09-07/mug-normandy-nouveautes-dotnetcore2-vs-for-mac
 http://www.codeursenseine.com/meetups/2017-08-23/nuxde-2-ux-chatbot-gamification
 http://www.codeursenseine.com/meetups/2017-08-11/quickies-by-newbies
