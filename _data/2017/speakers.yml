@@ -164,6 +164,13 @@
     - label: Twitter
       url: https://twitter.com/avernois
 
+- name: Marie Cécile Paccard
+  image: https://pbs.twimg.com/profile_images/783059678905393152/0QQ0rJjy_400x400.jpg
+  bio: "UX Designer, facilitator, speaker — inclusive design — author @guerirleburnout — Creator of #doorsoflyon & #doorwars — #feminist — @ixdconf core team #IxD18"
+  links:
+    - label: Twitter
+      url: https://twitter.com/mcpaccard
+
 - name: Goulven Champenois
   image: https://www.dropbox.com/s/99m7urujo9utryd/Portrait%20orateur%20Paris%20Web%202015%20par%20Olivier%20Ramonteu.jpg?dl=1
   company: Ochelys
