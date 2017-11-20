@@ -290,6 +290,7 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   level: medium
   desc: ""
   speakers:
+    - Sara HARKOUSSE
 
 - title: Hexagonal Architecture from scratch (live-coding)
   time: 15h40
