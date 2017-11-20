@@ -284,13 +284,12 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   speakers:
     - Julien Jakubowski
 
-- title: "Web Components: It's all rainbows and unicorns! Is it?"
+- title: "<strike>Web Components: It's all rainbows and unicorns! Is it?</strike>"
   time: 15h40
-  room: Amphi B
+  room: Amphi B <strong>/!\ ANNULÉ :(</strong>
   level: medium
-  desc: "Web components are a tale of four w3c specifications. They are a hot topic now. We’ve all seen big headlines, for instance, “The Web Components revolution”, “Web Components are a game changer”, “A Tectonic Shift for Web Development”, … and so many others. They are certainly exciting and promising, nevertheless, there are some factors holding them back such as performance issues and lack of browser support. Some features seems to be more hassle than they’re worth. In this talk you’ll examine web components from a pragmatic stand point. So if you want to start using web components in production, come to learn what features can you use today. Actually, despite the still short browser support, some of web components features seems to be the best choice to start with . The assessment you’ll learn is the reflection of my personal research and work on my spare time and also feedbacks from my co-workers."
+  desc: ""
   speakers:
-    - Sara HARKOUSSE
 
 - title: Hexagonal Architecture from scratch (live-coding)
   time: 15h40

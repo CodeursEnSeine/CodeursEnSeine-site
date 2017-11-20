@@ -189,15 +189,15 @@
     - label: Twitter
       url: https://twitter.com/jak78
 
-- name: Sara HARKOUSSE
-  image: https://pbs.twimg.com/profile_images/841576720411025408/5fXWzuM-.jpg
-  company: Dassault Systèmes
-  bio: "Sara Harkousse is a Technical Lead, front-end Web developer at Dassault Systèmes , Speaker, 3DS Advocate at “Elles Bougent” and one of “Duchess France” leaders. She has 3 years of web development experience. She received an engineering degree in electronics and computer science from INSA Rennes in France. She’s on twitter at @Sara_harkousse"
-  links:
-    - label: Twitter
-      url: https://twitter.com/Sara_harkousse
-    - label: Github
-      url: https://github.com/SaraHarkousse
+#- name: Sara HARKOUSSE
+#  image: https://pbs.twimg.com/profile_images/841576720411025408/5fXWzuM-.jpg
+#  company: Dassault Systèmes
+#  bio: "Sara Harkousse is a Technical Lead, front-end Web developer at Dassault Systèmes , Speaker, 3DS Advocate at “Elles Bougent” and one of “Duchess France” leaders. She has 3 years of web development experience. She received an engineering degree in electronics and computer science from INSA Rennes in France. She’s on twitter at @Sara_harkousse"
+#  links:
+#    - label: Twitter
+#      url: https://twitter.com/Sara_harkousse
+#    - label: Github
+#      url: https://github.com/SaraHarkousse
 
 - name: Thomas Pierrain
   image: https://secure.gravatar.com/avatar/d626d8946597c5926e3b9d12d22597f5
