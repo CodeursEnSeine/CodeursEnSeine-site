@@ -284,13 +284,17 @@ Présentation sans jargon ourverte à toute personne ayant des notions de gestio
   speakers:
     - Julien Jakubowski
 
-- title: "<strike>Web Components: It's all rainbows and unicorns! Is it?</strike>"
+- title: "Mais il n'y a pas de composant pour ça !"
   time: 15h40
-  room: Amphi B <strong>/!\ ANNULÉ :(</strong>
+  room: Amphi B
   level: medium
-  desc: ""
+  desc: "Lorsqu'on commence à travailler avec des Web Components, on regarde souvent webcomponents.org, agréablement surpris pour la quantité (et la qualité) des composants disponibles. On ensemble ces composants et on construit des applis un peu comme on construit un château avec des pièces de LEGO.
+
+         Ce n'est que lorsqu'on approfondit et on commence à créer des applications plus exigeantes, avec des fonctionnalités plus exotiques, qu'on se rend compte qu'il y a quand même des lacunes, et que des fois il n'y a pas de web component pour faire ça. Ou plutôt il n'y en a pas encore…
+
+         Dans ce talks je vais vous montrer comment il est facile de créer un composant web enveloppant une bibliothèque JavaScript quelconque, et comment ce web component est aussi simple à utiliser que n'importe quel autre élément dans le catalogue. Et pour y parvenir, je vais me baser sur deux vrais exemples."
   speakers:
-    - Sara HARKOUSSE
+    - Horacio Gonzalez
 
 - title: Hexagonal Architecture from scratch (live-coding)
   time: 15h40

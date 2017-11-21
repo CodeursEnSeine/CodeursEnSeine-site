@@ -189,15 +189,15 @@
     - label: Twitter
       url: https://twitter.com/jak78
 
-#- name: Sara HARKOUSSE
-#  image: https://pbs.twimg.com/profile_images/841576720411025408/5fXWzuM-.jpg
-#  company: Dassault Systèmes
-#  bio: "Sara Harkousse is a Technical Lead, front-end Web developer at Dassault Systèmes , Speaker, 3DS Advocate at “Elles Bougent” and one of “Duchess France” leaders. She has 3 years of web development experience. She received an engineering degree in electronics and computer science from INSA Rennes in France. She’s on twitter at @Sara_harkousse"
-#  links:
-#    - label: Twitter
-#      url: https://twitter.com/Sara_harkousse
-#    - label: Github
-#      url: https://github.com/SaraHarkousse
+- name: Horacio Gonzalez
+  image: https://pbs.twimg.com/profile_images/806981539431071744/m6tjCaAI_400x400.jpg
+  company: Cityzen Data
+  bio: "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. Après quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, éditeurs de Warp10, plateforme open source pour les données de capteurs. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley. Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer."
+  links:
+    - label: Twitter
+      url: https://twitter.com/LostInBrittany
+    - label: Github
+      url: https://github.com/LostInBrittany
 
 - name: Thomas Pierrain
   image: https://secure.gravatar.com/avatar/d626d8946597c5926e3b9d12d22597f5
