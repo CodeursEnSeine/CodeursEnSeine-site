@@ -6,13 +6,31 @@
 # -------------------
 # RUBY
 # -------------------
+
+- name: Matmut
+  type: ruby
+  logo: logo-small-matmut.png
+  link: http://matmut.fr
+  description: "Acteur majeur sur le marché français, le Groupe Matmut assure aujourd'hui près de 3,2 millions de sociétaires et plus de 6,8 millions de contrats.
+Il offre à tous - particuliers, professionnels, entreprises, associations - une gamme complète de produits d'assurance des biens et des personnes (auto, moto, habitation, bateau, chasse, responsabilités, protection de la famille, santé, prévoyance, protection juridique, assistance) et de services financiers et d'épargne (crédits auto, crédit consommation, livret d'épargne, assurance-vie, assurance emprunteur...)."
+
+
 - name: Le Bon Coin
   type: ruby
   logo: logo-BONCOIN.png
-  link: www.leboncoin.fr
+  link: http://www.leboncoin.fr
   description: "leboncoin aujourd’hui c’est le 1er site de petites annonces français avec 25 millions de VU par mois et plus de 26 millions d’annonces en ligne, dont 800 000 nouvelles au quotidien. C’est aussi une entreprise de 600 salariés avec un esprit startup dans de super locaux modernes avec roof top au cœur de Paris.
 
                 Afin d’accompagner notre forte croissance, proposer de nouvelles features et nouvelles offres à nos utilisateurs et nos clients, nous recherchons des recrues motivées afin de rejoindre une IT de 120 développeurs. Vous développez en Java ? Travailler en transverse avec les autres équipes afin d’accompagner de bout en bout la production vous intéresse ? La qualité d’une appli web, mobile c’est primordial pour vous ? On peut s’entendre ! Nous recrutons des profils Développeurs Java avec une appétence automatisation de test (selenium & appium) comme vous ! L’équipe QA sera sur le stand leboncoin, n’hésitez pas à venir les rencontrer !"
+
+# -------------------
+# Sopra Steria
+# -------------------
+- name: Sopra Steria
+  type: ruby
+  logo: logo-small-sopra-steria.jpg
+  link: http://www.soprasteria.com/
+  description: "<p>Sopra Steria, leader européen de la transformation numérique, propose l’un des portefeuilles d’offres les plus complets du marché : conseil, intégration de systèmes, édition de solutions métier, infrastructure management et business process services. Il apporte ainsi une réponse globale aux enjeux de développement et de compétitivité des grandes entreprises et organisations. Combinant valeur ajoutée, innovation et performance des services délivrés, Sopra Steria accompagne ses clients dans leur transformation et les aide à faire le meilleur usage du numérique. Fort de plus de 38 000 collaborateurs dans plus de 20 pays, le Groupe Sopra Steria affiche un chiffre d’affaires de 3,6 milliards d’euros en 2015.</p><p>Pour plus d'informations, retrouvez-nous sur <a href=\"www.soprasteria.com\" target=\"_blank\">www.soprasteria.com</a>.</p>"
 
 
 # -------------------
@@ -41,24 +59,75 @@
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
-
-- name: SIQUAL
-  type: platine
-  logo: logo-small-siqual.png
-  link: http://www.siqual.fr/
-  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
-
 - name: Enovea
   type: platine
   logo: logo-small-enovea.jpg
   link: http://www.enovea.net/
-  description: ""
+  description: "Enovea est spécialisée dans le développement d'applications logicielles sur-mesure.
+Nos développements se font sur différents secteurs d'activité : industrie, finance, service, assurance ...
+Nos spécialités : java, .net, open source, big data, agilité, mobilité ...
 
-- name: LINKT
+Une quarantaine de collaborateurs aujourd'hui, une ambition à 100 personnes en 2020. 
+
+Ingénieur(e) d'Etudes et de Développement, Chef de Projet Technique, Consultant(e) MOA, Testeur (se), Devops, Data Scientist, sont des profils que nous recrutons.
+
+Envie de relever de nouveaux challenges ?
+
+Rendez-vous sur notre stand !!!"
+
+- name: Linkt
   type: platine
   logo: logo-linkt.png
   link: http://www.linkt.fr
   description: "Linkt est le nouvel opérateur télécom B2B du Groupe Altitude. Startup Normande de 100 collaborateurs en fort développement, nous proposons aux PME, Grandes Entreprises et Collectivités des services de téléphonie fixe et mobile, Internet, VPN et services hébergés, et ce sur l’ensemble du territoire métropolitain. Notre métier : offrir des services de télécommunication smart et innovants aux entreprises, en leur garantissant un haut niveau de service et en replaçant les Hommes au centre de la relation client."
+
+- name: Proxiad
+  type: platine
+  logo: logo-small-proxiad.png
+  link: http://www.proxiad.com
+  description: "<p><strong>Parlez-nous de Proxiad...</strong></p>
+  <p>Entreprise de Services Numériques, le Groupe Proxiad apporte Conseil et Expertise à ses clients. Nos 650 consultant(e)s soutiennent l’évolution des systèmes d’informations, via la mise en œuvre de solutions spécifiques, pragmatiques et innovantes.</p>
+  <p><strong>Quels sont les points forts de votre activité ?</strong></p>
+  <p>Outre les compétences techniques et méthodologiques dont elle dispose, Proxiad fonde également sa réussite sur sa forte capacité d’engagement et sur une gestion saine et transparente de sa relation avec ses collaborateurs et ses clients (F/H).</p>
+  <p><strong>Pourquoi votre soutien et participation à Codeurs en Seine ?</strong></p>
+  <p>Nous sommes sensibles à la nécessité de soutenir une manifestation locale promouvant des thèmes innovants directement liés à notre activité. Proxiad était Sponsor DIAMANT en 2016, il semblait donc naturel de faire perdurer ce partenariat de confiance avec Codeurs en Seine.</p>
+  <p><strong>Quels sont les sujets abordés au cours de la conférence qui vous intéressent particulièrement ?</strong></p>
+  <p>« Projets du Futur, le Monde de demain, les Nouveautés Web ... » Autant de conférences, ateliers et meet-up intéressants tout au long de cette journée. Le public devrait y trouver son compte !</p>"
+
+- name: Budget Box
+  type: platine
+  logo: logo-small-budgetbox-new.png
+  link: http://www.budget-box.com
+  description: "<p>Depuis 10 ans, Budgetbox accompagne les marques et les enseignes agroalimentaires dans leur stratégie marketing.
+Notre domaine d’expertise : le consommateur connecté. Notre connaissance pointue de son comportement nous a permis de concevoir des solutions digitales innovantes qui améliorent au quotidien son expérience d’achat en hyper et supermarchés et en ligne avec :</p>
+<ul>
+<li>Scaneo, l’application de shopping connectée de référence sur le marché français (JAVA JEE – ANDROID et iOS) Scaneo offre aujourd’hui des services inédits en point de vente comme la géolocalisation</li>
+<li>Notre plateforme de communication media multicanale. Elle intègre une double dimension de ciblage inégalée jusqu’ici. En effet, l'analyse de données basées sur un socle décisionnel et BigData innovant permet de diffuser des offres personnalisées grâce à l’historique d’achat. Ces offres sont exploitables instantanément sur tous les devices : smartphone, tablettes, scanettes, PC.</li>
+</ul>"  
+
+- name: Orchestra Networks
+  type: platine
+  logo: logo-small-orchestra.jpg
+  link: http://www.orchestranetworks.com/
+  description: "Éditeur logiciel indépendant depuis sa fondation en 2000, Orchestra Networks est un acteur majeur du Master Data Management avec des implantations à l'international (Europe, Amérique du Nord, Asie-Pacifique). L’ensemble de la plateforme repose sur un moteur de persistance et de gestion transactionnelle des données, couplé à un modélisateur de données. Orchestra Networks suit des cycles continus d’innovation qui l'amènent régulièrement à renforcer de manière importante son équipe R&D à Paris. La société est classée parmi les leaders mondiaux du marché du MDM par le Gartner Group et sa croissance s’inscrit dans l’état d’esprit « Smart-up », c’est-à-dire une croissance forte et collective adossée à un groupe qui existe depuis 2000, spécialisé dans son cœur de métier. Au-delà de l'ingénierie et de l'expertise technique reconnue, c’est aussi l’esprit collectif et la durabilité des logiciels qu'Orchestra Networks développe qui marquent l’ADN de l'entreprise. Ses clients utilisent sa plateforme MDM au cœur de leur Système d’Information, signe d'un ancrage durable avec la société. " 
+
+- name: Maecia
+  type: platine
+  logo: logo-small-maecia.png
+  link: http://www.maecia.com
+  description: "Avec une vingtaine de collaborateurs, Maecia est une agence digitale qui se caractérise par la performance et l'innovation digitales. Tous spécialistes du web : consultants, chefs de projet web, web designers, développeurs front-end et back-end. Depuis 2007, Maecia a conçu plus de 400 sites et webapps, principalement sur les technologies PHP (Drupal, Symfony et Wordpress) et JS (Node.js, Vue.js et Electron.js). Parmi nos projets cools du moment : l'intranet mondial d'Hermès, un générateur de micro-sites pour Pernod-Ricard et un dispositif d’animations pour des écrans dans les nouvelles boutiques d'Orange."
+
+- name: TRSb Digiwin
+  type: platine
+  logo: logo-small-digiwin.png
+  link: http://digiwin.fr/
+  description: "Digiwin, agence digitale du groupe TRSb, accompagne ses clients dans leur transformation numérique.
+ 
+Nous couvrons l’ensemble des offres de transformation digitale depuis la définition de la stratégie de communication, les réflexions sur l’ergonomie et le design, la création graphique, le développement des projets intranet, Web et mobile jusqu’à la maintenance et l’hébergement des solutions mises en place.
+ 
+Digiwin dispose d’une équipe de consultants spécialisés, d’une équipe studio et de plusieurs centres d’expertises à ROUEN, NANTES et PARIS."
+
+
 
 # -------------------
 # OR
@@ -130,10 +199,58 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
   <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
 
+- name: SIQUAL
+  type: bronze
+  logo: logo-small-siqual.png
+  link: http://www.siqual.fr/
+  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
+
 
 - name: Ofelias
   type: bronze
   logo: logo-small-ofelias.png
   link: http://ofelias.fr/
   description: "<p>Ofelias simplifie le quotidien des entreprises normandes. Nous agissons régulièrement et durablement en intégrant des Responsables Système d’Information à temps partagé au cœur des organisations.</p></p>Nous accompagnons les dirigeants pour mettre en adéquation leurs outils informatiques avec les besoins et les usages de leurs collaborateurs.</p>"
+
+- name: Devolis
+  type: bronze
+  logo: logo-small-devolis-new.png
+  link: http://www.devolis.fr
+  description: "<p>DEVOLIS est pure player sur les technologies Microsoft. Depuis bientôt 10 ans, nous développons des solutions basées sur les technologies Microsoft : framework .net, SQL Server, SharePoint, Office 365, Azure. Nos clients : les grands comptes de la Normandie et de l’ile de France.
+  </p>
+  <p>
+  Depuis l’arrivée de Satya Nadella en 2014, Microsoft opère un changement radical et s’ouvre à de nombreuses autres technologies. Nous avons également suivi cette évolution et conscient que Microsoft n’apporte pas les meilleures réponses à tous les sujets, nous avons décidé de devenir intégrateur Saagie.
+  </p>
+  <p>
+  Notre offre peut se résumer ainsi :</p>
+  <ul>
+  <li>Le « prêt à porter » : mise en place d’usages métiers avec la suite Office 365 (SharePoint, Yammer, Skype for Business, Planner, …)</li>
+  <li>Le « sur-mesure » : développement d’applications spécifiques</li>
+  <li>L’ « avant-gardiste » : développement de solutions BigData avec la plateforme Saagie</li>
+</ul>
+<p>DEVOLIS, présent au conseil d’administration de la Normany French Tech, membre actif de NWX et du club TIC.</p>"
+
+- name: Wixiweb
+  type: bronze
+  logo: logo-small-wixiweb.png
+  link: http://www.wixiweb.fr/
+  description: "<p>Wixiweb conçoit et réalise des plate-formes web sur-mesures: application web, mobile, extranet, intranet, API, etc.</p>
+    <p>Notre équipe de 6 personnes accompagne aussi bien des startups que des entreprises expérimentées ayant des besoins en conseil, développement interne et conception d'interface.</p>
+    <p>Fort de notre expertise et certifications PHP et Zend Framework, nous aidons les sociétés dans la formation de leurs collaborateurs, la reprise ou la réalisation de leurs projets sur-mesures et innovants.</p>
+    <p>Nous accordons une grande importance au conseil, à l'ergonomie, l'expérience utilisateur, la sécurité et la qualité technique, ainsi qu'à la réussite globale des projets.</p>"
+
+- name: Orone
+  type: bronze
+  logo: logo-small-orone.png
+  link: http://www.orone.com
+  description: "<p>Editeur de solutions logicielles de digitalisation du dossier de souscription et de dématérialisation des moyens de paiement, Orone développe et propose de nouvelles offres de rupture à forts enjeux, disponibles dans le cloud, en inscrivant l’innovation au cœur de sa croissance.</p
+  <ul>
+    <li>
+      Substech facilite la constitution et la gestion du dossier unique d’identification client - <a href=\"http://www.substech.io\" target=\"_blank\">www.substech.io</a>
+    </li>
+    <li>
+      Wecheck accélère et fiabilise l’encaissement de vos chèques - <a href=\"http://www.wecheck.io\" target=\"_blank\">www.wecheck.io</a>
+    </li>
+  </ul>
+  <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
 
