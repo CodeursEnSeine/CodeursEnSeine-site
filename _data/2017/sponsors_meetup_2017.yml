@@ -14,12 +14,11 @@
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
-- name: Docapost Agility
-  type: platine
-  logo: logo-small-docapost-agility.png
-  link: https://www.docapost-agility.fr/
-  description: "<p>Fondée en 2011 par Fabrice Bonnet, la start-up SmartPanda est devenue Docapost Agility après son rachat par Docapost en 2015.</p><p>« Fournir aux petits entrepreneurs, sur un même espace en ligne, des outils pour gagner du temps et de l'argent en les laissant se concentrer sur leur business », telle était l’offre de valeur de notre réseau B2B.</p>
-  <p>Le rapprochement avec le groupe La Poste a permis d'intégrer de nouveaux services en ligne : courrier, lettres recommandées, signatures électroniques...</p><p>En 2017, nous avons choisi d'élargir notre offre : conseils en agilité, accompagnement à la transformation numérique, mise en place d’outils collaboratifs… Elle s’appuie toujours sur nos compétences acquises depuis 2011 afin d’aider les entreprises à être plus compétitives, à prendre conscience des enjeux numériques et à repenser leurs méthodes, process et outils pour aller vers une philosophie de travail agile.</p>"
+- name: Digit
+  type: meetup
+  logo: logo-small-digit.png
+  link: https://www.justdigit.fr/
+  description: "DIGIT est une Entreprise de Services du Numérique qui accompagne les entreprises par des prestations de conseils, d’études et développement logiciel."
 
 - name: Invoke
   type: or
