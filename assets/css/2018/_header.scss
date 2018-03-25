@@ -1,0 +1,124 @@
+
+
+.header-main {
+  position: relative;
+  color: #fff;
+  background: $color-primary;
+  padding-top: $headerVerticalGutters;
+  font-size: 0;
+
+  @media only screen and (min-width: 800px) {
+    padding-top: $headerVerticalGuttersLarge;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 2;
+    padding-left: $headerHorizontalGutters;
+    padding-right: $headerHorizontalGutters;
+
+    @media only screen and (min-width: 800px) {
+      padding-left: $headerHorizontalGuttersLarge;
+      padding-right: $headerHorizontalGuttersLarge;
+    }
+  }
+}
+
+.header-grid {
+  position: relative;
+
+  margin-left: - $headerHorizontalGutters;
+  & > * {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: $headerHorizontalGutters;
+    padding-bottom: $headerVerticalGutters;
+  }
+
+  @media only screen and (min-width: 800px) {
+    margin-left: -$headerHorizontalGuttersLarge;
+    & > * {
+      padding-left: $headerHorizontalGuttersLarge;
+      padding-bottom: $headerVerticalGuttersLarge;
+    }
+  }
+}
+
+.header-background {
+  z-index: 1;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $color-primary linear-gradient(to top right, $color-gradient-start, $color-gradient-end);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header-logo {
+  font-size: 1rem;
+  position: relative;
+  margin: 0;
+  vertical-align: middle;
+  width: 30%;
+
+  @media only screen and (min-width: 800px) {
+    width: 20%;
+  }
+
+  img {
+    width: 100%;
+    max-width: 180px;
+  }
+}
+
+.tagline {
+  position: relative;
+  margin-bottom: 0;
+  font-size: .8rem;
+  line-height: 1.1;
+  text-align: left;
+  width: 70%;
+
+  @media only screen and (min-width: 500px) {
+    font-size: 1rem;
+  }
+
+  @media only screen and (min-width: 800px) {
+    font-size: 1.1rem;
+    width: 60%;
+  }
+
+  strong {
+    display: block;
+    margin-top: .4rem;
+    margin-bottom: -.5em;
+    font-size: 1rem;
+
+    @media only screen and (min-width: 450px) {
+      font-size: 1.2rem;
+    }
+
+    @media only screen and (min-width: 800px) {
+      font-size: 1.6rem;
+    }
+  }
+}
+.header-menu-button {
+  width: 50%;
+
+  @media only screen and (min-width: 1000px) {
+    display: none;
+  }
+}
+
+.header-action {
+  width: 50%;
+  text-align: right;
+
+  @media only screen and (min-width: 1000px) {
+    width: 20%;
+  }
+}
