@@ -77,6 +77,7 @@ http://www.codeursenseine.com/tv
 http://www.codeursenseine.com/sitemap.xml
 http://www.codeursenseine.com/robots.txt
 
+http://www.codeursenseine.com/meetups/2018-03-27/soiree-repet-devoxx2018
 http://www.codeursenseine.com/meetups/2018-02-15/soiree-rex-developpeur-front
 http://www.codeursenseine.com/meetups/2018-02-05/mug-soiree-acces-auth-webapi-hololens
 http://www.codeursenseine.com/meetups/2017-12-29/soiree-java-9-jmdoudoux-ahassler

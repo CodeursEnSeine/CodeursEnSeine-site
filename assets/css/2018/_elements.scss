@@ -317,6 +317,29 @@ sup {
 img {
   max-width: 100%;
   height: auto;
+
+  &.rounded {
+    border-radius: 0.4rem;
+    box-shadow: 0 .2rem .8rem rgba($color-primary, .2);
+  }
+
+
+  &.float-left {
+    margin-bottom: $margin;
+    @media screen and (min-width: $mq-600) {
+      float: left;
+      margin-right: $margin;
+    }
+  }
+
+  &.float-right {
+    margin-bottom: $margin;
+
+    @media screen and (min-width: $mq-600) {
+      float: right;
+      margin-left: $margin;
+    }
+  }
 }
 
 figure {
@@ -425,3 +448,5 @@ table {
     background-color: #fff;
   }
 }
+
+
