@@ -24,6 +24,13 @@
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
+
+- name: Yes We Hack
+  type: silver
+  logo: logo-small-yes-we-hack.jpg
+  link: https://yeswehack.com/en/index.html
+  description: "<p>Since 2013, YesWeHack connects a community of IT security experts with organizations or projects willing to better protect their information assets. YesWeHack is made of 4 interdependent services strengthening cooperation : the first European Bug Bounty Platform : BountyFactory.io, a jobboard dedicated to security expertise and a Bug Bounty aggregator : FireBounty.com. Last but not least, in 2017, YesWeHack launched ZeroDisclo.com : a non-profit platform providing the technical means and the required environment for ethical hackers to adopt a coordinated way for reporting vulnerabilities.</p>"
+
 # -------------------
 # bronze
 # -------------------
