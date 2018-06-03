@@ -69,10 +69,10 @@
     </div>
   </main>
   <section class="footer-sponsors">
-    <div class="wrapper">
-      <h2 class="text-center">Sponsors</h2>
+    <div class="wrapper text-center">
+      <h2>Sponsors</h2>
       {% for sponsor in site.data['2018'].sponsors_meetup %}
-        <a href="{{sponsor.link}}" title="{{sponsor.name}}">
+        <a href="{{sponsor.link}}" class="footer-sponsors-item" title="{{sponsor.name}}">
           <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
         </a>
       {% endfor %}
