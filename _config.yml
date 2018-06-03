@@ -33,7 +33,7 @@ sass:
   sass_dir: assets/css/
   style: compressed
 
-plugins:
+plugins_dir:
 - jekyll-sitemap
 - jekyll-seo-tag
 - jekyll-redirect-from
