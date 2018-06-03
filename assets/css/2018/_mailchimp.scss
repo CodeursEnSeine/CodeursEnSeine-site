@@ -1,0 +1,87 @@
+#mc_embed_signup {
+  background: rgba($color-primary, .03);
+  padding: $margin/2;
+  margin: auto;
+  border: $unpixel solid rgba($color-primary, .1);
+  border-radius: $unpixel * 3;
+  width: 600px;
+  max-width: 100%;
+
+  h6 {
+    margin: 0 0 $margin/2 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  #mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $mq-480) {
+      flex-direction: row;
+    }
+  }
+
+  .mc-field-group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    @media screen and (min-width: $mq-480) {
+      flex-direction: row;
+    }
+  }
+
+  label {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: $margin / 4;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $mq-480) {
+      padding-bottom: 0;
+      padding-right: $margin / 2;
+    }
+  }
+
+  input.email {
+    width: 100%;
+    font-weight: normal;
+    border-radius: $unpixel * 3;
+    padding: .6em 1em;
+    border: $unpixel solid rgba(0, 0, 0, .1);
+
+    &:focus {
+      outline: none;
+      border-color: $color-primary;
+      box-shadow: 0 0 0 $unpixel*2 rgba($color-primary, .2);
+    }
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #ccc;
+      opacity: 1; /* Firefox */
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #ccc;
+    }
+
+    &::-ms-input-placeholder { /* Microsoft Edge */
+      color: #ccc;
+    }
+  }
+
+  button {
+    font-size: 1rem;
+    margin-top: $margin / 2;
+
+    @media screen and (min-width: $mq-480) {
+      margin-top: 0;
+      margin-left: $margin / 2;
+    }
+  }
+}
