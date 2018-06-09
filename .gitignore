@@ -19,3 +19,5 @@ gruntfile.js
 .rvmrc
 .idea
 *.iml
+
+Gemfile.lock
