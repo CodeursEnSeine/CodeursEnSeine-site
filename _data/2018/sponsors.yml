@@ -90,3 +90,10 @@
   description: "<p>SPREAD est une solution marketing en mode SaaS, permettant aux marques et e-commerçants de construire leur programme d’engagement clients.</p>
   <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
 
+- name: REDLab
+  type: bronze
+  logo: logo-small-redlab.png
+  link: http://www.redlab.io
+  description: "<p>REDLab est une startup qui met son savoir et sa technologie à disposition des entreprises ambitieuses. </p>
+  <p>Notre objectif ? Les aider à opérer un tournant vers l’hyper-connectivité des systèmes et des objets pour faire de leurs aspirations une réalité.</p>
+  <p>IoT, Big Data et Blockchain, nos équipes maîtrisent et combinent les toutes dernières technologies pour rendre les industries plus performantes en opérant leur tournant vers le digital.</p>"
