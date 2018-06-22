@@ -4,6 +4,8 @@
 
 Rencontre de codeurs à Rouen :: Agile, Java, .NET & Web
 
+pour installer jekyll : https://jekyllrb.com/docs/installation/#ubuntu
+
 Dépendances requises :
 
 * ```gem install jekyll-sitemap```
