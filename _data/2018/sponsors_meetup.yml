@@ -4,14 +4,6 @@
   description: "<p>Saagie (anciennement Creative Data) est une startup créée en 2013 accompagnant les entreprises de tous secteurs d’activité souhaitant placer la donnée au cœur de leur culture. Nous vous proposons une plateforme prête à l’emploi de bout en bout orientée métier qui vous apporte le meilleur des technologies Big Data.</p>
   <p>Hébergée au sein de Seine Innopolis, l’écosystème normand du numérique, Saagie se compose d’une équipe pluridisciplinaire de data scientists, de développeurs, d’architectes Data ou encore d’experts métier capables de vous libérer des barrières technologiques liées au Big Data. Vous pouvez ainsi créer de nouveaux leviers de croissance en exploitant pleinement la richesse des données à votre disposition.</p>"
 
-
-- name: Attineos
-  logo: logo-small-attineos.jpg
-  link: http://www.attineos.com
-  description: "<p>Nouvel acteur, Attineos n’est pas une ESN comme les autres. Avec pour vocation d’accompagner la transformation numérique des entreprises et des administrations, nos consultants ne sont pas uniquement reconnus pour leurs compétences : leur adaptabilité, la passion qui les anime, leur sens de l’écoute représentent sans doute leur plus grande force. L’ATTItude vaut au moins autant que les aptitudes. C’est l’ADN d’Attineos !</p>
-  <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
-  <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
-
 - name: Digit
   logo: logo-small-digit.png
   link: https://www.justdigit.fr/
@@ -48,19 +40,6 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
   link: http://matmut.fr
   description: "Acteur majeur sur le marché français, le Groupe Matmut assure aujourd'hui près de 3,2 millions de sociétaires et plus de 6,8 millions de contrats.
 Il offre à tous - particuliers, professionnels, entreprises, associations - une gamme complète de produits d'assurance des biens et des personnes (auto, moto, habitation, bateau, chasse, responsabilités, protection de la famille, santé, prévoyance, protection juridique, assistance) et de services financiers et d'épargne (crédits auto, crédit consommation, livret d'épargne, assurance-vie, assurance emprunteur...)."
-
-- name: SIQUAL
-  logo: logo-small-siqual.png
-  link: http://www.siqual.fr/
-  description: "SIQUAL, société spécialisée dans le développement de solutions web sur mesure (applications, logiciels métier en mode web, sites Internet...) et la gestion des systèmes d'information (Installation informatique, maintenance, sécurisation) propose des services adaptés pour les TPE/PME allant jusqu'aux grands groupes."
-
-- name: Wixiweb
-  logo: logo-small-wixiweb.png
-  link: http://www.wixiweb.fr/
-  description: "<p>Wixiweb conçoit et réalise des plate-formes web sur-mesures: application web, mobile, extranet, intranet, API, etc.</p>
-    <p>Notre équipe de 6 personnes accompagne aussi bien des startups que des entreprises expérimentées ayant des besoins en conseil, développement interne et conception d'interface.</p>
-    <p>Fort de notre expertise et certifications PHP et Zend Framework, nous aidons les sociétés dans la formation de leurs collaborateurs, la reprise ou la réalisation de leurs projets sur-mesures et innovants.</p>
-    <p>Nous accordons une grande importance au conseil, à l'ergonomie, l'expérience utilisateur, la sécurité et la qualité technique, ainsi qu'à la réussite globale des projets.</p>"
 
 - name: REDLab
   logo: logo-small-redlab.png
