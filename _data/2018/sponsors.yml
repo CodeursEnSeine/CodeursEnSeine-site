@@ -124,3 +124,21 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
     <p>Notre équipe de 6 personnes accompagne aussi bien des startups que des entreprises expérimentées ayant des besoins en conseil, développement interne et conception d'interface.</p>
     <p>Fort de notre expertise et certifications PHP et Zend Framework, nous aidons les sociétés dans la formation de leurs collaborateurs, la reprise ou la réalisation de leurs projets sur-mesures et innovants.</p>
     <p>Nous accordons une grande importance au conseil, à l'ergonomie, l'expérience utilisateur, la sécurité et la qualité technique, ainsi qu'à la réussite globale des projets.</p>"
+
+- name: Devolis
+  type: bronze
+  logo: logo-small-devolis-new.png
+  link: http://www.devolis.fr
+  description: "<p>DEVOLIS est pure player sur les technologies Microsoft. Depuis bientôt 10 ans, nous développons des solutions basées sur les technologies Microsoft : framework .net, SQL Server, SharePoint, Office 365, Azure. Nos clients : les grands comptes de la Normandie et de l’ile de France.
+  </p>
+  <p>
+  Depuis l’arrivée de Satya Nadella en 2014, Microsoft opère un changement radical et s’ouvre à de nombreuses autres technologies. Nous avons également suivi cette évolution et conscient que Microsoft n’apporte pas les meilleures réponses à tous les sujets, nous avons décidé de devenir intégrateur Saagie.
+  </p>
+  <p>
+  Notre offre peut se résumer ainsi :</p>
+  <ul>
+  <li>Le « prêt à porter » : mise en place d’usages métiers avec la suite Office 365 (SharePoint, Yammer, Skype for Business, Planner, …)</li>
+  <li>Le « sur-mesure » : développement d’applications spécifiques</li>
+  <li>L’ « avant-gardiste » : développement de solutions BigData avec la plateforme Saagie</li>
+</ul>
+<p>DEVOLIS, présent au conseil d’administration de la Normany French Tech, membre actif de NWX et du club TIC.</p>"
