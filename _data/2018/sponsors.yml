@@ -142,3 +142,9 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <li>L’ « avant-gardiste » : développement de solutions BigData avec la plateforme Saagie</li>
 </ul>
 <p>DEVOLIS, présent au conseil d’administration de la Normany French Tech, membre actif de NWX et du club TIC.</p>"
+
+- name: TeamMood
+  type: bronze
+  logo: logo-small-teammood.png
+  link: https://www.teammood.com/l/ces2018/
+  description: "<p>TeamMood est fier de sponsoriser l'édition 2018 de Codeurs En Seine. Notre service en ligne permet aux team leads de suivre en continu la bonne santé de leurs équipes et ainsi de pouvoir améliorer leur environnement de travail.</p>"
