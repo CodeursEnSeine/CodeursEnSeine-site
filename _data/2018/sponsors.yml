@@ -158,3 +158,10 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
   <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
+- name: FTEL
+  type: bronze
+  logo: logo-small-ftel.png
+  link: http://ftel.fr
+  description: "<p>Une équipe normande partenaire dans la réussite de vos projets digitaux.</p>
+  <p>#humain #passionné #engagé</p>"
