@@ -165,3 +165,11 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   link: http://ftel.fr
   description: "<p>Une équipe normande partenaire dans la réussite de vos projets digitaux.</p>
   <p>#humain #passionné #engagé</p>"
+
+
+- name: Sonarsource
+  type: bronze
+  logo: logo-small-sonarsource.png
+  link: http://www.sonarsource.com
+  description: "<p>SonarSource provides world-class solutions for continuous code quality. Its open source and commercial products help customers of all size to manage the code quality of their applications, reduce their risks and ultimately deliver better software.
+  </p><p>SonarSource solutions support development in 20+ programming languages such as Java, C#, Javascript, C/C++, COBOL and more. With 700+ customers around the world including eBay, Thales, BMW and used by more than 80,000 organizations SonarSource's products are the de facto standard solutions on the market.</p>"
