@@ -46,6 +46,14 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   description: "<p>Saagie est une startup éditant une plateforme AI et Big Data permettant aux entreprises d'accomplir leurs initiatives data en un minimum de temps pour placer la donnée au cœur de leur culture!</p>
   <p>Présent à Rouen/Seine Innopolis, Paris et San Francisco, nous sommes régéulièrement à la recherches de codeurs java, kotlin, scala, javascript, css pour compléter notre équipe et suivre notre croissance.</p>"
 
+- name: Enovea
+  type: silver
+  logo: logo-small-enoveav2.png
+  link: http://www.enovea.net/
+  description: "<p>Forte de ses 50 collaborateurs, Enovea est une Entreprise de Services du Numérique qui vient de fêter ses 10 ans ! Dans un esprit #StartUp, nous développons des solutions logicielles sur-mesure pour des clients issus de la Finance, de l'Assurance, de l'Industrie ou des Services.</p>
+  <p>Via nos applications, nous répondons aux besoins de nos clients aux quatre coins du globe depuis notre plateau de développement de 800 m2 à Rouen ou depuis notre agence à Paris Saint-Lazare, voire en télétravail.</p>
+  <p>En mode #agile, nous proposons des solutions de co-innovation, co-édition et co-maintenance. Nous travaillons avec une liberté d’action et d’expression, la confiance au cœur des relations et le résultat comme engagement.</p>"
+
 # -------------------
 # bronze
 # -------------------
