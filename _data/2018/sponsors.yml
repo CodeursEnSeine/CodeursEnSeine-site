@@ -54,6 +54,15 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>Via nos applications, nous répondons aux besoins de nos clients aux quatre coins du globe depuis notre plateau de développement de 800 m2 à Rouen ou depuis notre agence à Paris Saint-Lazare, voire en télétravail.</p>
   <p>En mode #agile, nous proposons des solutions de co-innovation, co-édition et co-maintenance. Nous travaillons avec une liberté d’action et d’expression, la confiance au cœur des relations et le résultat comme engagement.</p>"
 
+- name: Masternaut
+  type: silver
+  logo: logo-small-masternaut1.png
+  link: http://www.masternaut.com
+  description: "<p>Leader français dans le domaine de la télématique automobile, nous avons plus de 20 ans d'expertise en solutions de suivi de flotte et de géolocalisation de véhicule d'entreprise.</p>
+  <p>Notre plateforme évolutive met toujours l’utilisateur au premier plan, et notre technologie brevetée fournit en temps réel les informations collectées directement sur le réseau CAN du véhicule. Disposant du plus grand centre Européen de recherche et développement, et d’une équipe de plus de 300 experts en France et au Royaume-Uni, nous pouvons vous aider à optimiser votre flotte.</p>
+  <p>Nous souhaitons aujourd'hui entrer en contact avec les ingénieurs de demain et repérer les futurs talents qui intègreront notre entreprise. </p>"
+
+
 # -------------------
 # bronze
 # -------------------
