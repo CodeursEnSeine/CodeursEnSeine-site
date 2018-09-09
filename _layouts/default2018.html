@@ -23,9 +23,9 @@
           <strong>{{ site.date[page.group] }}</strong>
         </p>
         <div class="header-menu-button">
-          <a href="#menu" class="button light small block">
+          <button id="toggle-menu-button" class="button light small block">
             Navigation
-          </a>
+          </button>
         </div>
         <div class="header-action">
           <a href="sponsors" class="button light-ghost small">
@@ -38,6 +38,16 @@
       </div>
     </div>
   </header>
+  <nav class="nav-mobile as--hidden" id="mobile-menu">
+    <div class="nav-mobile-header">
+      Navigation
+
+      <button id="menu-close-button" class="nav-mobile-back-top">
+        <i>&times;</i> <span>fermer</span>
+      </button>
+    </div>
+    {% include 2018/main-nav.html %}
+  </nav>
   <main class="content-main">
     <div class="wrapper">
       {{ content }}
@@ -76,17 +86,6 @@
       </div>
     </div>
   </footer>
-  <nav class="nav-mobile" id="menu">
-    <div class="nav-mobile-header">
-      Navigation
-
-      <a class="nav-mobile-back-top" href="#">
-        <i>&times;</i> <span>fermer</span>
-      </a>
-    </div>
-    {% include 2018/main-nav.html %}
-  </nav>
-
   <script src="/assets/js/{{page.group}}/scripts.js"></script>
 </body>
 </html>

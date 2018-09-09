@@ -1,8 +1,11 @@
 .nav-mobile {
   background: darken($color-primary, 3%);
-  min-height: 100vh;
   padding-bottom: $margin;
   color: #fff;
+
+  &.as--hidden{
+    display: none;
+  }
 
   @media only screen and (min-width: 1000px) {
     display: none;
@@ -45,6 +48,9 @@
 }
 
 .nav-mobile-back-top {
+  background: inherit;
+  border: none;
+  text-transform: inherit;
   color: #fff;
   text-decoration: none;
   position: absolute;
