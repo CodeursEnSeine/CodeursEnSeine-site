@@ -4,7 +4,9 @@
 
 Rencontre de codeurs à Rouen :: Agile, Java, .NET & Web
 
-pour installer jekyll : https://jekyllrb.com/docs/installation/#ubuntu
+### Execution en local
+#### Requis
+Pour installer jekyll : https://jekyllrb.com/docs/installation/#ubuntu
 
 Dépendances requises :
 
@@ -13,11 +15,14 @@ Dépendances requises :
 * ```gem install jekyll-redirect-from```
 * ```gem install bundler```
 
-Démarrage du site en local : 
+#### Démarrage du site en local 
 * ```jekyll serve --watch``` 
 
 ou 
 
 * ```bundle exec jekyll serve --watch```
 
+Essayez cette commande si vous n'arrivez pas à lancer le site : `bundle update`
+
+### Contribution
 Vous trouvez que quelque chose manque au site ? -> les pull requests sont les bienvenues !
