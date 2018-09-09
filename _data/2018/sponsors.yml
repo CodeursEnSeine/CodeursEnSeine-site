@@ -62,6 +62,16 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>Notre plateforme évolutive met toujours l’utilisateur au premier plan, et notre technologie brevetée fournit en temps réel les informations collectées directement sur le réseau CAN du véhicule. Disposant du plus grand centre Européen de recherche et développement, et d’une équipe de plus de 300 experts en France et au Royaume-Uni, nous pouvons vous aider à optimiser votre flotte.</p>
   <p>Nous souhaitons aujourd'hui entrer en contact avec les ingénieurs de demain et repérer les futurs talents qui intègreront notre entreprise. </p>"
 
+- name: Zenika
+  type: silver
+  logo: logo-small-zenika.png
+  link: https://www.zenika.com/
+  description: "<p>Créé en 2006, Zenika est un cabinet d’innovation technologique, managériale et organisationnelle, qui accompagne les entreprises dans leur transformation numérique. Zenika fait le lien entre le monde organique et le monde numérique et se positionne comme un \"One Stop Shop\" pour ses clients.</p>
+  <p>Depuis l’interface (Web, Mobile, Voix, Objet Connecté, RA/RV) jusqu’à la data et son usage, le tout en mode agile, Zenika regroupe des profils variés sur les domaines d’expertise suivants : Java, Big Data, Web, Mobilité, IoT, DevOps, Craftsmanship, Agilité, sécurité et transformation des organisations. Après les ouvertures successives des agences de Paris, Lyon, Rennes, Nantes, Lille, Bordeaux, Grenoble, Singapour et Montréal, le groupe souhaite renforcer son rayonnement national et international.</p>
+  <p>En 2018, Zenika se hisse à la 1ère place du Palmarès Great Place to Work 2018 France.</p>
+  <p>Nous recherchons des développeurs pour des stages dernière année d'étude.</p>
+  <p>Nous recherchons des développeurs/ experts :  JAVA, Front-End, NodeJs,  Mobile, Fullstack.</p>
+  <p>Mais également des consultants DevOps, des Data Ingénieur, Data Architecte et des consultants Sécurité.</p>"
 
 # -------------------
 # bronze
