@@ -1,4 +1,5 @@
 <ul>
+  <li><a href="{{ BASE_PATH }}/2018/">Conférence 2018</a></li>
   {% capture page_modified %}{{ page.url }}{% endcapture %}
   {% for node in site.pages %}
     {% if node.title != null %}
@@ -13,6 +14,5 @@
       {% endif %}
     {% endif %}
   {% endfor %}
-  <li><a href="{{ BASE_PATH }}/2018/">Conférence 2018</a></li>
   <li><a href="{{ BASE_PATH }}/devoxx4kids/">Devoxx4kids</a></li>
 </ul>

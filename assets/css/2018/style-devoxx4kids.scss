@@ -3,7 +3,12 @@
 
 @charset 'UTF-8';
 
-$color-primary: #e8ae3c;
+$color-primary: #e8ae3c !default;
+$color-gradient-start: #e8ae3c !default;
+$color-gradient-end: #e8ae3c !default;
+$color-dark: #333 !default;
+$color-light: #e8ae3c !default;
+
 $header-image: '../../img/devoxx4kids/header.jpg';
 $header-image-lg: '../../img/devoxx4kids/header-lg.jpg';
 $header-image-xl: '../../img/devoxx4kids/header-xl.jpg';

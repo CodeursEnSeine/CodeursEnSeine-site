@@ -6,7 +6,7 @@
   <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-  <link href="/assets/css/2017/style-devoxx4kids.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/css/2018/style-devoxx4kids.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
   <header class="header-main">
@@ -23,9 +23,9 @@
           <strong>{{ site.date[page.group] }}</strong>
         </p>
         <div class="header-menu-button">
-          <a href="#menu" class="button light-ghost small block">
+          <button id="toggle-menu-button" class="button light small block">
             Navigation
-          </a>
+          </button>
         </div>
         <nav class="nav-main">
           {% include devoxx4kids/main-nav.html %}
@@ -33,6 +33,16 @@
       </div>
     </div>
   </header>
+  <nav class="nav-mobile as--hidden" id="mobile-menu">
+    <div class="nav-mobile-header">
+      Navigation
+
+      <button id="menu-close-button" class="nav-mobile-back-top">
+        <i>&times;</i> <span>fermer</span>
+      </button>
+    </div>
+    {% include devoxx4kids/main-nav.html %}
+  </nav>
   <main class="content-main">
     <div class="wrapper">
       {{ content }}
@@ -52,17 +62,6 @@
       </div>
     </div>
   </footer>
-  <nav class="nav-mobile" id="menu">
-    <div class="nav-mobile-header">
-      Navigation
-
-      <a class="nav-mobile-back-top" href="#">
-        <i>&times;</i> <span>fermer</span>
-      </a>
-    </div>
-    {% include devoxx4kids/main-nav.html %}
-  </nav>
-
-  <script src="/assets/js/2016/scripts.js"></script>
+  <script src="/assets/js/2018/scripts.js"></script>
 </body>
 </html>
