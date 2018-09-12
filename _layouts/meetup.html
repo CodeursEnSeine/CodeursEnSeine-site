@@ -6,7 +6,7 @@
   <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-  <link href="/assets/css/2018/style-meetups.css" rel="stylesheet" type="text/css" media="all">
+  <link href="{{ '/css/meetups/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
   <header class="header-main">
@@ -15,7 +15,7 @@
       <div class="header-grid">
         <h1 class="header-logo">
           <a href="/{{ page.group }}/">
-            <img src="/assets/img/2018/logo-ces-meetup@2x.png" width="200" height="107" alt="{{site.title}}">
+            <img src="/images/meetups/logo-ces-meetup@2x.png" width="200" height="107" alt="{{site.title}}">
           </a>
         </h1>
         <p class="tagline">
@@ -45,9 +45,9 @@
   </nav>
   <section class="footer-sponsors">
     <div class="wrapper text-center">
-      {% for sponsor in site.data['2018'].sponsors_meetup %}
+      {% for sponsor in site.data['meetups'].sponsors %}
         <a href="{{sponsor.link}}" class="footer-sponsors-item" title="{{sponsor.name}}">
-          <img width="157" height="100" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
+          <img width="157" height="100" alt="{{sponsor.name}}" src="/images/meetups/sponsors/{{sponsor.logo}}">
         </a>
       {% endfor %}
     </div>
@@ -62,27 +62,27 @@
     <div class="wrapper">
     <div class="row">
       <div class="col col-1-6">
-        <img src="/assets/img/meetup/njug.jpg" width="100" height="100" alt="Normandy Java User Group"/>
+        <img src="/images/meetups/njug.jpg" width="100" height="100" alt="Normandy Java User Group"/>
         <p><a href="https://twitter.com/normandyjug">@normandyjug</a></p>
       </div>
       <div class="col col-1-6">
-        <img src="/assets/img/meetup/naug.jpg" width="100"  height="100"  alt="Normandy Agile User Group"/>
+        <img src="/images/meetups/naug.jpg" width="100"  height="100"  alt="Normandy Agile User Group"/>
         <p><a href="https://twitter.com/normandyagile">@normandyagile</a></p>
       </div>
       <div class="col col-1-6">
-        <img src="/assets/img/meetup/nuxde.png" width="100"  height="100" alt="Normandy Ux Designer"/>
+        <img src="/images/meetups/nuxde.png" width="100"  height="100" alt="Normandy Ux Designer"/>
         <p><a href="https://twitter.com/nuxde_">@nuxde_</a></p>
       </div>
       <div class="col col-1-6">
-        <img src="/assets/img/meetup/rouenjs.jpg" width="100" height="100"  alt="Rouen Javascript"/>
+        <img src="/images/meetups/rouenjs.jpg" width="100" height="100"  alt="Rouen Javascript"/>
         <p><a href="https://twitter.com/rouenjs">@rouenjs</a></p>
       </div>
       <div class="col col-1-6">
-        <img src="/assets/img/meetup/mugnormandy_100x100.jpg" width="100" height="100"  alt="MUG Normandy"/>
+        <img src="/images/meetups/mugnormandy_100x100.jpg" width="100" height="100"  alt="MUG Normandy"/>
         <p><a href="https://twitter.com/normandymug">@normandymug</a></p>
       </div>
     </div>
-    <a href="https://voxxeddays.com/microservices/"><img src="/assets/img/meetup/Voxxedmicroservices_banner.jpg"  width="780" height="96" alt="Voxxed Micro Services"></a>
+    <a href="https://voxxeddays.com/microservices/"><img src="/images/meetups/Voxxedmicroservices_banner.jpg"  width="780" height="96" alt="Voxxed Micro Services"></a>
   </div>
   </main>
   <footer class="footer-main">
@@ -91,7 +91,7 @@
         <p>Email : <a href="mailto:contact@codeursenseine.com">contact@codeursenseine.com</a></p>
         <p>Twitter : <a href="http://twitter.com/codeursenseine" target="_blank">@codeursenseine</a></p>
         <p>Chaine Youtube : <a href="https://www.youtube.com/channel/UCWujmG5rANxJI0nHbMFs08w/playlists" target="_blank">Vidéos meetups et conférences</a></p>
-        <p>Github : <a href="https://github.com/CodeursEnSeine/" tfaarget="_blank">CodeursEnSeine</a></p>
+        <p>Github : <a href="https://github.com/CodeursEnSeine/" target="_blank">CodeursEnSeine</a></p>
         <p>Facebook : <a href="https://www.facebook.com/codeursenseine" target="_blank">@codeursenseine</a></p>
         <p>Linkedin : <a href="https://www.linkedin.com/company/codeurs-en-seine" target="_blank">Codeurs en Seine</a></p>
       </div>
@@ -103,6 +103,6 @@
       </div>
     </div>
   </footer>
-  <script src="/assets/js/2018/scripts.js"></script>
+  <script src="{{ '/js/2018/scripts.js' | relative_url }}"></script>
 </body>
 </html>

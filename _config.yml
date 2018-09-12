@@ -1,7 +1,7 @@
  # This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",".editorconfig"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", ".editorconfig"]
 markdown : kramdown
 
 permalink: /meetups/:year-:month-:day/:slug
@@ -30,7 +30,7 @@ date :
 production_url : http://www.codeursenseine.com
 
 sass:
-  sass_dir: assets/css/
+  sass_dir: css
   style: compressed
 
 plugins_dir:

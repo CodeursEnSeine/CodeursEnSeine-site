@@ -2,11 +2,11 @@
   <div class="card-inner">
     {% if sponsor.logo and sponsor.link %}
     <a href="{{sponsor.link}}" class="card-logo">
-      <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
+      <img width="314" height="200" alt="{{sponsor.name}}" src="/images/legacy/{{sponsor.logo}}">
     </a>
     {% else if sponsor.logo %}
     <div class="card-logo">
-      <img width="314" height="200" alt="{{sponsor.name}}" src="/assets/img/{{sponsor.logo}}">
+      <img width="314" height="200" alt="{{sponsor.name}}" src="/images/legacy/{{sponsor.logo}}">
     </div>
     {% endif %}
 

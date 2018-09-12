@@ -1,0 +1,510 @@
+[
+    {
+        "id": 1,
+        "fullname": "Alexis Jamet",
+        "avatar": "/images/legacy/orateur-alexisbunkr.jpg",
+        "description": "Co-fondateur et CEO de la startup Bunkr. Après plusieurs années passées en agence de communication comme consultant, je me suis lancé dans l'aventure startup en créant Bunkr. Bunkr est l’application ultime pour créer et diffuser vos présentations. Bunkr n’est pas un autre outil qui se focalise sur l’aspect esthétique de vos slides. Bunkr vous fait gagner du temps dans l’exploitation de vos données et la diffusion de vos présentations.",
+        "liens": [
+            {
+                "url": "https://www.bunkr.me/fr",
+                "label": "Bunkr"
+            },
+            {
+                "url": "http://www.alexisjamet.fr/",
+                "label": "Blog"
+            },
+            {
+                "url": "https://twitter.com/alexisjamet",
+                "label": "Twitter"
+            }],
+        "type": "Keynote",
+        "talks": [ {"id":"1"}]
+    },
+    {
+        "id": 2,
+        "fullname": "Cyrille Martraire",
+        "avatar": "/images/legacy/orateur-martraire.jpg",
+        "description": "Depuis 1999 Cyrille développe des logiciels avec passion dans des startups et banques, et est co-fondateur et directeur technique d'Arolla, une société spécialisée en développement logiciel. Toujours accro au développement, il consacre une grande partie de son énergie chez des clients dans la finance de marché, en prenant intégralement en charge des projets en équipe, les mains dans le code et avec une forte implication dans l'analyse métier.\nPassionné de design sous tous ses aspects (Clean Code, TDD, BDD, DDD, architecture), il a aussi fondé la communauté Software Craftsmanship Paris.",
+        "liens": [
+            {
+                "url": "http://blog.arolla.fr/",
+                "label": "Blog"
+            },
+            {
+                "url": "http://www.twitter.com/cyriux",
+                "label": "Twitter"
+            }],
+        "type": "Keynote",
+        "talks": [ {"id":"2"}]
+    },
+    {
+        "id": 3,
+        "fullname": "Bernard Notarianni",
+        "avatar": "/images/legacy/orateur-notarianni.jpg",
+        "description": "Bernard est créateur de logiciels d'entreprise depuis 20 ans, Coach agile depuis 10 ans. Il invente de nouvelles manières d'utiliser l'informatique afin de créer des logiciels remarquables. Bernard partage son savoir faire avec les équipes qu'il rejoint, autant pour écrire du code et des tests que pour animer la dynamique d'équipe et le processus de distillation des idées des \"Product Owners\". Il contribue à la communauté agile francaise depuis sa création. Il est co-organisateur d'Agile Open France, la conférence en format \"forum ouvert\" des praticiens avancés de l'agile en France, qui se réunit annuellement à Itterswiller en Alsace.",
+        "liens": [
+            {
+                "url": "http://umolelo.com/",
+                "label": "Blog"
+            },
+            {
+                "url": "http://www.twitter.com/notarianni",
+                "label": "Twitter"
+            }],
+        "type": "Keynote",
+        "talks": [ {"id":"2"}]
+    },
+    {
+        "id": 101,
+        "fullname": "Christophe Porteneuve",
+        "avatar": "/images/legacy/orateur-porteneuve.jpg",
+        "description": "Christophe conçoit des pages web depuis septembre 1995. Après avoir travaillé sur le premier portail JSP en Europe, il dirige la filière INSIA où il y enseigne les nouvelles technologies puis est directeur technique d'une agence web pendant 5 ans. Auteur du best-seller « Bien développer pour le Web 2.0 » chez Eyrolles, il a également écrit la référence « Prototype and script.aculo.us » chez Pragmatic Programmers.\n\nIl est aujourd’hui fondateur et directeur technique de Delicious Insights qui, tout en travaillant sur des SaaS B2B à venir, conçoit et propose les cycles de formation Git Attitude et JS Attitude.",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/porteneuve",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"11"}]
+    },
+    {
+        "id": 102,
+        "fullname": "Matthias Dugué",
+        "avatar": "/images/legacy/orateur-dugue.jpg",
+        "description": "Matthias est _Full Stack Punisher_ chez @Bunkrapp et éleveur de licornes de combats depuis 1996. Il passe ses journées à implémenter, dans la joie et la qualité, l'interface qui sera la plus simple possible à utiliser. Il a malheureusement une fâcheuse tendance à danser et humhumer durant son _coding time_, ce qui peut facilement porter sur les nerfs de ses collègues (mais fait fuir les bugs, on ne peut pas tout avoir)...",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/m4d_z",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"12"}]
+    },
+    {
+        "id": 103,
+        "fullname": "Rémi Parmentier",
+        "avatar": "/images/legacy/orateur-parmentier.jpg",
+        "description": "Rémi est intégrateur et co-gérant de sa petite agence web à Tourcoing, dans le Nord. Il aime partager ses humeurs et ses découvertes sur son blog et son compte Twitter.",
+        "liens": [
+                {
+                "url": "http://www.hteumeuleu.fr",
+                "label": "Blog"
+                },
+                {
+                "url": "http://www.twitter.com/hteumeuleu",
+                "label": "Twitter"
+                }
+                ],
+        "type": "Web",
+        "talks": [ {"id":"13"}]
+    },
+    {
+        "id": 104,
+        "fullname": "Romy Duhem-Verdière",
+        "avatar": "/images/legacy/orateur-duhem-verdiere.jpg",
+        "description": "Dinosaure des Internets, spécialisée en sémantique et accessibilité, initialement développeuse front, Romy intervient désormais en ergonomie des interfaces, pour améliorer l'expérience utilisateur. Auparavant, elle a étudié la linguistique, les fonctions logiques, l'art médiéval et la perspective trigonométrique. Puisant tant dans l'histoire que dans l'expérience elle continue de pratiquer l'enluminure en dilettante et contribue également au développement d'un outil libre de publication web. Se passionnant pour la signalétique des hyperliens, la rédaction en ligne et la lisibilité typographique à l'écran, elle a récemment développé Tiny Typo, une base CSS pour le contenu éditorial web.",
+        "liens": [
+                {
+                "url": "http://romy.tetue.net",
+                "label": "Blog"
+                },
+                {
+                "url": "https://twitter.com/tetue",
+                "label": "Twitter"
+                }
+                ],
+        "type": "Web",
+        "talks": [ {"id":"14"}]
+    },
+    {
+        "id": 105,
+        "fullname": "Olivier Nourry",
+        "avatar": "/images/legacy/orateur-nourry.jpg",
+        "description": "Je ne crois pas en l'accessibilité parce que c'est mon job. C'est mon job parce que je crois en l'accessibilité. Après avoir brisé les c... carcans chez Micropole, et un passage court mais intense chez Qelios, je dirige le Pôle Accessibilité de V-Technologies. Parfois je m'énerve, mais c'est toujours pour la bonne cause. Sinon, pour mes loisirs, j'aime écrire pour mon blog (sur l'accessibilité), ou donner des conférences (sur l'accessibilité).",
+        "liens": [
+                {
+                "url": "http://accessiblog.fr",
+                "label": "Blog"
+                },
+                {
+                "url": "https://twitter.com/OlivierNourry",
+                "label": "Twitter"
+                }
+                ],
+        "type": "Web",
+        "talks": [ {"id":"15"}]
+    },
+    {
+        "id": 106,
+        "fullname": "Cyril Krylatov",
+        "avatar": "/images/legacy/orateur-krylatov.jpg",
+        "description": "Cyril, au collège, ne savait pas quoi faire quand il serait grand. Mais un jour, il a pris le code source d’un site, l’a collé dans frontpage, a vu le résultat et ça lui a plu. Depuis, il a été 3 ans intégrateur en agence et maintenant il est lead-intégrateur d’une équipe formidable composée de lui-même « chez l’annonceur » et continue d’apprendre énormément de trucs.",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/IAmNotCyril",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"16"}]
+    },
+    {
+        "id": 107,
+        "fullname": "Alexis Jacomy",
+        "avatar": "/images/legacy/orateur-jacomy.jpg",
+        "description": "Après être passé chez Linkfluence puis le médialab de Sciences-Po, Alexis développe maintenant des applications web de visualisation de données chez Atelier Iceberg, à Nantes. Il maintient également divers projets open-source autour de ces mêmes problématiques, notamment sigma.js, dédiée à l'affichage de graphes dans des pages web.",
+        "liens": [
+                {
+                "url": "http://www.twitter.com/jacomyal",
+                "label": "Twitter"
+                }],
+        "type": "Web",
+        "talks": [ {"id":"17"}]
+    },
+    {
+        "id": 201,
+        "fullname": "Cyril Lakech",
+        "avatar": "/images/legacy/orateur-clakech.jpeg",
+        "description": "Développeur. Ch'ti JUG Leader.\n Passionné par le métier de développeur, je m'intéresse à tous les domaines que je ne connais pas et aux bonnes pratiques de qualité comme les tests ou la revue de code. Je suis partisans des méthodes agiles et convaincu par l'approche devops. Je me concentre sur le dev web en JS HTML CSS en utilisant AngularJS, Grunt et tout l'écosystème de ces outils.\nCo-fondateur du Ch'ti JUG il y a 5 ans, je me suis retrouvé organisateur d'évènements et animateur de la communauté Java dans le Nord. Je me suis lancé dans l'organisation d'un Devoxx4Kids à Lille.\nJe travaille chez Groupe Adeo où c'est un plaisir de travailler car on a l'autonomie et les moyens pour réaliser un développement de qualité.",
+        "liens": [
+            {
+                "url": "http://twitter.com/cyril_lakech",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"30"}]
+    },
+    {
+        "id": 202,
+        "fullname": "Hubert Sablonniere",
+        "avatar": "/images/legacy/orateur-hsablonniere.png",
+        "description": "Hubert Sablonnière est un développeur Web passionné d’HTML, CSS et JavaScript.\n\nDepuis 5 ans il intervient chez INEAT Conseil en conseil et développement sur des projets Web (desktop et mobile). Habitué des plateformes Java et PHP, sa spécialité reste le JavaScript qu'il a enseigné pendant 2 ans.\n\nSur son temps libre, il bidouille sur différents projets open-source en essayant de pousser la plateforme Web jusqu'à ses limites.",
+        "liens": [
+            {
+                "url": "http://twitter.com/hsablonniere",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"30"}]
+    },
+    {
+        "id": 203,
+        "fullname": "Eric Le Merdy",
+        "avatar": "/images/legacy/orateur-elemerdy.png",
+        "description": "Eric est particulièrement heureux lorsqu'il est en train de coder.\n\nDans un état d'esprit agile, il aime se sentir appartenir à une équipe de développement cool et partager son enthousiasme. En complément de son apétit pour la pratique de l'art de la programmation, il aime aussi la théorie. Le \"Lean Software Development\" satisfait son intérêt pour à la fois la culture japonnaise et les méthodes efficaces qui mettent en avant les humains.\n\nInspiré par le Software Craftsmanship, il essaye de suprimer les fonctionnalités jour après jour pour simplifier et tenter d'éliminer le \"legacy\" de la surface de la terre - le code legacy étant bien entendu du code qu'il a pu lui-même produire la veille !",
+        "liens": [
+            {
+                "url": "http://twitter.com/ericlemerdy",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"31"}]
+    },
+    {
+        "id": 204,
+        "fullname": "Sebastian Le Merdy",
+        "avatar": "/images/legacy/orateur-slemerdy.jpg",
+        "description": "Je m'appelle Sébastian et j'aime le software craftsmanship.\n\nJe suis passionné par le développement et les technologies innovantes. Mon langage maternel est Java mais ça ne me dérange pas d'écrire du code dans d'autres langages comme scala ou javascript ; tant que c'est le bon outil pour la bonne tâche. J'aime bien livrer tôt et livrer souvent mon logiciel aux utilisateurs finaux en utilisant les pratiques agiles. Je teste systématiquement tout ce que j'écris : personne n'est parfait.\n\nVous pouvez me rencontrer dans un coding dojo ou durant une session de coding live. Je travaille chez Xebia en qualité de consultant.",
+        "liens": [
+            {
+                "url": "http://twitter.com/seblm",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"31"}]
+    },
+    {
+        "id": 205,
+        "fullname": "Couthaïer Farfra",
+        "avatar": "/images/legacy/orateur-cfarfra.png",
+        "description": "Consultant senior, Coach Agile, de plus de 19 ans d’expérience, dont 5 dans le domaine de l’Agilité.\n\nResponsable de l’offre Agile Siderlog.\n\nCouthaïer a à son actif plusieurs réalisations agiles, allant de l’accompagnement opérationnel des équipes projet à la réalisation de transformation à grande échelle d’une organisation, vers les pratiques Scrum, Kanban ou SAFe.\n\nEn décembre 2013, Couthaïer a créé l’association French Kanban User Group (330 membres), dont la vocation est de rassembler la communauté agile autour des pratiques Kanban.\n\nCertifié ScrumMaster, Management 3.0 et SAFe.",
+        "liens": [
+            {
+                "url": "http://twitter.com/farfrac",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"32"}]
+    },
+    {
+        "id": 206,
+        "fullname": "Youen Chene",
+        "avatar": "/images/legacy/orateur-ychene.jpg",
+        "description": "Passionné d'informatique et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG et de Codeurs en Seine. Après 7 ans de prestation et de consulting en région parisienne, je suis passé manager d'une équipe de développement chez Masternaut suite à un rachat et une réorganisation.J'ai aussi ma petite entreprise (http://www.driveo.fr) ou je porte tous les rôles.",
+        "liens": [
+            {
+                "url": "http://www.youenchene.fr",
+                "label": "Blog"
+            },
+            {
+                "url": "http://twitter.com/youen_chene",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"33"}]
+    },
+    {
+        "id": 207,
+        "fullname": "Pierre Neis",
+        "avatar": "/images/legacy/orateur-neis.jpg",
+        "description": "Pierre est un coach agile expérimenté avec avec une importante expérience de la gestion de programmes. Il a commencé sa carrière en tant que chef de produit dans l'industrie automobile et s’est challengé comme gestionnaire de portefeuille en capital de risque avant s'engager dans l'industrie du logiciel.\nIl a testé différentes approches dans le coaching de Scrum dans l’Audit, l’Asset Management, l’Industrie, l’Education, les programmes gouvernementaux, les projets offshore.\nEn parallèle à ses activités de coachs de programmes globaux, Pierre a développé différentes méthodes agiles pour la gestion des Ressources Humaines, les Serious Games et la facilitation.\nQuelques références: ORES, GDF Suez Europe, SAP UK, KingFisher, Wemanity, Accenture, AXA Group, LaPoste Innovation, Euroclear Bank, INVIVO, CNRS, CTIE, atHome Group, Swingmobility, Touring Assurances…",
+        "liens": [
+            {
+                "url": "http://twitter.com/elPedroMajor",
+                "label": "Twitter"
+            }],
+        "type": "Agile",
+        "talks": [ {"id":"34"}, {"id":"36"}]
+    },
+    {
+      "id": 208,
+      "fullname": "Alexis Nicolas",
+      "avatar": "/images/legacy/orateur-anicolas.jpg",
+      "description": "Artisan en management\nMon objectif est d'accompagner les organisations à se réinventer et à développer une capacité à se réinventer elles-mêmes pour créer le futur. Mon parcours professionnel s'est orienté naturellement vers cet objectif, management d'équipes opérationnelles, conseil en management et coaching d'organisation. Mes sources d'inspiration sont : L'école de Palo Alto, Web 2.0, Liberté & Cie, Donald Reinertsen, Lean Kanban, les Réseaux Sociaux. Plus d’information, dont publications, conférences et formations, disponible sur mon site web : www.yisy.fr.",
+      "liens": [
+        {
+          "url": "http://twitter.com/alexis8nicolas",
+          "label": "Twitter"
+        }],
+      "type": "Agile",
+      "talks": [ {"id":"35"}]
+    },
+    {
+        "id": 302,
+        "fullname": "José Paumard",
+        "avatar": "/images/legacy/orateur-paumard.jpg",
+        "description": "Maître de conférences à l'institut Galilée (université Paris 13) et docteur en mathématiques appliquées de l'ENS de Cachan. Il découvre Java en 1995, et enseigne le langage et ses API depuis 2000 en DESS (devenu M2 depuis). Il y a 10 ans, José rencontre Pierre Briant et se passionne depuis pour les bases de données historiques et archéologiques. Il codirige dans ce cadre le projet MAVI en collaboration avec le collège de France, et publie en open source Open melodie plateforme Java qui joue le rôle de back-office du MAVI. Il tient le blog Java le soir.",
+        "liens": [
+                {
+                "url": "http://blog.paumard.org/",
+                "label": "Blog"
+                }],
+        "type": "Java",
+        "talks": [ {"id":"51"}]
+    },
+    {
+        "id": 303,
+        "fullname": "Xavier Bucchiotty",
+        "avatar": "/images/legacy/orateur-xbucchiotty.jpg",
+        "description": "Xavier est un développeur passionné Java/Scala chez Xebia. Il développe avec Java depuis bientôt 10 ans. Puis, il a découvert Akka et Scala en conférence il y a deux ans. Depuis, il ne cesse de creuser le sujet et de partager son enthousiasme sur cet écosystème, aussi bien en interne qu'en conférence. Cela lui permet notamment d'apporter de nouvelles solutions aux défis techniques qui lui sont posés aujourd'hui.\n\nAdepte des méthodes agiles, il est aussi un fervent défenseur des pratiques XP.",
+               "liens": [
+                {
+                "url": "http://blog.xebia.fr",
+                "label": "Blog"
+                },
+                {
+                "url": "http://www.twitter.com/xbucchiotty",
+                "label": "Twitter"
+                }
+            ],
+        "type": "Java",
+        "talks": [ {"id":"52"}]
+    },
+    {
+        "id": 304,
+        "fullname": "Fabrice Sznajderman",
+        "avatar": "/images/legacy/orateur-fsznajderman.jpg",
+        "description": "Développeur passionné par les technologies et architectures liées à l’écosystème Java ainsi qu’aux technologies du WEB. Je m’investis également dans le monde de la programmation fonctionnelle au travers du langage Scala. \n\nCo-fondateur de la page : http://gplus.to/javafr où je publie régulièrement des articles. Fondateur de la communauté développeurFR : http://gplus.to/developpeurFR\nRédacteur pour le journal Programmez",
+                "liens": [
+                {
+                    "url": "http://gplus.to/javafr",
+                    "label": "Blog"
+                },
+                {
+                    "url": "http://www.twitter.com/fsznajderman",
+                    "label": "Twitter"
+                }
+            ],
+        "type": "Java",
+        "talks": [ {"id":"53"}]
+    },
+    {
+        "id": 305,
+        "fullname": "Julien Dubois",
+        "avatar": "/images/legacy/orateur-jdubois.jpg",
+        "description": "Responsable de l'innovation chez Ippon Technologies, développeur Java depuis 15 ans, co-auteur de \"Spring par la pratique\" et créateur de http://jhipster.github.io/",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/juliendubois",
+                "label": "Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"54"}]
+    },
+    {
+        "id": 306,
+        "fullname": "Emmanuel Lécharny",
+        "avatar": "/images/legacy/orateur-elecharny.jpg",
+        "description": "Développeur depuis 35 ans, après un passage de 12 ans dans quelques (grosses) SSII, je fais le grand bond en avant et crée une petite société finalement peu différente d'une SSII. En 2005, je bascule dans le monde Open Source.\n\nMembre de l'ASF depuis 2007, responsable des projets MINA et ApacheDS, mentor de divers autres projets, je travaille actuellement avec la société Symas pour développer des solutions de sécurité et d'annuaires (toujours en Open Source).",
+        "liens": [
+                {
+                    "url": "http://www.twitter.com/elecharny",
+                    "label": "Twitter"
+                },
+                {
+                    "url": "http://hrabal.blogspot.fr/",
+                    "label": "Blog"
+                }
+            ],
+        "type": "Java",
+        "talks": [ {"id":"56"}]
+    },
+    {
+        "id": 307,
+        "fullname": "Fabrice Croiseaux",
+        "avatar": "/images/legacy/orateur-fcroiseaux.jpg",
+        "description": "Passionné de culture numérique, de développement et d’architecture, Fabrice est actuellement CEO de la société InTech (http://www.intech.lu). Il a débuté sa carrière en développant des serveurs d'applications Smalltalk avant de migrer sur Java dès 1998. Il contribue à l'évangélisation de Scala et de la programmation fonctionnelle depuis 2 ans. Au travers de Nipdev, Fabrice cherche avec ses complices Antoine (@antoined) et Sébastien (@esorals) à donner envie à chacun de découvrir la programmation.",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/fxzo",
+                "label": "Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"57"}]
+    },
+    {
+        "id": 308,
+        "fullname": "Antoine Detante",
+        "avatar": "/images/legacy/orateur-adetante.png",
+        "description": "Antoine Detante est architecte et développeur Java et Scala au Luxembourg. Il est amené à travailler sur différents projets dans ces technologies. Antoine a attrapé le virus de la programmation fonctionnelle avec Scala et essaye maintenant de relayer cette passion aux équipes avec lesquelles il travaille. Il est également animateur du podcast NipDev.",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/antoined",
+                "label": "Twitter"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"57"}]
+    },
+    {
+        "id": 309,
+        "fullname": "Stéphane Leclercq",
+        "avatar": "/images/legacy/orateur-sleclerq.jpg",
+        "description": "Depuis plus de 10 ans dans les tranchées du code et toujours pas prêt à lâcher son IDE, Stéphane arpente les couloirs des agences web pour réduire les écarts entre faire mieux, plus vite et moins cher.\nAmateur de geekeries et papa de trois grumeaux, il jongle afin de bien optimiser ses journées de 50 heures tout en profitant de ses passions.\nChez Ekino depuis 4 ans, il accompagne maintenant ses équipes et clients en tant qu'Architecte Java pour répondre toujours mieux à leurs problématiques.",
+        "liens": [
+            {
+                "url": "http://www.twitter.com/@s_leclercq",
+                "label": "Twitter"
+            },
+            {
+                "url": "http://www.ekino.com/blog/",
+                "label": "Blog"
+            }
+        ],
+        "type": "Java",
+        "talks": [ {"id":"58"}]
+    },
+    {
+        "id": 403,
+        "fullname": "Nicolas De Loof",
+        "avatar": "/images/legacy/orateur-deloof.png",
+        "description": "Senior Engineer chez CloudBees, après avoir été Architecte Java pour de grandes SSII françaises. Techno-veilleur et développeur open-source, il a rejoint l’équipe de développement Maven en 2007, en particulier pour le support de GWT. Avec 15 ans d’expérience en développement dans ses bagages et de nombreuses relations dans la communauté Java, il anime depuis 2008 le BreizhJUG, groupe d’utilisateur Java Rennais. Il a participé à plusieurs conférences sur le thème de la forge logicielle et contribue activement au microcosme Java.",
+       "liens": [{
+            "url": "http://blog.loof.fr",
+            "label": "Blog"
+            },
+            {
+            "url": "http://www.twitter.com/ndeloof",
+            "label": "Twitter"
+            },
+            {
+            "url": "http://www.cloudbees.com",
+            "label": "Cloudbees"
+            }],
+        "type": "Innov.",
+        "talks": [  {"id":"101" }]
+
+    },
+    {
+        "id": 404,
+        "fullname": "Alain Régnier",
+        "avatar": "/images/legacy/orateur-regnier.png",
+        "description": "Architecte Technique et Entrepreneur passionné d'innovation.",
+       "liens": [
+                {
+                "url": "https://plus.google.com/+AlainRegnier",
+                "label": "Blog"
+                },
+                {
+                    "url": "http://www.twitter.com/altolabs",
+                    "label": "Twitter"
+                }
+                ],
+        "type": "Innov.",
+        "talks": [ {"id":"102"}]
+    },
+    {
+        "id": 405,
+        "fullname": "Stéphane Canu",
+        "avatar": "/images/legacy/orateur-canu.jpg",
+        "description": "Professeur à l'INSA de Rouen de directeur adjoint de la fédération de recherche CNRS NormaSTIC et membre du LITIS. Il découvre la problématique de l'apprentissage statistique (machine learning) en 1985, et y consacre sa recherche depuis. Après avoir travaillé 10 ans sur les réseaux de neurones artificiels, il se lance dans l'étude des machines à noyaux en général et des SVM-support vector machines en particulier. Il s'intéresse aux trois aspects complémentaires de l'apprentissage statistique : les questions théoriques notamment liées à la régularisation, les aspects algorithmiques, et les applications notamment liées au traitement des big data.",
+       "liens": [
+                {
+                "url": "http://asi.insa-rouen.fr/enseignants/~scanu/",
+                "label": "Blog"
+                }],
+        "type": "Innov.",
+        "talks": [ {"id":"103"}]
+    },
+    {
+        "id": 406,
+        "fullname": "Damien Cavaillès",
+        "avatar": "/images/legacy/orateur-dcavailles.jpg",
+        "description": "Entrepreneur et Ingénieur, Damien est tombé dans le monde des Makers lors d'une création de startup autour d'objets connectés. Sur son temps professionnel, il accompagne et développe les entreprises dans leur stratégie mobile. Il dépense son temps personnel en s'investissant pour les communautés de makers et entrepreneuriales locales, notamment par l'animation d'un StartupDigest et l'organisation du Startup Weekend Lille Makers.",
+        "liens": [
+                {
+                "url": "http://twitter.com/thedamfr",
+                "label": "Twitter"
+                }],
+        "type": "Innov.",
+        "talks": [ {"id":"104"}]
+    },
+    {
+        "id": 407,
+        "fullname": "Alexis Seigneurin",
+        "avatar": "/images/legacy/orateur-aseigneurin.jpg",
+        "description": "Développeur depuis plus de 13 ans, je suis Manager Technique chez Ippon Technologies après avoir été CTO chez IDM.\n\nMes sujets favoris sont Java, Spark, Node.js, AngularJS, Vagrant...",
+        "liens": [
+                {
+                "url": "http://twitter.com/aseigneurin",
+                "label": "Twitter"
+                },
+                {
+                "url": "http://aseigneurin.github.io/",
+                "label": "Blog"
+                }],
+        "type": "Innov.",
+        "talks": [ {"id":"105"}]
+    },
+    {
+        "id": 408,
+        "fullname": "Romain Louvet",
+        "avatar": "/images/legacy/orateur-rlouvet.jpg",
+        "description": "Rouennais et développeur Java de formation, Romain Louvet a fait ses débuts dans le test web. Parti à la conquête du mobile, il travaille maintenant au sein de Leboncoin où il a pu mettre en pratique les notions précédemment acquises lors du NormandyJUG. Il a notamment été en charge de monter le \"mobile test lab\" de Leboncoin.",
+        "liens": [
+                {
+                "url": "http://twitter.com/romainlouvet",
+                "label": "Twitter"
+                },
+                {
+                "url": "http://www.romainlouvet.fr",
+                "label": "Blog"
+                }],
+        "type": "Innov.",
+        "talks": [ {"id":"106"}]
+    },
+    {
+        "id": 409,
+        "fullname": "Frédéric Bisson",
+        "avatar": "/images/legacy/orateur-fbisson.jpg",
+        "description": "Webmaster dans une collectivité territoriale, développeur PHP, Bash, Python.",
+        "liens": [
+                {
+                "url": "http://twitter.com/zigazou",
+                "label": "Twitter"
+                }],
+        "type": "Innov.",
+        "talks": [ {"id":"107"}]
+    }
+]

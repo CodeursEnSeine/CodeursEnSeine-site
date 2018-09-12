@@ -20,7 +20,7 @@
 
 - name: Frédéric Leguédois
   company: Cloud Temple
-  image: ../assets/img/2017-orateurs/frederic_leguedois.jpg
+  image: /images/2017/orateurs/frederic_leguedois.jpg
   bio: "Frédéric Leguédois est un agiliste évangéliste, libriste et geek humaniste. Au quotidien, il anime des équipes de développement logiciel. Volontiers polémiste, il apprécie ceux qui pensent à côté, loin des évidences, assumant pleinement les contradictions d’un monde complexe."
   links:
     - label: Twitter
@@ -28,7 +28,7 @@
 
 - name: Nicolas Tricot
   company: BlaBlaCar
-  image: ../assets/img/2017-orateurs/nicolas_tricot.jpg
+  image: /images/2017/orateurs/nicolas_tricot.jpg
   bio: "Après avoir fait une école d’informatique (EPITA) et développé dans le monde web pendant près de 10 ans, j’ai adopté la casquette du management pour améliorer la vie de nos équipes de développement et leur apporter tout le soutien humain, matériel et organisationnel nécessaire à la réussite de nos projets. J’ai rejoint BlaBlaCar en mars 2014 pour renforcer et faire grandir l’équipe de développement tant par le recrutement de nouveaux talents que par l’évolution de nos méthodes de travail pour anticiper l’organisation de demain."
   links:
     - label: Twitter
@@ -36,7 +36,7 @@
 
 - name: Francois Esch
   company: BlaBlaCar
-  image: ../assets/img/2017-orateurs/francois_esch.jpg
+  image: /images/2017/orateurs/francois_esch.jpg
   bio: "Aujourd'hui Coach Agile chez BlaBlaCar, j'accompagne nos équipes dans leur process et leur démarche d'agilité. J'interviens en tant que facilitateur mais aussi manager de notre petite équipe support de Coaches Agiles. Jongler entre les problématiques d'équipe et les sujets d'organisation plus transverses fait ainsi partie de challenges quotidiens. Précédemment, j'étais PMO chez Viadeo où je participais à l'accompagnement du changement dans le cadre de la transformation agile ainsi qu'au suivi et au reporting des projets."
   links:
     - label: LinkedIn
@@ -61,7 +61,7 @@
       url: https://github.com/cdue
 
 - name: Charles Desneuf
-  image: ../assets/img/2017-orateurs/charles_desneuf.jpg
+  image: /images/2017/orateurs/charles_desneuf.jpg
   company: Evaneos
   bio: "Charles est développeur web depuis plusieurs années et s'intéresse aux manières de réaliser des applications répondant aux besoins des utilisateurs. Il s'est pour cela beaucoup penché sur ce qui permet de délivrer des logiciels de qualité."
   links:
@@ -292,12 +292,12 @@
       url: https://twitter.com/MolletThibaut
 
 - name: Johann Venambre
-  image: ../assets/img/2017-orateurs/johann_venambre.jpg
+  image: /images/2017/orateurs/johann_venambre.jpg
   company: Matmut
   bio: A la Matmut depuis 7 ans, du développement à la gestion de projet en passant par l’architecture, je m’adonne aujourd'hui aux joies du « Coaching Agile » au sein des équipes de réalisation "Nouvelles Technologies". Durant mon parcours, j'ai été amené à participer aux chantiers de transformation ergonomique des applications de l'entreprise.
 
 - name: Sébastien Allais
-  image: ../assets/img/2017-orateurs/sebastien_allais.png
+  image: /images/2017/orateurs/sebastien_allais.png
   company: Matmut
   bio: "Développeur front-end pendant plus de 10 ans sur Internet puis sur des applications mobiles hybrides. Je m’oriente depuis 2 ans vers des missions de conseils UX et ergonomie sur les interfaces du groupe Matmut. Mon but : optimiser les interfaces pour les rendre claires et accessibles."
 

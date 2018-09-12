@@ -6,7 +6,7 @@
   <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
-  <link href="/assets/css/2018/style-devoxx4kids.css" rel="stylesheet" type="text/css" media="all">
+  <link href="{{ '/css/devoxx4kids/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
   <header class="header-main">
@@ -15,7 +15,7 @@
       <div class="header-grid">
         <h1 class="header-logo">
           <a href="/{{ page.group }}/">
-            <img src="/assets/img/logo-codeurs-en-seine-white.png" width="210" height="110" alt="{{site.title}}">
+            <img src="/images/legacy/logo-codeurs-en-seine-white.png" width="210" height="110" alt="{{site.title}}">
           </a>
         </h1>
         <p class="tagline">
@@ -62,6 +62,6 @@
       </div>
     </div>
   </footer>
-  <script src="/assets/js/2018/scripts.js"></script>
+  <script src="{{ '/js/2018/scripts.js' | relative_url }}"></script>
 </body>
 </html>
