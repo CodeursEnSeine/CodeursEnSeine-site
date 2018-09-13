@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  {% seo %}
+  <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//fonts.googleapis.com/css?family=Ubuntu:400,300,700" rel="stylesheet" type="text/css">
+  <link href="{{ '/css/2018/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+  <header class="header-main">
+    <div class="header-background"></div>
+    <div class="wrapper">
+      <div class="header-grid">
+        <h1 class="header-logo">
+          <a href="/{{ page.group }}/">
+            <img src="/images/2018/logo-ces@2x.png" width="200" height="107" alt="{{site.title}}">
+          </a>
+        </h1>
+        <p class="tagline">
+          {{ site.tagline[page.group] }}
+          <strong>{{ site.date[page.group] }}</strong>
+        </p>
+        <div class="header-menu-button">
+          <button id="toggle-menu-button" class="button light small block">
+            Navigation
+          </button>
+        </div>
+        <div class="header-action">
+          <a href="sponsors" class="button light-ghost small">
+            Devenir sponsor
+          </a>
+        </div>
+        <nav class="nav-main">
+          {% include 2018/main-nav.html %}
+        </nav>
+      </div>
+    </div>
+  </header>
+  <nav class="nav-mobile as--hidden" id="mobile-menu">
+    <div class="nav-mobile-header">
+      Navigation
+
+      <button id="menu-close-button" class="nav-mobile-back-top">
+        <i>&times;</i> <span>fermer</span>
+      </button>
+    </div>
+    {% include 2018/main-nav.html %}
+  </nav>
+  <main class="content-main">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+  <section class="footer-sponsors">
+    <div class="wrapper text-center">
+      <h2>Sponsors</h2>
+      {% for sponsor in site.data['2018'].sponsors %}
+        <a href="{{sponsor.link}}" class="footer-sponsors-item" title="{{sponsor.name}}">
+          <img width="314" height="200" alt="{{sponsor.name}}" src="/images/2018/sponsors/{{sponsor.logo}}">
+        </a>
+      {% endfor %}
+      <div class="buttons-group">
+        <a href="sponsors" class="button">
+          Devenir sponsor
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-main">
+    <div class="wrapper">
+      <div class="col col-1-2">
+        <p>Email : <a href="mailto:contact@codeursenseine.com">contact@codeursenseine.com</a></p>
+        <p>Twitter : <a href="http://twitter.com/codeursenseine" target="_blank">@codeursenseine</a></p>
+        <p>Chaine Youtube : <a href="https://www.youtube.com/channel/UCWujmG5rANxJI0nHbMFs08w/playlists" target="_blank">Vidéos meetups et conférences</a></p>
+        <p>Github : <a href="https://github.com/CodeursEnSeine/" target="_blank">CodeursEnSeine</a></p>
+        <p>Facebook : <a href="https://www.facebook.com/codeursenseine" target="_blank">@codeursenseine</a></p>
+        <p>Linkedin : <a href="https://www.linkedin.com/company/codeurs-en-seine" target="_blank">Codeurs en Seine</a></p>
+      </div>
+      <div class="col col-1-2">
+        <p><a href="/2018/kitpress.html">Kit Presse & Média</a></p>
+        <p><a href="/2018">Conférence 2018</a> - <a href="/meetups">Meetups</a></p>
+        <p>Éditions précédentes <a href="/2013/">2013</a>, <a href="/2014/">2014</a>, <a href="/2015/">2015</a>, <a href="/2016/">2016</a> et <a href="/2017/">2017</a>.</p>
+        <p><a href="/devoxx4kids">Devoxx4Kids</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="{{ '/js/2018/scripts.js' | relative_url }}"></script>
+</body>
+</html>

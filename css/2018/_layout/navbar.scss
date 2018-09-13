@@ -1,0 +1,71 @@
+.ces-l-navbar {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  color: white;
+  background: $ces-color-primary $ces-gradient;
+
+  &__container {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    width: rem(340);
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: $ces-font-size-xxl;
+    padding: 0;
+    width: rem(50);
+    height: rem(50);
+    font-weight: 100;
+    font-family: sans-serif;
+    text-align: center;
+    color: inherit;
+    opacity: .8;
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      display: none;
+    }
+  }
+
+  &__header {
+    flex: none;
+    text-align: center;
+    padding: rem(20);
+  }
+
+  &__logo {
+    display: inline-block;
+    width: rem(160);
+    max-width: 100%;
+
+    @include cesMediaMin($ces-breakpoint-xl) {
+      width: auto;
+    }
+  }
+
+  &__nav {
+    flex-grow: 1;
+    text-align: center;
+    overflow: auto;
+    padding: 0 rem(20);
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      text-align: right;
+    }
+  }
+
+  &__footer {
+    flex: none;
+    text-align: center;
+    padding: rem(20);
+  }
+}

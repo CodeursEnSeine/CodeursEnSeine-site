@@ -1,0 +1,39 @@
+$ces-l-navbar-width-mobile: rem(340);
+$ces-l-navbar-width-laptop: 30vw;
+
+.ces-l-site-layout {
+  min-height: 100vh;
+
+  &__navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    max-width: 100%;
+    width: $ces-l-navbar-width-mobile;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(-100%, 0);
+    transition: transform .4s ease-in-out;
+
+    &.as--open {
+      transform: none;
+    }
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      left: 0;
+      right: auto;
+      width: $ces-l-navbar-width-laptop;
+      transform: none;
+    }
+  }
+
+  &__page {
+    display: flex;
+    flex-direction: column;
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      margin-left: $ces-l-navbar-width-laptop;
+    }
+  }
+}
