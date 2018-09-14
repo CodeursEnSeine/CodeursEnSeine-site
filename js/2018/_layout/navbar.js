@@ -1,1 +1,3 @@
-alert('navbar');
+(() => {
+  console.log('Navbar');
+})();

@@ -1,1 +1,5 @@
-import './_layout/navbar';
+---
+# Enable Babel
+---
+
+{% include_relative _layout/navbar.js %}
