@@ -5,6 +5,7 @@ $ces-color-light: #009edb !default;
 $ces-color-gradient-start: #007dc5 !default;
 $ces-color-gradient-end: #034ea2 !default;
 $ces-gradient: linear-gradient(to top right, $ces-color-gradient-start, $ces-color-gradient-end) !default;
+$ces-gradient-dark: linear-gradient(to top right, darken($ces-color-gradient-start, 5%), darken($ces-color-gradient-end, 5%)) !default;
 
 $ces-color-text: $ces-color-dark !default;
 $ces-color-text-light: #5c7fa1 !default;

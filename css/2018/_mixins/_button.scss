@@ -1,0 +1,119 @@
+%cesButtonBase {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  font-weight: bold;
+  border: rem(1) solid transparent;
+  border-radius: rem(4);
+  white-space: normal;
+  transition: color .2s, background .2s, border .2s, box-shadow .2s;
+  user-select: none;
+  min-width: 1em;
+  outline: none;
+  text-decoration: none;
+
+  &:focus,
+  &:active,
+  &:active:focus {
+    outline: 0;
+    background-image: none;
+  }
+}
+
+@mixin cesButtonHoverSelectors() {
+  a:hover &,
+  button:hover &,
+  &:hover,
+  a:focus &,
+  button:focus &,
+  &:focus,
+  a:active &,
+  button:active &,
+  &:active {
+    &:not(.as--loading) {
+      @content;
+    }
+  }
+}
+
+@mixin cesButtonFocusSelectors() {
+  a:focus &,
+  button:focus &,
+  &:focus {
+    &:not(.as--loading) {
+      @content;
+    }
+  }
+}
+
+@mixin cesButtonColor(
+  $background: white,
+  $color: contrast($background),
+  $border-color: darken($background, 5%),
+  $color-hover: $color,
+  $background-hover: darken($background, 5%),
+  $border-color-hover: darken($border-color, 20%)
+) {
+  color: $color;
+  background: $background;
+  border-color: $border-color;
+
+  @include cesButtonHoverSelectors() {
+    color: $color-hover;
+    background: $background-hover;
+    border-color: $border-color-hover;
+  }
+}
+
+@mixin cesButtonSize($padding-vertical, $padding-horizontal, $font-size: $ces-font-size-md) {
+  padding: $padding-vertical $padding-horizontal;
+  font-size: $font-size;
+
+  html body &.as--square {
+    height: $padding-vertical * 2 + $font-size * $ces-line-height + rem(2);
+    width: $padding-vertical * 2 + $font-size * $ces-line-height + rem(2);
+  }
+}
+
+@mixin cesButtonDisabledSelectors() {
+  [disabled] &,
+  .as--disabled &,
+  &.as--disabled,
+  &[disabled] {
+    @extend %cesButtonDisabled;
+
+    @content;
+  }
+}
+
+%cesButtonDisabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+  color: rgba(0, 0, 0, .2) !important;
+  transform: translate3d(0, 0, 0); // Fix: Rendering disabled buttons on Chrome for Android (bug)
+
+  // Loader
+  &::after {
+    color: rgba(0, 0, 0, .2) !important;
+  }
+
+  &:not(.as--contextual):not(.as--link):not(.as--link-alt) {
+    background:
+      grey repeating-linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0) rem(2),
+        rgba(0, 0, 0, 0.02) rem(2),
+        rgba(0, 0, 0, 0.02) rem(4)
+      ) !important;
+    border-color: rgba(0, 0, 0, .1) !important;
+  }
+}

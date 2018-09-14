@@ -1,0 +1,50 @@
+.ces-c-button {
+  @extend %cesButtonBase;
+
+  @include cesButtonSize(rem(10), rem(16), $ces-font-size-md);
+  @include cesButtonColor(
+    $background: white,
+    $background-hover: white,
+    $border-color-hover: $ces-color-primary,
+    $border-color: rgba(0, 0, 0, .1),
+    $color: $ces-color-primary
+  );
+
+  &.is-block {
+    display: block;
+    width: 100%;
+  }
+
+  // -------------------------
+  //    Colors
+  // -------------------------
+  &.is-primary {
+    @include cesButtonColor(
+      $background: $ces-color-primary
+    );
+    background: $ces-gradient;
+
+    @include cesButtonHoverSelectors() {
+      background: $ces-gradient-dark;
+    }
+  }
+
+  &.is-secondary {
+    @include cesButtonColor(
+      $background: white,
+      $background-hover: white,
+      $border-color: $ces-color-primary,
+      $color: $ces-color-primary,
+      $color-hover: $ces-color-dark
+    );
+  }
+
+  // -------------------------
+  //    Sizes
+  // -------------------------
+
+  // -------------------------
+  //    Disabled
+  // -------------------------
+  @include cesButtonDisabledSelectors();
+}

@@ -11,6 +11,22 @@
     padding: 0 rem(10);
   }
 
+  &__title {
+    flex-grow: 1;
+    text-align: center;
+    font-family: $ces-font-family-title;
+
+    small {
+      display: block;
+      font-size: $ces-font-size-xxs;
+    }
+
+    strong {
+      display: block;
+      font-size: $ces-font-size-sm;
+    }
+  }
+
   &__nav-button {
     width: $ces-l-topbar-height;
     height: $ces-l-topbar-height;
@@ -19,7 +35,6 @@
     justify-content: center;
     line-height: 1;
     padding: 0;
-    margin-left: auto;
     font-size: $ces-font-size-lg;
     color: inherit;
   }
