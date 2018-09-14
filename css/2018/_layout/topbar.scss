@@ -1,0 +1,22 @@
+.ces-l-topbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: $ces-color-primary $ces-gradient;
+
+  &__logo {
+    width: rem(90);
+    padding: 0 rem(10);
+  }
+
+  &__nav-button {
+    width: $ces-l-topbar-height;
+    height: $ces-l-topbar-height;
+    padding: 0;
+    margin-left: auto;
+    font-size: $ces-font-size-lg;
+    color: inherit;
+  }
+}

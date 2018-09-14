@@ -13,10 +13,20 @@
 <body id="ces-root">
 
   <div class="ces-l-site-layout">
-    <div class="ces-l-site-layout__navbar as--open">
+    <div class="ces-l-site-layout__topbar">
+      <div class="ces-l-topbar">
+        <a href="/2018/" class="ces-l-topbar__logo">
+          <img src="/images/2018/logo-ces@2x.png" width="200" height="107" alt="{{site.title}}">
+        </a>
+        <button class="ces-l-topbar__nav-button js-navbar-open">
+          &#9776;
+        </button>
+      </div>
+    </div>
+    <div class="ces-l-site-layout__navbar js-navbar">
       <div class="ces-l-navbar">
         <div class="ces-l-navbar__container">
-          <button class="ces-l-navbar__close">
+          <button class="ces-l-navbar__close js-navbar-close">
             &times;
           </button>
           <div class="ces-l-navbar__header">
@@ -132,7 +142,6 @@
       </div>
     </div>
   </div>
-
   <script src="{{ '/js/2018/scripts.js' | relative_url }}"></script>
 </body>
 </html>

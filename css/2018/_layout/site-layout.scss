@@ -1,8 +1,21 @@
-$ces-l-navbar-width-mobile: rem(340);
+$ces-l-topbar-height: rem(50);
+$ces-l-navbar-width-mobile: 100vw;
 $ces-l-navbar-width-laptop: 30vw;
 
 .ces-l-site-layout {
   min-height: 100vh;
+
+  &__topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $ces-l-topbar-height;
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      display: none;
+    }
+  }
 
   &__navbar {
     display: flex;
@@ -11,28 +24,31 @@ $ces-l-navbar-width-laptop: 30vw;
     max-width: 100%;
     width: $ces-l-navbar-width-mobile;
     top: 0;
-    right: 0;
+    right: -$ces-l-navbar-width-mobile;
     bottom: 0;
-    transform: translate(-100%, 0);
-    transition: transform .4s ease-in-out;
+    transition: transform .4s ease-in-out, box-shadow .4s;
 
-    &.as--open {
-      transform: none;
+    &.is-open {
+      transform: translate(-100%, 0);
+      box-shadow: rem(-10) 0 rem(20) rgba(0, 0, 0, .1);
     }
 
     @include cesMediaMin($ces-breakpoint-navbar) {
       left: 0;
       right: auto;
       width: $ces-l-navbar-width-laptop;
-      transform: none;
+      transition: none;
+      box-shadow: none !important;
     }
   }
 
   &__page {
     display: flex;
     flex-direction: column;
+    margin-top: $ces-l-topbar-height;
 
     @include cesMediaMin($ces-breakpoint-navbar) {
+      margin-top: 0;
       margin-left: $ces-l-navbar-width-laptop;
     }
   }

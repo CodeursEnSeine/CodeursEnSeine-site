@@ -14,7 +14,11 @@
     flex-direction: column;
 
     max-width: 100%;
-    width: rem(340);
+    width: 100%;
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      width: rem(340);
+    }
   }
 
   &__close {
@@ -44,7 +48,7 @@
 
   &__logo {
     display: inline-block;
-    width: rem(160);
+    width: rem(100);
     max-width: 100%;
 
     @include cesMediaMin($ces-breakpoint-xl) {
