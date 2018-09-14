@@ -7,6 +7,11 @@
   color: white;
   background: $ces-color-primary $ces-gradient;
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
   &__container {
     position: relative;
     flex-grow: 1;
@@ -31,7 +36,10 @@
     height: rem(50);
     font-weight: 100;
     font-family: sans-serif;
-    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    line-height: 1;
     color: inherit;
     opacity: .8;
 
@@ -43,7 +51,7 @@
   &__header {
     flex: none;
     text-align: center;
-    padding: rem(20);
+    padding: 4vh rem(20);
   }
 
   &__logo {
@@ -51,19 +59,84 @@
     width: rem(100);
     max-width: 100%;
 
+    @include cesMediaMin($ces-breakpoint-sm) {
+      width: rem(140);
+    }
+
     @include cesMediaMin($ces-breakpoint-xl) {
       width: auto;
     }
   }
 
+  &__scroll {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
   &__nav {
     flex-grow: 1;
     text-align: center;
-    overflow: auto;
-    padding: 0 rem(20);
+    padding: 0 rem(15);
 
     @include cesMediaMin($ces-breakpoint-navbar) {
       text-align: right;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: block;
+    }
+
+    &-item {
+      display: block;
+
+      &.is-primary {
+        &:not(:first-child) {
+          margin-top: rem(20);
+        }
+
+        & + & {
+          margin-top: rem(10);
+        }
+      }
+    }
+
+    &-link {
+      position: relative;
+      display: inline-block;
+      font-size: $ces-font-size-md;
+      padding: rem(5) rem(15);
+      border-radius: rem(4);
+      font-weight: bold;
+      transition: .2s;
+
+      &:hover,
+      &:focus {
+        background: rgba(0, 0, 0, .1);
+      }
+    }
+
+    &-item.is-primary &-link {
+      font-weight: normal;
+      font-size: $ces-font-size-lg;
+      font-family: $ces-font-family-title;
+    }
+
+    &-item.is-active &-link::after {
+      content: '';
+      position: absolute;
+      left: rem(15);
+      right: rem(15);
+      bottom: rem(5);
+      height: rem(2);
+      border-radius: rem(10);
+      background: $ces-color-light;
     }
   }
 
@@ -71,5 +144,49 @@
     flex: none;
     text-align: center;
     padding: rem(20);
+
+    a {
+      transition: .2s;
+
+      &:hover,
+      &:focus {
+        background: rgba(0, 0, 0, .1);
+      }
+    }
+  }
+
+  &__social {
+    font-size: $ces-font-size-ms;
+
+    &-email {
+      font-weight: bold;
+      padding: rem(3) rem(6);
+    }
+
+    &-icons a {
+      width: rem(40);
+      height: rem(40);
+      display: inline-flex;
+      align-content: center;
+      justify-content: center;
+      border-radius: rem(4);
+    }
+  }
+
+  &__past {
+    margin-top: rem(15);
+
+    &-title {
+      text-transform: uppercase;
+      font-size: $ces-font-size-xs;
+      opacity: .8;
+    }
+
+    &-links a {
+      font-weight: bold;
+      font-size: $ces-font-size-ms;
+      display: inline-block;
+      padding: rem(3) rem(6);
+    }
   }
 }

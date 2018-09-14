@@ -38,6 +38,7 @@ $ces-l-navbar-width-laptop: 30vw;
       right: auto;
       width: $ces-l-navbar-width-laptop;
       transition: none;
+      transform: none !important;
       box-shadow: none !important;
     }
   }
