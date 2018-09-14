@@ -1,10 +1,12 @@
 ---
+# Needed this for jekyll sass generation
 ---
 
-$color-primary: #e8ae3c !default;
-$color-gradient-start: #e8ae3c !default;
-$color-gradient-end: #e8ae3c !default;
-$color-dark: #333 !default;
-$color-light: #e8ae3c !default;
+$ces-color-primary: #e8ae3c !default;
+$ces-color-dark: #333 !default;
+$ces-color-light: lighten(#e8ae3c, 20%) !default;
 
-// @import '2018/_all';
+$ces-color-gradient-start: #e8ae3c !default;
+$ces-color-gradient-end: #e8ae3c !default;
+
+@import "2018/imports";

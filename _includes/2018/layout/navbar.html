@@ -11,46 +11,67 @@
       </div>
       <div class="ces-l-navbar__scroll">
         <nav class="ces-l-navbar__nav">
-
-          <ul>
-            {% capture page_modified %}{{ page.url }}{% endcapture %}
+          {% capture pages %}
             {% assign sortedPages = site.pages | sort: "order" %}
             {% for node in sortedPages %}
-            {% assign activeClass = '' %}
-            {% assign primaryClass = '' %}
+              {% assign activeClass = '' %}
+              {% assign primaryClass = '' %}
 
-            {% if page.url == node.url %}
-            {% assign activeClass = 'is-active' %}
-            {% endif %}
+              {% if page.url == node.url %}
+              {% assign activeClass = 'is-active' %}
+              {% endif %}
 
-            {% if node.url == '/2018/' %}
-            {% assign primaryClass = 'is-primary' %}
-            {% endif %}
+              {% if node.url == '/2018/' or node.url == '/meetups/' or node.url == '/devoxx4kids/' %}
+                {% assign primaryClass = 'is-primary' %}
+              {% endif %}
 
-            {% if node.title != null %}
-            {% if node.navigation != false %}
-            {% if page.group == node.group %}
-            <li class="ces-l-navbar__nav-item {{ activeClass }} {{ primaryClass }}">
-              <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}{{node.url}}">
-                {{node.title}}
+              {% if node.title != null %}
+                {% if node.navigation != false %}
+                  {% if page.group == node.group %}
+                  <li class="ces-l-navbar__nav-item {{ activeClass }} {{ primaryClass }}">
+                    <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}{{node.url}}">
+                      {{node.title}}
+                    </a>
+                  </li>
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endcapture %}
+
+          <ul>
+            {% if page.group != 2018 %}
+            <li class="ces-l-navbar__nav-item is-primary">
+              <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}/2018">
+                Édition 2018
               </a>
             </li>
             {% endif %}
+            {% if page.group == 2018 %}
+              {{ pages }}
             {% endif %}
-            {% endif %}
-            {% endfor %}
 
+            {% if page.group != 'meetups' %}
             <li class="ces-l-navbar__nav-item is-primary">
               <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}/meetups">
                 Meetups
               </a>
             </li>
+            {% endif %}
+            {% if page.group == 'meetups' %}
+              {{ pages }}
+            {% endif %}
 
+            {% if page.group != 'devoxx4kids' %}
             <li class="ces-l-navbar__nav-item is-primary">
               <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}/devoxx4kids">
                 Devoxx4Kids
               </a>
             </li>
+            {% endif %}
+            {% if page.group == 'devoxx4kids' %}
+              {{ pages }}
+            {% endif %}
           </ul>
 
         </nav>

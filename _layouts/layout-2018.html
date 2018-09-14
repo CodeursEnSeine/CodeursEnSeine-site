@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  {% seo %}
+  <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
+  <!-- Import the CSS -->
+  <link href="{{ '/css/' | append: page.group | append: '/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="ces-root">
+
+  <div class="ces-l-site-layout">
+    {% include 2018/layout/topbar.html %}
+    {% include 2018/layout/navbar.html %}
+
+    <div class="ces-l-site-layout__page">
+      <div class="ces-l-page">
+        {% include 2018/layout/page-header.html %}
+
+        <div class="ces-l-page__content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="{{ '/js/2018/scripts.js' | relative_url }}"></script>
+</body>
+</html>
