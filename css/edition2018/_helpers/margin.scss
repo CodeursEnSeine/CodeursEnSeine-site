@@ -1,0 +1,40 @@
+@mixin cesUtilMargin($suffix, $size) {
+  .ces-h-m-#{$suffix} {
+    margin: $size;
+  }
+
+  .ces-h-mt-#{$suffix} {
+    margin-top: $size;
+  }
+
+  .ces-h-mb-#{$suffix} {
+    margin-bottom: $size;
+  }
+
+  .ces-h-ml-#{$suffix} {
+    margin-left: $size;
+  }
+
+  .ces-h-mr-#{$suffix} {
+    margin-right: $size;
+  }
+
+  .ces-h-mv-#{$suffix} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  .ces-h-mh-#{$suffix} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+}
+
+@include cesUtilMargin(none, 0);
+@include cesUtilMargin(xxs, rem(5));
+@include cesUtilMargin(xs, rem(10));
+@include cesUtilMargin(sm, rem(15));
+@include cesUtilMargin(md, rem(20));
+@include cesUtilMargin(lg, rem(30));
+@include cesUtilMargin(xl, rem(40));
+@include cesUtilMargin(xxl, rem(60));

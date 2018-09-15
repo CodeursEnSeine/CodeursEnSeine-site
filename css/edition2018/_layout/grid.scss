@@ -1,0 +1,29 @@
+.ces-l-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  @include cesGridGutter(rem(20));
+  @include cesGridModifiers();
+
+  @each $breakpoint in $ces-breakpoint-modifiers {
+    @include cesMediaMin(nth($breakpoint, 1)) {
+      @include cesGridModifiers(nth($breakpoint, 2));
+    }
+  }
+
+  & > * {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+
+    @include cesGridItemModifiers();
+
+    @each $breakpoint in $ces-breakpoint-modifiers {
+      @include cesMediaMin(nth($breakpoint, 1)) {
+        @include cesGridItemModifiers(nth($breakpoint, 2));
+      }
+    }
+  }
+}

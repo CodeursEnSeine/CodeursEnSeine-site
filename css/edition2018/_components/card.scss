@@ -1,0 +1,23 @@
+.ces-c-card {
+  display: flex;
+  flex-direction: column;
+  padding: rem(20);
+  text-decoration: none;
+  border-radius: rem(4);
+  background: white;
+  border: rem(1) solid rgba($ces-color-primary, .1);
+  box-shadow: 0 rem(4) rem(20) rgba($ces-color-primary, .2);
+  transition: border .2s;
+
+  @at-root {
+    a#{&}:hover,
+    a#{&}:focus {
+      border-color: $ces-color-primary;
+    }
+  }
+
+  &.is-center-content {
+    align-items: center;
+    justify-content: center;
+  }
+}

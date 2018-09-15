@@ -1,0 +1,49 @@
+// Text transform
+// -------------------------
+.ces-h-text-uppercase {
+  text-transform: uppercase;
+}
+
+.ces-h-text-lowercase {
+  text-transform: lowercase;
+}
+
+// Vertical align
+// -------------------------
+.ces-h-text-middle {
+  vertical-align: middle;
+}
+
+// Long text
+// -------------------------
+
+.ces-h-text-el {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+//Text alignment
+// -------------------------
+@mixin cesUtilTextAlign ($suffix: '') {
+  .ces-h-text-left#{$suffix} {
+    text-align: left;
+  }
+
+  .ces-h-text-center#{$suffix} {
+    text-align: center;
+  }
+
+  .ces-h-text-right#{$suffix} {
+    text-align: right;
+  }
+}
+
+
+@include cesUtilTextAlign();
+
+@each $breakpoint in $ces-breakpoint-modifiers {
+  @include cesMediaMin(nth($breakpoint, 1)) {
+    @include cesUtilTextAlign(nth($breakpoint, 2));
+  }
+}
