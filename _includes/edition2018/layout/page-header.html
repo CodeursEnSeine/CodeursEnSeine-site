@@ -7,12 +7,24 @@
       {{ site[page.group].title] }}
     </strong>
   </div>
+
+  {% if page.group == 'edition2018' %}
   <div class="ces-l-page__header-actions">
-    <a class="ces-c-button is-secondary" href="#">
+    <a class="ces-c-button is-secondary" href="/2018/sponsors/">
       Devenir sponsor
     </a>
     <a class="ces-c-button is-primary" href="#">
       Inscription gratuite
     </a>
   </div>
+  {% endif %}
+
+  {% if page.group == 'meetups' %}
+  <div class="ces-l-page__header-actions">
+    <a class="ces-c-button is-secondary" href="/meetups/sponsors/">
+      Devenir sponsor
+    </a>
+  </div>
+  {% endif %}
+
 </div>

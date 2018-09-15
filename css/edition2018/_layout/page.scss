@@ -58,6 +58,7 @@
       a {
         flex-grow: 1;
         display: block;
+        max-width: rem(260);
 
         @include cesMediaMax($ces-breakpoint-xxs) {
           padding-left: 0;
