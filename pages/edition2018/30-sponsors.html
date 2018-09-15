@@ -1,0 +1,65 @@
+---
+layout: edition2018
+group: edition2018
+title: Sponsors
+permalink: /2018/sponsors
+navigation: true
+order: 30
+---
+
+<div class="section">
+
+  <div class="clearfix">
+
+    <h2>Devenir Sponsor</h2>
+
+    <a href="https://drive.google.com/file/d/1BCENZDDhQPDt7ACX2OF0hXq1513iPVXD/view?usp=sharing" target="_blank">
+      <img class="float-left rounded" width="250" height="352" src="/images/edition2018/dossier-sponsoring.jpg" alt="Couverture dossier de sponsoring">
+    </a>
+
+    <p>
+      Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
+    </p>
+    <p>
+      Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre
+      d'une politique de recrutement.
+    </p>
+    <p>
+      Si vous souhaitez soutenir l'événement, téléchargez <a href="https://drive.google.com/file/d/1BCENZDDhQPDt7ACX2OF0hXq1513iPVXD/view?usp=sharing" target="_blank">le
+      dossier de sponsoring</a>, <a href="https://docs.google.com/document/d/1KgMSEcv3OSitJq53yfW-vNcb7RrH6rnEqgGWgMTlgy0/edit?usp=sharing" target="_blank">la
+      convention de sponsoring</a> et contactez-nous.
+    </p>
+  </div>
+
+  {% assign sponsors = site.data.edition2018.sponsors %}
+  {% assign size = sponsors | size %}
+
+  {% if size != 0 %}
+  <h2>Sponsors</h2>
+  {% endif %}
+
+  {% assign levels = 'platinium, gold, silver, bronze' | split: ', ' %}
+
+  {% for level in levels %}
+
+    {% assign sponsors = site.data.edition2018.sponsors | where: "type", level %}
+    {% assign size = sponsors | size %}
+    {% if size != 0 %}
+    <h3>Sponsors {{ level }}</h3>
+
+    <div class="cards">
+      {% for sponsor in sponsors %}
+        {% if level == 'platinium' or level == 'gold' %}
+          {% include edition2018/sponsor-card.html premium="true" %}
+        {% else %}
+          {% include edition2018/sponsor-card.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <hr>
+    {% endif %}
+
+  {% endfor %}
+
+</div>

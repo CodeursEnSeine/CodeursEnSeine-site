@@ -1,5 +1,5 @@
 ---
-layout: layout-meetups
+layout: meetups
 group: meetups
 title: Sponsors
 permalink: /meetups/sponsors
@@ -25,7 +25,7 @@ order: 30
 
 
     <div class="cards">
-      {% for sponsor in site.data['meetups'].sponsors %}
+      {% for sponsor in site.data.meetups.sponsors %}
           {% include meetups/sponsor-card.html premium="false" %}
       {% endfor %}
     </div>

@@ -1,0 +1,95 @@
+---
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>{{page.title}} - {{site.title}}</title>
+  <meta charset="utf-8">
+  <meta name="title" content="{{site.title}}">
+  <meta itemprop="name" content="{{site.title}}">
+  <meta property="og:title" content="{{site.title}}">
+  <meta name="description" content="{{site.description}}">
+  <meta itemprop="description" content="{{site.description}}">
+  <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ '/css/edition2014/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
+  <script src="{{ '/js/edition2014/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/edition2014/bootstrap.min.js' | relative_url }}"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#menu" data-offset="0">
+  <header class="header-main container">
+    <div class="navbar span12">
+      <h1>
+        <a href="/{{ page.group }}/">
+          <img src="/images/legacy/logo-codeurs-en-seine.png" width="210" height="110" alt="{{site.title}}">
+        </a>
+      </h1>
+      <p class="tagline">{{ site[page.group].pretitle }}<br /> {{ site[page.group].title }}</p>
+      <div class="navbar-inner">
+        <ul class="nav" role="nav">
+          {% capture page_modified %}{{ page.url }}{% endcapture %}
+          {% for node in site.pages %}
+            {% if node.title != null %}
+              {% if node.navigation != false %}
+              {% if page.group == node.group %}
+                {% if page.url == node.url %}
+                  <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+                {% else %}
+                  <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                {% endif %}
+              {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+     </div>
+   </div>
+  </header>
+
+  <div class="main" role="main">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+
+  <div class="footer" role="contentinfo">
+    <div class="container">
+
+      <div id="contact" class="section">
+        <div class="span5 pull-left">
+            <p>
+              <i class="icon-envelope"></i> Email : <a href='mailto:contact@codeursenseine.com'>contact@codeursenseine.com</a>
+            </p>
+            <p>
+              <i class="icon-twitter"></i> Twitter : <a href='http://twitter.com/codeursenseine' target='_blank'>@codeursenseine</a>
+            </p>
+            <p>
+              <i class="icon-facebook"></i> Facebook : <a href='https://www.facebook.com/codeursenseine' target='_blank'>Page Codeurs En
+              Seine</a>
+            </p>
+            <p>
+              <i class="icon-google-plus"></i> <a href="https://plus.google.com/104173094005939367194" rel="publisher">Google+</a> : <a href='https://plus.google.com/u/0/communities/111526484712817533870' target='_blank'>Communauté Codeurs En Seine</a>
+            </p>
+        </div>
+        <div class="span5 pull-left">
+          <p class="span5">
+            <a href="/2014/kitpress.html">Kit Presse & Média</a>
+          </p>
+          <p class="span5"><a href="/meetups">Meetups</a></p>
+          <p class="span5">
+            <a href="/2013/">Édition 2013</a>
+          </p>
+          <p class="span5">
+            <a href="/2014/">Édition 2014</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
