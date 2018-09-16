@@ -1,0 +1,58 @@
+.ces-p-meetups-post {
+
+  &__header {
+    margin: $ces-space-lg 0 $ces-space-xxl 0;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__excerpt {
+    color: $ces-color-text-light;
+    font-size: $ces-font-size-ml;
+  }
+
+  &__date {
+    font-weight: bold;
+    margin: 0;
+    font-size: $ces-font-size-ml;
+  }
+
+  &__location {
+
+  }
+
+  &__content {
+    hr,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      clear: both;
+    }
+
+    img {
+      border-radius: rem(4);
+      overflow: hidden;
+    }
+
+    .alignleft {
+      float: left;
+      margin: 0 $ces-space-md $ces-space-md 0;
+    }
+
+    .alignright {
+      float: right;
+      margin: 0 0 $ces-space-md $ces-space-md;
+    }
+
+    .aligncenter {
+      display: block;
+      margin: $ces-space-md auto;
+    }
+
+  }
+}

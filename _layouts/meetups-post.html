@@ -2,48 +2,66 @@
 layout: meetups-sidebar
 ---
 
-<div class="meetup-page">
+{% capture register %}
+  {% if page.meetup_register_link %}
+  <a href="{{page.meetup_register_link}}" class="ces-c-card is-primary is-center-content ces-h-mv-lg">
+    {% if page.meetup_date %}
+    <p class="ces-p-meetups-post__date">
+      Meetup le
+      {% include meetups/meetup-date.html %}
+    </p>
+    {% endif %}
 
-  <a href="/meetups" class="button ghost xsmall">
-    Voir tous les meetups
+    {% if page.meetup_location %}
+    <p class="ces-p-meetups-post__location">
+      {{ page.meetup_location }}
+    </p>
+    {% endif %}
+
+    <div class="ces-c-button">
+      Inscrivez-vous !
+    </div>
+  </a>
+  {% elsif page.meetup_date %}
+  <div class="ces-c-card is-center-content ces-h-mv-lg">
+    {% if page.meetup_date %}
+    <p class="ces-p-meetups-post__date">
+      Meetup le
+      {% include meetups/meetup-date.html %}
+    </p>
+    {% endif %}
+
+    {% if page.meetup_location %}
+    <p class="ces-p-meetups-post__location">
+      {{ page.meetup_location }}
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endcapture %}
+
+<div class="ces-p-meetups-post">
+
+  <a href="/meetups">
+    Retour à la liste des meetups
   </a>
 
-  <div class="meetup-page__header">
-    {% if page.meetupDate %}
-    <h3 class="meetup-page__date">
-      Evènement le
-
-      {{ page.meetupDate | date: "%d" }}
-      {% assign month = page.meetupDate | date: "%-m" %}
-      {% case month %}
-        {% when '1' %}Janvier
-        {% when '2' %}Février
-        {% when '3' %}Mars
-        {% when '4' %}Avril
-        {% when '5' %}Mai
-        {% when '6' %}Juin
-        {% when '7' %}Juillet
-        {% when '8' %}Août
-        {% when '9' %}Septembre
-        {% when '10' %}Octobre
-        {% when '11' %}Novembre
-        {% when '12' %}Décembre
-      {% endcase %}
-      {{ page.meetupDate | date: "%Y" }}
-
-      à
-
-      {{ page.meetupDate | date: "%Hh%M" }}
-    </h3>
-    {% endif %}
-    <h2 class="meetup-page__title">
+  <div class="ces-p-meetups-post__header">
+    <h1 class="ces-p-meetups-post__title">
       {{ page.title }}
-    </h2>
-    <h4 class="meetup-page__location">
-      {{ page.meetupLocation }}
-    </h4>
+    </h1>
+    <p class="ces-p-meetups-post__excerpt">
+      {{ page.excerpt }}
+    </p>
+
+    {{ register }}
   </div>
 
-  {{ content }}
+  <div class="ces-p-meetups-post__content">
+    {{ content }}
+  </div>
 
+  <div class="ces-h-mt-xxl">
+    {{ register }}
+  </div>
 </div>

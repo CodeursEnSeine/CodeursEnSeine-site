@@ -21,7 +21,7 @@
               {% assign activeClass = '' %}
               {% assign primaryClass = '' %}
 
-              {% if page.url == node.url %}
+              {% if page.url == node.url or (node.url == '/meetups/' and page.category == 'meetup') %}
               {% assign activeClass = 'is-active' %}
               {% endif %}
 
