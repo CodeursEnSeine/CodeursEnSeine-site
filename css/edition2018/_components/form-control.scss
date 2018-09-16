@@ -1,0 +1,29 @@
+%ces-c-form-control {
+  display: block;
+  width: 100%;
+  padding: $ces-space-xs $ces-space-sm;
+  margin: 0;
+  font-weight: normal;
+  font-size: $ces-font-size-md;
+  line-height: $ces-line-height;
+  vertical-align: middle;
+  background-color: white;
+  border: rem(1) solid rgba($ces-color-primary, .1);
+  border-radius: rem(4);
+  box-shadow: none;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+  &:focus {
+    border-color: $ces-color-primary;
+    outline: 0;
+  }
+}
+
+.ces-c-form-control {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+
+  @extend %ces-c-form-control;
+}

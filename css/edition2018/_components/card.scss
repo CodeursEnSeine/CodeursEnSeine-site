@@ -1,4 +1,5 @@
 .ces-c-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -21,6 +22,10 @@
   &.is-primary {
     color: white;
     background: $ces-gradient;
+
+    a:not([class]) {
+      color: inherit;
+    }
   }
 
   &.is-center-content {
@@ -58,5 +63,22 @@
 
   &.is-gutter-xxl {
     padding: $ces-space-xxl;
+  }
+
+  &__bg {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    opacity: .1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
   }
 }

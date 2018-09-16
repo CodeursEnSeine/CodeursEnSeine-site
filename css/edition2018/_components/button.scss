@@ -39,6 +39,17 @@
     );
   }
 
+  &.is-white-ghost {
+    @include cesButtonColor(
+      $background: transparent,
+      $background-hover: white,
+      $border-color: white,
+      $border-color-hover: white,
+      $color: white,
+      $color-hover: $ces-color-primary
+    );
+  }
+
   // -------------------------
   //    Sizes
   // -------------------------
