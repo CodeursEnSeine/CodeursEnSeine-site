@@ -51,7 +51,7 @@
   &__header {
     flex: none;
     text-align: center;
-    padding: 4vh rem(20);
+    padding: 4vh $ces-space-md;
   }
 
   &__logo {
@@ -78,7 +78,7 @@
   &__nav {
     flex-grow: 1;
     text-align: center;
-    padding: 0 rem(15);
+    padding: 0 $ces-space-sm;
 
     @include cesMediaMin($ces-breakpoint-navbar) {
       text-align: right;
@@ -98,11 +98,11 @@
 
       &.is-primary {
         &:not(:first-child) {
-          margin-top: rem(20);
+          margin-top: $ces-space-md;
         }
 
         & + & {
-          margin-top: rem(10);
+          margin-top: $ces-space-xs;
         }
       }
     }
@@ -111,7 +111,7 @@
       position: relative;
       display: inline-block;
       font-size: $ces-font-size-md;
-      padding: rem(5) rem(15);
+      padding: $ces-space-xxs $ces-space-sm;
       border-radius: rem(4);
       font-weight: bold;
       transition: .2s;
@@ -131,9 +131,9 @@
     &-item.is-active &-link::after {
       content: '';
       position: absolute;
-      left: rem(15);
-      right: rem(15);
-      bottom: rem(5);
+      left: $ces-space-sm;
+      right: $ces-space-sm;
+      bottom: $ces-space-xxs;
       height: rem(2);
       border-radius: rem(10);
       background: $ces-color-light;
@@ -143,7 +143,7 @@
   &__footer {
     flex: none;
     text-align: center;
-    padding: rem(20);
+    padding: $ces-space-md;
 
     a {
       transition: .2s;

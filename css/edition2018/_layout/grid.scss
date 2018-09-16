@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
 
-  @include cesGridGutter(rem(20));
+  @include cesGridGutter($ces-space-md);
   @include cesGridModifiers();
 
   @each $breakpoint in $ces-breakpoint-modifiers {

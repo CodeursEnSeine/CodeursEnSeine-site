@@ -1,13 +1,14 @@
 @import "_functions/contrast";
 @import "_functions/rem";
 
-@import "_mixins/button";
-@import "_mixins/grid";
-@import "_mixins/media-queries";
-
 @import "_settings/colors";
 @import "_settings/breakpoints";
 @import "_settings/typography";
+@import "_settings/space";
+
+@import "_mixins/button";
+@import "_mixins/grid";
+@import "_mixins/media-queries";
 
 @import "_base/normalize";
 @import "_base/base";

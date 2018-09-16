@@ -3,30 +3,30 @@
   width: 100%;
   max-width: rem(1200);
   margin: 0 auto;
-  padding: rem(20);
+  padding: $ces-space-md;
 
   @include cesMediaMin($ces-breakpoint-sm) {
-    padding: rem(20) rem(40);
+    padding: $ces-space-md $ces-space-xl;
   }
 
   @include cesMediaMin($ces-breakpoint-md) {
-    margin-top: rem(20);
+    margin-top: $ces-space-md;
   }
 
   @include cesMediaMin($ces-breakpoint-xl) {
-    margin-top: rem(40);
+    margin-top: $ces-space-xl;
   }
 
   &__header {
     display: flex;
     align-items: center;
-    margin: 0 0 rem(30) 0;
+    margin: 0 0 $ces-space-lg 0;
 
     &-title {
       flex-grow: 1;
       font-family: $ces-font-family-title;
       display: none;
-      padding-right: rem(20);
+      padding-right: $ces-space-md;
 
       @include cesMediaMin($ces-breakpoint-navbar) {
         display: block;
@@ -68,7 +68,7 @@
       }
 
       a + a {
-        margin-left: rem(20);
+        margin-left: $ces-space-md;
       }
     }
   }

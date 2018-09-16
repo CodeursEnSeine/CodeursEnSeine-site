@@ -1,7 +1,7 @@
 .ces-c-card {
   display: flex;
   flex-direction: column;
-  padding: rem(20);
+  padding: $ces-space-md;
   text-decoration: none;
   border-radius: rem(4);
   background: white;
@@ -19,5 +19,37 @@
   &.is-center-content {
     align-items: center;
     justify-content: center;
+  }
+
+  &.is-gutter-none {
+    padding: $ces-space-none;
+  }
+
+  &.is-gutter-xxs {
+    padding: $ces-space-xxs;
+  }
+
+  &.is-gutter-xs {
+    padding: $ces-space-xs;
+  }
+
+  &.is-gutter-sm {
+    padding: $ces-space-sm;
+  }
+
+  &.is-gutter-md {
+    padding: $ces-space-md;
+  }
+
+  &.is-gutter-lg {
+    padding: $ces-space-lg;
+  }
+
+  &.is-gutter-xl {
+    padding: $ces-space-xl;
+  }
+
+  &.is-gutter-xxl {
+    padding: $ces-space-xxl;
   }
 }

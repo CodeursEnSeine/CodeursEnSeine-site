@@ -30,11 +30,11 @@
   }
 }
 
-@include cesUtilMargin(none, 0);
-@include cesUtilMargin(xxs, rem(5));
-@include cesUtilMargin(xs, rem(10));
-@include cesUtilMargin(sm, rem(15));
-@include cesUtilMargin(md, rem(20));
-@include cesUtilMargin(lg, rem(30));
-@include cesUtilMargin(xl, rem(40));
-@include cesUtilMargin(xxl, rem(60));
+@include cesUtilMargin(none, $ces-space-none);
+@include cesUtilMargin(xxs, $ces-space-xxs);
+@include cesUtilMargin(xs, $ces-space-xs);
+@include cesUtilMargin(sm, $ces-space-sm);
+@include cesUtilMargin(md, $ces-space-md);
+@include cesUtilMargin(lg, $ces-space-lg);
+@include cesUtilMargin(xl, $ces-space-xl);
+@include cesUtilMargin(xxl, $ces-space-xxl);

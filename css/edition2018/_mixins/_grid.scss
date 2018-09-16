@@ -249,14 +249,14 @@
   // -------------------------
   // Gutters
   // -------------------------
-  @include cesGridGutterModifiers(none#{ $suffix }, 0);
-  @include cesGridGutterModifiers(xxs#{ $suffix }, rem(5));
-  @include cesGridGutterModifiers(xs#{ $suffix }, rem(10));
-  @include cesGridGutterModifiers(sm#{ $suffix }, rem(15));
-  @include cesGridGutterModifiers(md#{ $suffix }, rem(20));
-  @include cesGridGutterModifiers(lg#{ $suffix }, rem(30));
-  @include cesGridGutterModifiers(xl#{ $suffix }, rem(40));
-  @include cesGridGutterModifiers(xxl#{ $suffix }, rem(50));
+  @include cesGridGutterModifiers(none#{ $suffix }, $ces-space-none);
+  @include cesGridGutterModifiers(xxs#{ $suffix }, $ces-space-xxs);
+  @include cesGridGutterModifiers(xs#{ $suffix }, $ces-space-xs);
+  @include cesGridGutterModifiers(sm#{ $suffix }, $ces-space-sm);
+  @include cesGridGutterModifiers(md#{ $suffix }, $ces-space-md);
+  @include cesGridGutterModifiers(lg#{ $suffix }, $ces-space-lg);
+  @include cesGridGutterModifiers(xl#{ $suffix }, $ces-space-xl);
+  @include cesGridGutterModifiers(xxl#{ $suffix }, $ces-space-xxl);
 }
 
 @mixin cesGridItemModifiers($suffix: '') {

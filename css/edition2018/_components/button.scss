@@ -1,7 +1,7 @@
 .ces-c-button {
   @extend %cesButtonBase;
 
-  @include cesButtonSize(rem(10), rem(16), $ces-font-size-md);
+  @include cesButtonSize($ces-space-xs, $ces-space-sm, $ces-font-size-md);
   @include cesButtonColor(
     $background: white,
     $background-hover: white,

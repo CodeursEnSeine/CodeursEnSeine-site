@@ -30,11 +30,11 @@
   }
 }
 
-@include cesUtilPadding(none, 0);
-@include cesUtilPadding(xxs, rem(5));
-@include cesUtilPadding(xs, rem(10));
-@include cesUtilPadding(sm, rem(15));
-@include cesUtilPadding(md, rem(20));
-@include cesUtilPadding(lg, rem(30));
-@include cesUtilPadding(xl, rem(40));
-@include cesUtilPadding(xxl, rem(60));
+@include cesUtilPadding(none, $ces-space-none);
+@include cesUtilPadding(xxs, $ces-space-xxs);
+@include cesUtilPadding(xs, $ces-space-xs);
+@include cesUtilPadding(sm, $ces-space-sm);
+@include cesUtilPadding(md, $ces-space-md);
+@include cesUtilPadding(lg, $ces-space-lg);
+@include cesUtilPadding(xl, $ces-space-xl);
+@include cesUtilPadding(xxl, $ces-space-xxl);
