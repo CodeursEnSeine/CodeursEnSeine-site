@@ -7,31 +7,32 @@ navigation: true
 order: 30
 ---
 
-<div class="section row">
+<h1>Devenir Sponsor ?</h1>
 
-    <h2>Devenir Sponsor ?</h2>
+<p>
+  Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
+</p>
+<p>
+  Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre d'une politique de recrutement.
+</p>
+<p>
+  Si vous souhaitez soutenir l'événement, téléchargez <a href="https://drive.google.com/file/d/1BCENZDDhQPDt7ACX2OF0hXq1513iPVXD/view?usp=sharing" target="_blank">le dossier de sponsoring</a>, <a href="https://docs.google.com/document/d/1KgMSEcv3OSitJq53yfW-vNcb7RrH6rnEqgGWgMTlgy0/edit?usp=sharing" target="_blank">la convention de sponsoring</a> et contactez-nous.
+</p>
 
-    <p>
-      Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
-    </p>
-    <p>
-      Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre d'une politique de recrutement.
-    </p>
-    <p>
-      Si vous souhaitez soutenir l'événement, téléchargez <a href="https://drive.google.com/file/d/1BCENZDDhQPDt7ACX2OF0hXq1513iPVXD/view?usp=sharing" target="_blank">le dossier de sponsoring</a>, <a href="https://docs.google.com/document/d/1KgMSEcv3OSitJq53yfW-vNcb7RrH6rnEqgGWgMTlgy0/edit?usp=sharing" target="_blank">la convention de sponsoring</a> et contactez-nous.
-    </p>
+<hr>
 
-    <h2>Sponsors</h2>
+<h2>Sponsors 2018</h2>
 
-
-    <div class="cards">
-      {% for sponsor in site.data.meetups.sponsors %}
-          {% include meetups/sponsor-card.html premium="false" %}
-      {% endfor %}
+<div class="ces-l-grid">
+  {% for sponsor in site.data.meetups.sponsors %}
+    <div class="ces-l-grid__item is-1_2@xs is-1_3@md">
+      {% include edition2018/sponsor-card.html premium="false" %}
     </div>
-
-    <h3>Sponsors Logistique</h3>
-
-    <a href="http://www.devoxx.be" target="_blank"><img src="/images/legacy/2016DEVOXX001_WEB_BANNERS_2016_320x50.gif" width="320" height="50"></a>
-
+  {% endfor %}
 </div>
+
+<hr>
+
+<h2>Sponsors Logistique</h2>
+
+<a href="http://www.devoxx.be" target="_blank"><img src="/images/legacy/2016DEVOXX001_WEB_BANNERS_2016_320x50.gif" width="320" height="50"></a>
