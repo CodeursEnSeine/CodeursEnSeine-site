@@ -2,20 +2,4 @@
 layout: edition2018
 ---
 
-<div class="ces-l-grid is-gutter-xl is-gutter-xxl@lg">
-  <div class="ces-l-grid__item is-2_3@sm">
-    {{ content }}
-  </div>
-  <div class="ces-l-grid__item is-1_3@sm">
-    <h2>Sponsors meetups</h2>
-    <div class="ces-l-grid is-stretch is-gutter-sm">
-      {% for sponsor in site.data.meetups.sponsors %}
-      <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
-        <a class="ces-c-card is-center-content is-gutter-xs" href="{{sponsor.link}}" title="{{sponsor.name}}">
-          <img width="314" height="200" alt="{{sponsor.name}}" src="/images/meetups/sponsors/{{sponsor.logo}}">
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+{{ content }}

@@ -1,6 +1,7 @@
 .ces-c-card {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   padding: $ces-space-md;
   text-decoration: none;
   border-radius: rem(4);
