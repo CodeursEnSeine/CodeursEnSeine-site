@@ -24,6 +24,13 @@
   }
 
   &__content {
+    // Clearfix
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+
     hr,
     h1,
     h2,
