@@ -2,14 +2,17 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+
   {% seo %}
-  <meta id="meta-tag-description" property="og:description" content="{{site.description}}">
+  <meta property="og:image" content="{{ '/images/' | append: page.group | append: '/social.jpg' | absolute_url }}">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Import Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
   <!-- Import the CSS -->
   <link href="{{ '/css/' | append: page.group | append: '/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
 
+  <!-- Favicons / app -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

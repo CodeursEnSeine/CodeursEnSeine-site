@@ -4,8 +4,21 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", ".editorconfig", ".idea/"]
 markdown : kramdown
 
+# Seo
 title : Codeurs en Seine
 description: "Rencontre de codeurs & codeuses à Rouen"
+url: https://www.codeursenseine.com/2018
+lang: fr_FR
+twitter:
+  username: codeursenseine
+  card: summary
+social:
+  name: Codeurs en Seine
+  links:
+    - https://twitter.com/codeursenseine
+    - https://www.facebook.com/codeursenseine
+    - https://www.linkedin.com/company/codeurs-en-seine
+    - https://github.com/CodeursEnSeine/
 
 meetups:
   pretitle: "Retrouvez Codeurs en Seine toute l'année !"
@@ -39,7 +52,7 @@ edition2013:
   pretitle: "Rencontre de codeurs à Rouen : Agile, Java & Web"
   title: "Jeudi 17 octobre 2013"
 
-production_url : http://www.codeursenseine.com
+production_url : https://www.codeursenseine.com
 permalink: /meetups/:year-:month-:day/:slug
 
 sass:
