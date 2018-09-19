@@ -6,7 +6,7 @@ markdown : kramdown
 
 # Seo
 title : Codeurs en Seine
-description: "Rencontre de codeurs & codeuses à Rouen"
+description: "Rencontre de codeuses & codeurs à Rouen"
 url: https://www.codeursenseine.com/2018
 lang: fr_FR
 twitter:
