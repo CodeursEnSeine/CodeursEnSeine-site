@@ -36,7 +36,6 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
-
 - name: Yes We Hack
   type: silver
   logo: yes-we-hack.jpg
@@ -78,6 +77,14 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>Nous recherchons des développeurs pour des stages dernière année d'étude.</p>
   <p>Nous recherchons des développeurs/ experts :  JAVA, Front-End, NodeJs,  Mobile, Fullstack.</p>
   <p>Mais également des consultants DevOps, des Data Ingénieur, Data Architecte et des consultants Sécurité.</p>"
+
+- name: PayGreen
+  type: silver
+  logo: paygreen.jpg
+  link: https://paygreen.io
+  description: "<p>PayGreen est une solution de paiement innovante pour e-commerces et marketplaces qui permet une gestion simple et performante des paiements en ligne.</p>
+  <p>Première solution à impact positif, PayGreen permet aux acheteurs de réaliser une bonne action en un seul clic lors du règlement de leurs achats à travers des options exclusives intégrées à la page de paiement.</p>
+  <p>PayGreen s’installe et se configure en quelques clics via des modules conçus pour les principaux CMS e-commerce (PrestaShop, Magento, WooCommerce). L’ensemble des fonctionnalités sont également disponibles par API, y compris les options à impact positif qui peuvent être intégrées indépendamment de la solution de paiement à n’importe quel flux de paiement déjà en place.</p>"
 
 # -------------------
 # bronze
