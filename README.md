@@ -14,11 +14,11 @@ Installation des dépendances requises :
 * ```bundle```
 
 #### Démarrage du site en local 
-* ```jekyll serve --watch --incremental``` 
+* ```jekyll serve --watch``` 
 
 ou 
 
-* ```bundle exec jekyll serve --watch --incremental```
+* ```bundle exec jekyll serve --watch```
 
 Essayez cette commande si vous n'arrivez pas à lancer le site : `bundle update`
 
