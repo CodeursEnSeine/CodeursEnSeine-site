@@ -1,0 +1,62 @@
+.ces-p-agenda {
+  &__time {
+    position: relative;
+    padding-top: $ces-space-md;
+    color: $ces-color-text-light;
+    font-family:  $ces-font-family-title;
+    font-size: $ces-font-size-ml;
+
+    @include cesMediaMin($ces-breakpoint-md) {
+      padding-top: $ces-space-xs;
+      text-align: right;
+      padding-right: rem(4);
+
+      &::after {
+        content: '';
+        display: inline-block;
+        border: rem(5) solid transparent;
+        border-left-color: currentColor;
+        width: 0;
+        height: 0;
+        position: absolute;
+        margin-top: rem(-1);
+        top: 50%;
+        right: rem(-15);
+      }
+    }
+  }
+
+  &__card {
+    // border-top: rem(2) solid $ces-color-primary;
+    padding: $ces-space-xs $ces-space-sm;
+  }
+
+  &__title {
+    margin-bottom: auto;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  &__speakers {
+    margin-top: rem(2);
+    font-size: $ces-font-size-ms;
+    color: $ces-color-text-light;
+  }
+
+  &__room {
+    font-size: $ces-font-size-sm;
+    color: $ces-color-text-light;
+    padding-top: $ces-space-xxs;
+  }
+
+  &__sponsor {
+    color: white;
+    background: $ces-color-success;
+    font-size: $ces-font-size-xxs;
+    font-weight: bold;
+    border-radius: rem(2);
+    text-transform: uppercase;
+    margin-left: $ces-space-xxs;
+    padding: rem(2) rem(4);
+  }
+}

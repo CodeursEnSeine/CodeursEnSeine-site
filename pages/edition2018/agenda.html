@@ -1,0 +1,80 @@
+---
+layout: edition2018
+group: edition2018
+title: Programme
+permalink: /2018/programme
+navigation: true
+order: 10
+---
+
+<div class="ces-p-agenda">
+  {% assign times = '8h45, 9h00, 9h40, 10h00, 11h00, 12h00, 12h15, 13h40, 14h30, 15h20, 15h40, 16h40' | split: ', ' %}
+
+  <div class="ces-l-grid is-gutter-xs is-gutter-md@md">
+    <div class="ces-l-grid__item is-1_8@md"></div>
+    <div class="ces-l-grid__item is-7_8@md">
+      <h1>Programme</h1>
+      L'accueil des participants démarre à <strong>8h20</strong>.
+    </div>
+
+  {% for time in times %}
+  {% assign talks = site.data.edition2018.agenda | where: "time" , time %}
+  {% assign count = talks | size %}
+  {% if count > 0 %}
+    <div class="ces-l-grid__item is-1_8@md">
+      <div class="ces-p-agenda__time">
+        {{ time }}
+      </div>
+    </div>
+    <div class="ces-l-grid__item is-7_8@md">
+      <div class="ces-l-grid is-stretch">
+        {% for talk in talks %}
+          <div class="ces-l-grid__item {% if count != 1%}is-1_2@xxs is-1_4@sm is-1_2@md is-1_4@lg{% endif %}">
+            <div class="ces-c-card ces-p-agenda__card">
+              {% assign mainSpeaker = site.data.edition2018.speakers | where: "name", talk.speakers[0] %}
+              {% assign mainSpeaker = mainSpeaker[0] %}
+
+              {% if mainSpeaker and talk.desc %}
+                <a class="ces-p-agenda__title" href="speakers.html#orateur-{{ mainSpeaker.name | cgi_escape }}">
+                  {{ talk.title | truncate: 90 }}
+                </a>
+              {% else %}
+                <span class="ces-p-agenda__title">
+                  {{ talk.title | truncate: 90 }}
+                </span>
+              {% endif %}
+
+              <div class="ces-p-agenda__speakers">
+                {% for speakerName in talk.speakers %}
+                {% assign speaker = site.data.edition2018.speakers | where: "name", speakerName %}
+                {% assign speaker = speaker[0] %}
+
+                {% if forloop.index > 1 %} et {% endif %}
+
+                {% if speaker %}
+                  <a class="ces-p-agenda__speaker" href="speakers.html#orateur-{{ speaker.name | cgi_escape }}">
+                    {{ speaker.name }}
+                  </a>
+                {% else %}
+                  <span class="ces-p-agenda__speaker">
+                    {{ speakerName }}
+                  </span>
+                {% endif %}
+                {% endfor %}
+              </div>
+              <div class="ces-p-agenda__room">
+                {{ talk.room }}
+
+                {% if talk.sponsor %}
+                <span class="ces-p-agenda__sponsor">Sponsorisé</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+  </div>
+</div>
