@@ -32,12 +32,21 @@ order: 40
 <div class="ces-l-grid is-gutter-vertical-lg">
   {% for orga in site.data.edition2018.organisateurs %}
   <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_5@sm is-1_6@md is-1_7@lg">
+    {% if orga.link == null %}
+    <div class="ces-h-display-block ces-h-text-center">
+        <img class="ces-h-image" src="/images/edition2018/organisateurs/{{ orga.image }}" alt="{{ orga.name }}" width="100" height="100">
+        <div class="ces-h-pt-xs">
+          {{ orga.name }}
+        </div>
+    </div>
+    {% else %}
     <a href="{{ orga.link }}" target="_blank" class="ces-h-display-block ces-h-text-center">
       <img class="ces-h-image" src="/images/edition2018/organisateurs/{{ orga.image }}" alt="{{ orga.name }}" width="100" height="100">
       <div class="ces-h-pt-xs">
         {{ orga.name }}
       </div>
     </a>
+    {% endif%}
   </div>
   {% endfor %}
 </div>
