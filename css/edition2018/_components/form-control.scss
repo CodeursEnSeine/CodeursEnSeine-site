@@ -17,6 +17,24 @@
     border-color: $ces-color-primary;
     outline: 0;
   }
+
+  @at-root select#{&} {
+    &:not([multiple]) {
+      overflow: hidden;
+      padding-right: $ces-space-md + rem(16);
+      min-width: rem(16) + $ces-space-md * 2;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px'><polyline fill='#{$ces-color-primary}' points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>");
+      background-position: right .6rem center;
+      background-repeat: no-repeat;
+      background-size: .8em;
+    }
+
+    &[multiple] {
+      overflow: auto;
+    }
+  }
 }
 
 .ces-c-form-control {
