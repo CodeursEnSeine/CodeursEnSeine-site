@@ -2,8 +2,6 @@
 # Needed this for jekyll sass generation
 ---
 
-$ces-font-family-base: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
-
 @import "edition2018/_functions/contrast";
 @import "edition2018/_functions/rem";
 
@@ -27,6 +25,20 @@ body {
   min-width: 0;
 }
 
+body a {
+  color: $ces-color-primary;
+
+  &:hover,
+  &:focus {
+    color: $ces-color-primary;
+    text-decoration: none !important;
+  }
+
+  &:visited {
+    color: $ces-color-primary;
+  }
+}
+
 .promote_block,
 .promote_block a {
   color: inherit;
@@ -34,18 +46,18 @@ body {
 
 #checkout {
   background-color: #fafafa;
-  border-radius: 200px;
-  padding: 5px;
+  border-radius: rem(200);
+  padding: rem(5);
 
   .step {
     .symbol {
       background: $ces-color-dark;
-      border-radius: 200px;
+      border-radius: rem(200);
     }
 
     .text {
-      padding-right: 10px;
-      font-size: rem(14px);
+      padding-right: rem(10);
+      font-size: rem(14);
       color: $ces-color-text-light;
     }
 
@@ -60,6 +72,28 @@ body {
   }
 }
 
+.message.message_mode {
+  font-size: $ces-font-size-ms;
+  padding: rem(15);
+  margin: rem(10) 0;
+}
+
+#admin_view {
+  display: block;
+  margin: rem(-15);
+  padding: rem(15);
+  color: white !important;
+  border-radius: rem(4);
+  background: $ces-color-dark;
+}
+
+.message.message_error {
+  border: none;
+  border-radius: rem(4);
+  color: white;
+  background: $ces-color-danger;
+}
+
 .navButton {
   @extend %cesButtonBase;
   @include cesButtonSize($ces-space-xs, $ces-space-sm, $ces-font-size-md);
@@ -72,7 +106,7 @@ body {
   }
 
   .icon {
-    margin-right: 5px;
+    margin-right: rem(5);
   }
 }
 
@@ -86,18 +120,18 @@ body {
 .shop_step1_header,
 .shop_step2_header,
 .shop_step4_header {
-  margin-top: 10px;
+  margin-top: rem(10);
   background-color: white;
   color: inherit;
-  border-bottom: 1px solid;
+  border-bottom: rem(1) solid;
 }
 
 .shop_step1_header_name {
-  padding: 0 10px;
+  padding: 0 rem(10);
 }
 
 .shop_step1_ticket {
-  border-bottom: 1px dashed rgba($ces-color-dark, .1) !important;
+  border-bottom: rem(1) dashed rgba($ces-color-dark, .1) !important;
 }
 
 #language_dropdown,
@@ -106,7 +140,7 @@ body {
   @extend %ces-c-form-control;
 
   display: inline-block;
-  padding: 5px;
+  padding: rem(5);
 }
 
 // Selects
@@ -114,26 +148,42 @@ body {
 .shop_step1_quantity_select {
   width: auto;
   max-width: none;
-  padding-left: 10px !important;
-  padding-right: 25px !important;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACvSURBVGiB7c+5DQJRDEXRS4yohQQJcrqkGkoaGoCJXoJY5s/8xZbelZxYDnzAOeecc845l6zdh90VOPV+pLAHcAOev472wB14BZ0JuCwVR8UUIaJiViGiYTYhomCqIEZjJuBcCzEK0wTRG9MU0QvTBdEa0xWhamOGIFQtzFCE2ooJgVBrMaEQqhQTEqGWYkIj1D9MCoT6hkmFUO+YlAglTGqEOgDH0U8455xzzjnHDCp9pL6aSxPrAAAAAElFTkSuQmCC) !important;
+  padding-left: rem(10) !important;
+  padding-right: rem(25) !important;
 }
 
 .donation_input {
   text-align: center;
-  width: 60px;
+  width: rem(60);
+}
+
+.shop_step1_ticket td.shop_step1_quantity,
+.shop_step1_ticket td.shop_step1_price {
+  font-size: $ces-font-size-md;
+  white-space: nowrap;
+}
+
+// Fix alignment with € in donation
+.shop_step1_header_price {
+  padding-right: rem(20);
+}
+.shop_step1_ticket td.shop_step1_price:not(.shop_step1_donation) {
+  padding-right: rem(25);
 }
 
 td.shop_step1_price.shop_step1_donation::after {
+  display: inline-block;
   content: '\20AC';
+  margin-left: rem(5);
+  vertical-align: middle;
 }
 
 .shop_step1_ticket td {
-  padding: 10px;
+  padding: rem(10);
 
   &.shop_step1_name {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: rem(15);
+    padding-bottom: rem(15);
   }
 }
 
@@ -177,16 +227,16 @@ td.shop_step1_price.shop_step1_donation::after {
 }
 
 .shop_step1_footer_details .shop_step1_footer {
-  padding-top: 8px;
+  padding-top: rem(8);
   font-size: $ces-font-size-md;
   background: white;
   color: inherit;
 }
 
 #payment_card_icon {
-  margin-right: 20px !important;
-  width: 160px !important;
-  margin-top: 5px !important;
+  margin-right: rem(20) !important;
+  width: rem(160) !important;
+  margin-top: rem(5) !important;
 }
 
 // Step 2
@@ -196,7 +246,8 @@ td.shop_step1_price.shop_step1_donation::after {
 }
 
 .shop_step2_header {
-  margin-bottom: 20px;
+  margin-top: rem(20);
+  margin-bottom: rem(20);
 }
 
 .shop_step2_table tr td {
@@ -204,25 +255,36 @@ td.shop_step1_price.shop_step1_donation::after {
 }
 
 .shop_step2_name {
-  width: 200px !important;
-  padding: 0 15px 0 0 !important;
+  font-size: $ces-font-size-ms;
+  width: rem(200) !important;
+  padding: 0 rem(15) 0 0 !important;
 }
 .shop_step2_input {
   width: auto !important;
-  padding: 0 0 15px 0 !important;
+  padding: 0 0 rem(15) 0 !important;
 }
 
 .shop_step2_input input {
   @extend %ces-c-form-control;
-  padding: 6px 10px;
+  padding: rem(6) rem(10);
+}
+
+select.error,
+input.error {
+  border-color: $ces-color-danger;
+}
+
+label.error {
+  background: $ces-color-danger;
+  font-size: $ces-font-size-sm;
 }
 
 // Step 3
 .shop_step3_table .shop_step1_name {
   font-weight: bold;
   font-size: $ces-font-size-md;
-  border-left: 2px solid;
-  padding-left: 15px !important;
+  border-left: rem(2) solid;
+  padding-left: rem(15) !important;
 }
 
 .shop_step3_table tr td {
@@ -231,7 +293,7 @@ td.shop_step1_price.shop_step1_donation::after {
 
 .shop_step3_table .shop_step3_separator td {
   background: white !important;
-  height: 3px;
+  height: rem(3);
   padding: 0 !important;
   font-size: 0;
 
@@ -247,12 +309,34 @@ td.shop_step1_price.shop_step1_donation::after {
 
 .shop_step3_payment_mode {
   background: white;
-  border: 1px solid rgba($ces-color-dark, .1);
-  border-radius: 4px;
+  border: rem(1) solid rgba($ces-color-dark, .1);
+  border-radius: rem(4);
+}
+
+// Step 4
+.shop_step4_header {
+  font-size: $ces-font-size-md;
+
+  &.shop_step4_success {
+    color: $ces-color-success-text;
+    border-left: none !important;
+  }
+}
+
+.shop_step4_content {
+  font-size: $ces-font-size-ms;
+  line-height: $ces-line-height;
+  margin-top: rem(15);
+  background: #fafafa;
+  padding: rem(10) rem(15);
+
+  &.shop_step4_success {
+    border-color: $ces-color-success !important;
+  }
 }
 
 // Responsive
-@media screen and (max-width: 400px) {
+@media screen and (max-width: rem(400)) {
   .shop_step1_table,
   .shop_step1_table tbody,
   .shop_step1_table tr,
@@ -288,10 +372,38 @@ td.shop_step1_price.shop_step1_donation::after {
     text-align: right;
     justify-content: center;
     align-items: flex-end;
+    padding-right: rem(5) !important;
+  }
+
+  .shop_step1_table .shop_step1_donation {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    &::before {
+      content: 'Prix';
+      vertical-align: middle;
+      margin-right: rem(10);
+    }
+  }
+
+  .shop_step1_ticket .shop_step1_quantity {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    &::before {
+      content: '\00d7';
+      vertical-align: middle;
+      margin-right: rem(15);
+      font-size: $ces-font-size-ml;
+      color: $ces-color-text-light;
+      opacity: .5;
+    }
   }
 
   .shop_step1_footer_details .shop_step1_footer {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: rem(15);
+    padding-right: rem(15);
   }
 }
