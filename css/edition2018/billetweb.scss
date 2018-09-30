@@ -134,6 +134,7 @@ body a {
   border-bottom: rem(1) dashed rgba($ces-color-dark, .1) !important;
 }
 
+.shop_step2_select,
 #language_dropdown,
 .shop_step1_quantity_select,
 .donation_input {
@@ -143,13 +144,17 @@ body a {
   padding: rem(5);
 }
 
-// Selects
+.shop_step2_select,
 #language_dropdown,
 .shop_step1_quantity_select {
-  width: auto;
   max-width: none;
   padding-left: rem(10) !important;
   padding-right: rem(25) !important;
+}
+
+#language_dropdown,
+.shop_step1_quantity_select {
+  width: auto;
 }
 
 .donation_input {
