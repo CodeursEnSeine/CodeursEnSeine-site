@@ -1,11 +1,11 @@
 <article class="ces-c-card {% if include.premium == 'true' %}is-premium{% endif %}" id="sponsor-{{forloop.index}}">
   {% if sponsor.logo and sponsor.link %}
   <a target="_blank" href="{{sponsor.link}}" class="ces-h-text-center">
-    <img width="314" height="200" alt="{{sponsor.name}}" src="/images/edition2018/sponsors/{{sponsor.logo}}">
+    <img width="320" height="193" alt="{{sponsor.name}}" src="/images/edition2018/sponsors/{{sponsor.logo}}">
   </a>
   {% else if sponsor.logo %}
   <div class="card-logo">
-    <img width="314" height="200" alt="{{sponsor.name}}" src="/images/edition2018/sponsors/{{sponsor.logo}}">
+    <img width="320" height="193" alt="{{sponsor.name}}" src="/images/edition2018/sponsors/{{sponsor.logo}}">
   </div>
   {% endif %}
 
