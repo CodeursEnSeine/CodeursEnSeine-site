@@ -215,3 +215,18 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   link: http://www.sonarsource.com
   description: "<p>SonarSource provides world-class solutions for continuous code quality. Its open source and commercial products help customers of all size to manage the code quality of their applications, reduce their risks and ultimately deliver better software.
   </p><p>SonarSource solutions support development in 20+ programming languages such as Java, C#, Javascript, C/C++, COBOL and more. With 700+ customers around the world including eBay, Thales, BMW and used by more than 80,000 organizations SonarSource's products are the de facto standard solutions on the market.</p>"
+
+- name: Orone
+  type: bronze
+  logo: orone.png
+  link: http://www.orone.com
+  description: "<p>Editeur de solutions logicielles de digitalisation du dossier de souscription et de dématérialisation des moyens de paiement, Orone développe et propose de nouvelles offres de rupture à forts enjeux, disponibles dans le cloud, en inscrivant l’innovation au cœur de sa croissance.</p
+  <ul>
+    <li>
+      Substech facilite la constitution et la gestion du dossier unique d’identification client - <a href=\"http://www.substech.io\" target=\"_blank\">www.substech.io</a>
+    </li>
+    <li>
+      Wecheck accélère et fiabilise l’encaissement de vos chèques - <a href=\"http://www.wecheck.io\" target=\"_blank\">www.wecheck.io</a>
+    </li>
+  </ul>
+  <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
