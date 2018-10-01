@@ -73,6 +73,7 @@ body a {
 }
 
 .message.message_mode {
+  color: inherit;
   font-size: $ces-font-size-ms;
   padding: rem(15);
   margin: rem(10) 0;
@@ -115,6 +116,20 @@ body a {
   @include cesButtonColor(
     $background: $ces-color-dark
   );
+}
+
+.shop_step1_empty {
+  color: inherit;
+  font-weight: bold;
+
+  .shop_step1_show_description {
+    color: inherit;
+    display: inline-block;
+
+    &::before {
+      content: '🔥🔥🔥';
+    }
+  }
 }
 
 .shop_step1_header,
