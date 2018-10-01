@@ -206,7 +206,7 @@ td.shop_step1_price.shop_step1_donation::after {
     display: none;
   }
 
-  font-size: $ces-font-size-sm;
+  font-size: $ces-font-size-ms;
   line-height: $ces-line-height;
   color: $ces-color-text-light !important;
   border: none;
@@ -410,5 +410,11 @@ label.error {
   .shop_step1_footer_details .shop_step1_footer {
     padding-left: rem(15);
     padding-right: rem(15);
+  }
+}
+
+@media screen and (max-width: rem(350)) {
+  .shop_step1_table .shop_step1_donation::before {
+    font-size: $ces-font-size-sm;
   }
 }
