@@ -106,6 +106,12 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
 <li>Notre plateforme de communication media multicanale. Elle intègre une double dimension de ciblage inégalée jusqu’ici. En effet, l'analyse de données basées sur un socle décisionnel et BigData innovant permet de diffuser des offres personnalisées grâce à l’historique d’achat. Ces offres sont exploitables instantanément sur tous les devices : smartphone, tablettes, scanettes, PC.</li>
 </ul>"
 
+- name: BNP Paribas
+  type: silver
+  logo: bnp-paribas@web.png
+  link: https://mabanque.bnpparibas/
+  description: "<p>Découvrez tous les services bancaires d’un monde qui change. Que vous soyez particuliers ou professionnels, nous vous proposons toutes les solutions pour faciliter votre quotidien.</p>"
+
 # -------------------
 # bronze
 # -------------------
