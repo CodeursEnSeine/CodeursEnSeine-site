@@ -88,7 +88,7 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   <p>Première solution à impact positif, PayGreen permet aux acheteurs de réaliser une bonne action en un seul clic lors du règlement de leurs achats à travers des options exclusives intégrées à la page de paiement.</p>
   <p>PayGreen s’installe et se configure en quelques clics via des modules conçus pour les principaux CMS e-commerce (PrestaShop, Magento, WooCommerce). L’ensemble des fonctionnalités sont également disponibles par API, y compris les options à impact positif qui peuvent être intégrées indépendamment de la solution de paiement à n’importe quel flux de paiement déjà en place.</p>"
 
-- name: Le Bon Coin
+- name: leboncoin
   type: silver
   logo: leboncoin@web.png
   link: http://www.leboncoin.fr
