@@ -8,27 +8,26 @@ order: 10
 ---
 
 <div class="ces-p-agenda">
-  {% assign times = '8h45, 9h00, 9h40, 10h00, 11h00, 12h00, 12h15, 13h40, 14h30, 15h20, 15h40, 16h40' | split: ', ' %}
+  {% assign slots = site.data.edition2018.agenda %}
 
   <div class="ces-l-grid is-gutter-xs is-gutter-md@md">
     <div class="ces-l-grid__item is-1_8@md"></div>
     <div class="ces-l-grid__item is-7_8@md">
       <h1>Programme</h1>
-      L'accueil des participants démarre à <strong>8h20</strong>.
+      L'accueil des participants démarre à <strong>8h00</strong>.
     </div>
 
-  {% for time in times %}
-  {% assign talks = site.data.edition2018.agenda | where: "time" , time %}
-  {% assign count = talks | size %}
+  {% for slot in slots %}
+  {% assign count = slot.talks | size %}
   {% if count > 0 %}
     <div class="ces-l-grid__item is-1_8@md">
       <div class="ces-p-agenda__time">
-        {{ time }}
+        {{ slot.time }}
       </div>
     </div>
     <div class="ces-l-grid__item is-7_8@md">
       <div class="ces-l-grid is-stretch">
-        {% for talk in talks %}
+        {% for talk in slot.talks %}
           <div class="ces-l-grid__item {% if count != 1%}is-1_2@xxs is-1_4@sm is-1_2@md is-1_4@lg{% endif %}">
             <div class="ces-c-card ces-p-agenda__card">
               {% assign mainSpeaker = site.data.edition2018.speakers | where: "name", talk.speakers[0] %}
