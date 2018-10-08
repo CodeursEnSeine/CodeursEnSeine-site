@@ -26,3 +26,9 @@ Essayez cette commande si vous n'arrivez pas à lancer le site : `bundle update`
 ### Contribution
 
 Vous trouvez que quelque chose manque au site ? ➡️ les pull requests sont les bienvenues !
+
+#### Ajout de nouveaux orgas
+Pull la dernière version du git
+Modifier le fichier _data/edition2018/organisateurs.yml 
+Ajouter la photo (même nom que défini avant dans le yml) en 100x100px dans images/edition2018/organisateurs
+Puis commit et push sur la branche
