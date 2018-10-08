@@ -37,6 +37,12 @@ img {
   border: 0;
 }
 
+audio,
+video,
+iframe {
+  max-width: 100%;
+}
+
 hr {
   margin: $ces-space-xl 0;
   border: none;
