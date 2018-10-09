@@ -54,6 +54,18 @@
   //    Sizes
   // -------------------------
 
+  &.is-xs{
+    @include cesButtonSize($ces-space-xxs/2, $ces-space-xs, $ces-font-size-sm);
+  }
+
+  &.is-sm {
+    @include cesButtonSize($ces-space-xxs, $ces-space-xs, $ces-font-size-ms);
+  }
+
+  &.is-lg {
+    @include cesButtonSize($ces-space-sm, $ces-space-md, $ces-font-size-ml);
+  }
+
   // -------------------------
   //    Disabled
   // -------------------------

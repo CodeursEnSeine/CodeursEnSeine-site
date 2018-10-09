@@ -16,22 +16,24 @@
 @import "_base/table";
 @import "_base/typography";
 
-@import "_components/button";
-@import "_components/buttons-group";
-@import "_components/card";
-@import "_components/form-control";
-@import "_components/icon";
-@import "_components/meetup-card";
-@import "_components/table";
-@import "_components/truncate-text";
-
 @import "_layout/grid";
 @import "_layout/site-layout";
 @import "_layout/navbar";
 @import "_layout/page";
 @import "_layout/topbar";
 
+@import "_components/button";
+@import "_components/buttons-group";
+@import "_components/card";
+@import "_components/form-control";
+@import "_components/icon";
+@import "_components/meetup-card";
+@import "_components/panel";
+@import "_components/table";
+@import "_components/truncate-text";
+
 @import "_pages/agenda";
+@import "_pages/speaker-card.scss";
 @import "_pages/meetups-post";
 
 #ces-root {

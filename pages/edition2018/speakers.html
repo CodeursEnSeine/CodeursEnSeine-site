@@ -1,0 +1,60 @@
+---
+layout: edition2018
+group: edition2018
+title: Intervenants
+permalink: /2018/speakers
+navigation: true
+order: 25
+---
+
+<h1>Intervenants</h1>
+
+<div class="ces-l-grid is-stretch">
+  {% for speaker in site.data.edition2018.speakers %}
+  <div class="ces-l-grid__item is-1_2@xs is-1_3@xxl">
+    <article class="ces-c-card ces-p-speaker-card">
+      <div class="ces-p-speaker-card__anchor" id="orateur-{{speaker.name | cgi_escape}}"></div>
+
+      <div class="ces-p-speaker-card__header">
+        {% if speaker.image %}
+        <div class="ces-p-speaker-card__image">
+          <img class="ces-h-image" height="100" width="100" alt="{{speaker.name}}" src="{{speaker.image}}">
+        </div>
+        {% endif %}
+        <div class="ces-p-speaker-card__profile">
+          <h3 class="ces-p-speaker-card__name">{{speaker.name}}</h3>
+          {% if speaker.company %}
+          <div class="ces-p-speaker-card__company">{{speaker.company}}</div>
+          {% endif %}
+          {% if speaker.links %}
+          <div class="ces-p-speaker-card__links">
+            {% for link in speaker.links %}
+              <a class="ces-c-button is-xs is-primary" target="_blank" href="{{link.url}}">{{link.label}}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="ces-p-speaker-card__bio js-truncate-text" data-max-height="100">
+        {{speaker.bio}}
+      </div>
+      <div class="ces-p-speaker-card__talks">
+        {% assign slots = site.data.edition2018.agenda %}
+        {% for slot in slots %}
+          {% assign talks = slot.talks | where: "speakers" , speaker.name %}
+          {% for talk in talks %}
+          <div class="ces-p-speaker-card__talk">
+            <h2 class="ces-p-speaker-card__talk-title">{{talk.title}}</h2>
+            <div class="ces-p-speaker-card__talk-details">{{slot.time}} - {{talk.room}}</div>
+            <div class="ces-p-speaker-card__talk-description js-truncate-text" data-max-height="150">
+              {{talk.desc}}
+            </div>
+          </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</div>

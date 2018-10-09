@@ -1,0 +1,38 @@
+## TEMPLATE ##
+#- name: Nom du speaker
+#  image: /images/edition2018/speakers/default.jpg
+#  company: Company
+#  bio: "Bio"
+#  links:
+#    - label: Twitter
+#      url: https://twitter.com/
+#    - label: Github
+#      url: https://github.com/
+
+
+- name: Guy Fournier
+  company: Les Dragons de Rouen
+  image: /images/edition2018/speakers/guy-fournier.jpg
+  bio: "Ancien joueur de hockey sur glace franco-canadien qui jouait au poste d'attaquant. Il est devenu ensuite entraîneur des Dragons de Rouen entre 1997 et 2006, année où il est devenu manager général du club."
+  links:
+    - label: Wikipedia
+      url: https://fr.wikipedia.org/wiki/Guy_Fournier_(hockey_sur_glace)
+
+- name: FibreTigre
+  image: /images/edition2018/speakers/fibre-tigre.jpg
+  bio: "Auteur de jeux vidéo. FibreTigre est auteur de jeux vidéo : Out There, Out There Chronicles, Sigma Theory, Antioch, Eugenics, auteur d'escape rooms, animateur de Game of Rôles sur la JVTV, chroniqueur dans Studio404 et Trajectoires, auteur de romans jeunesse et spécialiste de la fiction interactive."
+  links:
+    - label: Twitter
+      url: https://twitter.com/FibreTigre
+
+- name: Arnold Zephir
+  company: Prevision.io
+  image: /images/edition2018/speakers/arnold-zephir.jpg
+  bio: "Développeur. A l'origine ingénieur en microélectronique, il évolue d'abord  vers le développement de logiciels embarqués en temps réel. Devant la complexité croissante des développements, il profite de l'essor de l'IA pour confier une partie de ses analyses et développements à un réseau de neurone. À la suite de ça il fait du développement d'IA son travail à temps plein et rejoint prevision.io pour y développer des fermes d'Intelligences artificielles.
+"
+  links:
+    - label: Twitter
+      url: https://twitter.com/cepcam
+    - label: Site
+      url: https://prevision.io/
+
