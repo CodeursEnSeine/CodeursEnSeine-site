@@ -29,7 +29,7 @@
   talks:
     - title: "Management d’une équipe sportive"
       room: Salle A
-      desc: "5 thèmes pour la création d'une équipe de choc : La formation, le recrutement, la définition des objectifs, la stratégie pour y accéder et le travail d’équipe."
+      desc: "<p>5 thèmes pour la création d'une équipe de choc : La formation, le recrutement, la définition des objectifs, la stratégie pour y accéder et le travail d’équipe.</p>"
       speakers:
         - Guy Fournier
 
@@ -48,46 +48,59 @@
     - title: "Symfony 4 - le framework PHP bâti pour grandir avec vos projets"
       room: Salle A
       level: easy
-      desc: "Symfony est un des projets open-source les plus actifs sur GitHub. À n'en pas douter, cet intérêt constamment renouvelé pour la technologie est la clef qui lui permet d'être à la fois à la pointe de l'état de l'art, et d'une stabilité éprouvée sur le long terme. Lors de cette conférence, venez découvrir comment la communauté a réussi à produire un framework PHP à la fois performant, facile à prendre en main, permettant les architectures logicielles les plus évoluées et conçu pour le cloud."
+      desc: "<p>Symfony est un des projets open-source les plus actifs sur GitHub. À n'en pas douter, cet intérêt constamment renouvelé pour la technologie est la clef qui lui permet d'être à la fois à la pointe de l'état de l'art, et d'une stabilité éprouvée sur le long terme. Lors de cette conférence, venez découvrir comment la communauté a réussi à produire un framework PHP à la fois performant, facile à prendre en main, permettant les architectures logicielles les plus évoluées et conçu pour le cloud.</p>"
       speakers:
         - Nicolas Grekas
 
     - title: "Agilité : 28 jours plus tard"
       room: Salle B
       level: medium
-      desc: "---"
+      desc: "<p>Ca y est, l’agilité est enfin mise en place dans votre entreprise et tout fonctionne…
+             28 jours plus tard, ce qui existait et semblait acquis pour les 10 prochaines années vole en éclat…</p>
+             <p>L’histoire de la transformation était un vrai conte de fées. Shrek a fini par sauver la princesse Fiona, le château Far Far lointain et ses habitants, d’une emprise maléfique. Et cela, accompagné de son fidèle ami l’ ne et d’autres amis tels que le chat Potté… Nous vous laissons deviner qui est qui, mais une chose est sûre, il a fallu en éplucher des couches d'oignon car le chemin était semé d'embûches, de dragons et de lutins, qui se révèlent ne pas être qui ils prétendent mais ils avaient prévu de vivre heureux et d’avoir plein de petits ogres…</p>
+             <p>Les histoires finissent toujours bien sauf là, je ne comprends pas… </p>
+             <ul>
+             <li>“On ne finit jamais les sprints, pourtant on fait tout comme on nous a dit, bon d’accord vu le contexte un peu serré, on accepte de prendre des Users Stories qu’on définit pendant le sprint”.</li>
+             <li>“Les architectes nous avaient promis de nous valider la solution avant la moitié du sprint…”</li>
+             <li>“Le Product Owner nous a « proposé » la solution technique, les gars c’est le chef donc on va faire ce qu’il dit”</li>
+             <li>“Le Scrum Master est trop cool, il consigne tous nos temps, si tu es sympa avec lui, il mettra à jour ton Jira et cerise sur le gâteau, il fait un café d’exception”</li>
+             <li>“Les gars, je suis en vacances la semaine prochaine, donc si vous voulez bien, on prolonge le sprint d’une semaine pour que je sois présent à la Revue”.</li>
+             <li>“D’ailleurs pour la Démo, j’ai mis des flyers, va y avoir tous les directeurs, donc si vous pouviez faire une démo fun, dynamique et assez courte ?”</li>
+             <li>“Bon les gars, on est Agiles, donc dites moi combien de temps ça va vous prendre parce qu’il faut sortir le produit le 1er mai, ok c’est un peu court mais allez, vous allez vous adapter ;)”</li>
+             <li>“Laisse-moi la tâche, je la torche en 1 journée, je connais le l’ai déjà fait au moins 20 fois, en plus le stagiaire n’est toujours pas opérationnel”</li>
+             <li>“Hey je voudrais bien être Scrum Master, ça a l’air sympa, tu peux pointer du temps à dessiner sur des post it et tu dis aux autres ce qu’ils doivent faire”</li>
+             <li>“C’est moi où le Product Owner il ne sait pas où il va, il n’y connait rien, c’est pas cette fonctionnalité là qu’il faut réaliser”</li>
+             <li>“On finit jamais complètement le sprint, c’est pas trop grave, les 3 dernières tâches sont remises dans le backlog de lundi”</li>
+             <li>En Daily Meeting : “Alors hier j’ai bossé sur le projet Blair Witch, je n’ai pas fini donc aujourd’hui je travaille sur le projet Blair Witch, j’ai bientôt fini…”</li>
+             <li>“J’ai eu une idée pour nous sortir de l’impasse ! On va créer une Task Force avec les Tech Lead pour livrer en temps le lot 1, et on fera une Task Force pour le lot 2 et peut être même pour le lot 3…”</li>
+             <li>“Le nouveau Chef de Projet dit qu’il a fait 10 ans d’Agilité, il trouve ça top : il se propose d’affecter les tâches aux bonnes personnes et de nous faire du reporting avec son diagramme de Gant”.</li>
+             </ul>
+             <p>Vous retrouvez-vous dans l’une de ces histoires ? Vous vous êtes mis à la place de Shrek, du chat potté, ou encore de l’âne ?
+             Venez nous voir, nous souhaitons partager notre expérience et trouver un remède afin d’éradiquer le virus qui décime une population en 28 jours…</p>"
       speakers:
         - Nicolas Saillard
 
     - title: ".Net Standard 2.0 : Feedback from a real OSS project about relational databases synchronization : Dotmim.Sync"
       room: Salle C
       level: medium
-      desc: "Au début il y'avait .Net Framework, puis vinrent entre autre Silverlight (paix à son âme) .Net Core, UWP, Xamarin and so on...
-             .Net Standard 2.0 permet de standardiser les API et nous sort de l'enfer des PCL.
-             Nous verrons dans un premier temps ce qu'est .Net Standard et pourquoi vous devez aujourd'hui vous y intéresser de trés trés prés !
-             Ensuite, au travers d'un projet OSS, Dotmim.Sync nous parlerons de synchronisation de base de données.
-             Ou comment, en 4 lignes de codes, vous pouvez synchroniser une base de données serveur (comme SQL Server ou MySQL) avec une base de données cliente (comme SQLite) embarquée dans une application mobile, avec une gestion fine des changements ou des conflits.
-             Et comme nous sommes sous .Net Standard, vous pourrez utiliser ce framework un peu partout ;)"
+      desc: "<p>Au début il y'avait .Net Framework, puis vinrent entre autre Silverlight (paix à son âme) .Net Core, UWP, Xamarin and so on ...<br><strong>.Net Standard 2.0</strong> permet de standardiser les API et nous sort de l'enfer des <strong>PCL</strong>.<br>Nous verrons dans un premier temps ce qu'est .Net Standard et pourquoi vous devez aujourd'hui vous y intéresser de trés trés prés !<br>Ensuite, au travers d'un projet OSS, <strong>Dotmim.Sync</strong> nous parlerons de synchronisation de base de données.<br>Ou comment, en 4 lignes de codes, vous pouvez synchroniser une base de données serveur (comme <strong>SQL Server</strong> ou <strong>MySQL</strong>) avec une base de données cliente (comme <strong>SQLite</strong>) embarquée dans une application mobile, avec une gestion fine des changements ou des conflits.<br>Et comme nous sommes sous <strong>.Net Standard</strong>, vous pourrez utiliser ce framework un peu partout ;)</p>"
       speakers:
         - Sébastien Pertus
 
     - title: Des microservices aux migroservice
       room: Salle D
       level: easy
-      desc: "Ca y est, vous avez enfin la possibilité de démarrer un nouveau projet ou de migrer un de vos anciens monolithes et vous décidez de partir en architecture microservices !
-             On se répartit les services, on sort nos plus belles technos et c'est parti ! Au pire, vu qu'on va faire un microservice on pourra le remplacer plus tard facilement :grinning:.
-
-             Plus on avance dans votre service, plus les soucis commencent à apparaitre :
-
-             - Couplage avec d'autres services
-             - Partages de données
-             - Difficulté à étre déployés/opérés
-             - Ownership des services
-             - ...
-             Notre microservice vient d'évoluer en migroservice ! :disappointed:
-             On s'est trompé dans la recette et ajouté une bonne grosse de monolithe à note microservice ...
-
-             Essayons de voir comment nous en sommes arrivés là, les pièges a éviter et si ce n'est pas, finalement, qu'une étape vers une architecture microservice."
+      desc: "<p>Ca y est, vous avez enfin la possibilité de démarrer un nouveau projet ou de migrer un de vos anciens monolithes et vous décidez de partir en architecture microservices !<br>On se répartit les services, on sort nos plus belles technos et c'est parti ! Au pire, vu qu'on va faire un microservice on pourra le remplacer plus tard facilement :grinning:.  </p>
+             <p>Plus on avance dans votre service, plus les soucis commencent à apparaitre : </p>
+             <ul>
+             <li>Couplage avec d'autres services</li>
+             <li>Partages de données</li>
+             <li>Difficulté à étre déployés/opérés</li>
+             <li>Ownership des services</li>
+             <li>...</li>
+             </ul>
+             <p>Notre microservice vient d'évoluer en migroservice ! :disappointed:<br>On s'est trompé dans la recette et ajouté une bonne grosse de monolithe à note microservice ...</p>
+             <p>Essayons de voir comment nous en sommes arrivés là, les pièges a éviter et si ce n'est pas, finalement, qu'une étape vers une architecture microservice.</p>"
       speakers:
         - Francois Teychene
 
@@ -96,32 +109,32 @@
     - title: "Le marketing de la honte et le code du monde réel"
       room: Salle A
       level: easy
-      desc: "C'est librement inspiré de la keynote de riviera dev dont j'ai perdu les slides, et parle du problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir nonte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe."
+      desc: "<p>C'est librement inspiré de la keynote de riviera dev dont j'ai perdu les slides, et parle du problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir nonte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
       speakers:
         - Quentin Adam
 
     - title: "Vanilla JS 2018"
       room: Salle B
       level: medium
-      desc: "Imaginez une application Web qui utiliserait toutes les nouvelles APIs des navigateurs en même temps. Ce n'est peut être pas le projet le plus raisonnable pour un besoin client mais pour de la veille, c'est passionnant ! Je vous propose un retour sur cette expérience un peu hors du commun.
-
-             On a tous vu une conf ou lu un article sur une nouvelle fonctionnalité des navigateurs mais ce n'est pas toujours évident de se faire une idée quant à la question : \"ok mais globalement, vers où on va ?\"
-
-             J'ai donc lancé un projet bac à sable nommé Vanilla JS 2018. Il a des règles strictes (sinon on s'ennuie !) :
-
-             Interdiction totale de l'utilisation de code source externe au projet
-             ‎Volonté d'utiliser autant de nouvelles normes que possible. Quelque soit les univers : HTTP, HTML, DOM, JS, CSS.
-             ‎Tout est autorisé du moment que ce soit une norme non propriétaire et que cela fonctionne dans au moins 2 navigateurs (flags autorisés).
-             Nous parlerons d'un bon nombre de sujets :
-
-             HTTP/2
-             Web Components
-             Virtual Dom
-             State Management
-             Web Workers
-             Service Workers
-             CSS Grid
-             Je vous propose de vous présenter les résultats d'un \"fun project\" qui, pour moi, a sûrement été le plus intéressant et enrichissant depuis longtemps si ce n'est depuis toujours."
+      desc: "<p>Imaginez une application Web qui utiliserait toutes les nouvelles APIs des navigateurs en même temps. Ce n'est peut être pas le projet le plus raisonnable pour un besoin client mais pour de la veille, c'est passionnant ! Je vous propose un retour sur cette expérience un peu hors du commun.</p>
+             <p>On a tous vu une conf ou lu un article sur une nouvelle fonctionnalité des navigateurs mais ce n'est pas toujours évident de se faire une idée quant à la question : \"ok mais globalement, vers où on va ?\"</p>
+             <p>J'ai donc lancé un projet bac à sable nommé Vanilla JS 2018. Il a des règles strictes (sinon on s'ennuie !) :</p>
+             <ul>
+             <li>Interdiction totale de l'utilisation de code source externe au projet</li>
+             <li>‎Volonté d'utiliser autant de nouvelles normes que possible. Quelque soit les univers : HTTP, HTML, DOM, JS, CSS.</li>
+             <li>‎Tout est autorisé du moment que ce soit une norme non propriétaire et que cela fonctionne dans au moins 2 navigateurs (flags autorisés).</li>
+             </ul>
+             <p>Nous parlerons d'un bon nombre de sujets :</p>
+             <ul>
+             <li>HTTP/2</li>
+             <li>Web Components</li>
+             <li>Virtual Dom</li>
+             <li>State Management</li>
+             <li>Web Workers</li>
+             <li>Service Workers</li>
+             <li>CSS Grid</li>
+             </ul>
+             <p>Je vous propose de vous présenter les résultats d'un \"fun project\" qui, pour moi, a sûrement été le plus intéressant et enrichissant depuis longtemps si ce n'est depuis toujours.</p>"
       speakers:
         - Matthieu Lux
 
@@ -158,7 +171,7 @@
   talks:
     - title: "Fonctionnement d'une IA conversationnelle"
       room: Salle A
-      desc: "On parle de plus en plus d'IA conversationnelle : mythe ou réalité ? Entre histoire et mathématiques. Entre fiction et réalité. Venez découvrir ce qu'une IA conversationnelle est capable de faire dès aujourd'hui !"
+      desc: "<p>On parle de plus en plus d'IA conversationnelle : mythe ou réalité ? Entre histoire et mathématiques. Entre fiction et réalité. Venez découvrir ce qu'une IA conversationnelle est capable de faire dès aujourd'hui !</p>"
       speakers:
         - FibreTigre
         - Arnold Zephir
