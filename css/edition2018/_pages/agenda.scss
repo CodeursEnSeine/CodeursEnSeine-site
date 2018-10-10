@@ -27,11 +27,18 @@
   }
 
   &__card {
+    position: relative;
     padding: $ces-space-xs $ces-space-sm;
 
     @at-root a#{&}{
       border-top: rem(2) solid $ces-color-primary;
     }
+  }
+
+  &__anchor {
+    position: absolute;
+    left: 0;
+    top: $ces-l-topbar-height*-1;
   }
 
   &__title {

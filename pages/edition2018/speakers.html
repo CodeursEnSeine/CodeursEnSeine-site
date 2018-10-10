@@ -15,46 +15,52 @@ order: 25
     <article class="ces-c-card ces-p-speaker-card">
       <div class="ces-p-speaker-card__anchor" id="orateur-{{speaker.name | cgi_escape}}"></div>
 
-      <div class="ces-p-speaker-card__header">
-        {% if speaker.image %}
-        <div class="ces-p-speaker-card__image">
-          <img class="ces-h-image" height="100" width="100" alt="{{speaker.name}}" src="{{speaker.image}}">
-        </div>
-        {% endif %}
-        <div class="ces-p-speaker-card__profile">
-          <h3 class="ces-p-speaker-card__name">{{speaker.name}}</h3>
-          {% if speaker.company %}
-          <div class="ces-p-speaker-card__company">{{speaker.company}}</div>
-          {% endif %}
-          {% if speaker.links %}
-          <div class="ces-p-speaker-card__links">
-            {% for link in speaker.links %}
-              <a class="ces-c-button is-xs is-primary" target="_blank" href="{{link.url}}">{{link.label}}</a>
-            {% endfor %}
+      <div class="ces-c-card__content">
+        <div class="ces-p-speaker-card__header">
+          {% if speaker.image %}
+          <div class="ces-p-speaker-card__image">
+            <img class="ces-h-image" height="100" width="100" alt="{{speaker.name}}" src="{{speaker.image}}">
           </div>
           {% endif %}
+          <div class="ces-p-speaker-card__profile">
+            <h3 class="ces-p-speaker-card__name">{{speaker.name}}</h3>
+            {% if speaker.company %}
+            <div class="ces-p-speaker-card__company">{{speaker.company}}</div>
+            {% endif %}
+            {% if speaker.links %}
+            <div class="ces-p-speaker-card__links">
+              {% for link in speaker.links %}
+              <a class="ces-c-button is-xs is-primary" target="_blank" href="{{link.url}}">{{link.label}}</a>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="ces-p-speaker-card__bio js-truncate-text" data-max-height="150">
+          {{speaker.bio}}
         </div>
       </div>
 
-      <div class="ces-p-speaker-card__bio js-truncate-text" data-max-height="100">
-        {{speaker.bio}}
-      </div>
-      <div class="ces-p-speaker-card__talks">
-        {% assign slots = site.data.edition2018.agenda %}
-        {% for slot in slots %}
+      <div class="ces-c-card__footer">
+        <div class="ces-p-speaker-card__talks">
+          {% assign slots = site.data.edition2018.agenda %}
+          {% for slot in slots %}
           {% assign talks = slot.talks | where: "speakers" , speaker.name %}
           {% for talk in talks %}
-          <div class="ces-p-speaker-card__talk">
-            <h2 class="ces-p-speaker-card__talk-title">{{talk.title}}</h2>
+          <a class="ces-p-speaker-card__talk" href="/2018/programme#talk-{{ talk.title | cgi_escape }}" data-panel-open="panel-talk-{{talk.title | cgi_escape}}">
             <div class="ces-p-speaker-card__talk-details">{{slot.time}} - {{talk.room}}</div>
-            <div class="ces-p-speaker-card__talk-description js-truncate-text" data-max-height="150">
-              {{talk.desc}}
-            </div>
-          </div>
+            <h2 class="ces-p-speaker-card__talk-title">{{talk.title}}</h2>
+            <div class="ces-p-speaker-card__talk-description">{{talk.desc | truncate: 120}}</div>
+            <div class="ces-p-speaker-card__talk-more">Voir la description complète</div>
+          </a>
           {% endfor %}
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </article>
   </div>
   {% endfor %}
 </div>
+
+{% include edition2018/talks-panels.html %}

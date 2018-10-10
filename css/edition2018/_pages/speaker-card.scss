@@ -61,12 +61,19 @@
   // TALKS
 
   &__talk {
+    display: block;
+    text-decoration: none;
     margin-top: $ces-space-md;
 
     &-title {
       margin: 0;
       font-weight: bold;
       font-size: $ces-font-size-ml;
+
+      a:hover &,
+      a:focus &{
+        text-decoration: underline;
+      }
     }
 
     &-details {
@@ -76,11 +83,18 @@
     }
 
     &-description {
-      margin-top: $ces-space-xs;
+      color: $ces-color-text;
+      margin-top: $ces-space-xxs;
+      margin-bottom: $ces-space-xxs;
 
       @include cesMediaMax($ces-breakpoint-xxs) {
         font-size: $ces-font-size-ms;
       }
+    }
+
+    &-more {
+      font-size: $ces-font-size-ms;
+      text-decoration: underline;
     }
   }
 }

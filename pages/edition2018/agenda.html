@@ -8,8 +8,6 @@ order: 20
 ---
 
 <div class="ces-p-agenda">
-  {% assign slots = site.data.edition2018.agenda %}
-
   <div class="ces-l-grid is-gutter-xs is-gutter-md@md">
     <div class="ces-l-grid__item is-1_8@md"></div>
     <div class="ces-l-grid__item is-7_8@md">
@@ -17,6 +15,7 @@ order: 20
       L'accueil des participants démarre à <strong>8h00</strong>.
     </div>
 
+  {% assign slots = site.data.edition2018.agenda %}
   {% for slot in slots %}
   {% assign count = slot.talks | size %}
   {% if count > 0 %}
@@ -39,10 +38,12 @@ order: 20
 
           <div class="ces-l-grid__item {% if count != 1%}is-1_2@xxs is-1_4@sm is-1_2@md is-1_4@lg{% endif %}">
             {% if talk.desc or main_speaker %}
-              <a class="ces-c-card ces-p-agenda__card" data-panel-open="talk-{{talk.title | cgi_escape}}" {% if main_speaker %} href="speakers.html#orateur-{{ main_speaker.name | cgi_escape }}" {% endif %}>
+              <a class="ces-c-card ces-p-agenda__card" data-panel-open="panel-talk-{{ talk.title | cgi_escape }}" {% if main_speaker %} href="speakers.html#orateur-{{ main_speaker.name | cgi_escape }}" {% endif %}>
             {% else %}
               <div class="ces-c-card ces-p-agenda__card">
             {% endif %}
+              <div class="ces-p-agenda__anchor" id="talk-{{ talk.title | cgi_escape }}"></div>
+
               <span class="ces-p-agenda__title">
                 {{ talk.title | truncate: 90 }}
               </span>
@@ -81,59 +82,4 @@ order: 20
   </div>
 </div>
 
-<!-- panels -->
-
-{% for slot in slots %}
-  {% assign count = slot.talks | size %}
-  {% if count > 0 %}
-    {% for talk in slot.talks %}
-      {% if talk.desc %}
-        <div class="ces-c-panel js-panel" id="talk-{{talk.title | cgi_escape}}">
-          <div class="ces-c-panel__content">
-            <div class="ces-c-panel__content-scroll">
-              <strong class="ces-h-text-light">
-                {{ slot.time }} - {{ talk.room }}
-              </strong>
-
-              <h3 class="ces-h-mv-xs">
-                {{ talk.title }}
-              </h3>
-
-              <div>
-                {% for speaker_name in talk.speakers %}
-                {% assign speaker = site.data.edition2018.speakers | where: "name", speaker_name %}
-                {% assign speaker = speaker[0] %}
-
-                {% if forloop.index == 1 %}
-                Par
-                {% else %}
-                et
-                {% endif %}
-
-                {% if speaker %}
-                <a class="ces-p-agenda__speaker" href="speakers.html#orateur-{{ speaker.name | cgi_escape }}">
-                  {{ speaker.name }}
-                </a>
-                {% else %}
-                <span class="ces-p-agenda__speaker">
-                  {{ speaker_name }}
-                </span>
-                {% endif %}
-                {% endfor %}
-              </div>
-
-              <div>
-                {{ talk.desc }}
-              </div>
-            </div>
-          </div>
-          <div class="ces-c-panel__footer">
-            <button class="ces-c-button is-block is-secondary" data-panel-close>
-              Fermer
-            </button>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
+{% include edition2018/talks-panels.html show_speakers_links="true" %}
