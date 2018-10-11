@@ -31,8 +31,8 @@
   bio: "Développeur. A l'origine ingénieur en microélectronique, il évolue d'abord  vers le développement de logiciels embarqués en temps réel. Devant la complexité croissante des développements, il profite de l'essor de l'IA pour confier une partie de ses analyses et développements à un réseau de neurone. À la suite de ça il fait du développement d'IA son travail à temps plein et rejoint prevision.io pour y développer des fermes d'Intelligences artificielles.
 "
   links:
+    - label: prevision.io
+      url: https://prevision.io/
     - label: Twitter
       url: https://twitter.com/cepcam
-    - label: Site
-      url: https://prevision.io/
 

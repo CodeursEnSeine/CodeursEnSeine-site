@@ -1,6 +1,7 @@
 ## SLOT TEMPLATE ##
 #- time: 0h00
-#  type: welcome | break | lunch | keynote | talk | quicky | ending
+#  type: Keynote | Conférences | Quickies
+#  type_single: Keynote | Conférence | Quicky
 #  talks:
 #    - [TALK TEMPLATE]
 #    - [TALK TEMPLATE]
@@ -11,13 +12,12 @@
 #- title: Titre du talk
 #  time: 00h00
 #  room: Salle A | Salle B | Salle C | Salle D
-#  level: easy | medium | hard
+#  level: Tout public | Niveau avancé | Niveau expert
 #  desc: "Description"
 #  speakers:
 #    - Nom du speaker
 
 - time: 8h45
-  type: welcome
   talks:
     - title: "Plénière d'accueil"
       room: Salle A
@@ -25,7 +25,8 @@
         - L'équipe de Codeurs en Seine
 
 - time: 9h00
-  type: keynote
+  type: Keynote
+  typ_singlee: Keynote
   talks:
     - title: "Management d’une équipe sportive"
       room: Salle A
@@ -35,7 +36,6 @@
 
 
 - time: 9h40
-  type: break
   talks:
     - title: Pause
       speakers:
@@ -43,18 +43,19 @@
 
 
 - time: 10h00
-  type: talk
+  type: Conférences
+  type_single: Conférence
   talks:
     - title: "Symfony 4 - le framework PHP bâti pour grandir avec vos projets"
       room: Salle A
-      level: easy
+      level: Tout public
       desc: "<p>Symfony est un des projets open-source les plus actifs sur GitHub. À n'en pas douter, cet intérêt constamment renouvelé pour la technologie est la clef qui lui permet d'être à la fois à la pointe de l'état de l'art, et d'une stabilité éprouvée sur le long terme. Lors de cette conférence, venez découvrir comment la communauté a réussi à produire un framework PHP à la fois performant, facile à prendre en main, permettant les architectures logicielles les plus évoluées et conçu pour le cloud.</p>"
       speakers:
         - Nicolas Grekas
 
     - title: "Agilité&nbsp;: 28 jours plus tard"
       room: Salle B
-      level: medium
+      level: Niveau avancé
       desc: "<p>Ca y est, l’agilité est enfin mise en place dans votre entreprise et tout fonctionne…
              28 jours plus tard, ce qui existait et semblait acquis pour les 10 prochaines années vole en éclat…</p>
              <p>L’histoire de la transformation était un vrai conte de fées. Shrek a fini par sauver la princesse Fiona, le château Far Far lointain et ses habitants, d’une emprise maléfique. Et cela, accompagné de son fidèle ami l’ ne et d’autres amis tels que le chat Potté… Nous vous laissons deviner qui est qui, mais une chose est sûre, il a fallu en éplucher des couches d'oignon car le chemin était semé d'embûches, de dragons et de lutins, qui se révèlent ne pas être qui ils prétendent mais ils avaient prévu de vivre heureux et d’avoir plein de petits ogres…</p>
@@ -82,14 +83,14 @@
 
     - title: ".Net Standard 2.0&nbsp;: Feedback from a real OSS project about relational databases synchronization&nbsp;: Dotmim.Sync"
       room: Salle C
-      level: medium
+      level: Niveau avancé
       desc: "<p>Au début il y'avait .Net Framework, puis vinrent entre autre Silverlight (paix à son âme) .Net Core, UWP, Xamarin and so on...<br><strong>.Net Standard 2.0</strong> permet de standardiser les API et nous sort de l'enfer des <strong>PCL</strong>.<br>Nous verrons dans un premier temps ce qu'est .Net Standard et pourquoi vous devez aujourd'hui vous y intéresser de trés trés prés&nbsp;!<br>Ensuite, au travers d'un projet OSS, <strong>Dotmim.Sync</strong> nous parlerons de synchronisation de base de données.<br>Ou comment, en 4 lignes de codes, vous pouvez synchroniser une base de données serveur (comme <strong>SQL Server</strong> ou <strong>MySQL</strong>) avec une base de données cliente (comme <strong>SQLite</strong>) embarquée dans une application mobile, avec une gestion fine des changements ou des conflits.<br>Et comme nous sommes sous <strong>.Net Standard</strong>, vous pourrez utiliser ce framework un peu partout ;)</p>"
       speakers:
         - Sébastien Pertus
 
     - title: Des microservices aux migroservice
       room: Salle D
-      level: easy
+      level: Tout public
       desc: "<p>Ca y est, vous avez enfin la possibilité de démarrer un nouveau projet ou de migrer un de vos anciens monolithes et vous décidez de partir en architecture microservices&nbsp;!<br>On se répartit les services, on sort nos plus belles technos et c'est parti&nbsp;! Au pire, vu qu'on va faire un microservice on pourra le remplacer plus tard facilement&nbsp;:grinning:.  </p>
              <p>Plus on avance dans votre service, plus les soucis commencent à apparaitre&nbsp;: </p>
              <ul>
@@ -105,18 +106,19 @@
         - Francois Teychene
 
 - time: 11h00
-  type: talk
+  type: Conférences
+  type_single: Conférence
   talks:
     - title: "Le marketing de la honte et le code du monde réel"
       room: Salle A
-      level: easy
+      level: Tout public
       desc: "<p>C'est librement inspiré de la keynote de riviera dev dont j'ai perdu les slides, et parle du problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir nonte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
       speakers:
         - Quentin Adam
 
     - title: "Vanilla JS 2018"
       room: Salle B
-      level: medium
+      level: Niveau avancé
       desc: "<p>Imaginez une application Web qui utiliserait toutes les nouvelles APIs des navigateurs en même temps. Ce n'est peut être pas le projet le plus raisonnable pour un besoin client mais pour de la veille, c'est passionnant&nbsp;! Je vous propose un retour sur cette expérience un peu hors du commun.</p>
              <p>On a tous vu une conf ou lu un article sur une nouvelle fonctionnalité des navigateurs mais ce n'est pas toujours évident de se faire une idée quant à la question&nbsp;: \"ok mais globalement, vers où on va&nbsp;?\"</p>
              <p>J'ai donc lancé un projet bac à sable nommé Vanilla JS 2018. Il a des règles strictes (sinon on s'ennuie&nbsp;!)&nbsp;:</p>
@@ -141,7 +143,7 @@
 
     - title: "D'une architecture web MVC à une architecture Clean Hexagonale "
       room: Salle C
-      level: easy
+      level: Tout public
       desc: "<p>Aujourd'hui, de nombreuses applications ont été développées en utilisant le pattern MVC.</p>
              <p>La promesse de l'<strong>architecture hexagonale</strong> et de la <strong>clean architecture</strong> est de simplifier la maintenabilité de nos applications et l'évolutivité qui nous fait souvent défaut.</p>
              <p>En partant d'une base de code MVC, nous ferons évoluer ce code pour passer à une architecture hexagonale en isolant le coeur métier de tout le reste (outils, briques d'infrastructures). Nous verrons comment séparer les accès à une base de données/un système de fichier/un serveur de mail de notre code métier. Et nous comprendrons ce que ça peut nous apporter dans notre quotidien de développeur.</p>"
@@ -150,7 +152,7 @@
 
     - title: "UI/UX pour les développeurs"
       room: Salle D
-      level: easy
+      level: Tout public
       desc: "<p>En tant que développeur, je fais des interfaces qui font le job, mais qui sont toutes moches.</p>
              <p>Je vous propose de passer en revue des conseils UI/UX pour embellir vos applications au travers notamment des pages incontournables de nos applications, les formulaires et les tableaux de données.</p>
              <p>Réussir à afficher une page en quelques secondes est chose aisée comparé à la rendre compréhensible en quelques secondes.</p>
@@ -160,25 +162,26 @@
         - Etienne Crombez
 
 - time: 12h00
-  type: quicky
+  type: Quickies
+  type_single: Quicky
   talks:
     - title: "Personnalization and Recommender Systems at vente-privee"
       room: Salle A
-      level: easy
+      level: Tout public
       desc: "<p>Recommender systems and customization can have a big impact on user experience, and it’s all the more true for e-commerce websites. At vente-privee we use these technologies in many situations. This presentation is the occasion to learn about the technology behind the personalized ordering of product catalogs such as it is implemented at vente-privee.</p>"
       speakers:
         - Betty Moreschini
 
     - title: "Style(d) et React, même Comp"
       room: Salle B
-      level: easy
+      level: Tout public
       # desc: ""
       speakers:
         - ""
 
     - title: "Détectez et trackez les vulnerabilités qui se cachent dans vos dépendances"
       room: Salle C
-      level: easy
+      level: Tout public
       desc: "<p><a target=\"_blank\" href=\"https://www.veracode.com/products/software-composition-analysis\">44% des applications contiennent des vulnérabilités critiques dans les librairies open-source qu'elles utilisent</a> et cela bien que des bonnes pratiques comme OWASP Top 10 se soient généralisées. </p>
              <p>Ne laissez plus ces petites bêtes incuber bien au chaud au sein de votre appli!
              Grâce à ce talk, vous apprendrez comment sont répertoriées ces vilaines bestioles (NVD, CVE) et comment est évaluée leur dangerosité (CVSS).</p>
@@ -189,20 +192,20 @@
 
     - title: "Comment remplacer le bon vieux polling de mon appli web"
       room: Salle D
-      level: easy
+      level: Tout public
       desc: "<p>Vous aussi, vous en avez assez de retrouver du polling dans vos applications Web. Peu performant, et trop consommateur de ressources. Venez découvrir une alternative basée sur les souscriptions GraphQL.</p>"
       speakers:
         - "Cédric Dué"
 
 - time: 12h15
-  type: lunch
   talks:
     - title: Repas
       speakers:
         - Miam miam, papoter, visiter les stands ;)
 
 - time: 13h20
-  type: keynote
+  type: Keynote
+  type_single: Keynote
   talks:
     - title: "Fonctionnement d'une IA conversationnelle"
       room: Salle A
@@ -212,11 +215,12 @@
         - Arnold Zephir
 
 - time: 14h10
-  type: quicky
+  type: Quickies
+  type_single: Quicky
   talks:
     - title: "Comment cultiver la dynamique de votre équipe&nbsp;?"
       room: Salle A
-      level: easy
+      level: Tout public
       desc: "<p>Rarement présente dans les indicateurs projet, la <strong>\"dynamique d’équipe\"</strong> est pourtant le reflet de la santé d’un projet. De nombreuses équipes se focalisent uniquement sur la vélocité. Pourtant, que l'équipe soit capable de délivrer de la valeur systématiquement est un facteur de motivation et progression.</p>
              <p>Mais à quoi correspond exactement cette <strong>\"dynamique d’équipe\"</strong>&nbsp;? Que se cache-t-il derrière et pour quels résultats&nbsp;? Comment la mesurer&nbsp;? Comment faire en sorte de la maintenir quand des changements s'opèrent de toute part&nbsp;?</p>
              <p>De la méthodologie à la technique en passant par la vie de l’équipe, nous ferons un tour d’horizon des pratiques.</p>"
@@ -225,7 +229,7 @@
 
     - title: "Angular & PWA&nbsp;: Mon site survit à l’apocalypse&nbsp;!"
       room: Salle B
-      level: easy
+      level: Tout public
       sponsor: true
       desc: "<p>L'apocalypse et les zombies approchent et comme la quasi-totalité de l'humanité... vous chercherez sur Internet pour savoir comment survivre&nbsp;! Bonne idée, mais Internet aura disparu... Heureusement, le site de conseils de survie que nous avons développé est en fait une Progressive Web App (PWA), et grâce à ça, pas besoin d'Internet&nbsp;! Dès votre première visite, tout est dans votre périphérique&nbsp;!</p>
       <p>Dans cette présentation, nous verrons comment implémenter dans un site web Angular l'aspect PWA&nbsp;!</p>"
@@ -235,7 +239,7 @@
 
     - title: "Deep Learning et détection d’intentions"
       room: Salle C
-      level: easy
+      level: Tout public
       sponsor: true
       desc: "<p>La détection instantanée des intentions de nos écrits devient possible, grâce à la puissance des ordinateurs actuels qui permet une analyse approfondie des textes.</p>
       <p>À travers leur projet, Yuan et Johann vont nous parler des concepts de Deep Learning, de réseaux de neurones et d’analyse sémantique.</p>
@@ -246,7 +250,7 @@
 
     - title: "Des tests sur tous les fronts"
       room: Salle D
-      level: easy
+      level: Tout public
       desc: "<p>Tester n'est pas douter&nbsp;: c’est s’assurer du bon fonctionnement de son application, quels que soient les changements que nous pouvons lui apporter.</p>
              <p>L'écosystème front-end s’est très fortement industrialisé ces dernières années et les tests automatisés ne sont plus l’apanage des applications back-end. </p>
              <p>Tests unitaires, end-to-end ou encore de non régressions visuelles, nous allons voir ensemble quels sont les différents types de tests qui existent en front-end et quelles sont les stratégies pour leur mise en oeuvre.</p>"
@@ -254,11 +258,12 @@
         - Mélanie Boudard
 
 - time: 14h30
-  type: talk
+  type: Conférences
+  type_single: Conférence
   talks:
     - title: "UX du futur&nbsp;: au-delà des buzzwords"
       room: Salle A
-      level: easy
+      level: Tout public
       desc: "<p>Le web de demain prendra-t-il la forme des buzzwords dont le web d'aujourd'hui nous gave&nbsp;?</p>
              <p>On ne parle plus que de cela. Services vocaux, chat(bot)s, intelligence artificielle, automatisation, réalité augmentée… Pas un brief n'y échappe, rares sont les réunions privées de l'un de ces termes, et les articles sur les tendances pour l'année à venir sont clairs&nbsp;: c'est bien le futur qui se profile.</p>
              <p>Parler du web de demain en tant qu'UX designer, c'est donc naturellement se poser des questions sur ces technologies&nbsp;: quelles opportunités peut-on y voir, quelles craintes peut-on formuler&nbsp;? Quels sont et seront les impacts pour les usagers&nbsp;? En filigrane, nous nous demanderons aussi si la technologie change le métier de designer. Autant de questions pour cultiver la réflexion&nbsp;: ce web du futur alors, on le dessine comment&nbsp;?</p>"
@@ -267,7 +272,7 @@
 
     - title: "Comme Mickey dans Fantasia, devenez un apprenti sorcier de l'intégration continue (et du déploiement) avec les GitLab Runners"
       room: Salle B
-      level: easy
+      level: Tout public
       desc: "<p>Pré-requis, avoir vu la partie de Fantasia concernant \"The Sorcerer's Apprentice\" (c'est ici: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=xHEMkbyXFxs)\">https://www.youtube.com/watch?v=xHEMkbyXFxs)</a>.</p>
              <p>Vous êtes un Dev (moi aussi) et vous avez toujours rêvé (comme Mickey) de savoir faire de la magie comme l'Ops (le magicien barbu) de l'équipe, et à chaque fois que vous avez essayé avec diverses solutions de CI, vous avez abandonné car trop compliqué, trop lourd, trop c... . Et pourtant, maintenant avec les <strong>Runners GitLab</strong> vous pouvez commencer à jouer à l'apprenti sorcier et vous faire plaisir (et aussi vous rendre utile).</p>
              <p>Nous verrons donc:</p>
@@ -284,7 +289,7 @@
 
     - title: "La programmation en binôme, c'est magique&nbsp;!"
       room: Salle C
-      level: easy
+      level: Tout public
       desc: "<p>Quelle drôle d’idée que deux personnes réalisent une tâche pouvant être réalisée par une seule personne&nbsp;? Cela ne multiplie-t-il pas les coûts par deux&nbsp;?</p>
              <p>Si la programmation en binôme (pair programming) est une bonne pratique Agile, recommandée notamment dans l’eXtrème Programming, elle soulève bien des interrogations et son utilité n’est pas intuitive. Or à l’usage elle transforme radicalement l’activité d’une équipe de développement, tant d’un point vue technique qu’humain. Et si les premiers effets positifs se font ressentir rapidement, des effets sur le long terme, plus inattendus mais tout aussi bénéfiques, émergent aussi.</p>"
       speakers:
@@ -292,25 +297,25 @@
 
     - title: "Votre mission&nbsp;? Découvrir Haskell et le mettre en prod"
       room: Salle D
-      level: easy
+      level: Tout public
       desc: "<p>On entend parler de Haskell de plus en plus, mais il parait souvent bien compliqué de se lancer. Haskell fait peur, avec ses Monades, Monoïdes et autres gros mots.</p>
              <p>On verra ensemble que vous n'avez absolument pas besoin de savoir ce que ces termes signifient pour vous lancer. Je vous propose de regarder ce dont vous aurez besoin pour créer une petite API, avec de la sécurité et de la gestion de données, soit de quoi mettre une petite application en prod.</p>"
       speakers:
         - Céline Louvet
 
 - time: 15h20
-  type: break
   talks:
     - title: Pause
       speakers:
         - Boire un coup, papoter, visiter les stands ;)
 
 - time: 15h40
-  type: talk
+  type: Conférences
+  type_single: Conférence
   talks:
     - title: "Premiers pas avec Capacitor... dans le monde réel"
       room: Salle A
-      level: easy
+      level: Tout public
       desc: "<p>Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n’importe quel framework, complètement intégré à la prochaine version d’Ionic…</p>
              <p>Ben non, au moins au début, l’idée de Capacitor me laissait sceptique. J’ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j’avais mis Capacitor dans la case techno cool qui ne m’intéresse pas dans la vraie vie. Mais à ce moment j’ai relu avec attention leur site et j’ai vu une ligne qui m’a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d’elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool&nbsp;!</p>
              <p>J’ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d’expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n’a pas marché, et surtout ce que j’ai appris dans le processus.</p>"
@@ -319,7 +324,7 @@
 
     - title: "Embarquement Agile&nbsp;: Comment intégrer un nouveau dev en 5 semaines&nbsp;?"
       room: Salle B
-      level: easy
+      level: Tout public
       desc: "<p>Une équipe agile a ses pratiques, ses méthodes, ses outils et ses habitudes... Mais surtout ses êtres humains et sa culture.</p>
              <p>La culture agile, déjà si difficile à acquérir est encore plus difficile à transmettre. Alors comment fait-on pour embarquer un nouveau dev dans l’équipe&nbsp;?</p>
              <p>On a essayé différentes méthodes traditionnelles sans grand succès, puis on a fini par trouver quelque chose qui fonctionne vraiment: 5 mini challenges d’une semaine en terrain inconnu et accompagné d’un nouveau tuteur à chaque fois.</p>
@@ -329,14 +334,14 @@
 
     - title: "Informatique Quantique, Futur ou Réalité&nbsp;?"
       room: Salle C
-      level: medium
+      level: Niveau avancé
       desc: "<p>En quelques minutes, Robin nous fera voyager entre la physique atomique et la physique quantique. Il nous parlera de l’histoire du chat de Schrödinger et de téléportation. Tous cela vous paraît être de la science fiction&nbsp;? Pourtant les premiers ordinateurs quantiques et les Qbits sont bien réels. Robin exécutera un des premiers programmes « quantique » permettant de casser une clé de cryptage réputée inviolable sur nos machines actuelles.</p>"
       speakers:
         - Robin Szylobryt
 
     - title: "Découvrir par l’exemple: Microservices et Event Sourcing avec Kafka et Kubernetes"
       room: Salle D
-      level: easy
+      level: Tout public
       desc: "<p>Lorsque vous développez des applications vous avez besoin de vous adapter rapidements aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.</p>
              <p>Les microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par la biais de Kubernetes permet de déployer ces services en toute tranquillité.</p>
              <p>Cette présentation, en s’appuyant sur des cas d’usage et des démonstration, vous permettra de découvrir:</p>
@@ -350,18 +355,19 @@
         - Tugdual Grall
 
 - time: 16h40
-  type: talk
+  type: Conférences
+  type_single: Conférence
   talks:
     - title: "Vous n'avez pas besoin de ça&nbsp;!"
       room: Salle A
-      level: medium
+      level: Niveau avancé
       desc: "<p>React, Microservices, GraphQL, REST, DDD... Tous ces buzzwords porteur de promesses d'un monde meilleur sont sur toutes les lèvres, de toutes les conférences et s'installent petit à petit dans nos projets. Sont-ils vraiment la seule solution à tous nos problèmes&nbsp;? Au travers de cette conférence à la description taillée pour le SEO nous verrons qu'il existe des alternatives à ces technologies parfois mieux adaptées au contexte dans lequel nous évoluons tous les jours.</p>"
       speakers:
         - Charles Desneuf
 
     - title: "L'itération 0&nbsp;: du craftmanship pour le webfront"
       room: Salle B
-      level: medium
+      level: Niveau avancé
       desc: "<p>Développer une application web n’est pas du bricolage dans un garage&nbsp;!
              Le développement s’industrialise pour réaliser des applications robustes et facilement maintenables.</p>
              <p>Inspiré des outils du software craftmanship et de l’agilité, nous proposons les pratiques et outils préférés que vous pouvez mettre en oeuvre pour réaliser des applications dont vous serez fiers&nbsp;!</p>
@@ -371,7 +377,7 @@
 
     - title: "Unity 3D - Retour d'experience sur une app d'1M download"
       room: Salle C
-      level: easy
+      level: Tout public
       desc: "<p>Retour d'expérience sur le développement et le succès d'un jeu Android (par Florian DUBOC)</p>
              <p>Unity3D est devenu le moteur de jeux vidéo le plus populaire et le plus utilisé du marché grâce à sa simplicité d'utilisation, sa facilité d' apprentissage et son modèle économique.</p>
              <p>Un matin, Florian a eu l'idée de faire son propre jeu vidéo et s'est lancé avec Unity3D dans la réalisation de Little Demolition (un physic-game sur android) . Il a rapidement fait face à différentes difficultés&nbsp;:</p>
@@ -387,7 +393,7 @@
 
     - title: "UX et Product Management en contexte agile&nbsp;: monozygotes ou dizygotes&nbsp;?"
       room: Salle D
-      level: medium
+      level: Niveau avancé
       desc: "<p>“Soit agile&nbsp;! c’est trop design&nbsp;! Cette boîte est trop lean&nbsp;!... Je trouve que ce n’est pas assez UX...”
              Mais quelle signification cela a-t-il pour nos clients&nbsp;? Sommes nous alignés sur les définitions de nos pratiques&nbsp;? Comment les articuler&nbsp;? Le product management et l’UX design se complètent-ils&nbsp;? Leurs périmètres se superposent-ils&nbsp;? L’UX designer est-il un nouvel imposteur qui vole le travail du Product Owner&nbsp;?
              Travailler en équipes pluri-disciplinaires nous amènent à partager nos connaissances et best practices et à trouver notre place au sein du groupe. Nous vous exposerons nos retours d’expériences sur les similitudes et différences entre UX design, Product management  en contexte agile. Ainsi que nos pistes pour d’articuler ces différentes pratiques en équipe pour un travail en bonne intelligence et encore plus efficient.</p>
@@ -396,7 +402,6 @@
         - Nadège Bide
 
 - time: 17h30
-  type: ending
   talks:
     - title: "Plénière de Cloture"
       room: Salle A

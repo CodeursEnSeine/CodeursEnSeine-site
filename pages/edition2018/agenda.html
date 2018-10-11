@@ -19,10 +19,15 @@ order: 20
     {% for slot in slots %}
     {% assign count = slot.talks | size %}
     {% if count > 0 %}
-      <div class="ces-l-grid__item is-1_8@md">
+      <div class="ces-l-grid__item is-1_8@md ces-h-text-right@md">
         <div class="ces-p-agenda__time">
           {{ slot.time }}
         </div>
+        {% if slot.type %}
+          <div class="ces-c-badge ces-p-agenda__type">
+            {{ slot.type }}
+          </div>
+        {% endif %}
       </div>
       <div class="ces-l-grid__item is-7_8@md">
         <div class="ces-l-grid is-stretch">
@@ -64,7 +69,7 @@ order: 20
                     {{ talk.room }}
 
                     {% if talk.sponsor %}
-                    <span class="ces-p-agenda__sponsor">Sponsorisé</span>
+                    <span class="ces-c-badge is-success ces-p-agenda__sponsor">Sponsorisé</span>
                     {% endif %}
                   </div>
                 {% endif %}
