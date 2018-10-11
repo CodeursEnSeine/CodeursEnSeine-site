@@ -1,3 +1,9 @@
+@include cesMediaMax(rem(600)) {
+  .ces-c-panel-is-open {
+    overflow: hidden;
+  }
+}
+
 .ces-c-panel {
   z-index: 9;
   position: fixed;

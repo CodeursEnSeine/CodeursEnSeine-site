@@ -1,4 +1,5 @@
 (() => {
+  const bodyOpenedClass = 'ces-c-panel-is-open';
   const panelOpenedClass = 'is-open';
   const $openButtons = document.querySelectorAll('[data-panel-open]');
   const $closeButtons = document.querySelectorAll('[data-panel-close]');
@@ -23,6 +24,7 @@
 
   const openPanel = ($panel) => {
     $panel.classList.add(panelOpenedClass);
+    document.body.classList.add(bodyOpenedClass);
 
     setTimeout(() => {
       document.addEventListener('click', onClickOutside);
@@ -32,6 +34,7 @@
 
   const closePanel = ($panel) => {
     $panel.classList.remove(panelOpenedClass);
+    document.body.classList.remove(bodyOpenedClass);
 
     document.removeEventListener('click', onClickOutside);
     document.removeEventListener('keydown', onKeyPress);
