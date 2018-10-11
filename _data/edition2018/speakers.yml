@@ -131,6 +131,9 @@
   image: /images/edition2018/speakers/valentin-desportes.jpg
   bio: "<p>Après avoir obtenu mon diplôme de Master Informatique à l'Université de Rouen, je suis entré chez Attineos, en tant qu'Ingénieur Études et Développement. <br>
   Je travaille surtout sur des projets React, en collaborant avec des équipes back en remote. Si vous êtes intéressé par React Native, ou Overwatch, hésitez pas à me pinguez sur Twitter ;)</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/V4lulz
 
 - name: Julien Topçu
   company: Société Générale & OWASP Foundation
