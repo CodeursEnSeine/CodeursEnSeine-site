@@ -178,7 +178,8 @@
       desc: "Avec React, vous pouviez faire du HTML en JS. Et pourquoi ne pas aller plus loin ? Avec Styled-compo, ajoutons la puissance du CSS-in-JS à notre application.
                      #Une combinaison détonante à découvrir avec nous !"
       speakers:
-        - "Attineos"
+        - Marion Devaux
+        - Valentin Desportes
 
     - title: "Détectez et trackez les vulnerabilités qui se cachent dans vos dépendances"
       room: Salle C
