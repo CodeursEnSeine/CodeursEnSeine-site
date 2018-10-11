@@ -15,70 +15,75 @@ order: 20
       L'accueil des participants démarre à <strong>8h00</strong>.
     </div>
 
-  {% assign slots = site.data.edition2018.agenda %}
-  {% for slot in slots %}
-  {% assign count = slot.talks | size %}
-  {% if count > 0 %}
-    <div class="ces-l-grid__item is-1_8@md">
-      <div class="ces-p-agenda__time">
-        {{ slot.time }}
+    {% assign slots = site.data.edition2018.agenda %}
+    {% for slot in slots %}
+    {% assign count = slot.talks | size %}
+    {% if count > 0 %}
+      <div class="ces-l-grid__item is-1_8@md">
+        <div class="ces-p-agenda__time">
+          {{ slot.time }}
+        </div>
       </div>
-    </div>
-    <div class="ces-l-grid__item is-7_8@md">
-      <div class="ces-l-grid is-stretch">
-        {% for talk in slot.talks %}
+      <div class="ces-l-grid__item is-7_8@md">
+        <div class="ces-l-grid is-stretch">
+          {% for talk in slot.talks %}
 
-          {% assign main_speaker_array = site.data.edition2018.speakers | where: "name", talk.speakers[0]  %}
-          {% assign main_speaker_count = main_speaker_array | size %}
-          {% if main_speaker_count == 1 %}
-            {% assign main_speaker = main_speaker_array[0] %}
-          {% else %}
-            {% assign main_speaker = false %}
-          {% endif %}
-
-          <div class="ces-l-grid__item {% if count != 1%}is-1_2@xxs is-1_4@sm is-1_2@md is-1_4@lg{% endif %}">
-            {% if talk.desc or main_speaker %}
-              <a class="ces-c-card ces-p-agenda__card" data-panel-open="panel-talk-{{ talk.title | cgi_escape }}" {% if main_speaker %} href="speakers.html#orateur-{{ main_speaker.name | cgi_escape }}" {% endif %}>
+            {% assign main_speaker_array = site.data.edition2018.speakers | where: "name", talk.speakers[0]  %}
+            {% assign main_speaker_count = main_speaker_array | size %}
+            {% if main_speaker_count == 1 %}
+              {% assign main_speaker = main_speaker_array[0] %}
             {% else %}
-              <div class="ces-c-card ces-p-agenda__card">
+              {% assign main_speaker = false %}
             {% endif %}
-              <div class="ces-p-agenda__anchor" id="talk-{{ talk.title | cgi_escape }}"></div>
 
-              <span class="ces-p-agenda__title">
-                {{ talk.title | truncate: 90 }}
-              </span>
+            <div class="ces-l-grid__item {% if count != 1%}is-1_2@xxs is-1_4@sm is-1_2@md is-1_4@lg{% endif %}">
+              {% if talk.desc or main_speaker %}
+                <a class="ces-c-card ces-p-agenda__card" data-panel-open="panel-talk-{{ talk.title | cgi_escape }}" {% if main_speaker %} href="speakers.html#orateur-{{ main_speaker.name | cgi_escape }}" {% endif %}>
+              {% else %}
+                <div class="ces-c-card ces-p-agenda__card">
+              {% endif %}
+                <div class="ces-p-agenda__anchor" id="talk-{{ talk.title | cgi_escape }}"></div>
 
-              <div class="ces-p-agenda__speakers">
-                {% for speaker_name in talk.speakers %}
-                  {% assign speaker = site.data.edition2018.speakers | where: "name", speaker_name %}
-                  {% assign speaker = speaker[0] %}
+                <span class="ces-p-agenda__title">
+                  {{ talk.title | truncate: 85 }}
+                </span>
 
-                  {% if forloop.index > 1 %} et {% endif %}
-                  <span class="ces-p-agenda__speaker">
-                    {{ speaker_name }}
-                  </span>
-                {% endfor %}
-              </div>
-              {% if talk.room %}
-                <div class="ces-p-agenda__room">
-                  {{ talk.room }}
+                <div class="ces-p-agenda__speakers">
+                  {% for speaker_name in talk.speakers %}
+                    {% assign speaker = site.data.edition2018.speakers | where: "name", speaker_name %}
+                    {% assign speaker = speaker[0] %}
 
-                  {% if talk.sponsor %}
-                  <span class="ces-p-agenda__sponsor">Sponsorisé</span>
-                  {% endif %}
+                    {% if forloop.index > 1 %} et {% endif %}
+                    <span class="ces-p-agenda__speaker">
+                      {{ speaker_name }}
+                    </span>
+                  {% endfor %}
+                </div>
+                {% if talk.room %}
+                  <div class="ces-p-agenda__room">
+                    {{ talk.room }}
+
+                    {% if talk.sponsor %}
+                    <span class="ces-p-agenda__sponsor">Sponsorisé</span>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% if talk.desc or main_speaker %}
+                </a>
+              {% else %}
                 </div>
               {% endif %}
-            {% if talk.desc or main_speaker %}
-              </a>
-            {% else %}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
       </div>
+    {% endif %}
+    {% endfor %}
+
+    <div class="ces-l-grid__item is-1_8@md"></div>
+    <div class="ces-l-grid__item is-7_8@md">
+      Fin de Codeurs en Seine à <strong>18h00</strong>.
     </div>
-  {% endif %}
-  {% endfor %}
   </div>
 </div>
 
