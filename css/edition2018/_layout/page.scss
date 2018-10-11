@@ -20,7 +20,11 @@
   &__header {
     display: flex;
     align-items: center;
-    margin: 0 0 $ces-space-lg 0;
+    margin: 0 0 $ces-space-sm 0;
+
+    @include cesMediaMin($ces-breakpoint-navbar) {
+      margin-bottom: $ces-space-lg;
+    }
 
     &-title {
       flex-grow: 1;

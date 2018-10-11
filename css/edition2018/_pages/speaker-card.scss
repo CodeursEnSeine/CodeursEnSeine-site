@@ -14,6 +14,11 @@
 
   &__image {
     flex: none;
+    width: rem(60);
+
+    @include cesMediaMin($ces-breakpoint-md) {
+      width: rem(100);
+    }
   }
 
   &__image + &__profile {
@@ -68,7 +73,7 @@
     &-title {
       margin: 0;
       font-weight: bold;
-      font-size: $ces-font-size-ml;
+      font-size: $ces-font-size-md;
 
       a:hover &,
       a:focus &{
@@ -86,10 +91,7 @@
       color: $ces-color-text;
       margin-top: $ces-space-xxs;
       margin-bottom: $ces-space-xxs;
-
-      @include cesMediaMax($ces-breakpoint-xxs) {
-        font-size: $ces-font-size-ms;
-      }
+      font-size: $ces-font-size-ms;
     }
 
     &-more {
