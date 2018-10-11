@@ -175,8 +175,8 @@
     - title: "Style(d) et React, même Comp"
       room: Salle B
       level: Tout public
-      desc: "Avec React, vous pouviez faire du HTML en JS. Et pourquoi ne pas aller plus loin ? Avec Styled-compo, ajoutons la puissance du CSS-in-JS à notre application.
-                     #Une combinaison détonante à découvrir avec nous !"
+      desc: "<p>Avec React, vous pouviez faire du HTML en JS. Et pourquoi ne pas aller plus loin&nbsp;? Avec Styled-compo, ajoutons la puissance du CSS-in-JS à notre application.<br>
+             #Une combinaison détonante à découvrir avec nous&nbsp;!</p>"
       speakers:
         - Marion Devaux
         - Valentin Desportes

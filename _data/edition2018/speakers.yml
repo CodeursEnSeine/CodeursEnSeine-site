@@ -20,7 +20,7 @@
 
 - name: FibreTigre
   image: /images/edition2018/speakers/fibre-tigre.jpg
-  bio: "<p>Auteur de jeux vidéo. FibreTigre est auteur de jeux vidéo : Out There, Out There Chronicles, Sigma Theory, Antioch, Eugenics, auteur d'escape rooms, animateur de Game of Rôles sur la JVTV, chroniqueur dans Studio404 et Trajectoires, auteur de romans jeunesse et spécialiste de la fiction interactive.</p>"
+  bio: "<p>Auteur de jeux vidéo. FibreTigre est auteur de jeux vidéo&nbsp;: Out There, Out There Chronicles, Sigma Theory, Antioch, Eugenics, auteur d'escape rooms, animateur de Game of Rôles sur la JVTV, chroniqueur dans Studio404 et Trajectoires, auteur de romans jeunesse et spécialiste de la fiction interactive.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/FibreTigre
@@ -46,7 +46,7 @@
 - name: Nicolas Saillard
   company: Coaxys
   image: /images/edition2018/speakers/nicolas-saillard.jpg
-  bio: "<p>Un prof de sport vous avez dit ? Les études en ont décidé autrement par un virage radical vers l'informatique. Nicolas a cependant conservé de sa passion pour le sport, l'esprit d'équipe. Une fois le diplôme d'ingénieur en poche, son parcours lui a fait découvrir le monde des éditeurs de logiciels durant 6 années, passant de la technologie Java à Microsoft, des métiers du web à ceux de la banque… La 7ème année fut la découverte des SSII et de la gestion de projets. Nicolas s'éloigne petit à petit de l'expertise technique pour se concentrer sur les méthodes de travail et le management. Après 3 années en tant que directeur technique et responsable de Centre de Services, un nouveau challenge s'imposait. Nicolas est amoureux du travail bien fait et de la satisfaction de ses clients qu'il considère comme ses partenaires. La confiance est son leitmotiv, l'agilité est son outil, la bonne humeur est son arme...</p>"
+  bio: "<p>Un prof de sport vous avez dit&nbsp;? Les études en ont décidé autrement par un virage radical vers l'informatique. Nicolas a cependant conservé de sa passion pour le sport, l'esprit d'équipe. Une fois le diplôme d'ingénieur en poche, son parcours lui a fait découvrir le monde des éditeurs de logiciels durant 6 années, passant de la technologie Java à Microsoft, des métiers du web à ceux de la banque… La 7ème année fut la découverte des SSII et de la gestion de projets. Nicolas s'éloigne petit à petit de l'expertise technique pour se concentrer sur les méthodes de travail et le management. Après 3 années en tant que directeur technique et responsable de Centre de Services, un nouveau challenge s'imposait. Nicolas est amoureux du travail bien fait et de la satisfaction de ses clients qu'il considère comme ses partenaires. La confiance est son leitmotiv, l'agilité est son outil, la bonne humeur est son arme...</p>"
   links:
     - label: Twitter
       url: https://twitter.com/nikosaillard
@@ -123,7 +123,7 @@
   image: /images/edition2018/speakers/marion-devaux.jpg
   bio: "<p>Diplômée de l'INSA en Architecture des Systèmes d'Information, je suis maintenant Front end developer chez Attineos.<br>
            Je travaille au sein d'une équipe de 13 développeurs et au quotidien avec des designers et une équipe back end pour un client Parisien spécialisé dans l'emailing.<br>
-           Passionnée par l'informatique, le management et le basketball, je suis aussi joueuse nationale et coach régionale de basket. Une fille ingénieure en informatique et sportive, je casse tous les préjugés !
+           Passionnée par l'informatique, le management et le basketball, je suis aussi joueuse nationale et coach régionale de basket. Une fille ingénieure en informatique et sportive, je casse tous les préjugés&nbsp;!
 </p>"
 
 - name: Valentin Desportes
@@ -156,7 +156,7 @@
   company: Sopra Steria
   image: /images/edition2018/speakers/frederic-jammes.jpg
   bio: "<p>Frédéric JAMMES est développeur depuis 13 ans, et en particulier, développeur frontend. Il a réellement apprécié le front avec AngularJS, avec lequel il a développé l'application Circulez-Malin.</p>
-  <p>Depuis maintenant plus de 2 ans, il est responsable technique d'une équipe de développement, sur plusieurs projets, en Angular qu'il a vu évoluer depuis sa première version (la 2 bien évidemment !).</p>"
+  <p>Depuis maintenant plus de 2 ans, il est responsable technique d'une équipe de développement, sur plusieurs projets, en Angular qu'il a vu évoluer depuis sa première version (la 2 bien évidemment&nbsp;!).</p>"
   links:
     - label: Linkedin
       url: https://www.linkedin.com/in/frédéric-jammes-b2991331/
@@ -191,7 +191,7 @@
 - name: Amelie Boucher
   company: L'UX sur le gâteau
   image: /images/edition2018/speakers/amelie-boucher.jpg
-  bio: "<p>Amélie Boucher est Ergonome & UX Designer. Elle exerce depuis 14 ans dans une grande variété de domaines : e-commerce, éditorial, réseaux sociaux, logiciels et applications métier… Engagée dans la promotion de la discipline en France, elle est l'auteur de trois livres sur le sujet : Ergonomie web, Ergonomie web illustrée et Expérience utilisateur mobile, le tout aux éditions Eyrolles. Elle monte en 2013 un studio de design : L'UX sur le gâteau.</p>"
+  bio: "<p>Amélie Boucher est Ergonome & UX Designer. Elle exerce depuis 14 ans dans une grande variété de domaines&nbsp;: e-commerce, éditorial, réseaux sociaux, logiciels et applications métier… Engagée dans la promotion de la discipline en France, elle est l'auteur de trois livres sur le sujet&nbsp;: Ergonomie web, Ergonomie web illustrée et Expérience utilisateur mobile, le tout aux éditions Eyrolles. Elle monte en 2013 un studio de design&nbsp;: L'UX sur le gâteau.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/amelieboucher
@@ -245,7 +245,7 @@
 - name: Robin Szylobryt
   company: Matmut
   image: /images/edition2018/speakers/robin-szylobryt.jpg
-  bio: "<p>Robin (prononcez silobrit) est développeur depuis plus de 10 ans sur les technologies Web, C# et iOS. Ses passions : La plongée en eau profonde et Star Wars. Le Macbook Pro est son matériel de prédilection …en attendant les prochains ordinateurs quantiques</p>"
+  bio: "<p>Robin (prononcez silobrit) est développeur depuis plus de 10 ans sur les technologies Web, C# et iOS. Ses passions&nbsp;: La plongée en eau profonde et Star Wars. Le Macbook Pro est son matériel de prédilection …en attendant les prochains ordinateurs quantiques</p>"
 
 - name: Tugdual Grall
   company: MapR
