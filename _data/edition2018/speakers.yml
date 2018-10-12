@@ -118,13 +118,16 @@
     - label: Twitter
       url: https://twitter.com/bettymoreschini
 
-- name: Marion Devaux
+- name: Marion Deveaux
   company: Attineos
-  image: /images/edition2018/speakers/marion-devaux.jpg
+  image: /images/edition2018/speakers/marion-deveaux.jpg
   bio: "<p>Diplômée de l'INSA en Architecture des Systèmes d'Information, je suis maintenant Front end developer chez Attineos.<br>
            Je travaille au sein d'une équipe de 13 développeurs et au quotidien avec des designers et une équipe back end pour un client Parisien spécialisé dans l'emailing.<br>
            Passionnée par l'informatique, le management et le basketball, je suis aussi joueuse nationale et coach régionale de basket. Une fille ingénieure en informatique et sportive, je casse tous les préjugés&nbsp;!
 </p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/MarionDev0
 
 - name: Valentin Desportes
   company: Attineos
