@@ -165,10 +165,10 @@
   type: Quickies
   type_single: Quicky
   talks:
-    - title: "Personnalization and Recommender Systems at vente-privee"
+    - title: "Personnalisation et Systèmes de Recommandation chez vente-privee"
       room: Salle A
       level: Tout public
-      desc: "<p>Recommender systems and customization can have a big impact on user experience, and it’s all the more true for e-commerce websites. At vente-privee we use these technologies in many situations. This presentation is the occasion to learn about the technology behind the personalized ordering of product catalogs such as it is implemented at vente-privee.</p>"
+      desc: "<p>Les recommandations et la personnalisation ont un gros impact sur l’expérience d’un utilisateur, et c’est d’autant plus vrai pour les sites d’e-commerce. Chez vente-privee nous utilisons ces technologies dans différents cas de figure. Cette présentation est l'occasion de découvrir le fonctionnement de la personnalisation du catalogue de produits telle que nous l’avons mise en place à vente-privee.</p>"
       speakers:
         - Betty Moreschini
 
