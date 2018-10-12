@@ -28,6 +28,11 @@
     }
   }
 
+  &.is-secondary {
+    background: #f7fafc;
+    box-shadow: none;
+  }
+
   &.is-center-content {
     align-items: center;
     justify-content: center;

@@ -45,7 +45,7 @@ order: 20
               {% if talk.desc or main_speaker %}
                 <a class="ces-c-card ces-p-agenda__card" data-panel-open="panel-talk-{{ talk.title | cgi_escape }}" {% if main_speaker %} href="speakers.html#orateur-{{ main_speaker.name | cgi_escape }}" {% endif %}>
               {% else %}
-                <div class="ces-c-card ces-p-agenda__card">
+                <div class="ces-c-card is-secondary ces-p-agenda__card">
               {% endif %}
                 <div class="ces-p-agenda__anchor" id="talk-{{ talk.title | cgi_escape }}"></div>
 
