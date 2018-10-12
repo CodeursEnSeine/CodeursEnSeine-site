@@ -263,12 +263,13 @@
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "UX du futur&nbsp;: au-delà des buzzwords"
+    - title: "Services vocaux & chatbots&nbsp;: l'UX du futur&nbsp;?"
       room: Salle A
       level: Tout public
       desc: "<p>Le web de demain prendra-t-il la forme des buzzwords dont le web d'aujourd'hui nous gave&nbsp;?</p>
-             <p>On ne parle plus que de cela. Services vocaux, chat(bot)s, intelligence artificielle, automatisation, réalité augmentée… Pas un brief n'y échappe, rares sont les réunions privées de l'un de ces termes, et les articles sur les tendances pour l'année à venir sont clairs&nbsp;: c'est bien le futur qui se profile.</p>
-             <p>Parler du web de demain en tant qu'UX designer, c'est donc naturellement se poser des questions sur ces technologies&nbsp;: quelles opportunités peut-on y voir, quelles craintes peut-on formuler&nbsp;? Quels sont et seront les impacts pour les usagers&nbsp;? En filigrane, nous nous demanderons aussi si la technologie change le métier de designer. Autant de questions pour cultiver la réflexion&nbsp;: ce web du futur alors, on le dessine comment&nbsp;?</p>"
+             <p>On ne parle plus que de cela. Services vocaux, chatbots, intelligence artificielle… Pas un brief n'y échappe, rares sont les réunions privées de l'un de ces termes, et les articles sur les tendances pour l'année à venir sont clairs&nbsp;: c'est bien le futur qui se profile.</p>
+             <p>Parler du web de demain en tant qu'UX designer, c'est donc naturellement se poser des questions sur ces technologies&nbsp;: quelles opportunités peut-on y voir, quelles craintes peut-on formuler&nbsp;? Quels sont les impacts à l'heure actuelle pour les usagers&nbsp;? En filigrane, nous nous demanderons aussi si la technologie change le métier de designer. Autant de questions pour cultiver la réflexion&nbsp;: ce web du futur alors, on le dessine comment&nbsp;?
+</p>"
       speakers:
         - Amelie Boucher
 
