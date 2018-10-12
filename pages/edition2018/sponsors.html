@@ -56,11 +56,11 @@ order: 30
     {% for sponsor in sponsors %}
       {% if level == 'platinium' or level == 'gold' %}
         <div class="ces-l-grid__item is-1_2@md">
-          {% include edition2018/sponsor-card.html premium="true" %}
+          {% include edition2018/sponsor-card.html premium="true" img_base_path="/images/edition2018/sponsors/" %}
         </div>
       {% else %}
         <div class="ces-l-grid__item is-1_2@xs is-1_3@md">
-          {% include edition2018/sponsor-card.html %}
+          {% include edition2018/sponsor-card.html img_base_path="/images/edition2018/sponsors/" %}
         </div>
       {% endif %}
     {% endfor %}

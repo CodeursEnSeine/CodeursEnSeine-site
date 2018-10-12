@@ -1,11 +1,11 @@
 - name: Saagie
-  logo: saagie.png
+  logo: saagie@web.png
   link: http://www.saagie.com
   description: "<p>Saagie (anciennement Creative Data) est une startup créée en 2013 accompagnant les entreprises de tous secteurs d’activité souhaitant placer la donnée au cœur de leur culture. Nous vous proposons une plateforme prête à l’emploi de bout en bout orientée métier qui vous apporte le meilleur des technologies Big Data.</p>
   <p>Hébergée au sein de Seine Innopolis, l’écosystème normand du numérique, Saagie se compose d’une équipe pluridisciplinaire de data scientists, de développeurs, d’architectes Data ou encore d’experts métier capables de vous libérer des barrières technologiques liées au Big Data. Vous pouvez ainsi créer de nouveaux leviers de croissance en exploitant pleinement la richesse des données à votre disposition.</p>"
 
 - name: Digit
-  logo: digit.png
+  logo: digit@web.png
   link: https://www.justdigit.fr/
   description: "<p>DIGIT est le fruit d'une amitié née sur les bancs de l'école d'ingénieurs et d'une expérience cumulée de 30 ans en Entreprise de Services du Numérique.</p>
 
@@ -20,7 +20,7 @@
    <p>Nos engagements seront à la hauteur de votre confiance.... So, just DIGIT !</p>"
 
 - name: Invoke
-  logo: invoke.png
+  logo: invoke@web.png
   link: http://www.invoke-software.fr
   description: "<p>
   Invoke, éditeur de logiciels de reporting financier et réglementaire depuis 2001, connaît une croissance forte en France comme à l’international.
@@ -36,20 +36,20 @@ Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles so
 </p>"
 
 - name: Matmut
-  logo: matmut.png
+  logo: matmut@web.png
   link: http://matmut.fr
   description: "Acteur majeur sur le marché français, le Groupe Matmut assure aujourd'hui près de 3,2 millions de sociétaires et plus de 6,8 millions de contrats.
 Il offre à tous - particuliers, professionnels, entreprises, associations - une gamme complète de produits d'assurance des biens et des personnes (auto, moto, habitation, bateau, chasse, responsabilités, protection de la famille, santé, prévoyance, protection juridique, assistance) et de services financiers et d'épargne (crédits auto, crédit consommation, livret d'épargne, assurance-vie, assurance emprunteur...)."
 
 - name: REDLab
-  logo: redlab.png
+  logo: redlab@web.png
   link: http://www.redlab.io
   description: "<p>REDLab est une startup qui met son savoir et sa technologie à disposition des entreprises ambitieuses. </p>
   <p>Notre objectif ? Les aider à opérer un tournant vers l’hyper-connectivité des systèmes et des objets pour faire de leurs aspirations une réalité.</p>
   <p>IoT, Big Data et Blockchain, nos équipes maîtrisent et combinent les toutes dernières technologies pour rendre les industries plus performantes en opérant leur tournant vers le digital.</p>"
 
 - name: Wixiweb
-  logo: wixiweb.png
+  logo: wixiweb@web.png
   link: http://www.wixiweb.fr/
   description: "<p>Wixiweb conçoit et réalise des plate-formes web sur-mesures: application web, mobile, extranet, intranet, API, etc.</p>
     <p>Notre équipe de 6 personnes accompagne aussi bien des startups que des entreprises expérimentées ayant des besoins en conseil, développement interne et conception d'interface.</p>
@@ -57,7 +57,7 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
     <p>Nous accordons une grande importance au conseil, à l'ergonomie, l'expérience utilisateur, la sécurité et la qualité technique, ainsi qu'à la réussite globale des projets.</p>"
 
 - name: Devolis
-  logo: devolis.png
+  logo: devolis@web.png
   link: http://www.devolis.fr
   description: "<p>DEVOLIS est pure player sur les technologies Microsoft. Depuis bientôt 10 ans, nous développons des solutions basées sur les technologies Microsoft : framework .net, SQL Server, SharePoint, Office 365, Azure. Nos clients : les grands comptes de la Normandie et de l’ile de France.
   </p>
