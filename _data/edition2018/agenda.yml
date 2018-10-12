@@ -172,10 +172,10 @@
       speakers:
         - Betty Moreschini
 
-    - title: "Style(d) et React, même Comp"
+    - title: "Style(d) et React, même Compo"
       room: Salle B
       level: Tout public
-      desc: "<p>Avec React, vous pouviez faire du HTML en JS. Et pourquoi ne pas aller plus loin&nbsp;? Avec Styled-compo, ajoutons la puissance du CSS-in-JS à notre application.<br>
+      desc: "<p>Avec React, vous pouviez faire du HTML en JS. Et pourquoi ne pas aller plus loin&nbsp;? Avec Styled-components, ajoutons la puissance du CSS-in-JS à notre application.<br>
              #Une combinaison détonante à découvrir avec nous&nbsp;!</p>"
       speakers:
         - Marion Deveaux
