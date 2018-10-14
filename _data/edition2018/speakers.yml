@@ -265,7 +265,7 @@
 
 - name: Charles Desneuf
   company: Evaneos
-  image: /images/edition2018/speakers/default.jpg
+  image: /images/edition2018/speakers/charles-desneuf.jpeg
   bio: "<p>Charles est développeur web depuis plusieurs années et s'intéresse aux manières de réaliser des applications répondant aux besoins des utilisateurs. Il s'est pour cela beaucoup penché sur ce qui permet de délivrer des logiciels de qualité.</p>"
   links:
     - label: Twitter
