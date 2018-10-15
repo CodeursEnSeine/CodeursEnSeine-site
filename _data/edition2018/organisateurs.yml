@@ -26,10 +26,6 @@
   image: yann.jpeg
   link: https://twitter.com/finalspy
 
-- name: Alexandre Ronsaut
-  image: alexandre.jpg
-  link: https://twitter.com/Apollo_Net
-
 - name: Maxime Mauchaussée
   image: maxime.jpg
   link: https://twitter.com/maximemdotnet
@@ -46,10 +42,6 @@
   image: cedric-munsch.jpg
   link: https://twitter.com/CedricMunsch
 
-- name: Guillaume "Francis" Leroy
-  image: guillaume-francis-leroy.jpg
-  link: https://twitter.com/gleroypro
-
 - name: Yohann Henry
   image: yohann-henry.jpg
   link: https://twitter.com/yohannhenry
@@ -57,18 +49,6 @@
 - name: Romain Barrez
   image: romain-barrez.jpg
   link: https://www.linkedin.com/in/romain-barrez-3b40112a
-
-- name: Dimitri Baeli
-  image: dimitri.png
-  link: https://twitter.com/dbaeli
-
-- name: Fabien Meurisse
-  image: fabien.jpg
-  link: https://twitter.com/fmeurisse
-
-- name: Bruno Patrou
-  image: bruno-patrou.png
-  link: https://dpt-info-sciences.univ-rouen.fr/index.php/accueil-mgil
 
 - name: Marion Picard
   image: marion-picard.jpg
