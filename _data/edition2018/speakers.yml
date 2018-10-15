@@ -113,7 +113,7 @@
 - name: Betty Moreschini
   company: vente privee
   image: /images/edition2018/speakers/betty-moreschini.jpg
-  bio: "<p>Betty est ingénieure logiciel dans l’équipe dédiée à la personnalisation chez vente-privee. Elle a travaillé auparavant sur différents sujets, toujours avec une forte composante algorithmique, notamment le refactoring de code et les moteurs d’AB test.</p>"
+  bio: "<p>Betty est ingénieure logiciel dans l’équipe dédiée à la personnalisation chez vente-privee. Elle a travaillé auparavant sur différents sujets, toujours avec une forte composante algorithmique, notamment le refactoring automatique de code et les moteurs d’AB test.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/bettymoreschini
