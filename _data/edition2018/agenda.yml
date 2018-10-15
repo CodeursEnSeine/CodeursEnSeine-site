@@ -81,7 +81,7 @@
       speakers:
         - Nicolas Saillard
 
-    - title: ".Net Standard 2.0&nbsp;: Feedback"
+    - title: ".Net Standard 2.0 & Feedback"
       room: Salle C
       level: Niveau avancé
       desc: "<p>Au début il y'avait .Net Framework, puis vinrent entre autre Silverlight (paix à son âme) .Net Core, UWP, Xamarin and so on...<br><strong>.Net Standard 2.0</strong> permet de standardiser les API et nous sort de l'enfer des <strong>PCL</strong>.<br>Nous verrons dans un premier temps ce qu'est .Net Standard et pourquoi vous devez aujourd'hui vous y intéresser de trés trés prés&nbsp;!<br>Ensuite, au travers d'un projet OSS, <strong>Dotmim.Sync</strong> nous parlerons de synchronisation de base de données.<br>Ou comment, en 4 lignes de codes, vous pouvez synchroniser une base de données serveur (comme <strong>SQL Server</strong> ou <strong>MySQL</strong>) avec une base de données cliente (comme <strong>SQLite</strong>) embarquée dans une application mobile, avec une gestion fine des changements ou des conflits.<br>Et comme nous sommes sous <strong>.Net Standard</strong>, vous pourrez utiliser ce framework un peu partout ;)</p>"
