@@ -32,3 +32,10 @@ Pull la dernière version du git
 Modifier le fichier _data/edition2018/organisateurs.yml 
 Ajouter la photo (même nom que défini avant dans le yml) en 100x100px dans images/edition2018/organisateurs
 Puis commit et push sur la branche
+
+#### Ajout de meetup
+Pull la dernière version du git
+Créer un fichier a la date du jour (important pour voir la publication) dans _posts/meetups exemple: 2018-12-25-meetup.md
+Modifier ce fichier .md avec les bonnes informations
+Ajouter la photo du speaker dans images/meetups/speakers
+Puis commit et push
