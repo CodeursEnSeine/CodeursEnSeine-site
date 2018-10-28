@@ -56,28 +56,16 @@
     - title: "Agilité&nbsp;: 28 jours plus tard"
       room: Salle B
       level: Niveau avancé
-      desc: "<p>Ca y est, l’agilité est enfin mise en place dans votre entreprise et tout fonctionne…
-             28 jours plus tard, ce qui existait et semblait acquis pour les 10 prochaines années vole en éclat…</p>
+      desc: "<p>Ca y est, l’agilité est enfin mise en place dans votre entreprise et tout fonctionne… 28 jours plus tard, ce qui existait et semblait acquis pour les 10 prochaines années vole en éclat…</p>
              <p>L’histoire de la transformation était un vrai conte de fées. Shrek a fini par sauver la princesse Fiona, le château Far Far lointain et ses habitants, d’une emprise maléfique. Et cela, accompagné de son fidèle ami l’âne et d’autres amis tels que le chat Potté… Nous vous laissons deviner qui est qui, mais une chose est sûre, il a fallu en éplucher des couches d'oignon car le chemin était semé d'embûches, de dragons et de lutins, qui se révèlent ne pas être qui ils prétendent mais ils avaient prévu de vivre heureux et d’avoir plein de petits ogres…</p>
-             <p>Les histoires finissent toujours bien sauf là, je ne comprends pas… </p>
+             <p>Les histoires finissent toujours bien sauf là, je ne comprends pas…</p>
              <ul>
              <li>“On ne finit jamais les sprints, pourtant on fait tout comme on nous a dit, bon d’accord vu le contexte un peu serré, on accepte de prendre des Users Stories qu’on définit pendant le sprint”.</li>
-             <li>“Les architectes nous avaient promis de nous valider la solution avant la moitié du sprint…”</li>
              <li>“Le Product Owner nous a « proposé » la solution technique, les gars c’est le chef donc on va faire ce qu’il dit”</li>
              <li>“Le Scrum Master est trop cool, il consigne tous nos temps, si tu es sympa avec lui, il mettra à jour ton Jira et cerise sur le gâteau, il fait un café d’exception”</li>
-             <li>“Les gars, je suis en vacances la semaine prochaine, donc si vous voulez bien, on prolonge le sprint d’une semaine pour que je sois présent à la Revue”.</li>
-             <li>“D’ailleurs pour la Démo, j’ai mis des flyers, va y avoir tous les directeurs, donc si vous pouviez faire une démo fun, dynamique et assez courte&nbsp;?”</li>
-             <li>“Bon les gars, on est Agiles, donc dites moi combien de temps ça va vous prendre parce qu’il faut sortir le produit le 1er mai, ok c’est un peu court mais allez, vous allez vous adapter ;)”</li>
-             <li>“Laisse-moi la tâche, je la torche en 1 journée, je connais le l’ai déjà fait au moins 20 fois, en plus le stagiaire n’est toujours pas opérationnel”</li>
-             <li>“Hey je voudrais bien être Scrum Master, ça a l’air sympa, tu peux pointer du temps à dessiner sur des post it et tu dis aux autres ce qu’ils doivent faire”</li>
-             <li>“C’est moi où le Product Owner il ne sait pas où il va, il n’y connait rien, c’est pas cette fonctionnalité là qu’il faut réaliser”</li>
-             <li>“On finit jamais complètement le sprint, c’est pas trop grave, les 3 dernières tâches sont remises dans le backlog de lundi”</li>
-             <li>En Daily Meeting&nbsp;: “Alors hier j’ai bossé sur le projet Blair Witch, je n’ai pas fini donc aujourd’hui je travaille sur le projet Blair Witch, j’ai bientôt fini…”</li>
-             <li>“J’ai eu une idée pour nous sortir de l’impasse&nbsp;! On va créer une Task Force avec les Tech Lead pour livrer en temps le lot 1, et on fera une Task Force pour le lot 2 et peut être même pour le lot 3…”</li>
-             <li>“Le nouveau Chef de Projet dit qu’il a fait 10 ans d’Agilité, il trouve ça top&nbsp;: il se propose d’affecter les tâches aux bonnes personnes et de nous faire du reporting avec son diagramme de Gant”.</li>
+             <li>“Le nouveau Chef de Projet dit qu’il a fait 10 ans d’Agilité, il trouve ça top : il se propose d’affecter les tâches aux bonnes personnes et de nous faire du reporting avec son diagramme de Gant”.</li>
              </ul>
-             <p>Vous retrouvez-vous dans l’une de ces histoires&nbsp;? Vous vous êtes mis à la place de Shrek, du chat potté, ou encore de l’âne&nbsp;?
-             Venez nous voir, nous souhaitons partager notre expérience et trouver un remède afin d’éradiquer le virus qui décime une population en 28 jours…</p>"
+             <p>Vous retrouvez-vous dans l’une de ces histoires et plein d'autres ? Vous vous êtes mis à la place de Shrek, du chat Potté, ou encore de l’âne ? Venez nous voir, nous souhaitons partager notre expérience et trouver un remède afin d’éradiquer le virus qui décime une population en 28 jours…</p>"
       speakers:
         - Nicolas Saillard
 
@@ -195,7 +183,7 @@
     - title: "Comment remplacer le bon vieux polling de mon appli web"
       room: Salle D
       level: Tout public
-      desc: "<p>Vous aussi, vous en avez assez de retrouver du polling dans vos applications Web. Peu performant, et trop consommateur de ressources. Venez découvrir une alternative basée sur les souscriptions GraphQL.</p>"
+      desc: "<p>Vous aussi, vous en avez assez de retrouver du polling dans vos applications Web. Peu performant, et trop consommateur de ressources. Voyageons ensemble au pays du \"push\" et découvrons les principales alternatives du marché (Server Sent Event, Souscriptions GraphQL, et autres).</p>"
       speakers:
         - "Cédric Dué"
 
