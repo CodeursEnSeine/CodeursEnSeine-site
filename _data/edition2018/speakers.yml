@@ -20,7 +20,7 @@
 
 - name: FibreTigre
   image: /images/edition2018/speakers/fibre-tigre.jpg
-  bio: "<p>Auteur de jeux vidéo. FibreTigre est auteur de jeux vidéo&nbsp;: Out There, Out There Chronicles, Sigma Theory, Antioch, Eugenics, auteur d'escape rooms, animateur de Game of Rôles sur la JVTV, chroniqueur dans Studio404 et Trajectoires, auteur de romans jeunesse et spécialiste de la fiction interactive.</p>"
+  bio: "<p>FibreTigre est auteur de jeux vidéo&nbsp;: Out There, Out There Chronicles, Sigma Theory, Antioch, Eugenics, auteur d'escape rooms, animateur de Game of Rôles sur la JVTV, chroniqueur dans Studio404 et Trajectoires, auteur de romans jeunesse et spécialiste de la fiction interactive.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/FibreTigre
