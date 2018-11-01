@@ -76,7 +76,7 @@
       speakers:
         - Sébastien Pertus
 
-    - title: Des microservices aux migroservice
+    - title: Des microservices aux migroservices
       room: Salle D
       level: Tout public
       desc: "<p>Ca y est, vous avez enfin la possibilité de démarrer un nouveau projet ou de migrer un de vos anciens monolithes et vous décidez de partir en architecture microservices&nbsp;!<br>On se répartit les services, on sort nos plus belles technos et c'est parti&nbsp;! Au pire, vu qu'on va faire un microservice on pourra le remplacer plus tard facilement&nbsp;:grinning:.  </p>
@@ -97,22 +97,15 @@
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Le marketing de la honte et le code du monde réel"
-      room: Salle A
-      level: Tout public
-      desc: "<p>C'est librement inspiré de la keynote de riviera dev dont j'ai perdu les slides, et parle du problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir honte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
-      speakers:
-        - Quentin Adam
-
     - title: "Vanilla JS 2018"
-      room: Salle B
+      room: Salle A
       level: Niveau avancé
       desc: "<p>Imaginez une application Web qui utiliserait toutes les nouvelles APIs des navigateurs en même temps. Ce n'est peut être pas le projet le plus raisonnable pour un besoin client mais pour de la veille, c'est passionnant&nbsp;! Je vous propose un retour sur cette expérience un peu hors du commun.</p>
              <p>On a tous vu une conf ou lu un article sur une nouvelle fonctionnalité des navigateurs mais ce n'est pas toujours évident de se faire une idée quant à la question&nbsp;: \"ok mais globalement, vers où on va&nbsp;?\"</p>
              <p>J'ai donc lancé un projet bac à sable nommé Vanilla JS 2018. Il a des règles strictes (sinon on s'ennuie&nbsp;!)&nbsp;:</p>
              <ul>
              <li>Interdiction totale de l'utilisation de code source externe au projet</li>
-             <li>‎Volonté d'utiliser autant de nouvelles normes que possible. Quelque soit les univers&nbsp;: HTTP, HTML, DOM, JS, CSS.</li>
+             <li>‎Volonté d'utiliser autant de nouvelles normes que possible. Quels que soient les univers&nbsp;: HTTP, HTML, DOM, JS, CSS.</li>
              <li>‎Tout est autorisé du moment que ce soit une norme non propriétaire et que cela fonctionne dans au moins 2 navigateurs (flags autorisés).</li>
              </ul>
              <p>Nous parlerons d'un bon nombre de sujets&nbsp;:</p>
@@ -129,12 +122,19 @@
       speakers:
         - Matthieu Lux
 
+    - title: "Le marketing de la honte et le code du monde réel"
+      room: Salle B
+      level: Tout public
+      desc: "<p>C'est librement inspiré de la keynote de riviera dev dont j'ai perdu les slides, et parle du problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir honte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
+      speakers:
+        - Quentin Adam
+
     - title: "D'une architecture web MVC à une architecture Clean Hexagonale "
       room: Salle C
       level: Tout public
       desc: "<p>Aujourd'hui, de nombreuses applications ont été développées en utilisant le pattern MVC.</p>
              <p>La promesse de l'<strong>architecture hexagonale</strong> et de la <strong>clean architecture</strong> est de simplifier la maintenabilité de nos applications et l'évolutivité qui nous fait souvent défaut.</p>
-             <p>En partant d'une base de code MVC, nous ferons évoluer ce code pour passer à une architecture hexagonale en isolant le coeur métier de tout le reste (outils, briques d'infrastructures). Nous verrons comment séparer les accès à une base de données/un système de fichier/un serveur de mail de notre code métier. Et nous comprendrons ce que ça peut nous apporter dans notre quotidien de développeur.</p>"
+             <p>En partant d'une base de code MVC, nous ferons évoluer ce code pour passer à une architecture hexagonale en isolant le c&oelig;ur métier de tout le reste (outils, briques d'infrastructures). Nous verrons comment séparer les accès à une base de données/un système de fichier/un serveur de mail de notre code métier. Et nous comprendrons ce que ça peut nous apporter dans notre quotidien de développeur.</p>"
       speakers:
         - Céline Gilet
 
@@ -169,13 +169,13 @@
         - Marion Deveaux
         - Valentin Desportes
 
-    - title: "Détectez et trackez les vulnerabilités qui se cachent dans vos dépendances"
+    - title: "Détectez et trackez les vulnérabilités qui se cachent dans vos dépendances"
       room: Salle C
       level: Tout public
       desc: "<p><a target=\"_blank\" href=\"https://www.veracode.com/products/software-composition-analysis\">44% des applications contiennent des vulnérabilités critiques dans les librairies open-source qu'elles utilisent</a> et cela bien que des bonnes pratiques comme OWASP Top 10 se soient généralisées. </p>
-             <p>Ne laissez plus ces petites bêtes incuber bien au chaud au sein de votre appli!
+             <p>Ne laissez plus ces petites bêtes incuber bien au chaud au sein de votre appli&nbsp;!
              Grâce à ce talk, vous apprendrez comment sont répertoriées ces vilaines bestioles (NVD, CVE) et comment est évaluée leur dangerosité (CVSS).</p>
-             <p>Puis vous verrez comment créer votre première pipeline de Continuous Security dans Jenkins au moyen de <a target=\"_blank\" href=\"https://www.owasp.org/index.php/OWASP_Dependency_Check\">OWASP DependencyCheck</a>  qui détecte les vulnérabilités et trackez les grâce à <a target=\"_blank\" href=\"https://www.owasp.org/index.php/OWASP_Dependency_Track_Project\">OWASP DependencyTrack</a> (logiciels open-source) </p>
+             <p>Puis vous verrez comment créer votre première pipeline de Continuous Security dans Jenkins au moyen de <a target=\"_blank\" href=\"https://www.owasp.org/index.php/OWASP_Dependency_Check\">OWASP DependencyCheck</a>  qui détecte les vulnérabilités et trackez-les grâce à <a target=\"_blank\" href=\"https://www.owasp.org/index.php/OWASP_Dependency_Track_Project\">OWASP DependencyTrack</a> (logiciels open-source) </p>
              <p>Faites le premier pas vers le DevSecOps&nbsp;!!!</p>"
       speakers:
         - "Julien Topçu"
@@ -243,7 +243,7 @@
       level: Tout public
       desc: "<p>Tester n'est pas douter&nbsp;: c’est s’assurer du bon fonctionnement de son application, quels que soient les changements que nous pouvons lui apporter.</p>
              <p>L'écosystème front-end s’est très fortement industrialisé ces dernières années et les tests automatisés ne sont plus l’apanage des applications back-end. </p>
-             <p>Tests unitaires, end-to-end ou encore de non régressions visuelles, nous allons voir ensemble quels sont les différents types de tests qui existent en front-end et quelles sont les stratégies pour leur mise en oeuvre.</p>"
+             <p>Tests unitaires, end-to-end ou encore de non régressions visuelles, nous allons voir ensemble quels sont les différents types de tests qui existent en front-end et quelles sont les stratégies pour leur mise en &oelig;uvre.</p>"
       speakers:
         - Mélanie Boudard
 
@@ -271,8 +271,8 @@
              <li>aperçu des runners</li>
              <li>architecture des runners</li>
              <li>installation et configuration</li>
-             <li>mise en oeuvre simplifié de runners</li>
-             <li>mise en oeuvre d'un système de preview application grâce aux runners</li>
+             <li>mise en &oelig;uvre simplifiée de runners</li>
+             <li>mise en &oelig;uvre d'un système de preview application grâce aux runners</li>
              </ul>
              <p>Avec cela vous aurez quelques nouveaux sorts dans votre grimoire et pourrez commencer à aller plus loin</p>"
       speakers:
@@ -308,8 +308,8 @@
       room: Salle A
       level: Tout public
       desc: "<p>Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n’importe quel framework, complètement intégré à la prochaine version d’Ionic…</p>
-             <p>Ben non, au moins au début, l’idée de Capacitor me laissait sceptique. J’ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j’avais mis Capacitor dans la case techno cool qui ne m’intéresse pas dans la vraie vie. Mais à ce moment j’ai relu avec attention leur site et j’ai vu une ligne qui m’a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d’elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool&nbsp;!</p>
-             <p>J’ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d’expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n’a pas marché, et surtout ce que j’ai appris dans le processus.</p>"
+             <p>Ben non, au moins au début, l’idée de Capacitor me laissait sceptique. J’ai passé les deux dernières années à développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou natives me paressait simplement obsolète. Dans ma tête j’avais mis Capacitor dans la case techno cool qui ne m’intéresse pas dans la vraie vie. Mais à ce moment j’ai relu avec attention leur site et j’ai vu une ligne qui m’a séduit&nbsp;: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d’elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool&nbsp;!</p>
+             <p>J’ai donc décidé de tester Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d’expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n’a pas marché, et surtout ce que j’ai appris dans le processus.</p>"
       speakers:
         - Horacio Gonzalez
 
@@ -318,7 +318,7 @@
       level: Tout public
       desc: "<p>Une équipe agile a ses pratiques, ses méthodes, ses outils et ses habitudes... Mais surtout ses êtres humains et sa culture.</p>
              <p>La culture agile, déjà si difficile à acquérir est encore plus difficile à transmettre. Alors comment fait-on pour embarquer un nouveau dev dans l’équipe&nbsp;?</p>
-             <p>On a essayé différentes méthodes traditionnelles sans grand succès, puis on a fini par trouver quelque chose qui fonctionne vraiment: 5 mini challenges d’une semaine en terrain inconnu et accompagné d’un nouveau tuteur à chaque fois.</p>
+             <p>On a essayé différentes méthodes traditionnelles sans grand succès, puis on a fini par trouver quelque chose qui fonctionne vraiment&nbsp;: 5 mini challenges d’une semaine en terrain inconnu et accompagné d’un nouveau tuteur à chaque fois.</p>
              <p>Cette session est un retour d’expérience à destination des développeurs, managers, scrum masters, RH et coach agiles...</p>"
       speakers:
         - Florian Ferbach
@@ -330,18 +330,18 @@
       speakers:
         - Robin Szylobryt
 
-    - title: "Découvrir par l’exemple: Microservices et Event Sourcing avec Kafka et Kubernetes"
+    - title: "Découvrir par l’exemple&nbsp;: Microservices et Event Sourcing avec Kafka et Kubernetes"
       room: Salle D
       level: Tout public
-      desc: "<p>Lorsque vous développez des applications vous avez besoin de vous adapter rapidements aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.</p>
-             <p>Les microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par la biais de Kubernetes permet de déployer ces services en toute tranquillité.</p>
-             <p>Cette présentation, en s’appuyant sur des cas d’usage et des démonstration, vous permettra de découvrir:</p>
+      desc: "<p>Lorsque vous développez des applications vous avez besoin de vous adapter rapidement aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.</p>
+             <p>Les microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par le biais de Kubernetes permet de déployer ces services en toute tranquillité.</p>
+             <p>Cette présentation, en s’appuyant sur des cas d’usage et des démonstrations, vous permettra de découvrir:</p>
              <ul>
              <li>Les micro-services et l’event sourcing avec Apache Kafka</li>
              <li>Les containers avec Docker</li>
              <li>Le déploiement et management des services avec Kubernetes</li>
              </ul>
-             <p>Si vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idées des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!</p>"
+             <p>Si vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idée des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!</p>"
       speakers:
         - Tugdual Grall
 
@@ -352,7 +352,7 @@
     - title: "Vous n'avez pas besoin de ça&nbsp;!"
       room: Salle A
       level: Niveau avancé
-      desc: "<p>React, Microservices, GraphQL, REST, DDD... Tous ces buzzwords porteur de promesses d'un monde meilleur sont sur toutes les lèvres, de toutes les conférences et s'installent petit à petit dans nos projets. Sont-ils vraiment la seule solution à tous nos problèmes&nbsp;? Au travers de cette conférence à la description taillée pour le SEO nous verrons qu'il existe des alternatives à ces technologies parfois mieux adaptées au contexte dans lequel nous évoluons tous les jours.</p>"
+      desc: "<p>React, Microservices, GraphQL, REST, DDD... Tous ces buzzwords porteurs de promesses d'un monde meilleur sont sur toutes les lèvres, de toutes les conférences et s'installent petit à petit dans nos projets. Sont-ils vraiment la seule solution à tous nos problèmes&nbsp;? Au travers de cette conférence à la description taillée pour le SEO nous verrons qu'il existe des alternatives à ces technologies parfois mieux adaptées au contexte dans lequel nous évoluons tous les jours.</p>"
       speakers:
         - Charles Desneuf
 
@@ -361,12 +361,12 @@
       level: Niveau avancé
       desc: "<p>Développer une application web n’est pas du bricolage dans un garage&nbsp;!
              Le développement s’industrialise pour réaliser des applications robustes et facilement maintenables.</p>
-             <p>Inspiré des outils du software craftmanship et de l’agilité, nous proposons les pratiques et outils préférés que vous pouvez mettre en oeuvre pour réaliser des applications dont vous serez fiers&nbsp;!</p>
+             <p>Inspiré des outils du software craftmanship et de l’agilité, nous proposons les pratiques et outils préférés que vous pouvez mettre en &oelig;uvre pour réaliser des applications dont vous serez fiers&nbsp;!</p>
              <p>Nous parlerons d'intégration continue, de déploiement continu et d'outils comme Gitlab-ci, des reviews apps ...</p>"
       speakers:
         - Christophe Malaboeuf
 
-    - title: "Unity 3D - Retour d'experience sur une app d'1M download"
+    - title: "Unity 3D - Retour d'expérience sur une app d'1M download"
       room: Salle C
       level: Tout public
       desc: "<p>Retour d'expérience sur le développement et le succès d'un jeu Android (par Florian DUBOC)</p>
@@ -385,7 +385,7 @@
     - title: "UX et Product Management en contexte agile&nbsp;: monozygotes ou dizygotes&nbsp;?"
       room: Salle D
       level: Niveau avancé
-      desc: "<p>“Soit agile&nbsp;! c’est trop design&nbsp;! Cette boîte est trop lean&nbsp;!... Je trouve que ce n’est pas assez UX...”
+      desc: "<p>“Soit agile&nbsp;! C’est trop design&nbsp;! Cette boîte est trop lean&nbsp;!... Je trouve que ce n’est pas assez UX...”
              Mais quelle signification cela a-t-il pour nos clients&nbsp;? Sommes nous alignés sur les définitions de nos pratiques&nbsp;? Comment les articuler&nbsp;? Le product management et l’UX design se complètent-ils&nbsp;? Leurs périmètres se superposent-ils&nbsp;? L’UX designer est-il un nouvel imposteur qui vole le travail du Product Owner&nbsp;?
              Travailler en équipes pluri-disciplinaires nous amènent à partager nos connaissances et best practices et à trouver notre place au sein du groupe. Nous vous exposerons nos retours d’expériences sur les similitudes et différences entre UX design, Product management  en contexte agile. Ainsi que nos pistes pour d’articuler ces différentes pratiques en équipe pour un travail en bonne intelligence et encore plus efficient.</p>
              <p>Alors vrais jumeaux ou faux jumeaux&nbsp;?!!</p>"
