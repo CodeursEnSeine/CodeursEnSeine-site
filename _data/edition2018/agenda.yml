@@ -125,7 +125,7 @@
     - title: "Le marketing de la honte et le code du monde réel"
       room: Salle B
       level: Tout public
-      desc: "<p>C'est librement inspiré de la keynote de riviera dev dont j'ai perdu les slides, et parle du problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir honte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
+      desc: "<p>Dans cette conférence, j'évoque le problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir honte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
       speakers:
         - Quentin Adam
 
