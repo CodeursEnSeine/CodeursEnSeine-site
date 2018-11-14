@@ -289,6 +289,10 @@ td.shop_step1_price.shop_step1_donation::after {
   padding: rem(6) rem(10);
 }
 
+.shop_step2_table td .tip {
+  font-weight: normal !important;
+}
+
 select.error,
 input.error {
   border-color: $ces-color-danger;
