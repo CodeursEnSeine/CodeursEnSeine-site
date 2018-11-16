@@ -249,6 +249,7 @@
              <p>Tests unitaires, end-to-end ou encore de non régressions visuelles, nous allons voir ensemble quels sont les différents types de tests qui existent en front-end et quelles sont les stratégies pour leur mise en &oelig;uvre.</p>"
       speakers:
         - Mélanie Boudard
+        - Clément Dubois
 
 - time: 14h30
   type: Conférences

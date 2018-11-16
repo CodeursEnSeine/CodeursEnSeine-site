@@ -194,6 +194,14 @@
     - label: GitHub
       url: https://www.github.com/MelanieMEB
 
+- name: Clément Dubois
+  company: OCTO Technology
+  image: /images/edition2018/speakers/clement-dubois.jpg
+  bio: "<p>Clément est tombé dans le bain du web il y a 8 ans! Depuis 5 ans, il évolue dans le cabinet de conseil Octo Technology au sein de la tribu web front-end dont l’objectif est de construire des applications web de qualité, de capitaliser, de former et de partager le fruit de notre R&D.</p><p>Il apprécie particulièrement l'ecosystème front-end. Il a travaillé sur des projets en AngularJS, ReactJS et Vue dans des contextes agiles. Il s’intéresse à la démarche software craftmanship appliqué au front-end.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/Clement_D
+
 - name: Amelie Boucher
   company: L'UX sur le gâteau
   image: /images/edition2018/speakers/amelie-boucher.jpg
@@ -282,7 +290,7 @@
       url: https://www.github.com/cmalaboeuf
 
 - name: Florian Duboc
-  company: Groupe SII 
+  company: Groupe SII
   image: /images/edition2018/speakers/florian-duboc.jpg
   bio: "<p>Passionné d'informatique depuis mon adolescence, cela fait maintenant 3 ans que je suis développeur J2EE/.Net dans une ESN normande. J'aime découvrir les nouvelles technologies et les mettre rapidement en pratique dans mes nouveaux projets. Aujourd hui, j'ai réussi à transformer ma passion de joueur en Editeur de jeux vidéo sur mobile grâce à Unity3D.</p>"
 
