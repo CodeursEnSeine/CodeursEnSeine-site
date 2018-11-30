@@ -1,0 +1,82 @@
+- name: Rudy Baer
+  image: rudy.jpg
+  link: https://twitter.com/RudyBaer
+
+- name: Youen Chéné
+  image: youen.jpg
+  link: https://twitter.com/youen_chene
+
+- name: Ivan Dalmet
+  image: ivan.jpg
+  link: https://twitter.com/ivandalmet
+
+- name: Yoann Fleury
+  image: yoann.jpg
+  link: https://twitter.com/yoannfleurydev
+
+- name: Pierre Leresteux
+  image: pierre.jpg
+  link: https://twitter.com/pierreLeresteux
+
+- name: Thibaut Tropardy
+  image: thibaut.jpg
+  link: https://twitter.com/w3blogfr
+
+- name: Yann Petit
+  image: yann.jpeg
+  link: https://twitter.com/finalspy
+
+- name: Maxime Mauchaussée
+  image: maxime.jpg
+  link: https://twitter.com/maximemdotnet
+
+- name: Anthony Godin
+  image: anthony-godin.jpg
+  link: https://twitter.com/AnthoGdn
+
+- name: Asceline Boullen
+  image: asceline-boullen.jpg
+  link: https://twitter.com/AscelineBoullen
+
+- name: Cédric Munsch
+  image: cedric-munsch.jpg
+  link: https://twitter.com/CedricMunsch
+
+- name: Yohann Henry
+  image: yohann-henry.jpg
+  link: https://twitter.com/yohannhenry
+
+- name: Romain Barrez
+  image: romain-barrez.jpg
+  link: https://www.linkedin.com/in/romain-barrez-3b40112a
+
+- name: Marion Picard
+  image: marion-picard.jpg
+  link: https://twitter.com/marionpicard76
+
+- name: Frédéric Bisson
+  image: photo-fred.png
+  link: https://twitter.com/zigazou
+
+- name: Arnaud Lemercier
+  image: photo-arnaud.png
+  link: https://twitter.com/arnolem
+
+- name: Sükran
+  image: sukran.jpg
+
+- name: Philippe Chevreul
+  image: philippe.jpg
+  link: https://twitter.com/philcvrl
+
+- name: Geoffroy Perrin
+  image: geoffroy.jpg
+  link: https://twitter.com/enaoweb
+
+- name: Laurent Deséchalliers
+  image: laurent.png
+  link: https://www.linkedin.com/in/desechalliers/
+  
+- name: Alexandre Dupré
+  image: alexandre.png
+  link: https://twitter.com/AlexDupreWeb

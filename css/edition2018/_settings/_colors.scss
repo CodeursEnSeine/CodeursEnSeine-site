@@ -1,0 +1,18 @@
+$ces-color-primary: #0066b3 !default;
+$ces-color-dark: #00386c !default;
+$ces-color-light: #009edb !default;
+
+$ces-color-gradient-start: #007dc5 !default;
+$ces-color-gradient-end: #034ea2 !default;
+$ces-gradient: linear-gradient(to top right, $ces-color-gradient-start, $ces-color-gradient-end) !default;
+$ces-gradient-dark: linear-gradient(to top right, darken($ces-color-gradient-start, 5%), darken($ces-color-gradient-end, 5%)) !default;
+
+$ces-color-text: $ces-color-dark !default;
+$ces-color-text-light: #5c7fa1 !default;
+
+$ces-color-success: #4caf50 !default;
+$ces-color-success-text: darken($ces-color-success, 5%) !default;
+$ces-color-warning: #ffb819 !default;
+$ces-color-warning-text: adjust_hue($ces-color-warning, -10) !default;
+$ces-color-danger: #e52728 !default;
+$ces-color-danger-text: darken($ces-color-danger, 5%) !default;

@@ -1,0 +1,93 @@
+.ces-c-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: $ces-space-md;
+  text-decoration: none;
+  border-radius: rem(4);
+  color: $ces-color-text;
+  background: white;
+  border: rem(1) solid rgba($ces-color-primary, .1);
+  box-shadow: 0 rem(4) rem(20) rgba($ces-color-primary, .2);
+  transition: border .2s;
+
+  @at-root {
+    a#{&}:hover,
+    a#{&}:focus {
+      border-color: $ces-color-primary;
+    }
+  }
+
+  &.is-primary {
+    color: white;
+    background: $ces-gradient;
+
+    a:not([class]) {
+      color: inherit;
+    }
+  }
+
+  &.is-secondary {
+    background: #f7fafc;
+    box-shadow: none;
+  }
+
+  &.is-center-content {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.is-gutter-none {
+    padding: $ces-space-none;
+  }
+
+  &.is-gutter-xxs {
+    padding: $ces-space-xxs;
+  }
+
+  &.is-gutter-xs {
+    padding: $ces-space-xs;
+  }
+
+  &.is-gutter-sm {
+    padding: $ces-space-sm;
+  }
+
+  &.is-gutter-md {
+    padding: $ces-space-md;
+  }
+
+  &.is-gutter-lg {
+    padding: $ces-space-lg;
+  }
+
+  &.is-gutter-xl {
+    padding: $ces-space-xl;
+  }
+
+  &.is-gutter-xxl {
+    padding: $ces-space-xxl;
+  }
+
+  &__bg {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    opacity: .1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__footer {
+    margin-top: auto;
+  }
+}

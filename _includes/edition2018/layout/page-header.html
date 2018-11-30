@@ -1,0 +1,32 @@
+<div class="ces-l-page__header">
+  <div class="ces-l-page__header-title">
+    <small>
+      {{ site[page.group].pretitle }}
+    </small>
+    <strong>
+      {{ site[page.group].title] }}
+    </strong>
+  </div>
+
+  {% if page.group == 'edition2018' %}
+  <div class="ces-l-page__header-actions">
+    <a class="ces-c-button" href="/2018/comment-venir">
+      Comment Venir ?
+    </a>
+
+    <a class="ces-c-button is-primary" href="/2018/inscription">
+      Inscription
+    </a>
+
+  </div>
+  {% endif %}
+
+  {% if page.group == 'meetups' %}
+  <div class="ces-l-page__header-actions">
+    <a class="ces-c-button is-secondary" href="/meetups/sponsors">
+      Devenir sponsor
+    </a>
+  </div>
+  {% endif %}
+
+</div>

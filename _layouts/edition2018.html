@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  {% seo %}
+  <meta property="og:image" content="{{ '/images/' | append: page.group | append: '/social.jpg' | relative_url }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
+  <!-- Import the CSS -->
+  <link href="{{ '/css/' | append: page.group | append: '/style.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
+
+  <!-- Favicons / app -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00386c">
+  <meta name="msapplication-TileColor" content="#00386c">
+  <meta name="theme-color" content="#00386c">
+</head>
+<body id="ces-root">
+
+  <div class="ces-l-site-layout">
+    {% include edition2018/layout/topbar.html %}
+    {% include edition2018/layout/navbar.html %}
+
+    <div class="ces-l-site-layout__page">
+      <div class="ces-l-page">
+        {% include edition2018/layout/page-header.html %}
+
+        <div class="ces-l-page__content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="{{ '/js/edition2018/scripts.js' | relative_url }}"></script>
+</body>
+</html>

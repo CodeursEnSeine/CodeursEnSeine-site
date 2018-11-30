@@ -1,0 +1,52 @@
+---
+layout: edition2018-with-sponsors
+group: edition2018
+title: Organisateurs
+permalink: /2018/organisateurs
+navigation: true
+order: 50
+---
+
+<h1>Organisateurs</h1>
+
+<div class="ces-l-grid">
+  <div class="ces-l-grid__item is-2_3">
+    <h3>Codeurs en Seine</h3>
+    <p>Codeurs en Seine est une association dont le but est la promotion et le partage des pratiques et des nouveautés technologiques entre les acteurs du développement informatique.</p>
+    <p>En plus de la conférence annuelle Codeurs en Seine, nous organisons des meetups et des ateliers tout au long de l'année, sur Rouen et ses environs.</p>
+    <p>Codeurs en Seine représente le Normandy Java User Group et Normandy Agile User Group.</p>
+    <p>Elle est également une étape de l'<a href="http://www.agiletour.org/">Agile Tour</a>.</p>
+  </div>
+  <div class="ces-l-grid__item is-1_3 ces-h-text-center">
+    <img src="/images/edition2018/logo-njug.jpg" width="240" height="152" alt="Normandy Java User Group">
+    <br>
+    <img src="/images/edition2018/logo-naug.jpg" width="240" height="152" alt="Normandy Agile User Group">
+  </div>
+</div>
+
+
+<h2>Équipe</h2>
+
+<p>Codeurs en Seine est propulsé par une équipe de bénévoles passionnés :</p>
+
+<div class="ces-l-grid is-gutter-vertical-lg">
+  {% for orga in site.data.edition2018.organisateurs %}
+  <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_5@sm is-1_6@md is-1_7@lg">
+    {% if orga.link == null %}
+    <div class="ces-h-display-block ces-h-text-center">
+        <img class="ces-h-image" src="/images/edition2018/organisateurs/{{ orga.image }}" alt="{{ orga.name }}" width="100" height="100">
+        <div class="ces-h-pt-xs">
+          {{ orga.name }}
+        </div>
+    </div>
+    {% else %}
+    <a href="{{ orga.link }}" target="_blank" class="ces-h-display-block ces-h-text-center">
+      <img class="ces-h-image" src="/images/edition2018/organisateurs/{{ orga.image }}" alt="{{ orga.name }}" width="100" height="100">
+      <div class="ces-h-pt-xs">
+        {{ orga.name }}
+      </div>
+    </a>
+    {% endif%}
+  </div>
+  {% endfor %}
+</div>

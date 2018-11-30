@@ -1,0 +1,323 @@
+@mixin cesGridGutter($size) {
+  margin-left: -$size !important;
+  margin-top: -$size / 2 !important;
+  margin-bottom: -$size / 2 !important;
+
+  & > * {
+    padding-left: $size !important;
+    padding-top: $size / 2 !important;
+    padding-bottom: $size / 2 !important;
+  }
+}
+
+@mixin cesGridGutterVertical($size) {
+  margin-top: -$size / 2 !important;
+  margin-bottom: -$size / 2 !important;
+
+  & > * {
+    padding-top: $size / 2 !important;
+    padding-bottom: $size / 2 !important;
+  }
+}
+
+@mixin cesGridGutterHorizontal($size) {
+  margin-left: -$size !important;
+
+  & > * {
+    padding-left: $size !important;
+  }
+}
+
+@mixin cesGridGutterModifiers($suffix, $size) {
+  &.is-gutter-#{ $suffix } {
+    @include cesGridGutter($size);
+  }
+
+  &.is-gutter-vertical-#{ $suffix } {
+    @include cesGridGutterVertical($size);
+  }
+
+  &.is-gutter-horizontal-#{ $suffix } {
+    @include cesGridGutterHorizontal($size);
+  }
+}
+
+@mixin cesGridItemSizeModifier($suffix: '') {
+  // -------------------------
+  //    Fluid
+  // -------------------------
+  &.is-1_8#{ $suffix } {
+    max-width: 12.5%;
+    flex-basis: 12.5%;
+  }
+
+  &.is-1_7#{ $suffix } {
+    max-width: 14.2857142857%;
+    flex-basis: 14.2857142857%;
+  }
+
+  &.is-1_6#{ $suffix } {
+    max-width: 16.6666666666%;
+    flex-basis: 16.6666666666%;
+  }
+
+  &.is-1_5#{ $suffix } {
+    max-width: 20%;
+    flex-basis: 20%;
+  }
+
+  &.is-1_4#{ $suffix },
+  &.is-2_8#{ $suffix } {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+
+  &.is-2_7#{ $suffix } {
+    max-width: 28.5714285714%;
+    flex-basis: 28.5714285714%;
+  }
+
+  &.is-1_3#{ $suffix },
+  &.is-2_6#{ $suffix } {
+    max-width: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+  }
+
+  &.is-3_8#{ $suffix } {
+    max-width: 37.5%;
+    flex-basis: 37.5%;
+  }
+
+  &.is-2_5#{ $suffix } {
+    max-width: 40%;
+    flex-basis: 40%;
+  }
+
+  &.is-3_7#{ $suffix } {
+    max-width: 42.8571428571%;
+    flex-basis: 42.8571428571%;
+  }
+
+  &.is-1_2#{ $suffix },
+  &.is-2_4#{ $suffix },
+  &.is-3_6#{ $suffix },
+  &.is-4_8#{ $suffix } {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+
+  &.is-4_7#{ $suffix } {
+    max-width: 57.1428571428%;
+    flex-basis: 57.1428571428%;
+  }
+
+  &.is-3_5#{ $suffix } {
+    max-width: 60%;
+    flex-basis: 60%;
+  }
+
+  &.is-5_8#{ $suffix } {
+    max-width: 62.5%;
+    flex-basis: 62.5%;
+  }
+
+  &.is-2_3#{ $suffix },
+  &.is-4_6#{ $suffix } {
+    max-width: 66.6666666666%;
+    flex-basis: 66.6666666666%;
+  }
+
+  &.is-5_7#{ $suffix } {
+    max-width: 71.4285714285%;
+    flex-basis: 71.4285714285%;
+  }
+
+  &.is-3_4#{ $suffix },
+  &.is-6_8#{ $suffix } {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+
+  &.is-4_5#{ $suffix } {
+    max-width: 80%;
+    flex-basis: 80%;
+  }
+
+  &.is-5_6#{ $suffix } {
+    max-width: 83.3333333333%;
+    flex-basis: 83.3333333333%;
+  }
+
+  &.is-6_7#{ $suffix } {
+    max-width: 85.7142857142%;
+    flex-basis: 85.7142857142%;
+  }
+
+  &.is-7_8#{ $suffix } {
+    max-width: 87.5%;
+    flex-basis: 87.5%;
+  }
+
+  &.is-full#{ $suffix },
+  &.is-1_1#{ $suffix },
+  &.is-2_2#{ $suffix },
+  &.is-3_3#{ $suffix },
+  &.is-4_4#{ $suffix },
+  &.is-5_5#{ $suffix },
+  &.is-6_6#{ $suffix },
+  &.is-7_7#{ $suffix },
+  &.is-8_8#{ $suffix } {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@mixin cesGridModifiers($suffix: '') {
+  &.is-auto#{ $suffix } {
+    & > * {
+      flex-grow: 0;
+      max-width: none;
+      flex-basis: auto;
+    }
+  }
+
+  &.is-fill#{ $suffix } {
+    & > * {
+      flex-grow: 1;
+      max-width: none;
+      flex-basis: auto;
+    }
+  }
+
+  &.is-stretch#{ $suffix } {
+    align-items: stretch;
+
+    & > * {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & > * > * {
+      flex: 1 0 auto;
+    }
+  }
+
+  &.is-full#{ $suffix } {
+    flex-grow: 1;
+  }
+
+  &.is-no-wrap#{ $suffix } {
+    flex-wrap: nowrap;
+  }
+
+  &.is-start#{ $suffix } {
+    justify-content: flex-start;
+  }
+
+  &.is-center#{ $suffix } {
+    justify-content: center;
+  }
+
+  &.is-end#{ $suffix } {
+    justify-content: flex-end;
+  }
+
+  &.is-top#{ $suffix } {
+    align-items: flex-start;
+  }
+
+  &.is-middle#{ $suffix } {
+    align-items: center;
+  }
+
+  &.is-bottom#{ $suffix } {
+    align-items: flex-end;
+  }
+
+  &.is-between#{ $suffix } {
+    justify-content: space-between;
+  }
+
+  &.is-around#{ $suffix } {
+    justify-content: space-around;
+  }
+
+  &.is-reverse#{ $suffix } {
+    flex-direction: row-reverse;
+  }
+
+  // -------------------------
+  // Gutters
+  // -------------------------
+  @include cesGridGutterModifiers(none#{ $suffix }, $ces-space-none);
+  @include cesGridGutterModifiers(xxs#{ $suffix }, $ces-space-xxs);
+  @include cesGridGutterModifiers(xs#{ $suffix }, $ces-space-xs);
+  @include cesGridGutterModifiers(sm#{ $suffix }, $ces-space-sm);
+  @include cesGridGutterModifiers(md#{ $suffix }, $ces-space-md);
+  @include cesGridGutterModifiers(lg#{ $suffix }, $ces-space-lg);
+  @include cesGridGutterModifiers(xl#{ $suffix }, $ces-space-xl);
+  @include cesGridGutterModifiers(xxl#{ $suffix }, $ces-space-xxl);
+}
+
+@mixin cesGridItemModifiers($suffix: '') {
+  &.is-pull#{ $suffix } {
+    order: -1;
+    margin-right: auto;
+    flex: none;
+  }
+
+  &.is-push#{ $suffix } {
+    order: 11;
+    margin-left: auto;
+    flex: none;
+  }
+
+  &.is-first#{ $suffix } {
+    order: -2;
+  }
+
+  &.is-last#{ $suffix } {
+    order: 12;
+  }
+
+  &.is-top#{ $suffix } {
+    align-self: flex-start;
+  }
+
+  &.is-middle#{ $suffix } {
+    align-self: center;
+  }
+
+  &.is-bottom#{ $suffix } {
+    align-self: flex-end;
+  }
+
+  &.is-flex-none#{ $suffix } {
+    flex: none;
+  }
+
+  &.is-auto#{ $suffix } {
+    max-width: none;
+    flex-basis: auto;
+  }
+
+  &.is-fill#{ $suffix } {
+    flex-grow: 1;
+    max-width: none;
+    flex-basis: auto;
+  }
+
+  // -------------------------
+  //    Order modifiers
+  // -------------------------
+  @for $i from 0 through 10 {
+    &.is-order-#{ $i }#{ $suffix } {
+      order: #{ $i };
+    }
+  }
+
+  // -------------------------
+  //    Width modifiers
+  // -------------------------
+  @include cesGridItemSizeModifier($suffix);
+}

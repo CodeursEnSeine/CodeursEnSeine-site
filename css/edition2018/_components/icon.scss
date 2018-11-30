@@ -1,0 +1,40 @@
+.ces-c-icon {
+  position: relative;
+  display: inline-block;
+  fill: currentColor;
+  width: 1.1em;
+  text-decoration: none;
+  line-height: inherit;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:not(.as--svg-color) * {
+    fill: currentColor !important;
+  }
+
+  &::after {
+    content: '\00a0'; // Fix: Align icon with text
+  }
+
+  &::before,
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+    font-size: 1.1em;
+  }
+
+  svg {
+    width: 1.2em !important;
+    height: 1.2em;
+  }
+}

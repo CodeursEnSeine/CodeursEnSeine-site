@@ -1,0 +1,67 @@
+---
+layout: meetups-sidebar
+---
+
+{% capture register %}
+  {% if page.meetup_register_link %}
+  <a href="{{page.meetup_register_link}}" class="ces-c-card is-primary is-center-content ces-h-mv-lg">
+    {% if page.meetup_date %}
+    <p class="ces-p-meetups-post__date">
+      Meetup le
+      {% include meetups/meetup-date.html %}
+    </p>
+    {% endif %}
+
+    {% if page.meetup_location %}
+    <p class="ces-p-meetups-post__location">
+      {{ page.meetup_location }}
+    </p>
+    {% endif %}
+
+    <div class="ces-c-button">
+      Inscrivez-vous !
+    </div>
+  </a>
+  {% elsif page.meetup_date %}
+  <div class="ces-c-card is-center-content ces-h-mv-lg">
+    {% if page.meetup_date %}
+    <p class="ces-p-meetups-post__date">
+      Meetup le
+      {% include meetups/meetup-date.html %}
+    </p>
+    {% endif %}
+
+    {% if page.meetup_location %}
+    <p class="ces-p-meetups-post__location">
+      {{ page.meetup_location }}
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endcapture %}
+
+<div class="ces-p-meetups-post">
+
+  <a href="/meetups">
+    Retour à la liste des meetups
+  </a>
+
+  <div class="ces-p-meetups-post__header">
+    <h1 class="ces-p-meetups-post__title">
+      {{ page.title }}
+    </h1>
+    <p class="ces-p-meetups-post__excerpt">
+      {{ page.excerpt }}
+    </p>
+
+    {{ register }}
+  </div>
+
+  <div class="ces-p-meetups-post__content">
+    {{ content }}
+  </div>
+
+  <div class="ces-h-mt-xxl">
+    {{ register }}
+  </div>
+</div>

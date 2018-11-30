@@ -1,0 +1,42 @@
+// Layout & Marges
+$cols-max: 12 !default;
+$marge: 2rem !default;
+$unpixel: 0.0625rem !default;
+
+// Font sizes
+$font-size-huge: 2rem !default;
+$font-size-great: 1.7rem !default;
+$font-size-big: 1.4rem !default;
+$font-size-medium: 1.2rem !default;
+$font-size-normal: 1rem !default;
+$font-size-little: 0.8rem !default;
+
+// Font weights
+$font-weight-regular: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-light: 300 !default;
+
+// Colors
+$gris-clair-1: #eee !default;
+$gris-clair-2: #ddd !default;
+$gris-clair-3: #ccc !default;
+$gris-fonce: #666 !default;
+
+$color-primary: #276a91 !default;
+$color-dark: #333 !default;
+
+// Media queries
+$mq-480: 30em !default;
+$mq-600: 37.5em !default;
+$mq-768: 48em !default;
+$mq-992: 62em !default;
+
+// Header
+$header-image: '/images/edition2016/header/header.jpg' !default;
+$header-image-lg: '/images/edition2016/header/header-lg.jpg' !default;
+$header-image-xl: '/images/edition2016/header/header-xl.jpg' !default;
+
+$headerHorizontalGutters: $marge / 2 !default;
+$headerVerticalGutters: $marge / 2 !default;
+$headerHorizontalGuttersLarge: $marge !default;
+$headerVerticalGuttersLarge: $marge / 1.5 !default;

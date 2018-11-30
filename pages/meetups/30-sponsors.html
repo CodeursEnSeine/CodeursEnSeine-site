@@ -1,0 +1,40 @@
+---
+layout: meetups
+group: meetups
+title: Sponsors
+permalink: /meetups/sponsors
+navigation: true
+order: 30
+---
+
+<h1>Devenir Sponsor ?</h1>
+
+<p>
+  Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
+</p>
+<p>
+  Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre d'une politique de recrutement.
+</p>
+<p>
+  Si vous souhaitez soutenir l'événement, téléchargez <a href="https://drive.google.com/file/d/1BCENZDDhQPDt7ACX2OF0hXq1513iPVXD/view?usp=sharing" target="_blank">le dossier de sponsoring</a>, <a href="https://docs.google.com/document/d/1KgMSEcv3OSitJq53yfW-vNcb7RrH6rnEqgGWgMTlgy0/edit?usp=sharing" target="_blank">la convention de sponsoring</a> et contactez-nous.
+</p>
+
+<hr>
+
+<h2>Sponsors 2018</h2>
+
+<div class="ces-l-grid">
+  {% for sponsor in site.data.meetups.sponsors %}
+    <div class="ces-l-grid__item is-1_2@xs is-1_3@md">
+      {% include edition2018/sponsor-card.html img_base_path="/images/meetups/sponsors/" %}
+    </div>
+  {% endfor %}
+</div>
+
+<hr>
+
+<h2>Sponsors Logistique</h2>
+
+<a href="http://www.devoxx.be" class="ces-c-card is-gutter-none ces-h-display-inline-block" target="_blank">
+  <img src="/images/meetups/sponsors/banner-voxxeddays-2018.png" width="300" height="250">
+</a>

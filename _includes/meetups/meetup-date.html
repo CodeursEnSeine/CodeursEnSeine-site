@@ -1,0 +1,37 @@
+{% assign meetup = post | default: page %}
+
+{% assign day = meetup.meetup_date | date: "%A" %}
+{% case day %}
+{% when 'Monday' %}Lundi
+{% when 'Tuesday' %}Mardi
+{% when 'Wednesday' %}Mercredi
+{% when 'Thursday' %}Jeudi
+{% when 'Friday' %}Vendredi
+{% when 'Saturday' %}Samedi
+{% when 'Sunday' %}Dimanche
+{% endcase %}
+
+{{ meetup.meetup_date | date: "%d" }}
+
+{% assign month = meetup.meetup_date | date: "%-m" %}
+{% case month %}
+{% when '1' %}Janvier
+{% when '2' %}Février
+{% when '3' %}Mars
+{% when '4' %}Avril
+{% when '5' %}Mai
+{% when '6' %}Juin
+{% when '7' %}Juillet
+{% when '8' %}Août
+{% when '9' %}Septembre
+{% when '10' %}Octobre
+{% when '11' %}Novembre
+{% when '12' %}Décembre
+{% endcase %}
+{{ meetup.meetup_date | date: "%Y" }}
+
+{% if meetup.meetup_start_time and meetup.meetup_end_time %}
+  de {{ meetup.meetup_start_time }} à {{ meetup.meetup_end_time }}
+{% elsif meetup.meetup_start_time %}
+  à partir de {{ meetup.meetup_start_time }}
+{% endif %}

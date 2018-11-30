@@ -1,39 +1,70 @@
  # This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",".editorconfig"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", ".editorconfig", ".idea/"]
 markdown : kramdown
 
+# Seo
+title : Codeurs en Seine
+description: "Rencontre de codeuses & codeurs à Rouen"
+url: https://www.codeursenseine.com/2018
+lang: fr_FR
+twitter:
+  username: codeursenseine
+  card: summary
+social:
+  name: Codeurs en Seine
+  links:
+    - https://twitter.com/codeursenseine
+    - https://www.facebook.com/codeursenseine
+    - https://www.linkedin.com/company/codeurs-en-seine
+    - https://github.com/CodeursEnSeine/
+
+meetups:
+  pretitle: "Retrouvez Codeurs en Seine toute l'année !"
+  title: "Meetups Codeurs en Seine"
+
+devoxx4kids:
+  pretitle: "Ateliers de programmation pour les 8-14 ans à Rouen"
+  title: "Devoxx4kids Rouen"
+
+edition2018:
+  pretitle: "Rencontre de codeuses & codeurs à Rouen"
+  title: "Jeudi 22 novembre 2018"
+
+edition2017:
+  pretitle: "Rencontre de codeurs à Rouen"
+  title: "Jeudi 23 novembre 2017"
+
+edition2016:
+  pretitle: "Rencontre de codeurs à Rouen"
+  title: "Jeudi 24 novembre 2016<br/>Samedi 26 novembre 2016"
+
+edition2015:
+  pretitle: "Rencontre de codeurs à Rouen : Web, Agile, Java, Technologies"
+  title: "Jeudi 26 novembre 2015"
+
+edition2014:
+  pretitle: "Rencontre de codeurs à Rouen : Web, Agile, Java, Innovation"
+  title: "Jeudi 27 novembre 2014"
+
+edition2013:
+  pretitle: "Rencontre de codeurs à Rouen : Agile, Java & Web"
+  title: "Jeudi 17 octobre 2013"
+
+production_url : https://www.codeursenseine.com
 permalink: /meetups/:year-:month-:day/:slug
 
-title : Codeurs en Seine
-description: "Rencontre de codeurs à Rouen"
-tagline :
-  2013 : "Rencontre de codeurs à Rouen : Agile, Java & Web"
-  2014 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Innovation"
-  2015 : "Rencontre de codeurs à Rouen : Web, Agile, Java, Technologies"
-  2016 : "Rencontre de codeurs à Rouen"
-  2017 : "Rencontre de codeurs à Rouen"
-  2018 : "Rencontre de codeurs à Rouen"
-  meetups : "Retrouvez des rencontres Codeurs en Seine tout au long de l'année !"
-  devoxx4kids : "Devoxx 4 Kids Rouen - Atelier de programmation pour les 8-14 ans"
-date :
-  meetups : "Meetups Codeurs en Seine"
-  2013 : "Jeudi 17 octobre 2013"
-  2014 : "Jeudi 27 novembre 2014"
-  2015 : "Jeudi 26 novembre 2015"
-  2016 : "Jeudi 24 novembre 2016<br/>Samedi 26 novembre 2016"
-  2017 : "Jeudi 23 novembre 2017"
-  2018 : "Jeudi 22 novembre 2018"
-  devoxx4kids : "Samedi 2 et 9 Décembre 2017 - 14h00-17h30"
-
-production_url : http://www.codeursenseine.com
-
 sass:
-  sass_dir: assets/css/
+  sass_dir: css
   style: compressed
+
+autoprefixer:
+  only_production: true
 
 plugins_dir:
 - jekyll-sitemap
 - jekyll-seo-tag
 - jekyll-redirect-from
+- jekyll-autoprefixer
+- jekyll-babel

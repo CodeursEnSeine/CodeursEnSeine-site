@@ -1,0 +1,147 @@
+<div class="ces-l-site-layout__navbar js-navbar">
+  <div class="ces-l-navbar">
+    <div class="ces-l-navbar__container">
+      <button type="button" class="ces-l-navbar__close js-navbar-close">
+        &times;
+      </button>
+      <div class="ces-l-navbar__header">
+        <a href="/2018/" class="ces-l-navbar__logo">
+          {% if page.group == 'meetups' %}
+            <img src="/images/meetups/logo-ces-meetup@2x.png" width="200" height="107" alt="{{site.title}}">
+          {% else %}
+            <img src="/images/edition2018/logo-ces@2x.png" width="200" height="107" alt="{{site.title}}">
+          {% endif %}
+        </a>
+      </div>
+      <div class="ces-l-navbar__scroll">
+        <nav class="ces-l-navbar__nav">
+          {% capture pages %}
+            {% assign sortedPages = site.pages | sort: "order" %}
+            {% for node in sortedPages %}
+              {% assign activeClass = '' %}
+              {% assign primaryClass = '' %}
+
+              {% if page.url == node.url or (node.url == '/meetups/' and page.category == 'meetup') %}
+              {% assign activeClass = 'is-active' %}
+              {% endif %}
+
+              {% if node.url == '/2018/' or node.url == '/meetups/' or node.url == '/devoxx4kids/' %}
+                {% assign primaryClass = 'is-primary' %}
+              {% endif %}
+
+              {% if node.title != null %}
+                {% if node.navigation != false %}
+                  {% if page.group == node.group %}
+                  <li class="ces-l-navbar__nav-item {{ activeClass }} {{ primaryClass }}">
+                    <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}{{node.url}}">
+                      {{node.title}}
+                    </a>
+                  </li>
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endcapture %}
+
+          <ul>
+            {% if page.group != 'edition2018' %}
+            <li class="ces-l-navbar__nav-item is-primary">
+              <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}/2018">
+                Édition 2018
+              </a>
+            </li>
+            {% endif %}
+            {% if page.group == 'edition2018' %}
+              {{ pages }}
+            {% endif %}
+
+            {% if page.group != 'meetups' %}
+            <li class="ces-l-navbar__nav-item is-primary">
+              <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}/meetups">
+                Meetups
+              </a>
+            </li>
+            {% endif %}
+            {% if page.group == 'meetups' %}
+              {{ pages }}
+            {% endif %}
+
+            {% if page.group != 'devoxx4kids' %}
+            <li class="ces-l-navbar__nav-item is-primary">
+              <a class="ces-l-navbar__nav-link" href="{{ BASE_PATH }}/devoxx4kids">
+                Devoxx4Kids
+              </a>
+            </li>
+            {% endif %}
+            {% if page.group == 'devoxx4kids' %}
+              {{ pages }}
+            {% endif %}
+          </ul>
+
+        </nav>
+        <div class="ces-l-navbar__footer">
+
+          <div class="ces-l-navbar__social">
+            <a class="ces-l-navbar__social-email" href="mailto:contact@codeursenseine.com">
+              contact@codeursenseine.com
+            </a>
+            <div class="ces-l-navbar__social-icons">
+              <a href="http://twitter.com/codeursenseine" target="_blank" title="Twitter">
+                <i class="ces-c-icon">
+                  {% include edition2018/icons/twitter.svg %}
+                </i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCWujmG5rANxJI0nHbMFs08w/playlists" target="_blank" title="Youtube">
+                <i class="ces-c-icon">
+                  {% include edition2018/icons/youtube.svg %}
+                </i>
+              </a>
+              <a href="https://github.com/CodeursEnSeine/" target="_blank" title="Github">
+                <i class="ces-c-icon">
+                  {% include edition2018/icons/github.svg %}
+                </i>
+              </a>
+              <a href="https://www.facebook.com/codeursenseine" target="_blank" title="Facebook">
+                <i class="ces-c-icon">
+                  {% include edition2018/icons/facebook.svg %}
+                </i>
+              </a>
+              <a href="https://www.linkedin.com/company/codeurs-en-seine" target="_blank" title="Linkedin">
+                <i class="ces-c-icon">
+                  {% include edition2018/icons/linkedin.svg %}
+                </i>
+              </a>
+            </div>
+          </div>
+
+          <div class="ces-l-navbar__past">
+            <div class="ces-l-navbar__past-title">
+              Éditions précédentes
+            </div>
+            <div class="ces-l-navbar__past-links">
+              <a href="/2013/" target="_blank">
+                2013
+              </a>
+              <a href="/2014/" target="_blank">
+                2014
+              </a>
+              <a href="/2015/" target="_blank">
+                2015
+              </a>
+              <a href="/2016/" target="_blank">
+                2016
+              </a>
+              <a href="/2017/" target="_blank">
+                2017
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

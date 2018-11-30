@@ -1,0 +1,25 @@
+.ces-h-media {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: rem(4);
+  background: white;
+  border: rem(1) solid rgba($ces-color-primary, .1);
+  box-shadow: 0 rem(4) rem(20) rgba($ces-color-primary, .2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.is-16_9 {
+    height: 0;
+    padding-bottom: 56%;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}

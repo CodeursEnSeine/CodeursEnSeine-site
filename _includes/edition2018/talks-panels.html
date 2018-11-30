@@ -1,0 +1,67 @@
+{% for slot in slots %}
+  {% assign count = slot.talks | size %}
+  {% if count > 0 %}
+    {% for talk in slot.talks %}
+      {% if talk.desc %}
+      <div class="ces-c-panel js-panel" id="panel-talk-{{talk.title | cgi_escape}}">
+        <div class="ces-c-panel__content">
+          <div class="ces-c-panel__content-scroll">
+            <strong class="ces-h-text-light">
+              <span class="ces-h-mr-xxs">{{ slot.time }}</span>
+              |
+              <span class="ces-h-ml-xxs ces-h-mr-sm">{{ talk.room }}</span>
+              {% if slot.type_single or talk.level %}
+              <span class="ces-c-badge is-lg">
+                {{ slot.type_single }}
+                {% if slot.type_single and talk.level %} - {% endif %}
+                {{ talk.level }}
+              </span>
+              {% endif %}
+            </strong>
+
+            <h3 class="ces-h-mv-sm">
+              {{ talk.title }}
+            </h3>
+
+            <strong class="ces-h-mr-xs">
+              {% for speaker_name in talk.speakers %}
+              {% assign speaker = site.data.edition2018.speakers | where: "name", speaker_name %}
+              {% assign speaker = speaker[0] %}
+
+              {% if forloop.index == 1 %}
+              Par
+              {% else %}
+              et
+              {% endif %}
+
+              {% if speaker and include.show_speakers_links == "true" %}
+                <a href="speakers.html#orateur-{{ speaker.name | cgi_escape }}">
+                  {{ speaker.name }}
+                </a>
+              {% else %}
+                <span>
+                  {{ speaker_name }}
+                </span>
+              {% endif %}
+              {% endfor %}
+            </strong>
+
+            {% if talk.sponsor %}
+            <span class="ces-c-badge is-success">Sponsorisé</span>
+            {% endif %}
+
+            <div class="ces-h-mt-md">
+              {{ talk.desc }}
+            </div>
+          </div>
+        </div>
+        <div class="ces-c-panel__footer">
+          <button class="ces-c-button is-block is-secondary" data-panel-close>
+            Fermer
+          </button>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
