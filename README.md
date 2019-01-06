@@ -109,8 +109,8 @@ edition[newYear]:
       Vous visitez le site d'une <strong>édition précédente</strong>.
     </div>
     <div class="ces-l-grid__item is-push">
-      <a href="/" class="ces-c-button is-block">
-        Voir l'édition actuelle
+      <a href="/[newYear]" class="ces-c-button is-block">
+        Voir l'édition [newYear]
       </a>
     </div>
   </div>
