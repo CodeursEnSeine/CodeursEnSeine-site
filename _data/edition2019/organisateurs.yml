@@ -30,10 +30,6 @@
   image: maxime.jpg
   link: https://twitter.com/maximemdotnet
 
-- name: Anthony Godin
-  image: anthony-godin.jpg
-  link: https://twitter.com/AnthoGdn
-
 - name: Asceline Boullen
   image: asceline-boullen.jpg
   link: https://twitter.com/AscelineBoullen
@@ -41,10 +37,6 @@
 - name: Cédric Munsch
   image: cedric-munsch.jpg
   link: https://twitter.com/CedricMunsch
-
-- name: Yohann Henry
-  image: yohann-henry.jpg
-  link: https://twitter.com/yohannhenry
 
 - name: Romain Barrez
   image: romain-barrez.jpg
@@ -61,9 +53,6 @@
 - name: Arnaud Lemercier
   image: photo-arnaud.png
   link: https://twitter.com/arnolem
-
-- name: Sükran
-  image: sukran.jpg
 
 - name: Philippe Chevreul
   image: philippe.jpg
