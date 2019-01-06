@@ -1,0 +1,102 @@
+.ces-p-speaker-card {
+  position: relative;
+
+  &__anchor {
+    position: absolute;
+    left: 0;
+    top: $ces-l-topbar-height*-1;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+
+  &__image {
+    flex: none;
+    width: rem(60);
+
+    @include cesMediaMin($ces-breakpoint-md) {
+      width: rem(100);
+    }
+  }
+
+  &__image + &__profile {
+    padding-left: $ces-space-md;
+  }
+
+  &__profile {
+    min-width: 0;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: $ces-font-size-ml;
+    margin: 0;
+  }
+
+  &__company {
+    font-size: $ces-font-size-ms;
+    color: $ces-color-text-light;
+    font-weight: bold;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: $ces-space-xs;
+    margin-left: $ces-space-xs*-1;
+    margin-bottom: $ces-space-xs*-1;
+
+    & > * {
+      margin-left: $ces-space-xs;
+      margin-bottom: $ces-space-xs;
+    }
+  }
+
+  // BIO
+  &__bio {
+    margin-top: $ces-space-md;
+
+    @include cesMediaMax($ces-breakpoint-xxs) {
+      font-size: $ces-font-size-ms;
+    }
+  }
+
+  // TALKS
+
+  &__talk {
+    display: block;
+    text-decoration: none;
+    margin-top: $ces-space-md;
+
+    &-title {
+      margin: 0;
+      font-weight: bold;
+      font-size: $ces-font-size-md;
+
+      a:hover &,
+      a:focus &{
+        text-decoration: underline;
+      }
+    }
+
+    &-details {
+      font-size: $ces-font-size-ms;
+      color: $ces-color-text-light;
+      font-weight: bold;
+    }
+
+    &-description {
+      color: $ces-color-text;
+      margin-top: $ces-space-xxs;
+      margin-bottom: $ces-space-xxs;
+      font-size: $ces-font-size-ms;
+    }
+
+    &-more {
+      font-size: $ces-font-size-ms;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.ces-l-topbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: $ces-color-primary $ces-gradient;
+
+  &__logo {
+    width: rem(90);
+    padding: 0 $ces-space-xs;
+  }
+
+  &__title {
+    flex-grow: 1;
+    text-align: center;
+    font-family: $ces-font-family-title;
+
+    small {
+      display: block;
+      font-size: $ces-font-size-xxs;
+    }
+
+    strong {
+      display: block;
+      font-size: $ces-font-size-sm;
+    }
+  }
+
+  &__nav-button {
+    width: $ces-l-topbar-height;
+    height: $ces-l-topbar-height;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
+    font-size: $ces-font-size-lg;
+    color: inherit;
+  }
+}

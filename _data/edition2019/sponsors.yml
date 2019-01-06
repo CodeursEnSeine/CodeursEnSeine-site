@@ -1,0 +1,19 @@
+## TEMPLATE ##
+#- name: Nom du sponsor
+#  type: gold | silver | bronze
+#  logo: logo-du-sponsor.png
+#  link: http://site-du-sponsor.fr
+#  description: "Description du sponsor"
+
+# -------------------
+# gold
+# -------------------
+
+
+# -------------------
+# silver
+# -------------------
+
+# -------------------
+# bronze
+# -------------------

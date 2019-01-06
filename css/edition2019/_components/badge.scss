@@ -1,0 +1,22 @@
+.ces-c-badge {
+  vertical-align: middle;
+  margin-top: rem(-2);
+  display: inline-block;
+  color: white;
+  background: $ces-color-dark;
+  font-size: $ces-font-size-xxs;
+  font-weight: bold;
+  border-radius: rem(2);
+  text-transform: uppercase;
+  padding: rem(2) rem(4);
+
+  &.is-lg {
+    font-size: $ces-font-size-sm;
+    text-transform: none;
+    padding: rem(2) rem(6);
+  }
+
+  &.is-success {
+    background: $ces-color-success;
+  }
+}

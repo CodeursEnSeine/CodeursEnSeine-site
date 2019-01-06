@@ -1,0 +1,56 @@
+@include cesMediaMax(rem(600)) {
+  .ces-c-panel-is-open {
+    overflow: hidden;
+  }
+}
+
+.ces-c-panel {
+  z-index: 9;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: rem(600);
+  max-width: 98%;
+  background: white;
+  border-left: rem(1) solid rgba($ces-color-primary, .1);
+  transform: translateX(100%);
+  transition: .4s transform;
+
+  display: flex;
+  flex-direction: column;
+
+  @include cesMediaMax($ces-breakpoint-navbar) {
+    margin-top: $ces-l-topbar-height;
+  }
+
+  &.is-open {
+    transform: translateX(0);
+    box-shadow: 0 rem(4) rem(20) rgba($ces-color-primary, .2);
+  }
+
+  &__content {
+    z-index: 1;
+    flex-grow: 1;
+    position: relative;
+
+    &-scroll {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: auto;
+      padding: $ces-space-md;
+    }
+  }
+
+  &__footer {
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 rem(-10) rem(30) rem(10) white;
+    flex: none;
+    padding: $ces-space-md;
+  }
+}

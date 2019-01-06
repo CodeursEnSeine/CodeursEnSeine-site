@@ -1,0 +1,62 @@
+body {
+  font-family: $ces-font-family-base;
+  color: $ces-color-text;
+  line-height: $ces-line-height;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: $ces-font-family-title;
+  margin: .5em 0;
+}
+
+h1 {
+  font-size: $ces-font-size-xxl;
+}
+
+h2 {
+  font-size: $ces-font-size-xl;
+}
+
+h3 {
+  font-size: $ces-font-size-lg;
+}
+
+h4 {
+  font-size: $ces-font-size-ml;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: $ces-font-size-md;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: $ces-font-size-ms;
+}
+
+p,
+li {
+  margin-top: 0;
+}
+
+a {
+  cursor: pointer;
+  color: $ces-color-primary;
+  outline: none;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,18 @@
+$ces-breakpoint-xxs: rem(450) !default;
+$ces-breakpoint-xs:  rem(600) !default;
+$ces-breakpoint-sm:  rem(800) !default;
+$ces-breakpoint-md:  rem(1000) !default;
+$ces-breakpoint-lg:  rem(1200) !default;
+$ces-breakpoint-xl:  rem(1400) !default;
+$ces-breakpoint-xxl: rem(1600) !default;
+
+$ces-breakpoint-modifiers:
+  $ces-breakpoint-xxs \@xxs,
+  $ces-breakpoint-xs \@xs,
+  $ces-breakpoint-sm \@sm,
+  $ces-breakpoint-md \@md,
+  $ces-breakpoint-lg \@lg,
+  $ces-breakpoint-xl \@xl,
+  $ces-breakpoint-xxl \@xxl !default;
+
+$ces-breakpoint-navbar: $ces-breakpoint-md !default;;

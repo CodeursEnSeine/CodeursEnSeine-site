@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  margin-bottom: $ces-space-md;
+  background-color: white;
+  border-spacing : 0;
+  border-collapse : collapse;
+  border: rem(1) solid #eee;
+
+  th,
+  td {
+    text-align: left;
+    padding: $ces-space-xs;
+    vertical-align: top;
+    border: rem(1) solid #eee;
+  }
+
+  thead {
+    th,
+    td {
+      vertical-align: bottom;
+      border-bottom: (2 * rem(1)) solid #eee;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: $ces-font-size-md;
+  line-height: $ces-line-height;
+  font-weight: normal;
+  font-family: $ces-font-family-base;
+  color: $ces-color-text;
+  background-image: none; // Reset unusual Firefox-on-Android default style
+  border-radius: 0;
+
+  // Placeholder
+  &::-moz-placeholder {
+    color: $ces-color-text-light;
+    opacity: 1; // Override Firefox's unusual default opacity
+  }
+
+  &:-ms-input-placeholder {
+    color: $ces-color-text-light;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $ces-color-text-light;
+  }
+}
+
+button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+  font-family: $ces-font-family-base;
+
+  &:active {
+    outline: 0;
+    background-image: none;
+
+    &:focus {
+      outline: thin dotted;
+      outline-offset: rem(-2);
+    }
+  }
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  // Chrome and Firefox set a `min-width: min-content;` on fieldsets,
+  // so we reset that to ensure it behaves more like a standard block element.
+  min-width: 0;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content
+}
+
+// Normalize form controls
+//
+// While most of our form styles require extra classes, some basic normalization
+// is required to ensure optimum display with or without those classes to better
+// address browser inconsistencies.
+
+// Override content-box in Normalize (* isn't specific enough)
+input[type="search"] {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+// Position radios and checkboxes better
+input[type="radio"],
+input[type="checkbox"] {
+  line-height: normal;
+}
+
+// Set the height of file controls to match text inputs
+input[type="file"] {
+  display: block;
+  line-height: 1;
+}
+
+// Make range inputs behave like textual form controls
+input[type="range"] {
+  display: block;
+  width: 100%;
+}
+
+// Make multiple select elements height not fixed
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+// Focus for file, radio, and checkbox
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted;
+  // WebKit
+  outline: rem(5) auto -webkit-focus-ring-color;
+  outline-offset: rem(-2);
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  overflow: hidden;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+label[for] {
+  cursor: pointer;
+}

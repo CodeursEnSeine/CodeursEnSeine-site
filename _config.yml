@@ -7,7 +7,7 @@ markdown : kramdown
 # Seo
 title : Codeurs en Seine
 description: "Rencontre de codeuses & codeurs à Rouen"
-url: https://www.codeursenseine.com/2018
+url: https://www.codeursenseine.com/2019
 lang: fr_FR
 twitter:
   username: codeursenseine
@@ -27,6 +27,10 @@ meetups:
 devoxx4kids:
   pretitle: "Ateliers de programmation pour les 8-14 ans à Rouen"
   title: "Devoxx4kids Rouen"
+
+edition2019:
+  pretitle: "Rencontre de codeuses & codeurs à Rouen"
+  title: "Édition 2019"
 
 edition2018:
   pretitle: "Rencontre de codeuses & codeurs à Rouen"

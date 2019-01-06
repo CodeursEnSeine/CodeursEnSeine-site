@@ -1,0 +1,303 @@
+## TEMPLATE ##
+#- name: Nom du speaker
+#  image: /default.jpg
+#  company: Company
+#  bio: "Bio"
+#  links:
+#    - label: Twitter
+#      url: https://twitter.com/
+#    - label: Github
+#      url: https://github.com/
+
+
+- name: Guy Fournier
+  company: Les Dragons de Rouen
+  image: /guy-fournier.jpg
+  bio: "<p>Ancien joueur de hockey sur glace franco-canadien qui jouait au poste d'attaquant. Il est devenu ensuite entraîneur des Dragons de Rouen entre 1997 et 2006, année où il est devenu manager général du club.</p>"
+  links:
+    - label: Wikipedia
+      url: https://fr.wikipedia.org/wiki/Guy_Fournier_(hockey_sur_glace)
+
+- name: FibreTigre
+  image: /fibre-tigre.jpg
+  bio: "<p>FibreTigre est auteur de jeux vidéo&nbsp;: Out There, Out There Chronicles, Sigma Theory, Antioch, Eugenics, auteur d'escape rooms, animateur de Game of Rôles sur la JVTV, chroniqueur dans Studio404 et Trajectoires, auteur de romans jeunesse et spécialiste de la fiction interactive.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/FibreTigre
+
+- name: Arnold Zephir
+  company: Prevision.io
+  image: /arnold-zephir.jpg
+  bio: "<p>Développeur. A l'origine ingénieur en microélectronique, il évolue d'abord  vers le développement de logiciels embarqués en temps réel. Devant la complexité croissante des développements, il profite de l'essor de l'IA pour confier une partie de ses analyses et développements à un réseau de neurone. À la suite de ça il fait du développement d'IA son travail à temps plein et rejoint prevision.io pour y développer des fermes d'Intelligences artificielles.</p>"
+  links:
+    - label: prevision.io
+      url: https://prevision.io/
+    - label: Twitter
+      url: https://twitter.com/cepcam
+
+- name: Nicolas Grekas
+  company: SensioLabs
+  image: /nicolas-grekas.jpg
+  bio: "<p>Nicolas works on Symfony, with two sides to his contributions. On the open-source side, he's been submitting new features and bug fixes almost daily for 5 years. He puts a lot of efforts on making Symfony fast, easy to use and well designed, all at the same time. On the business side, he leads the ambition to create a sustainable company supporting and supported directly by the Symfony ecosystem. He previously worked as CTO for Blackfire.io, the PHP profiler that we were all missing and you should definitively try. Nicolas Grekas is a member of the community since December 2013.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/nicolasgrekas
+
+- name: Nicolas Saillard
+  company: Coaxys
+  image: /nicolas-saillard.jpg
+  bio: "<p>Un prof de sport vous avez dit&nbsp;? Les études en ont décidé autrement par un virage radical vers l'informatique. Nicolas a cependant conservé de sa passion pour le sport, l'esprit d'équipe. Une fois le diplôme d'ingénieur en poche, son parcours lui a fait découvrir le monde des éditeurs de logiciels durant 6 années, passant de la technologie Java à Microsoft, des métiers du web à ceux de la banque… La 7ème année fut la découverte des SSII et de la gestion de projets. Nicolas s'éloigne petit à petit de l'expertise technique pour se concentrer sur les méthodes de travail et le management. Après 3 années en tant que directeur technique et responsable de Centre de Services, un nouveau challenge s'imposait. Nicolas est amoureux du travail bien fait et de la satisfaction de ses clients qu'il considère comme ses partenaires. La confiance est son leitmotiv, l'agilité est son outil, la bonne humeur est son arme...</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/nikosaillard
+
+- name: Sébastien Pertus
+  company: Microsoft
+  image: /sebastien-pertus.jpg
+  bio: "<p><strong>Cloud Developer Advocate</strong> chez <strong>Microsoft France</strong>, <strong>Sébastien</strong> est en charge d'accompagner les communautés de développeurs autour des technologies innovantes de Microsoft.
+        En charge de tout ce qui touche au développement autour du développement <strong>Web Front</strong> avec <strong>TypeScript</strong> et <strong>Angular</strong>, <strong>Azure</strong> et <strong>NodeJS</strong> côté <strong>Backend</strong>, et enfin la donnée autour de <strong>SQL Server</strong> et <strong>MySQL</strong>.
+        Grand passionné de techno, Sébastien s’intéresse à la partie <strong>Microsoft Open Source</strong>, allant du monde Java chez Microsoft, .Net Core sur Mac ou encore Visual Studio Code&nbsp;!</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/sebpertus
+    - label: GitHub
+      url: https://www.github.com/mimetis
+
+- name: Francois Teychene
+  company: Saagie
+  image: /francois-teychene.jpg
+  bio: "<p>Cloud Developper @ Saagie, meetup addict & organiser @ Montpellier et Organisateur SunnyTech. Développeur couteau suisse pouvant intervenir du Javascript à la table de routage. Mes passions actuelles sont le Rust, le DevOps et le Scala en plus de vouloir mettre des conteneurs partout.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/fteychene
+    - label: GitHub
+      url: https://www.github.com/fteychene
+
+- name: Quentin Adam
+  company: Clever Cloud
+  image: /quentin-adam.jpg
+  bio: "<p>Quentin ADAM is the CEO of Clever Cloud: an IT automation company, running a Platform as a Service allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/waxzce
+    - label: GitHub
+      url: https://www.github.com/waxzce
+
+- name: Matthieu Lux
+  company: Zenika
+  image: /matthieu-lux.jpg
+  bio: "<p>Directeur d'AYA digital agency (@AyaExperience) Développeur & Formateur Web / JavaScript (React, Angular, Redux, Gulp, Node, Yeoman) Organisateur du LyonJS Co-créateur du générateur Yeoman FountainJS (@YeomanFountain)</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/Swiip
+    - label: GitHub
+      url: https://www.github.com/Swiip
+
+- name: Céline Gilet
+  company: OCTO Technology
+  image: /celine-gilet.jpg
+  bio: "<p>Céline fait partie de la tribu Software Craftsmanship chez OCTO Technology. </p>
+        <p>Développeuse depuis plus de 10 ans, elle intervient et accompagne des projets pour promouvoir les pratiques de qualité logicielle (TDD, Clean Code, Code review). </p>
+        <p>Elle s'intéresse et se passionne pour tout ce qui favorise et entretient la dynamique dans une équipe de développement.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/celinegilet
+    - label: GitHub
+      url: https://www.github.com/celinegilet
+
+- name: Etienne Crombez
+  company: Zenika
+  image: /default.jpg
+  bio: "<p>Développeur depuis 6 ans, je m'interesse aux technologies frontend à la sortie de la version stable d'angularJS il y a 4 ans et depuis je navigue de react à angular en passant mais reste attaché au développement front</p>"
+
+- name: Betty Moreschini
+  company: vente privee
+  image: /betty-moreschini.jpg
+  bio: "<p>Betty est ingénieure logiciel dans l’équipe dédiée à la personnalisation chez vente-privee. Elle a travaillé auparavant sur différents sujets, toujours avec une forte composante algorithmique, notamment le refactoring automatique de code et les moteurs d’AB test.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/bettymoreschini
+
+- name: Marion Deveaux
+  company: Attineos
+  image: /marion-deveaux.jpg
+  bio: "<p>Diplômée de l'INSA en Architecture des Systèmes d'Information, je suis maintenant Front end developer chez Attineos.<br>
+           Je travaille au sein d'une équipe de 13 développeurs et au quotidien avec des designers et une équipe back end pour un client Parisien spécialisé dans l'emailing.<br>
+           Passionnée par l'informatique, le management et le basketball, je suis aussi joueuse nationale et coach régionale de basket. Une fille ingénieure en informatique et sportive, je casse tous les préjugés&nbsp;!
+</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/MarionDev0
+
+- name: Valentin Desportes
+  company: Attineos
+  image: /valentin-desportes.jpg
+  bio: "<p>Après avoir obtenu mon diplôme de Master Informatique à l'Université de Rouen, je suis entré chez Attineos, en tant qu'Ingénieur Études et Développement. <br>
+  Je travaille surtout sur des projets React, en collaborant avec des équipes back en remote. Si vous êtes intéressé par React Native, ou Overwatch, hésitez pas à me pinguer sur Twitter ;)</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/V4lulz
+
+- name: Julien Topçu
+  company: Société Générale & OWASP Foundation
+  image: /julien-topcu.jpg
+  bio: "<p>Senior Lead Developer à la Société Générale, je suis un fervent défenseur du Software Craftsmanship.
+        J'évangélise activement autour de DDD/Hexagonal Architecture, l'XP et le Kanban #NoEstimates au sein de cours et de <a target=\"_blank\" href=\"https://youtu.be/P0_M00X4Xlw\">meetups</a> ainsi qu'à travers d'articles de <a target=\"_blank\" href=\"https://beyondxscratch.wordpress.com/\">blog</a>.
+        Membre de la fondation OWASP, je m'efforce de transmettre à la communauté une philosophie DevSecOps que je pense être l'avenir du métier de développeur. J'ai participé à la mise en place de pipeline de Continuous Security à l'échelles d'entreprises.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/JulienTopcu
+
+- name: Cédric Dué
+  company: Saagie
+  image: /cedric-due.jpg
+  bio: "<p>Fan de techs, et amateur de la poésie qui réside dans un code bien écrit, je totalise plus de 12 ans d'expérience entre grand groupe et startup. Prenant autant de plaisir à faire du front que du back ou à jouer avec les conteneurs, je travaille aujourd'hui chez Saagie, LA startup Rouennaise qui déchire.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/cedricdue
+    - label: GitHub
+      url: https://www.github.com/cdue
+
+- name: Frédéric Jammes
+  company: Sopra Steria
+  image: /frederic-jammes.jpg
+  bio: "<p>Frédéric JAMMES est développeur depuis 13 ans, et en particulier, développeur frontend. Il a réellement apprécié le front avec AngularJS, avec lequel il a développé l'application Circulez-Malin.</p>
+  <p>Depuis maintenant plus de 2 ans, il est responsable technique d'une équipe de développement, sur plusieurs projets, en Angular qu'il a vu évoluer depuis sa première version (la 2 bien évidemment&nbsp;!).</p>"
+  links:
+    - label: Linkedin
+      url: https://www.linkedin.com/in/frédéric-jammes-b2991331/
+    - label: GitHub
+      url: https://www.github.com/fredjammes
+
+- name: Cyril Lefebvre
+  company: Sopra Steria
+  image: /cyril-lefebvre.jpg
+  bio: "<p>Cyril LEFEBVRE, développeur depuis 6 ans, est expert dans le domaine de la Digital Interaction autour des technologies XR, Web et Mobile (notamment sur des développements Unity, Angular et Hololens).</p>
+  <p>Responsable sur le pôle innovation de Rouen et Digital Interaction sur le marché Industrie, Transport et Aeroline.</p>"
+  links:
+    - label: Linkedin
+      url: https://www.linkedin.com/in/cyril-lefebvre-2a818294/
+    - label: GitHub
+      url: https://www.github.com/LirycMoaners
+
+- name: Yuan Ji
+  company: Matmut
+  image: /yuan-ji.jpg
+  bio: "<p>Yuan a découvert la Matmut à travers son premier Hackathon. Depuis 3 ans il est spécialiste en Big Data dans le service Data Lab.<br>Passionné par les nouvelles technologies, le cyclisme et le football, il aime par-dessus tout apporter des technologies innovantes dans chacun de ses projets.</p>"
+
+
+- name: Mélanie Boudard
+  company: OCTO Technology
+  image: /melanie-boudard.jpg
+  bio: "<p>Passionnée par l'informatique et plus particulièrement le web, Mélanie considère que l'humain doit être au coeur des applications développées actuellement. Pour cela, elle considère que le monde du web se doit d'adopter les bonnes pratiques de développement pour assurer la meilleure expérience aux utilisateurs. Après des études d'ingénieurs et un doctorat en informatique, Mélanie a rejoint Octo Technology en tant que consultante Web Front.</p>"
+  links:
+    - label: GitHub
+      url: https://www.github.com/MelanieMEB
+
+- name: Clément Dubois
+  company: OCTO Technology
+  image: /clement-dubois.jpg
+  bio: "<p>Clément est tombé dans le bain du web il y a 8 ans! Depuis 5 ans, il évolue dans le cabinet de conseil Octo Technology au sein de la tribu web front-end dont l’objectif est de construire des applications web de qualité, de capitaliser, de former et de partager le fruit de notre R&D.</p><p>Il apprécie particulièrement l'ecosystème front-end. Il a travaillé sur des projets en AngularJS, ReactJS et Vue dans des contextes agiles. Il s’intéresse à la démarche software craftmanship appliqué au front-end.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/Clement_D
+
+- name: Amelie Boucher
+  company: L'UX sur le gâteau
+  image: /amelie-boucher.jpg
+  bio: "<p>Amélie Boucher est Ergonome & UX Designer. Elle exerce depuis 14 ans dans une grande variété de domaines&nbsp;: e-commerce, éditorial, réseaux sociaux, logiciels et applications métier… Engagée dans la promotion de la discipline en France, elle est l'auteur de trois livres sur le sujet&nbsp;: Ergonomie web, Ergonomie web illustrée et Expérience utilisateur mobile, le tout aux éditions Eyrolles. Elle monte en 2013 un studio de design&nbsp;: L'UX sur le gâteau.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/amelieboucher
+
+- name: Philippe Charrière
+  company: GitLab | Bots.Garden | CleverCloud
+  image: /philippe-charriere.jpg
+  bio: "<p>TAM @GitLab - Eleveur de bots @BotsGarden - CSO @Clever_Cloud - Eclipse Golo core committer @TypeUnsafe - @ScalaIO_FR member - GDG Cloud & IOT Lyon member</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/k33g_org
+    - label: GitHub
+      url: https://www.github.com/k33g
+
+- name: Frédéric Leguédois
+  company: Cloud Temple
+  image: /frederic-leguedois.jpg
+  bio: "<p>Evangéliste Agile, libriste, voire polémiste ;-) Conférencier iconoclaste chez @CloudTemple . Garanti zéro certification.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/f_leguedois
+
+- name: Céline Louvet
+  company: Fairvioo
+  image: /celine-louvet.jpg
+  bio: "<p>CTO & cofondatrice de Fairvioo et développeuse au quotidien</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/celine_louvet
+    - label: GitHub
+      url: https://www.github.com/celinelouvet
+
+- name: Horacio Gonzalez
+  company: OVH
+  image: /horacio-gonzalez.jpg
+  bio: "<p>Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. Après quelques années comme tech leader de la partie frontend de @warp10io chez Cityzen Data, Horacio a rejoint OVH en janvier 2018 en tant que Developer Advocate. Il est aussi leader et cofondateur du FinistDevs et du GDG Finistère, le GDG francophone le plus proche de la Silicon Valley. Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio est Google Developer Expert (GDE) en Web Technologies et Polymer.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/LostInBrittany
+    - label: GitHub
+      url: https://www.github.com/LostInBrittany
+
+- name: Florian Ferbach
+  company: Marmelab
+  image: /florian-ferbach.jpg
+  bio: "<p>Facilitateur chez marmelab, co-organisateur des apéros agiles Nancy, enseignant à l'IUT Nancy-Charlemagne, sidepreneur à mes heures perdues.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/fferbach
+
+- name: Robin Szylobryt
+  company: Matmut
+  image: /robin-szylobryt.jpg
+  bio: "<p>Robin (prononcez silobrit) est développeur depuis plus de 10 ans sur les technologies Web, C# et iOS. Ses passions&nbsp;: La plongée en eau profonde et Star Wars. Le Macbook Pro est son matériel de prédilection …en attendant les prochains ordinateurs quantiques</p>"
+
+- name: Tugdual Grall
+  company: MapR
+  image: /tugdual-grall.jpg
+  bio: "<p>Tugdual Grall, est Chief Technical Evangelist EMEA chez MapR. Il travaille avec les clients et les communautés de développeurs européennes, pour faciliter l’adoption de MapR, Hadoop et NoSQL. Avant de travailler chez MapR, “Tug”, était Technical Evangelist chez MongoDB et Couchbase. Tug a travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform Java/JavaEE d’Oracle. Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/tgrall
+    - label: GitHub
+      url: https://www.github.com/tgrall
+
+- name: Charles Desneuf
+  company: Evaneos
+  image: /charles-desneuf.jpeg
+  bio: "<p>Charles est développeur web depuis plusieurs années et s'intéresse aux manières de réaliser des applications répondant aux besoins des utilisateurs. Il s'est pour cela beaucoup penché sur ce qui permet de délivrer des logiciels de qualité.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/SelrahcD
+    - label: GitHub
+      url: https://www.github.com/SelrahcD
+
+- name: Christophe Malaboeuf
+  company: OCTO technology
+  image: /christophe-malaboeuf.jpg
+  bio: "<p>Diplômé du CESI-Alternance en 2013 à Rouen, Christophe a rejoint OCTO Technology pour aller plus loin dans le développement et monter sur des compétences tels que le Craftmanship et le TechLeading. Passionné par l’informatique, il aime les défits. Après deux startup entre 2011 et 2016, il rejoint un éditeur de logiciel de traduction en 2016 où il met en pratique ces compétences en nodejs et AngularJS. Tout au long de son parcours il a toujours aimé l’OPS et a toujours pratiqué. Au sein de l’editeur de logiciel il découvre Docker et Kubernetes. Convaincu par la culture DevOps il continue d’apprendre dans ce sens avec Terraform, Ansible, Gitab-CI Chez OCTO Technology, Christophe apporte sa vision fullstack sur un project. Il est aussi à l’aise en front qu’en back ou encore sur la partie DevOPs Depuis bientôt un an , Christophe a progressé au sein d’OCTO en réalisant différentes missions en conseil, formation ou délivery. Il intervient en expert des architectures front ou bien sur des postes de techLeading sur des équipes de 4 à 5 personnes.</p>"
+  links:
+    - label: GitHub
+      url: https://www.github.com/cmalaboeuf
+
+- name: Florian Duboc
+  company: Groupe SII
+  image: /florian-duboc.jpg
+  bio: "<p>Passionné d'informatique depuis mon adolescence, cela fait maintenant 3 ans que je suis développeur J2EE/.Net dans une ESN normande. J'aime découvrir les nouvelles technologies et les mettre rapidement en pratique dans mes nouveaux projets. Aujourd hui, j'ai réussi à transformer ma passion de joueur en Editeur de jeux vidéo sur mobile grâce à Unity3D.</p>"
+
+- name: Nadège Bide
+  company: VNext
+  image: /nadege-bide.jpg
+  bio: "<p>Après + de 10 ans dans la mode en tant que designer produit, Nadège aujourd’hui Responsable UX d'un cabinet de conseil en Innovation de développement améliore la vie des utilisateurs grâce au Design d’Innovation numérique.</p>"
+  links:
+    - label: Twitter
+      url: https://twitter.com/nanaparci
