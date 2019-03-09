@@ -24,6 +24,10 @@
   }
 }
 
+.ces-h-justify-content-center{
+  justify-content: center;
+}
+
 @include cesUtilDisplay();
 
 @each $breakpoint in $ces-breakpoint-modifiers {
