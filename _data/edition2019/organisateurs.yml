@@ -65,7 +65,7 @@
 - name: Laurent Deséchalliers
   image: laurent.png
   link: https://www.linkedin.com/in/desechalliers/
-  
+
 - name: Alexandre Dupré
   image: alexandre.png
   link: https://twitter.com/AlexDupreWeb
@@ -81,3 +81,22 @@
 - name: Gilles Vandecandelaere
   image: gilles.jpg
   link: https://twitter.com/Kiim_fr
+
+- name: Claire Jeanne
+  image: claire.jpg
+  link: https://twitter.com/c_jeanne63
+
+- name: Gilles Morel
+  image: gilles-morel.jpg
+
+- name: Etienne Reith
+  image: etienne.jpeg
+  link: https://twitter.com/EtienneReith
+
+- name: Julien Boidin
+  image: julien.jpg
+
+- name: Laurie Dupuis
+  image: laurie.jpg
+  link: https://twitter.com/PtiteRapporteuZ
+
