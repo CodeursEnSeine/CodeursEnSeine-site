@@ -1,0 +1,10 @@
+@mixin cesUtilListStyle($value) {
+  .ces-h-list-style_#{$value} {
+    list-style: $value !important;
+  }
+}
+
+@include cesUtilListStyle(none);
+@include cesUtilListStyle(inside);
+@include cesUtilListStyle(square);
+@include cesUtilListStyle(circle);
