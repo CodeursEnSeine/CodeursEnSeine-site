@@ -17,3 +17,8 @@
 # -------------------
 # bronze
 # -------------------
+- name: Digit
+  type: bronze
+  logo: digit@web.png
+  link: https://www.justdigit.fr/
+  description: "<p>DIGIT est le fruit d'une amitié née sur les bancs de l'école d'ingénieurs et d'une expérience cumulée de 30 ans en Entreprise de Services du Numérique.</p>"
