@@ -21,6 +21,12 @@
   <p>Intervenant chez nos clients, dans notre Centre de services agile hébergé au sein de Seine Innopolis, ou encore dans le Lab Attineos, nos équipes conçoivent des applications innovantes et pragmatiques, génératrices de valeur ajoutée. Qu’il s’agisse de bâtir des solutions web, mobiles ou des systèmes de traitement des données, nos intervenants, ingénieurs études et développements, experts techniques ou architectes, s’emploient à concentrer leur attention sur une transformation simple et qualitative des métiers et des usages.</p>
   <p>Le goût du challenge et de l’innovation, la passion du numérique, un sens exacerbé du service, un véritable esprit d’équipe : c’est grâce à ces ingrédients qu’Attineos prend son envol.</p>"
 
+- name: Saagie
+  type: silver
+  logo: saagie@web.png
+  link: http://www.saagie.com
+  description: "<p>Saagie est une startup éditant une plateforme AI et Big Data permettant aux entreprises d'accomplir leurs initiatives data en un minimum de temps pour placer la donnée au cœur de leur culture!</p>
+  <p>Présent à Rouen/Seine Innopolis, Paris et San Francisco, nous sommes régéulièrement à la recherches de codeurs java, kotlin, scala, javascript, css pour compléter notre équipe et suivre notre croissance.</p>"
 
 # -------------------
 # bronze
