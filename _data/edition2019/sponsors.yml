@@ -51,3 +51,10 @@
     <p>Fort de notre expertise et certifications PHP et Zend Framework, nous aidons les sociétés dans la formation de leurs collaborateurs, la reprise ou la réalisation de leurs projets sur-mesures et innovants.</p>
     <p>Nous accordons une grande importance au conseil, à l'ergonomie, l'expérience utilisateur, la sécurité et la qualité technique, ainsi qu'à la réussite globale des projets.</p>"
 
+- name: Bear Studio
+  type: bronze
+  logo: bearstudio@web.png
+  link: http://www.bearstudio.fr
+  description: "<p>Vous souhaitez lancer un projet numérique, mais vous ne savez pas par où commencer, ni à qui vous adresser ? Pas de panique, le BearStudio est là pour vous aider !</p>
+  <p>De l’étude de votre environnement au coaching de vos équipes, en passant par le développement de vos solutions numérique, le BearStudio vous accompagne dans toutes les étapes de réflexion et de croissance de votre projet. Notre crédo ? #NoBullshit !</p>"
+
