@@ -70,3 +70,19 @@
   description: "<p>Vous souhaitez lancer un projet numérique, mais vous ne savez pas par où commencer, ni à qui vous adresser ? Pas de panique, le BearStudio est là pour vous aider !</p>
   <p>De l’étude de votre environnement au coaching de vos équipes, en passant par le développement de vos solutions numérique, le BearStudio vous accompagne dans toutes les étapes de réflexion et de croissance de votre projet. Notre crédo ? #NoBullshit !</p>"
 
+- name: Invoke
+  type: bronze
+  logo: invoke@web.png
+  link: http://www.invoke-software.fr
+  description: "<p>
+                 Invoke, éditeur de logiciels de reporting financier et réglementaire depuis 2001, connaît une croissance forte en France comme à l’international.
+               </p>
+               <p>
+               Acteur international de référence en matière de reporting au format XBRL, Invoke se distingue par son innovation et son avancée technologique grâce à une gamme logicielle unique intégrant les dernières technologies de lecture, édition, production et validation d’informations financières au format XBRL.
+               </p>
+               <p>
+               Avec un budget d’ 1/3 de son chiffre d’affaires consacré à la R&D, Invoke ne cesse d’enrichir fonctionnellement sa gamme pour continuer de satisfaire ses clients et poursuivre son évolution rapide.
+               </p>
+                <p>
+               Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles sont les valeurs portées par les équipes d’ Invoke pour avancer dans le même sens !
+  </p>"
