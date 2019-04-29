@@ -28,6 +28,12 @@
   description: "<p>Saagie est une startup éditant une plateforme AI et Big Data permettant aux entreprises d'accomplir leurs initiatives data en un minimum de temps pour placer la donnée au cœur de leur culture!</p>
   <p>Présent à Rouen/Seine Innopolis, Paris et San Francisco, nous sommes régulièrement à la recherches de codeurs java, kotlin, scala, javascript, css pour compléter notre équipe et suivre notre croissance.</p>"
 
+- name: Clever Cloud
+  type: silver
+  logo: clevercloud@web.png
+  link: https://www.clever-cloud.com/fr/
+  description: "<p>Clever Cloud est un service d’automatisation de votre usine logicielle : toutes les opérations d’infrastructure ne sont plus à votre charge, au profit de votre cœur de métier.</p>"
+
 # -------------------
 # bronze
 # -------------------
