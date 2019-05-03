@@ -17,7 +17,7 @@ meetup_register_link: https://www.meetup.com/fr-FR/codeursenseine/events/2609851
 
 ---
 
-Nous hébergeons le premier Rouen AWS User group, si vovus fouillez sur le site meetup vous verrez 2 évènements, il suffit de vous inscrire à un des deux. L'objectif est de le faire connaître à un maximum de monde.
+Nous hébergeons le premier Rouen AWS User group, si vovs fouillez sur le site meetup vous verrez 2 évènements, il suffit de vous inscrire à un des deux. L'objectif est de le faire connaître à un maximum de monde.
 
 ## Les sujets de la soirée
 
