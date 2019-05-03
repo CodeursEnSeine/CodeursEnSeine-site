@@ -4,7 +4,7 @@ group: meetups
 category: meetup
 
 slug: aws-user-group
-published: false
+published: true
 
 title: "AWS user group Rouen #1"
 excerpt: "Lancement l'AWS user group de Rouen."
