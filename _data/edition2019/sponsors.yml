@@ -52,7 +52,13 @@
   </ul>
   <p>DEVOLIS, présent au conseil d’administration de la Normany French Tech, membre actif de NWX et du club TIC.</p>"
 
-
+- name: Masternaut
+  type: silver
+  logo: masternaut@web.png
+  link: http://www.masternaut.com
+  description: "<p>Leader français dans le domaine de la télématique automobile, nous avons plus de 20 ans d'expertise en solutions de suivi de flotte et de géolocalisation de véhicule d'entreprise.</p>
+  <p>Notre plateforme évolutive met toujours l’utilisateur au premier plan, et notre technologie brevetée fournit en temps réel les informations collectées directement sur le réseau CAN du véhicule. Disposant du plus grand centre Européen de recherche et développement, et d’une équipe de plus de 300 experts en France et au Royaume-Uni, nous pouvons vous aider à optimiser votre flotte.</p>
+  <p>Nous souhaitons aujourd'hui entrer en contact avec les ingénieurs de demain et repérer les futurs talents qui intègreront notre entreprise. </p>"
 
 # -------------------
 # bronze
