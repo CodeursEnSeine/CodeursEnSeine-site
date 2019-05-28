@@ -112,3 +112,14 @@
                 <p>
                Esprit d’équipe, flexibilité, autonomie, créativité, innovation, telles sont les valeurs portées par les équipes d’ Invoke pour avancer dans le même sens !
   </p>"
+
+- name: Coaxys
+  type: bronze
+  logo: coaxys@web.png
+  link: http://www.coaxys.com
+  description: "<p>Coaxys est née de la volonté d'écrire des \"success stories\".</p>
+  <p>Quels que soient la taille ou le domaine de votre projet, l'objectif est de conjuguer le savoir-faire de notre équipe expérimentée avec votre connaissance Métier.</p>
+  <p>La force de Coaxys réside dans les compétences individuelles de ses membres mises au service d'une équipe unie et dynamique.</p>
+  <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
+  <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
+
