@@ -1,0 +1,34 @@
+.ces-h-spacer {
+  border: none;
+  margin: 0;
+  padding: $ces-space-md 0;
+
+  &.is-xxs {
+    padding: $ces-space-xxs 0;
+  }
+
+  &.is-xs {
+    padding: $ces-space-xs 0;
+  }
+
+  &.is-sm {
+    padding: $ces-space-sm 0;
+  }
+
+  &.is-md {
+    padding: $ces-space-md 0;
+  }
+
+  &.is-lg {
+    padding: $ces-space-lg 0;
+  }
+
+  &.is-xl {
+    padding: $ces-space-xl 0;
+  }
+
+  &.is-xxl {
+    padding: $ces-space-xxl 0;
+  }
+
+}

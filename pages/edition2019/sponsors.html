@@ -1,0 +1,72 @@
+---
+layout: edition2019
+group: edition2019
+title: Sponsors
+permalink: /2019/sponsors
+navigation: true
+order: 30
+---
+
+<h1>Devenir Sponsor</h1>
+
+<div class="ces-l-grid is-gutter-xl">
+  <div class="ces-l-grid__item is-1_3@xs is-1_4@md ces-h-text-center">
+    <a href="https://drive.google.com/file/d/193DWebJh2DGqPQjj5xPQlJ2jkx1CBuBr/view?usp=sharing" target="_blank">
+      <img class="ces-h-image" width="250" height="352" src="/images/edition2019/dossier-sponsoring.jpg" alt="Couverture dossier de sponsoring">
+    </a>
+  </div>
+  <div class="ces-l-grid__item is-2_3@xs is-3_4@md ces-h-text-lg">
+    <p>
+      Codeurs en Seine est à la recherche de sponsors pour proposer un événement d'une qualité toujours meilleure.
+    </p>
+    <p>
+      Les partenaires des éditions précédentes ont confirmé la visibilité offerte par ce sponsoring, surtout dans le cadre
+      d'une politique de recrutement.
+    </p>
+    <p>
+      Si vous souhaitez soutenir l'événement, téléchargez <a href="https://drive.google.com/file/d/193DWebJh2DGqPQjj5xPQlJ2jkx1CBuBr/view?usp=sharing" target="_blank">le
+      dossier de sponsoring</a>, <a href="https://docs.google.com/document/d/11vZJ_M08rcrFLDBu2NaeMRpD7zv7ZWSqWEvxR6xGXYw/edit?usp=sharing" target="_blank">la
+      convention de sponsoring</a> et contactez-nous à l'adresse <a href="mailto:contact@codeursenseine.com">contact@codeursenseine.com</a>.
+    </p>
+
+    <div class="ces-c-buttons-group">
+      <a class="ces-c-button is-primary" href="https://drive.google.com/file/d/193DWebJh2DGqPQjj5xPQlJ2jkx1CBuBr/view?usp=sharing" target="_blank">
+        Dossier de sponsoring
+      </a>
+      <a class="ces-c-button" href="https://docs.google.com/document/d/11vZJ_M08rcrFLDBu2NaeMRpD7zv7ZWSqWEvxR6xGXYw/edit?usp=sharing" target="_blank">
+        Convention de sponsoring
+      </a>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+{% assign sponsors = site.data.edition2019.sponsors %}
+{% assign size = sponsors | size %}
+{% assign levels = 'platinium, gold, silver, bronze' | split: ', ' %}
+
+{% for level in levels %}
+  {% assign sponsors = site.data.edition2019.sponsors | where: "type", level %}
+  {% assign size = sponsors | size %}
+  {% if size != 0 %}
+  <h2>Sponsors {{ level }}</h2>
+
+  <div class="ces-l-grid">
+    {% for sponsor in sponsors %}
+      {% if level == 'platinium' or level == 'gold' %}
+        <div class="ces-l-grid__item is-1_2@md">
+          {% include edition2019/sponsor-card.html premium="true" img_base_path="/images/edition2019/sponsors/" %}
+        </div>
+      {% else %}
+        <div class="ces-l-grid__item is-1_2@xs is-1_3@md">
+          {% include edition2019/sponsor-card.html img_base_path="/images/edition2019/sponsors/" %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <hr>
+  {% endif %}
+
+{% endfor %}

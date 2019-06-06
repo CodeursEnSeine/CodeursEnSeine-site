@@ -1,0 +1,37 @@
+@mixin cesUtilDisplay ($suffix: '') {
+  .ces-h-display-none#{$suffix} {
+    display: none;
+  }
+
+  .ces-h-display-block#{$suffix} {
+    display: block;
+  }
+
+  .ces-h-display-inline#{$suffix} {
+    display: inline;
+  }
+
+  .ces-h-display-inline-block#{$suffix} {
+    display: inline-block;
+  }
+
+  .ces-h-display-flex#{$suffix} {
+    display: flex;
+  }
+
+  .ces-h-display-inline-flex#{$suffix} {
+    display: inline-flex;
+  }
+}
+
+.ces-h-justify-content-center{
+  justify-content: center;
+}
+
+@include cesUtilDisplay();
+
+@each $breakpoint in $ces-breakpoint-modifiers {
+  @include cesMediaMin(nth($breakpoint, 1)) {
+    @include cesUtilDisplay(nth($breakpoint, 2));
+  }
+}

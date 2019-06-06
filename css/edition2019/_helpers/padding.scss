@@ -1,0 +1,40 @@
+@mixin cesUtilPadding($suffix, $size) {
+  .ces-h-p-#{$suffix} {
+    padding: $size;
+  }
+
+  .ces-h-pt-#{$suffix} {
+    padding-top: $size;
+  }
+
+  .ces-h-pb-#{$suffix} {
+    padding-bottom: $size;
+  }
+
+  .ces-h-pl-#{$suffix} {
+    padding-left: $size;
+  }
+
+  .ces-h-pr-#{$suffix} {
+    padding-right: $size;
+  }
+
+  .ces-h-pv-#{$suffix} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+
+  .ces-h-ph-#{$suffix} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+}
+
+@include cesUtilPadding(none, $ces-space-none);
+@include cesUtilPadding(xxs, $ces-space-xxs);
+@include cesUtilPadding(xs, $ces-space-xs);
+@include cesUtilPadding(sm, $ces-space-sm);
+@include cesUtilPadding(md, $ces-space-md);
+@include cesUtilPadding(lg, $ces-space-lg);
+@include cesUtilPadding(xl, $ces-space-xl);
+@include cesUtilPadding(xxl, $ces-space-xxl);

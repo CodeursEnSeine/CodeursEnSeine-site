@@ -1,0 +1,25 @@
+<article class="ces-c-card {% if include.premium == 'true' %}is-premium{% endif %}" id="sponsor-{{forloop.index}}">
+  {% if sponsor.logo and sponsor.link %}
+  <a target="_blank" href="{{sponsor.link}}" class="ces-h-text-center">
+    <img width="320" height="193" alt="{{sponsor.name}}" src="{{ include.img_base_path }}{{sponsor.logo}}">
+  </a>
+  {% else if sponsor.logo %}
+  <div class="card-logo">
+    <img width="320" height="193" alt="{{sponsor.name}}" src="{{ include.img_base_path }}{{sponsor.logo}}">
+  </div>
+  {% endif %}
+
+  <hr class="ces-h-mt-md ces-h-mb-xs">
+
+  <h3 class="card-name">
+    {% if sponsor.link %}
+    <a target="_blank" href="{{sponsor.link}}">{{sponsor.name}}</a>
+    {% else %}
+    {{sponsor.name}}
+    {% endif %}
+  </h3>
+
+  <div class="card-description {% if include.premium != 'true' %}js-truncate-text{% endif %}" data-max-height="150">
+    {{sponsor.description}}
+  </div>
+</article>

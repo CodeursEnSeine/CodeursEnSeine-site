@@ -1,0 +1,28 @@
+.ces-c-meetup-card {
+  color: $ces-color-dark;
+
+  &__title {
+    margin: 0;
+    color: $ces-color-primary;
+  }
+
+  &__excerpt {
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-bottom: $ces-space-sm;
+    }
+  }
+
+  &__date {
+    margin: 0;
+    font-size: $ces-font-size-ms;
+    font-weight: bold;
+  }
+
+  &__location {
+    margin: 0;
+    font-size: $ces-font-size-ms;
+    color: $ces-color-text-light;
+  }
+}
