@@ -60,6 +60,12 @@
   <p>Notre plateforme évolutive met toujours l’utilisateur au premier plan, et notre technologie brevetée fournit en temps réel les informations collectées directement sur le réseau CAN du véhicule. Disposant du plus grand centre Européen de recherche et développement, et d’une équipe de plus de 300 experts en France et au Royaume-Uni, nous pouvons vous aider à optimiser votre flotte.</p>
   <p>Nous souhaitons aujourd'hui entrer en contact avec les ingénieurs de demain et repérer les futurs talents qui intègreront notre entreprise. </p>"
 
+- name: SQLI
+  type: silver
+  logo: sqli@web.png
+  link: http://www.sqli.com/
+  description: "<p>Créé en 1990, SQLI est un groupe international dédié à l’expérience digitale et spécialisé dans la conception, la mise en œuvre, le déploiement mondial et l’exploitation de plateformes de Commerce digital. Un positionnement unique au confluent du conseil, du marketing et de la technologie, permet à ses équipes d’experts d’accompagner durablement les grandes entreprises et marques européennes dans le développement de leurs ventes et de leur notoriété ainsi que leur efficacité en réinventant l’expérience client, partenaire et collaborateur. Ses 2400 collaborateurs sont répartis dans 32 agences dans 13 pays : France, Suisse, Luxembourg, Belgique, Royaume Uni, Irlande, Allemagne, Suède, Pays Bas, Danemark, Espagne, Afrique du Sud et Maroc. Le Groupe SQLI a réalisé en 2017 un chiffre d'affaires de 212 M€.  Depuis le 21 juillet 2000, la société SQLI est cotée sur Euronext Paris (SQI)</p>"
+
 # -------------------
 # bronze
 # -------------------
