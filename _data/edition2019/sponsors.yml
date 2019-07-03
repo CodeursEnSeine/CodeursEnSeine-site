@@ -135,3 +135,11 @@
   link: http://www.spreadfamily.fr
   description: "<p>SPREAD est une solution marketing en mode SaaS, permettant aux marques et e-commerçants de construire leur programme d’engagement clients.</p>
   <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
+
+- name: Proxiad
+  type: bronze
+  logo: proxiad@web.png
+  link: http://www.proxiad.com
+  description: "<p>Entreprise de Services Numériques, le Groupe Proxiad apporte Conseil et Expertise à ses clients. Nos 650 consultant(e)s soutiennent l’évolution des systèmes d’informations, via la mise en œuvre de solutions spécifiques, pragmatiques et innovantes.</p>
+  <p>Outre les compétences techniques et méthodologiques dont elle dispose, Proxiad fonde également sa réussite sur sa forte capacité d’engagement et sur une gestion saine et transparente de sa relation avec ses collaborateurs et ses clients (F/H).</p>"
+
