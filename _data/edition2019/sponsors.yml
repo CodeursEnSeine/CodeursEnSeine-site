@@ -72,6 +72,19 @@ Il offre à tous - particuliers, professionnels, entreprises, associations - une
   link: http://www.sqli.com/
   description: "<p>Créé en 1990, SQLI est un groupe international dédié à l’expérience digitale et spécialisé dans la conception, la mise en œuvre, le déploiement mondial et l’exploitation de plateformes de Commerce digital. Un positionnement unique au confluent du conseil, du marketing et de la technologie, permet à ses équipes d’experts d’accompagner durablement les grandes entreprises et marques européennes dans le développement de leurs ventes et de leur notoriété ainsi que leur efficacité en réinventant l’expérience client, partenaire et collaborateur. Ses 2400 collaborateurs sont répartis dans 32 agences dans 13 pays : France, Suisse, Luxembourg, Belgique, Royaume Uni, Irlande, Allemagne, Suède, Pays Bas, Danemark, Espagne, Afrique du Sud et Maroc. Le Groupe SQLI a réalisé en 2017 un chiffre d'affaires de 212 M€.  Depuis le 21 juillet 2000, la société SQLI est cotée sur Euronext Paris (SQI)</p>"
 
+- name: Budget Box
+  type: silver
+  logo: budgetbox@web.png
+  link: http://www.budget-box.com
+  description: "<p>Depuis 10 ans, Budgetbox accompagne les marques et les enseignes agroalimentaires dans leur stratégie marketing.
+Notre domaine d’expertise : le consommateur connecté. Notre connaissance pointue de son comportement nous a permis de concevoir des solutions digitales innovantes qui améliorent au quotidien son expérience d’achat en hyper et supermarchés et en ligne avec :</p>
+<ul>
+<li>Scaneo, l’application de shopping connectée de référence sur le marché français (JAVA JEE – ANDROID et iOS) Scaneo offre aujourd’hui des services inédits en point de vente comme la géolocalisation</li>
+<li>Notre plateforme de communication media multicanale. Elle intègre une double dimension de ciblage inégalée jusqu’ici. En effet, l'analyse de données basées sur un socle décisionnel et BigData innovant permet de diffuser des offres personnalisées grâce à l’historique d’achat. Ces offres sont exploitables instantanément sur tous les devices : smartphone, tablettes, scanettes, PC.</li>
+</ul>"
+
+
+
 # -------------------
 # bronze
 # -------------------
