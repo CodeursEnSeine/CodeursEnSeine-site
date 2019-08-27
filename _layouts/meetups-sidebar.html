@@ -14,7 +14,9 @@ layout: meetups
       {% for sponsor in site.data.meetups.sponsors %}
       <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
         <a class="ces-c-card is-center-content is-gutter-none" target="_blank" href="{{sponsor.link}}" title="{{sponsor.name}}">
-          <img width="320" height="193" alt="{{sponsor.name}}" src="/images/meetups/sponsors/{{sponsor.logo}}">
+          <div>
+            <img width="320" height="193" alt="{{sponsor.name}}" src="/images/meetups/sponsors/{{sponsor.logo}}">
+          </div>
         </a>
       </div>
       {% endfor %}
@@ -26,34 +28,46 @@ layout: meetups
     <div class="ces-l-grid is-stretch is-gutter-sm">
       <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
         <a class="ces-c-card is-center-content is-gutter-xs" target="_blank" href="https://twitter.com/normandyjug" title="Normandy JUG sur Twitter">
-          <img src="/images/meetups/associations/njug.jpg" alt="Normandy JUG">
+          <div>
+            <img src="/images/meetups/associations/njug.jpg" alt="Normandy JUG">
+          </div>
         </a>
       </div>
       <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
         <a class="ces-c-card is-center-content is-gutter-xs" target="_blank" href="https://twitter.com/normandyagile" title="Normandy Agile sur Twitter">
-          <img src="/images/meetups/associations/naug.jpg" alt="Normandy Agile">
+          <div>
+            <img src="/images/meetups/associations/naug.jpg" alt="Normandy Agile">
+          </div>
         </a>
       </div>
       <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
         <a class="ces-c-card is-center-content is-gutter-xs" target="_blank" href="https://twitter.com/nuxde_" title="NUxDe sur Twitter">
-          <img src="/images/meetups/associations/nuxde.png" alt="NUxDe">
+          <div>
+            <img src="/images/meetups/associations/nuxde.png" alt="NUxDe">
+          </div>
         </a>
       </div>
       <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
         <a class="ces-c-card is-center-content is-gutter-xs" target="_blank" href="https://twitter.com/normandymug" title="Normandy MUG sur Twitter">
-          <img src="/images/meetups/associations/mugnormandy_100x100.jpg" alt="Normandy MUG">
+          <div>
+            <img src="/images/meetups/associations/mugnormandy_100x100.jpg" alt="Normandy MUG">
+          </div>
         </a>
       </div>
       <div class="ces-l-grid__item is-1_2 is-1_3@xxs is-1_4@xs is-1_2@sm">
         <a class="ces-c-card is-center-content is-gutter-none" target="_blank" href="https://twitter.com/rouenjs" title="RouenJS sur Twitter">
-          <img src="/images/meetups/associations/rouenjs.jpg" alt="RouenJS">
+          <div>
+            <img src="/images/meetups/associations/rouenjs.jpg" alt="RouenJS">
+          </div>
         </a>
       </div>
     </div>
 
     <div class="ces-h-mt-xxl">
-      <a target="_blank" href="http://www.devoxx.fr/" class="ces-c-card is-gutter-none ces-h-display-inline-block">
-        <img src="/images/meetups/sponsors/devoxx2019.png" alt="Devoxx France 2019">
+      <a target="_blank" href="https://voxxeddays.com/microservices" class="ces-c-card is-gutter-none ces-h-display-inline-block">
+        <div>
+          <img src="/images/meetups/sponsors/voxxedmicroservices2019.png" alt="Voxxed Days Microservices 2019">
+        </div>
       </a>
     </div>
   </div>

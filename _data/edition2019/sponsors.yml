@@ -8,6 +8,12 @@
 # -------------------
 # gold
 # -------------------
+- name: Matmut
+  type: gold
+  logo: matmut@web.png
+  link: http://matmut.fr
+  description: "Acteur majeur sur le marché français, le Groupe Matmut assure aujourd'hui près de 3,2 millions de sociétaires et plus de 6,8 millions de contrats.
+Il offre à tous - particuliers, professionnels, entreprises, associations - une gamme complète de produits d'assurance des biens et des personnes (auto, moto, habitation, bateau, chasse, responsabilités, protection de la famille, santé, prévoyance, protection juridique, assistance) et de services financiers et d'épargne (crédits auto, crédit consommation, livret d'épargne, assurance-vie, assurance emprunteur...)."
 
 
 # -------------------
@@ -59,6 +65,25 @@
   description: "<p>Leader français dans le domaine de la télématique automobile, nous avons plus de 20 ans d'expertise en solutions de suivi de flotte et de géolocalisation de véhicule d'entreprise.</p>
   <p>Notre plateforme évolutive met toujours l’utilisateur au premier plan, et notre technologie brevetée fournit en temps réel les informations collectées directement sur le réseau CAN du véhicule. Disposant du plus grand centre Européen de recherche et développement, et d’une équipe de plus de 300 experts en France et au Royaume-Uni, nous pouvons vous aider à optimiser votre flotte.</p>
   <p>Nous souhaitons aujourd'hui entrer en contact avec les ingénieurs de demain et repérer les futurs talents qui intègreront notre entreprise. </p>"
+
+- name: SQLI
+  type: silver
+  logo: sqli@web.png
+  link: http://www.sqli.com/
+  description: "<p>Créé en 1990, SQLI est un groupe international dédié à l’expérience digitale et spécialisé dans la conception, la mise en œuvre, le déploiement mondial et l’exploitation de plateformes de Commerce digital. Un positionnement unique au confluent du conseil, du marketing et de la technologie, permet à ses équipes d’experts d’accompagner durablement les grandes entreprises et marques européennes dans le développement de leurs ventes et de leur notoriété ainsi que leur efficacité en réinventant l’expérience client, partenaire et collaborateur. Ses 2400 collaborateurs sont répartis dans 32 agences dans 13 pays : France, Suisse, Luxembourg, Belgique, Royaume Uni, Irlande, Allemagne, Suède, Pays Bas, Danemark, Espagne, Afrique du Sud et Maroc. Le Groupe SQLI a réalisé en 2017 un chiffre d'affaires de 212 M€.  Depuis le 21 juillet 2000, la société SQLI est cotée sur Euronext Paris (SQI)</p>"
+
+- name: Budget Box
+  type: silver
+  logo: budgetbox@web.png
+  link: http://www.budget-box.com
+  description: "<p>Depuis 10 ans, Budgetbox accompagne les marques et les enseignes agroalimentaires dans leur stratégie marketing.
+Notre domaine d’expertise : le consommateur connecté. Notre connaissance pointue de son comportement nous a permis de concevoir des solutions digitales innovantes qui améliorent au quotidien son expérience d’achat en hyper et supermarchés et en ligne avec :</p>
+<ul>
+<li>Scaneo, l’application de shopping connectée de référence sur le marché français (JAVA JEE – ANDROID et iOS) Scaneo offre aujourd’hui des services inédits en point de vente comme la géolocalisation</li>
+<li>Notre plateforme de communication media multicanale. Elle intègre une double dimension de ciblage inégalée jusqu’ici. En effet, l'analyse de données basées sur un socle décisionnel et BigData innovant permet de diffuser des offres personnalisées grâce à l’historique d’achat. Ces offres sont exploitables instantanément sur tous les devices : smartphone, tablettes, scanettes, PC.</li>
+</ul>"
+
+
 
 # -------------------
 # bronze
@@ -123,3 +148,23 @@
   <p>Nous sommes spécialisés dans le développement sur mesure d'architectures Web Responsive et d'applications mobiles natives (iOS, Android et Windows Phone).</p>
   <p>Coaxys s'inscrit dans le mouvement NOSSII… Not Only SSII, ou réaliser des projets autrement…</p>"
 
+- name: SPREAD
+  type: bronze
+  logo: spread@web.png
+  link: http://www.spreadfamily.fr
+  description: "<p>SPREAD est une solution marketing en mode SaaS, permettant aux marques et e-commerçants de construire leur programme d’engagement clients.</p>
+  <p>Grâce à 50 opérations marketing, SPREAD permet de qualifier son trafic pour le convertir en clients, et cela peu importe le canal (site web, magasins, page Facebook, mobile...). Les données récoltées lors de ces interactions sont alors unifiées et utilisées pour les re-convertir afin de les fidéliser. Avec l’aide de scénarios personnalisables et automatisés, SPREAD fait progresser leur engagement pas à pas, et amènera même les plus fidèles à la recommandation grâce à un programme de parrainage complet et flexible.</p>"
+
+- name: Proxiad
+  type: bronze
+  logo: proxiad@web.png
+  link: http://www.proxiad.com
+  description: "<p>Entreprise de Services Numériques, le Groupe Proxiad apporte Conseil et Expertise à ses clients. Nos 650 consultant(e)s soutiennent l’évolution des systèmes d’informations, via la mise en œuvre de solutions spécifiques, pragmatiques et innovantes.</p>
+  <p>Outre les compétences techniques et méthodologiques dont elle dispose, Proxiad fonde également sa réussite sur sa forte capacité d’engagement et sur une gestion saine et transparente de sa relation avec ses collaborateurs et ses clients (F/H).</p>"
+
+- name: Docapost Agility
+  type: bronze
+  logo: docapost-agility@web.png
+  link: https://www.docapost-agility.fr/
+  description: "<p>Fondée en 2011 par Fabrice Bonnet, la start-up SmartPanda est devenue Docapost Agility après son rachat par Docapost en 2015.</p><p>« Fournir aux petits entrepreneurs, sur un même espace en ligne, des outils pour gagner du temps et de l'argent en les laissant se concentrer sur leur business », telle était l’offre de valeur de notre réseau B2B.</p>
+  <p>Le rapprochement avec le groupe La Poste a permis d'intégrer de nouveaux services en ligne : courrier, lettres recommandées, signatures électroniques...</p><p>En 2017, nous avons choisi d'élargir notre offre : conseils en agilité, accompagnement à la transformation numérique, mise en place d’outils collaboratifs… Elle s’appuie toujours sur nos compétences acquises depuis 2011 afin d’aider les entreprises à être plus compétitives, à prendre conscience des enjeux numériques et à repenser leurs méthodes, process et outils pour aller vers une philosophie de travail agile.</p>"
