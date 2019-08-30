@@ -19,5 +19,6 @@ gruntfile.js
 .rvmrc
 .idea
 *.iml
+.jekyll-cache
 
 Gemfile.lock
