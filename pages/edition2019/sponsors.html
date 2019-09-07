@@ -44,29 +44,33 @@ order: 30
 
 {% assign sponsors = site.data.edition2019.sponsors %}
 {% assign size = sponsors | size %}
-{% assign levels = 'platinium, gold, silver, bronze' | split: ', ' %}
+{% assign levels = 'platinium, gold, silver, bronze, partner' | split: ', ' %}
 
 {% for level in levels %}
   {% assign sponsors = site.data.edition2019.sponsors | where: "type", level %}
   {% assign size = sponsors | size %}
   {% if size != 0 %}
-  <h2>Sponsors {{ level }}</h2>
+    {% if level != 'partner' %}
+      <h2>Sponsors {{ level }}</h2>
+    {% else %}
+      <h2>Partenaires</h2>
+    {% endif %}
 
-  <div class="ces-l-grid">
-    {% for sponsor in sponsors %}
-      {% if level == 'platinium' or level == 'gold' %}
-        <div class="ces-l-grid__item is-1_2@md">
-          {% include edition2019/sponsor-card.html premium="true" img_base_path="/images/edition2019/sponsors/" %}
-        </div>
-      {% else %}
-        <div class="ces-l-grid__item is-1_2@xs is-1_3@md">
-          {% include edition2019/sponsor-card.html img_base_path="/images/edition2019/sponsors/" %}
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+    <div class="ces-l-grid">
+      {% for sponsor in sponsors %}
+        {% if level == 'platinium' or level == 'gold' %}
+          <div class="ces-l-grid__item is-1_2@md">
+            {% include edition2019/sponsor-card.html premium="true" img_base_path="/images/edition2019/sponsors/" %}
+          </div>
+        {% else %}
+          <div class="ces-l-grid__item is-1_2@xs is-1_3@md">
+            {% include edition2019/sponsor-card.html img_base_path="/images/edition2019/sponsors/" %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
 
-  <hr>
+    <hr>
   {% endif %}
 
 {% endfor %}
