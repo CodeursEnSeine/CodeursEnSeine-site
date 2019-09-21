@@ -169,8 +169,18 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   description: "<p>Fondée en 2011 par Fabrice Bonnet, la start-up SmartPanda est devenue Docapost Agility après son rachat par Docapost en 2015.</p><p>« Fournir aux petits entrepreneurs, sur un même espace en ligne, des outils pour gagner du temps et de l'argent en les laissant se concentrer sur leur business », telle était l’offre de valeur de notre réseau B2B.</p>
   <p>Le rapprochement avec le groupe La Poste a permis d'intégrer de nouveaux services en ligne : courrier, lettres recommandées, signatures électroniques...</p><p>En 2017, nous avons choisi d'élargir notre offre : conseils en agilité, accompagnement à la transformation numérique, mise en place d’outils collaboratifs… Elle s’appuie toujours sur nos compétences acquises depuis 2011 afin d’aider les entreprises à être plus compétitives, à prendre conscience des enjeux numériques et à repenser leurs méthodes, process et outils pour aller vers une philosophie de travail agile.</p>"
 
+# ----------
+# partner
+# ----------
+
 - name: WeLoveDevs
   type: partner
   logo: welovedevs@web.png
   link: https://welovedevs.com
   description: "<p>WeLoveDevs.com est lʼapplication de référence pour les développeurs cherchant une entreprise où ils seront heureux. Créée par les développeurs pour les développeurs et utilisée par plus de 10 000 développeurs par mois, nous offrons une expérience inédite à nos utilisateurs en leur permettant de découvrir et dʼentrer en relation facilement avec près de 1500 entreprises.</p>"
+
+- name: Programmez!
+  type: partner
+  logo: programmez.jpg
+  link: programmez.com
+  description:
