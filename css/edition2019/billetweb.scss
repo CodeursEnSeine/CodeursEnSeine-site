@@ -101,8 +101,10 @@ body a {
   @include cesButtonColor(
     $background: $ces-color-primary
   );
+  line-height: 1.4 !important;
+  height: auto !important;
   background: $ces-gradient;
-  line-height: 10px;
+
   @include cesButtonHoverSelectors() {
     background: $ces-gradient-dark;
   }
@@ -236,6 +238,10 @@ td.shop_step1_price.shop_step1_donation::after {
 .shop_step1_remove_quantity,
 .shop_step1_add_quantity {
   color: $ces-color-text-light !important;
+
+  .shop_step1_quantity_icon {
+    color: inherit;
+  }
 
   &:hover,
   &:focus {
@@ -425,6 +431,11 @@ label.error {
       color: $ces-color-text-light;
       opacity: .5;
     }
+  }
+
+  .shop_step1_remove_quantity,
+  .shop_step1_add_quantity {
+    display: none;
   }
 
   .shop_step1_footer_details .shop_step1_footer {
