@@ -102,6 +102,7 @@ body a {
     $background: $ces-color-primary
   );
   background: $ces-gradient;
+  line-height: 10px;
   @include cesButtonHoverSelectors() {
     background: $ces-gradient-dark;
   }
