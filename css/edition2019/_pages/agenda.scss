@@ -45,7 +45,7 @@
     padding: $ces-space-xs $ces-space-sm;
 
     @at-root a#{&}{
-      border-top: rem(2) solid $ces-color-primary;
+      border-left: rem(2) solid $ces-color-primary;
     }
   }
 
