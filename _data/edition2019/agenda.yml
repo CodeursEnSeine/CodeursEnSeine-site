@@ -28,11 +28,11 @@
   type: Keynote
   typ_singlee: Keynote
   talks:
-    - title: "Management d’une équipe sportive"
+    - title: "Le pouvoir du simple"
       room: Salle A
-      desc: "<p>5 thèmes pour la création d'une équipe de choc&nbsp;: La formation, le recrutement, la définition des objectifs, la stratégie pour y accéder et le travail d’équipe.</p>"
+      desc: "<p>Beaucoup parlent de la fameuse règle du KISS (Keep it Simple and Stupid). Et c’est dommage. Car simplifier quelque chose est bien loin de le rendre stupide. Comment expliquer la Blockchain, la fusion nucléaire ou le principe de résistance électrique en série à des enfants de 6 ans&nbsp; Dans un monde d’experts, de buzz words et de corporate bullshit, il est peut-être temps de revenir à l’essentiel, et d’oser simplifier. Cela ne peut que nous rendre plus efficace.</p>"
       speakers:
-        - Guy Fournier
+        - Thierry Croix
 
 
 - time: 9h40
@@ -46,149 +46,215 @@
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Symfony 4 - le framework PHP bâti pour grandir avec vos projets"
+    - title: "ITCSS : méthode d'architecture pour des CSS fonctionnelles, maintenables et évolutives"
       room: Salle A
       level: Tout public
-      desc: "<p>Symfony est un des projets open-source les plus actifs sur GitHub. À n'en pas douter, cet intérêt constamment renouvelé pour la technologie est la clef qui lui permet d'être à la fois à la pointe de l'état de l'art, et d'une stabilité éprouvée sur le long terme. Lors de cette conférence, venez découvrir comment la communauté a réussi à produire un framework PHP à la fois performant, facile à prendre en main, permettant les architectures logicielles les plus évoluées et conçu pour le cloud.</p>"
+      desc: "
+        <p>
+          <strong>Comment hiérarchiser correctement son code CSS ?</strong>
+          <br />
+          Voilà une question à laquelle je me suis régulièrement heurtée ces 10 dernières années…<br />
+          J'ai essayé plusieurs approches, mais aucune ne m'a réellement séduite jusqu'à ce que je découvre ITCSS l'année dernière.
+        </p>
+        <p>
+          ITCSS est l'acronyme pour Inverted Triangle CSS. Il s'agit d'une méthodologie développée par Harry Roberts visant à organiser le code CSS de la manière la plus logique et pertinente qui soit. Elle définit un cadre et un certain nombre de règles à respecter quand à la hiérarchisation du code source, et c'est tout. Aucune convention de nommage spécifique n'est imposée, ce qui lui permet d'être appliquée à tous les projets (aussi bien les existants que les nouveaux). À l'instar du fonctionnement de CSS, cette méthodologie tire partie de la cascade pour limiter la spécificité des sélecteurs à leur strict minimum et éviter au maximum les surcharges inutiles.
+        </p>
+        <p>
+          Si vous aussi, vous en avez marre de vous demander comment organiser votre code CSS, venez découvrir ITCSS.<br />
+          Vous pourrez commencer à l'utiliser dès la semaine prochaine. ;-)
+        </p>
+      "
       speakers:
-        - Nicolas Grekas
+        - Corinne Durrmeyer
 
-    - title: "Agilité&nbsp;: 28 jours plus tard"
+    - title: "Premiers pas avec un microcontrôleur et Google Cloud IoT Core"
       room: Salle B
-      level: Niveau avancé
-      desc: "<p>Ca y est, l’agilité est enfin mise en place dans votre entreprise et tout fonctionne… 28 jours plus tard, ce qui existait et semblait acquis pour les 10 prochaines années vole en éclat…</p>
-             <p>L’histoire de la transformation était un vrai conte de fées. Shrek a fini par sauver la princesse Fiona, le château Far Far lointain et ses habitants, d’une emprise maléfique. Et cela, accompagné de son fidèle ami l’âne et d’autres amis tels que le chat Potté… Nous vous laissons deviner qui est qui, mais une chose est sûre, il a fallu en éplucher des couches d'oignon car le chemin était semé d'embûches, de dragons et de lutins, qui se révèlent ne pas être qui ils prétendent mais ils avaient prévu de vivre heureux et d’avoir plein de petits ogres…</p>
-             <p>Les histoires finissent toujours bien sauf là, je ne comprends pas…</p>
-             <ul>
-             <li>“On ne finit jamais les sprints, pourtant on fait tout comme on nous a dit, bon d’accord vu le contexte un peu serré, on accepte de prendre des Users Stories qu’on définit pendant le sprint”.</li>
-             <li>“Le Product Owner nous a « proposé » la solution technique, les gars c’est le chef donc on va faire ce qu’il dit”</li>
-             <li>“Le Scrum Master est trop cool, il consigne tous nos temps, si tu es sympa avec lui, il mettra à jour ton Jira et cerise sur le gâteau, il fait un café d’exception”</li>
-             <li>“Le nouveau Chef de Projet dit qu’il a fait 10 ans d’Agilité, il trouve ça top&nbsp;: il se propose d’affecter les tâches aux bonnes personnes et de nous faire du reporting avec son diagramme de Gant”.</li>
-             </ul>
-             <p>Vous retrouvez-vous dans l’une de ces histoires et plein d'autres&nbsp;? Vous vous êtes mis à la place de Shrek, du chat Potté, ou encore de l’âne&nbsp;? Venez nous voir, nous souhaitons partager notre expérience et trouver un remède afin d’éradiquer le virus qui décime une population en 28 jours…</p>"
+      level: Tout public
+      desc: "
+        <p>
+          De nombreux services en ligne existent pour gérer en toute sécurité des appareils IoT à grande échelle : \"Azure IoT\" de Microsoft et \"AWS IoT\" d'Amazon sont parmi les plus connus.
+        </p>
+        <p>
+          Google propose également sa solution : \"Cloud IoT\" basée sur la plate-forme Google Cloud (GCP). Dans ce talk, nous partirons d'un microcontrôleur neuf ultra connu et abordable, et notre but sera tout d'abord de découvrir comment écrire du code pour ce composant nous permettant de récupérer des informations sur notre environnement. Ensuite, nous ferons en sorte que ce composant envoie ses données vers un service Cloud, pour enfin découvrir ce que permettent ces solutions en ligne dédiées à l'IoT.
+        </p>
+        <p>
+          Pour l'exemple, et parce qu'il faut bien choisir une solution, nous utiliserons Google Cloud IoT Core, les concepts restant similaires sur les autres plate-formes.
+        </p>
+      "
       speakers:
-        - Nicolas Saillard
+        - Gautier Mechling
 
-    - title: ".Net Standard & .Net Core : Evolution de la plateforme"
+    - title: "Et si on se préoccupait plus des patterns que des librairies ou des langages?"
       room: Salle C
-      level: Niveau avancé
-      desc: "<p>Au début il y avait .Net Framework, puis vinrent entre autres Silverlight (paix à son âme), .Net Core, UWP, Xamarin and so on...<br>
-             <strong>.Net Standard 2.0</strong> permet de standardiser les API et nous sort de l'enfer des <strong>PCL</strong>.<br>
-             Nous verrons dans un premier temps ce qu'est .Net Standard et pourquoi vous devez aujourd'hui vous y intéresser de très très prés&nbsp;!<br>
-             Ensuite nous aborderons les nouveautés de .Net Core, de la version 2.0 à la future version 3.0, qui apportent chacune d’elles de nombreuses améliorations, notamment au niveau des performances.</p>"
+      level: Tout public
+      desc: "
+        <p>
+          Nous autres développeurs front sommes continuellement confrontés à la nécessité d'apprendre : un nouveau framework / librairie JS (framework React, libs Redux, etc...), un nouveau langage (Dart, Kotlin), et même des changements majeurs sur les domaines que nous pensions connaître (les hooks sur React par exemple).
+        </p>
+        <p>
+          Mais si au final, cela n'était pas si important? Et si, en maîtrisant la base, c'est à dire nos patterns, nous étions capables de nous adapter à moindre coût aux incessants changements de notre monde frontend?
+        </p>
+        <p>
+          Nous verrons dans ce talk comment, de manière cyclique, les frameworks et librairies reinvétent la roue, en recyclant pour la énième fois tel ou tel pattern connu de nos arrières grands parents. Et en réussissant à se faire mousser avec ça! Et tant qu'à faire, nous passerons en revue quelques patterns voués à perdurer encore très longtemps dans notre écosystème...
+        </p>
+      "
       speakers:
-        - Sébastien Pertus
+        - Laurent WROBLEWSKI
 
-    - title: Des microservices aux migroservices
+    - title: Dockerfile - Les bonnes pratiques
       room: Salle D
       level: Tout public
-      desc: "<p>Ca y est, vous avez enfin la possibilité de démarrer un nouveau projet ou de migrer un de vos anciens monolithes et vous décidez de partir en architecture microservices&nbsp;!<br>On se répartit les services, on sort nos plus belles technos et c'est parti&nbsp;! Au pire, vu qu'on va faire un microservice on pourra le remplacer plus tard facilement&nbsp;:grinning:.  </p>
-             <p>Plus on avance dans votre service, plus les soucis commencent à apparaitre&nbsp;: </p>
-             <ul>
-             <li>Couplage avec d'autres services</li>
-             <li>Partages de données</li>
-             <li>Difficulté à étre déployés/opérés</li>
-             <li>Ownership des services</li>
-             <li>...</li>
-             </ul>
-             <p>Notre microservice vient d'évoluer en migroservice&nbsp;!&nbsp;:disappointed:<br>On s'est trompé dans la recette et ajouté une bonne grosse de monolithe à note microservice...</p>
-             <p>Essayons de voir comment nous en sommes arrivés là, les pièges a éviter et si ce n'est pas, finalement, qu'une étape vers une architecture microservice.</p>"
+      desc: "<p>
+        A partir d’un Dockerfile pris “au hasard” sur Github, comme un bon vieux monolithe, nous allons, en appliquant les bonnes pratiques, transformer cette application en un ensemble de microservices réutilisables et compréhensibles
+        </p><p>
+        On commencera par externaliser les services utilisés par notre application en utilisant des images existantes et les associant dans un fichier Compose.
+        </p><p>
+        Nous allons optimiser notre premier jet en vidant les caches et en supprimant les layers inutiles générés lors du build de notre application.
+        </p><p>
+        On découpera les différentes étapes de build pour ne pas avoir à conserver les dépendances de développement dans l’image finale
+        </p><p>
+        Nous améliorerons la maintenabilité en utilisant des images officielles plutôt qu’en installant à la main nos dépendances.
+        </p><p>
+        Nous allons voir comment éviter de faire tourner notre application en tant que root.
+      </p>"
       speakers:
-        - Francois Teychene
+        - Guillaume LOURS
+        - Jérémie Drouet
 
 - time: 11h00
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Vanilla JS 2018"
+    - title: "Développer des applications web résilientes en 2019"
       room: Salle A
-      level: Niveau avancé
-      desc: "<p>Imaginez une application Web qui utiliserait toutes les nouvelles APIs des navigateurs en même temps. Ce n'est peut être pas le projet le plus raisonnable pour un besoin client mais pour de la veille, c'est passionnant&nbsp;! Je vous propose un retour sur cette expérience un peu hors du commun.</p>
-             <p>On a tous vu une conf ou lu un article sur une nouvelle fonctionnalité des navigateurs mais ce n'est pas toujours évident de se faire une idée quant à la question&nbsp;: \"ok mais globalement, vers où on va&nbsp;?\"</p>
-             <p>J'ai donc lancé un projet bac à sable nommé Vanilla JS 2018. Il a des règles strictes (sinon on s'ennuie&nbsp;!)&nbsp;:</p>
-             <ul>
-             <li>Interdiction totale de l'utilisation de code source externe au projet</li>
-             <li>‎Volonté d'utiliser autant de nouvelles normes que possible. Quels que soient les univers&nbsp;: HTTP, HTML, DOM, JS, CSS.</li>
-             <li>‎Tout est autorisé du moment que ce soit une norme non propriétaire et que cela fonctionne dans au moins 2 navigateurs (flags autorisés).</li>
-             </ul>
-             <p>Nous parlerons d'un bon nombre de sujets&nbsp;:</p>
-             <ul>
-             <li>HTTP/2</li>
-             <li>Web Components</li>
-             <li>Virtual Dom</li>
-             <li>State Management</li>
-             <li>Web Workers</li>
-             <li>Service Workers</li>
-             <li>CSS Grid</li>
-             </ul>
-             <p>Je vous propose de vous présenter les résultats d'un \"fun project\" qui, pour moi, a sûrement été le plus intéressant et enrichissant depuis longtemps si ce n'est depuis toujours.</p>"
+      level: Tout public
+      desc: "<p>
+        <strong>Que se passe-t-il pour vos utilisateurs quand l'un des (micro) services dont dépend votre application vous laisse en plan ?</strong>
+        </p><p>
+        Le développement d'applications web s'industrialise pour le bonheur de tous : nous testons nos applications, nous les rendons performantes et le plus accessible possible pour nos utilisateurs.
+        </p><p>
+        Pourtant, en m'intéressant au sujet de la <strong>résilience</strong> d'une application web, je me suis rendu compte que nous étions encore tous un peu naïfs dans notre façon de concevoir des sites.
+        </p><p>
+        Après avoir rappelé le concept de résilience, j'entrerai rapidement dans le vif du sujet en vous présentant le <strong>Circuit Breaker</strong> : un design pattern prévu pour rendre un système résistant aux indisponibilités extérieures.
+        </p><p>
+        Je m'appuierai sur l'expérience acquise sur PrestaShop (un CMS e-commerce Open Source), qui m'a conduit à créer une <strong>librairie PHP nommée Resiliency</strong> et que nous sommes en train de déployer dans tous les aspects de notre projet pour rendre notre parc de 300 000 boutiques indépendant de nos propres services internes.
+        </p><p>
+        En moins d'une heure, vous apprendrez à mettre en place un Circuit Breaker et à le tester.
+        </p><p>
+        (Beaucoup!) plus important, vous adopterez un nouveau réflexe particulièrement utile: <strong>penser au pire d'abord</strong>, pour garantir une expérience \"dégradée\" maîtrisée en pensant au confort de vos utilisateurs.
+      </p>"
       speakers:
-        - Matthieu Lux
+        - Mickaël Andrieu
 
-    - title: "Le marketing de la honte et le code du monde réel"
+    - title: "Manuel d’anti-sabotage"
       room: Salle B
       level: Tout public
-      desc: "<p>Dans cette conférence, j'évoque le problème entre le marketing du dévelopeur, le monde réel, et le fait qu'on demande à tant de dev d'avoir honte de leur travail. Là dessus, j'explique pourquoi la notion de dette technique a été pervertie, et je reboucle sur les moyen de faire évoluer son équipe.</p>"
+      desc: "<p>
+      Quel est le rapport entre CIA, sabotage et manifeste agile ?
+      </p><p>
+      Vous avez l’impression que votre entreprise vous empêche d’être efficace, et cela vous démotive ?
+      </p><p>
+      Le manuel d’anti-sabotage vous apportera des techniques concrètes, applicables par tous. Agissez au quotidien pour rendre votre entreprise plus performante et plus épanouissante.
+      </p>"
       speakers:
-        - Quentin Adam
+        - Emilie Esposito
 
-    - title: "D'une architecture web MVC à une architecture Clean Hexagonale "
+    - title: "Comment se faire hacker bien comme il faut!"
       room: Salle C
       level: Tout public
-      desc: "<p>Aujourd'hui, de nombreuses applications ont été développées en utilisant le pattern MVC.</p>
-             <p>La promesse de l'<strong>architecture hexagonale</strong> et de la <strong>clean architecture</strong> est de simplifier la maintenabilité de nos applications et l'évolutivité qui nous fait souvent défaut.</p>
-             <p>En partant d'une base de code MVC, nous ferons évoluer ce code pour passer à une architecture hexagonale en isolant le c&oelig;ur métier de tout le reste (outils, briques d'infrastructures). Nous verrons comment séparer les accès à une base de données/un système de fichier/un serveur de mail de notre code métier. Et nous comprendrons ce que ça peut nous apporter dans notre quotidien de développeur.</p>"
+      desc: "<p>
+      Et encore une fuite de numéros de cartes de crédit sur internet! <a target=\"_blank\" href=\"https://www.infoq.com/news/2018/11/british-airways-data-breach\">https://www.infoq.com/news/2018/11/british-airways-data-breach</a>
+      </p><p>
+      C'est révoltant n'est-ce pas ? Mais attends, qu'est-ce qu'on fait nous pour s'assurer que notre appli n'est pas une passoire?
+      </p><p>
+      Dans cette live-coding-hacking session, venez découvrir les erreurs les plus communes en sécurité, que la grande majorité d'entre nous font sans même le savoir!
+      </p><p>
+      Après cela, vous ne verrez plus votre application de la même manière...
+      </p>"
       speakers:
-        - Céline Gilet
+        - Julien Topçu
 
-    - title: "UI/UX pour les développeurs"
+    - title: "Mais hook'il est React ?"
       room: Salle D
-      level: Tout public
-      desc: "<p>En tant que développeur, je fais des interfaces qui font le job, mais qui sont toutes moches.</p>
-             <p>Je vous propose de passer en revue des conseils UI/UX pour embellir vos applications au travers notamment des pages incontournables de nos applications, les formulaires et les tableaux de données.</p>
-             <p>Réussir à afficher une page en quelques secondes est chose aisée comparé à la rendre compréhensible en quelques secondes.</p>
-             <p>Comment donner envie à nos utilisateurs de remplir les formulaires, quelles sont les erreurs à ne pas faire.</p>
-             <p>Comment présenter des données, il y a le bon tableau et le mauvais tableau.</p>"
+      level: Niveau avancé
+      desc: "<p>
+      Votre prochaine application React ? C’est avec les hooks que vous devez la faire et nous allons vous expliquer pourquoi !
+      </p><p>
+      Tout au long de cette conférence, nous vous montrerons la création d’une application from scratch avec React et ses nouveautés (les hooks !!) mais aussi le routing, la gestion de l’internationalisation et la communication avec le backend !
+      </p><p>
+      #react #styledComponents #hooks #webpack #i18N
+      </p><p>
+      Tous ces mots vous font peur ? Pas de panique ! Nous somme là pour vous aider !
+      </p><p>
+      Une conférence à ne pas rater si vous voulez connaître React de R à t ;)
+      </p>"
       speakers:
-        - Etienne Crombez
+        - Marion Deveaux
+        - Valentin Desportes
 
 - time: 12h00
   type: Quickies
   type_single: Quicky
   talks:
-    - title: "Personnalisation et Systèmes de Recommandation chez vente-privee"
+    - title: "Pourquoi ça rame ? Deboguer le front avec Webpagetest et Chrome Dev Tools"
       room: Salle A
-      level: Tout public
-      desc: "<p>Les recommandations et la personnalisation ont un gros impact sur l’expérience d’un utilisateur, et c’est d’autant plus vrai pour les sites d’e-commerce. Chez vente-privee nous utilisons ces technologies dans différents cas de figure. Cette présentation est l'occasion de découvrir le fonctionnement de la personnalisation du catalogue de produits telle que nous l’avons mise en place à vente-privee.</p>"
+      level: Niveau avancé
+      desc: "<p>
+      Le but de la #webperf c'est de fournir une expérience de chargement rapide, puis de rester fluide lors des interactions utilisateur. LightHouse n'étant pas un outil très précis, nous allons plutôt découvrir Webpagetest et Chrome Dev Tools qui sont les 2 outils majeurs de la performance frontend pour trouver les premières pistes qui feront de votre site un site agréable à utiliser.
+      </p><p>
+      Pour profiter pleinement de la démo, pourquoi ne pas précharger un résultat de test Webpagetest et Chrome Dev Tools sur votre portable, si vous l'amenez ? Cela vous permettra de vous familiariser avec ces interfaces complexes.
+      </p>"
       speakers:
-        - Betty Moreschini
+        - Jean-Pierre Vincent
 
-    - title: "Style(d) et React, même Compo"
+    - title: "10 incohérences dans les langages informatiques (la quatrième est tellement vraie !)"
       room: Salle B
       level: Tout public
-      desc: "<p>Avec React, vous pouviez faire du HTML en JS. Et pourquoi ne pas aller plus loin&nbsp;? Avec Styled-components, ajoutons la puissance du CSS-in-JS à notre application.<br>
-             #Une combinaison détonante à découvrir avec nous&nbsp;!</p>"
+      desc: "<p>
+      Que se cache t-il derrière ce titre bien racoleur?
+      </p><p>
+      JavaScript, Java, Python, PHP …Tous les développeurs sont persuadés que leur langage est propre, logique, cohérent ... <strong>Qu'en est il vraiment?</strong>
+      </p><p>
+      Je vous propose un petit tour d’horizon des énormités/incohérences que l'on peut retrouver dans différents langages de programmation.
+      </p><p>
+      Sortez votre hache de guerre et votre chope de bière car aujourd'hui en Normandie, aucun langage ne sera épargné !
+      </p><p>
+      <strong>Ça va saigner !</strong>
+      </p>"
       speakers:
-        - Marion Deveaux
-        - Valentin Desportes
+        - Pierre LACHEVRE
 
-    - title: "Détectez et trackez les vulnérabilités qui se cachent dans vos dépendances"
+
+    - title: "J’ai demandé mes données personnelles grâce au RGPD"
       room: Salle C
       level: Tout public
-      desc: "<p><a target=\"_blank\" href=\"https://www.veracode.com/products/software-composition-analysis\">44% des applications contiennent des vulnérabilités critiques dans les librairies open-source qu'elles utilisent</a> et cela bien que des bonnes pratiques comme OWASP Top 10 se soient généralisées. </p>
-             <p>Ne laissez plus ces petites bêtes incuber bien au chaud au sein de votre appli&nbsp;!
-             Grâce à ce talk, vous apprendrez comment sont répertoriées ces vilaines bestioles (NVD, CVE) et comment est évaluée leur dangerosité (CVSS).</p>
-             <p>Puis vous verrez comment créer votre première pipeline de Continuous Security dans Jenkins au moyen de <a target=\"_blank\" href=\"https://www.owasp.org/index.php/OWASP_Dependency_Check\">OWASP DependencyCheck</a>  qui détecte les vulnérabilités et trackez-les grâce à <a target=\"_blank\" href=\"https://www.owasp.org/index.php/OWASP_Dependency_Track_Project\">OWASP DependencyTrack</a> (logiciels open-source) </p>
-             <p>Faites le premier pas vers le DevSecOps&nbsp;!!!</p>"
+      desc: "<p>
+      Le RGPD est entré en application en France fin mai 2018. Depuis, j’ai exercé mon droit d’accès à mes données auprès de plusieurs entreprises et j’ai appris sur moi-même.
+      </p><p>
+      Je propose de présenter les démarches à suivre pour obtenir ses données, les analyses de mes données obtenues auprès de Trainline (billets de train), Monoprix (supermarché) et mes recherches Google.
+      </p><p>
+      Enfin, je termine avec une ouverture sur le futur de l’accès et la portabilité des données.
+      </p>"
       speakers:
-        - "Julien Topçu"
+        - Antoine Augusti
 
-    - title: "Comment remplacer le bon vieux polling de mon appli web"
+    - title: "Cobol for Ever : Comment faire du neuf avec un SI âgé de plus de 40 ans ?"
       room: Salle D
+      sponsor: true
       level: Tout public
-      desc: "<p>Vous aussi, vous en avez assez de retrouver du polling dans vos applications Web. Peu performant, et trop consommateur de ressources. Voyageons ensemble au pays du \"push\" et découvrons les principales alternatives du marché (Server Sent Event, Souscriptions GraphQL, et autres).</p>"
+      desc: "<p>
+      Nous n’avons pas tous la chance d’être une startup partant de la feuille blanche pour créer son SI.
+      </p><p>
+      Avec 58 ans d’existence, la Matmut possède le plus important système d’information de la région qui s’appuie sur 2 Data-Centers et …du Cobol.<br />
+      Le Cobol est né en septembre 1959 et 60 ans plus tard la finance mondiale repose toujours sur lui.<br />
+      A la Matmut, il continue de répondre aux 300 nouvelles demandes annuelles du développement Backoffice. Le principe de KISS (Keep It Simple, Stupid) et beaucoup de bon sens ont souvent été déterminants dans les choix de nos architectures.
+      </p><p>
+      En 15 minutes, nous vous ferons découvrir la magie du Cobol et les architectures en place pour consommer nos données dans les projets .Net/C#, WepAPI, BigData, IA et React.
+      </p>"
       speakers:
-        - "Cédric Dué"
+        - Cédric DESLANDES
+        - Elie LESUEUR
+        - Grégory Lefevre
 
 - time: 12h15
   talks:
@@ -200,103 +266,116 @@
   type: Keynote
   type_single: Keynote
   talks:
-    - title: "Fonctionnement d'une IA conversationnelle"
+    - title: "Du sang, des larmes et des pixels"
       room: Salle A
-      desc: "<p>On parle de plus en plus d'IA conversationnelle&nbsp;: mythe ou réalité&nbsp;? Entre histoire et mathématiques. Entre fiction et réalité. Venez découvrir ce qu'une IA conversationnelle est capable de faire dès aujourd'hui&nbsp;!</p>"
+      desc: "<p>En septembre 2010, à Rouen, naquit Sushee, micro-entreprise spécialisée dans le community management et la communication. 8 ans plus tard, la société est bretonne, elle compte 15 salariés, et développe des jeux vidéo pour Square Enix, un géant du secteur. Ce qu’il s’est passé entre les deux&nbsp; Nous le découvrirons ensemble pendant cette keynote&nbsp;!</p>"
       speakers:
-        - FibreTigre
-        - Arnold Zephir
+        - Benjamin Anseaume
 
 - time: 14h10
   type: Quickies
   type_single: Quicky
   talks:
-    - title: "Comment cultiver la dynamique de votre équipe&nbsp;?"
+    - title: "🏡 Full-remote : comment réussir à travailler en équipe ?"
       room: Salle A
       level: Tout public
-      desc: "<p>Rarement présente dans les indicateurs projet, la <strong>\"dynamique d’équipe\"</strong> est pourtant le reflet de la santé d’un projet. De nombreuses équipes se focalisent uniquement sur la vélocité. Pourtant, que l'équipe soit capable de délivrer de la valeur systématiquement est un facteur de motivation et progression.</p>
-             <p>Mais à quoi correspond exactement cette <strong>\"dynamique d’équipe\"</strong>&nbsp;? Que se cache-t-il derrière et pour quels résultats&nbsp;? Comment la mesurer&nbsp;? Comment faire en sorte de la maintenir quand des changements s'opèrent de toute part&nbsp;?</p>
-             <p>De la méthodologie à la technique en passant par la vie de l’équipe, nous ferons un tour d’horizon des pratiques.</p>"
+      desc: "<p>
+      Dans un contexte où de plus en plus d’entreprises ont à cœur le bien-être de leurs employés, le télétravail se développe. Lorsque cela reste ponctuel, tout va pour le mieux. Mais lorsqu’une personne décide de partir à l’autre bout du pays parce qu’elle en a marre de Paris, c’est une autre histoire !
+      <p></p>
+      Je vous propose de passer en revue quelques clés pour réussir à travailler en équipe tout en étant dans des villes différentes.
+      <p></p>
+      Vous verrez que la communication est au cœur du sujet et découvrirez quelques conseils, que l'on travaille en télétravail ponctuel ou de longue durée.
+      </p>"
       speakers:
-        - Céline Gilet
+        - Lise Quesnel
 
-    - title: "Angular & PWA&nbsp;: Mon site survit à l’apocalypse&nbsp;!"
+    - title: "Event loop et asynchronisme en JavaScript"
       room: Salle B
-      level: Tout public
-      sponsor: true
-      desc: "<p>L'apocalypse et les zombies approchent et comme la quasi-totalité de l'humanité... vous chercherez sur Internet pour savoir comment survivre&nbsp;! Bonne idée, mais Internet aura disparu... Heureusement, le site de conseils de survie que nous avons développé est en fait une Progressive Web App (PWA), et grâce à ça, pas besoin d'Internet&nbsp;! Dès votre première visite, tout est dans votre périphérique&nbsp;!</p>
-      <p>Dans cette présentation, nous verrons comment implémenter dans un site web Angular l'aspect PWA&nbsp;!</p>"
+      level: Niveau avancé
+      desc: "<p>
+      Sans utilisation des web workers, JavaScript est un langage monothread, qui offre toutefois la possibilité d'exécuter du code de manière asynchrone.
+      <p></p>
+      A travers une exploration du fonctionnement de la stack, des diverses queues et de l'event loop, ce quickie sera l'occasion de mieux comprendre le fonctionnement et les limitations de cette gestion l'asynchronisme en JS.
+      </p>"
       speakers:
-        - Frédéric Jammes
-        - Cyril Lefebvre
+        - Benjamin Cavy
 
-    - title: "Deep Learning et détection d’intentions"
+    - title: "Le Design System, la toolbox pour designers et ingénieurs front-end"
       room: Salle C
-      level: Tout public
-      sponsor: true
-      desc: "<p>La détection instantanée des intentions de nos écrits devient possible, grâce à la puissance des ordinateurs actuels qui permet une analyse approfondie des textes.</p>
-      <p>À travers leur projet, Yuan et Johann vont nous parler des concepts de Deep Learning, de réseaux de neurones et d’analyse sémantique.</p>
-      <p>En seulement 15 minutes vous découvrirez comment certains mots peuvent être rapprochés graphiquement et vous verrez fonctionner une première IA (Intelligence Artificielle) reconnaissant une simple demande provenant d’un mail.</p>"
+      level: Niveau avancé
+      desc: "<p>
+      On entend beaucoup parler du Design System aujourd'hui. La nouvelle façon de concevoir le design nous remet en question sur la façon de développer nos interfaces.
+      </p><p>
+      Mettre en place un Design System n'est pas chose aisé mais apportera des avantages considérables sur le long terme au sein d'un projet. De plus, il réunit un autre concept d'architecture css, qu'est l'Atomic Design.
+      </p><p>
+      Avec le concept d’Atomic Design, les ingénieurs front-end pensent différemment leurs développements pour faciliter la modularité des éléments de l’UI et gagner en efficacité. Le Design System vient créer un pont entre ingénieurs et designers afin d’intégrer la logique de l’Atomic Design dès les premières maquettes.</p>"
       speakers:
-        - Yuan Ji
-        - Johann Pelfrene
+        - Josiane Makelele
 
-    - title: "Des tests sur tous les fronts"
+    - title: "Le MCU JavaScript"
       room: Salle D
-      level: Tout public
-      desc: "<p>Tester n'est pas douter&nbsp;: c’est s’assurer du bon fonctionnement de son application, quels que soient les changements que nous pouvons lui apporter.</p>
-             <p>L'écosystème front-end s’est très fortement industrialisé ces dernières années et les tests automatisés ne sont plus l’apanage des applications back-end. </p>
-             <p>Tests unitaires, end-to-end ou encore de non régressions visuelles, nous allons voir ensemble quels sont les différents types de tests qui existent en front-end et quelles sont les stratégies pour leur mise en &oelig;uvre.</p>"
+      sponsor: true
+      level: Niveau avancé
+      desc: "<p>
+      Bienvenue dans le <strong>JavaScript Main Code Universal</strong> ! Comme pour le scénario des films MCU, je vais vous prouver qu’il est possible d’<strong>utiliser le même code JS sur des supports différents</strong>. Web, Mobile, Desktop App, … rien n’est impossible pour notre langage héros ! Il se trouvera également au côté de ses fidèles compagnons : <strong>NodeJS, Cordova et Electron</strong>.
+      </p><p>
+      Dans les salles le 21 Novembre 2019 à la Kindarena.
+      </p>"
       speakers:
-        - Mélanie Boudard
-        - Clément Dubois
+        - Cyril Lefebvre
 
 - time: 14h30
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Services vocaux & chatbots&nbsp;: l'UX du futur&nbsp;?"
+    - title: "Introduction à JHipster 6"
       room: Salle A
       level: Tout public
-      desc: "<p>Le web de demain prendra-t-il la forme des buzzwords dont le web d'aujourd'hui nous gave&nbsp;?</p>
-             <p>On ne parle plus que de cela. Services vocaux, chatbots, intelligence artificielle… Pas un brief n'y échappe, rares sont les réunions privées de l'un de ces termes, et les articles sur les tendances pour l'année à venir sont clairs&nbsp;: c'est bien le futur qui se profile.</p>
-             <p>Parler du web de demain en tant qu'UX designer, c'est donc naturellement se poser des questions sur ces technologies&nbsp;: quelles opportunités peut-on y voir, quelles craintes peut-on formuler&nbsp;? Quels sont les impacts à l'heure actuelle pour les usagers&nbsp;? En filigrane, nous nous demanderons aussi si la technologie change le métier de designer. Autant de questions pour cultiver la réflexion&nbsp;: ce web du futur alors, on le dessine comment&nbsp;?
-</p>"
+      desc: "<p>
+      <a target=\"_blank\" href=\"https://www.jhipster.tech/\">JHipster</a> est aujourd’hui l’un des projets Open Source Français les plus populaires, avec plus de 14,000 étoiles sur GitHub, plus de 500 contributeurs, et des centaines d’entreprises utilisatrices. Il permet de générer en un temps record une application complète, utilisant une stack moderne basée sur Spring Boot, Angular ou React. L’intégration de nombreuses technologies prêtes à l’emploi avec un focus à la fois sur l’expérience développeur, la qualité du code et la mise en production, en font un outil reconnu pour qui veut rapidement réaliser une application métier.
+      <p></p>
+      Dans cette session introductive, nous étudierons les principales options proposées par JHipster, et nous réaliserons une application de bout en bout: génération du code, développement de composants en utilisant les workflows prêts à l’emploi, et mise en production. Ce sera également l’occasion de faire le point sur les dernières nouveautés du projet et de parler de sa roadmap.
+      </p>"
       speakers:
-        - Amelie Boucher
+        - Julien Dubois
 
-    - title: "Avec les GitLab Runners, comme Mickey dans Fantasia, devenez un apprenti sorcier de l'intégration continue (et du déploiement)"
+    - title: "Montée de version sans interruption"
       room: Salle B
-      level: Tout public
-      desc: "<p>Pré-requis, avoir vu la partie de Fantasia concernant \"The Sorcerer's Apprentice\" (c'est ici: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=xHEMkbyXFxs)\">https://www.youtube.com/watch?v=xHEMkbyXFxs)</a>.</p>
-             <p>Vous êtes un Dev (moi aussi) et vous avez toujours rêvé (comme Mickey) de savoir faire de la magie comme l'Ops (le magicien barbu) de l'équipe, et à chaque fois que vous avez essayé avec diverses solutions de CI, vous avez abandonné car trop compliqué, trop lourd, trop c... . Et pourtant, maintenant avec les <strong>Runners GitLab</strong> vous pouvez commencer à jouer à l'apprenti sorcier et vous faire plaisir (et aussi vous rendre utile).</p>
-             <p>Nous verrons donc:</p>
-             <ul>
-             <li>aperçu des runners</li>
-             <li>architecture des runners</li>
-             <li>installation et configuration</li>
-             <li>mise en &oelig;uvre simplifiée de runners</li>
-             <li>mise en &oelig;uvre d'un système de preview application grâce aux runners</li>
-             </ul>
-             <p>Avec cela vous aurez quelques nouveaux sorts dans votre grimoire et pourrez commencer à aller plus loin</p>"
+      level: Niveau avancé
+      desc: "<p>
+      De plus en plus d'éditeurs logiciels fournissent leurs solutions en SaaS, et tendent à déployer leurs applications en Continuous Delivery. Pour cela, les contraintes business impliquent souvent de pouvoir déployer un nouvelle version applicative sans interruption de service.
+      <p></p>
+      Les techniques classiques de Rolling Update permettent de réaliser une montée de version sans interruption de service assez facilement. La complexité intervient lorsque l'on gère une base de données relationnelle, et que l'on souhaite faire évoluer son schéma, le tout, toujours sans interruption de service.
+      <p></p>
+      Depuis 3 ans, au sein de Mirakl, nous avons mis en place un système de montée de version sans interruption de service avec une base relationnelle.
+      <p></p>
+      Ce talk est un retour d'expérience présentant les mécanismes que nous avons mis en place pour réaliser ces montées de version sans interruption. Il se concentre sur la partie applicative, et les problématiques engendrées par un tel process. Le but est d'être le plus concret possible, avec des exemples de \"la vraie vie\", notamment quelques astuces pour réaliser ses migrations sans douleur avec des frameworks comme Hibernate ou jOOQ. Les exemples sont donnés en Java avec une base de données PostgreSQL, mais les principes s'appliquent à n'importe quel language et à la plupart des bases de données relationnelles.
+      </p>"
       speakers:
-        - Philippe Charrière
+        - Nelson Dionisi
 
-    - title: "La programmation en binôme, c'est magique&nbsp;!"
+    - title: "Épanoui au travail : Yes, No, Maybe, I don’t know"
       room: Salle C
       level: Tout public
-      desc: "<p>Quelle drôle d’idée que deux personnes réalisent une tâche pouvant être réalisée par une seule personne&nbsp;? Cela ne multiplie-t-il pas les coûts par deux&nbsp;?</p>
-             <p>Si la programmation en binôme (pair programming) est une bonne pratique Agile, recommandée notamment dans l’eXtrème Programming, elle soulève bien des interrogations et son utilité n’est pas intuitive. Or à l’usage elle transforme radicalement l’activité d’une équipe de développement, tant d’un point vue technique qu’humain. Et si les premiers effets positifs se font ressentir rapidement, des effets sur le long terme, plus inattendus mais tout aussi bénéfiques, émergent aussi.</p>"
+      desc: "<p>
+      Que vous soyez employé, indépendant, manager ou encore dirigeant, le bien-être au travail nous concerne tous. Après avoir cherché le saint-Graal qu'est l'emploi idéal, nous souhaitons partager nos expériences et nos points de vue.
+      <p></p>
+      Comment une entreprise peut créer un environnement favorable à l'épanouissement de ses employés ? Qu'est-ce qui a pu nous pousser à démissionner ? Comment pouvons-nous agir pour devenir contributeur du bien-être au travail ?
+      <p></p>
+      Ensemble, construisons notre job de rêve avec bienveillance, tolérance et patience. ❤️❤️
+      </p>"
       speakers:
-        - Frédéric Leguédois
+        - Andréa Cauchoix
 
-    - title: "Votre mission&nbsp;? Découvrir Haskell et le mettre en prod"
+    - title: "Et si Mario était UX designer"
       room: Salle D
       level: Tout public
-      desc: "<p>On entend parler de Haskell de plus en plus, mais il parait souvent bien compliqué de se lancer. Haskell fait peur, avec ses Monades, Monoïdes et autres gros mots.</p>
-             <p>On verra ensemble que vous n'avez absolument pas besoin de savoir ce que ces termes signifient pour vous lancer. Je vous propose de regarder ce dont vous aurez besoin pour créer une petite API, avec de la sécurité et de la gestion de données, soit de quoi mettre une petite application en prod.</p>"
+      desc: "<p>
+      Avez-vous déjà ressenti de la frustration en jouant à un jeu vidéo à cause de commandes non intuitives ? Vous êtes-vous déjà ennuyés devant des pages de chargement trop longues ? Vous aussi, vous pensez que les inventaires sont souvent mal conçus ? Si vous vous sentez concernés par ces problématiques, alors vous avez aussi expérimenté des problèmes d'expérience utilisateur dans votre vie de gamer. Nous vous proposons un nouvel angle de vue sur la UX, en vous apportant des exemples concrets issus des grands hits des jeux vidéo. En partant d'exemples de rétrogaming jusqu'aux blockbusters récents de l'industrie du jeu, nous ferons le tour d'éléments essentiels qui concourent à une bonne expérience. La UX est parfois là où on ne l'attend pas, venez explorer une nouvelle approche plus parlante et plus fun sous l'angle des jeux vidéo, où utilisabilité et jouabilité ne sont pas si éloignées ! Et si vous reconsidéreriez l'expérience utilisateur sous l'angle de l'expérience gamer ?
+      </p>"
       speakers:
-        - Céline Louvet
+        - Alexandra Nemery
+        - Sarah Colmon
 
 - time: 15h20
   talks:
@@ -308,97 +387,146 @@
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Premiers pas avec Capacitor... dans le monde réel"
+    - title: "Tout le monde sait comment utiliser Angular / React / Vue.js ... Mais savez-vous comment utiliser JavaScript ?"
       room: Salle A
       level: Tout public
-      desc: "<p>Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n’importe quel framework, complètement intégré à la prochaine version d’Ionic…</p>
-             <p>Ben non, au moins au début, l’idée de Capacitor me laissait sceptique. J’ai passé les deux dernières années à développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou natives me paressait simplement obsolète. Dans ma tête j’avais mis Capacitor dans la case techno cool qui ne m’intéresse pas dans la vraie vie. Mais à ce moment j’ai relu avec attention leur site et j’ai vu une ligne qui m’a séduit&nbsp;: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d’elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool&nbsp;!</p>
-             <p>J’ai donc décidé de tester Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d’expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n’a pas marché, et surtout ce que j’ai appris dans le processus.</p>"
+      desc: "<p>
+      Aujourd’hui tout le monde connait les frameworks Angular, React Vuejs, mais savez-vous utiliser JavaScript ?
+      </p><p>
+      Savez-vous modifier votre framework favori, comprendre comment fonctionne un binding , comment fonctionne un router ?
+      </p><p>
+      Et pourquoi utiliser un framework pour un simple POC alors que parfois il est si simple de revenir aux sources ?
+      </p><p>
+      Et si on se posait les bonnes questions ?
+      </p>"
       speakers:
-        - Horacio Gonzalez
+        - Aurélien Loyer
+        - Nathan DAMIE
 
-    - title: "Embarquement Agile&nbsp;: Comment intégrer un nouveau dev en 5 semaines&nbsp;?"
+    - title: "Comment j'ai arrêté les boucles for"
       room: Salle B
       level: Tout public
-      desc: "<p>Une équipe agile a ses pratiques, ses méthodes, ses outils et ses habitudes... Mais surtout ses êtres humains et sa culture.</p>
-             <p>La culture agile, déjà si difficile à acquérir est encore plus difficile à transmettre. Alors comment fait-on pour embarquer un nouveau dev dans l’équipe&nbsp;?</p>
-             <p>On a essayé différentes méthodes traditionnelles sans grand succès, puis on a fini par trouver quelque chose qui fonctionne vraiment&nbsp;: 5 mini challenges d’une semaine en terrain inconnu et accompagné d’un nouveau tuteur à chaque fois.</p>
-             <p>Cette session est un retour d’expérience à destination des développeurs, managers, scrum masters, RH et coach agiles...</p>"
+      desc: "<p>
+      \"La programmation fonctionnelle c'est un truc de matheux\" : voilà la vision que j'en avais il y a encore 1 an.
+      </p><p>
+      Monade, endofunctor, applicative sont des mots qui viennent régulièrement nous faire saigner les oreilles lorsque l'on nous parle de programmation fonctionnelle. Des concepts nouveaux et une façon de penser différente pour des développeurs qui, comme je l'étais, sont habitués à Java et ses lambdas.
+      </p><p>
+      Dans ces conditions la transition POO->FP ne semble pas aisée. Est-elle même vraiment intéressante et utile au quotidien?
+      </p><p>
+      Et s'il était possible de démarrer la FP en laissant l'aspect théorique de côté pour introduire petit à petit des concepts fonctionnels dans notre façon de développer, presque sans s'en rendre compte, apprendre au fur et à mesure et finir par ne plus pouvoir développer que comme ça?
+      </p><p>
+      A travers ce talk je vais vous présenter comment cette transition très progressive a eu lieu dans notre équipe grâce à Kotlin et Arrow. Le talk laissera la part belle aux exemples qui illustreront que l'objectif n'est pas simplement le côté hype de pouvoir dire \"Hey! on fait de la FP !!\" mais que notre code est aujourd'hui beaucoup moins sujet aux effets de bord indésirés, plus lisible et plus maintenable.
+      </p><p>
+      Attention toutefois, à l'issue du talk vous risqueriez ne plus vouloir écrire de boucles for...
+      </p>"
       speakers:
-        - Florian Ferbach
+        - Ghislain Mahieux
 
-    - title: "Informatique Quantique, Futur ou Réalité&nbsp;?"
+    - title: "Core, le principe \"dans le doute reboot\" appliqué à .NET"
       room: Salle C
-      level: Niveau avancé
-      desc: "<p>En quelques minutes, Robin nous fera voyager entre la physique atomique et la physique quantique. Il nous parlera de l’histoire du chat de Schrödinger et de téléportation. Tous cela vous paraît être de la science fiction&nbsp;? Pourtant les premiers ordinateurs quantiques et les Qbits sont bien réels. Robin exécutera un des premiers programmes « quantique » permettant de casser une clé de cryptage réputée inviolable sur nos machines actuelles.</p>"
+      level: Tout public
+      desc: "<p>
+      17 ans... Même pas l'âge de raison pour un humain mais l'équivalent d'une période géologique à l'échelle de l'informatique. C'est pourtant l'âge de .NET. Alors comment faire du neuf avec du vieux ? C'est toute l'histoire de .NET Core. Libérer de ses chaînes, .NET redevient une plateforme performante et innovante. Dans ce talk, je me propose de vous conter cette histoire. Maintenant est-ce que <strong>vous</strong>, vous saurez vous libérer de vos idées préconçues et oserez franchir le seuil de la salle ?
+      </p>"
       speakers:
-        - Robin Szylobryt
+        - François Bouteruche
 
-    - title: "Découvrir par l’exemple&nbsp;: Microservices et Event Sourcing avec Kafka et Kubernetes"
+    - title: "Le deep-learning démystifé"
       room: Salle D
       level: Tout public
-      desc: "<p>Lorsque vous développez des applications vous avez besoin de vous adapter rapidement aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.</p>
-             <p>Les microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par le biais de Kubernetes permet de déployer ces services en toute tranquillité.</p>
-             <p>Cette présentation, en s’appuyant sur des cas d’usage et des démonstrations, vous permettra de découvrir:</p>
-             <ul>
-             <li>Les micro-services et l’event sourcing avec Apache Kafka</li>
-             <li>Les containers avec Docker</li>
-             <li>Le déploiement et management des services avec Kubernetes</li>
-             </ul>
-             <p>Si vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idée des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!</p>"
+      desc: "<p>
+      Le deep learning est au coeur de la révolution de l'IA, on en parle beaucoup, ça fascine et ça fait bien peur : on dirait de la \"magie noire\" hors de portée du spécialiste mais tout ça va contrôler nos vies ! ( ou les contrôle déjà ... )
+      </p><p>
+      Ce talk a pour but d'exposer les principes de base qui font marcher le deep-learning afin de démystifier cette technologie, pour les non spécialistes. Notez bien que talk a pour but d'être accessible si vous n'êtes ni une bête en math, ni un developpeur, et il n'est certainement pas pour vous si vous jouez à TensorFlow tout les jours, ou que vous avez lu et compris toute la biblio de LeCun, Hinton et Bengio... Vous n'en sortirez pas expert mais j'espère avec un peu moins l'impression de magie noire, et du coup de leurs limites.
+      </p><p>
+      Nous visiterons aussi un petit tour du zoo des réseaux, pour voir un peu de quoi sont capables ces réseaux, et comment ils sont utilisés aujourd'hui.
+      </p>"
       speakers:
-        - Tugdual Grall
+        - Florent D'halluin
 
 - time: 16h40
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Vous n'avez pas besoin de ça&nbsp;!"
+    - title: "De l'avenir de l'expérience utilisateur"
       room: Salle A
-      level: Niveau avancé
-      desc: "<p>React, Microservices, GraphQL, REST, DDD... Tous ces buzzwords porteurs de promesses d'un monde meilleur sont sur toutes les lèvres, de toutes les conférences et s'installent petit à petit dans nos projets. Sont-ils vraiment la seule solution à tous nos problèmes&nbsp;? Au travers de cette conférence à la description taillée pour le SEO nous verrons qu'il existe des alternatives à ces technologies parfois mieux adaptées au contexte dans lequel nous évoluons tous les jours.</p>"
+      level: Tout public
+      desc: "<p>
+      Ça fait un moment que je me pose cette question : Comment va évoluer mon métier ? L’idée est pour moi de détecter les signaux faibles, de voir l’évolution du métier dans les années à venir. Pour ça, j’ai commencé par synthétiser ma veille et mes idées principales et ensuite je suis allé confronter mes idées avec diverses personnes du monde du design et de l’UX. J’ai vu émerger différentes thèmes autour de l’éthique, la temporalité du design, les promesses technologiques, le « business as usual », les designers stars ou encore la formation.
+      </p><p>
+      Delà plusieurs problématiques ont émergé :
+      </p>
+      <ul>
+      <li>Le tout techno n’est pas viable ni enviable ?</li>
+      <li>La fin des apps ?</li>
+      <li>Artisanal versus industriel ?</li>
+      <li>Arrêter de répondre avec des outils, mais faites vivre le design !</li>
+      <li>Comment faire du design de l’UX design ?</li>
+      </ul>
+      <p>
+      Je vous propose de réfléchir autours des résultats de cette enquête et de l'impacts que ça pourrait avoir sur vos organisations.
+      </p>"
       speakers:
-        - Charles Desneuf
+        - Raphaël Yharrassarry
 
-    - title: "L'itération 0&nbsp;: du craftmanship pour le webfront"
+    - title: "20 choses à connaitre quand on fait du Kubernetes"
       room: Salle B
-      level: Niveau avancé
-      desc: "<p>Développer une application web n’est pas du bricolage dans un garage&nbsp;!
-             Le développement s’industrialise pour réaliser des applications robustes et facilement maintenables.</p>
-             <p>Inspiré des outils du software craftmanship et de l’agilité, nous proposons les pratiques et outils préférés que vous pouvez mettre en &oelig;uvre pour réaliser des applications dont vous serez fiers&nbsp;!</p>
-             <p>Nous parlerons d'intégration continue, de déploiement continu et d'outils comme Gitlab-ci, des reviews apps ...</p>"
+      level: Tout public
+      desc: "<p>
+      En quelques années, Kubernetes s’est imposé comme l’orchestrateur incontournable quand on utilise des containers. Mais avec la maturité est venu la complexité: il est difficile de maitriser Kubernetes en détails et on se pose souvent des questions, notamment quand on se lance.
+      </p><p>
+      ette présentation est un retour d’expérience autour de bonnes pratiques, d’astuces et d’erreurs à éviter pour utiliser Kubernetes plus efficacement. Bref des choses qu’il vaut mieux connaitre le plus tôt possible quand on fait du Kubernetes.
+      </p>"
       speakers:
-        - Christophe Malaboeuf
+        - Alain Regnier
 
-    - title: "Unity 3D - Retour d'expérience sur une app d'1M download"
+    - title: "Avant de faire du pair-programming, faites du pair-recruiting !"
       room: Salle C
       level: Tout public
-      desc: "<p>Retour d'expérience sur le développement et le succès d'un jeu Android (par Florian DUBOC)</p>
-             <p>Unity3D est devenu le moteur de jeux vidéo le plus populaire et le plus utilisé du marché grâce à sa simplicité d'utilisation, sa facilité d' apprentissage et son modèle économique.</p>
-             <p>Un matin, Florian a eu l'idée de faire son propre jeu vidéo et s'est lancé avec Unity3D dans la réalisation de Little Demolition (un physic-game sur android) . Il a rapidement fait face à différentes difficultés&nbsp;:</p>
-             <ul>
-             <li>\"Unity c'est simple, trop simple!\"</li>
-             <li>\"Je veux que ce soit beau graphiquement!\"</li>
-             <li>\"ça rame&nbsp;!!!\"</li>
-             <li>\"Comment gagner en performances&nbsp;?\"</li>
-             </ul>
-             <p>Pendant 45 minutes, Florian partagera avec vous son expérience et toutes ses astuces techniques autour de Unity3D. Il vous montrera comment Unity3D lui a permis de passer de gamer à concepteur de jeux vidéo en transformant sa passion en une activité professionnelle lucrative. Sa première application \"Little Demolition\" sortie il y a un an dépasse maintenant le million de téléchargement.</p>"
+      desc: "<p>
+      Etre une équipe auto-organisée et pluri-disciplinaire implique une forte cohérence : il faut bien s'entendre, mais oser se dire les choses, il faut se compléter et se soutenir autant humainement que techniquement. Cette valeur forte de l'agilité est souvent mise à rude épreuve selon la manière dont sont constituées les équipes. Et à la base de la constitution des équipe, il y a l'embauche même des collègues.
+      </p><p>
+      Dans ma boite, nous nous embauchons les un·e·s, les autres, du coup nous travaillons notre cohésion dès l'embauche et ça fonctionne ! On aime travailler ensemble et on se tire vers le haut.
+      </p><p>
+      Dans cette conf, je vous propose de détailler notre process de recrutement pas si courant et pourtant plein de bon sens, en espérant qu'il fasse germer des idées pour que vous aussi, vous choisissiez vos futur·e·s collègues !
+      </p>"
       speakers:
-        - Florian Duboc
+        - Cécile Especel
 
-    - title: "UX et Product Management en contexte agile&nbsp;: monozygotes ou dizygotes&nbsp;?"
+    - title: "N’ayez plus peur de refactorer vos API WEB"
       room: Salle D
       level: Tout public
-      desc: "<p>“Soit agile&nbsp;! C’est trop design&nbsp;! Cette boîte est trop lean&nbsp;!... Je trouve que ce n’est pas assez UX...”
-             Mais quelle signification cela a-t-il pour nos clients&nbsp;? Sommes nous alignés sur les définitions de nos pratiques&nbsp;? Comment les articuler&nbsp;? Le product management et l’UX design se complètent-ils&nbsp;? Leurs périmètres se superposent-ils&nbsp;? L’UX designer est-il un nouvel imposteur qui vole le travail du Product Owner&nbsp;?
-             Travailler en équipes pluri-disciplinaires nous amènent à partager nos connaissances et best practices et à trouver notre place au sein du groupe. Nous vous exposerons nos retours d’expériences sur les similitudes et différences entre UX design, Product management  en contexte agile. Ainsi que nos pistes pour d’articuler ces différentes pratiques en équipe pour un travail en bonne intelligence et encore plus efficient.</p>
-             <p>Alors vrais jumeaux ou faux jumeaux&nbsp;?!!</p>"
+      desc: "<p>
+      Vous ne savez pas qui consomme quelles APIs ?
+      </p><p>
+      Supprimer un champ obsolète ? Vous n’y pensez plus, il est peut-être important pour quelqu’un quelque part !!
+      </p><p>
+      Ce vieux Endpoint est-il toujours utilisé ? Par qui ? Personne ne le sait !
+      </p><p>
+      Tous les clients ont-ils migré vers la nouvelle version ? Peut-être…
+      </p><p>
+      Vous avez une belle architecture micro service et vous échangez des données avec d'autres systèmes.
+      </p><p>
+      Mais faire évoluer vos APIs est devenu fastidieux et risqué.
+      </p><p>
+      Venez découvrir, à travers différents outils (Pact, Spring Cloud Contract), de quelle manière vous pouvez sécuriser vos montées en version et documenter vos APIs avec le contract testing.
+      </p><p>
+      Nous verrons ensemble comment :
+      </p>
+      <ul>
+      <li>Vérifier la compatibilité de votre nouvelle API avec les clients existants (front et back)</li>
+      <li>S’assurer que tous les clients ont migré sur cette version, sinon savoir qui utilise encore l’ancienne ;</li>
+      <li>Supprimer sereinement une donnée.</li>
+      </ul>
+      </p>"
       speakers:
-        - Nadège Bide
+        - Maxime GELLE
+        - Jessica Audas
 
 - time: 17h30
   talks:
-    - title: "Plénière de Cloture - Surprise&nbsp;!"
+    - title: "Carte blanche à Fred Leguédois"
       room: Salle A
+      desc: "<p>Cette année nous donnons 45 mn à Frédéric Leguédois. Nous ne connaissons pas encore le sujet. Cela sera une nouvelle conférence, elle sera peut être plus sérieuse que d'habitude. Mais on est sur que cela sera bien&nbsp;!</p>"
       speakers:
         - L'équipe de Codeurs en Seine
