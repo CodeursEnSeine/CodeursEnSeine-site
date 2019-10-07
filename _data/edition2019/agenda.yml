@@ -196,50 +196,9 @@
   type: Quickies
   type_single: Quicky
   talks:
-    - title: "Pourquoi ça rame ? Deboguer le front avec Webpagetest et Chrome Dev Tools"
-      room: Salle A
-      level: Niveau avancé
-      desc: "<p>
-      Le but de la #webperf c'est de fournir une expérience de chargement rapide, puis de rester fluide lors des interactions utilisateur. LightHouse n'étant pas un outil très précis, nous allons plutôt découvrir Webpagetest et Chrome Dev Tools qui sont les 2 outils majeurs de la performance frontend pour trouver les premières pistes qui feront de votre site un site agréable à utiliser.
-      </p><p>
-      Pour profiter pleinement de la démo, pourquoi ne pas précharger un résultat de test Webpagetest et Chrome Dev Tools sur votre portable, si vous l'amenez ? Cela vous permettra de vous familiariser avec ces interfaces complexes.
-      </p>"
-      speakers:
-        - Jean-Pierre Vincent
-
-    - title: "10 incohérences dans les langages informatiques (la quatrième est tellement vraie !)"
-      room: Salle B
-      level: Tout public
-      desc: "<p>
-      Que se cache t-il derrière ce titre bien racoleur?
-      </p><p>
-      JavaScript, Java, Python, PHP …Tous les développeurs sont persuadés que leur langage est propre, logique, cohérent ... <strong>Qu'en est il vraiment?</strong>
-      </p><p>
-      Je vous propose un petit tour d’horizon des énormités/incohérences que l'on peut retrouver dans différents langages de programmation.
-      </p><p>
-      Sortez votre hache de guerre et votre chope de bière car aujourd'hui en Normandie, aucun langage ne sera épargné !
-      </p><p>
-      <strong>Ça va saigner !</strong>
-      </p>"
-      speakers:
-        - Pierre LACHEVRE
-
-
-    - title: "J’ai demandé mes données personnelles grâce au RGPD"
-      room: Salle C
-      level: Tout public
-      desc: "<p>
-      Le RGPD est entré en application en France fin mai 2018. Depuis, j’ai exercé mon droit d’accès à mes données auprès de plusieurs entreprises et j’ai appris sur moi-même.
-      </p><p>
-      Je propose de présenter les démarches à suivre pour obtenir ses données, les analyses de mes données obtenues auprès de Trainline (billets de train), Monoprix (supermarché) et mes recherches Google.
-      </p><p>
-      Enfin, je termine avec une ouverture sur le futur de l’accès et la portabilité des données.
-      </p>"
-      speakers:
-        - Antoine Augusti
 
     - title: "Cobol for Ever : Comment faire du neuf avec un SI âgé de plus de 40 ans ?"
-      room: Salle D
+      room: Salle A
       sponsor: true
       level: Tout public
       desc: "<p>
@@ -254,7 +213,42 @@
       speakers:
         - Cédric DESLANDES
         - Elie LESUEUR
-        - Grégory Lefevre
+
+    - title: "Pourquoi ça rame ? Deboguer le front avec Webpagetest et Chrome Dev Tools"
+      room: Salle B
+      level: Niveau avancé
+      desc: "<p>
+      Le but de la #webperf c'est de fournir une expérience de chargement rapide, puis de rester fluide lors des interactions utilisateur. LightHouse n'étant pas un outil très précis, nous allons plutôt découvrir Webpagetest et Chrome Dev Tools qui sont les 2 outils majeurs de la performance frontend pour trouver les premières pistes qui feront de votre site un site agréable à utiliser.
+      </p><p>
+      Pour profiter pleinement de la démo, pourquoi ne pas précharger un résultat de test Webpagetest et Chrome Dev Tools sur votre portable, si vous l'amenez ? Cela vous permettra de vous familiariser avec ces interfaces complexes.
+      </p>"
+      speakers:
+        - Jean-Pierre Vincent
+
+    - title: "Event loop et asynchronisme en JavaScript"
+      room: Salle C
+      level: Niveau avancé
+      desc: "<p>
+      Sans utilisation des web workers, JavaScript est un langage monothread, qui offre toutefois la possibilité d'exécuter du code de manière asynchrone.
+      <p></p>
+      A travers une exploration du fonctionnement de la stack, des diverses queues et de l'event loop, ce quickie sera l'occasion de mieux comprendre le fonctionnement et les limitations de cette gestion l'asynchronisme en JS.
+      </p>"
+      speakers:
+        - Benjamin Cavy
+
+    - title: "J’ai demandé mes données personnelles grâce au RGPD"
+      room: Salle D
+      level: Tout public
+      desc: "<p>
+      Le RGPD est entré en application en France fin mai 2018. Depuis, j’ai exercé mon droit d’accès à mes données auprès de plusieurs entreprises et j’ai appris sur moi-même.
+      </p><p>
+      Je propose de présenter les démarches à suivre pour obtenir ses données, les analyses de mes données obtenues auprès de Trainline (billets de train), Monoprix (supermarché) et mes recherches Google.
+      </p><p>
+      Enfin, je termine avec une ouverture sur le futur de l’accès et la portabilité des données.
+      </p>"
+      speakers:
+        - Antoine Augusti
+
 
 - time: 12h15
   talks:
@@ -276,8 +270,21 @@
   type: Quickies
   type_single: Quicky
   talks:
-    - title: "🏡 Full-remote : comment réussir à travailler en équipe ?"
+
+    - title: "Le MCU JavaScript"
       room: Salle A
+      sponsor: true
+      level: Niveau avancé
+      desc: "<p>
+      Bienvenue dans le <strong>JavaScript Main Code Universal</strong> ! Comme pour le scénario des films MCU, je vais vous prouver qu’il est possible d’<strong>utiliser le même code JS sur des supports différents</strong>. Web, Mobile, Desktop App, … rien n’est impossible pour notre langage héros ! Il se trouvera également au côté de ses fidèles compagnons : <strong>NodeJS, Cordova et Electron</strong>.
+      </p><p>
+      Dans les salles le 21 Novembre 2019 à la Kindarena.
+      </p>"
+      speakers:
+        - Cyril Lefebvre
+
+    - title: "🏡 Full-remote : comment réussir à travailler en équipe ?"
+      room: Salle B
       level: Tout public
       desc: "<p>
       Dans un contexte où de plus en plus d’entreprises ont à cœur le bien-être de leurs employés, le télétravail se développe. Lorsque cela reste ponctuel, tout va pour le mieux. Mais lorsqu’une personne décide de partir à l’autre bout du pays parce qu’elle en a marre de Paris, c’est une autre histoire !
@@ -289,19 +296,25 @@
       speakers:
         - Lise Quesnel
 
-    - title: "Event loop et asynchronisme en JavaScript"
-      room: Salle B
-      level: Niveau avancé
+    - title: "10 incohérences dans les langages informatiques (la quatrième est tellement vraie !)"
+      room: Salle C
+      level: Tout public
       desc: "<p>
-      Sans utilisation des web workers, JavaScript est un langage monothread, qui offre toutefois la possibilité d'exécuter du code de manière asynchrone.
-      <p></p>
-      A travers une exploration du fonctionnement de la stack, des diverses queues et de l'event loop, ce quickie sera l'occasion de mieux comprendre le fonctionnement et les limitations de cette gestion l'asynchronisme en JS.
+      Que se cache t-il derrière ce titre bien racoleur?
+      </p><p>
+      JavaScript, Java, Python, PHP …Tous les développeurs sont persuadés que leur langage est propre, logique, cohérent ... <strong>Qu'en est il vraiment?</strong>
+      </p><p>
+      Je vous propose un petit tour d’horizon des énormités/incohérences que l'on peut retrouver dans différents langages de programmation.
+      </p><p>
+      Sortez votre hache de guerre et votre chope de bière car aujourd'hui en Normandie, aucun langage ne sera épargné !
+      </p><p>
+      <strong>Ça va saigner !</strong>
       </p>"
       speakers:
-        - Benjamin Cavy
+        - Pierre LACHEVRE
 
     - title: "Le Design System, la toolbox pour designers et ingénieurs front-end"
-      room: Salle C
+      room: Salle D
       level: Niveau avancé
       desc: "<p>
       On entend beaucoup parler du Design System aujourd'hui. La nouvelle façon de concevoir le design nous remet en question sur la façon de développer nos interfaces.
@@ -312,17 +325,6 @@
       speakers:
         - Josiane Makelele
 
-    - title: "Le MCU JavaScript"
-      room: Salle D
-      sponsor: true
-      level: Niveau avancé
-      desc: "<p>
-      Bienvenue dans le <strong>JavaScript Main Code Universal</strong> ! Comme pour le scénario des films MCU, je vais vous prouver qu’il est possible d’<strong>utiliser le même code JS sur des supports différents</strong>. Web, Mobile, Desktop App, … rien n’est impossible pour notre langage héros ! Il se trouvera également au côté de ses fidèles compagnons : <strong>NodeJS, Cordova et Electron</strong>.
-      </p><p>
-      Dans les salles le 21 Novembre 2019 à la Kindarena.
-      </p>"
-      speakers:
-        - Cyril Lefebvre
 
 - time: 14h30
   type: Conférences
