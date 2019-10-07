@@ -46,12 +46,12 @@
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "ITCSS : méthode d'architecture pour des CSS fonctionnelles, maintenables et évolutives"
+    - title: "ITCSS&nbsp;: méthode d'architecture pour des CSS fonctionnelles, maintenables et évolutives"
       room: Salle A
       level: Tout public
       desc: "
         <p>
-          <strong>Comment hiérarchiser correctement son code CSS ?</strong>
+          <strong>Comment hiérarchiser correctement son code CSS&nbsp;?</strong>
           <br />
           Voilà une question à laquelle je me suis régulièrement heurtée ces 10 dernières années…<br />
           J'ai essayé plusieurs approches, mais aucune ne m'a réellement séduite jusqu'à ce que je découvre ITCSS l'année dernière.
@@ -72,10 +72,10 @@
       level: Tout public
       desc: "
         <p>
-          De nombreux services en ligne existent pour gérer en toute sécurité des appareils IoT à grande échelle : \"Azure IoT\" de Microsoft et \"AWS IoT\" d'Amazon sont parmi les plus connus.
+          De nombreux services en ligne existent pour gérer en toute sécurité des appareils IoT à grande échelle&nbsp;: \"Azure IoT\" de Microsoft et \"AWS IoT\" d'Amazon sont parmi les plus connus.
         </p>
         <p>
-          Google propose également sa solution : \"Cloud IoT\" basée sur la plate-forme Google Cloud (GCP). Dans ce talk, nous partirons d'un microcontrôleur neuf ultra connu et abordable, et notre but sera tout d'abord de découvrir comment écrire du code pour ce composant nous permettant de récupérer des informations sur notre environnement. Ensuite, nous ferons en sorte que ce composant envoie ses données vers un service Cloud, pour enfin découvrir ce que permettent ces solutions en ligne dédiées à l'IoT.
+          Google propose également sa solution&nbsp;: \"Cloud IoT\" basée sur la plate-forme Google Cloud (GCP). Dans ce talk, nous partirons d'un microcontrôleur neuf ultra connu et abordable, et notre but sera tout d'abord de découvrir comment écrire du code pour ce composant nous permettant de récupérer des informations sur notre environnement. Ensuite, nous ferons en sorte que ce composant envoie ses données vers un service Cloud, pour enfin découvrir ce que permettent ces solutions en ligne dédiées à l'IoT.
         </p>
         <p>
           Pour l'exemple, et parce qu'il faut bien choisir une solution, nous utiliserons Google Cloud IoT Core, les concepts restant similaires sur les autres plate-formes.
@@ -89,7 +89,7 @@
       level: Tout public
       desc: "
         <p>
-          Nous autres développeurs front sommes continuellement confrontés à la nécessité d'apprendre : un nouveau framework / librairie JS (framework React, libs Redux, etc...), un nouveau langage (Dart, Kotlin), et même des changements majeurs sur les domaines que nous pensions connaître (les hooks sur React par exemple).
+          Nous autres développeurs front sommes continuellement confrontés à la nécessité d'apprendre&nbsp;: un nouveau framework / librairie JS (framework React, libs Redux, etc...), un nouveau langage (Dart, Kotlin), et même des changements majeurs sur les domaines que nous pensions connaître (les hooks sur React par exemple).
         </p>
         <p>
           Mais si au final, cela n'était pas si important? Et si, en maîtrisant la base, c'est à dire nos patterns, nous étions capables de nous adapter à moindre coût aux incessants changements de notre monde frontend?
@@ -129,13 +129,13 @@
       room: Salle A
       level: Tout public
       desc: "<p>
-        <strong>Que se passe-t-il pour vos utilisateurs quand l'un des (micro) services dont dépend votre application vous laisse en plan ?</strong>
+        <strong>Que se passe-t-il pour vos utilisateurs quand l'un des (micro) services dont dépend votre application vous laisse en plan&nbsp;?</strong>
         </p><p>
-        Le développement d'applications web s'industrialise pour le bonheur de tous : nous testons nos applications, nous les rendons performantes et le plus accessible possible pour nos utilisateurs.
+        Le développement d'applications web s'industrialise pour le bonheur de tous&nbsp;: nous testons nos applications, nous les rendons performantes et le plus accessible possible pour nos utilisateurs.
         </p><p>
         Pourtant, en m'intéressant au sujet de la <strong>résilience</strong> d'une application web, je me suis rendu compte que nous étions encore tous un peu naïfs dans notre façon de concevoir des sites.
         </p><p>
-        Après avoir rappelé le concept de résilience, j'entrerai rapidement dans le vif du sujet en vous présentant le <strong>Circuit Breaker</strong> : un design pattern prévu pour rendre un système résistant aux indisponibilités extérieures.
+        Après avoir rappelé le concept de résilience, j'entrerai rapidement dans le vif du sujet en vous présentant le <strong>Circuit Breaker</strong>&nbsp;: un design pattern prévu pour rendre un système résistant aux indisponibilités extérieures.
         </p><p>
         Je m'appuierai sur l'expérience acquise sur PrestaShop (un CMS e-commerce Open Source), qui m'a conduit à créer une <strong>librairie PHP nommée Resiliency</strong> et que nous sommes en train de déployer dans tous les aspects de notre projet pour rendre notre parc de 300 000 boutiques indépendant de nos propres services internes.
         </p><p>
@@ -150,9 +150,9 @@
       room: Salle B
       level: Tout public
       desc: "<p>
-      Quel est le rapport entre CIA, sabotage et manifeste agile ?
+      Quel est le rapport entre CIA, sabotage et manifeste agile&nbsp;?
       </p><p>
-      Vous avez l’impression que votre entreprise vous empêche d’être efficace, et cela vous démotive ?
+      Vous avez l’impression que votre entreprise vous empêche d’être efficace, et cela vous démotive&nbsp;?
       </p><p>
       Le manuel d’anti-sabotage vous apportera des techniques concrètes, applicables par tous. Agissez au quotidien pour rendre votre entreprise plus performante et plus épanouissante.
       </p>"
@@ -165,7 +165,7 @@
       desc: "<p>
       Et encore une fuite de numéros de cartes de crédit sur internet! <a target=\"_blank\" href=\"https://www.infoq.com/news/2018/11/british-airways-data-breach\">https://www.infoq.com/news/2018/11/british-airways-data-breach</a>
       </p><p>
-      C'est révoltant n'est-ce pas ? Mais attends, qu'est-ce qu'on fait nous pour s'assurer que notre appli n'est pas une passoire?
+      C'est révoltant n'est-ce pas&nbsp;? Mais attends, qu'est-ce qu'on fait nous pour s'assurer que notre appli n'est pas une passoire?
       </p><p>
       Dans cette live-coding-hacking session, venez découvrir les erreurs les plus communes en sécurité, que la grande majorité d'entre nous font sans même le savoir!
       </p><p>
@@ -174,17 +174,17 @@
       speakers:
         - Julien Topçu
 
-    - title: "Mais hook'il est React ?"
+    - title: "Mais hook'il est React&nbsp;?"
       room: Salle D
       level: Niveau avancé
       desc: "<p>
-      Votre prochaine application React ? C’est avec les hooks que vous devez la faire et nous allons vous expliquer pourquoi !
+      Votre prochaine application React&nbsp;? C’est avec les hooks que vous devez la faire et nous allons vous expliquer pourquoi&nbsp;!
       </p><p>
-      Tout au long de cette conférence, nous vous montrerons la création d’une application from scratch avec React et ses nouveautés (les hooks !!) mais aussi le routing, la gestion de l’internationalisation et la communication avec le backend !
+      Tout au long de cette conférence, nous vous montrerons la création d’une application from scratch avec React et ses nouveautés (les hooks&nbsp;!!) mais aussi le routing, la gestion de l’internationalisation et la communication avec le backend&nbsp;!
       </p><p>
       #react #styledComponents #hooks #webpack #i18N
       </p><p>
-      Tous ces mots vous font peur ? Pas de panique ! Nous somme là pour vous aider !
+      Tous ces mots vous font peur&nbsp;? Pas de panique&nbsp;! Nous somme là pour vous aider&nbsp;!
       </p><p>
       Une conférence à ne pas rater si vous voulez connaître React de R à t ;)
       </p>"
@@ -197,7 +197,7 @@
   type_single: Quicky
   talks:
 
-    - title: "Cobol for Ever : Comment faire du neuf avec un SI âgé de plus de 40 ans ?"
+    - title: "Cobol for Ever&nbsp;: Comment faire du neuf avec un SI âgé de plus de 40 ans&nbsp;?"
       room: Salle A
       sponsor: true
       level: Tout public
@@ -214,13 +214,13 @@
         - Cédric DESLANDES
         - Elie LESUEUR
 
-    - title: "Pourquoi ça rame ? Deboguer le front avec Webpagetest et Chrome Dev Tools"
+    - title: "Pourquoi ça rame&nbsp;? Deboguer le front avec Webpagetest et Chrome Dev Tools"
       room: Salle B
       level: Niveau avancé
       desc: "<p>
       Le but de la #webperf c'est de fournir une expérience de chargement rapide, puis de rester fluide lors des interactions utilisateur. LightHouse n'étant pas un outil très précis, nous allons plutôt découvrir Webpagetest et Chrome Dev Tools qui sont les 2 outils majeurs de la performance frontend pour trouver les premières pistes qui feront de votre site un site agréable à utiliser.
       </p><p>
-      Pour profiter pleinement de la démo, pourquoi ne pas précharger un résultat de test Webpagetest et Chrome Dev Tools sur votre portable, si vous l'amenez ? Cela vous permettra de vous familiariser avec ces interfaces complexes.
+      Pour profiter pleinement de la démo, pourquoi ne pas précharger un résultat de test Webpagetest et Chrome Dev Tools sur votre portable, si vous l'amenez&nbsp;? Cela vous permettra de vous familiariser avec ces interfaces complexes.
       </p>"
       speakers:
         - Jean-Pierre Vincent
@@ -276,18 +276,18 @@
       sponsor: true
       level: Niveau avancé
       desc: "<p>
-      Bienvenue dans le <strong>JavaScript Main Code Universal</strong> ! Comme pour le scénario des films MCU, je vais vous prouver qu’il est possible d’<strong>utiliser le même code JS sur des supports différents</strong>. Web, Mobile, Desktop App, … rien n’est impossible pour notre langage héros ! Il se trouvera également au côté de ses fidèles compagnons : <strong>NodeJS, Cordova et Electron</strong>.
+      Bienvenue dans le <strong>JavaScript Main Code Universal</strong>&nbsp;! Comme pour le scénario des films MCU, je vais vous prouver qu’il est possible d’<strong>utiliser le même code JS sur des supports différents</strong>. Web, Mobile, Desktop App, … rien n’est impossible pour notre langage héros&nbsp;! Il se trouvera également au côté de ses fidèles compagnons&nbsp;: <strong>NodeJS, Cordova et Electron</strong>.
       </p><p>
       Dans les salles le 21 Novembre 2019 à la Kindarena.
       </p>"
       speakers:
         - Cyril Lefebvre
 
-    - title: "🏡 Full-remote : comment réussir à travailler en équipe ?"
+    - title: "🏡 Full-remote&nbsp;: comment réussir à travailler en équipe&nbsp;?"
       room: Salle B
       level: Tout public
       desc: "<p>
-      Dans un contexte où de plus en plus d’entreprises ont à cœur le bien-être de leurs employés, le télétravail se développe. Lorsque cela reste ponctuel, tout va pour le mieux. Mais lorsqu’une personne décide de partir à l’autre bout du pays parce qu’elle en a marre de Paris, c’est une autre histoire !
+      Dans un contexte où de plus en plus d’entreprises ont à cœur le bien-être de leurs employés, le télétravail se développe. Lorsque cela reste ponctuel, tout va pour le mieux. Mais lorsqu’une personne décide de partir à l’autre bout du pays parce qu’elle en a marre de Paris, c’est une autre histoire&nbsp;!
       <p></p>
       Je vous propose de passer en revue quelques clés pour réussir à travailler en équipe tout en étant dans des villes différentes.
       <p></p>
@@ -296,7 +296,7 @@
       speakers:
         - Lise Quesnel
 
-    - title: "10 incohérences dans les langages informatiques (la quatrième est tellement vraie !)"
+    - title: "10 incohérences dans les langages informatiques (la quatrième est tellement vraie&nbsp;!)"
       room: Salle C
       level: Tout public
       desc: "<p>
@@ -306,9 +306,9 @@
       </p><p>
       Je vous propose un petit tour d’horizon des énormités/incohérences que l'on peut retrouver dans différents langages de programmation.
       </p><p>
-      Sortez votre hache de guerre et votre chope de bière car aujourd'hui en Normandie, aucun langage ne sera épargné !
+      Sortez votre hache de guerre et votre chope de bière car aujourd'hui en Normandie, aucun langage ne sera épargné&nbsp;!
       </p><p>
-      <strong>Ça va saigner !</strong>
+      <strong>Ça va saigner&nbsp;!</strong>
       </p>"
       speakers:
         - Pierre LACHEVRE
@@ -356,13 +356,13 @@
       speakers:
         - Nelson Dionisi
 
-    - title: "Épanoui au travail : Yes, No, Maybe, I don’t know"
+    - title: "Épanoui au travail&nbsp;: Yes, No, Maybe, I don’t know"
       room: Salle C
       level: Tout public
       desc: "<p>
       Que vous soyez employé, indépendant, manager ou encore dirigeant, le bien-être au travail nous concerne tous. Après avoir cherché le saint-Graal qu'est l'emploi idéal, nous souhaitons partager nos expériences et nos points de vue.
       <p></p>
-      Comment une entreprise peut créer un environnement favorable à l'épanouissement de ses employés ? Qu'est-ce qui a pu nous pousser à démissionner ? Comment pouvons-nous agir pour devenir contributeur du bien-être au travail ?
+      Comment une entreprise peut créer un environnement favorable à l'épanouissement de ses employés&nbsp;? Qu'est-ce qui a pu nous pousser à démissionner&nbsp;? Comment pouvons-nous agir pour devenir contributeur du bien-être au travail&nbsp;?
       <p></p>
       Ensemble, construisons notre job de rêve avec bienveillance, tolérance et patience. ❤️❤️
       </p>"
@@ -374,7 +374,7 @@
       room: Salle D
       level: Tout public
       desc: "<p>
-      Avez-vous déjà ressenti de la frustration en jouant à un jeu vidéo à cause de commandes non intuitives ? Vous êtes-vous déjà ennuyés devant des pages de chargement trop longues ? Vous aussi, vous pensez que les inventaires sont souvent mal conçus ? Si vous vous sentez concernés par ces problématiques, alors vous avez aussi expérimenté des problèmes d'expérience utilisateur dans votre vie de gamer. Nous vous proposons un nouvel angle de vue sur la UX, en vous apportant des exemples concrets issus des grands hits des jeux vidéo. En partant d'exemples de rétrogaming jusqu'aux blockbusters récents de l'industrie du jeu, nous ferons le tour d'éléments essentiels qui concourent à une bonne expérience. La UX est parfois là où on ne l'attend pas, venez explorer une nouvelle approche plus parlante et plus fun sous l'angle des jeux vidéo, où utilisabilité et jouabilité ne sont pas si éloignées ! Et si vous reconsidéreriez l'expérience utilisateur sous l'angle de l'expérience gamer ?
+      Avez-vous déjà ressenti de la frustration en jouant à un jeu vidéo à cause de commandes non intuitives&nbsp;? Vous êtes-vous déjà ennuyés devant des pages de chargement trop longues&nbsp;? Vous aussi, vous pensez que les inventaires sont souvent mal conçus&nbsp;? Si vous vous sentez concernés par ces problématiques, alors vous avez aussi expérimenté des problèmes d'expérience utilisateur dans votre vie de gamer. Nous vous proposons un nouvel angle de vue sur la UX, en vous apportant des exemples concrets issus des grands hits des jeux vidéo. En partant d'exemples de rétrogaming jusqu'aux blockbusters récents de l'industrie du jeu, nous ferons le tour d'éléments essentiels qui concourent à une bonne expérience. La UX est parfois là où on ne l'attend pas, venez explorer une nouvelle approche plus parlante et plus fun sous l'angle des jeux vidéo, où utilisabilité et jouabilité ne sont pas si éloignées&nbsp;! Et si vous reconsidéreriez l'expérience utilisateur sous l'angle de l'expérience gamer&nbsp;?
       </p>"
       speakers:
         - Alexandra Nemery
@@ -390,17 +390,17 @@
   type: Conférences
   type_single: Conférence
   talks:
-    - title: "Tout le monde sait comment utiliser Angular / React / Vue.js ... Mais savez-vous comment utiliser JavaScript ?"
+    - title: "Tout le monde sait comment utiliser Angular / React / Vue.js ... Mais savez-vous comment utiliser JavaScript&nbsp;?"
       room: Salle A
       level: Tout public
       desc: "<p>
-      Aujourd’hui tout le monde connait les frameworks Angular, React Vuejs, mais savez-vous utiliser JavaScript ?
+      Aujourd’hui tout le monde connait les frameworks Angular, React Vuejs, mais savez-vous utiliser JavaScript&nbsp;?
       </p><p>
-      Savez-vous modifier votre framework favori, comprendre comment fonctionne un binding , comment fonctionne un router ?
+      Savez-vous modifier votre framework favori, comprendre comment fonctionne un binding , comment fonctionne un router&nbsp;?
       </p><p>
-      Et pourquoi utiliser un framework pour un simple POC alors que parfois il est si simple de revenir aux sources ?
+      Et pourquoi utiliser un framework pour un simple POC alors que parfois il est si simple de revenir aux sources&nbsp;?
       </p><p>
-      Et si on se posait les bonnes questions ?
+      Et si on se posait les bonnes questions&nbsp;?
       </p>"
       speakers:
         - Aurélien Loyer
@@ -410,7 +410,7 @@
       room: Salle B
       level: Tout public
       desc: "<p>
-      \"La programmation fonctionnelle c'est un truc de matheux\" : voilà la vision que j'en avais il y a encore 1 an.
+      \"La programmation fonctionnelle c'est un truc de matheux\"&nbsp;: voilà la vision que j'en avais il y a encore 1 an.
       </p><p>
       Monade, endofunctor, applicative sont des mots qui viennent régulièrement nous faire saigner les oreilles lorsque l'on nous parle de programmation fonctionnelle. Des concepts nouveaux et une façon de penser différente pour des développeurs qui, comme je l'étais, sont habitués à Java et ses lambdas.
       </p><p>
@@ -418,7 +418,7 @@
       </p><p>
       Et s'il était possible de démarrer la FP en laissant l'aspect théorique de côté pour introduire petit à petit des concepts fonctionnels dans notre façon de développer, presque sans s'en rendre compte, apprendre au fur et à mesure et finir par ne plus pouvoir développer que comme ça?
       </p><p>
-      A travers ce talk je vais vous présenter comment cette transition très progressive a eu lieu dans notre équipe grâce à Kotlin et Arrow. Le talk laissera la part belle aux exemples qui illustreront que l'objectif n'est pas simplement le côté hype de pouvoir dire \"Hey! on fait de la FP !!\" mais que notre code est aujourd'hui beaucoup moins sujet aux effets de bord indésirés, plus lisible et plus maintenable.
+      A travers ce talk je vais vous présenter comment cette transition très progressive a eu lieu dans notre équipe grâce à Kotlin et Arrow. Le talk laissera la part belle aux exemples qui illustreront que l'objectif n'est pas simplement le côté hype de pouvoir dire \"Hey! on fait de la FP&nbsp;!!\" mais que notre code est aujourd'hui beaucoup moins sujet aux effets de bord indésirés, plus lisible et plus maintenable.
       </p><p>
       Attention toutefois, à l'issue du talk vous risqueriez ne plus vouloir écrire de boucles for...
       </p>"
@@ -429,7 +429,7 @@
       room: Salle C
       level: Tout public
       desc: "<p>
-      17 ans... Même pas l'âge de raison pour un humain mais l'équivalent d'une période géologique à l'échelle de l'informatique. C'est pourtant l'âge de .NET. Alors comment faire du neuf avec du vieux ? C'est toute l'histoire de .NET Core. Libérer de ses chaînes, .NET redevient une plateforme performante et innovante. Dans ce talk, je me propose de vous conter cette histoire. Maintenant est-ce que <strong>vous</strong>, vous saurez vous libérer de vos idées préconçues et oserez franchir le seuil de la salle ?
+      17 ans... Même pas l'âge de raison pour un humain mais l'équivalent d'une période géologique à l'échelle de l'informatique. C'est pourtant l'âge de .NET. Alors comment faire du neuf avec du vieux&nbsp;? C'est toute l'histoire de .NET Core. Libérer de ses chaînes, .NET redevient une plateforme performante et innovante. Dans ce talk, je me propose de vous conter cette histoire. Maintenant est-ce que <strong>vous</strong>, vous saurez vous libérer de vos idées préconçues et oserez franchir le seuil de la salle&nbsp;?
       </p>"
       speakers:
         - François Bouteruche
@@ -438,7 +438,7 @@
       room: Salle D
       level: Tout public
       desc: "<p>
-      Le deep learning est au coeur de la révolution de l'IA, on en parle beaucoup, ça fascine et ça fait bien peur : on dirait de la \"magie noire\" hors de portée du spécialiste mais tout ça va contrôler nos vies ! ( ou les contrôle déjà ... )
+      Le deep learning est au coeur de la révolution de l'IA, on en parle beaucoup, ça fascine et ça fait bien peur&nbsp;: on dirait de la \"magie noire\" hors de portée du spécialiste mais tout ça va contrôler nos vies&nbsp;! ( ou les contrôle déjà ... )
       </p><p>
       Ce talk a pour but d'exposer les principes de base qui font marcher le deep-learning afin de démystifier cette technologie, pour les non spécialistes. Notez bien que talk a pour but d'être accessible si vous n'êtes ni une bête en math, ni un developpeur, et il n'est certainement pas pour vous si vous jouez à TensorFlow tout les jours, ou que vous avez lu et compris toute la biblio de LeCun, Hinton et Bengio... Vous n'en sortirez pas expert mais j'espère avec un peu moins l'impression de magie noire, et du coup de leurs limites.
       </p><p>
@@ -455,16 +455,16 @@
       room: Salle A
       level: Tout public
       desc: "<p>
-      Ça fait un moment que je me pose cette question : Comment va évoluer mon métier ? L’idée est pour moi de détecter les signaux faibles, de voir l’évolution du métier dans les années à venir. Pour ça, j’ai commencé par synthétiser ma veille et mes idées principales et ensuite je suis allé confronter mes idées avec diverses personnes du monde du design et de l’UX. J’ai vu émerger différentes thèmes autour de l’éthique, la temporalité du design, les promesses technologiques, le « business as usual », les designers stars ou encore la formation.
+      Ça fait un moment que je me pose cette question&nbsp;: Comment va évoluer mon métier&nbsp;? L’idée est pour moi de détecter les signaux faibles, de voir l’évolution du métier dans les années à venir. Pour ça, j’ai commencé par synthétiser ma veille et mes idées principales et ensuite je suis allé confronter mes idées avec diverses personnes du monde du design et de l’UX. J’ai vu émerger différentes thèmes autour de l’éthique, la temporalité du design, les promesses technologiques, le « business as usual », les designers stars ou encore la formation.
       </p><p>
-      Delà plusieurs problématiques ont émergé :
+      Delà plusieurs problématiques ont émergé&nbsp;:
       </p>
       <ul>
-      <li>Le tout techno n’est pas viable ni enviable ?</li>
-      <li>La fin des apps ?</li>
-      <li>Artisanal versus industriel ?</li>
-      <li>Arrêter de répondre avec des outils, mais faites vivre le design !</li>
-      <li>Comment faire du design de l’UX design ?</li>
+      <li>Le tout techno n’est pas viable ni enviable&nbsp;?</li>
+      <li>La fin des apps&nbsp;?</li>
+      <li>Artisanal versus industriel&nbsp;?</li>
+      <li>Arrêter de répondre avec des outils, mais faites vivre le design&nbsp;!</li>
+      <li>Comment faire du design de l’UX design&nbsp;?</li>
       </ul>
       <p>
       Je vous propose de réfléchir autours des résultats de cette enquête et de l'impacts que ça pourrait avoir sur vos organisations.
@@ -483,15 +483,15 @@
       speakers:
         - Alain Regnier
 
-    - title: "Avant de faire du pair-programming, faites du pair-recruiting !"
+    - title: "Avant de faire du pair-programming, faites du pair-recruiting&nbsp;!"
       room: Salle C
       level: Tout public
       desc: "<p>
-      Etre une équipe auto-organisée et pluri-disciplinaire implique une forte cohérence : il faut bien s'entendre, mais oser se dire les choses, il faut se compléter et se soutenir autant humainement que techniquement. Cette valeur forte de l'agilité est souvent mise à rude épreuve selon la manière dont sont constituées les équipes. Et à la base de la constitution des équipe, il y a l'embauche même des collègues.
+      Etre une équipe auto-organisée et pluri-disciplinaire implique une forte cohérence&nbsp;: il faut bien s'entendre, mais oser se dire les choses, il faut se compléter et se soutenir autant humainement que techniquement. Cette valeur forte de l'agilité est souvent mise à rude épreuve selon la manière dont sont constituées les équipes. Et à la base de la constitution des équipe, il y a l'embauche même des collègues.
       </p><p>
-      Dans ma boite, nous nous embauchons les un·e·s, les autres, du coup nous travaillons notre cohésion dès l'embauche et ça fonctionne ! On aime travailler ensemble et on se tire vers le haut.
+      Dans ma boite, nous nous embauchons les un·e·s, les autres, du coup nous travaillons notre cohésion dès l'embauche et ça fonctionne&nbsp;! On aime travailler ensemble et on se tire vers le haut.
       </p><p>
-      Dans cette conf, je vous propose de détailler notre process de recrutement pas si courant et pourtant plein de bon sens, en espérant qu'il fasse germer des idées pour que vous aussi, vous choisissiez vos futur·e·s collègues !
+      Dans cette conf, je vous propose de détailler notre process de recrutement pas si courant et pourtant plein de bon sens, en espérant qu'il fasse germer des idées pour que vous aussi, vous choisissiez vos futur·e·s collègues&nbsp;!
       </p>"
       speakers:
         - Cécile Especel
@@ -500,13 +500,13 @@
       room: Salle D
       level: Tout public
       desc: "<p>
-      Vous ne savez pas qui consomme quelles APIs ?
+      Vous ne savez pas qui consomme quelles APIs&nbsp;?
       </p><p>
-      Supprimer un champ obsolète ? Vous n’y pensez plus, il est peut-être important pour quelqu’un quelque part !!
+      Supprimer un champ obsolète&nbsp;? Vous n’y pensez plus, il est peut-être important pour quelqu’un quelque part&nbsp;!!
       </p><p>
-      Ce vieux Endpoint est-il toujours utilisé ? Par qui ? Personne ne le sait !
+      Ce vieux Endpoint est-il toujours utilisé&nbsp;? Par qui&nbsp;? Personne ne le sait&nbsp;!
       </p><p>
-      Tous les clients ont-ils migré vers la nouvelle version ? Peut-être…
+      Tous les clients ont-ils migré vers la nouvelle version&nbsp;? Peut-être…
       </p><p>
       Vous avez une belle architecture micro service et vous échangez des données avec d'autres systèmes.
       </p><p>
@@ -514,7 +514,7 @@
       </p><p>
       Venez découvrir, à travers différents outils (Pact, Spring Cloud Contract), de quelle manière vous pouvez sécuriser vos montées en version et documenter vos APIs avec le contract testing.
       </p><p>
-      Nous verrons ensemble comment :
+      Nous verrons ensemble comment&nbsp;:
       </p>
       <ul>
       <li>Vérifier la compatibilité de votre nouvelle API avec les clients existants (front et back)</li>
