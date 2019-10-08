@@ -42,6 +42,7 @@
 
 - name: Corinne Durrmeyer
   company: inseo
+  image: /corinne-durrmeyer.jpg
   bio: "<p>
     Corinne est une intégratrice qui jongle avec HTML, CSS, JavaScript et leurs petits copains depuis plus de 10 ans.
     Toujours partante pour relever de nouveaux défis, elle est devenue Experte AccessiWeb et a publié Intégration web - les bonnes pratiques aux éditions Eyrolles.
@@ -56,6 +57,7 @@
 
 - name: Gautier Mechling
   company: Nilhcem
+  image: gautier-mechling.jpg
   bio: "<p>
     Android Crafter && Google Developer Expert IoT
   </p>"
@@ -76,6 +78,7 @@
       url: https://github.com/LWroblewski
 
 - name: Guillaume LOURS
+  image: /guillaume-lours.jpg
   company: Docker
   bio: "<p>
     Software Engineer @Docker
@@ -88,6 +91,7 @@
 
 - name: Jérémie Drouet
   company: Docker
+  image: /jérémie-drouet.jpg
   bio: "<p>
     Developer that develops. Sometimes I drink a coffee.
   </p>"
@@ -99,6 +103,7 @@
 
 - name: Mickaël Andrieu
   company: PrestaShop
+  image: /mickaël-andrieu.jpg
   bio: "<p>
     Développeur, Architecte, Formateur... je suis un passionné de l'open source et je m'éloigne de la production pour faire de la transmission d'informations.
     </p><p>
@@ -113,6 +118,7 @@
       url: https://github.com/mickaelandrieu
 
 - name: Emilie Esposito
+  image: /emilie-esposito.jpg
   bio: "<p>
     Je développe mon agilité depuis 2007. J’ai d’abord été scrum master, product owner et coach agile dans des contextes Scrum. L’expérience m’a montré qu’une équipe ne pouvait tirer les fruits de l’agilité que si le système autour de l’équipe était agile aussi. Peu à peu, je suis passée du côté obscur des agilistes : les partisans du #noframework, qui parlent de culture agile plus que de déploiement de méthodes agiles.
     </p><p>
@@ -164,6 +170,7 @@
       url: https://github.com/Valulz
 
 - name: Jean-Pierre Vincent
+  image: /jean-pierre-vincent.jpg
   company: Indépendant
   bio: "<p>
     Jean-Pierre est dompteur de navigateurs depuis 2000. Toujours au Front, il est passé de PHP à JavaScript dans tous ses états au point de former, d’enseigner et de coacher sur le développement Web moderne. Il a fait de la performance frontend son précieux hobby ces 10 dernières années, et ses clients l’en remercient encore et parfois même le payent. Il co-organise les meetups Webperf parisiens et a co-organisé la conférence française sur le sujet : <a target=\"_blank\" href=\"https://www.welovespeed.com/2018/\">https://www.welovespeed.com/2018/</a>
@@ -186,6 +193,7 @@
       url: https://twitter.com/PierreLachevre
 
 - name: Antoine Augusti
+  image: /antoine-augusti.jpg
   links:
     - label: Twitter
       url: https://twitter.com/AntoineAugusti
@@ -200,6 +208,7 @@
 - name: Grégory Lefevre
 
 - name: Lise Quesnel
+  image: /lise-quesnel.jpg
   company: Zenika - Pix
   bio: "<p>
     Consultante chez Zenika, Lise a déménagé il y a quelques mois de Paris vers les contrées nantaises. Elle travaille en tant que développeuse web en full-remote pour son client, Pix. Grande curieuse, elle aime découvrir sans cesse de nouvelles choses et a tout particulièrement une appétence pour les technologies front-end.
@@ -211,6 +220,7 @@
       url: https://github.com/lisequesnel
 
 - name: Benjamin Cavy
+  image: /benjamin-cavy.png
   company: MAIF
   bio: "<p>
     Benjamin est développeur full-stack à la MAIF. Il s’intéresse en ce moment particulièrement à l’écosystème JavaScript : reactjs, vuejs, svelte, ...
@@ -242,6 +252,7 @@
       url: https://github.com/LirycMoaners
 
 - name: Julien Dubois
+  image: /julien-dubois.jpg
   company: Ippon Technologies
   bio: "<p>
     Julien Dubois est le créateur et principal développeur de JHipster. Il est également directeur de l’innovation chez Ippon Technologies. Pour suivre Julien sur Twitter: @juliendubois.
@@ -253,6 +264,7 @@
       url: https://github.com/jdubois
 
 - name: Nelson Dionisi
+  image: /nelson-dionisi.jpg
   company: Mirakl
   bio: "<p>
     Lead Developer @Mirakl
@@ -262,6 +274,7 @@
       url: https://github.com/ndionisi
 
 - name: Andréa Cauchoix
+  image: /andréa-cauchoix.jpg
   company: Kiplin
   bio: "<p>
     Développeuse web & product owner chez Kiplin. 🌿<br />
@@ -281,6 +294,7 @@
       url: https://twitter.com/maury_agnes
 
 - name: Alexandra Nemery
+  image: /alexandra-nemery.jpg
 
 - name: Sarah Colmon
   company: Murex
@@ -289,6 +303,7 @@
   </p>"
 
 - name: Aurélien Loyer
+  image: /aurélien-loyer.jpg
   company: Zenika
   bio: "<p>
     Consultant et formateur Web chez Zenika depuis 2015.
@@ -304,6 +319,7 @@
       url: https://github.com/T3kstiil3
 
 - name: Nathan DAMIE
+  image: nathan-damie.jpg
   company: zenika
   bio: "<p>
     Consultant et Formateur Web chez Zenika Lille depuis novembre 2016. Javascript lover. J'aime aussi suivre de près les évolutions de la plateforme web et les frameworks géniaux qui s'y développent.
@@ -315,6 +331,7 @@
       url: https://github.com/nathandm
 
 - name: Ghislain Mahieux
+  image: ghislain-mahieux.jpg
   company: Saagie
   bio: "<p>
     Développeur passionné et touche à tout depuis 15 ans. Adepte du principe KISS avec une tendance craftsman. Un peu ops sur les bords..
@@ -326,6 +343,7 @@
       url: https://github.com/gmahieux
 
 - name: François Bouteruche
+  image: /françois-bouteruche.jpg
   company: Microsoft
   bio: "<p>
     I'm currently Delevoper Relations Manager at Microsoft France. I am a tech enthusiast with a strong background around .NET development and DevOps phylosophy and practices.
@@ -347,6 +365,7 @@
       url: https://github.com/fbouteruche
 
 - name: Florent D'halluin
+  image: /florent-d'halluin.jpg
   company: Netheos
   bio: "<p>
     Après avoir du machine-learning avec des robots et du pétrole, je suis depuis 2016 Data-Scientist à Netheos. Quand je ne m'occupe pas de réseaux de neurones, je m'occupe de mes gamins, et si il reste du temps, je fais de la bière dans mon garage.
@@ -358,6 +377,7 @@
       url: https://github.com/flo-dhalluin
 
 - name: Raphaël Yharrassarry
+  image: /raphaël-yharrassarry.jpg
   company: iErgo
   bio: "<p>
     Je travaille en freelance comme lead UX designer, psychologue depuis le dernier millénaire. Mon parcours m’a permis de travailler sur des sujets variés allant du WAP à la télévision, en passant par, le web, le e-commerce et les applications professionnelles ou le design de service. Ma vision de l’expérience utilisateur repose sur deux démarches complémentaires, l’une pragmatique autour de la conception de services et l’autre stratégique autour de l’évolution des organisations et l’intégration du design au sein des équipes.
@@ -369,6 +389,7 @@
       url: https://twitter.com/iergo
 
 - name: Alain Regnier
+  image: /alain-regnier.png
   company: Alto Labs
   bio: "<p>
     Alain Regnier est Architecte Technique et Entrepreneur passionné d’innovation.
@@ -386,6 +407,7 @@
       url: https://twitter.com/altolabs
 
 - name: Cécile Especel
+  image: /cécile-especel.png
   company: KNP Labs
   bio: "<p>
     J’ai découvert les méthodes agiles en 2009 alors que j’étais développeuse. 10 ans plus tard, je suis toujours convaincue par ses vertus et j’ai évolué vers le coaching agile et la facilitation.
