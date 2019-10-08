@@ -14,7 +14,7 @@
   company: CEO Go to Next Levels
   image: /thierry-croix.png
   bio: "<p>
-    Thierry est Storyteller & Simplifyer, Podcaster, Partner chez Go 2 Next Levels, co-fondateur de The BigStache Room et de 13Wolves. Il est aussi comédien de théâtre et d’improvisation depuis plus de 10 ans. Il déteste la choucroute et les huitres, sent le vieux poney au réveil, et a décidé d’être confortable plutôt que sexy. Et puis surtout, il trouve que celui qui a écrit ces fameuses lignes dans Batman « Bruce, pourquoi tombe-t-on ? » n’a de toute évidence jamais essayé d’avoir une conversation philosophique avec un gosse qui vient de se casser le bras. Quant à sa devise, elle est simple: « Personne ne fera les choses à ta place. Alors si tu veux réussir, bouge toi le cul ! ».
+    Thierry est Storyteller & Simplifyer, Podcaster, Partner chez Go 2 Next Levels, co-fondateur de The BigStache Room et de 13Wolves. Il est aussi comédien de théâtre et d’improvisation depuis plus de 10 ans. Il déteste la choucroute et les huitres, sent le vieux poney au réveil, et a décidé d’être confortable plutôt que sexy. Et puis surtout, il trouve que celui qui a écrit ces fameuses lignes dans Batman « Bruce, pourquoi tombe-t-on&nbsp;? » n’a de toute évidence jamais essayé d’avoir une conversation philosophique avec un gosse qui vient de se casser le bras. Quant à sa devise, elle est simple: « Personne ne fera les choses à ta place. Alors si tu veux réussir, bouge toi le cul&nbsp;! ».
   </p>"
   links:
     - label: Twitter
@@ -107,9 +107,9 @@
   bio: "<p>
     Développeur, Architecte, Formateur... je suis un passionné de l'open source et je m'éloigne de la production pour faire de la transmission d'informations.
     </p><p>
-    J'aime le rôle de facilitateur technique et discuter avec des e-commerçants, des qualiticiens et des développeurs !
+    J'aime le rôle de facilitateur technique et discuter avec des e-commerçants, des qualiticiens et des développeurs&nbsp;!
     </p><p>
-    Vous ne devriez pas me suivre sur Twitter, je suis - comme tout passionné - quelqu'un de politisé, polarisé et militant :p
+    Vous ne devriez pas me suivre sur Twitter, je suis - comme tout passionné - quelqu'un de politisé, polarisé et militant&nbsp;:p
   </p>"
   links:
     - label: Twitter
@@ -120,9 +120,9 @@
 - name: Emilie Esposito
   image: /emilie-esposito.jpg
   bio: "<p>
-    Je développe mon agilité depuis 2007. J’ai d’abord été scrum master, product owner et coach agile dans des contextes Scrum. L’expérience m’a montré qu’une équipe ne pouvait tirer les fruits de l’agilité que si le système autour de l’équipe était agile aussi. Peu à peu, je suis passée du côté obscur des agilistes : les partisans du #noframework, qui parlent de culture agile plus que de déploiement de méthodes agiles.
+    Je développe mon agilité depuis 2007. J’ai d’abord été scrum master, product owner et coach agile dans des contextes Scrum. L’expérience m’a montré qu’une équipe ne pouvait tirer les fruits de l’agilité que si le système autour de l’équipe était agile aussi. Peu à peu, je suis passée du côté obscur des agilistes&nbsp;: les partisans du #noframework, qui parlent de culture agile plus que de déploiement de méthodes agiles.
     </p><p>
-    Dans les équipes que j’ai accompagnées, j’ai trop souvent observé la souffrance au travail : décalage entre le discours managérial et la réalité du quotidien, processus lourds et inadaptés, imposés par des décisions top-down, déshumanisation du travail… Et cette souffrance était souvent accentuée par les « transformations agiles » menées par les entreprises. Ces mêmes transformations agiles censées remettre l’humain au centre…
+    Dans les équipes que j’ai accompagnées, j’ai trop souvent observé la souffrance au travail&nbsp;: décalage entre le discours managérial et la réalité du quotidien, processus lourds et inadaptés, imposés par des décisions top-down, déshumanisation du travail… Et cette souffrance était souvent accentuée par les « transformations agiles » menées par les entreprises. Ces mêmes transformations agiles censées remettre l’humain au centre…
     </p><p>
     J’ai créé Peps pour lutter à mon échelle. Je veux contribuer à construire le monde du travail de demain, où performance rime avec épanouissement. Et je suis convaincue que la culture agile permet d’améliorer la performance des entreprises tout en créant un cadre propice à l’épanouissement des collaborateurs.
     </p><p>
@@ -149,6 +149,7 @@
 
 - name: Marion Deveaux
   company: Attineos
+  image: /marion-deveaux.jpg
   bio: "<p>
     Diplômée de l'INSA de Rouen en Architecture des Systèmes d'Information, je suis maintenant Ingénieure Études et Développement Front end chez Attineos. Je travaille au sein d'une équipe de 14 développeurs et au quotidien avec des designers et une équipe backend pour un client Parisien spécialisé dans l'emailing.
     </p><p>
@@ -173,7 +174,7 @@
   image: /jean-pierre-vincent.jpg
   company: Indépendant
   bio: "<p>
-    Jean-Pierre est dompteur de navigateurs depuis 2000. Toujours au Front, il est passé de PHP à JavaScript dans tous ses états au point de former, d’enseigner et de coacher sur le développement Web moderne. Il a fait de la performance frontend son précieux hobby ces 10 dernières années, et ses clients l’en remercient encore et parfois même le payent. Il co-organise les meetups Webperf parisiens et a co-organisé la conférence française sur le sujet : <a target=\"_blank\" href=\"https://www.welovespeed.com/2018/\">https://www.welovespeed.com/2018/</a>
+    Jean-Pierre est dompteur de navigateurs depuis 2000. Toujours au Front, il est passé de PHP à JavaScript dans tous ses états au point de former, d’enseigner et de coacher sur le développement Web moderne. Il a fait de la performance frontend son précieux hobby ces 10 dernières années, et ses clients l’en remercient encore et parfois même le payent. Il co-organise les meetups Webperf parisiens et a co-organisé la conférence française sur le sujet&nbsp;: <a target=\"_blank\" href=\"https://www.welovespeed.com/2018/\">https://www.welovespeed.com/2018/</a>
   </p>"
   links:
     - label: Twitter
@@ -191,6 +192,7 @@
   links:
     - label: Twitter
       url: https://twitter.com/PierreLachevre
+
 
 - name: Antoine Augusti
   image: /antoine-augusti.jpg
@@ -223,7 +225,7 @@
   image: /benjamin-cavy.png
   company: MAIF
   bio: "<p>
-    Benjamin est développeur full-stack à la MAIF. Il s’intéresse en ce moment particulièrement à l’écosystème JavaScript : reactjs, vuejs, svelte, ...
+    Benjamin est développeur full-stack à la MAIF. Il s’intéresse en ce moment particulièrement à l’écosystème JavaScript&nbsp;: reactjs, vuejs, svelte, ...
   </p>"
   links:
     - label: Twitter
@@ -310,7 +312,7 @@
     </p><p>
     J'anime régulièrement des formations, des Meetups ainsi que des conférences ( Devoxx 2017 / 2018, Devfest Lille 2017 / 2018, ConFoo Montréal 2019 ) dans le domaine du Web ou je me suis spécialisé (Angular, Vue.js, Node.js ...).
     </p><p>
-    Fan d'IOT durant mes heures perdues, je suis toujours à l'affût des dernières nouveautés que j'expérimente dans de nouveaux projets professionnels et OSS !
+    Fan d'IOT durant mes heures perdues, je suis toujours à l'affût des dernières nouveautés que j'expérimente dans de nouveaux projets professionnels et OSS&nbsp;!
   </p>"
   links:
     - label: Twitter
@@ -348,13 +350,13 @@
   bio: "<p>
     I'm currently Delevoper Relations Manager at Microsoft France. I am a tech enthusiast with a strong background around .NET development and DevOps phylosophy and practices.
     </p><p>
-    I have a PhD in Computer Science. I worked several years around handwriting recognition and pen-based interfaces so I'm very familiar with all the real stuff behind the buzz words AI and Machine Learning :) I led the R&D team at Evodia, the ancestor of Script and Go
+    I have a PhD in Computer Science. I worked several years around handwriting recognition and pen-based interfaces so I'm very familiar with all the real stuff behind the buzz words AI and Machine Learning&nbsp;:) I led the R&D team at Evodia, the ancestor of Script and Go
     </p><p>
     After the fall of Evodia during the 2008-2010 financial crisis, I joined Orange Applications for Business, a subsidiary of Orange, where I focused on Application Lifecycle Management, Agile methodologies and then DevOps practices. I worked at the technical board of the company reporting to the CTO, Philippe Ensarguet.
     </p><p>
     After 5 years, I joined Younited Credit at the beginning of its scaling stage to help them moving to a public cloud provider (Azure) and setting up Continuous Integration and Continuous Delivery best practices.
     </p><p>
-    My last move was the beginning of my story at Microsoft :)
+    My last move was the beginning of my story at Microsoft&nbsp;:)
     </p><p>
     I regularly talk at conferences such as Tech Days, EclipseCon France, API Days, Paris Open Source Summit, Cloud Expo Europe...
   </p>"
