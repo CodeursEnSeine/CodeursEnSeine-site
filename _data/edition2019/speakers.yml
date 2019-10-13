@@ -57,7 +57,7 @@
 
 - name: Gautier Mechling
   company: Nilhcem
-  image: gautier-mechling.jpg
+  image: /gautier-mechling.jpg
   bio: "<p>
     Android Crafter && Google Developer Expert IoT
   </p>"
@@ -321,7 +321,7 @@
       url: https://github.com/T3kstiil3
 
 - name: Nathan DAMIE
-  image: nathan-damie.jpg
+  image: /nathan-damie.jpg
   company: zenika
   bio: "<p>
     Consultant et Formateur Web chez Zenika Lille depuis novembre 2016. Javascript lover. J'aime aussi suivre de près les évolutions de la plateforme web et les frameworks géniaux qui s'y développent.
@@ -333,7 +333,7 @@
       url: https://github.com/nathandm
 
 - name: Ghislain Mahieux
-  image: ghislain-mahieux.jpg
+  image: /ghislain-mahieux.jpg
   company: Saagie
   bio: "<p>
     Développeur passionné et touche à tout depuis 15 ans. Adepte du principe KISS avec une tendance craftsman. Un peu ops sur les bords..
