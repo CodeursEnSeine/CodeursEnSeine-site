@@ -306,7 +306,9 @@
       url: https://twitter.com/maury_agnes
 
 - name: Alexandra Nemery
+  company: Ubisoft
   image: /alexandra-nemery.jpg
+  bio: "<p>Je suis détentrice d'un doctorat en interactions homme-machine, j'ai donné des cours à l'EPITA, écrit des articles sur le persuasive design et j'ai déjà été speaker dans des conférences. Après une expérience comme UX designer chez SAP et UX manager chez Sage, je suis actuellement UX specialist à Ubisoft Montréal ainsi que freelance pour un projet mobile.</p>"
 
 - name: Sarah Colmon
   company: Murex
@@ -419,7 +421,7 @@
       url: https://twitter.com/altolabs
 
 - name: Cécile Especel
-  image: /cécile-especel.png
+  image: /cécile-especel.jpg
   company: KNP Labs
   bio: "<p>
     J’ai découvert les méthodes agiles en 2009 alors que j’étais développeuse. 10 ans plus tard, je suis toujours convaincue par ses vertus et j’ai évolué vers le coaching agile et la facilitation.
