@@ -193,15 +193,15 @@
     - label: Twitter
       url: https://twitter.com/PierreLachevre
 
-
 - name: Antoine Augusti
+  company: Etalab
   image: /antoine-augusti.jpg
+  bio: "<p>Antoine Augusti est un ingénieur en informatique travaillant à Etalab, un service du Premier ministre en charge de la politique des données en France. Il cherche à faire du meilleur numérique dans la fonction publique.</p>"
   links:
     - label: Twitter
       url: https://twitter.com/AntoineAugusti
     - label: GitHub
       url: https://github.com/AntoineAugusti
-
 
 - name: Cédric DESLANDES
   company: Matmut
@@ -220,7 +220,7 @@
   Faisant ses débuts sur SharePoint, il s’est très vite orienté sur des architectures .Net/C# ainsi que JavaScript. Du développement de services aux développements mobile ou IOT il est aussi passé de angularJS à React.
   Développeur couteau suisse, il intervient facilement sur tous les projets complexes faisant intervenir plusieurs cultures.
   </p>"
-  
+
 - name: Lise Quesnel
   image: /lise-quesnel.jpg
   company: Zenika - Pix
