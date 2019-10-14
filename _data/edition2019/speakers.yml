@@ -204,11 +204,23 @@
 
 
 - name: Cédric DESLANDES
+  company: Matmut
+  image: /cedric-deslandes.jpg
+  bio: "<p>
+  Lors des grands projets Bug de l’an 2000 puis Euro, il pensait faire une courte parenthèse sur du développement Cobol avant de retourner à ses premières passions en électronique.
+  Cette parenthèse, il ne l’a jamais refermée en passant du DB2 au DL1.
+  Cédric travaille à la Matmut sur l’architecture technique des projets faisant intervenir de nombreuses équipes parlant différents langages. Cette diversité lui convient parfaitement car en dehors de sa passion pour le code, il est également musicien et peintre lorsqu’il ne s’entraine pas pour son prochain Marathon.
+  </p>"
 
 - name: Elie LESUEUR
-
-- name: Grégory Lefevre
-
+  company: Matmut
+  image: /elie-lesueur.jpg
+  bio: "<p>
+  Elie est passionné de Mangas et de culture japonaise. Un de ses auteurs favori est l’incontournable Tetsuya Tsutsui, bien que 20th century boys reste son must to have.
+  Faisant ses débuts sur SharePoint, il s’est très vite orienté sur des architectures .Net/C# ainsi que JavaScript. Du développement de services aux développements mobile ou IOT il est aussi passé de angularJS à React.
+  Développeur couteau suisse, il intervient facilement sur tous les projets complexes faisant intervenir plusieurs cultures.
+  </p>"
+  
 - name: Lise Quesnel
   image: /lise-quesnel.jpg
   company: Zenika - Pix
