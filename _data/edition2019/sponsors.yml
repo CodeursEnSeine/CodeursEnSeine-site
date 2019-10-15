@@ -109,6 +109,14 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   <p>Dans un esprit #StartUp, nous développons des solutions logicielles sur-mesure pour des clients issus de la Finance, de l'Assurance, de l'Industrie ou des Services.</p>
   <p>En mode #agile, nous proposons des solutions de co-innovation, co-édition et co-maintenance. Nous travaillons avec une liberté d’action et d’expression, la confiance au cœur des relations et le résultat comme engagement.</p>"
 
+- name: MAE
+  type: silver
+  logo: mae@web.png
+  link: https://mae.fr
+  description: "<p>La MAE, Spécialiste de la protection de l'enfant et de la famille</p>
+  <p>La MAE propose de nombreux contrats d'assurance mutualistes adaptés aux besoins spécifiques des enfants et de leurs parents. De l'assurance des tout petits jusqu'aux protections pour les étudiants, des protections individuelles et habitation pour les jeunes actifs jusqu'à l'assurance familiale. Organisme à but non lucratif, la MAE consacre les produits de ses cotisations uniquement à la couverture du risque et à sa gestion, dans le seul intérêt de ses adhérents.</p>
+  <p>La MAE compte 550 personnes réparties entre le Siège Social à Rouen, le Siège National à Paris et l'ensemble du réseau d'agences (une dans chaque Département).</p>"
+
 - name: Altitude Infrastructure
   type: silver
   logo: altitude@web.png
