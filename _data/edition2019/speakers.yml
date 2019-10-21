@@ -296,8 +296,9 @@
     - label: Twitter
       url: https://twitter.com/andreacauchoix
 
-- name: Maury Agnès
+- name: Agnès Maury
   company: Stampyt
+  image: /agnes-maury.jpg
   bio: "<p>
     Développeuse passionnée et future évangéliste SCALA, j'aime les chats 🐱, les jeux vidéos et le Japon. J'aime le travail bien fait et cherche toujours la meilleure façon de faire les choses sans réinventer la roue. Au quotidien, je m'applique à cultiver une vision du travail qui rime avec sens et performance. 🌟
   </p>"
