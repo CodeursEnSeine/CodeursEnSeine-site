@@ -124,6 +124,13 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   description: "<p>Depuis plus de 10 ans, Altitude Infrastructure construit, exploite et commercialise des réseaux fibre optique dans les départements français, en partenariat avec les collectivités territoriales. Autrement dit, nous apportons le très haut débit pour tous dans les zones rurales et péri-urbaines et œuvrons donc chaque jour pour que les utilisateurs de Google, Pôle Emploi, Facebook, Fortnite, Impot.gouv, Instagram, WeTransfer, Doctissimo, Amazon, Meetic, Youtube, Just Eat , Netflix, France TV Info, Reverso, Darty, Deezer, et des milliers d’autres sites et applis puissent surfer de chez eux sans attendre, grâce à la fibre optique.</p>
   <p>Altitude Infrastructure connaît une croissance vertigineuse avec des effectifs et un chiffre d’affaires qui ont été multipliés par 3 en deux ans. Vous souhaitez intégrer une entreprise en plein développement et participer à une belle aventure ? Bienvenue chez Altitude Infrastructure !</p>"
 
+- name: Microsoft
+  type: silver
+  logo: microsoft@web.png
+  link: https://developer.microsoft.com/en-us/advocates/index.html
+  description: "<p>Description for the website: At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. With Microsoft Azure you can build, deploy, and manage applications with a comprehensive set of cloud services designed for you. Connect with us and develop your skills through Microsoft Learn.</p>"
+
+
 # -------------------
 # bronze
 # -------------------
