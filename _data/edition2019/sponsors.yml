@@ -130,6 +130,21 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   link: https://developer.microsoft.com/en-us/advocates/index.html
   description: "<p>Description for the website: At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. With Microsoft Azure you can build, deploy, and manage applications with a comprehensive set of cloud services designed for you. Connect with us and develop your skills through Microsoft Learn.</p>"
 
+- name: Orone
+  type: silver
+  logo: orone@web.png
+  link: http://www.orone.com
+  description: "<p>Editeur de solutions logicielles de digitalisation du dossier de souscription et de dématérialisation des moyens de paiement, Orone développe et propose de nouvelles offres de rupture à forts enjeux, disponibles dans le cloud, en inscrivant l’innovation au cœur de sa croissance.</p
+  <ul>
+    <li>
+      Substech facilite la constitution et la gestion du dossier unique d’identification client - <a href=\"http://www.substech.io\" target=\"_blank\">www.substech.io</a>
+    </li>
+    <li>
+      Wecheck accélère et fiabilise l’encaissement de vos chèques - <a href=\"http://www.wecheck.io\" target=\"_blank\">www.wecheck.io</a>
+    </li>
+  </ul>
+  <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
+
 
 # -------------------
 # bronze
