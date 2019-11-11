@@ -246,6 +246,7 @@
       url: https://github.com/ptitFicus
 
 - name: Josiane Makelele
+  image: /josiane-makelele.jpeg
   company: Ekino
   bio: "<p>
     Je suis développeuse front-end chez Ekino à Paris depuis 7 ans. Les technologies front HTML/CSS/JS et leurs problématiques sont mon quotidien et ma passion. Particulièrement sensible à la CSS et au design, j'apporte mon expertise et mon sens artistique dans les projets de marketing digital auquel je contribue à la réalisation avec les différents membres de l'équipe projet.
@@ -264,6 +265,16 @@
   links:
     - label: GitHub
       url: https://github.com/LirycMoaners
+
+- name: Gabrielle Gratecap
+  company: Sopra Steria
+  bio: "<p>
+    28 ans, j’ai fait des études à la fac de biologie de Mont-Saint-Aignan
+    jusqu’à l’obtention d’un Master en Neurosciences, puis ai enseigné au lycée
+    pendant 2 ans. A la suite de ça, je me suis reconvertie dans l’informatique
+    et travaille depuis Avril 2019 en tant que développeuse pour Sopra Steria à
+    l’agence de Rouen.
+  </p>"
 
 - name: Julien Dubois
   company: Microsoft
