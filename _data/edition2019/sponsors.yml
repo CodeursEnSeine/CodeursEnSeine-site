@@ -145,6 +145,18 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   </ul>
   <p>Notre approche est ouverte, pragmatique, innovante et centrée autour du besoin de nos clients, avec un objectif : faciliter la vie de nos clients</p>"
 
+- name: NWX
+  type: silver
+  logo: nwx@web.png
+  link: https://www.nwx.fr/
+  description: "<p>Normandie Web Xperts est un collectif d'entrepreneur.e.s du numérique ayant pour objectif de fédérer les professionnels de la filière afin de créer des synergies et développer l'économie du territoire.</p><p>Porté par ses valeurs fondatrices, l'entraide, l'engagement, l'innovation et l'acculturation, NWX œuvre à la promotion des métiers du numérique et à l'animation d'un écosystème bienveillant propice à l'éclosion de projets innovants.</p><p>Nos Xperts sont des entrepreneurs garants d'une responsabilité sociétale qui s'engage à mettre leur connaissances et savoir-faire au service du développement du territoire normand. L'ensemble des actions menées par NWX s'articule autour des missions qui constituent l'ADN de l'association :</p><ul><li> Fédérer nos adhérents : plus qu'un réseau professionnel, NWX est une communauté de personnes engagées et responsables qui souhaitent grandir ensemble.</li><li>Porter l'acculturation numérique : NWX agit dans l'objectif de sensibiliser, d'intéresser et d'alimenter ceux qui s'intéressent de près ou de loin au numérique.</li><li>Insuffler l'entrepreneuriat : Vecteur de la culture entrepreneuriale et intrapreneuriale, NWX participe au développement d'initiatives sur le territoire et apporte un soutien concret aux porteurs de projets numérique de demain.</li></ul><p>NWX est en lien avec les autres acteurs du territoire, partenaires publics, privés et écoles et assume sa position de tiers de confiance.</p>"
+
+- name: Linkt
+  type: silver
+  logo: linkt@web.png
+  link: http://monjobchezlinkt.fr/
+  description: "<p>Notre ambition : devenir le 4ème opérateur pour les entreprises et les collectivités à l’horizon 2021.</p><p>En 2019, la Team compte plus de 350 collaborateurs répartis sur 5 centres d’activité et une vingtaine d’agences commerciales. Nous continuons notre croissance et ouvrons de nouveaux postes sur l’année 2020. Rendez-vous sur monjobchezlinkt.fr !</p>"
+
 
 # -------------------
 # bronze
@@ -163,8 +175,7 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
 
 <p>Ces deux piliers seront issus de relations humaines transparentes et d'une priorité axée sur le qualitatif.</p>
 
-<p>Nos engagements seront à la hauteur de votre confiance.... So, just DIGIT !</p
-  "
+<p>Nos engagements seront à la hauteur de votre confiance.... So, just DIGIT !</p>"
 
 - name: Wixiweb
   type: bronze
