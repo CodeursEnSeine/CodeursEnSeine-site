@@ -254,6 +254,12 @@ Notre domaine d’expertise : le consommateur connecté. Notre connaissance poin
   link: http://www.groupe-sii.com
   description: "<p>SII Ile de France, c’est plus de 1600 consultants qui travaillent au quotidien auprès de ses clients pour accompagner leurs transformations digitales et leurs projets de développement de produits, services ou plateformes. Au travers des cinq sites géographiques, nous intervenons sur les secteurs de la défense, de l’aérospatial, de l’énergie, du transport, de la finance et des telecoms avec une dynamique de croissance de plus de 10% tous les ans depuis 5 ans. Au-delà de notre engagement client, SII Ile de France investit constamment sur l’adaptation de son organisation et de ses modes de management pour répondre aux attentes de ses collaborateurs et ainsi leurs donner un cadre favorisant le bien-être, la solidarité et l’équité.</p>"
 
+- name: Yes We Hack
+  type: bronze
+  logo: yes-we-hack@web.png
+  link: https://yeswehack.com/en/index.html
+  description: "<p>Since 2013, YesWeHack connects a community of IT security experts with organizations or projects willing to better protect their information assets.</p><p>YesWeHack is made of 4 interdependent services strengthening cooperation : the first European Bug Bounty Platform : BountyFactory.io, a jobboard dedicated to security expertise and a Bug Bounty aggregator : FireBounty.com.</p>  <p>Last but not least, in 2017, YesWeHack launched ZeroDisclo.com : a non-profit platform providing the technical means and the required environment for ethical hackers to adopt a coordinated way for reporting vulnerabilities.</p>"
+
 # ----------
 # partner
 # ----------
