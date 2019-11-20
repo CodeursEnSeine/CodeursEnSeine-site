@@ -258,6 +258,7 @@
       url: https://github.com/jmakelele
 
 - name: Cyril Lefebvre
+  image: /cyril-lefebvre.jpg
   company: Sopra Steria
   bio: "<p>
     Référent technique web et responsable innovation chez Sopra Steria Rouen.
@@ -267,6 +268,7 @@
       url: https://github.com/LirycMoaners
 
 - name: Gabrielle Gratecap
+  image: /gabrielle-gratecap.jpg
   company: Sopra Steria
   bio: "<p>
     28 ans, j’ai fait des études à la fac de biologie de Mont-Saint-Aignan
