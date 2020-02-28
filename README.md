@@ -144,3 +144,4 @@ edition[newYear]:
 - Mettre à jour la page d'accueil `pages/edition[newYear]/home.html`
 
 - Supprimer les anciens sponsors dans le fichier `_data/edition[newYear]/sponsors.yml`
+
