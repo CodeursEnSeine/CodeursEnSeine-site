@@ -1,4 +1,4 @@
-# Site pour la conférence [Codeurs en seine](http://www.codeursenseine.com)
+# Ancien site pour la conférence [Codeurs en Seine](http://www.codeursenseine.com)
 
 ![Logotype de Codeurs en Seine](images/codeurs-en-seine-logo.png)
 

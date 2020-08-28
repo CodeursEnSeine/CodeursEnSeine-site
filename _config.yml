@@ -7,7 +7,7 @@ markdown : kramdown
 # Seo
 title : Codeurs en Seine
 description: "Rencontre de codeuses & codeurs à Rouen"
-url: https://www.codeursenseine.com/2019
+url: https://archive-201x.codeursenseine.com/2019
 lang: fr_FR
 twitter:
   username: codeursenseine
@@ -56,7 +56,7 @@ edition2013:
   pretitle: "Rencontre de codeurs à Rouen : Agile, Java & Web"
   title: "Jeudi 17 octobre 2013"
 
-production_url : https://www.codeursenseine.com
+production_url : https://archive-201x.codeursenseine.com
 permalink: /meetups/:year-:month-:day/:slug
 
 sass:
