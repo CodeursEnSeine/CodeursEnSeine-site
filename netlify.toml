@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/meetups/*"
+  to = "https://www.codeursenseine.com/meetups/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/devoxx4kids/*"
+  to = "https://www.codeursenseine.com/devoxx4kids/:splat"
+  status = 301
+  force = true
